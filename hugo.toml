@@ -1,4 +1,4 @@
-baseURL = 'https://robert-blog-fawn.vercel.app'
+baseURL = ''
 languageCode = 'zh-CN'
 title = 'Robert | 程序员 · 生活家'
 theme = 'PaperMod'
