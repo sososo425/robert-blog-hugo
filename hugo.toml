@@ -12,10 +12,10 @@ theme = 'PaperMod'
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+  ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
+  ShowRssButtonInSectionTermList = false
   UseHugoToc = true
   disableSpecial1stPost = false
   disableScrollToTop = false
@@ -25,35 +25,21 @@ theme = 'PaperMod'
   showtoc = false
   tocopen = false
   
+  # 禁用个人资料模式，使用首页信息模式（显示最近文章）
   [params.profileMode]
-    enabled = true
-    title = "Robert"
-    subtitle = "80后程序员 · 北邮本硕 · 信息与计算机专业"
-    imageUrl = "https://avatars.githubusercontent.com/u/0?v=4"
-    imageTitle = "Robert's Avatar"
-    imageWidth = 120
-    imageHeight = 120
-    
-    [[params.profileMode.buttons]]
-      name = "💻 专业"
-      url = "/tech/"
-    [[params.profileMode.buttons]]
-      name = "🍃 人生"
-      url = "/life/"
-    [[params.profileMode.buttons]]
-      name = "🎵 兴趣"
-      url = "/music/"
-    [[params.profileMode.buttons]]
-      name = "📜 文学"
-      url = "/literature/"
+    enabled = false
 
+  # 首页信息
   [params.homeInfoParams]
-    Title = "Hi there 👋"
-    Content = "我是 Robert，一个 80 后程序员。这里记录我的技术探索、生活感悟、音乐分享和诗词收藏。"
+    Title = "Robert"
+    Content = "80后程序员 · 北邮本硕 · 信息与计算机专业"
   
   # Fix for deprecated .Site.Social
   [params.social]
     disabled = true
+  
+  # 首页显示文章的主要栏目
+  mainSections = ["tech"]
 
 [menu]
   [[menu.main]]

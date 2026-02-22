@@ -1,0 +1,108 @@
+{{ define "main" }}
+
+<!-- 个人介绍区域 -->
+<div class="home-intro" style="text-align: center; padding: 40px 20px; margin-bottom: 30px;">
+    <div class="avatar" style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);">
+        <span style="font-size: 42px; font-weight: 600; color: white;">R</span>
+    </div>
+    <h1 style="font-size: 36px; font-weight: 600; margin-bottom: 8px; letter-spacing: -0.5px;">Robert</h1>
+    <p style="font-size: 15px; color: #666; margin-bottom: 8px;">80后程序员 · 北邮本硕 · 信息与计算机专业</p>
+    <p style="font-size: 14px; color: #999; font-style: italic;">在代码与诗意之间寻找平衡</p>
+</div>
+
+<!-- 四个类别导航 -->
+<nav class="home-nav" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 50px; padding: 0 20px;">
+    <a href="/tech/" class="nav-card" style="display: flex; flex-direction: column; align-items: center; padding: 28px 20px; background: white; border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid #e5e5e5; transition: all 0.3s ease;">
+        <span style="font-size: 28px; margin-bottom: 12px;">💻</span>
+        <span style="font-size: 16px; font-weight: 600; margin-bottom: 4px;">专业</span>
+        <span style="font-size: 12px; color: #999;">计算机 · AI</span>
+    </a>
+    <a href="/life/" class="nav-card" style="display: flex; flex-direction: column; align-items: center; padding: 28px 20px; background: white; border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid #e5e5e5; transition: all 0.3s ease;">
+        <span style="font-size: 28px; margin-bottom: 12px;">🍃</span>
+        <span style="font-size: 16px; font-weight: 600; margin-bottom: 4px;">人生</span>
+        <span style="font-size: 12px; color: #999;">生活体悟</span>
+    </a>
+    <a href="/music/" class="nav-card" style="display: flex; flex-direction: column; align-items: center; padding: 28px 20px; background: white; border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid #e5e5e5; transition: all 0.3s ease;">
+        <span style="font-size: 28px; margin-bottom: 12px;">🎵</span>
+        <span style="font-size: 16px; font-weight: 600; margin-bottom: 4px;">兴趣</span>
+        <span style="font-size: 12px; color: #999;">音乐</span>
+    </a>
+    <a href="/literature/" class="nav-card" style="display: flex; flex-direction: column; align-items: center; padding: 28px 20px; background: white; border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid #e5e5e5; transition: all 0.3s ease;">
+        <span style="font-size: 28px; margin-bottom: 12px;">📜</span>
+        <span style="font-size: 16px; font-weight: 600; margin-bottom: 4px;">文学</span>
+        <span style="font-size: 12px; color: #999;">诗词</span>
+    </a>
+</nav>
+
+<style>
+.nav-card:hover {
+    border-color: #2563eb !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+@media (max-width: 600px) {
+    .home-nav {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+</style>
+
+<!-- 最近文章 -->
+<h2 style="font-size: 18px; font-weight: 600; margin-bottom: 24px; padding: 0 20px;">最近文章</h2>
+
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ $paginator := .Paginate $pages }}
+
+{{ range $index, $page := $paginator.Pages }}
+{{- $class := "post-entry" }}
+{{- if eq $index 0 }}
+{{- $class = "first-entry" }}
+{{- end }}
+
+<article class="{{ $class }}">
+    {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+    <header class="entry-header">
+        <h2>
+            {{- .Title }}
+            {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        </h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="entry-content">
+        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+        {{- partial "post_meta.html" . -}}
+    </footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+    <nav class="pagination">
+        {{- if $paginator.HasPrev }}
+        <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+            «&nbsp;{{ i18n "prev_page" }}&nbsp;
+            {{- if (.Param "ShowPageNums") }}
+            {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+            {{- end }}
+        </a>
+        {{- end }}
+        {{- if $paginator.HasNext }}
+        <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+            {{- i18n "next_page" }}&nbsp;
+            {{- if (.Param "ShowPageNums") }}
+            {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+            {{- end }}&nbsp;»
+        </a>
+        {{- end }}
+    </nav>
+</footer>
+{{- end }}
+
+{{ end }}
