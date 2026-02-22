@@ -7,10 +7,10 @@ categories: ["技术"]
 tags: ["MemGPT", "LLM", "AI", "论文翻译", "Agent"]
 ---
 
-> **原文标题**: MemGPT: Towards LLMs as Operating Systems  
-> **作者**: Charles Packer, Sarah Wooders, Kevin Lin, Vivian Fang, Shishir G. Patil, Ion Stoica, Joseph E. Gonzalez  
-> **机构**: 加州大学伯克利分校  
-> **arXiv**: 2310.08560v2 [cs.AI] 2024年2月12日  
+> **原文标题**: MemGPT: Towards LLMs as Operating Systems
+> **作者**: Charles Packer, Sarah Wooders, Kevin Lin, Vivian Fang, Shishir G. Patil, Ion Stoica, Joseph E. Gonzalez
+> **机构**: 加州大学伯克利分校
+> **arXiv**: 2310.08560v2 [cs.AI] 2024年2月12日
 > **翻译整理**: 2025年2月
 
 ---
@@ -28,6 +28,14 @@ tags: ["MemGPT", "LLM", "AI", "论文翻译", "Agent"]
 
 ---
 
+![图 1. MemGPT（左）在收到关于有限上下文空间的系统警报后将数据写入持久内存。](/images/memgpt/figure_1.jpg)
+*图 1. MemGPT（左）在收到关于有限上下文空间的系统警报后将数据写入持久内存。*
+
+![图 2. MemGPT（左）可以搜索上下文外数据，将相关信息带入当前上下文窗口。](/images/memgpt/figure_2.jpg)
+*图 2. MemGPT（左）可以搜索上下文外数据，将相关信息带入当前上下文窗口。*
+
+---
+
 ## 1. 引言
 
 近年来，大语言模型（LLM）及其底层的 Transformer 架构（Vaswani et al., 2017; Devlin et al., 2018; Brown et al., 2020; Ouyang et al., 2022）已成为对话式人工智能的基石，并催生了广泛的消费者和企业应用。尽管取得了这些进展，LLM 使用的有限固定长度上下文窗口显著阻碍了它们对长对话或长文档推理的适用性。例如，最广泛使用的开源 LLM 只能支持几十轮来回消息或推理短文档，然后就会超过其最大输入长度（Touvron et al., 2023）。
@@ -40,12 +48,15 @@ tags: ["MemGPT", "LLM", "AI", "论文翻译", "Agent"]
 
 ## 2. MemGPT（MemoryGPT）
 
+![图 3. 在 MemGPT 中，固定上下文 LLM 处理器通过分层内存系统和函数进行增强，使其能够管理自己的内存。](/images/memgpt/figure_3.jpg)
+*图 3. 在 MemGPT 中，固定上下文 LLM 处理器通过分层内存系统和函数进行增强，使其能够管理自己的内存。LLM 的提示词令牌（输入）或主上下文由系统指令、工作上下文和 FIFO 队列组成。LLM 完成令牌（输出）被函数执行器解释为函数调用。MemGPT 使用函数在主上下文和外部上下文（归档和回忆存储数据库）之间移动数据。*
+
 MemGPT 的受操作系统启发的多级内存架构区分了两种主要内存类型：
 
 - **主上下文**（类似于主内存/物理内存/RAM）
 - **外部上下文**（类似于磁盘内存/磁盘存储）
 
-主上下文由 LLM 提示词令牌组成——主上下文中的任何内容都被视为上下文内，可以在推理期间被 LLM 处理器访问。外部上下文指的是保持在 LLM 固定上下文窗口之外的任何信息。这种上下文外数据必须始终被显式移动到主上下文中，才能在推理期间传递给 LLM 处理器。
+主上下文由 LLM 提示词令牌组成--主上下文中的任何内容都被视为上下文内，可以在推理期间被 LLM 处理器访问。外部上下文指的是保持在 LLM 固定上下文窗口之外的任何信息。这种上下文外数据必须始终被显式移动到主上下文中，才能在推理期间传递给 LLM 处理器。
 
 MemGPT 提供函数调用，使 LLM 处理器能够管理自己的内存，无需任何用户干预。内存层级、操作系统函数和基于事件的控制流的结合使用使 MemGPT 能够使用具有有限上下文窗口的 LLM 处理无界上下文。
 
@@ -68,6 +79,9 @@ MemGPT 中的提示词令牌分为三个连续部分：
 ## 3. 实验
 
 我们在两个长上下文领域评估 MemGPT：**对话智能体**和**文档分析**。对于对话智能体，我们扩展了现有的多会话聊天数据集（Xu et al., 2021），并引入了两个新的对话任务，评估智能体在扩展对话中保留知识的能力。对于文档分析，我们在 Liu 等人（2023a）的现有任务上对 MemGPT 进行基准测试，用于对冗长文档进行问答和键值检索。
+
+![图 4. 一个对话片段示例，MemGPT（左）更新存储的信息。这里信息存储在工作上下文内存中（位于提示词令牌内）。](/images/memgpt/figure_4.jpg)
+*图 4. 一个对话片段示例，MemGPT（左）更新存储的信息。这里信息存储在工作上下文内存中（位于提示词令牌内）。*
 
 ### 3.1 MemGPT 用于对话智能体
 
@@ -105,6 +119,9 @@ MemGPT 能够制作与人工编写的开场白相当甚至超过的吸引人的�
 
 ### 3.2 MemGPT 用于文档分析
 
+![图 5. 文档 QA 任务性能。MemGPT 的性能不受上下文长度增加的影响。使用 GPT-4 和 GPT-4 Turbo 运行 MemGPT 在此任务上具有等效的结果。](/images/memgpt/figure_5.jpg)
+*图 5. 文档 QA 任务性能。MemGPT 的性能不受上下文长度增加的影响。使用 GPT-4 和 GPT-4 Turbo 运行 MemGPT 在此任务上具有等效的结果。*
+
 文档分析也面临着当今 Transformer 模型有限上下文窗口的挑战。如表 3 所示，开源和闭源模型都受到上下文长度的限制（OpenAI 的模型最多 128k 令牌）。然而许多文档轻松超过这些长度；例如，法律或财务文件（如年度报告）可能轻松超过百万令牌。
 
 **表 3：常用模型和 LLM API 的上下文长度比较**
@@ -122,12 +139,21 @@ MemGPT 能够制作与人工编写的开场白相当甚至超过的吸引人的�
 
 #### 3.2.1 多文档问答
 
+![图 6. MemGPT（左）解决文档 QA 任务的示例。维基百科文档数据库上传到归档存储。MemGPT 通过函数调用查询归档存储，将分页搜索结果拉入主上下文。](/images/memgpt/figure_6.jpg)
+*图 6. MemGPT（左）解决文档 QA 任务的示例。维基百科文档数据库上传到归档存储。MemGPT 通过函数调用查询归档存储，将分页搜索结果拉入主上下文。*
+
 为了评估 MemGPT 分析文档的能力，我们在来自 Liu 等人的检索器-阅读器文档 QA 任务上对 MemGPT 进行基准测试。MemGPT 的性能不受上下文长度增加的影响。虽然截断等方法可以扩展固定长度模型（如 GPT-4）的有效上下文长度，但随着所需压缩的增长，这种压缩方法将导致性能下降。
 
 #### 3.2.2 嵌套键值检索（KV）
 
 我们引入了一个基于先前工作中提出的合成键值检索的新任务。在这个任务的嵌套版本中，值本身可能是键，因此需要智能体执行多跳查找。
 
+![图 7. 嵌套 KV 检索任务性能。MemGPT 是唯一能够在超过 2 级嵌套的情况下始终如一地完成嵌套 KV 任务的方法。](/images/memgpt/figure_7.jpg)
+*图 7. 嵌套 KV 检索任务性能。MemGPT 是唯一能够在超过 2 级嵌套的情况下始终如一地完成嵌套 KV 任务的方法。*
+
+![图 8. MemGPT（左）解决嵌套 KV 任务的示例（为可读性缩短了 UUID）。在这个特定示例中，键值对有两个嵌套级别：831..ea5 → 5b8..4c3 → f37...617。当对最终值的查询只返回一个结果时，MemGPT 智能体返回最终答案，表明它也不是键。](/images/memgpt/figure_8.jpg)
+*图 8. MemGPT（左）解决嵌套 KV 任务的示例（为可读性缩短了 UUID）。在这个特定示例中，键值对有两个嵌套级别：831..ea5 → 5b8..4c3 → f37...617。当对最终值的查询只返回一个结果时，MemGPT 智能体返回最终答案，表明它也不是键。*
+    
 **结果：**
 
 - GPT-3.5 在 1 级嵌套时准确率降至 0%
@@ -166,8 +192,8 @@ MemGPT 能够制作与人工编写的开场白相当甚至超过的吸引人的�
 ```bibtex
 @article{packer2023memgpt,
   title={{MemGPT}: Towards LLMs as Operating Systems},
-  author={Packer, Charles and Wooders, Sarah and Lin, Kevin and 
-          Fang, Vivian and Patil, Shishir G. and Stoica, Ion and 
+  author={Packer, Charles and Wooders, Sarah and Lin, Kevin and
+          Fang, Vivian and Patil, Shishir G. and Stoica, Ion and
           Gonzalez, Joseph E.},
   journal={arXiv preprint arXiv:2310.08560},
   year={2023}
@@ -184,6 +210,6 @@ MemGPT 能够制作与人工编写的开场白相当甚至超过的吸引人的�
 
 ---
 
-*中文翻译整理完成于 2025年2月*  
-*原文: arXiv:2310.08560 [cs.AI]*  
+*中文翻译整理完成于 2025年2月*
+*原文: arXiv:2310.08560 [cs.AI]*
 *翻译说明：本翻译保留了原文的所有图表、表格结构和关键术语，同时提供了完整的中文解释*
