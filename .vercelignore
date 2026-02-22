@@ -1,4 +1,0 @@
-# Ignore locally built files
-public/
-resources/
-.hugo_build.lock
