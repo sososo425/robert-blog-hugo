@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>技术 on Robert | 程序员 · 生活家</title>
+    <link>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on Robert | 程序员 · 生活家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 22 Feb 2026 20:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MemGPT/Letta 记忆与上下文管理深度解析</title>
+      <link>http://localhost:1313/tech/memgpt-letta-guide/</link>
+      <pubDate>Sun, 22 Feb 2026 20:50:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/memgpt-letta-guide/</guid>
+      <description>深入解析 MemGPT（现 Letta）的记忆管理系统，突破 LLM 上下文窗口限制的创新方案</description>
+    </item>
+    
+    <item>
+      <title>三域融合分析：存储管理视角的统一</title>
+      <link>http://localhost:1313/tech/storage-fusion-analysis/</link>
+      <pubDate>Sun, 22 Feb 2026 20:45:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/storage-fusion-analysis/</guid>
+      <description>从存储管理视角对自动驾驶大数据、多模态数据湖、Agent Infra Memory管理三个领域进行深度融合分析</description>
+    </item>
+    
+    <item>
+      <title>Agent Infra 深度调研：Memory管理层次与架构设计</title>
+      <link>http://localhost:1313/tech/agent-infra-memory/</link>
+      <pubDate>Sun, 22 Feb 2026 20:40:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/agent-infra-memory/</guid>
+      <description>对Agent Infrastructure领域进行系统性深度调研，重点关注Memory管理层次模型</description>
+    </item>
+    
+    <item>
+      <title>多模态数据湖深度调研报告</title>
+      <link>http://localhost:1313/tech/multimodal-data-lake/</link>
+      <pubDate>Sun, 22 Feb 2026 20:35:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/multimodal-data-lake/</guid>
+      <description>涵盖架构设计、存储格式、查询优化、数据治理及业界实践等核心维度的多模态数据湖系统性调研</description>
+    </item>
+    
+    <item>
+      <title>自动驾驶大数据领域深度调研报告</title>
+      <link>http://localhost:1313/tech/autonomous-driving-big-data/</link>
+      <pubDate>Sun, 22 Feb 2026 20:30:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/autonomous-driving-big-data/</guid>
+      <description>从数据类型与特征、数据处理流程、技术挑战、主流解决方案和未来趋势五个维度，对自动驾驶大数据领域进行系统性调研</description>
+    </item>
+    
+    <item>
+      <title>智能体设计模式资料汇总</title>
+      <link>http://localhost:1313/tech/agent-design-patterns/</link>
+      <pubDate>Sun, 22 Feb 2026 15:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/agent-design-patterns/</guid>
+      <description>Google 及相关高质量智能体设计模式资料整理</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Letta on Robert | 程序员 · 生活家</title>
+    <link>http://localhost:1313/tags/letta/</link>
+    <description>Recent content in Letta on Robert | 程序员 · 生活家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 22 Feb 2026 20:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/letta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MemGPT/Letta 记忆与上下文管理深度解析</title>
+      <link>http://localhost:1313/tech/memgpt-letta-guide/</link>
+      <pubDate>Sun, 22 Feb 2026 20:50:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/memgpt-letta-guide/</guid>
+      <description>深入解析 MemGPT（现 Letta）的记忆管理系统，突破 LLM 上下文窗口限制的创新方案</description>
+    </item>
+    
+  </channel>
+</rss>

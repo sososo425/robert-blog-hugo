@@ -1,0 +1,104 @@
+baseURL = 'https://robert-blog-fawn.vercel.app'
+languageCode = 'zh-CN'
+title = 'Robert | 程序员 · 生活家'
+theme = 'PaperMod'
+
+[params]
+  author = 'Robert'
+  description = '80后程序员，北邮本硕，信息与计算机专业。在代码与诗意之间寻找平衡。'
+  keywords = ['Robert', '程序员', '博客', 'AI', '技术']
+  defaultTheme = 'light'
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+  
+  [params.profileMode]
+    enabled = true
+    title = "Robert"
+    subtitle = "80后程序员 · 北邮本硕 · 信息与计算机专业"
+    imageUrl = "https://avatars.githubusercontent.com/u/0?v=4"
+    imageTitle = "Robert's Avatar"
+    imageWidth = 120
+    imageHeight = 120
+    
+    [[params.profileMode.buttons]]
+      name = "💻 专业"
+      url = "/tech/"
+    [[params.profileMode.buttons]]
+      name = "🍃 人生"
+      url = "/life/"
+    [[params.profileMode.buttons]]
+      name = "🎵 兴趣"
+      url = "/music/"
+    [[params.profileMode.buttons]]
+      name = "📜 文学"
+      url = "/literature/"
+
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "我是 Robert，一个 80 后程序员。这里记录我的技术探索、生活感悟、音乐分享和诗词收藏。"
+  
+  # Fix for deprecated .Site.Social
+  [params.social]
+    disabled = true
+
+[menu]
+  [[menu.main]]
+    identifier = "tech"
+    name = "💻 专业"
+    url = "/tech/"
+    weight = 10
+  [[menu.main]]
+    identifier = "life"
+    name = "🍃 人生"
+    url = "/life/"
+    weight = 20
+  [[menu.main]]
+    identifier = "music"
+    name = "🎵 兴趣"
+    url = "/music/"
+    weight = 30
+  [[menu.main]]
+    identifier = "literature"
+    name = "📜 文学"
+    url = "/literature/"
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    hl_inline = false
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    tabWidth = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Fix for deprecated .Site.Social
+[social]
+  twitter = ""
+  facebook = ""
+  linkedin = ""
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

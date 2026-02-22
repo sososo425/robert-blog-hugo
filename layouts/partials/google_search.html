@@ -1,0 +1,14 @@
+<!-- 自定义首页，添加 Google 搜索框 -->
+<div class="google-search-container" style="margin: 2rem 0; text-align: center;">
+    <form action="https://www.google.com/search" method="GET" target="_blank" 
+          style="display: inline-flex; max-width: 500px; width: 100%; background: var(--theme); 
+                 border-radius: 12px; border: 1px solid var(--border); overflow: hidden;">
+        <input type="text" name="q" placeholder="搜索站内内容..." 
+               style="flex: 1; padding: 12px 20px; border: none; background: transparent; 
+                      color: var(--primary); font-size: 15px; outline: none;">
+        <input type="hidden" name="sitesearch" value="robert-blog-fawn.vercel.app">
+        <button type="submit" 
+                style="padding: 12px 20px; background: var(--primary); color: var(--theme); 
+                       border: none; cursor: pointer; font-size: 16px;">🔍</button>
+    </form>
+</div>

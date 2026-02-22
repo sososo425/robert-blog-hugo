@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>大数据 on Robert | 程序员 · 生活家</title>
+    <link>http://localhost:1313/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</link>
+    <description>Recent content in 大数据 on Robert | 程序员 · 生活家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 22 Feb 2026 20:35:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多模态数据湖深度调研报告</title>
+      <link>http://localhost:1313/tech/multimodal-data-lake/</link>
+      <pubDate>Sun, 22 Feb 2026 20:35:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/multimodal-data-lake/</guid>
+      <description>涵盖架构设计、存储格式、查询优化、数据治理及业界实践等核心维度的多模态数据湖系统性调研</description>
+    </item>
+    
+    <item>
+      <title>自动驾驶大数据领域深度调研报告</title>
+      <link>http://localhost:1313/tech/autonomous-driving-big-data/</link>
+      <pubDate>Sun, 22 Feb 2026 20:30:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/autonomous-driving-big-data/</guid>
+      <description>从数据类型与特征、数据处理流程、技术挑战、主流解决方案和未来趋势五个维度，对自动驾驶大数据领域进行系统性调研</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>数据湖 on Robert | 程序员 · 生活家</title>
+    <link>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E6%B9%96/</link>
+    <description>Recent content in 数据湖 on Robert | 程序员 · 生活家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 22 Feb 2026 20:45:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E6%B9%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>三域融合分析：存储管理视角的统一</title>
+      <link>http://localhost:1313/tech/storage-fusion-analysis/</link>
+      <pubDate>Sun, 22 Feb 2026 20:45:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/storage-fusion-analysis/</guid>
+      <description>从存储管理视角对自动驾驶大数据、多模态数据湖、Agent Infra Memory管理三个领域进行深度融合分析</description>
+    </item>
+    
+    <item>
+      <title>多模态数据湖深度调研报告</title>
+      <link>http://localhost:1313/tech/multimodal-data-lake/</link>
+      <pubDate>Sun, 22 Feb 2026 20:35:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tech/multimodal-data-lake/</guid>
+      <description>涵盖架构设计、存储格式、查询优化、数据治理及业界实践等核心维度的多模态数据湖系统性调研</description>
+    </item>
+    
+  </channel>
+</rss>
