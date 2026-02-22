@@ -1,4 +1,4 @@
-baseURL = 'https://robert-blog-sigma.vercel.app'
+baseURL = 'https://robert-xblog.vercel.app'
 languageCode = 'zh-CN'
 title = 'Robert | 程序员 · 生活家'
 theme = 'PaperMod'
