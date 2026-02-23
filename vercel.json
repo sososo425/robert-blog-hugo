@@ -1,0 +1,30 @@
+{
+  "buildCommand": "hugo --gc --minify",
+  "outputDirectory": "public",
+  "installCommand": "yum install -y wget && wget https://github.com/gohugoio/hugo/releases/download/v0.139.4/hugo_extended_0.139.4_Linux-64bit.tar.gz && tar -xzf hugo_extended_0.139.4_Linux-64bit.tar.gz -C /usr/local/bin && rm hugo_extended_0.139.4_Linux-64bit.tar.gz",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    }
+  ]
+}

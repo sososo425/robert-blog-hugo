@@ -113,6 +113,48 @@ hugo new content life/my-thoughts.md
 - 主题参数
 - 个人信息
 
+## AI 助手功能 🤖
+
+博客已集成 Kimi AI 助手，每篇文章右下角会显示 AI 聊天按钮。
+
+### 功能特点
+
+- 💬 **文章问答** — 读者可以针对当前文章内容提问
+- 📝 **智能总结** — 一键总结文章核心观点
+- 🔍 **概念解释** — 解释文中的技术概念
+- 🎨 **深色模式适配** — 自动适配博客的深色/浅色主题
+
+### 如何工作
+
+1. 读者点击右下角的 **「AI助手」** 按钮
+2. 输入问题或选择快捷提问
+3. AI 基于文章内容实时回答
+
+### 配置说明
+
+部署前需要设置 Kimi API Key：
+
+```bash
+# 在 Vercel 环境变量中设置
+KIMI_API_KEY=sk-your-api-key-here
+```
+
+获取 API Key：
+1. 访问 [Moonshot AI 平台](https://platform.moonshot.cn)
+2. 注册/登录账号
+3. 创建 API Key
+
+### 关闭 AI 助手
+
+在文章 frontmatter 中添加：
+
+```yaml
+---
+title: "某篇文章"
+disableAIChat: true
+---
+```
+
 ## 搜索功能
 
 PaperMod 主题内置 Fuse.js 搜索，已开启。点击右上角 🔍 图标即可搜索。
@@ -121,3 +163,4 @@ PaperMod 主题内置 Fuse.js 搜索，已开启。点击右上角 🔍 图标�
 
 - [Hugo 官方文档](https://gohugo.io/documentation/)
 - [PaperMod 主题文档](https://github.com/adityatelange/hugo-PaperMod/wiki)
+- [Moonshot AI 文档](https://platform.moonshot.cn/docs)
