@@ -74,7 +74,7 @@ ${articleContent?.substring(0, 6000) || '未提供文章内容'}
         'Authorization': `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: 'moonshot-v1-8k',
+        model: 'kimi-k2-0711-preview',
         messages: [
           {
             role: 'system',
