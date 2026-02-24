@@ -17,3 +17,6 @@ description: "计算机、IT、AI 技术分享"
 - [自动驾驶大数据领域深度调研报告](/tech/autonomous-driving-big-data/)
 - [多模态数据湖深度调研报告](/tech/multimodal-data-lake/)
 - [三域融合分析：存储管理视角的统一](/tech/storage-fusion-analysis/)
+
+### 参考资讯
+- [2026年AI竞争，正催生"数据工业"](/tech/reference-news/2026-ai-data-industry/)
