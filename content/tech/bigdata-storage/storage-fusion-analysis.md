@@ -5,6 +5,7 @@ draft: false
 description: "从存储管理视角对自动驾驶大数据、多模态数据湖、Agent Infra Memory管理三个领域进行深度融合分析"
 categories: ["技术"]
 tags: ["存储", "数据湖", "Agent", "架构设计", "调研报告"]
+url: "/tech/storage-fusion-analysis/"
 ---
 
 ## 执行摘要

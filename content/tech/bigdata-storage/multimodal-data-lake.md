@@ -5,6 +5,7 @@ draft: false
 description: "涵盖架构设计、存储格式、查询优化、数据治理及业界实践等核心维度的多模态数据湖系统性调研"
 categories: ["技术"]
 tags: ["数据湖", "大数据", "AI", "存储", "调研报告"]
+url: "/tech/multimodal-data-lake/"
 ---
 
 ## 执行摘要

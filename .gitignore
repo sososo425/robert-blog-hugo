@@ -15,3 +15,10 @@ __pycache__/
 .env
 .env.local
 .DS_Store
+
+# 仅供 Obsidian 使用的本地索引，不提交到仓库
+*_obsidian.md
+
+# Obsidian 工作空间配置（本地查看用，不提交）
+.obsidian/
+content/.obsidian/

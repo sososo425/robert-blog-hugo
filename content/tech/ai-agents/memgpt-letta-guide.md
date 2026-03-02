@@ -5,6 +5,7 @@ draft: false
 description: "深入解析 MemGPT（现 Letta）的记忆管理系统，突破 LLM 上下文窗口限制的创新方案"
 categories: ["技术"]
 tags: ["Agent", "AI", "Memory", "MemGPT", "Letta"]
+url: "/tech/memgpt-letta-guide/"
 ---
 
 > 本文档整理自 Letta 官方文档、研究论文及 GitHub 仓库  

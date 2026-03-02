@@ -5,6 +5,7 @@ draft: false
 description: "从数据类型与特征、数据处理流程、技术挑战、主流解决方案和未来趋势五个维度，对自动驾驶大数据领域进行系统性调研"
 categories: ["技术"]
 tags: ["自动驾驶", "大数据", "AI", "调研报告"]
+url: "/tech/autonomous-driving-big-data/"
 ---
 
 ## 摘要

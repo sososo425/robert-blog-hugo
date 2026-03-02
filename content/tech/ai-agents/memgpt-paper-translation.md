@@ -5,6 +5,7 @@ draft: false
 description: "MemGPT 论文完整中文翻译，介绍如何通过虚拟上下文管理技术突破 LLM 的上下文窗口限制"
 categories: ["技术"]
 tags: ["MemGPT", "LLM", "AI", "论文翻译", "Agent"]
+url: "/tech/memgpt-paper-translation/"
 ---
 
 > **原文标题**: MemGPT: Towards LLMs as Operating Systems

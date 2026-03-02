@@ -22,3 +22,4 @@ description: "计算机、IT、AI 技术分享"
 
 ### 参考资讯
 - [2026年AI竞争，正催生"数据工业"](/tech/reference-news/2026-ai-data-industry/)
+- [恐慌的核心逻辑只有一句话：**Agent 不是 SaaS 的用户，Agent 是 SaaS 的替代者。**](/tech/ai-agents-mit-report/)

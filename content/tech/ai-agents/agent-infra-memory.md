@@ -5,6 +5,7 @@ draft: false
 description: "对Agent Infrastructure领域进行系统性深度调研，重点关注Memory管理层次模型"
 categories: ["技术"]
 tags: ["Agent", "AI", "Memory", "架构设计", "调研报告"]
+url: "/tech/agent-infra-memory/"
 ---
 
 ## 执行摘要

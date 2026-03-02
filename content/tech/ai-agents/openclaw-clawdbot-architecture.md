@@ -5,6 +5,7 @@ draft: false
 description: "基于 @Hesamation 拆解：OpenClaw 的 Gateway、lane queue、Agent Runner、记忆与工具安全，以及 10 条可落地的工程化建议"
 categories: ["技术"]
 tags: ["AI", "Agent", "OpenClaw", "Clawdbot", "架构设计"]
+url: "/tech/openclaw-clawdbot-architecture/"
 ---
 
 > **原文来源**：https://mp.weixin.qq.com/s/tp9H0IR9a4SWBioLMCDehA

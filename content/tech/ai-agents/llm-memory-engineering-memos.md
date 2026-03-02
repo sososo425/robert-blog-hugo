@@ -5,6 +5,7 @@ draft: false
 description: "记忆张量 CTO 李志宇博士在 QCon 的演讲分享：大模型记忆工程的核心技术——记忆分层管理、多粒度调度、可信更新与安全治理"
 categories: ["技术"]
 tags: ["AI", "Agent", "Memory", "MemOS", "架构设计", "调研报告"]
+url: "/tech/llm-memory-engineering-memos/"
 ---
 
 > **原文来源**：https://mp.weixin.qq.com/s/jO38bghvaLpjOnQB8aY3uA

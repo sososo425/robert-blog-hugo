@@ -5,6 +5,7 @@ draft: false
 description: "Google 及相关高质量智能体设计模式资料整理"
 categories: ["技术"]
 tags: ["AI", "Agent", "设计模式", "Google"]
+url: "/tech/agent-design-patterns/"
 ---
 
 这是 Google 及相关高质量智能体设计模式的资料整理，涵盖从理论基础到实践应用的完整内容。
