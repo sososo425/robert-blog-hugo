@@ -1,1 +1,155 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Robert | 程序员 · 生活家</title><link>https://robert-xblog.vercel.app/</link><description>Recent content on Robert | 程序员 · 生活家</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 22 Feb 2026 21:30:00 +0800</lastBuildDate><atom:link href="https://robert-xblog.vercel.app/index.xml" rel="self" type="application/rss+xml"/><item><title>MemGPT 论文中文翻译：将 LLM 作为操作系统</title><link>https://robert-xblog.vercel.app/tech/memgpt-paper-translation/</link><pubDate>Sun, 22 Feb 2026 21:30:00 +0800</pubDate><guid>https://robert-xblog.vercel.app/tech/memgpt-paper-translation/</guid><description>MemGPT 论文完整中文翻译，介绍如何通过虚拟上下文管理技术突破 LLM 的上下文窗口限制</description></item><item><title>MemGPT/Letta 记忆与上下文管理深度解析</title><link>https://robert-xblog.vercel.app/tech/memgpt-letta-guide/</link><pubDate>Sun, 22 Feb 2026 20:50:00 +0800</pubDate><guid>https://robert-xblog.vercel.app/tech/memgpt-letta-guide/</guid><description>深入解析 MemGPT（现 Letta）的记忆管理系统，突破 LLM 上下文窗口限制的创新方案</description></item><item><title>三域融合分析：存储管理视角的统一</title><link>https://robert-xblog.vercel.app/tech/storage-fusion-analysis/</link><pubDate>Sun, 22 Feb 2026 20:45:00 +0800</pubDate><guid>https://robert-xblog.vercel.app/tech/storage-fusion-analysis/</guid><description>从存储管理视角对自动驾驶大数据、多模态数据湖、Agent Infra Memory管理三个领域进行深度融合分析</description></item><item><title>Agent Infra 深度调研：Memory管理层次与架构设计</title><link>https://robert-xblog.vercel.app/tech/agent-infra-memory/</link><pubDate>Sun, 22 Feb 2026 20:40:00 +0800</pubDate><guid>https://robert-xblog.vercel.app/tech/agent-infra-memory/</guid><description>对Agent Infrastructure领域进行系统性深度调研，重点关注Memory管理层次模型</description></item><item><title>多模态数据湖深度调研报告</title><link>https://robert-xblog.vercel.app/tech/multimodal-data-lake/</link><pubDate>Sun, 22 Feb 2026 20:35:00 +0800</pubDate><guid>https://robert-xblog.vercel.app/tech/multimodal-data-lake/</guid><description>涵盖架构设计、存储格式、查询优化、数据治理及业界实践等核心维度的多模态数据湖系统性调研</description></item><item><title>自动驾驶大数据领域深度调研报告</title><link>https://robert-xblog.vercel.app/tech/autonomous-driving-big-data/</link><pubDate>Sun, 22 Feb 2026 20:30:00 +0800</pubDate><guid>https://robert-xblog.vercel.app/tech/autonomous-driving-big-data/</guid><description>从数据类型与特征、数据处理流程、技术挑战、主流解决方案和未来趋势五个维度，对自动驾驶大数据领域进行系统性调研</description></item><item><title>智能体设计模式资料汇总</title><link>https://robert-xblog.vercel.app/tech/agent-design-patterns/</link><pubDate>Sun, 22 Feb 2026 15:00:00 +0800</pubDate><guid>https://robert-xblog.vercel.app/tech/agent-design-patterns/</guid><description>Google 及相关高质量智能体设计模式资料整理</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Robert | 程序员 · 生活家</title>
+    <link>https://robert-xblog.art/</link>
+    <description>Recent content on Robert | 程序员 · 生活家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>Robert</managingEditor>
+    <webMaster>Robert</webMaster>
+    <lastBuildDate>Mon, 02 Mar 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://robert-xblog.art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大模型记忆工程的架构设计与实践</title>
+      <link>https://robert-xblog.art/tech/llm-memory-engineering-memos/</link>
+      <pubDate>Mon, 02 Mar 2026 10:00:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/llm-memory-engineering-memos/</guid>
+      <description>记忆张量 CTO 李志宇博士在 QCon 的演讲分享：大模型记忆工程的核心技术——记忆分层管理、多粒度调度、可信更新与安全治理</description>
+    </item>
+    
+    <item>
+      <title>2026年AI竞争，正催生&#39;数据工业&#39;</title>
+      <link>https://robert-xblog.art/tech/reference-news/2026-ai-data-industry/</link>
+      <pubDate>Tue, 24 Feb 2026 14:45:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/reference-news/2026-ai-data-industry/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;核心观点：2026年，AI行业的竞争焦点，除了算力和电力，可能还要全面转向高价值的数据供应链了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一meta收购scale-ai&#34;&gt;一、Meta收购Scale AI&lt;/h2&gt;
+&lt;p&gt;2025年6月12日，Meta宣布以&lt;strong&gt;143亿美元&lt;/strong&gt;收购人工智能数据标注公司 &lt;strong&gt;Scale AI&lt;/strong&gt; 49%的股权。&lt;/p&gt;
+&lt;p&gt;Scale AI的核心业务：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据清洗、标注和整理（激光雷达点云、摄像头视频等）&lt;/li&gt;
+&lt;li&gt;雇用人类专家撰写训练数据&lt;/li&gt;
+&lt;li&gt;用AI生成训练数据&lt;/li&gt;
+&lt;li&gt;向出版商采购数据进行结构化处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;扎克伯格认为，AI竞争已从&amp;quot;拼模型&amp;quot;转向&amp;quot;&lt;strong&gt;拼数据喂养能力&lt;/strong&gt;&amp;quot;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二openai-收购torch&#34;&gt;二、OpenAI 收购Torch&lt;/h2&gt;
+&lt;p&gt;2026年1月13日，OpenAI以约&lt;strong&gt;1亿美元&lt;/strong&gt;收购医疗数据整合公司 &lt;strong&gt;Torch&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;Torch只有&lt;strong&gt;4名员工&lt;/strong&gt;，人均&amp;quot;转会费&amp;quot;高达2500万美元。&lt;/p&gt;
+&lt;p&gt;收购目的：获得医疗数据整合能力，支撑&amp;quot;ChatGPT Health&amp;quot;功能（接入220万家美国医疗机构数据）。&lt;/p&gt;
+&lt;p&gt;同期，Anthropic发布Claude for Healthcare，Google更新MedGemma 1.5，医疗AI竞争转向&lt;strong&gt;数据整合的广度与深度&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三腾讯转拼环境数据&#34;&gt;三、腾讯转拼&amp;quot;环境数据&amp;quot;&lt;/h2&gt;
+&lt;p&gt;2026年1月，腾讯新任首席AI科学家&lt;strong&gt;姚顺雨&lt;/strong&gt;提出：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ToB领域&lt;/strong&gt;：&amp;ldquo;性能溢价&amp;rdquo;，模型参数提升有意义&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ToC领域&lt;/strong&gt;：进入&amp;quot;感知平稳期&amp;quot;，关键是&amp;quot;&lt;strong&gt;更懂我&lt;/strong&gt;&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要做到&amp;quot;更懂用户&amp;quot;，关键在于对&amp;quot;&lt;strong&gt;环境上下文&lt;/strong&gt;&amp;ldquo;的理解（实时位置、天气、社交关系、历史对话等）。&lt;/p&gt;
+&lt;p&gt;腾讯将借助微信10亿用户的&amp;quot;环境数据&amp;quot;突围。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;四李开复的预判&#34;&gt;四、李开复的预判&lt;/h2&gt;
+&lt;p&gt;零一万物创始人李开复预判：国内超大基座模型竞争将日趋寡头化，最终仅剩&lt;strong&gt;DeepSeek、阿里、字节&lt;/strong&gt;三家主导。&lt;/p&gt;
+&lt;p&gt;背后原因：这三家（加上腾讯）都拥有&lt;strong&gt;海量场景、海量数据&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;五总结数据工业的崛起&#34;&gt;五、总结：数据工业的崛起&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;数据从2026年起会从资源升级成产品&lt;/strong&gt;，像芯片一样需要被设计、精密加工、自动化质检。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Scale AI、Torch这类公司将成为&amp;quot;数据工业&amp;quot;里的台积电&lt;/li&gt;
+&lt;li&gt;数据公司拼的是&lt;strong&gt;认知工艺&lt;/strong&gt;，而非人海战术&lt;/li&gt;
+&lt;li&gt;数据供应链正在&lt;strong&gt;矿业化+制造业化&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;来源声明&#34;&gt;来源声明&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;原文&lt;/strong&gt;: 《蔡钰·商业参考4》&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者&lt;/strong&gt;: 蔡钰&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;免责声明&lt;/strong&gt;：本文为第三方商业分析文章的整理版本，仅供个人学习参考。如有侵权，请联系删除。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>诗酒趁年华：那些陪我走过风雨的词句</title>
+      <link>https://robert-xblog.art/literature/poetry-appreciation/</link>
+      <pubDate>Mon, 23 Feb 2026 21:30:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/literature/poetry-appreciation/</guid>
+      <description>苏东坡的豁达、李煜的哀愁、李白的豪情——那些在深夜独自吟诵而泣的诗词，如何陪我走过人生的风雨</description>
+    </item>
+    
+    <item>
+      <title>MemGPT 论文中文翻译：将 LLM 作为操作系统</title>
+      <link>https://robert-xblog.art/tech/memgpt-paper-translation/</link>
+      <pubDate>Sun, 22 Feb 2026 21:30:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/memgpt-paper-translation/</guid>
+      <description>MemGPT 论文完整中文翻译，介绍如何通过虚拟上下文管理技术突破 LLM 的上下文窗口限制</description>
+    </item>
+    
+    <item>
+      <title>MemGPT/Letta 记忆与上下文管理深度解析</title>
+      <link>https://robert-xblog.art/tech/memgpt-letta-guide/</link>
+      <pubDate>Sun, 22 Feb 2026 20:50:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/memgpt-letta-guide/</guid>
+      <description>深入解析 MemGPT（现 Letta）的记忆管理系统，突破 LLM 上下文窗口限制的创新方案</description>
+    </item>
+    
+    <item>
+      <title>三域融合分析：存储管理视角的统一</title>
+      <link>https://robert-xblog.art/tech/storage-fusion-analysis/</link>
+      <pubDate>Sun, 22 Feb 2026 20:45:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/storage-fusion-analysis/</guid>
+      <description>从存储管理视角对自动驾驶大数据、多模态数据湖、Agent Infra Memory管理三个领域进行深度融合分析</description>
+    </item>
+    
+    <item>
+      <title>Agent Infra 深度调研：Memory管理层次与架构设计</title>
+      <link>https://robert-xblog.art/tech/agent-infra-memory/</link>
+      <pubDate>Sun, 22 Feb 2026 20:40:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/agent-infra-memory/</guid>
+      <description>对Agent Infrastructure领域进行系统性深度调研，重点关注Memory管理层次模型</description>
+    </item>
+    
+    <item>
+      <title>多模态数据湖深度调研报告</title>
+      <link>https://robert-xblog.art/tech/multimodal-data-lake/</link>
+      <pubDate>Sun, 22 Feb 2026 20:35:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/multimodal-data-lake/</guid>
+      <description>涵盖架构设计、存储格式、查询优化、数据治理及业界实践等核心维度的多模态数据湖系统性调研</description>
+    </item>
+    
+    <item>
+      <title>自动驾驶大数据领域深度调研报告</title>
+      <link>https://robert-xblog.art/tech/autonomous-driving-big-data/</link>
+      <pubDate>Sun, 22 Feb 2026 20:30:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/autonomous-driving-big-data/</guid>
+      <description>从数据类型与特征、数据处理流程、技术挑战、主流解决方案和未来趋势五个维度，对自动驾驶大数据领域进行系统性调研</description>
+    </item>
+    
+    <item>
+      <title>智能体设计模式资料汇总</title>
+      <link>https://robert-xblog.art/tech/agent-design-patterns/</link>
+      <pubDate>Sun, 22 Feb 2026 15:00:00 +0800</pubDate>
+      <author>Robert</author>
+      <guid>https://robert-xblog.art/tech/agent-design-patterns/</guid>
+      <description>Google 及相关高质量智能体设计模式资料整理</description>
+    </item>
+    
+  </channel>
+</rss>

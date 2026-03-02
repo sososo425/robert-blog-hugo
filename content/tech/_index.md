@@ -9,6 +9,7 @@ description: "计算机、IT、AI 技术分享"
 
 ### AI 与智能体
 - [智能体设计模式资料汇总](/tech/agent-design-patterns/)
+- [大模型记忆工程的架构设计与实践](/tech/llm-memory-engineering-memos/)
 - [Agent Infra 深度调研：Memory管理层次与架构设计](/tech/agent-infra-memory/)
 - [MemGPT/Letta 记忆与上下文管理深度解析](/tech/memgpt-letta-guide/)
 - [MemGPT 论文中文翻译：将 LLM 作为操作系统](/tech/memgpt-paper-translation/)
