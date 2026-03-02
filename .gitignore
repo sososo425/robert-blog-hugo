@@ -22,3 +22,6 @@ __pycache__/
 # Obsidian 工作空间配置（本地查看用，不提交）
 .obsidian/
 content/.obsidian/
+
+# Obsidian 用：content/images 指向 static/images 的软链接，仅本地需要，Vercel 构建会失败
+content/images
