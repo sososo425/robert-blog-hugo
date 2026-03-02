@@ -1,0 +1,17 @@
+# Hugo
+public/
+
+# Python（若在本仓库使用 venv，则不提交）
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+
+# 本地/环境
+.env
+.env.local
+.DS_Store

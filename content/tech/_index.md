@@ -8,6 +8,7 @@ description: "计算机、IT、AI 技术分享"
 ## 文章列表
 
 ### AI 与智能体
+- [OpenClaw（Clawdbot）架构拆解：把 Agent 系统做得更稳、更可控](/tech/openclaw-clawdbot-architecture/)
 - [智能体设计模式资料汇总](/tech/agent-design-patterns/)
 - [大模型记忆工程的架构设计与实践](/tech/llm-memory-engineering-memos/)
 - [Agent Infra 深度调研：Memory管理层次与架构设计](/tech/agent-infra-memory/)

@@ -159,6 +159,17 @@ disableAIChat: true
 
 PaperMod 主题内置 Fuse.js 搜索，已开启。点击右上角 🔍 图标即可搜索。
 
+## URL 转博客文章
+
+可将网页（如公众号、博客）转为本站文章并写入 `content/` 与 `static/images/`。
+
+- **依赖**：本地工具 [my_tools](https://github.com)（需包含 `url_to_hugo_post.py` 与 `url_to_markdown.py`），默认路径 `~/Documents/workspace/my_tools`，可用环境变量 `MY_TOOLS_PATH` 覆盖。**本仓库无需 Python 环境**，脚本会调用 my_tools 的 venv 执行。
+- **脚本**：在仓库根目录执行  
+  `./scripts/url_to_blog_post.sh "<URL>" [section] [subsection] [slug]`  
+  section 默认 `tech`，可选 `life`、`music`、`literature`；subsection 可选，如 `reference-news` 时文章落在 `content/tech/reference-news/`（参考资讯子栏）；slug 不填则由页面标题生成。
+- **Skill**：Cursor / OpenClaw 可用项目内 skill「url-to-blog-post」（见 `.cursor/skills/url-to-blog-post/` 与 `skills/url-to-blog-post/`），按 skill 说明在对话中让助手执行上述流程。
+- **.gitignore**：若在本仓库使用 Python 虚拟环境，已忽略 `venv/`、`.venv/`、`__pycache__/` 等，仅可提交 `requirements.txt`（当前脚本为 shell，无此文件）。
+
 ## 参考
 
 - [Hugo 官方文档](https://gohugo.io/documentation/)
