@@ -1,0 +1,6 @@
+{{- $src := .Destination -}}
+{{- if or (hasPrefix $src "images/") (hasPrefix $src "./images/") -}}
+  {{- $src = printf "/%s" (replace $src "./" "") -}}
+{{- end -}}
+<img loading="lazy" src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+
