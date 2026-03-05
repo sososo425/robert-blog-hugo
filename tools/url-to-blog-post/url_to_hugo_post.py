@@ -182,16 +182,16 @@ def main():
         if not title:
             title = slug_arg or md_path.stem
 
-        # 根据标题/显式 slug 生成稳定的英文 slug（用于 URL、文件名、图片目录）
+        # 根据标题/显式 slug 生成稳定的 slug（用于 URL、文件名、图片目录）
         def _slugify(text: str) -> str:
-            # 只保留字母、数字、空格和连字符，其余去掉，再转为 kebab-case
-            cleaned = re.sub(r"[^\w\s-]", " ", text)
+            # 保留中文字符、字母、数字、空格和连字符，其余替换为空格
+            import unicodedata
+            # 先规范化Unicode，保留中文、字母、数字
+            cleaned = re.sub(r"[^\u4e00-\u9fa5a-zA-Z0-9\s-]", " ", text)
+            # 将空格转为连字符
             cleaned = re.sub(r"[\s_]+", "-", cleaned).strip("-").lower()
             if not cleaned:
-                # 如果全是中文等非 ASCII，退回安全文件名再处理
-                fallback = re.sub(r"[^\w\s-]", " ", md_path.stem)
-                fallback = re.sub(r"[\s_]+", "-", fallback).strip("-").lower() or "post"
-                return fallback
+                return "post"
             return cleaned
 
         if slug_arg:

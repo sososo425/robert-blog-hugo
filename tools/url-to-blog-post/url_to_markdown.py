@@ -88,7 +88,15 @@ def url_to_markdown(
     print(f"正在抓取: {page_url}")
     resp = session.get(page_url, timeout=20)
     resp.raise_for_status()
-    resp.encoding = resp.apparent_encoding or "utf-8"
+    
+    # 优先从 HTML meta 标签获取编码，其次 apparent_encoding，最后默认 utf-8
+    html_for_encoding = resp.content[:2048].decode('ascii', errors='ignore')
+    meta_charset_match = re.search(r'<meta[^>]+charset=["\']?([^"\'>\s]+)', html_for_encoding, re.IGNORECASE)
+    if meta_charset_match:
+        resp.encoding = meta_charset_match.group(1)
+    else:
+        resp.encoding = resp.apparent_encoding or "utf-8"
+    
     html = resp.text
 
     try:
