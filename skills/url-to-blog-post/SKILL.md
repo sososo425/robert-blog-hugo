@@ -9,7 +9,8 @@ description: Converts a web URL to a Hugo blog post and places it in the repo. U
 
 ## 前置条件
 
-- **外部工具**：逻辑在 [my_tools](https://github.com 或本地) 的 `url_to_hugo_post.py`（内部依赖 `url_to_markdown.py`）。默认路径 `~/Documents/workspace/my_tools`，可通过环境变量 `MY_TOOLS_PATH` 覆盖。**本博客仓库无需 Python 环境**，由脚本调用 my_tools 的 venv 执行。
+- **工具代码**：已包含在本仓库 `tools/url-to-blog-post/` 中的 `url_to_hugo_post.py`（内部依赖 `url_to_markdown.py`）。
+- **Python 依赖**：见 `tools/url-to-blog-post/requirements.txt`。推荐在该目录下创建虚拟环境并安装依赖（云端 agent 可按此自动安装）。
 - **运行环境**：在博客仓库根目录执行脚本（即包含 `hugo.toml`、`content/`、`static/` 的目录）。
 
 ## 推荐方式：使用脚本
@@ -42,8 +43,8 @@ description: Converts a web URL to a Hugo blog post and places it in the repo. U
 
 ## 手动流程（脚本不可用时）
 
-1. 在 **my_tools** 目录执行：  
-   `python url_to_hugo_post.py "<URL>" "<博客仓库绝对路径>" [section] [subsection] [slug]`
+1. 在仓库根目录或 `tools/url-to-blog-post/` 目录下，使用安装了依赖的 Python 环境执行：  
+   `python tools/url-to-blog-post/url_to_hugo_post.py "<URL>" "<博客仓库绝对路径>" [section] [subsection] [slug]`
 2. 或先用 `url_to_markdown.py` 得到 md + images，再手动复制图片到 `static/images/<slug>/`、替换正文中 `images/` 为 `/images/<slug>/`、添加 frontmatter 与「原文来源」块，保存到 `content/<section>/[subsection>/]<slug>.md`。
 
 ## 输出约定

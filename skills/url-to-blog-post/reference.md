@@ -1,10 +1,16 @@
 # url-to-blog-post 参考
 
-## 外部工具路径与环境
+## 工具路径与 Python 环境
 
-- **默认**：`~/Documents/workspace/my_tools`（需包含 `url_to_hugo_post.py` 与 `url_to_markdown.py`）
-- **覆盖**：设置环境变量 `MY_TOOLS_PATH` 指向该目录
-- **Python 环境**：**本博客仓库不包含 Python 依赖与 venv**。`url_to_blog_post.sh` 会调用 my_tools 下的 `venv/bin/python`（若存在）或系统 `python3` 执行 `url_to_hugo_post.py`，所有第三方依赖（如 requests、beautifulsoup4、markdownify）仅在 my_tools 的 venv 中安装即可。
+- **工具代码内置**：仓库根目录下的 `tools/url-to-blog-post/` 已包含 `url_to_hugo_post.py` 与 `url_to_markdown.py`。
+- **Python 依赖**：`tools/url-to-blog-post/requirements.txt`（如 requests、beautifulsoup4、markdownify）。
+- **虚拟环境建议**：可在 `tools/url-to-blog-post/` 下创建 venv（本仓库 `.gitignore` 已忽略 `venv/`、`.venv/`，不会被提交），示例：
+  ```bash
+  cd tools/url-to-blog-post
+  python3 -m venv venv
+  ./venv/bin/pip install -r requirements.txt
+  ```
+  `scripts/url_to_blog_post.sh` 会优先使用 `tools/url-to-blog-post/venv/bin/python`，找不到时回退到系统 `python3`。
 
 ## Cursor 与 OpenClaw 的 Skill 复用
 
