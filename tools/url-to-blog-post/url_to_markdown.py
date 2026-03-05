@@ -1,30 +1,54 @@
 #!/usr/bin/env python3
 """
 将网页 URL 转为本地 Markdown 文件。
+支持多种抓取模式：requests（快速）、playwright（绕过风控）、代理（走本地IP）
 - 只抓取正文区域内的图片，按在正文中的出现顺序下载并编号，与正文位置一致。
 - 转换时保留标题层级、段落与列表结构，生成便于阅读的 Markdown。
 """
+import os
 import re
 import sys
+import time
+import random
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Literal
 from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 
-# 请求头，模拟浏览器以减少被拦截
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-}
+# 请求头池，随机选择以模拟不同浏览器
+USER_AGENTS = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+]
+
+
+def get_headers():
+    """获取随机请求头。"""
+    return {
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Cache-Control": "max-age=0",
+    }
 
 
 def sanitize_filename(name: str, max_len: int = 80) -> str:
     """将字符串转为安全的文件名（去掉非法字符、截断长度）。"""
-    name = re.sub(r'[<>:"/\\|?*]', "_", name)
+    name = re.sub(r'[<>"/\\|?*]', "_", name)
     name = name.strip().strip(".") or "page"
     return name[:max_len]
 
@@ -38,10 +62,10 @@ def get_extension_from_url(url: str) -> str:
     return "jpg"
 
 
-def download_image(url: str, save_path: Path, session: requests.Session) -> bool:
+def download_image(url: str, save_path: Path, session: requests.Session, headers: dict) -> bool:
     """下载图片到 save_path，成功返回 True。"""
     try:
-        r = session.get(url, timeout=15, headers=HEADERS, stream=True)
+        r = session.get(url, timeout=15, headers=headers, stream=True)
         r.raise_for_status()
         content_type = r.headers.get("Content-Type", "").lower()
         # 若本地无扩展名，根据 Content-Type 补全
@@ -62,11 +86,96 @@ def download_image(url: str, save_path: Path, session: requests.Session) -> bool
         return False
 
 
+def fetch_with_requests(page_url: str, proxy: Optional[str] = None) -> str:
+    """使用 requests 抓取页面，可选代理。"""
+    session = requests.Session()
+    headers = get_headers()
+    session.headers.update(headers)
+    
+    proxies = {"http": proxy, "https": proxy} if proxy else None
+    
+    print(f"使用 requests 抓取: {page_url}")
+    if proxy:
+        print(f"通过代理: {proxy}")
+    
+    resp = session.get(page_url, timeout=30, proxies=proxies)
+    resp.raise_for_status()
+    
+    # 优先从 HTML meta 标签获取编码
+    html_for_encoding = resp.content[:2048].decode('ascii', errors='ignore')
+    meta_charset_match = re.search(r'<meta[^>]+charset=["\']?([^"\'>\s]+)', html_for_encoding, re.IGNORECASE)
+    if meta_charset_match:
+        resp.encoding = meta_charset_match.group(1)
+    else:
+        resp.encoding = resp.apparent_encoding or "utf-8"
+    
+    return resp.text
+
+
+def fetch_with_playwright(page_url: str, headless: bool = True, wait_time: int = 3) -> str:
+    """使用 Playwright 浏览器抓取页面，可绕过大部分风控。"""
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("Playwright 未安装，请先安装: pip install playwright && playwright install chromium")
+        raise
+    
+    print(f"使用 Playwright 抓取: {page_url}")
+    print(f"等待页面渲染 {wait_time} 秒...")
+    
+    # 查找系统 Chrome/Chromium
+    import shutil
+    chrome_path = shutil.which("google-chrome") or shutil.which("chromium") or shutil.which("chromium-browser")
+    
+    with sync_playwright() as p:
+        launch_args = {"headless": headless}
+        if chrome_path:
+            print(f"使用系统浏览器: {chrome_path}")
+            launch_args["executable_path"] = chrome_path
+        
+        browser = p.chromium.launch(**launch_args)
+        context = browser.new_context(
+            user_agent=random.choice(USER_AGENTS),
+            viewport={"width": 1920, "height": 1080},
+            locale="zh-CN",
+            timezone_id="Asia/Shanghai",
+        )
+        page = context.new_page()
+        
+        # 设置额外的请求头
+        page.set_extra_http_headers({
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+            "DNT": "1",
+        })
+        
+        page.goto(page_url, wait_until="networkidle")
+        time.sleep(wait_time)  # 等待 JS 渲染
+        
+        html = page.content()
+        
+        browser.close()
+        return html
+
+
+def is_wechat_verification_page(html: str) -> bool:
+    """检查是否是微信验证页面。"""
+    verification_markers = [
+        "环境异常",
+        "完成验证后即可继续访问",
+        "secitptpage/verify",
+        "var PAGE_MID",
+    ]
+    return any(marker in html for marker in verification_markers)
+
+
 def url_to_markdown(
     page_url: str,
     output_dir: Optional[Path] = None,
     output_name: Optional[str] = None,
     images_subdir: str = "images",
+    fetch_mode: Literal["auto", "requests", "playwright"] = "auto",
+    proxy: Optional[str] = None,
+    headless: bool = True,
 ) -> Path:
     """
     抓取网页，转成 Markdown，图片下载到 output_dir/images_subdir/ 并修正引用。
@@ -75,6 +184,9 @@ def url_to_markdown(
     :param output_dir: 输出目录，默认当前目录
     :param output_name: 输出 md 文件名（不含路径），默认用页面 title 或 URL 生成
     :param images_subdir: 图片子目录名
+    :param fetch_mode: 抓取模式 - auto(自动选择), requests(快速), playwright(浏览器)
+    :param proxy: 代理地址，如 http://localhost:8080
+    :param headless: Playwright 是否使用无头模式
     :return: 生成的 .md 文件路径
     """
     output_dir = output_dir or Path.cwd()
@@ -82,22 +194,34 @@ def url_to_markdown(
     images_dir = output_dir / images_subdir
     images_dir.mkdir(parents=True, exist_ok=True)
 
-    session = requests.Session()
-    session.headers.update(HEADERS)
-
-    print(f"正在抓取: {page_url}")
-    resp = session.get(page_url, timeout=20)
-    resp.raise_for_status()
+    # 抓取页面
+    html = None
+    used_mode = None
     
-    # 优先从 HTML meta 标签获取编码，其次 apparent_encoding，最后默认 utf-8
-    html_for_encoding = resp.content[:2048].decode('ascii', errors='ignore')
-    meta_charset_match = re.search(r'<meta[^>]+charset=["\']?([^"\'>\s]+)', html_for_encoding, re.IGNORECASE)
-    if meta_charset_match:
-        resp.encoding = meta_charset_match.group(1)
+    if fetch_mode == "auto":
+        # 先尝试 requests
+        try:
+            html = fetch_with_requests(page_url, proxy=proxy)
+            used_mode = "requests"
+            # 检查是否是微信验证页
+            if is_wechat_verification_page(html):
+                print("检测到验证页面，切换到 Playwright 模式...")
+                html = fetch_with_playwright(page_url, headless=headless)
+                used_mode = "playwright"
+        except Exception as e:
+            print(f"requests 模式失败: {e}，尝试 Playwright...")
+            html = fetch_with_playwright(page_url, headless=headless)
+            used_mode = "playwright"
+    elif fetch_mode == "requests":
+        html = fetch_with_requests(page_url, proxy=proxy)
+        used_mode = "requests"
+    elif fetch_mode == "playwright":
+        html = fetch_with_playwright(page_url, headless=headless)
+        used_mode = "playwright"
     else:
-        resp.encoding = resp.apparent_encoding or "utf-8"
+        raise ValueError(f"未知的 fetch_mode: {fetch_mode}")
     
-    html = resp.text
+    print(f"使用 {used_mode} 模式成功获取页面")
 
     try:
         soup = BeautifulSoup(html, "lxml")
@@ -145,6 +269,12 @@ def url_to_markdown(
     # 微信公众号等使用懒加载：真实 URL 在 data-src，src 为空或占位符
     imgs = body.find_all("img")
     index = 0
+    
+    # 使用 requests session 下载图片
+    session = requests.Session()
+    headers = get_headers()
+    session.headers.update(headers)
+    
     for img in imgs:
         src = (img.get("src") or "").strip()
         data_src = (img.get("data-src") or img.get("data-srcset") or "").strip()
@@ -162,7 +292,7 @@ def url_to_markdown(
         local_name = f"{index}.{ext}"
         local_path = images_dir / local_name
         rel_path = f"{images_subdir}/{local_name}"
-        if download_image(abs_url, local_path, session):
+        if download_image(abs_url, local_path, session, headers):
             img["src"] = rel_path
             if img.get("data-src"):
                 img["data-src"] = rel_path
@@ -185,7 +315,7 @@ def url_to_markdown(
     # 标题前保留空行
     markdown_text = re.sub(r"(\n)(#{1,6}\s)", r"\n\n\2", markdown_text)
 
-    # 将“单独一行的短标题”转为 ##（公众号等常用 p 做小节标题：上一行为空且本行较短）
+    # 将"单独一行的短标题"转为 ##（公众号等常用 p 做小节标题：上一行为空且本行较短）
     # 但避免把有序列表（如 "1. 默认串行先跑稳"、"1.1 默认串行..."）错误提升为标题。
     lines = markdown_text.split("\n")
     out = []
@@ -221,7 +351,13 @@ def url_to_markdown(
 def main():
     if len(sys.argv) < 2:
         print("用法: python url_to_markdown.py <网页URL> [输出目录] [输出文件名.md]")
-        print("示例: python url_to_markdown.py https://mp.weixin.qq.com/s/xxx ./output")
+        print("环境变量:")
+        print("  FETCH_MODE=auto|requests|playwright  抓取模式 (默认: auto)")
+        print("  PROXY=http://host:port               代理地址")
+        print("  HEADLESS=0|1                         Playwright 无头模式 (默认: 1)")
+        print("示例:")
+        print("  python url_to_markdown.py https://mp.weixin.qq.com/s/xxx ./output")
+        print("  FETCH_MODE=playwright python url_to_markdown.py https://mp.weixin.qq.com/s/xxx")
         sys.exit(1)
 
     page_url = sys.argv[1].strip()
@@ -230,17 +366,30 @@ def main():
 
     output_dir = Path(sys.argv[2]).resolve() if len(sys.argv) > 2 else Path.cwd()
     output_name = sys.argv[3] if len(sys.argv) > 3 else None
+    
+    # 从环境变量读取配置
+    fetch_mode = os.environ.get("FETCH_MODE", "auto")
+    proxy = os.environ.get("PROXY")
+    headless = os.environ.get("HEADLESS", "1") != "0"
 
     try:
-        url_to_markdown(page_url, output_dir=output_dir, output_name=output_name)
+        url_to_markdown(
+            page_url, 
+            output_dir=output_dir, 
+            output_name=output_name,
+            fetch_mode=fetch_mode,
+            proxy=proxy,
+            headless=headless,
+        )
     except requests.RequestException as e:
         print(f"请求失败: {e}", file=sys.stderr)
         sys.exit(2)
     except Exception as e:
         print(f"错误: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
         sys.exit(3)
 
 
 if __name__ == "__main__":
     main()
-

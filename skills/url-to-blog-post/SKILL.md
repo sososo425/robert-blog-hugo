@@ -41,6 +41,48 @@ description: Converts a web URL to a Hugo blog post and places it in the repo. U
 
 **栏目与 content 对应：** `tech` → `content/tech/`；`tech` + `reference-news` → `content/tech/reference-news/`；`life` → `content/life/`；`music`、`literature` 同理。
 
+## 绕过微信/反爬验证 🛡️
+
+对于微信公众号等需要验证的页面，工具支持 **Playwright 浏览器自动化** 模式，可绕过大部分风控。
+
+### 使用方法
+
+```bash
+# 强制使用 Playwright 模式（绕过微信验证）
+FETCH_MODE=playwright ./scripts/url_to_blog_post.sh "https://mp.weixin.qq.com/s/xxx"
+
+# 或使用 auto 模式（自动检测并切换到 Playwright）
+./scripts/url_to_blog_post.sh "https://mp.weixin.qq.com/s/xxx"
+```
+
+### 环境变量
+
+| 变量 | 说明 | 默认值 |
+|------|------|--------|
+| `FETCH_MODE` | 抓取模式: `auto`/`requests`/`playwright` | `auto` |
+| `PROXY` | 代理地址，如 `http://localhost:8080` | 无 |
+| `HEADLESS` | Playwright 无头模式: `0`/`1` | `1` |
+
+**模式说明：**
+- `auto`：先尝试快速 requests 模式，检测到验证页面时自动切换到 Playwright
+- `requests`：纯 HTTP 请求，速度快但可能被风控拦截
+- `playwright`：浏览器自动化，可绕过大部分验证，稍慢但可靠
+
+### 依赖安装
+
+Playwright 需要安装浏览器：
+
+```bash
+# 安装 Python 依赖
+pip install playwright
+
+# 安装 Chromium（首次使用需要）
+playwright install chromium
+
+# 或使用系统已有 Chrome/Chromium
+# 工具会自动检测系统浏览器路径
+```
+
 ## 手动流程（脚本不可用时）
 
 1. 在仓库根目录或 `tools/url-to-blog-post/` 目录下，使用安装了依赖的 Python 环境执行：  

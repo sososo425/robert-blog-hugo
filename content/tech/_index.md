@@ -15,6 +15,7 @@ description: "计算机、IT、AI 技术分享"
 - [MemGPT/Letta 记忆与上下文管理深度解析](/tech/memgpt-letta-guide/)
 - [MemGPT 论文中文翻译：将 LLM 作为操作系统](/tech/memgpt-paper-translation/)
 - [从 Skill 的渐进式加载得到的启发](/tech/从-skill-的渐进式加载得到的启发/)
+- [架构师（JiaGouX）](/tech/cursor-agent-engineering/)
 
 ### 大数据与存储
 - [自动驾驶大数据领域深度调研报告](/tech/autonomous-driving-big-data/)

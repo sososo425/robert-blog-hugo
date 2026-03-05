@@ -3,7 +3,12 @@
 将网页 URL 转为 Hugo 博客文章并写入指定博客仓库。
 依赖同目录下的 url_to_markdown，需在 tools/url-to-blog-post 目录或已安装环境中运行。
 用法: python url_to_hugo_post.py <URL> <博客仓库根路径> [section] [subsection] [slug]
+环境变量:
+  FETCH_MODE=auto|requests|playwright  抓取模式 (默认: auto)
+  PROXY=http://host:port               代理地址
+  HEADLESS=0|1                         Playwright 无头模式 (默认: 1)
 """
+import os
 import re
 import sys
 from datetime import datetime
@@ -133,6 +138,10 @@ def main():
         print("  section 默认 tech，可选: tech, life, music, literature")
         print("  subsection 可选，如 tech 下的 reference-news，则文章落在 content/tech/reference-news/")
         print("  slug 不填则由页面标题生成")
+        print("环境变量:")
+        print("  FETCH_MODE=auto|requests|playwright  抓取模式 (默认: auto)")
+        print("  PROXY=http://host:port               代理地址")
+        print("  HEADLESS=0|1                         Playwright 无头模式 (默认: 1)")
         sys.exit(1)
 
     url = sys.argv[1].strip()
@@ -160,14 +169,28 @@ def main():
     static_images = blog_root / "static" / "images"
     static_images.mkdir(parents=True, exist_ok=True)
 
+    # 读取环境变量
+    fetch_mode = os.environ.get("FETCH_MODE", "auto")
+    proxy = os.environ.get("PROXY")
+    headless = os.environ.get("HEADLESS", "1") != "0"
+
     import tempfile
     with tempfile.TemporaryDirectory(prefix="url2hugo_") as tmp:
         tmp_path = Path(tmp)
         out_name = f"{slug_arg}.md" if slug_arg else None
         try:
-            md_path = url_to_markdown(url, output_dir=tmp_path, output_name=out_name)
+            md_path = url_to_markdown(
+                url, 
+                output_dir=tmp_path, 
+                output_name=out_name,
+                fetch_mode=fetch_mode,
+                proxy=proxy,
+                headless=headless,
+            )
         except Exception as e:
             print(f"url_to_markdown 失败: {e}", file=sys.stderr)
+            import traceback
+            traceback.print_exc()
             sys.exit(4)
 
         images_src = tmp_path / "images"
