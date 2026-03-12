@@ -1,0 +1,406 @@
+{{ define "main" }}
+<style>
+  .admin-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  .admin-header h1 {
+    color: var(--text-color);
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .username-display {
+    color: var(--text-color);
+    font-weight: 500;
+  }
+
+  .logout-btn {
+    padding: 8px 16px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .logout-btn:hover {
+    background: #c82333;
+  }
+
+  .admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .admin-card {
+    background: var(--theme);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .admin-card h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    font-size: 1.3em;
+  }
+
+  .admin-card p {
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+
+  .protected-paths-section {
+    background: var(--theme);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+
+  .protected-paths-section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+  }
+
+  .path-input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .path-input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+
+  .add-path-btn {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .add-path-btn:hover {
+    background: var(--primary-color-dark);
+  }
+
+  .paths-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .paths-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    background: var(--bg-color);
+    border-radius: 5px;
+  }
+
+  .remove-path-btn {
+    padding: 5px 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .remove-path-btn:hover {
+    background: #c82333;
+  }
+
+  .status-message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: none;
+  }
+
+  .status-success {
+    background: #d4edda;
+    color: #155724;
+  }
+
+  .status-error {
+    background: #f8d7da;
+    color: #721c24;
+  }
+
+  .login-redirect {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .login-redirect a {
+    color: var(--primary-color);
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+
+  .login-redirect a:hover {
+    text-decoration: underline;
+  }
+
+  .article-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .article-list li {
+    padding: 12px;
+    margin-bottom: 8px;
+    background: var(--bg-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .article-list a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+
+  .article-list a:hover {
+    color: var(--primary-color);
+  }
+
+  .visibility-badge {
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .badge-public {
+    background: #d4edda;
+    color: #155724;
+  }
+
+  .badge-protected {
+    background: #fff3cd;
+    color: #856404;
+  }
+</style>
+
+<div class="admin-container">
+  <div class="admin-header">
+    <h1>🛠️ 管理面板</h1>
+    <div class="user-info">
+      <span class="username-display" id="usernameDisplay">管理员</span>
+      <button class="logout-btn" id="logoutBtn">退出登录</button>
+    </div>
+  </div>
+
+  <div id="statusMessage" class="status-message"></div>
+
+  <!-- Protected Paths Configuration -->
+  <div class="protected-paths-section">
+    <h2>🔒 受保护目录配置</h2>
+    <p style="margin-bottom: 20px;">设置需要管理员权限才能访问的文章目录。在这些目录下的文章将不会对普通访客显示。</p>
+    
+    <div class="path-input-group">
+      <input 
+        type="text" 
+        id="newPathInput" 
+        placeholder="/private/ 或 /members-only/"
+      >
+      <button class="add-path-btn" id="addPathBtn">添加目录</button>
+    </div>
+
+    <ul class="paths-list" id="pathsList">
+      <!-- Paths will be dynamically added here -->
+    </ul>
+  </div>
+
+  <!-- Quick Actions -->
+  <div class="admin-grid">
+    <div class="admin-card">
+      <h2>📝 新建受保护文章</h2>
+      <p>创建新的文章并设置为仅管理员可见。文章将保存在受保护的目录下。</p>
+    </div>
+
+    <div class="admin-card">
+      <h2>📊 访问统计</h2>
+      <p>查看受保护内容的访问记录和统计数据。</p>
+    </div>
+
+    <div class="admin-card">
+      <h2>⚙️ 系统设置</h2>
+      <p>配置博客的其他管理选项和参数。</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  let protectedPaths = ['/private/', '/members-only/', '/vip/'];
+  const token = localStorage.getItem('adminToken');
+  const username = localStorage.getItem('adminUsername');
+
+  // Check authentication
+  function checkAuth() {
+    if (!token) {
+      window.location.href = '/login/';
+      return false;
+    }
+    
+    const expires = localStorage.getItem('tokenExpires');
+    if (expires && Date.now() >= parseInt(expires)) {
+      // Token expired
+      localStorage.removeItem('adminToken');
+      localStorage.removeItem('tokenExpires');
+      localStorage.removeItem('adminUsername');
+      window.location.href = '/login/';
+      return false;
+    }
+
+    if (username) {
+      document.getElementById('usernameDisplay').textContent = `👤 ${username}`;
+    }
+    return true;
+  }
+
+  if (!checkAuth()) {
+    return;
+  }
+
+  // Display current protected paths
+  function renderPathsList() {
+    const pathsList = document.getElementById('pathsList');
+    pathsList.innerHTML = '';
+
+    protectedPaths.forEach((path, index) => {
+      const li = document.createElement('li');
+      li.innerHTML = `
+        <span>${path}</span>
+        <button class="remove-path-btn" data-index="${index}">移除</button>
+      `;
+      pathsList.appendChild(li);
+    });
+
+    // Add event listeners to remove buttons
+    document.querySelectorAll('.remove-path-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const index = parseInt(e.target.dataset.index);
+        protectedPaths.splice(index, 1);
+        renderPathsList();
+        saveProtectedPaths();
+      });
+    });
+  }
+
+  // Save protected paths to backend
+  async function saveProtectedPaths() {
+    try {
+      const response = await fetch('/api/access-control', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({ paths: protectedPaths }),
+      });
+
+      const data = await response.json();
+      
+      if (response.ok) {
+        showStatus('受保护目录已更新', 'success');
+      } else {
+        showStatus('保存失败：' + data.error, 'error');
+      }
+    } catch (error) {
+      console.error('Save error:', error);
+      showStatus('网络错误，请稍后重试', 'error');
+    }
+  }
+
+  // Show status message
+  function showStatus(message, type) {
+    const statusEl = document.getElementById('statusMessage');
+    statusEl.textContent = message;
+    statusEl.className = `status-message status-${type}`;
+    statusEl.style.display = 'block';
+
+    setTimeout(() => {
+      statusEl.style.display = 'none';
+    }, 3000);
+  }
+
+  // Add new path
+  document.getElementById('addPathBtn').addEventListener('click', () => {
+    const input = document.getElementById('newPathInput');
+    const newPath = input.value.trim();
+
+    if (!newPath) {
+      showStatus('请输入目录路径', 'error');
+      return;
+    }
+
+    if (!newPath.startsWith('/')) {
+      showStatus('路径必须以 / 开头', 'error');
+      return;
+    }
+
+    if (!newPath.endsWith('/')) {
+      showStatus('路径必须以 / 结尾', 'error');
+      return;
+    }
+
+    if (protectedPaths.includes(newPath)) {
+      showStatus('该目录已在列表中', 'error');
+      return;
+    }
+
+    protectedPaths.push(newPath);
+    renderPathsList();
+    saveProtectedPaths();
+    input.value = '';
+  });
+
+  // Logout
+  document.getElementById('logoutBtn').addEventListener('click', () => {
+    localStorage.removeItem('adminToken');
+    localStorage.removeItem('tokenExpires');
+    localStorage.removeItem('adminUsername');
+    window.location.href = '/';
+  });
+
+  // Initialize
+  renderPathsList();
+</script>
+{{ end }}
