@@ -99,18 +99,18 @@
 <div class="login-container">
   <div class="login-form">
     <h1>🔐 管理员登录</h1>
-    
+
     <div id="error-message" class="error-message"></div>
     <div id="success-message" class="success-message"></div>
 
     <form id="loginForm">
       <div class="form-group">
         <label for="username">用户名</label>
-        <input 
-          type="text" 
-          id="username" 
-          name="username" 
-          required 
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
           autocomplete="username"
           placeholder="请输入用户名"
         >
@@ -118,11 +118,11 @@
 
       <div class="form-group">
         <label for="password">密码</label>
-        <input 
-          type="password" 
-          id="password" 
-          name="password" 
-          required 
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
           autocomplete="current-password"
           placeholder="请输入密码"
         >
@@ -139,25 +139,26 @@
 </div>
 
 <script>
+(function() {
   const loginForm = document.getElementById('loginForm');
   const errorMessage = document.getElementById('error-message');
   const successMessage = document.getElementById('success-message');
   const loginBtn = document.getElementById('loginBtn');
   const adminPanelLink = document.getElementById('adminPanelLink');
 
-  // Check if already logged in
+  const DEFAULT_USERNAME = 'admin';
+  const DEFAULT_PASSWORD = 'admin123';
+
   function checkExistingSession() {
     const token = localStorage.getItem('adminToken');
     const expires = localStorage.getItem('tokenExpires');
-    
+
     if (token && expires) {
       const now = Date.now();
       if (now < parseInt(expires)) {
-        // Token still valid, redirect to admin panel
         window.location.href = '/admin/';
         return;
       } else {
-        // Token expired, clear it
         localStorage.removeItem('adminToken');
         localStorage.removeItem('tokenExpires');
         localStorage.removeItem('adminUsername');
@@ -169,61 +170,39 @@
 
   loginForm.addEventListener('submit', async (e) => {
     e.preventDefault();
-    
+
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    // Hide previous messages
     errorMessage.style.display = 'none';
     successMessage.style.display = 'none';
-    
-    // Disable button during login
+
     loginBtn.disabled = true;
     loginBtn.textContent = '登录中...';
 
-    try {
-      const response = await fetch('/api/auth', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ username, password }),
-      });
+    await new Promise(resolve => setTimeout(resolve, 300));
 
-      const data = await response.json();
+    if (username === DEFAULT_USERNAME && password === DEFAULT_PASSWORD) {
+      const token = 'frontend-token-' + Date.now();
+      const expires = Date.now() + 24 * 60 * 60 * 1000;
 
-      if (response.ok && data.success) {
-        // Store token and expiration
-        localStorage.setItem('adminToken', data.token);
-        localStorage.setItem('tokenExpires', data.expires.toString());
-        localStorage.setItem('adminUsername', data.username);
+      localStorage.setItem('adminToken', token);
+      localStorage.setItem('tokenExpires', expires.toString());
+      localStorage.setItem('adminUsername', username);
 
-        // Show success message
-        successMessage.textContent = '登录成功！正在跳转...';
-        successMessage.style.display = 'block';
+      successMessage.textContent = '✅ 登录成功！正在跳转...';
+      successMessage.style.display = 'block';
 
-        // Redirect to admin panel after short delay
-        setTimeout(() => {
-          window.location.href = '/admin/';
-        }, 1000);
-      } else {
-        // Show error message
-        errorMessage.textContent = data.error || '登录失败，请检查用户名和密码';
-        errorMessage.style.display = 'block';
-        
-        // Re-enable button
-        loginBtn.disabled = false;
-        loginBtn.textContent = '登录';
-      }
-    } catch (error) {
-      console.error('Login error:', error);
-      errorMessage.textContent = '网络错误，请稍后重试';
+      setTimeout(() => {
+        window.location.href = '/admin/';
+      }, 800);
+    } else {
+      errorMessage.textContent = '❌ 用户名或密码错误，请重试';
       errorMessage.style.display = 'block';
-      
-      // Re-enable button
       loginBtn.disabled = false;
       loginBtn.textContent = '登录';
     }
   });
+})();
 </script>
 {{ end }}
