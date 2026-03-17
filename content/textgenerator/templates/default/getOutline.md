@@ -4,7 +4,7 @@ name: 🗒️Generate Outline
 description: Select a title, an outline will be generated for You.
 required_values: title
 author: Noureddine
-tags: writing
+tags: ["writing"]
 version: 0.0.1
 ---
 title:

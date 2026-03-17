@@ -1,5 +1,5 @@
 ---
-title: "架构师（JiaGouX）"
+title: "Cursor长时间运行 Agent 的工程方法论"
 date: 2026-03-05T18:35:44+08:00
 draft: false
 description: ""
@@ -10,10 +10,7 @@ url: "/tech/cursor-agent-engineering/"
 
 > **原文来源**：https://mp.weixin.qq.com/s/FHdGHztSOOItttUYwA9dQw
 
-## 架构师（JiaGouX）
-
-我们都是架构师！  
-架构未来，你来不来？
+## Cursor长时间运行 Agent 的工程方法论
 
 ---
 

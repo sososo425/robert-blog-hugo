@@ -1,3 +1,13 @@
+---
+title: "斯坦福小镇：Generative Agents 记忆架构解析"
+date: 2026-03-16T10:00:00+08:00
+draft: false
+categories: ["技术"]
+tags: ["Agent", "Memory", "Generative Agents", "论文解读"]
+slug: "stanford-memory-town-analysis"
+description: "从 Agent Infra 视角解析斯坦福“小镇”项目（Generative Agents）的记忆架构与工程启示。"
+---
+
 斯坦福的“小镇”项目（即论文 **"Generative Agents: Interactive Simulacra of Human Behavior"**）是 Agent Memory 领域的里程碑式工作。 ^C9vThOS0
 
 对于做 **Agent Infra** 来说，这篇论文提供了一个非常完整的**记忆架构原型**。它几乎覆盖了记忆系统的所有核心生命周期（存储、检索、演化、应用）。

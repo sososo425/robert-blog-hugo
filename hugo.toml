@@ -3,10 +3,21 @@ languageCode = 'zh-CN'
 title = 'Robert | 程序员 · 生活家'
 theme = 'PaperMod'
 
+# 忽略 Obsidian / Copilot / Excalidraw / textgenerator 提示词等内容
+# 使用包含式正则，匹配任意路径中的这些目录名
+ignoreFiles = [
+  'copilot/',
+  'Excalidraw/',
+  'textgenerator/',
+  '\\.obsidian/',
+  'private/',
+]
+
 [params]
   author = 'Robert'
   description = '80后程序员，北邮本硕，信息与计算机专业。在代码与诗意之间寻找平衡。'
   keywords = ['Robert', '程序员', '博客', 'AI', '技术']
+  math = true
   defaultTheme = 'light'
   disableThemeToggle = false
   ShowReadingTime = true

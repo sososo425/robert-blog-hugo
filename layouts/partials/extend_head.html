@@ -1,0 +1,42 @@
+{{- /* 数学公式渲染：当 .Params.math 或 site.Params.math 为 true 时启用 MathJax */ -}}
+{{- $enableMath := or .Params.math site.Params.math -}}
+{{- if $enableMath }}
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    /* 公式块左对齐，间距适中 */
+    mjx-container[jax="SVG"][display="true"] {
+      text-align: left !important;
+      margin: 1.0em 0 !important;
+    }
+    /* 表格增强：边框+行高亮 */
+    .post-content table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1.2em 0;
+      font-size: 0.95rem;
+    }
+    .post-content table th,
+    .post-content table td {
+      border: 1px solid #e0e0e0;
+      padding: 0.5em 0.75em;
+    }
+    .post-content table thead th {
+      background: #f5f5f5;
+      font-weight: 600;
+    }
+    .post-content table tbody tr:nth-child(even) {
+      background: #fafafa;
+    }
+  </style>
+{{- end }}
+
