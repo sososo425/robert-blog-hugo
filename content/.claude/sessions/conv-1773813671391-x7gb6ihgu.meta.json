@@ -1,0 +1,19 @@
+{
+  "id": "conv-1773813671391-x7gb6ihgu",
+  "title": "你是谁？你的底层模型用的什么？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1773813671392,
+  "updatedAt": 1773820046291,
+  "lastResponseAt": 1773820046291,
+  "sessionId": "1f6900c5-2a60-4ad9-8d46-006a6d12824c",
+  "sdkSessionId": "1f6900c5-2a60-4ad9-8d46-006a6d12824c",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 59565,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 59565,
+    "percentage": 30
+  }
+}

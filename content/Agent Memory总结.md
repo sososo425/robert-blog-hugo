@@ -354,7 +354,7 @@ MemOS 对 chunk 和 GraphRAG 都提出了批评，转而主张：
 - 适合做汇报的 1 页架构图版
 
 #### Sources
-[^1]: [[_index]]
+[^1]: [[life/_index]]
 [^2]: [[llm-memory-engineering-memos]]
 [^3]: [[factual-memory]]
 [^4]: [[experiential-memory]]
