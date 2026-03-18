@@ -19,6 +19,8 @@ description: "计算机、IT、AI 技术分享"
 
 ### Agent Memory 理论研究
 - [Agent Memory 论文综述与论文导航](/tech/agent-mem-papers/0-agent-memory-overview/)
+- [斯坦福大学AI小镇论文（全文翻译+导读）](/tech/agent-mem-papers/stanford-generative-agents-full-translation/)
+- [斯坦福大学AI小镇论文阅读](/tech/agent-mem-papers/stanford-generative-agents-notes/)
 - [斯坦福小镇：Generative Agents 记忆架构解析](/tech/agent-mem-papers/stanford-generative-agents-analysis/)
 - [Agent Memory: 事实记忆 (Factual Memory)](/tech/agent-mem-papers/factual-memory/)
 - [Agent Memory: 经验记忆 (Experiential Memory)](/tech/agent-mem-papers/experiential-memory/)
