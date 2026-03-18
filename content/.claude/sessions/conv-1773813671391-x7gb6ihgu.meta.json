@@ -3,17 +3,17 @@
   "title": "你是谁？你的底层模型用的什么？",
   "titleGenerationStatus": "failed",
   "createdAt": 1773813671392,
-  "updatedAt": 1773820046291,
-  "lastResponseAt": 1773820046291,
+  "updatedAt": 1773825830639,
+  "lastResponseAt": 1773825830639,
   "sessionId": "1f6900c5-2a60-4ad9-8d46-006a6d12824c",
   "sdkSessionId": "1f6900c5-2a60-4ad9-8d46-006a6d12824c",
   "usage": {
     "model": "opus",
-    "inputTokens": 59565,
+    "inputTokens": 148746,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 59565,
-    "percentage": 30
+    "contextTokens": 148746,
+    "percentage": 74
   }
 }

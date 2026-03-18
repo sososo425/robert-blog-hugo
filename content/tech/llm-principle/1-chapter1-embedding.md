@@ -1,6 +1,7 @@
 
 ---
 title: "1. 第一章：意义的几何学 —— 语言的向量化"
+slug: "1-chapter1-embedding"
 date: 2026-03-16T12:05:00+08:00
 draft: false
 categories: ["技术"]

@@ -1,6 +1,7 @@
 
 ---
 title: "6. 终章：毕达哥拉斯的幽灵"
+slug: "6-chapter6-epilogue"
 date: 2026-03-16T12:10:00+08:00
 draft: false
 categories: ["技术"]

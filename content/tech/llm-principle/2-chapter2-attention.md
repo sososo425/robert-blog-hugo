@@ -1,6 +1,7 @@
 
 ---
 title: "2. 第二章：智能的原子 —— 注意力机制的解构"
+slug: "2-chapter2-attention"
 date: 2026-03-16T12:06:00+08:00
 draft: false
 categories: ["技术"]

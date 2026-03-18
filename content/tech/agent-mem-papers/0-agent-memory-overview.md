@@ -1,5 +1,6 @@
 ---
 title: "Agent Memory 论文综述"
+slug: "0-agent-memory-overview"
 date: 2026-03-15T20:30:00+08:00
 draft: false
 tags: ["AI", "Agent", "Memory", "综述", "论文"]
@@ -135,9 +136,9 @@ Agent Memory 与以下概念存在本质区别：
 
 本综述将论文按功能分为三大类：
 
-1. **[事实记忆 (Factual Memory)](./factual-memory)** - 存储和检索知识性信息
-2. **[经验记忆 (Experiential Memory)](./experiential-memory)** - 学习和积累技能、洞察
-3. **[工作记忆 (Working Memory)](./working-memory)** - 管理和优化上下文
+1. **[事实记忆 (Factual Memory)](./factual-memory.md)** - 存储和检索知识性信息
+2. **[经验记忆 (Experiential Memory)](./experiential-memory.md)** - 学习和积累技能、洞察
+3. **[工作记忆 (Working Memory)](./working-memory.md)** - 管理和优化上下文
 
 ---
 

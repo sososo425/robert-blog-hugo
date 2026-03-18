@@ -1,6 +1,7 @@
 
 ---
 title: "5. 第五章：时间的箭头 —— Decoder-Only 的统治"
+slug: "5-chapter5-decoder"
 date: 2026-03-16T12:09:00+08:00
 draft: false
 categories: ["技术"]

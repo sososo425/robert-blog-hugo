@@ -4,7 +4,7 @@ date: 2026-03-16T10:00:00+08:00
 draft: false
 categories: ["技术"]
 tags: ["Agent", "Memory", "Generative Agents", "论文解读"]
-slug: "stanford-memory-town-analysis"
+slug: "stanford-generative-agents-analysis"
 description: "从 Agent Infra 视角解析斯坦福“小镇”项目（Generative Agents）的记忆架构与工程启示。"
 ---
 

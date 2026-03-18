@@ -1,6 +1,7 @@
 
 ---
 title: "4. 第四章：痛苦的学习 —— 梯度下降与反向传播"
+slug: "4-chapter4-gradient"
 date: 2026-03-16T12:08:00+08:00
 draft: false
 categories: ["技术"]

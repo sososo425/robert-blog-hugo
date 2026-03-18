@@ -1,6 +1,7 @@
 
 ---
 title: "3. 第三章：多维视角的涌现 —— 多头注意力"
+slug: "3-chapter3-multihead"
 date: 2026-03-16T12:07:00+08:00
 draft: false
 categories: ["技术"]

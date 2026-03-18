@@ -1,6 +1,7 @@
 
 ---
 title: "0. 序言：打破黑盒的幻象"
+slug: "0-preface"
 date: 2026-03-16T12:04:00+08:00
 draft: false
 categories: ["技术"]
