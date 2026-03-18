@@ -15,10 +15,10 @@ description: "计算机、IT、AI 技术分享"
 - [MemGPT/Letta 记忆与上下文管理深度解析](/tech/memgpt-letta-guide/)
 - [MemGPT 论文中文翻译：将 LLM 作为操作系统](/tech/memgpt-paper-translation/)
 - [从 Skill 的渐进式加载得到的启发](/tech/从-skill-的渐进式加载得到的启发/)
-- [架构师（JiaGouX）](/tech/cursor-agent-engineering/)
+- [Cursor长时间运行 Agent 的工程方法论]({{< relref "tech/ai-agents/cursor-agent-engineering.md" >}})
 
 ### Agent Memory 理论研究
-- [Agent Memory 论文综述与论文导航]({{< relref "tech/agent-mem-papers/_index.md" >}})
+- [Agent Memory 论文综述与论文导航]({{< relref "tech/agent-mem-papers/0. Agent Memory 论文综述.md" >}})
 - [斯坦福小镇：Generative Agents 记忆架构解析]({{< relref "tech/agent-mem-papers/斯坦福小镇memory分析.md" >}})
 - [Agent Memory: 事实记忆 (Factual Memory)]({{< relref "tech/agent-mem-papers/factual-memory.md" >}})
 - [Agent Memory: 经验记忆 (Experiential Memory)]({{< relref "tech/agent-mem-papers/experiential-memory.md" >}})
