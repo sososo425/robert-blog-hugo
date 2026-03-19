@@ -1,7 +1,8 @@
 {
-  "buildCommand": "npm install && hugo --gc --minify",
-  "outputDirectory": "public",
   "framework": "hugo",
+  "installCommand": "npm install",
+  "buildCommand": "hugo --gc --minify",
+  "outputDirectory": "public",
   "headers": [
     {
       "source": "/api/(.*)",
