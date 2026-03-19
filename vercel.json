@@ -1,12 +1,7 @@
 {
   "buildCommand": "hugo --gc --minify",
   "outputDirectory": "public",
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    }
-  ],
+  "framework": "hugo",
   "headers": [
     {
       "source": "/api/(.*)",
