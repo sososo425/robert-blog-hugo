@@ -98,8 +98,10 @@ ${articleContent?.substring(0, 6000) || '未提供文章内容'}
 async function logToBlob(data) {
   try {
     const blobToken = process.env.BLOB_READ_WRITE_TOKEN;
+    console.log('BLOB_READ_WRITE_TOKEN exists:', !!blobToken);
+
     if (!blobToken) {
-      console.log('CHAT LOG:', JSON.stringify(data, null, 2));
+      console.log('CHAT LOG (no token):', JSON.stringify(data, null, 2));
       return;
     }
 
@@ -107,11 +109,16 @@ async function logToBlob(data) {
     const date = new Date().toISOString().split('T')[0];
     const pathname = `${BLOB_PATH_PREFIX}/${articleSlug}/${date}/${data.conversationId}.json`;
 
-    await put(pathname, JSON.stringify(data, null, 2), {
+    console.log('Uploading to blob:', pathname);
+
+    const result = await put(pathname, JSON.stringify(data, null, 2), {
       access: 'private',
       contentType: 'application/json',
+      token: blobToken, // Explicitly pass token
     });
+
+    console.log('Blob upload success:', result.url || result.pathname);
   } catch (error) {
-    console.error('Blob logging error:', error);
+    console.error('Blob logging error:', error.message, error.stack);
   }
 }
