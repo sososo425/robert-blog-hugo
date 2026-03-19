@@ -1,5 +1,8 @@
 {
   "name": "robert-blog-hugo",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@vercel/blob": "^2.3.1"
+  }
 }

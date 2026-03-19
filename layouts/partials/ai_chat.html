@@ -10,7 +10,7 @@
     </svg>
     <span>AI助手</span>
   </button>
-  
+
   <div id="ai-chat-window" class="ai-chat-window" style="display: none;">
     <div class="ai-chat-header">
       <div class="ai-chat-title">
@@ -20,20 +20,30 @@
         </svg>
         <span>文章 AI 助手</span>
       </div>
-      <button id="ai-chat-close" class="ai-chat-close" aria-label="关闭">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="6" x2="6" y2="18"></line>
-          <line x1="6" y1="6" x2="18" y2="18"></line>
-        </svg>
-      </button>
+      <div class="ai-chat-header-actions">
+        <button id="ai-chat-expand" class="ai-chat-header-btn" aria-label="展开" title="展开窗口">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3"></path>
+            <path d="M21 8V5a2 2 0 0 0-2-2h-3"></path>
+            <path d="M3 16v3a2 2 0 0 0 2 2h3"></path>
+            <path d="M16 21h3a2 2 0 0 0 2-2v-3"></path>
+          </svg>
+        </button>
+        <button id="ai-chat-close" class="ai-chat-header-btn" aria-label="关闭">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
     </div>
-    
+
     <div class="ai-chat-suggestions">
       <button class="ai-chat-suggestion" data-prompt="这篇文章的核心观点是什么？">💡 总结核心观点</button>
       <button class="ai-chat-suggestion" data-prompt="请帮我解释文中的技术概念">🔍 解释技术概念</button>
       <button class="ai-chat-suggestion" data-prompt="这篇文章有哪些关键要点？">📝 提取关键要点</button>
     </div>
-    
+
     <div id="ai-chat-messages" class="ai-chat-messages">
       <div class="ai-chat-message ai-chat-message-assistant">
         <div class="ai-chat-avatar">🤖</div>
@@ -42,11 +52,11 @@
         </div>
       </div>
     </div>
-    
+
     <div class="ai-chat-input-area">
-      <textarea 
-        id="ai-chat-input" 
-        class="ai-chat-input" 
+      <textarea
+        id="ai-chat-input"
+        class="ai-chat-input"
         placeholder="输入你的问题..."
         rows="2"
       ></textarea>
@@ -58,7 +68,8 @@
       </button>
     </div>
     <div class="ai-chat-footer">
-      <span>Powered by Kimi AI</span>
+      <span>Powered by Kimi k2.5</span>
+      <span id="ai-chat-token-info" class="ai-chat-token-info"></span>
     </div>
   </div>
 </div>
@@ -106,6 +117,20 @@
   display: flex;
   flex-direction: column;
   max-height: 600px;
+  transition: all 0.3s ease;
+}
+
+.ai-chat-window.expanded {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  max-width: 900px;
+  height: 85vh;
+  max-height: 85vh;
+  bottom: auto;
+  right: auto;
 }
 
 .dark .ai-chat-window {
@@ -130,7 +155,12 @@
   font-size: 15px;
 }
 
-.ai-chat-close {
+.ai-chat-header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.ai-chat-header-btn {
   background: none;
   border: none;
   color: white;
@@ -138,9 +168,12 @@
   padding: 4px;
   border-radius: 4px;
   transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.ai-chat-close:hover {
+.ai-chat-header-btn:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -188,6 +221,10 @@
   background: var(--theme, #fff);
 }
 
+.ai-chat-window.expanded .ai-chat-messages {
+  max-height: none;
+}
+
 .dark .ai-chat-messages {
   background: #1a1a1a;
 }
@@ -232,6 +269,7 @@
   font-size: 14px;
   line-height: 1.6;
   color: var(--content, #333);
+  overflow-wrap: break-word;
 }
 
 .dark .ai-chat-content {
@@ -245,11 +283,127 @@
 }
 
 .ai-chat-content p {
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 
-.ai-chat-content p + p {
-  margin-top: 8px;
+.ai-chat-content p:last-child {
+  margin-bottom: 0;
+}
+
+.ai-chat-content pre {
+  background: #1a1a2e;
+  border-radius: 8px;
+  padding: 12px;
+  overflow-x: auto;
+  margin: 8px 0;
+  position: relative;
+}
+
+.ai-chat-content code {
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  font-size: 13px;
+}
+
+.ai-chat-content :not(pre) > code {
+  background: rgba(102, 126, 234, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #667eea;
+}
+
+.ai-chat-content pre code {
+  color: #e0e0e0;
+  background: none;
+  padding: 0;
+}
+
+.code-block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  background: #252542;
+  border-radius: 8px 8px 0 0;
+  font-size: 12px;
+  color: #888;
+  margin: -12px -12px 8px -12px;
+}
+
+.code-block-copy {
+  background: none;
+  border: 1px solid #444;
+  color: #888;
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 11px;
+  transition: all 0.2s;
+}
+
+.code-block-copy:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.code-block-copy.copied {
+  border-color: #4ade80;
+  color: #4ade80;
+}
+
+.ai-chat-content ul, .ai-chat-content ol {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.ai-chat-content li {
+  margin: 4px 0;
+}
+
+.ai-chat-content h1, .ai-chat-content h2, .ai-chat-content h3, .ai-chat-content h4 {
+  margin: 16px 0 8px 0;
+  font-weight: 600;
+}
+
+.ai-chat-content h1 { font-size: 18px; }
+.ai-chat-content h2 { font-size: 16px; }
+.ai-chat-content h3 { font-size: 15px; }
+.ai-chat-content h4 { font-size: 14px; }
+
+.ai-chat-content blockquote {
+  border-left: 3px solid #667eea;
+  padding-left: 12px;
+  margin: 8px 0;
+  color: #666;
+}
+
+.dark .ai-chat-content blockquote {
+  color: #aaa;
+}
+
+.ai-chat-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+  font-size: 13px;
+}
+
+.ai-chat-content th, .ai-chat-content td {
+  border: 1px solid var(--border, #e5e5e5);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.dark .ai-chat-content th, .dark .ai-chat-content td {
+  border-color: #444;
+}
+
+.ai-chat-content th {
+  background: var(--code-bg, #f5f5f5);
+  font-weight: 600;
+}
+
+.dark .ai-chat-content th {
+  background: #333;
 }
 
 .ai-chat-input-area {
@@ -312,6 +466,9 @@
 }
 
 .ai-chat-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 8px 16px;
   text-align: center;
   font-size: 11px;
@@ -324,6 +481,10 @@
   background: #242424;
   border-color: #333;
   color: #666;
+}
+
+.ai-chat-token-info {
+  font-size: 10px;
 }
 
 .ai-chat-loading {
@@ -348,22 +509,57 @@
   40% { transform: scale(1); }
 }
 
+.ai-chat-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 12px;
+  color: #dc2626;
+  font-size: 13px;
+}
+
+.dark .ai-chat-error {
+  background: #450a0a;
+  border-color: #7f1d1d;
+  color: #fca5a5;
+}
+
+.ai-chat-retry {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.ai-chat-retry:hover {
+  background: #b91c1c;
+}
+
 @media (max-width: 480px) {
   .ai-chat-widget {
     bottom: 10px;
     right: 10px;
   }
-  
+
   .ai-chat-window {
     width: calc(100vw - 20px);
     right: -10px;
     bottom: 60px;
   }
-  
+
+  .ai-chat-window.expanded {
+    width: 95vw;
+    height: 80vh;
+  }
+
   .ai-chat-toggle span {
     display: none;
   }
-  
+
   .ai-chat-toggle {
     padding: 12px;
     border-radius: 50%;
@@ -371,26 +567,70 @@
 }
 </style>
 
+<!-- Load marked.js for Markdown parsing -->
+<script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
 <script>
 (function() {
+  // Wait for marked to load
+  const waitForMarked = () => {
+    return new Promise((resolve) => {
+      if (typeof marked !== 'undefined') {
+        resolve(marked);
+        return;
+      }
+      const checkInterval = setInterval(() => {
+        if (typeof marked !== 'undefined') {
+          clearInterval(checkInterval);
+          resolve(marked);
+        }
+      }, 100);
+      // Timeout after 10 seconds
+      setTimeout(() => {
+        clearInterval(checkInterval);
+        resolve(null);
+      }, 10000);
+    });
+  };
+
   // Article content for context
   const articleTitle = {{ .Title | jsonify }};
-  const articleContent = document.querySelector('.post-content')?.innerText?.substring(0, 8000) || '';
+  const articleContent = document.querySelector('.post-content')?.innerText?.substring(0, 6000) || '';
   const articleUrl = {{ .Permalink | jsonify }};
-  
+
   // DOM elements
   const toggle = document.getElementById('ai-chat-toggle');
   const window_ = document.getElementById('ai-chat-window');
   const close = document.getElementById('ai-chat-close');
+  const expand = document.getElementById('ai-chat-expand');
   const input = document.getElementById('ai-chat-input');
   const send = document.getElementById('ai-chat-send');
   const messages = document.getElementById('ai-chat-messages');
   const suggestions = document.querySelectorAll('.ai-chat-suggestion');
-  
+  const tokenInfo = document.getElementById('ai-chat-token-info');
+
   // State
   let isOpen = false;
   let isLoading = false;
-  
+  let isExpanded = false;
+  let conversationId = null;
+  let markedParser = null;
+
+  // Initialize
+  (async () => {
+    markedParser = await waitForMarked();
+    if (!markedParser) {
+      console.warn('Marked.js failed to load, falling back to plain text');
+    }
+  })();
+
+  // Generate or retrieve conversation ID
+  const getConversationId = () => {
+    if (!conversationId) {
+      conversationId = crypto.randomUUID();
+    }
+    return conversationId;
+  };
+
   // Toggle chat window
   toggle.addEventListener('click', () => {
     isOpen = !isOpen;
@@ -399,12 +639,30 @@
       input.focus();
     }
   });
-  
+
   close.addEventListener('click', () => {
     isOpen = false;
     window_.style.display = 'none';
   });
-  
+
+  // Expand/collapse window
+  expand.addEventListener('click', () => {
+    isExpanded = !isExpanded;
+    window_.classList.toggle('expanded', isExpanded);
+
+    // Update expand icon
+    const svg = expand.querySelector('svg');
+    if (isExpanded) {
+      // Shrink icon
+      svg.innerHTML = '<path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/>';
+      expand.setAttribute('title', '缩小窗口');
+    } else {
+      // Expand icon
+      svg.innerHTML = '<path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/>';
+      expand.setAttribute('title', '展开窗口');
+    }
+  });
+
   // Suggestion buttons
   suggestions.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -413,7 +671,7 @@
       sendMessage();
     });
   });
-  
+
   // Send message
   send.addEventListener('click', sendMessage);
   input.addEventListener('keydown', (e) => {
@@ -422,18 +680,87 @@
       sendMessage();
     }
   });
-  
-  function addMessage(content, isUser = false) {
+
+  // Parse Markdown content
+  function parseMarkdown(content) {
+    if (!markedParser) {
+      // Fallback: escape HTML and convert newlines to <br>
+      return escapeHtml(content).replace(/\n/g, '<br>');
+    }
+
+    try {
+      // Configure marked options
+      markedParser.setOptions({
+        breaks: true,
+        gfm: true,
+        headerIds: false,
+        sanitize: false // We handle sanitization ourselves
+      });
+
+      let html = markedParser.parse(content);
+
+      // Add copy buttons to code blocks
+      html = html.replace(/<pre><code([^>]*)>([\s\S]*?)<\/code><\/pre>/g, (match, langAttr, code) => {
+        const lang = langAttr.match(/class="language-([^"]+)"/)?.[1] || 'code';
+        const escapedCode = escapeHtml(code.trim());
+        return `<pre><div class="code-block-header"><span>${lang}</span><button class="code-block-copy" onclick="copyCode(this)">复制</button></div><code${langAttr}>${code}</code></pre>`;
+      });
+
+      return html;
+    } catch (e) {
+      console.error('Markdown parsing error:', e);
+      return escapeHtml(content);
+    }
+  }
+
+  // Copy code to clipboard
+  window.copyCode = function(button) {
+    const pre = button.closest('pre');
+    const code = pre.querySelector('code');
+    const text = code.textContent;
+
+    navigator.clipboard.writeText(text).then(() => {
+      button.textContent = '已复制!';
+      button.classList.add('copied');
+      setTimeout(() => {
+        button.textContent = '复制';
+        button.classList.remove('copied');
+      }, 2000);
+    }).catch(() => {
+      button.textContent = '复制失败';
+      setTimeout(() => {
+        button.textContent = '复制';
+      }, 2000);
+    });
+  };
+
+  function addMessage(content, isUser = false, isError = false) {
     const messageDiv = document.createElement('div');
     messageDiv.className = `ai-chat-message ai-chat-message-${isUser ? 'user' : 'assistant'}`;
-    messageDiv.innerHTML = `
-      <div class="ai-chat-avatar">${isUser ? '👤' : '🤖'}</div>
-      <div class="ai-chat-content"><p>${escapeHtml(content)}</p></div>
-    `;
+
+    if (isError) {
+      messageDiv.innerHTML = `
+        <div class="ai-chat-avatar">⚠️</div>
+        <div class="ai-chat-content ai-chat-error">${content}</div>
+      `;
+    } else if (isUser) {
+      messageDiv.innerHTML = `
+        <div class="ai-chat-avatar">👤</div>
+        <div class="ai-chat-content"><p>${escapeHtml(content)}</p></div>
+      `;
+    } else {
+      // AI response with Markdown
+      const parsedContent = parseMarkdown(content);
+      messageDiv.innerHTML = `
+        <div class="ai-chat-avatar">🤖</div>
+        <div class="ai-chat-content">${parsedContent}</div>
+      `;
+    }
+
     messages.appendChild(messageDiv);
     messages.scrollTop = messages.scrollHeight;
   }
-  
+
   function addLoading() {
     const loadingDiv = document.createElement('div');
     loadingDiv.className = 'ai-chat-message ai-chat-message-assistant';
@@ -451,25 +778,35 @@
     messages.appendChild(loadingDiv);
     messages.scrollTop = messages.scrollHeight;
   }
-  
+
   function removeLoading() {
     const loading = document.getElementById('ai-chat-loading');
     if (loading) loading.remove();
   }
-  
+
+  function updateTokenInfo(usage) {
+    if (!usage) {
+      tokenInfo.textContent = '';
+      return;
+    }
+    const prompt = usage.prompt_tokens || 0;
+    const completion = usage.completion_tokens || 0;
+    tokenInfo.textContent = `${prompt} + ${completion} tokens`;
+  }
+
   async function sendMessage() {
     const text = input.value.trim();
     if (!text || isLoading) return;
-    
+
     // Add user message
     addMessage(text, true);
     input.value = '';
-    
+
     // Show loading
     isLoading = true;
     send.disabled = true;
     addLoading();
-    
+
     try {
       const response = await fetch('/api/chat', {
         method: 'POST',
@@ -480,34 +817,63 @@
           message: text,
           articleTitle: articleTitle,
           articleContent: articleContent,
-          articleUrl: articleUrl
+          articleUrl: articleUrl,
+          conversationId: getConversationId()
         })
       });
-      
+
       if (!response.ok) {
-        throw new Error('API request failed');
+        throw new Error(`API request failed: ${response.status}`);
       }
-      
+
       const data = await response.json();
       removeLoading();
-      
+
+      // Update token usage
+      updateTokenInfo(data.usage);
+
+      // Store conversation ID from response
+      if (data.conversationId) {
+        conversationId = data.conversationId;
+      }
+
       if (data.choices && data.choices[0] && data.choices[0].message) {
         addMessage(data.choices[0].message.content);
       } else if (data.content) {
         addMessage(data.content);
       } else {
-        addMessage('抱歉，我暂时无法回答，请稍后重试。');
+        addMessage('抱歉，我暂时无法回答，请稍后重试。', false, true);
       }
     } catch (error) {
       console.error('AI Chat Error:', error);
       removeLoading();
-      addMessage('抱歉，服务暂时不可用。请检查网络连接或稍后重试。');
+      addMessage(`
+        <p>抱歉，服务暂时不可用。</p>
+        <p>错误信息：${escapeHtml(error.message)}</p>
+        <button class="ai-chat-retry" onclick="retryLastMessage()">重试</button>
+      `, false, true);
     } finally {
       isLoading = false;
       send.disabled = false;
     }
   }
-  
+
+  // Retry last message
+  window.retryLastMessage = function() {
+    const errorMessage = messages.lastElementChild;
+    if (errorMessage && errorMessage.querySelector('.ai-chat-error')) {
+      errorMessage.remove();
+      // Get last user message
+      const userMessages = messages.querySelectorAll('.ai-chat-message-user');
+      if (userMessages.length > 0) {
+        const lastUserMessage = userMessages[userMessages.length - 1];
+        const text = lastUserMessage.querySelector('.ai-chat-content').textContent;
+        input.value = text;
+        sendMessage();
+      }
+    }
+  };
+
   function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
