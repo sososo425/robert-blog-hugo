@@ -1,8 +1,6 @@
 // Vercel Edge Function for Kimi AI Chat with Blob logging
 // This function acts as a proxy to avoid exposing API keys in the frontend
 
-import { put } from '@vercel/blob';
-
 export const config = {
   runtime: 'nodejs',
 };
@@ -226,6 +224,8 @@ async function logToBlob(data) {
     // Production: Upload to Vercel Blob
     const blobData = JSON.stringify(data, null, 2);
 
+    // Dynamic import to avoid initialization errors if BLOB_READ_WRITE_TOKEN is not set
+    const { put } = await import('@vercel/blob');
     await put(pathname, blobData, {
       access: 'private',
       contentType: 'application/json',
