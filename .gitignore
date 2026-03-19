@@ -45,3 +45,6 @@ content/assets/
 
 # Private content (not for public)
 content/private/
+
+# Excalidraw drawings (local only)
+content/Excalidraw/
