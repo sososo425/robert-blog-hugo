@@ -68,25 +68,30 @@ ${articleContent?.substring(0, 6000) || '未提供文章内容'}
       const error = await response.text();
       console.error('Kimi API error:', error);
 
-      logToBlob({ conversationId, articleTitle, articleUrl, userMessage: message, error, latency, success: false }).catch(() => {});
+      await logToBlob({ conversationId, articleTitle, articleUrl, userMessage: message, error, latency, success: false });
 
       return res.status(502).json({ error: 'AI service error' });
     }
 
     const data = await response.json();
 
-    logToBlob({
-      conversationId,
-      articleTitle,
-      articleUrl,
-      userMessage: message,
-      assistantResponse: data.choices?.[0]?.message?.content || '',
-      latency,
-      timestamp: new Date().toISOString(),
-      model: 'kimi-k2.5',
-      tokenUsage: data.usage || {},
-      success: true,
-    }).catch(err => console.error('Blob log error:', err));
+    // Log to blob before returning response (ensure it completes)
+    try {
+      await logToBlob({
+        conversationId,
+        articleTitle,
+        articleUrl,
+        userMessage: message,
+        assistantResponse: data.choices?.[0]?.message?.content || '',
+        latency,
+        timestamp: new Date().toISOString(),
+        model: 'kimi-k2.5',
+        tokenUsage: data.usage || {},
+        success: true,
+      });
+    } catch (logError) {
+      console.error('Blob log error:', logError);
+    }
 
     return res.status(200).json({ ...data, conversationId });
   } catch (error) {
@@ -114,7 +119,6 @@ async function logToBlob(data) {
     const result = await put(pathname, JSON.stringify(data, null, 2), {
       access: 'private',
       contentType: 'application/json',
-      token: blobToken, // Explicitly pass token
     });
 
     console.log('Blob upload success:', result.url || result.pathname);
