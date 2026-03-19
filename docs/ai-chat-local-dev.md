@@ -94,7 +94,7 @@ node api/chat-local.js
   "assistantResponse": "AI回答",
   "latency": 1234,
   "timestamp": "2026-03-19T10:30:00.000Z",
-  "model": "kimi-k2-5",
+  "model": "kimi-k2.5",
   "tokenUsage": {
     "prompt_tokens": 100,
     "completion_tokens": 200

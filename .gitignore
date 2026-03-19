@@ -28,3 +28,20 @@ content/images
 
 # Local chat conversation logs
 logs/
+.vercel
+
+# Local Hugo config override (baseURL = localhost)
+hugo.local.toml
+.env*.local
+
+# Node.js dependencies
+node_modules/
+
+# Claude local sessions and settings
+content/.claude/
+
+# Local assets (pasted images, temp files)
+content/assets/
+
+# Private content (not for public)
+content/private/

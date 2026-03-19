@@ -54,7 +54,7 @@ export default async function handler(request) {
       return new Response(JSON.stringify({ error: 'API key not configured' }), {
         status: 500,
         headers: {
-          'Content-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Origin': '*',
           'Content-Type': 'application/json',
         },
       });
@@ -81,7 +81,7 @@ ${articleContent?.substring(0, 6000) || '未提供文章内容'}
         'Authorization': `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: 'kimi-k2-5',
+        model: 'kimi-k2.5',
         messages: [
           {
             role: 'system',
@@ -92,7 +92,7 @@ ${articleContent?.substring(0, 6000) || '未提供文章内容'}
             content: message,
           },
         ],
-        temperature: 0.3,
+        temperature: 1,
         max_tokens: 3000,
       }),
     });
@@ -113,7 +113,7 @@ ${articleContent?.substring(0, 6000) || '未提供文章内容'}
         error: error,
         latency,
         timestamp: new Date().toISOString(),
-        model: 'kimi-k2-5',
+        model: 'kimi-k2.5',
         success: false,
       });
 
@@ -137,7 +137,7 @@ ${articleContent?.substring(0, 6000) || '未提供文章内容'}
       assistantResponse: data.choices?.[0]?.message?.content || '',
       latency,
       timestamp: new Date().toISOString(),
-      model: 'kimi-k2-5',
+      model: 'kimi-k2.5',
       tokenUsage: data.usage || {},
       success: true,
     };
