@@ -2,7 +2,7 @@
 // This function acts as a proxy to avoid exposing API keys in the frontend
 
 export const config = {
-  runtime: 'nodejs',
+  runtime: 'nodejs18.x',
 };
 
 const KIMI_API_URL = 'https://api.moonshot.cn/v1/chat/completions';
