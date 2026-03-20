@@ -2,6 +2,11 @@
   "name": "robert-blog-hugo",
   "private": true,
   "type": "module",
+  "scripts": {
+    "blob:list": "node scripts/blob-admin.js list",
+    "blob:download": "node scripts/blob-admin.js download",
+    "blob:stats": "node scripts/blob-admin.js stats"
+  },
   "dependencies": {
     "@vercel/blob": "^2.3.1"
   }
