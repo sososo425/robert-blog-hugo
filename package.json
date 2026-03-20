@@ -8,6 +8,8 @@
     "blob:stats": "node scripts/blob-admin.js stats"
   },
   "dependencies": {
-    "@vercel/blob": "^2.3.1"
+    "@vercel/blob": "^2.3.1",
+    "bcryptjs": "^2.4.3",
+    "jose": "^5.9.6"
   }
 }

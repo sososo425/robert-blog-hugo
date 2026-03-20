@@ -1,5 +1,6 @@
-{{- /* AI Chat Component for Blog Posts */ -}}
+{{- /* AI Chat Component for Blog Posts with User System */ -}}
 {{- if not (.Param "disableAIChat") -}}
+{{- $articleSlug := .File.ContentBaseName | default (path.Base .RelPermalink) -}}
 <div id="ai-chat-widget" class="ai-chat-widget">
   <button id="ai-chat-toggle" class="ai-chat-toggle" aria-label="AI助手">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -21,6 +22,12 @@
         <span>文章 AI 助手</span>
       </div>
       <div class="ai-chat-header-actions">
+        <button id="ai-chat-user-btn" class="ai-chat-header-btn" aria-label="用户" title="用户登录">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+        </button>
         <button id="ai-chat-expand" class="ai-chat-header-btn" aria-label="展开" title="展开窗口">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M8 3H5a2 2 0 0 0-2 2v3"></path>
@@ -36,6 +43,11 @@
           </svg>
         </button>
       </div>
+    </div>
+
+    <div class="ai-chat-user-bar" id="ai-chat-user-bar" style="display: none;">
+      <span id="ai-chat-user-status">游客模式 - 登录后可保存聊天记录</span>
+      <button id="ai-chat-login-btn" class="ai-chat-user-btn">登录</button>
     </div>
 
     <div class="ai-chat-suggestions">
@@ -74,811 +86,755 @@
   </div>
 </div>
 
+<!-- Login Modal -->
+<div id="ai-chat-login-modal" class="ai-chat-modal" style="display: none;">
+  <div class="ai-chat-modal-content">
+    <div class="ai-chat-modal-header">
+      <h3>用户登录</h3>
+      <button class="ai-chat-modal-close" id="ai-chat-login-close">&times;</button>
+    </div>
+    <div class="ai-chat-modal-body">
+      <div id="ai-chat-login-form">
+        <div class="ai-chat-form-group">
+          <label>用户名</label>
+          <input type="text" id="ai-chat-login-username" placeholder="输入用户名">
+        </div>
+        <div class="ai-chat-form-group">
+          <label>密码</label>
+          <input type="password" id="ai-chat-login-password" placeholder="输入密码">
+        </div>
+        <div id="ai-chat-login-error" class="ai-chat-form-error"></div>
+        <button id="ai-chat-login-submit" class="ai-chat-btn-primary">登录</button>
+        <p class="ai-chat-form-hint">还没有账号？<a href="#" id="ai-chat-show-register">立即注册</a></p>
+        <p class="ai-chat-form-hint">管理员账号：admin / 123456</p>
+      </div>
+      <div id="ai-chat-register-form" style="display: none;">
+        <div class="ai-chat-form-group">
+          <label>用户名</label>
+          <input type="text" id="ai-chat-register-username" placeholder="3-20个字符">
+        </div>
+        <div class="ai-chat-form-group">
+          <label>密码</label>
+          <input type="password" id="ai-chat-register-password" placeholder="至少6个字符">
+        </div>
+        <div id="ai-chat-register-error" class="ai-chat-form-error"></div>
+        <button id="ai-chat-register-submit" class="ai-chat-btn-primary">注册</button>
+        <p class="ai-chat-form-hint">已有账号？<a href="#" id="ai-chat-show-login">返回登录</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- User Menu Modal -->
+<div id="ai-chat-user-modal" class="ai-chat-modal" style="display: none;">
+  <div class="ai-chat-modal-content">
+    <div class="ai-chat-modal-header">
+      <h3>用户信息</h3>
+      <button class="ai-chat-modal-close" id="ai-chat-user-close">&times;</button>
+    </div>
+    <div class="ai-chat-modal-body">
+      <div id="ai-chat-user-info">
+        <p><strong>用户名：</strong><span id="ai-chat-user-name"></span></p>
+        <p><strong>角色：</strong><span id="ai-chat-user-role"></span></p>
+      </div>
+      <div id="ai-chat-change-password-form" style="display: none; margin-top: 20px;">
+        <h4>修改密码</h4>
+        <div class="ai-chat-form-group">
+          <label>当前密码</label>
+          <input type="password" id="ai-chat-current-password">
+        </div>
+        <div class="ai-chat-form-group">
+          <label>新密码</label>
+          <input type="password" id="ai-chat-new-password">
+        </div>
+        <div id="ai-chat-password-error" class="ai-chat-form-error"></div>
+        <button id="ai-chat-password-submit" class="ai-chat-btn-primary">修改密码</button>
+      </div>
+      <div class="ai-chat-modal-actions">
+        <button id="ai-chat-logout-btn" class="ai-chat-btn-secondary">退出登录</button>
+        <button id="ai-chat-toggle-password" class="ai-chat-btn-text">修改密码</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <style>
-.ai-chat-widget {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+/* ... existing styles ... */
 
-.ai-chat-toggle {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
-  transition: all 0.3s ease;
-}
-
-.ai-chat-toggle:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(102, 126, 234, 0.5);
-}
-
-.ai-chat-window {
-  position: absolute;
-  bottom: 70px;
-  right: 0;
-  width: 380px;
-  max-width: calc(100vw - 40px);
-  background: var(--theme, #fff);
-  border-radius: 16px;
-  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  max-height: 600px;
-  transition: all 0.3s ease;
-}
-
-.ai-chat-window.expanded {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90vw;
-  max-width: 900px;
-  height: 85vh;
-  max-height: 85vh;
-  bottom: auto;
-  right: auto;
-}
-
-.dark .ai-chat-window {
-  background: #1a1a1a;
-  border: 1px solid #333;
-}
-
-.ai-chat-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-}
-
-.ai-chat-title {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.ai-chat-header-actions {
-  display: flex;
-  gap: 8px;
-}
-
-.ai-chat-header-btn {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  padding: 4px;
-  border-radius: 4px;
-  transition: background 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ai-chat-header-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.ai-chat-suggestions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  padding: 12px 16px;
-  background: var(--theme, #f8f9fa);
-  border-bottom: 1px solid var(--border, #e5e5e5);
-}
-
-.dark .ai-chat-suggestions {
-  background: #242424;
-  border-color: #333;
-}
-
-.ai-chat-suggestion {
-  padding: 6px 12px;
-  background: var(--theme, #fff);
-  border: 1px solid var(--border, #e5e5e5);
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 12px;
-  color: var(--primary, #333);
-  transition: all 0.2s;
-}
-
-.dark .ai-chat-suggestion {
-  background: #1a1a1a;
-  border-color: #444;
-  color: #e0e0e0;
-}
-
-.ai-chat-suggestion:hover {
-  border-color: #667eea;
-  color: #667eea;
-}
-
-.ai-chat-messages {
-  flex: 1;
-  overflow-y: auto;
-  padding: 16px;
-  max-height: 350px;
-  background: var(--theme, #fff);
-}
-
-.ai-chat-window.expanded .ai-chat-messages {
-  max-height: none;
-}
-
-.dark .ai-chat-messages {
-  background: #1a1a1a;
-}
-
-.ai-chat-message {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 16px;
-  animation: fadeIn 0.3s ease;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.ai-chat-avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  flex-shrink: 0;
-  background: #f0f0f0;
-}
-
-.dark .ai-chat-avatar {
-  background: #333;
-}
-
-.ai-chat-message-user .ai-chat-avatar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-.ai-chat-content {
-  flex: 1;
-  background: var(--code-bg, #f5f5f5);
-  padding: 12px 16px;
-  border-radius: 12px;
-  font-size: 14px;
-  line-height: 1.6;
-  color: var(--content, #333);
-  overflow-wrap: break-word;
-}
-
-.dark .ai-chat-content {
-  background: #2a2a2a;
-  color: #e0e0e0;
-}
-
-.ai-chat-message-user .ai-chat-content {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-}
-
-.ai-chat-content p {
-  margin: 0 0 8px 0;
-}
-
-.ai-chat-content p:last-child {
-  margin-bottom: 0;
-}
-
-.ai-chat-content pre {
-  background: #1a1a2e;
-  border-radius: 8px;
-  padding: 12px;
-  overflow-x: auto;
-  margin: 8px 0;
-  position: relative;
-}
-
-.ai-chat-content code {
-  font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-  font-size: 13px;
-}
-
-.ai-chat-content :not(pre) > code {
-  background: rgba(102, 126, 234, 0.1);
-  padding: 2px 6px;
-  border-radius: 4px;
-  color: #667eea;
-}
-
-.ai-chat-content pre code {
-  color: #e0e0e0;
-  background: none;
-  padding: 0;
-}
-
-.code-block-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6px 12px;
-  background: #252542;
-  border-radius: 8px 8px 0 0;
-  font-size: 12px;
-  color: #888;
-  margin: -12px -12px 8px -12px;
-}
-
-.code-block-copy {
-  background: none;
-  border: 1px solid #444;
-  color: #888;
-  padding: 2px 8px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 11px;
-  transition: all 0.2s;
-}
-
-.code-block-copy:hover {
-  border-color: #667eea;
-  color: #667eea;
-}
-
-.code-block-copy.copied {
-  border-color: #4ade80;
-  color: #4ade80;
-}
-
-.ai-chat-content ul, .ai-chat-content ol {
-  margin: 8px 0;
-  padding-left: 20px;
-}
-
-.ai-chat-content li {
-  margin: 4px 0;
-}
-
-.ai-chat-content h1, .ai-chat-content h2, .ai-chat-content h3, .ai-chat-content h4 {
-  margin: 16px 0 8px 0;
-  font-weight: 600;
-}
-
-.ai-chat-content h1 { font-size: 18px; }
-.ai-chat-content h2 { font-size: 16px; }
-.ai-chat-content h3 { font-size: 15px; }
-.ai-chat-content h4 { font-size: 14px; }
-
-.ai-chat-content blockquote {
-  border-left: 3px solid #667eea;
-  padding-left: 12px;
-  margin: 8px 0;
-  color: #666;
-}
-
-.dark .ai-chat-content blockquote {
-  color: #aaa;
-}
-
-.ai-chat-content table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 8px 0;
-  font-size: 13px;
-}
-
-.ai-chat-content th, .ai-chat-content td {
-  border: 1px solid var(--border, #e5e5e5);
-  padding: 8px 12px;
-  text-align: left;
-}
-
-.dark .ai-chat-content th, .dark .ai-chat-content td {
-  border-color: #444;
-}
-
-.ai-chat-content th {
-  background: var(--code-bg, #f5f5f5);
-  font-weight: 600;
-}
-
-.dark .ai-chat-content th {
-  background: #333;
-}
-
-.ai-chat-input-area {
-  display: flex;
-  gap: 8px;
-  padding: 12px 16px;
-  background: var(--theme, #f8f9fa);
-  border-top: 1px solid var(--border, #e5e5e5);
-}
-
-.dark .ai-chat-input-area {
-  background: #242424;
-  border-color: #333;
-}
-
-.ai-chat-input {
-  flex: 1;
-  padding: 10px 14px;
-  border: 1px solid var(--border, #ddd);
-  border-radius: 20px;
-  resize: none;
-  font-family: inherit;
-  font-size: 14px;
-  background: var(--theme, #fff);
-  color: var(--content, #333);
-  outline: none;
-}
-
-.dark .ai-chat-input {
-  background: #1a1a1a;
-  border-color: #444;
-  color: #e0e0e0;
-}
-
-.ai-chat-input:focus {
-  border-color: #667eea;
-}
-
-.ai-chat-send {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.ai-chat-send:hover:not(:disabled) {
-  transform: scale(1.05);
-}
-
-.ai-chat-send:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.ai-chat-footer {
+.ai-chat-user-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
-  text-align: center;
-  font-size: 11px;
-  color: #999;
-  background: var(--theme, #f8f9fa);
-  border-top: 1px solid var(--border, #e5e5e5);
-}
-
-.dark .ai-chat-footer {
-  background: #242424;
-  border-color: #333;
+  background: #f0f4ff;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 12px;
   color: #666;
 }
 
-.ai-chat-token-info {
-  font-size: 10px;
+.dark .ai-chat-user-bar {
+  background: #1a1f36;
+  border-color: #333;
+  color: #999;
 }
 
-.ai-chat-loading {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.ai-chat-loading span {
-  width: 8px;
-  height: 8px;
-  background: #667eea;
-  border-radius: 50%;
-  animation: bounce 1.4s infinite ease-in-out both;
-}
-
-.ai-chat-loading span:nth-child(1) { animation-delay: -0.32s; }
-.ai-chat-loading span:nth-child(2) { animation-delay: -0.16s; }
-
-@keyframes bounce {
-  0%, 80%, 100% { transform: scale(0); }
-  40% { transform: scale(1); }
-}
-
-.ai-chat-error {
-  background: #fef2f2;
-  border: 1px solid #fecaca;
-  border-radius: 8px;
-  padding: 12px;
-  color: #dc2626;
-  font-size: 13px;
-}
-
-.dark .ai-chat-error {
-  background: #450a0a;
-  border-color: #7f1d1d;
-  color: #fca5a5;
-}
-
-.ai-chat-retry {
-  background: #dc2626;
+.ai-chat-user-btn {
+  padding: 4px 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border: none;
-  padding: 4px 12px;
-  border-radius: 4px;
+  border-radius: 12px;
   cursor: pointer;
   font-size: 12px;
-  margin-top: 8px;
 }
 
-.ai-chat-retry:hover {
-  background: #b91c1c;
+/* Modal Styles */
+.ai-chat-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (max-width: 480px) {
-  .ai-chat-widget {
-    bottom: 10px;
-    right: 10px;
-  }
+.ai-chat-modal-content {
+  background: white;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 360px;
+  max-height: 90vh;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
 
-  .ai-chat-window {
-    width: calc(100vw - 20px);
-    right: -10px;
-    bottom: 60px;
-  }
+.dark .ai-chat-modal-content {
+  background: #1a1a1a;
+  border: 1px solid #333;
+}
 
-  .ai-chat-window.expanded {
-    width: 95vw;
-    height: 80vh;
-  }
+.ai-chat-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
 
-  .ai-chat-toggle span {
-    display: none;
-  }
+.dark .ai-chat-modal-header {
+  border-color: #333;
+}
 
-  .ai-chat-toggle {
-    padding: 12px;
-    border-radius: 50%;
-  }
+.ai-chat-modal-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.dark .ai-chat-modal-header h3 {
+  color: #fff;
+}
+
+.ai-chat-modal-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-chat-modal-body {
+  padding: 20px;
+}
+
+.ai-chat-form-group {
+  margin-bottom: 16px;
+}
+
+.ai-chat-form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #666;
+  font-weight: 500;
+}
+
+.dark .ai-chat-form-group label {
+  color: #aaa;
+}
+
+.ai-chat-form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: white;
+  color: #333;
+}
+
+.dark .ai-chat-form-group input {
+  background: #2a2a2a;
+  border-color: #444;
+  color: #fff;
+}
+
+.ai-chat-form-error {
+  color: #dc2626;
+  font-size: 12px;
+  margin-bottom: 12px;
+  min-height: 18px;
+}
+
+.ai-chat-form-hint {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.ai-chat-form-hint a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.ai-chat-btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.ai-chat-btn-primary:hover {
+  transform: translateY(-1px);
+}
+
+.ai-chat-btn-secondary {
+  padding: 8px 16px;
+  background: #f5f5f5;
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.dark .ai-chat-btn-secondary {
+  background: #2a2a2a;
+  border-color: #444;
+  color: #aaa;
+}
+
+.ai-chat-btn-text {
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  color: #667eea;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.ai-chat-modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.dark .ai-chat-modal-actions {
+  border-color: #333;
+}
+
+.ai-chat-logged-in .ai-chat-user-bar {
+  background: #e8f5e9;
+}
+
+.dark .ai-chat-logged-in .ai-chat-user-bar {
+  background: #1b3420;
+}
+
+.ai-chat-role-admin {
+  color: #667eea;
+  font-weight: 600;
 }
 </style>
 
-<!-- Load marked.js for Markdown parsing -->
 <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
 <script>
 (function() {
-  // Wait for marked to load
-  const waitForMarked = () => {
-    return new Promise((resolve) => {
-      if (typeof marked !== 'undefined') {
-        resolve(marked);
-        return;
-      }
-      const checkInterval = setInterval(() => {
-        if (typeof marked !== 'undefined') {
-          clearInterval(checkInterval);
-          resolve(marked);
-        }
-      }, 100);
-      // Timeout after 10 seconds
-      setTimeout(() => {
-        clearInterval(checkInterval);
-        resolve(null);
-      }, 10000);
-    });
-  };
-
-  // Article content for context
-  const articleTitle = {{ .Title | jsonify }};
-  const articleContent = document.querySelector('.post-content')?.innerText?.substring(0, 6000) || '';
-  const articleUrl = {{ .Permalink | jsonify }};
-
-  // DOM elements
-  const toggle = document.getElementById('ai-chat-toggle');
-  const window_ = document.getElementById('ai-chat-window');
-  const close = document.getElementById('ai-chat-close');
-  const expand = document.getElementById('ai-chat-expand');
-  const input = document.getElementById('ai-chat-input');
-  const send = document.getElementById('ai-chat-send');
-  const messages = document.getElementById('ai-chat-messages');
-  const suggestions = document.querySelectorAll('.ai-chat-suggestion');
-  const tokenInfo = document.getElementById('ai-chat-token-info');
+  // Config
+  const ARTICLE_SLUG = {{ $articleSlug | jsonify }};
+  const ARTICLE_TITLE = {{ .Title | jsonify }};
+  const ARTICLE_CONTENT = document.querySelector('.post-content')?.innerText?.substring(0, 6000) || '';
+  const ARTICLE_URL = {{ .Permalink | jsonify }};
 
   // State
-  let isOpen = false;
+  let currentUser = null;
+  let authToken = localStorage.getItem('ai_chat_token');
+  let messageHistory = [];
   let isLoading = false;
-  let isExpanded = false;
-  let conversationId = null;
   let markedParser = null;
 
+  // DOM Elements
+  const els = {
+    toggle: document.getElementById('ai-chat-toggle'),
+    window: document.getElementById('ai-chat-window'),
+    close: document.getElementById('ai-chat-close'),
+    expand: document.getElementById('ai-chat-expand'),
+    input: document.getElementById('ai-chat-input'),
+    send: document.getElementById('ai-chat-send'),
+    messages: document.getElementById('ai-chat-messages'),
+    tokenInfo: document.getElementById('ai-chat-token-info'),
+    userBar: document.getElementById('ai-chat-user-bar'),
+    userStatus: document.getElementById('ai-chat-user-status'),
+    userBtn: document.getElementById('ai-chat-user-btn'),
+    loginBtn: document.getElementById('ai-chat-login-btn'),
+    suggestions: document.querySelectorAll('.ai-chat-suggestion'),
+    // Modals
+    loginModal: document.getElementById('ai-chat-login-modal'),
+    userModal: document.getElementById('ai-chat-user-modal'),
+    loginClose: document.getElementById('ai-chat-login-close'),
+    userClose: document.getElementById('ai-chat-user-close'),
+    loginForm: document.getElementById('ai-chat-login-form'),
+    registerForm: document.getElementById('ai-chat-register-form'),
+    showRegister: document.getElementById('ai-chat-show-register'),
+    showLogin: document.getElementById('ai-chat-show-login'),
+    loginSubmit: document.getElementById('ai-chat-login-submit'),
+    registerSubmit: document.getElementById('ai-chat-register-submit'),
+    logoutBtn: document.getElementById('ai-chat-logout-btn'),
+    togglePassword: document.getElementById('ai-chat-toggle-password'),
+    passwordForm: document.getElementById('ai-chat-change-password-form'),
+  };
+
   // Initialize
-  (async () => {
-    markedParser = await waitForMarked();
-    if (!markedParser) {
-      console.warn('Marked.js failed to load, falling back to plain text');
+  async function init() {
+    // Wait for marked
+    await waitForMarked();
+
+    // Check auth status
+    await checkAuth();
+
+    // Load history if logged in
+    if (currentUser) {
+      await loadHistory();
     }
-  })();
 
-  // Generate or retrieve conversation ID
-  const getConversationId = () => {
-    if (!conversationId) {
-      conversationId = crypto.randomUUID();
-    }
-    return conversationId;
-  };
+    setupEventListeners();
+  }
 
-  // Toggle chat window
-  toggle.addEventListener('click', () => {
-    isOpen = !isOpen;
-    window_.style.display = isOpen ? 'flex' : 'none';
-    if (isOpen) {
-      input.focus();
-    }
-  });
-
-  close.addEventListener('click', () => {
-    isOpen = false;
-    window_.style.display = 'none';
-  });
-
-  // Expand/collapse window
-  expand.addEventListener('click', () => {
-    isExpanded = !isExpanded;
-    window_.classList.toggle('expanded', isExpanded);
-
-    // Update expand icon
-    const svg = expand.querySelector('svg');
-    if (isExpanded) {
-      // Shrink icon
-      svg.innerHTML = '<path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/>';
-      expand.setAttribute('title', '缩小窗口');
-    } else {
-      // Expand icon
-      svg.innerHTML = '<path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/>';
-      expand.setAttribute('title', '展开窗口');
-    }
-  });
-
-  // Suggestion buttons
-  suggestions.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const prompt = btn.dataset.prompt;
-      input.value = prompt;
-      sendMessage();
+  function waitForMarked() {
+    return new Promise((resolve) => {
+      if (typeof marked !== 'undefined') {
+        markedParser = marked;
+        markedParser.setOptions({ breaks: true, gfm: true, headerIds: false });
+        resolve();
+        return;
+      }
+      const check = setInterval(() => {
+        if (typeof marked !== 'undefined') {
+          clearInterval(check);
+          markedParser = marked;
+          markedParser.setOptions({ breaks: true, gfm: true, headerIds: false });
+          resolve();
+        }
+      }, 100);
+      setTimeout(() => { clearInterval(check); resolve(); }, 10000);
     });
-  });
+  }
 
-  // Send message
-  send.addEventListener('click', sendMessage);
-  input.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault();
-      sendMessage();
+  async function checkAuth() {
+    if (!authToken) {
+      updateUserUI(null);
+      return;
     }
-  });
-
-  // Parse Markdown content
-  function parseMarkdown(content) {
-    if (!markedParser) {
-      // Fallback: escape HTML and convert newlines to <br>
-      return escapeHtml(content).replace(/\n/g, '<br>');
-    }
-
     try {
-      // Configure marked options
-      markedParser.setOptions({
-        breaks: true,
-        gfm: true,
-        headerIds: false,
-        sanitize: false // We handle sanitization ourselves
+      const res = await fetch('/api/auth/me', {
+        headers: { 'Authorization': `Bearer ${authToken}` }
       });
-
-      let html = markedParser.parse(content);
-
-      // Add copy buttons to code blocks
-      html = html.replace(/<pre><code([^>]*)>([\s\S]*?)<\/code><\/pre>/g, (match, langAttr, code) => {
-        const lang = langAttr.match(/class="language-([^"]+)"/)?.[1] || 'code';
-        const escapedCode = escapeHtml(code.trim());
-        return `<pre><div class="code-block-header"><span>${lang}</span><button class="code-block-copy" onclick="copyCode(this)">复制</button></div><code${langAttr}>${code}</code></pre>`;
-      });
-
-      return html;
-    } catch (e) {
-      console.error('Markdown parsing error:', e);
-      return escapeHtml(content);
+      const data = await res.json();
+      if (data.user) {
+        currentUser = data.user;
+        updateUserUI(currentUser);
+      } else {
+        localStorage.removeItem('ai_chat_token');
+        authToken = null;
+        updateUserUI(null);
+      }
+    } catch {
+      updateUserUI(null);
     }
   }
 
-  // Copy code to clipboard
-  window.copyCode = function(button) {
-    const pre = button.closest('pre');
-    const code = pre.querySelector('code');
-    const text = code.textContent;
-
-    navigator.clipboard.writeText(text).then(() => {
-      button.textContent = '已复制!';
-      button.classList.add('copied');
-      setTimeout(() => {
-        button.textContent = '复制';
-        button.classList.remove('copied');
-      }, 2000);
-    }).catch(() => {
-      button.textContent = '复制失败';
-      setTimeout(() => {
-        button.textContent = '复制';
-      }, 2000);
-    });
-  };
-
-  function addMessage(content, isUser = false, isError = false) {
-    const messageDiv = document.createElement('div');
-    messageDiv.className = `ai-chat-message ai-chat-message-${isUser ? 'user' : 'assistant'}`;
-
-    if (isError) {
-      messageDiv.innerHTML = `
-        <div class="ai-chat-avatar">⚠️</div>
-        <div class="ai-chat-content ai-chat-error">${content}</div>
-      `;
-    } else if (isUser) {
-      messageDiv.innerHTML = `
-        <div class="ai-chat-avatar">👤</div>
-        <div class="ai-chat-content"><p>${escapeHtml(content)}</p></div>
-      `;
+  function updateUserUI(user) {
+    if (user) {
+      els.userBar.style.display = 'flex';
+      els.userStatus.innerHTML = `已登录：<strong>${user.username}</strong> ${user.role === 'admin' ? '<span class="ai-chat-role-admin">[管理员]</span>' : ''}`;
+      els.loginBtn.style.display = 'none';
+      els.window.classList.add('ai-chat-logged-in');
     } else {
-      // AI response with Markdown
-      const parsedContent = parseMarkdown(content);
-      messageDiv.innerHTML = `
-        <div class="ai-chat-avatar">🤖</div>
-        <div class="ai-chat-content">${parsedContent}</div>
-      `;
+      els.userBar.style.display = 'flex';
+      els.userStatus.textContent = '游客模式 - 登录后可保存聊天记录';
+      els.loginBtn.style.display = 'block';
+      els.window.classList.remove('ai-chat-logged-in');
     }
-
-    messages.appendChild(messageDiv);
-    messages.scrollTop = messages.scrollHeight;
   }
 
-  function addLoading() {
-    const loadingDiv = document.createElement('div');
-    loadingDiv.className = 'ai-chat-message ai-chat-message-assistant';
-    loadingDiv.id = 'ai-chat-loading';
-    loadingDiv.innerHTML = `
-      <div class="ai-chat-avatar">🤖</div>
-      <div class="ai-chat-content">
-        <div class="ai-chat-loading">
-          <span></span>
-          <span></span>
-          <span></span>
+  async function loadHistory() {
+    try {
+      const res = await fetch(`/api/chat/history?articleSlug=${encodeURIComponent(ARTICLE_SLUG)}`, {
+        headers: authToken ? { 'Authorization': `Bearer ${authToken}` } : {}
+      });
+      const data = await res.json();
+      if (data.messages && data.messages.length > 0) {
+        messageHistory = data.messages;
+        renderHistory();
+      }
+    } catch (err) {
+      console.error('Load history error:', err);
+    }
+  }
+
+  function renderHistory() {
+    // Clear existing messages except welcome
+    els.messages.innerHTML = `
+      <div class="ai-chat-message ai-chat-message-assistant">
+        <div class="ai-chat-avatar">🤖</div>
+        <div class="ai-chat-content">
+          <p>你好！我是这篇文章的 AI 助手。你可以问我关于本文内容的任何问题，我会基于文章内容为你解答。</p>
+          ${currentUser ? '<p style="font-size: 12px; color: #667eea; margin-top: 8px;">✓ 已加载历史聊天记录</p>' : ''}
         </div>
       </div>
     `;
-    messages.appendChild(loadingDiv);
-    messages.scrollTop = messages.scrollHeight;
+
+    // Add history messages
+    for (const msg of messageHistory) {
+      addMessage(msg.content, msg.role === 'user', false, new Date(msg.timestamp));
+    }
   }
 
-  function removeLoading() {
-    const loading = document.getElementById('ai-chat-loading');
-    if (loading) loading.remove();
+  function setupEventListeners() {
+    // Window controls
+    els.toggle.addEventListener('click', () => {
+      const isVisible = els.window.style.display === 'flex';
+      els.window.style.display = isVisible ? 'none' : 'flex';
+      if (!isVisible) els.input.focus();
+    });
+
+    els.close.addEventListener('click', () => els.window.style.display = 'none');
+
+    els.expand.addEventListener('click', () => {
+      els.window.classList.toggle('expanded');
+    });
+
+    // User auth
+    els.userBtn.addEventListener('click', () => {
+      if (currentUser) {
+        showUserModal();
+      } else {
+        showLoginModal();
+      }
+    });
+
+    els.loginBtn.addEventListener('click', showLoginModal);
+    els.loginClose.addEventListener('click', hideLoginModal);
+    els.userClose.addEventListener('click', hideUserModal);
+    els.showRegister.addEventListener('click', (e) => { e.preventDefault(); showRegisterForm(); });
+    els.showLogin.addEventListener('click', (e) => { e.preventDefault(); showLoginForm(); });
+
+    els.loginSubmit.addEventListener('click', doLogin);
+    els.registerSubmit.addEventListener('click', doRegister);
+    els.logoutBtn.addEventListener('click', doLogout);
+    els.togglePassword.addEventListener('click', () => {
+      els.passwordForm.style.display = els.passwordForm.style.display === 'none' ? 'block' : 'none';
+    });
+    document.getElementById('ai-chat-password-submit').addEventListener('click', changePassword);
+
+    // Chat
+    els.send.addEventListener('click', sendMessage);
+    els.input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    // Suggestions
+    els.suggestions.forEach(btn => {
+      btn.addEventListener('click', () => {
+        els.input.value = btn.dataset.prompt;
+        sendMessage();
+      });
+    });
+
+    // Close modals on outside click
+    window.addEventListener('click', (e) => {
+      if (e.target === els.loginModal) hideLoginModal();
+      if (e.target === els.userModal) hideUserModal();
+    });
   }
 
-  function updateTokenInfo(usage) {
-    if (!usage) {
-      tokenInfo.textContent = '';
+  // Modal functions
+  function showLoginModal() {
+    els.loginModal.style.display = 'flex';
+    showLoginForm();
+  }
+  function hideLoginModal() { els.loginModal.style.display = 'none'; }
+  function showUserModal() {
+    document.getElementById('ai-chat-user-name').textContent = currentUser.username;
+    document.getElementById('ai-chat-user-role').textContent = currentUser.role === 'admin' ? '管理员' : '普通用户';
+    els.passwordForm.style.display = 'none';
+    els.userModal.style.display = 'flex';
+  }
+  function hideUserModal() { els.userModal.style.display = 'none'; }
+  function showLoginForm() {
+    els.loginForm.style.display = 'block';
+    els.registerForm.style.display = 'none';
+    document.getElementById('ai-chat-login-error').textContent = '';
+  }
+  function showRegisterForm() {
+    els.loginForm.style.display = 'none';
+    els.registerForm.style.display = 'block';
+    document.getElementById('ai-chat-register-error').textContent = '';
+  }
+
+  // Auth functions
+  async function doLogin() {
+    const username = document.getElementById('ai-chat-login-username').value.trim();
+    const password = document.getElementById('ai-chat-login-password').value;
+    const errorEl = document.getElementById('ai-chat-login-error');
+
+    if (!username || !password) {
+      errorEl.textContent = '请输入用户名和密码';
       return;
     }
-    const prompt = usage.prompt_tokens || 0;
-    const completion = usage.completion_tokens || 0;
-    tokenInfo.textContent = `${prompt} + ${completion} tokens`;
-  }
-
-  async function sendMessage() {
-    const text = input.value.trim();
-    if (!text || isLoading) return;
-
-    // Add user message
-    addMessage(text, true);
-    input.value = '';
-
-    // Show loading
-    isLoading = true;
-    send.disabled = true;
-    addLoading();
 
     try {
-      const response = await fetch('/api/chat', {
+      const res = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+      const data = await res.json();
+
+      if (data.success) {
+        authToken = data.token;
+        currentUser = data.user;
+        localStorage.setItem('ai_chat_token', authToken);
+        updateUserUI(currentUser);
+        hideLoginModal();
+        await loadHistory();
+      } else {
+        errorEl.textContent = data.error || '登录失败';
+      }
+    } catch {
+      errorEl.textContent = '网络错误，请重试';
+    }
+  }
+
+  async function doRegister() {
+    const username = document.getElementById('ai-chat-register-username').value.trim();
+    const password = document.getElementById('ai-chat-register-password').value;
+    const errorEl = document.getElementById('ai-chat-register-error');
+
+    if (!username || !password) {
+      errorEl.textContent = '请输入用户名和密码';
+      return;
+    }
+
+    try {
+      const res = await fetch('/api/auth/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+      const data = await res.json();
+
+      if (data.success) {
+        authToken = data.token;
+        currentUser = data.user;
+        localStorage.setItem('ai_chat_token', authToken);
+        updateUserUI(currentUser);
+        hideLoginModal();
+      } else {
+        errorEl.textContent = data.error || '注册失败';
+      }
+    } catch {
+      errorEl.textContent = '网络错误，请重试';
+    }
+  }
+
+  function doLogout() {
+    localStorage.removeItem('ai_chat_token');
+    authToken = null;
+    currentUser = null;
+    messageHistory = [];
+    updateUserUI(null);
+    hideUserModal();
+    // Reset messages
+    els.messages.innerHTML = `
+      <div class="ai-chat-message ai-chat-message-assistant">
+        <div class="ai-chat-avatar">🤖</div>
+        <div class="ai-chat-content">
+          <p>你好！我是这篇文章的 AI 助手。你可以问我关于本文内容的任何问题，我会基于文章内容为你解答。</p>
+        </div>
+      </div>
+    `;
+  }
+
+  async function changePassword() {
+    const current = document.getElementById('ai-chat-current-password').value;
+    const newPass = document.getElementById('ai-chat-new-password').value;
+    const errorEl = document.getElementById('ai-chat-password-error');
+
+    try {
+      const res = await fetch('/api/auth/change-password', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Authorization': `Bearer ${authToken}`
         },
-        body: JSON.stringify({
-          message: text,
-          articleTitle: articleTitle,
-          articleContent: articleContent,
-          articleUrl: articleUrl,
-          conversationId: getConversationId()
-        })
+        body: JSON.stringify({ currentPassword: current, newPassword: newPass })
       });
+      const data = await res.json();
 
-      if (!response.ok) {
-        throw new Error(`API request failed: ${response.status}`);
-      }
-
-      const data = await response.json();
-      removeLoading();
-
-      // Update token usage
-      updateTokenInfo(data.usage);
-
-      // Store conversation ID from response
-      if (data.conversationId) {
-        conversationId = data.conversationId;
-      }
-
-      if (data.choices && data.choices[0] && data.choices[0].message) {
-        addMessage(data.choices[0].message.content);
-      } else if (data.content) {
-        addMessage(data.content);
+      if (data.success) {
+        errorEl.textContent = '密码修改成功';
+        errorEl.style.color = '#4ade80';
+        setTimeout(() => {
+          els.passwordForm.style.display = 'none';
+          errorEl.textContent = '';
+          errorEl.style.color = '';
+        }, 1500);
       } else {
-        addMessage('抱歉，我暂时无法回答，请稍后重试。', false, true);
+        errorEl.textContent = data.error || '修改失败';
+        errorEl.style.color = '#dc2626';
       }
-    } catch (error) {
-      console.error('AI Chat Error:', error);
-      removeLoading();
-      addMessage(`
-        <p>抱歉，服务暂时不可用。</p>
-        <p>错误信息：${escapeHtml(error.message)}</p>
-        <button class="ai-chat-retry" onclick="retryLastMessage()">重试</button>
-      `, false, true);
-    } finally {
-      isLoading = false;
-      send.disabled = false;
+    } catch {
+      errorEl.textContent = '网络错误';
     }
   }
 
-  // Retry last message
-  window.retryLastMessage = function() {
-    const errorMessage = messages.lastElementChild;
-    if (errorMessage && errorMessage.querySelector('.ai-chat-error')) {
-      errorMessage.remove();
-      // Get last user message
-      const userMessages = messages.querySelectorAll('.ai-chat-message-user');
-      if (userMessages.length > 0) {
-        const lastUserMessage = userMessages[userMessages.length - 1];
-        const text = lastUserMessage.querySelector('.ai-chat-content').textContent;
-        input.value = text;
-        sendMessage();
-      }
+  // Chat functions
+  async function sendMessage() {
+    const text = els.input.value.trim();
+    if (!text || isLoading) return;
+
+    els.input.value = '';
+    addMessage(text, true);
+    messageHistory.push({ role: 'user', content: text, timestamp: new Date().toISOString() });
+
+    isLoading = true;
+    els.send.disabled = true;
+    addLoading();
+
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': authToken ? `Bearer ${authToken}` : ''
+        },
+        body: JSON.stringify({
+          message: text,
+          articleTitle: ARTICLE_TITLE,
+          articleContent: ARTICLE_CONTENT,
+          articleUrl: ARTICLE_URL,
+          articleSlug: ARTICLE_SLUG,
+          history: messageHistory.slice(0, -1) // Exclude the message we just added
+        })
+      });
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const data = await res.json();
+      removeLoading();
+
+      const assistantContent = data.choices?.[0]?.message?.content || '';
+      addMessage(assistantContent, false);
+      messageHistory.push({ role: 'assistant', content: assistantContent, timestamp: new Date().toISOString() });
+
+      updateTokenInfo(data.usage);
+    } catch (err) {
+      removeLoading();
+      addMessage(`<p>抱歉，服务暂时不可用。</p><p>${escapeHtml(err.message)}</p>`, false, true);
+    } finally {
+      isLoading = false;
+      els.send.disabled = false;
     }
-  };
+  }
+
+  function addMessage(content, isUser, isError = false, timestamp = null) {
+    const div = document.createElement('div');
+    div.className = `ai-chat-message ai-chat-message-${isUser ? 'user' : 'assistant'}`;
+
+    let timeHtml = '';
+    if (timestamp) {
+      const time = new Date(timestamp).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+      timeHtml = `<div style="font-size: 11px; color: #999; margin-top: 4px;">${time}</div>`;
+    }
+
+    if (isError) {
+      div.innerHTML = `<div class="ai-chat-avatar">⚠️</div><div class="ai-chat-content ai-chat-error">${content}</div>`;
+    } else if (isUser) {
+      div.innerHTML = `<div class="ai-chat-avatar">👤</div><div class="ai-chat-content"><p>${escapeHtml(content)}</p>${timeHtml}</div>`;
+    } else {
+      div.innerHTML = `<div class="ai-chat-avatar">🤖</div><div class="ai-chat-content">${markedParser ? markedParser.parse(content) : escapeHtml(content)}${timeHtml}</div>`;
+    }
+
+    els.messages.appendChild(div);
+    els.messages.scrollTop = els.messages.scrollHeight;
+  }
+
+  function addLoading() {
+    const div = document.createElement('div');
+    div.className = 'ai-chat-message ai-chat-message-assistant';
+    div.id = 'ai-chat-loading';
+    div.innerHTML = `
+      <div class="ai-chat-avatar">🤖</div>
+      <div class="ai-chat-content">
+        <div class="ai-chat-loading"><span></span><span></span><span></span></div>
+      </div>
+    `;
+    els.messages.appendChild(div);
+    els.messages.scrollTop = els.messages.scrollHeight;
+  }
+
+  function removeLoading() {
+    const el = document.getElementById('ai-chat-loading');
+    if (el) el.remove();
+  }
+
+  function updateTokenInfo(usage) {
+    if (!usage) return;
+    els.tokenInfo.textContent = `${usage.prompt_tokens || 0} + ${usage.completion_tokens || 0} tokens`;
+  }
 
   function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
   }
+
+  // Start
+  init();
 })();
 </script>
 {{- end -}}
