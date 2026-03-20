@@ -1,5 +1,5 @@
 // Get chat history for a specific article
-import { list } from '@vercel/blob';
+import { list, get } from '@vercel/blob';
 import { jwtVerify } from 'jose';
 
 const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'your-secret-key-change-in-production');
@@ -8,9 +8,10 @@ async function getBlobJson(pathname) {
   const { blobs } = await list({ prefix: pathname });
   const blob = blobs.find(b => b.pathname === pathname);
   if (!blob) return null;
-  const res = await fetch(blob.url);
-  if (!res.ok) return null;
-  return res.json();
+  const response = await get(blob.url, { access: 'private' });
+  const chunks = [];
+  for await (const chunk of response.stream) chunks.push(chunk);
+  return JSON.parse(Buffer.concat(chunks).toString());
 }
 
 export default async function handler(req, res) {
@@ -28,7 +29,6 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Article slug is required' });
     }
 
-    // Get user from token (optional - guest users don't have history)
     const authHeader = req.headers.authorization;
     let userId = 'guest';
 

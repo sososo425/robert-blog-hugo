@@ -1,5 +1,5 @@
 // Save chat message for a specific article
-import { list, put } from '@vercel/blob';
+import { list, put, get } from '@vercel/blob';
 import { jwtVerify } from 'jose';
 
 const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'your-secret-key-change-in-production');
@@ -8,9 +8,10 @@ async function getBlobJson(pathname) {
   const { blobs } = await list({ prefix: pathname });
   const blob = blobs.find(b => b.pathname === pathname);
   if (!blob) return null;
-  const res = await fetch(blob.url);
-  if (!res.ok) return null;
-  return res.json();
+  const response = await get(blob.url, { access: 'private' });
+  const chunks = [];
+  for await (const chunk of response.stream) chunks.push(chunk);
+  return JSON.parse(Buffer.concat(chunks).toString());
 }
 
 export default async function handler(req, res) {
@@ -28,7 +29,6 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Article slug, message, and role are required' });
     }
 
-    // Get user from token (optional)
     const authHeader = req.headers.authorization;
     let userId = 'guest';
 
@@ -42,14 +42,12 @@ export default async function handler(req, res) {
       }
     }
 
-    // Guest users don't save history
     if (userId === 'guest') {
       return res.status(200).json({ success: true, saved: false, reason: 'guest' });
     }
 
     const conversationPath = `conversations/${userId}/${articleSlug}.json`;
 
-    // Get existing conversation or create new
     let conversation = await getBlobJson(conversationPath);
     if (!conversation) {
       conversation = {
@@ -60,18 +58,15 @@ export default async function handler(req, res) {
       };
     }
 
-    // Add new message
     conversation.messages.push({
       role,
       content: message,
       timestamp: new Date().toISOString(),
     });
-
     conversation.updatedAt = new Date().toISOString();
 
-    // Save conversation
     await put(conversationPath, JSON.stringify(conversation), {
-      access: 'public',
+      access: 'private',
       contentType: 'application/json',
       addRandomSuffix: false,
     });

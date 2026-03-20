@@ -38,7 +38,6 @@ export default async function handler(req, res) {
     // Hash password
     const passwordHash = await bcrypt.hash(password, 10);
 
-    // Create user
     const user = {
       id: crypto.randomUUID(),
       username,
@@ -47,9 +46,8 @@ export default async function handler(req, res) {
       createdAt: new Date().toISOString(),
     };
 
-    // Save to blob
     await put(userPath, JSON.stringify(user), {
-      access: 'public',
+      access: 'private',
       contentType: 'application/json',
       addRandomSuffix: false,
     });
