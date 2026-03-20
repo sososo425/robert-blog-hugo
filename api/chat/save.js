@@ -1,8 +1,17 @@
 // Save chat message for a specific article
-import { get, put } from '@vercel/blob';
+import { list, put } from '@vercel/blob';
 import { jwtVerify } from 'jose';
 
 const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'your-secret-key-change-in-production');
+
+async function getBlobJson(pathname) {
+  const { blobs } = await list({ prefix: pathname });
+  const blob = blobs.find(b => b.pathname === pathname);
+  if (!blob) return null;
+  const res = await fetch(blob.url);
+  if (!res.ok) return null;
+  return res.json();
+}
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -41,12 +50,8 @@ export default async function handler(req, res) {
     const conversationPath = `conversations/${userId}/${articleSlug}.json`;
 
     // Get existing conversation or create new
-    let conversation;
-    try {
-      const blob = await get(conversationPath);
-      const text = await blob.text();
-      conversation = JSON.parse(text);
-    } catch {
+    let conversation = await getBlobJson(conversationPath);
+    if (!conversation) {
       conversation = {
         userId,
         articleSlug,
@@ -66,8 +71,9 @@ export default async function handler(req, res) {
 
     // Save conversation
     await put(conversationPath, JSON.stringify(conversation), {
-      access: 'private',
+      access: 'public',
       contentType: 'application/json',
+      addRandomSuffix: false,
     });
 
     res.status(200).json({ success: true, saved: true });

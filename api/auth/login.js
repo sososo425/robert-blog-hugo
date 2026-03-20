@@ -1,9 +1,18 @@
 // User login API
 import bcrypt from 'bcryptjs';
-import { get, list } from '@vercel/blob';
+import { list, put } from '@vercel/blob';
 import { SignJWT } from 'jose';
 
 const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'your-secret-key-change-in-production');
+
+async function getBlobJson(pathname) {
+  const { blobs } = await list({ prefix: pathname });
+  const blob = blobs.find(b => b.pathname === pathname);
+  if (!blob) return null;
+  const res = await fetch(blob.url);
+  if (!res.ok) return null;
+  return res.json();
+}
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -22,13 +31,9 @@ export default async function handler(req, res) {
 
     // Find user
     const userPath = `users/${username}.json`;
-    let user;
+    let user = await getBlobJson(userPath);
 
-    try {
-      const blob = await get(userPath);
-      const text = await blob.text();
-      user = JSON.parse(text);
-    } catch {
+    if (!user) {
       // Special case: initialize admin user if not exists
       if (username === 'admin') {
         user = await initializeAdminUser();
@@ -62,8 +67,6 @@ export default async function handler(req, res) {
 
 // Initialize admin user with default password
 async function initializeAdminUser() {
-  const { put } = await import('@vercel/blob');
-
   const passwordHash = await bcrypt.hash('123456', 10);
   const adminUser = {
     id: crypto.randomUUID(),
@@ -74,8 +77,9 @@ async function initializeAdminUser() {
   };
 
   await put('users/admin.json', JSON.stringify(adminUser), {
-    access: 'private',
+    access: 'public',
     contentType: 'application/json',
+    addRandomSuffix: false,
   });
 
   console.log('Admin user initialized with password: 123456');

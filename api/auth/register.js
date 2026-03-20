@@ -49,8 +49,9 @@ export default async function handler(req, res) {
 
     // Save to blob
     await put(userPath, JSON.stringify(user), {
-      access: 'private',
+      access: 'public',
       contentType: 'application/json',
+      addRandomSuffix: false,
     });
 
     // Generate JWT

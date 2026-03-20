@@ -1,9 +1,18 @@
 // Change password API
 import bcrypt from 'bcryptjs';
-import { get, put } from '@vercel/blob';
+import { list, put } from '@vercel/blob';
 import { jwtVerify } from 'jose';
 
 const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'your-secret-key-change-in-production');
+
+async function getBlobJson(pathname) {
+  const { blobs } = await list({ prefix: pathname });
+  const blob = blobs.find(b => b.pathname === pathname);
+  if (!blob) return null;
+  const res = await fetch(blob.url);
+  if (!res.ok) return null;
+  return res.json();
+}
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -41,12 +50,8 @@ export default async function handler(req, res) {
 
     // Get user
     const userPath = `users/${payload.username}.json`;
-    let user;
-    try {
-      const blob = await get(userPath);
-      const text = await blob.text();
-      user = JSON.parse(text);
-    } catch {
+    const user = await getBlobJson(userPath);
+    if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }
 
@@ -61,8 +66,9 @@ export default async function handler(req, res) {
     user.updatedAt = new Date().toISOString();
 
     await put(userPath, JSON.stringify(user), {
-      access: 'private',
+      access: 'public',
       contentType: 'application/json',
+      addRandomSuffix: false,
     });
 
     res.status(200).json({ success: true, message: 'Password changed successfully' });

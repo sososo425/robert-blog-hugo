@@ -1,8 +1,17 @@
 // Get chat history for a specific article
-import { get, put } from '@vercel/blob';
+import { list } from '@vercel/blob';
 import { jwtVerify } from 'jose';
 
 const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'your-secret-key-change-in-production');
+
+async function getBlobJson(pathname) {
+  const { blobs } = await list({ prefix: pathname });
+  const blob = blobs.find(b => b.pathname === pathname);
+  if (!blob) return null;
+  const res = await fetch(blob.url);
+  if (!res.ok) return null;
+  return res.json();
+}
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -34,25 +43,13 @@ export default async function handler(req, res) {
     }
 
     const conversationPath = `conversations/${userId}/${articleSlug}.json`;
+    const conversation = await getBlobJson(conversationPath);
 
-    try {
-      const blob = await get(conversationPath);
-      const text = await blob.text();
-      const conversation = JSON.parse(text);
-
-      res.status(200).json({
-        success: true,
-        messages: conversation.messages || [],
-        userId,
-      });
-    } catch {
-      // No history found
-      res.status(200).json({
-        success: true,
-        messages: [],
-        userId,
-      });
-    }
+    res.status(200).json({
+      success: true,
+      messages: conversation?.messages || [],
+      userId,
+    });
   } catch (error) {
     console.error('Get history error:', error);
     res.status(500).json({ error: 'Internal server error' });
