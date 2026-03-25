@@ -1,0 +1,20 @@
+{
+  "id": "conv-1774342084232-02n0x1ucg",
+  "title": "Review architecture diagram 2 explanation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1774342084232,
+  "updatedAt": 1774348399758,
+  "lastResponseAt": 1774348399757,
+  "sessionId": "cf651cff-31da-4b28-a19b-b2da774f8627",
+  "sdkSessionId": "cf651cff-31da-4b28-a19b-b2da774f8627",
+  "currentNote": "private/tech/agent-memory-infra/整体技术方案-版本B/00-概要设计.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 155682,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 155682,
+    "percentage": 78
+  }
+}

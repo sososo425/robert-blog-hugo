@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "e5b5cadab14ba9b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dbb0c2dc7fc3a69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d7f751ab07449bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/概要设计-初稿-WIP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "概要设计-初稿-WIP"
+            }
+          },
+          {
+            "id": "5dc2da88c01af14a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/参考资料/Leiden算法详解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Leiden算法详解"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "266d4f10bc20412e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f8023c078492c43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff722bbbaf269525",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "8386d75b7c45dfe5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "26bde408ba8a5341",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5024719238281
+  },
+  "right": {
+    "id": "78aa63aae5dc8f10",
+    "type": "split",
+    "children": [
+      {
+        "id": "78f2c0121fcd31ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7565752c6e6d7513",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tech/llm-memory-engineering-memos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "llm-memory-engineering-memos 的反向链接列表"
+            }
+          },
+          {
+            "id": "6641d98b3aaa10b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tech/llm-memory-engineering-memos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "llm-memory-engineering-memos 的出链列表"
+            }
+          },
+          {
+            "id": "c06070bdb99e2994",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e7420f4e77bf0369",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "6c39ad17dd1cfc8e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "466de3591245c378",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "31e5ff33511e6638",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 586.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false,
+      "claudian:Open Claudian": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "ff722bbbaf269525",
+  "lastOpenFiles": [
+    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/00-概要设计.md",
+    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/01 - Agent Memory System（AMS）详细设计.md",
+    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/版本B-修改建议.md",
+    "private/tech/agent-memory-infra/架构讨论.md",
+    "private/tech/agent-memory-infra/参考资料/Leiden算法详解.md",
+    "assets/版本C-初稿-WIP.png",
+    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/概要设计-初稿-WIP.md",
+    "assets/Pasted image 20260325111515.png",
+    "assets/Pasted image 20260325111351.png",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/00-概要设计.md",
+    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP",
+    "private/tech/agent-memory-infra/整体技术方案-版本A/00-概要设计.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本A/01-详细设计-Agent-Framework.md",
+    "private/tech/agent-memory-infra/参考资料/研究课题梳理.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/00-概要设计_副本.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/02-Agent-Framework.md",
+    "private/tech/agent-memory-infra/参考资料",
+    "Excalidraw/图2-数据流与存储分层-生成版.excalidraw.md",
+    "assets/Pasted image 20260324093920.png",
+    "Excalidraw/图3-Semantic-Memory-内部结构-生成版.excalidraw.md",
+    "assets/Pasted image 20260324093827.png",
+    "assets/Pasted image 20260324093756.png",
+    "Excalidraw/图1-服务拓扑架构-生成版.excalidraw.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/01-Agent-Memory-System.md",
+    "private/tech/agent-memory-infra/架构讨论-raw.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/11-Testing.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/10-Deployment.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/09-Storage-Schema.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/08-Multi-Agent-Collaboration.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/07-API-Design.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/06-Agent-TES.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/05-Skill-Mining-and-Discovery.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/04-Storage-and-Retrieval.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B/03-Memory-Processing-Pipeline.md",
+    "private/tech/agent-memory-infra/整体技术方案-版本B",
+    "private/tech/agent-memory-infra/整体技术方案-版本A",
+    "Clippings",
+    "private/draft",
+    "private/tech/lance_and_video",
+    "Excalidraw/generate-excalidraw.cjs",
+    "Excalidraw/generate-excalidraw.js",
+    "assets/Pasted image 20260319153323.png",
+    "assets/Pasted image 20260319145841.png",
+    "assets/Pasted image 20260319145856.png",
+    "assets/Pasted image 20260319145749.png",
+    "assets",
+    "未命名.canvas"
+  ]
+}
