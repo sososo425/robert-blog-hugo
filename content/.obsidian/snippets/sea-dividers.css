@@ -1,0 +1,70 @@
+/* 🌊 浅海蓝水槽 - 终极稳定版 v6 (透明边框挤压法) */
+
+body {
+    --sea-line-color: #89CFF0;      /* 核心颜色：浅海蓝 (Baby Blue) */
+    --sea-line-active: #00B4D8;     /* 激活颜色：深海蓝 */
+    --sea-total-width: 12px;        /* 鼠标可点击的总宽度 */
+}
+
+/* =================================================================
+   1. 核心逻辑：利用透明边框把背景色“挤”成一条细线
+   ================================================================= */
+
+/* 通用设置：击穿所有层级 */
+.workspace-split > .workspace-leaf-resize-handle {
+    display: block !important;
+    opacity: 1 !important;
+    z-index: 9999 !important; /* 层级拉满 */
+    border: none !important;
+    background-clip: content-box !important; /* 【关键】背景色只在内容区显示，不延伸到透明边框 */
+    background-color: var(--sea-line-color) !important;
+    border-radius: 99px !important; /* 胶囊圆角 */
+    transition: all 0.2s ease !important;
+    box-shadow: none !important;
+}
+
+/* =================================================================
+   2. 垂直分割线 (左右分栏 + 侧边栏)
+   ================================================================= */
+/* 包含左侧、右侧、中间的所有垂直条 */
+.workspace-split.mod-vertical > .workspace-leaf-resize-handle,
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+    width: var(--sea-total-width) !important;
+    /* 左右各加 4px 透明边框，把中间挤成 4px 宽 */
+    border-left: 4px solid transparent !important;
+    border-right: 4px solid transparent !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+
+/* =================================================================
+   3. 水平分割线 (上下分栏)
+   ================================================================= */
+.workspace-split.mod-horizontal > .workspace-leaf-resize-handle {
+    height: var(--sea-total-width) !important;
+    /* 上下各加 4px 透明边框，把中间挤成 4px 高 */
+    border-top: 4px solid transparent !important;
+    border-bottom: 4px solid transparent !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+/* =================================================================
+   4. 交互效果：鼠标放上去变粗
+   ================================================================= */
+.workspace-split > .workspace-leaf-resize-handle:hover {
+    background-color: var(--sea-line-active) !important;
+    /* 悬停时，减小透明边框，让中间的线条变粗 */
+    border-width: 2px !important; 
+    box-shadow: 0 0 10px rgba(0, 180, 216, 0.5) !important; /* 发光 */
+}
+
+/* =================================================================
+   5. 视觉补偿：让窗口也是圆角，配合胶囊
+   ================================================================= */
+.workspace-leaf,
+.view-content {
+    border-radius: 8px !important;
+}
+

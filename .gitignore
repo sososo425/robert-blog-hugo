@@ -20,15 +20,15 @@ __pycache__/
 *_obsidian.md
 
 # Obsidian 工作空间配置（本地查看用，不提交）
-.obsidian/
-content/.obsidian/
+# .obsidian/
+# content/.obsidian/
 
 # Obsidian 用：content/images 指向 static/images 的软链接，仅本地需要，Vercel 构建会失败
-content/images
+# content/images
 
 # Local chat conversation logs
 logs/
-.vercel
+# .vercel
 
 # Local Hugo config override (baseURL = localhost)
 hugo.local.toml
@@ -38,13 +38,13 @@ hugo.local.toml
 node_modules/
 
 # Claude local sessions and settings
-content/.claude/
+# content/.claude/
 
 # Local assets (pasted images, temp files)
-content/assets/
+# content/assets/
 
 # Private content (not for public)
-content/private/
+# content/private/
 
 # Excalidraw drawings (local only)
-content/Excalidraw/
+# content/Excalidraw/
