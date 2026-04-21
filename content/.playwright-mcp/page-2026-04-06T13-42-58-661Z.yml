@@ -1,0 +1,739 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "knowledgator / gliner-relex-multi-v1.0 like 1 Follow Knowledgator Engineering 276" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /knowledgator
+          - link "knowledgator" [ref=e70] [cursor=pointer]:
+            - /url: /knowledgator
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "gliner-relex-multi-v1.0" [ref=e73] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "1" [ref=e84] [cursor=pointer]
+        - generic [ref=e86]:
+          - button "Follow Knowledgator Engineering" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Follow
+            - generic [ref=e89]: Knowledgator Engineering
+          - button "276" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]:
+        - link "Token Classification" [ref=e92] [cursor=pointer]:
+          - /url: /models?pipeline_tag=token-classification
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e103]: Token Classification
+        - link "GLiNER" [ref=e104] [cursor=pointer]:
+          - /url: /models?library=gliner
+          - generic [ref=e106]: GLiNER
+        - link "Safetensors" [ref=e107] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e108]:
+            - img [ref=e109]
+            - generic [ref=e111]: Safetensors
+        - link "named-entity-recognition" [ref=e112] [cursor=pointer]:
+          - /url: /models?other=named-entity-recognition
+          - generic [ref=e114]: named-entity-recognition
+        - link "relation-extraction" [ref=e115] [cursor=pointer]:
+          - /url: /models?other=relation-extraction
+          - generic [ref=e117]: relation-extraction
+        - link "zero-shot" [ref=e118] [cursor=pointer]:
+          - /url: /models?other=zero-shot
+          - generic [ref=e120]: zero-shot
+        - link "information-extraction" [ref=e121] [cursor=pointer]:
+          - /url: /models?other=information-extraction
+          - generic [ref=e123]: information-extraction
+        - 'button "License: apache-2.0" [ref=e125] [cursor=pointer]':
+          - generic [ref=e127]:
+            - img [ref=e128]
+            - generic [ref=e130]: "License:"
+            - generic [ref=e131]: apache-2.0
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - link "Model card" [ref=e135] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0
+            - img [ref=e136]
+            - text: Model card
+          - link "Files xet" [ref=e140] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0/tree/main
+            - img [ref=e141]
+            - generic [ref=e144]: Files
+            - generic [ref=e147]:
+              - img [ref=e148]
+              - generic [ref=e151]: xet
+          - link "Community" [ref=e152] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0/discussions
+            - img [ref=e153]
+            - text: Community
+        - generic [ref=e156]:
+          - button [ref=e159] [cursor=pointer]:
+            - img [ref=e160]
+          - button "Use this model" [ref=e165] [cursor=pointer]:
+            - img [ref=e166]
+            - text: Use this model
+            - img [ref=e168]
+    - generic [ref=e171]:
+      - generic [ref=e175]:
+        - button "main" [ref=e177] [cursor=pointer]:
+          - img [ref=e178]
+          - text: main
+          - img [ref=e180]
+        - generic [ref=e182]:
+          - link "gliner-relex-multi-v1.0" [ref=e183] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0/tree/main
+          - generic [ref=e184]: /
+          - generic [ref=e185]: gliner_config.json
+          - button "Copy path" [ref=e186] [cursor=pointer]:
+            - img [ref=e187]
+      - generic [ref=e192]:
+        - img "Ihor's picture" [ref=e193]
+        - link "Ihor" [ref=e195] [cursor=pointer]:
+          - /url: /Ihor
+        - link "Upload folder using huggingface_hub" [ref=e197] [cursor=pointer]:
+          - /url: /knowledgator/gliner-relex-multi-v1.0/commit/65184c1af9a2f510ff82a3e1a9e16fe97fcb3050
+        - link "65184c1" [ref=e198] [cursor=pointer]:
+          - /url: /knowledgator/gliner-relex-multi-v1.0/commit/65184c1af9a2f510ff82a3e1a9e16fe97fcb3050
+        - generic "This commit is signed and the signature is verified" [ref=e199]: verified
+        - time [ref=e200]: 20 days ago
+      - generic [ref=e201]:
+        - link "raw" [ref=e202] [cursor=pointer]:
+          - /url: /knowledgator/gliner-relex-multi-v1.0/raw/main/gliner_config.json
+          - generic [ref=e203]:
+            - img [ref=e204]
+            - text: raw
+        - button "Copy download link" [ref=e209] [cursor=pointer]:
+          - img [ref=e210]
+          - generic [ref=e214]: Copy download link
+        - link "history" [ref=e215] [cursor=pointer]:
+          - /url: /knowledgator/gliner-relex-multi-v1.0/commits/main/gliner_config.json
+          - generic [ref=e216]:
+            - img [ref=e217]
+            - text: history
+        - link "blame" [ref=e219] [cursor=pointer]:
+          - /url: /knowledgator/gliner-relex-multi-v1.0/blame/main/gliner_config.json
+          - generic [ref=e220]:
+            - img [ref=e221]
+            - text: blame
+        - link "contribute" [ref=e225] [cursor=pointer]:
+          - /url: /knowledgator/gliner-relex-multi-v1.0/edit/main/gliner_config.json
+          - generic [ref=e226]:
+            - img [ref=e227]
+            - text: contribute
+        - link "delete" [ref=e230] [cursor=pointer]:
+          - /url: /knowledgator/gliner-relex-multi-v1.0/delete/main/gliner_config.json
+          - generic [ref=e231]:
+            - img [ref=e232]
+            - text: delete
+        - button "Safe" [ref=e240] [cursor=pointer]:
+          - img [ref=e241]
+          - generic [ref=e245]: Safe
+        - generic [ref=e246]:
+          - button [ref=e248] [cursor=pointer]:
+            - img [ref=e249]
+          - text: 3.57 kB
+      - table [ref=e256]:
+        - rowgroup [ref=e257]:
+          - 'row "1 {" [ref=e258]':
+            - cell "1" [ref=e259] [cursor=pointer]: "1"
+            - 'cell "{" [ref=e261]'
+          - 'row "2 \"adjacency_loss_coef\": 1.0," [ref=e262]':
+            - cell "2" [ref=e263] [cursor=pointer]: "2"
+            - 'cell "\"adjacency_loss_coef\": 1.0," [ref=e265]'
+          - 'row "3 \"augment_add_other_prob\": 0.5," [ref=e266]':
+            - cell "3" [ref=e267] [cursor=pointer]: "3"
+            - 'cell "\"augment_add_other_prob\": 0.5," [ref=e269]'
+          - 'row "4 \"augment_data_prob\": 0.5," [ref=e270]':
+            - cell "4" [ref=e271] [cursor=pointer]: "4"
+            - 'cell "\"augment_data_prob\": 0.5," [ref=e273]'
+          - 'row "5 \"augment_ent_drop_prob\": [" [ref=e274]':
+            - cell "5" [ref=e275] [cursor=pointer]: "5"
+            - 'cell "\"augment_ent_drop_prob\": [" [ref=e277]'
+          - row "6 0.0," [ref=e278]:
+            - cell "6" [ref=e279] [cursor=pointer]: "6"
+            - cell "0.0," [ref=e281]
+          - row "7 1.0" [ref=e282]:
+            - cell "7" [ref=e283] [cursor=pointer]: "7"
+            - cell "1.0" [ref=e285]
+          - row "8 ]," [ref=e286]:
+            - cell "8" [ref=e287] [cursor=pointer]: "8"
+            - cell "]," [ref=e289]
+          - 'row "9 \"augment_rel_drop_prob\": [" [ref=e290]':
+            - cell "9" [ref=e291] [cursor=pointer]: "9"
+            - 'cell "\"augment_rel_drop_prob\": [" [ref=e293]'
+          - row "10 0.0," [ref=e294]:
+            - cell "10" [ref=e295] [cursor=pointer]: "10"
+            - cell "0.0," [ref=e297]
+          - row "11 0.3" [ref=e298]:
+            - cell "11" [ref=e299] [cursor=pointer]: "11"
+            - cell "0.3" [ref=e301]
+          - row "12 ]," [ref=e302]:
+            - cell "12" [ref=e303] [cursor=pointer]: "12"
+            - cell "]," [ref=e305]
+          - 'row "13 \"class_token_index\": 250102," [ref=e306]':
+            - cell "13" [ref=e307] [cursor=pointer]: "13"
+            - 'cell "\"class_token_index\": 250102," [ref=e309]'
+          - 'row "14 \"dropout\": 0.3," [ref=e310]':
+            - cell "14" [ref=e311] [cursor=pointer]: "14"
+            - 'cell "\"dropout\": 0.3," [ref=e313]'
+          - 'row "15 \"embed_ent_token\": true," [ref=e314]':
+            - cell "15" [ref=e315] [cursor=pointer]: "15"
+            - 'cell "\"embed_ent_token\": true," [ref=e317]':
+              - text: "\"embed_ent_token\":"
+              - generic [ref=e318]: "true"
+              - text: ","
+          - 'row "16 \"embed_rel_token\": true," [ref=e319]':
+            - cell "16" [ref=e320] [cursor=pointer]: "16"
+            - 'cell "\"embed_rel_token\": true," [ref=e322]':
+              - text: "\"embed_rel_token\":"
+              - generic [ref=e323]: "true"
+              - text: ","
+          - 'row "17 \"encoder_config\": {" [ref=e324]':
+            - cell "17" [ref=e325] [cursor=pointer]: "17"
+            - 'cell "\"encoder_config\": {" [ref=e327]'
+          - 'row "18 \"_attn_implementation_autoset\": false," [ref=e328]':
+            - cell "18" [ref=e329] [cursor=pointer]: "18"
+            - 'cell "\"_attn_implementation_autoset\": false," [ref=e331]':
+              - text: "\"_attn_implementation_autoset\":"
+              - generic [ref=e332]: "false"
+              - text: ","
+          - 'row "19 \"_name_or_path\": \"microsoft/mdeberta-v3-base\"," [ref=e333]':
+            - cell "19" [ref=e334] [cursor=pointer]: "19"
+            - 'cell "\"_name_or_path\": \"microsoft/mdeberta-v3-base\"," [ref=e336]'
+          - 'row "20 \"add_cross_attention\": false," [ref=e337]':
+            - cell "20" [ref=e338] [cursor=pointer]: "20"
+            - 'cell "\"add_cross_attention\": false," [ref=e340]':
+              - text: "\"add_cross_attention\":"
+              - generic [ref=e341]: "false"
+              - text: ","
+          - 'row "21 \"architectures\": null," [ref=e342]':
+            - cell "21" [ref=e343] [cursor=pointer]: "21"
+            - 'cell "\"architectures\": null," [ref=e345]':
+              - text: "\"architectures\":"
+              - generic [ref=e346]: "null"
+              - text: ","
+          - 'row "22 \"attention_probs_dropout_prob\": 0.1," [ref=e347]':
+            - cell "22" [ref=e348] [cursor=pointer]: "22"
+            - 'cell "\"attention_probs_dropout_prob\": 0.1," [ref=e350]'
+          - 'row "23 \"bad_words_ids\": null," [ref=e351]':
+            - cell "23" [ref=e352] [cursor=pointer]: "23"
+            - 'cell "\"bad_words_ids\": null," [ref=e354]':
+              - text: "\"bad_words_ids\":"
+              - generic [ref=e355]: "null"
+              - text: ","
+          - 'row "24 \"begin_suppress_tokens\": null," [ref=e356]':
+            - cell "24" [ref=e357] [cursor=pointer]: "24"
+            - 'cell "\"begin_suppress_tokens\": null," [ref=e359]':
+              - text: "\"begin_suppress_tokens\":"
+              - generic [ref=e360]: "null"
+              - text: ","
+          - 'row "25 \"bos_token_id\": null," [ref=e361]':
+            - cell "25" [ref=e362] [cursor=pointer]: "25"
+            - 'cell "\"bos_token_id\": null," [ref=e364]':
+              - text: "\"bos_token_id\":"
+              - generic [ref=e365]: "null"
+              - text: ","
+          - 'row "26 \"chunk_size_feed_forward\": 0," [ref=e366]':
+            - cell "26" [ref=e367] [cursor=pointer]: "26"
+            - 'cell "\"chunk_size_feed_forward\": 0," [ref=e369]'
+          - 'row "27 \"cross_attention_hidden_size\": null," [ref=e370]':
+            - cell "27" [ref=e371] [cursor=pointer]: "27"
+            - 'cell "\"cross_attention_hidden_size\": null," [ref=e373]':
+              - text: "\"cross_attention_hidden_size\":"
+              - generic [ref=e374]: "null"
+              - text: ","
+          - 'row "28 \"decoder_start_token_id\": null," [ref=e375]':
+            - cell "28" [ref=e376] [cursor=pointer]: "28"
+            - 'cell "\"decoder_start_token_id\": null," [ref=e378]':
+              - text: "\"decoder_start_token_id\":"
+              - generic [ref=e379]: "null"
+              - text: ","
+          - 'row "29 \"diversity_penalty\": 0.0," [ref=e380]':
+            - cell "29" [ref=e381] [cursor=pointer]: "29"
+            - 'cell "\"diversity_penalty\": 0.0," [ref=e383]'
+          - 'row "30 \"do_sample\": false," [ref=e384]':
+            - cell "30" [ref=e385] [cursor=pointer]: "30"
+            - 'cell "\"do_sample\": false," [ref=e387]':
+              - text: "\"do_sample\":"
+              - generic [ref=e388]: "false"
+              - text: ","
+          - 'row "31 \"early_stopping\": false," [ref=e389]':
+            - cell "31" [ref=e390] [cursor=pointer]: "31"
+            - 'cell "\"early_stopping\": false," [ref=e392]':
+              - text: "\"early_stopping\":"
+              - generic [ref=e393]: "false"
+              - text: ","
+          - 'row "32 \"encoder_no_repeat_ngram_size\": 0," [ref=e394]':
+            - cell "32" [ref=e395] [cursor=pointer]: "32"
+            - 'cell "\"encoder_no_repeat_ngram_size\": 0," [ref=e397]'
+          - 'row "33 \"eos_token_id\": null," [ref=e398]':
+            - cell "33" [ref=e399] [cursor=pointer]: "33"
+            - 'cell "\"eos_token_id\": null," [ref=e401]':
+              - text: "\"eos_token_id\":"
+              - generic [ref=e402]: "null"
+              - text: ","
+          - 'row "34 \"exponential_decay_length_penalty\": null," [ref=e403]':
+            - cell "34" [ref=e404] [cursor=pointer]: "34"
+            - 'cell "\"exponential_decay_length_penalty\": null," [ref=e406]':
+              - text: "\"exponential_decay_length_penalty\":"
+              - generic [ref=e407]: "null"
+              - text: ","
+          - 'row "35 \"finetuning_task\": null," [ref=e408]':
+            - cell "35" [ref=e409] [cursor=pointer]: "35"
+            - 'cell "\"finetuning_task\": null," [ref=e411]':
+              - text: "\"finetuning_task\":"
+              - generic [ref=e412]: "null"
+              - text: ","
+          - 'row "36 \"forced_bos_token_id\": null," [ref=e413]':
+            - cell "36" [ref=e414] [cursor=pointer]: "36"
+            - 'cell "\"forced_bos_token_id\": null," [ref=e416]':
+              - text: "\"forced_bos_token_id\":"
+              - generic [ref=e417]: "null"
+              - text: ","
+          - 'row "37 \"forced_eos_token_id\": null," [ref=e418]':
+            - cell "37" [ref=e419] [cursor=pointer]: "37"
+            - 'cell "\"forced_eos_token_id\": null," [ref=e421]':
+              - text: "\"forced_eos_token_id\":"
+              - generic [ref=e422]: "null"
+              - text: ","
+          - 'row "38 \"hidden_act\": \"gelu\"," [ref=e423]':
+            - cell "38" [ref=e424] [cursor=pointer]: "38"
+            - 'cell "\"hidden_act\": \"gelu\"," [ref=e426]'
+          - 'row "39 \"hidden_dropout_prob\": 0.1," [ref=e427]':
+            - cell "39" [ref=e428] [cursor=pointer]: "39"
+            - 'cell "\"hidden_dropout_prob\": 0.1," [ref=e430]'
+          - 'row "40 \"hidden_size\": 768," [ref=e431]':
+            - cell "40" [ref=e432] [cursor=pointer]: "40"
+            - 'cell "\"hidden_size\": 768," [ref=e434]'
+          - 'row "41 \"id2label\": {" [ref=e435]':
+            - cell "41" [ref=e436] [cursor=pointer]: "41"
+            - 'cell "\"id2label\": {" [ref=e438]'
+          - 'row "42 \"0\": \"LABEL_0\"," [ref=e439]':
+            - cell "42" [ref=e440] [cursor=pointer]: "42"
+            - 'cell "\"0\": \"LABEL_0\"," [ref=e442]'
+          - 'row "43 \"1\": \"LABEL_1\"" [ref=e443]':
+            - cell "43" [ref=e444] [cursor=pointer]: "43"
+            - 'cell "\"1\": \"LABEL_1\"" [ref=e446]'
+          - 'row "44 }," [ref=e447]':
+            - cell "44" [ref=e448] [cursor=pointer]: "44"
+            - 'cell "}," [ref=e450]'
+          - 'row "45 \"initializer_range\": 0.02," [ref=e451]':
+            - cell "45" [ref=e452] [cursor=pointer]: "45"
+            - 'cell "\"initializer_range\": 0.02," [ref=e454]'
+          - 'row "46 \"intermediate_size\": 3072," [ref=e455]':
+            - cell "46" [ref=e456] [cursor=pointer]: "46"
+            - 'cell "\"intermediate_size\": 3072," [ref=e458]'
+          - 'row "47 \"is_decoder\": false," [ref=e459]':
+            - cell "47" [ref=e460] [cursor=pointer]: "47"
+            - 'cell "\"is_decoder\": false," [ref=e462]':
+              - text: "\"is_decoder\":"
+              - generic [ref=e463]: "false"
+              - text: ","
+          - 'row "48 \"is_encoder_decoder\": false," [ref=e464]':
+            - cell "48" [ref=e465] [cursor=pointer]: "48"
+            - 'cell "\"is_encoder_decoder\": false," [ref=e467]':
+              - text: "\"is_encoder_decoder\":"
+              - generic [ref=e468]: "false"
+              - text: ","
+          - 'row "49 \"label2id\": {" [ref=e469]':
+            - cell "49" [ref=e470] [cursor=pointer]: "49"
+            - 'cell "\"label2id\": {" [ref=e472]'
+          - 'row "50 \"LABEL_0\": 0," [ref=e473]':
+            - cell "50" [ref=e474] [cursor=pointer]: "50"
+            - 'cell "\"LABEL_0\": 0," [ref=e476]'
+          - 'row "51 \"LABEL_1\": 1" [ref=e477]':
+            - cell "51" [ref=e478] [cursor=pointer]: "51"
+            - 'cell "\"LABEL_1\": 1" [ref=e480]'
+          - 'row "52 }," [ref=e481]':
+            - cell "52" [ref=e482] [cursor=pointer]: "52"
+            - 'cell "}," [ref=e484]'
+          - 'row "53 \"layer_norm_eps\": 1e-07," [ref=e485]':
+            - cell "53" [ref=e486] [cursor=pointer]: "53"
+            - 'cell "\"layer_norm_eps\": 1e-07," [ref=e488]'
+          - 'row "54 \"legacy\": true," [ref=e489]':
+            - cell "54" [ref=e490] [cursor=pointer]: "54"
+            - 'cell "\"legacy\": true," [ref=e492]':
+              - text: "\"legacy\":"
+              - generic [ref=e493]: "true"
+              - text: ","
+          - 'row "55 \"length_penalty\": 1.0," [ref=e494]':
+            - cell "55" [ref=e495] [cursor=pointer]: "55"
+            - 'cell "\"length_penalty\": 1.0," [ref=e497]'
+          - 'row "56 \"max_length\": 20," [ref=e498]':
+            - cell "56" [ref=e499] [cursor=pointer]: "56"
+            - 'cell "\"max_length\": 20," [ref=e501]'
+          - 'row "57 \"max_position_embeddings\": 512," [ref=e502]':
+            - cell "57" [ref=e503] [cursor=pointer]: "57"
+            - 'cell "\"max_position_embeddings\": 512," [ref=e505]'
+          - 'row "58 \"max_relative_positions\": -1," [ref=e506]':
+            - cell "58" [ref=e507] [cursor=pointer]: "58"
+            - 'cell "\"max_relative_positions\": -1," [ref=e509]'
+          - 'row "59 \"min_length\": 0," [ref=e510]':
+            - cell "59" [ref=e511] [cursor=pointer]: "59"
+            - 'cell "\"min_length\": 0," [ref=e513]'
+          - 'row "60 \"model_type\": \"deberta-v2\"," [ref=e514]':
+            - cell "60" [ref=e515] [cursor=pointer]: "60"
+            - 'cell "\"model_type\": \"deberta-v2\"," [ref=e517]'
+          - 'row "61 \"no_repeat_ngram_size\": 0," [ref=e518]':
+            - cell "61" [ref=e519] [cursor=pointer]: "61"
+            - 'cell "\"no_repeat_ngram_size\": 0," [ref=e521]'
+          - 'row "62 \"norm_rel_ebd\": \"layer_norm\"," [ref=e522]':
+            - cell "62" [ref=e523] [cursor=pointer]: "62"
+            - 'cell "\"norm_rel_ebd\": \"layer_norm\"," [ref=e525]'
+          - 'row "63 \"num_attention_heads\": 12," [ref=e526]':
+            - cell "63" [ref=e527] [cursor=pointer]: "63"
+            - 'cell "\"num_attention_heads\": 12," [ref=e529]'
+          - 'row "64 \"num_beam_groups\": 1," [ref=e530]':
+            - cell "64" [ref=e531] [cursor=pointer]: "64"
+            - 'cell "\"num_beam_groups\": 1," [ref=e533]'
+          - 'row "65 \"num_beams\": 1," [ref=e534]':
+            - cell "65" [ref=e535] [cursor=pointer]: "65"
+            - 'cell "\"num_beams\": 1," [ref=e537]'
+          - 'row "66 \"num_hidden_layers\": 12," [ref=e538]':
+            - cell "66" [ref=e539] [cursor=pointer]: "66"
+            - 'cell "\"num_hidden_layers\": 12," [ref=e541]'
+          - 'row "67 \"num_return_sequences\": 1," [ref=e542]':
+            - cell "67" [ref=e543] [cursor=pointer]: "67"
+            - 'cell "\"num_return_sequences\": 1," [ref=e545]'
+          - 'row "68 \"output_attentions\": false," [ref=e546]':
+            - cell "68" [ref=e547] [cursor=pointer]: "68"
+            - 'cell "\"output_attentions\": false," [ref=e549]':
+              - text: "\"output_attentions\":"
+              - generic [ref=e550]: "false"
+              - text: ","
+          - 'row "69 \"output_hidden_states\": false," [ref=e551]':
+            - cell "69" [ref=e552] [cursor=pointer]: "69"
+            - 'cell "\"output_hidden_states\": false," [ref=e554]':
+              - text: "\"output_hidden_states\":"
+              - generic [ref=e555]: "false"
+              - text: ","
+          - 'row "70 \"output_scores\": false," [ref=e556]':
+            - cell "70" [ref=e557] [cursor=pointer]: "70"
+            - 'cell "\"output_scores\": false," [ref=e559]':
+              - text: "\"output_scores\":"
+              - generic [ref=e560]: "false"
+              - text: ","
+          - 'row "71 \"pad_token_id\": 0," [ref=e561]':
+            - cell "71" [ref=e562] [cursor=pointer]: "71"
+            - 'cell "\"pad_token_id\": 0," [ref=e564]'
+          - 'row "72 \"pooler_dropout\": 0," [ref=e565]':
+            - cell "72" [ref=e566] [cursor=pointer]: "72"
+            - 'cell "\"pooler_dropout\": 0," [ref=e568]'
+          - 'row "73 \"pooler_hidden_act\": \"gelu\"," [ref=e569]':
+            - cell "73" [ref=e570] [cursor=pointer]: "73"
+            - 'cell "\"pooler_hidden_act\": \"gelu\"," [ref=e572]'
+          - 'row "74 \"pooler_hidden_size\": 768," [ref=e573]':
+            - cell "74" [ref=e574] [cursor=pointer]: "74"
+            - 'cell "\"pooler_hidden_size\": 768," [ref=e576]'
+          - 'row "75 \"pos_att_type\": [" [ref=e577]':
+            - cell "75" [ref=e578] [cursor=pointer]: "75"
+            - 'cell "\"pos_att_type\": [" [ref=e580]'
+          - row "76 \"p2c\"," [ref=e581]:
+            - cell "76" [ref=e582] [cursor=pointer]: "76"
+            - cell "\"p2c\"," [ref=e584]
+          - row "77 \"c2p\"" [ref=e585]:
+            - cell "77" [ref=e586] [cursor=pointer]: "77"
+            - cell "\"c2p\"" [ref=e588]
+          - row "78 ]," [ref=e589]:
+            - cell "78" [ref=e590] [cursor=pointer]: "78"
+            - cell "]," [ref=e592]
+          - 'row "79 \"position_biased_input\": false," [ref=e593]':
+            - cell "79" [ref=e594] [cursor=pointer]: "79"
+            - 'cell "\"position_biased_input\": false," [ref=e596]':
+              - text: "\"position_biased_input\":"
+              - generic [ref=e597]: "false"
+              - text: ","
+          - 'row "80 \"position_buckets\": 256," [ref=e598]':
+            - cell "80" [ref=e599] [cursor=pointer]: "80"
+            - 'cell "\"position_buckets\": 256," [ref=e601]'
+          - 'row "81 \"prefix\": null," [ref=e602]':
+            - cell "81" [ref=e603] [cursor=pointer]: "81"
+            - 'cell "\"prefix\": null," [ref=e605]':
+              - text: "\"prefix\":"
+              - generic [ref=e606]: "null"
+              - text: ","
+          - 'row "82 \"problem_type\": null," [ref=e607]':
+            - cell "82" [ref=e608] [cursor=pointer]: "82"
+            - 'cell "\"problem_type\": null," [ref=e610]':
+              - text: "\"problem_type\":"
+              - generic [ref=e611]: "null"
+              - text: ","
+          - 'row "83 \"pruned_heads\": {}," [ref=e612]':
+            - cell "83" [ref=e613] [cursor=pointer]: "83"
+            - 'cell "\"pruned_heads\": {}," [ref=e615]'
+          - 'row "84 \"relative_attention\": true," [ref=e616]':
+            - cell "84" [ref=e617] [cursor=pointer]: "84"
+            - 'cell "\"relative_attention\": true," [ref=e619]':
+              - text: "\"relative_attention\":"
+              - generic [ref=e620]: "true"
+              - text: ","
+          - 'row "85 \"remove_invalid_values\": false," [ref=e621]':
+            - cell "85" [ref=e622] [cursor=pointer]: "85"
+            - 'cell "\"remove_invalid_values\": false," [ref=e624]':
+              - text: "\"remove_invalid_values\":"
+              - generic [ref=e625]: "false"
+              - text: ","
+          - 'row "86 \"repetition_penalty\": 1.0," [ref=e626]':
+            - cell "86" [ref=e627] [cursor=pointer]: "86"
+            - 'cell "\"repetition_penalty\": 1.0," [ref=e629]'
+          - 'row "87 \"return_dict\": true," [ref=e630]':
+            - cell "87" [ref=e631] [cursor=pointer]: "87"
+            - 'cell "\"return_dict\": true," [ref=e633]':
+              - text: "\"return_dict\":"
+              - generic [ref=e634]: "true"
+              - text: ","
+          - 'row "88 \"return_dict_in_generate\": false," [ref=e635]':
+            - cell "88" [ref=e636] [cursor=pointer]: "88"
+            - 'cell "\"return_dict_in_generate\": false," [ref=e638]':
+              - text: "\"return_dict_in_generate\":"
+              - generic [ref=e639]: "false"
+              - text: ","
+          - 'row "89 \"sep_token_id\": null," [ref=e640]':
+            - cell "89" [ref=e641] [cursor=pointer]: "89"
+            - 'cell "\"sep_token_id\": null," [ref=e643]':
+              - text: "\"sep_token_id\":"
+              - generic [ref=e644]: "null"
+              - text: ","
+          - 'row "90 \"share_att_key\": true," [ref=e645]':
+            - cell "90" [ref=e646] [cursor=pointer]: "90"
+            - 'cell "\"share_att_key\": true," [ref=e648]':
+              - text: "\"share_att_key\":"
+              - generic [ref=e649]: "true"
+              - text: ","
+          - 'row "91 \"suppress_tokens\": null," [ref=e650]':
+            - cell "91" [ref=e651] [cursor=pointer]: "91"
+            - 'cell "\"suppress_tokens\": null," [ref=e653]':
+              - text: "\"suppress_tokens\":"
+              - generic [ref=e654]: "null"
+              - text: ","
+          - 'row "92 \"task_specific_params\": null," [ref=e655]':
+            - cell "92" [ref=e656] [cursor=pointer]: "92"
+            - 'cell "\"task_specific_params\": null," [ref=e658]':
+              - text: "\"task_specific_params\":"
+              - generic [ref=e659]: "null"
+              - text: ","
+          - 'row "93 \"temperature\": 1.0," [ref=e660]':
+            - cell "93" [ref=e661] [cursor=pointer]: "93"
+            - 'cell "\"temperature\": 1.0," [ref=e663]'
+          - 'row "94 \"tf_legacy_loss\": false," [ref=e664]':
+            - cell "94" [ref=e665] [cursor=pointer]: "94"
+            - 'cell "\"tf_legacy_loss\": false," [ref=e667]':
+              - text: "\"tf_legacy_loss\":"
+              - generic [ref=e668]: "false"
+              - text: ","
+          - 'row "95 \"tie_encoder_decoder\": false," [ref=e669]':
+            - cell "95" [ref=e670] [cursor=pointer]: "95"
+            - 'cell "\"tie_encoder_decoder\": false," [ref=e672]':
+              - text: "\"tie_encoder_decoder\":"
+              - generic [ref=e673]: "false"
+              - text: ","
+          - 'row "96 \"tie_word_embeddings\": true," [ref=e674]':
+            - cell "96" [ref=e675] [cursor=pointer]: "96"
+            - 'cell "\"tie_word_embeddings\": true," [ref=e677]':
+              - text: "\"tie_word_embeddings\":"
+              - generic [ref=e678]: "true"
+              - text: ","
+          - 'row "97 \"tokenizer_class\": null," [ref=e679]':
+            - cell "97" [ref=e680] [cursor=pointer]: "97"
+            - 'cell "\"tokenizer_class\": null," [ref=e682]':
+              - text: "\"tokenizer_class\":"
+              - generic [ref=e683]: "null"
+              - text: ","
+          - 'row "98 \"top_k\": 50," [ref=e684]':
+            - cell "98" [ref=e685] [cursor=pointer]: "98"
+            - 'cell "\"top_k\": 50," [ref=e687]'
+          - 'row "99 \"top_p\": 1.0," [ref=e688]':
+            - cell "99" [ref=e689] [cursor=pointer]: "99"
+            - 'cell "\"top_p\": 1.0," [ref=e691]'
+          - 'row "100 \"torch_dtype\": null," [ref=e692]':
+            - cell "100" [ref=e693] [cursor=pointer]: "100"
+            - 'cell "\"torch_dtype\": null," [ref=e695]':
+              - text: "\"torch_dtype\":"
+              - generic [ref=e696]: "null"
+              - text: ","
+          - 'row "101 \"torchscript\": false," [ref=e697]':
+            - cell "101" [ref=e698] [cursor=pointer]: "101"
+            - 'cell "\"torchscript\": false," [ref=e700]':
+              - text: "\"torchscript\":"
+              - generic [ref=e701]: "false"
+              - text: ","
+          - 'row "102 \"type_vocab_size\": 0," [ref=e702]':
+            - cell "102" [ref=e703] [cursor=pointer]: "102"
+            - 'cell "\"type_vocab_size\": 0," [ref=e705]'
+          - 'row "103 \"typical_p\": 1.0," [ref=e706]':
+            - cell "103" [ref=e707] [cursor=pointer]: "103"
+            - 'cell "\"typical_p\": 1.0," [ref=e709]'
+          - 'row "104 \"use_bfloat16\": false," [ref=e710]':
+            - cell "104" [ref=e711] [cursor=pointer]: "104"
+            - 'cell "\"use_bfloat16\": false," [ref=e713]':
+              - text: "\"use_bfloat16\":"
+              - generic [ref=e714]: "false"
+              - text: ","
+          - 'row "105 \"vocab_size\": 250105" [ref=e715]':
+            - cell "105" [ref=e716] [cursor=pointer]: "105"
+            - 'cell "\"vocab_size\": 250105" [ref=e718]'
+          - 'row "106 }," [ref=e719]':
+            - cell "106" [ref=e720] [cursor=pointer]: "106"
+            - 'cell "}," [ref=e722]'
+          - 'row "107 \"ent_token\": \"<<ENT>>\"," [ref=e723]':
+            - cell "107" [ref=e724] [cursor=pointer]: "107"
+            - 'cell "\"ent_token\": \"<<ENT>>\"," [ref=e726]'
+          - 'row "108 \"fine_tune\": true," [ref=e727]':
+            - cell "108" [ref=e728] [cursor=pointer]: "108"
+            - 'cell "\"fine_tune\": true," [ref=e730]':
+              - text: "\"fine_tune\":"
+              - generic [ref=e731]: "true"
+              - text: ","
+          - 'row "109 \"fuse_layers\": false," [ref=e732]':
+            - cell "109" [ref=e733] [cursor=pointer]: "109"
+            - 'cell "\"fuse_layers\": false," [ref=e735]':
+              - text: "\"fuse_layers\":"
+              - generic [ref=e736]: "false"
+              - text: ","
+          - 'row "110 \"hidden_size\": 768," [ref=e737]':
+            - cell "110" [ref=e738] [cursor=pointer]: "110"
+            - 'cell "\"hidden_size\": 768," [ref=e740]'
+          - 'row "111 \"max_len\": 2048," [ref=e741]':
+            - cell "111" [ref=e742] [cursor=pointer]: "111"
+            - 'cell "\"max_len\": 2048," [ref=e744]'
+          - 'row "112 \"max_neg_type_ratio\": 1," [ref=e745]':
+            - cell "112" [ref=e746] [cursor=pointer]: "112"
+            - 'cell "\"max_neg_type_ratio\": 1," [ref=e748]'
+          - 'row "113 \"max_types\": 100," [ref=e749]':
+            - cell "113" [ref=e750] [cursor=pointer]: "113"
+            - 'cell "\"max_types\": 100," [ref=e752]'
+          - 'row "114 \"max_width\": 12," [ref=e753]':
+            - cell "114" [ref=e754] [cursor=pointer]: "114"
+            - 'cell "\"max_width\": 12," [ref=e756]'
+          - 'row "115 \"model_name\": \"microsoft/mdeberta-v3-base\"," [ref=e757]':
+            - cell "115" [ref=e758] [cursor=pointer]: "115"
+            - 'cell "\"model_name\": \"microsoft/mdeberta-v3-base\"," [ref=e760]'
+          - 'row "116 \"model_type\": null," [ref=e761]':
+            - cell "116" [ref=e762] [cursor=pointer]: "116"
+            - 'cell "\"model_type\": null," [ref=e764]':
+              - text: "\"model_type\":"
+              - generic [ref=e765]: "null"
+              - text: ","
+          - 'row "117 \"name\": \"span level gliner\"," [ref=e766]':
+            - cell "117" [ref=e767] [cursor=pointer]: "117"
+            - 'cell "\"name\": \"span level gliner\"," [ref=e769]'
+          - 'row "118 \"neg_spans_ratio\": 1.0," [ref=e770]':
+            - cell "118" [ref=e771] [cursor=pointer]: "118"
+            - 'cell "\"neg_spans_ratio\": 1.0," [ref=e773]'
+          - 'row "119 \"num_post_fusion_layers\": 1," [ref=e774]':
+            - cell "119" [ref=e775] [cursor=pointer]: "119"
+            - 'cell "\"num_post_fusion_layers\": 1," [ref=e777]'
+          - 'row "120 \"num_rnn_layers\": 1," [ref=e778]':
+            - cell "120" [ref=e779] [cursor=pointer]: "120"
+            - 'cell "\"num_rnn_layers\": 1," [ref=e781]'
+          - 'row "121 \"post_fusion_schema\": null," [ref=e782]':
+            - cell "121" [ref=e783] [cursor=pointer]: "121"
+            - 'cell "\"post_fusion_schema\": null," [ref=e785]':
+              - text: "\"post_fusion_schema\":"
+              - generic [ref=e786]: "null"
+              - text: ","
+          - 'row "122 \"rel_token\": \"<<REL>>\"," [ref=e787]':
+            - cell "122" [ref=e788] [cursor=pointer]: "122"
+            - 'cell "\"rel_token\": \"<<REL>>\"," [ref=e790]'
+          - 'row "123 \"rel_token_index\": 250104," [ref=e791]':
+            - cell "123" [ref=e792] [cursor=pointer]: "123"
+            - 'cell "\"rel_token_index\": 250104," [ref=e794]'
+          - 'row "124 \"relation_loss_coef\": 1.0," [ref=e795]':
+            - cell "124" [ref=e796] [cursor=pointer]: "124"
+            - 'cell "\"relation_loss_coef\": 1.0," [ref=e798]'
+          - 'row "125 \"relations_layer\": \"none\"," [ref=e799]':
+            - cell "125" [ref=e800] [cursor=pointer]: "125"
+            - 'cell "\"relations_layer\": \"none\"," [ref=e802]'
+          - 'row "126 \"represent_spans\": true," [ref=e803]':
+            - cell "126" [ref=e804] [cursor=pointer]: "126"
+            - 'cell "\"represent_spans\": true," [ref=e806]':
+              - text: "\"represent_spans\":"
+              - generic [ref=e807]: "true"
+              - text: ","
+          - 'row "127 \"sep_token\": \"<<SEP>>\"," [ref=e808]':
+            - cell "127" [ref=e809] [cursor=pointer]: "127"
+            - 'cell "\"sep_token\": \"<<SEP>>\"," [ref=e811]'
+          - 'row "128 \"span_loss_coef\": 1.0," [ref=e812]':
+            - cell "128" [ref=e813] [cursor=pointer]: "128"
+            - 'cell "\"span_loss_coef\": 1.0," [ref=e815]'
+          - 'row "129 \"span_mode\": \"token_level\"," [ref=e816]':
+            - cell "129" [ref=e817] [cursor=pointer]: "129"
+            - 'cell "\"span_mode\": \"token_level\"," [ref=e819]'
+          - 'row "130 \"subtoken_pooling\": \"first\"," [ref=e820]':
+            - cell "130" [ref=e821] [cursor=pointer]: "130"
+            - 'cell "\"subtoken_pooling\": \"first\"," [ref=e823]'
+          - 'row "131 \"token_loss_coef\": 1.0," [ref=e824]':
+            - cell "131" [ref=e825] [cursor=pointer]: "131"
+            - 'cell "\"token_loss_coef\": 1.0," [ref=e827]'
+          - 'row "132 \"transformers_version\": \"4.51.3\"," [ref=e828]':
+            - cell "132" [ref=e829] [cursor=pointer]: "132"
+            - 'cell "\"transformers_version\": \"4.51.3\"," [ref=e831]'
+          - 'row "133 \"triples_layer\": null," [ref=e832]':
+            - cell "133" [ref=e833] [cursor=pointer]: "133"
+            - 'cell "\"triples_layer\": null," [ref=e835]':
+              - text: "\"triples_layer\":"
+              - generic [ref=e836]: "null"
+              - text: ","
+          - 'row "134 \"vocab_size\": 250105," [ref=e837]':
+            - cell "134" [ref=e838] [cursor=pointer]: "134"
+            - 'cell "\"vocab_size\": 250105," [ref=e840]'
+          - 'row "135 \"words_splitter_type\": \"whitespace\"" [ref=e841]':
+            - cell "135" [ref=e842] [cursor=pointer]: "135"
+            - 'cell "\"words_splitter_type\": \"whitespace\"" [ref=e844]'
+          - 'row "136 }" [ref=e845]':
+            - cell "136" [ref=e846] [cursor=pointer]: "136"
+            - 'cell "}" [ref=e848]'
+          - row "137" [ref=e849]:
+            - cell "137" [ref=e850] [cursor=pointer]: "137"
+            - cell [ref=e852]

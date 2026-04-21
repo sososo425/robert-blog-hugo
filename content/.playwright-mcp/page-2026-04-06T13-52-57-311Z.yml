@@ -1,0 +1,356 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: "\"ModernBERT\" \"relation extraction\" 2025 2026 \"ModernBERT\" \"relation extraction\" 2025 2026"
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3D%2522ModernBERT%2522%2B%2522relation%2Bextraction%2522%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNd4QYOz1zivscOQMeZcRP4dZmRm8iwfxppUH3LeF-1ZqZD07fF-qIa3xrjRBQHGVVGMvLp9_wCCLpl1--IrvTeSVlpFyJQ8tA6wl_W7VgmBTbLMKcw&aep=1&ntc=1&sa=X&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ2J8OegQIDxAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "图片" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNd4QYOz1zivscOQMeZcRP4dZmRm8iwfxppUH3LeF-1ZqZD07fF-qIa3xrjRBQHGVVGMvLp9_wCCLpl1--IrvTeSVlpFyJQ8tA6wl_W7VgmBTbLMKcw&q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sa=X&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQtKgLegQIFRAB
+              - generic [ref=e89]: 图片
+          - listitem [ref=e90]:
+            - link "购物" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNd4QYOz1zivscOQMeZcRP4dZmRm8iwfxppUH3LeF-1ZqZD07fF-qIa3xrjRBQHGVVGMvLp9_wCCLpl1--IrvTeSVlpFyJQ8tA6wl_W7VgmBTbLMKcw&q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&ved=1t:220175&ictx=111
+              - generic [ref=e93]: 购物
+          - listitem [ref=e94]:
+            - link "视频" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNd4QYOz1zivscOQMeZcRP4dZmRm8iwfxppUH3LeF-1ZqZD07fF-qIa3xrjRBQHGVVGMvLp9_wCCLpl1--IrvTeSVlpFyJQ8tA6wl_W7VgmBTbLMKcw&q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sa=X&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQtKgLegQIExAB
+              - generic [ref=e97]: 视频
+          - listitem [ref=e98]:
+            - link "新闻" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNd4QYOz1zivscOQMeZcRP4dZmRm8iwfxppUH3LeF-1ZqZD07fF-qIa3xrjRBQHGVVGMvLp9_wCCLpl1--IrvTeSVlpFyJQ8tA6wl_W7VgmBTbLMKcw&sa=X&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ0pQJegQIEhAB
+              - generic [ref=e101]: 新闻
+          - listitem [ref=e102]:
+            - link "短视频" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP0eqsfwWvqvzSXmAHL3HD5WEFJ0WyZuBEIa7SQcsO4KNd4QYOz1zivscOQMeZcRP4dZmRm8iwfxppUH3LeF-1ZqZD07fF-qIa3xrjRBQHGVVGMvLp9_wCCLpl1--IrvTeSVlpFyJQ8tA6wl_W7VgmBTbLMKcw&q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sa=X&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQs6gLegQIERAB
+              - generic [ref=e105]: 短视频
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "ModernBERT is more efficient than conventional BERT for ... ResearchGate https://www.researchgate.net › publication" [ref=e142] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/403482963_ModernBERT_is_more_efficient_than_conventional_BERT_for_chest_CT_findings_classification_in_Japanese_radiology_reports?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJqb3VybmFsIiwicHJldmlvdXNQYWdlIjpudWxsLCJzdWJQYWdlIjpudWxsfX0
+                - heading "ModernBERT is more efficient than conventional BERT for ..." [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: ResearchGate
+                  - generic [ref=e152]: https://www.researchgate.net › publication
+              - generic [ref=e153]:
+                - generic [ref=e154]: ·
+                - link "翻译此页" [ref=e155] [cursor=pointer]:
+                  - /url: https://www.researchgate.net/publication/403482963_ModernBERT_is_more_efficient_than_conventional_BERT_for_chest_CT_findings_classification_in_Japanese_radiology_reports?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJqb3VybmFsIiwicHJldmlvdXNQYWdlIjpudWxsLCJzdWJQYWdlIjpudWxsfX0
+              - button "关于这条结果的详细信息" [ref=e156] [cursor=pointer]:
+                - img [ref=e159]
+            - generic [ref=e162]:
+              - generic [ref=e163]: 3天前 —
+              - generic [ref=e164]:
+                - text: PDF | On Apr 3,
+                - emphasis [ref=e165]: "2026"
+                - text: ", Yosuke Yamagishi and others published"
+                - emphasis [ref=e166]: ModernBERT
+                - text: ...
+                - emphasis [ref=e167]: relation extraction
+                - text: . For each module, ... [Show full abstract] ...
+        - generic [ref=e171]:
+          - generic [ref=e174]:
+            - link "Findings of the Association for Computational Linguistics ... ACL Anthology https://aclanthology.org › findings-2026" [ref=e176] [cursor=pointer]:
+              - /url: https://aclanthology.org/events/findings-2026/
+              - heading "Findings of the Association for Computational Linguistics ..." [level=3] [ref=e177]
+              - generic [ref=e182]:
+                - generic [ref=e184]: ACL Anthology
+                - generic [ref=e186]: https://aclanthology.org › findings-2026
+            - generic [ref=e187]:
+              - generic [ref=e188]: ·
+              - link "翻译此页" [ref=e189] [cursor=pointer]:
+                - /url: https://aclanthology.org/events/findings-2026/
+            - button "关于这条结果的详细信息" [ref=e190] [cursor=pointer]:
+              - img [ref=e193]
+          - generic [ref=e196]:
+            - generic [ref=e197]: 5天前 —
+            - generic [ref=e198]:
+              - text: ...
+              - emphasis [ref=e199]: ModernBERT
+              - text: ), small LLMs (Llama 1-8B, Qwen 1.5-7B) ... A Domain-Specific Curated Benchmark for Entity and Document-Level
+              - emphasis [ref=e200]: Relation Extraction
+        - generic [ref=e204]:
+          - generic [ref=e207]:
+            - link "Japanese Legal Judgment Prediction Using ModernBERT and ... R Discovery https://discovery.researcher.life › article › j..." [ref=e209] [cursor=pointer]:
+              - /url: https://discovery.researcher.life/article/japanese-legal-judgment-prediction-using-modernbert-and-generative-ai-based-information-extraction/0f7a57ab23763973a7808776934284db
+              - heading "Japanese Legal Judgment Prediction Using ModernBERT and ..." [level=3] [ref=e210]
+              - generic [ref=e215]:
+                - generic [ref=e217]: R Discovery
+                - generic [ref=e219]: https://discovery.researcher.life › article › j...
+            - generic [ref=e220]:
+              - generic [ref=e221]: ·
+              - link "翻译此页" [ref=e222] [cursor=pointer]:
+                - /url: https://discovery.researcher.life/article/japanese-legal-judgment-prediction-using-modernbert-and-generative-ai-based-information-extraction/0f7a57ab23763973a7808776934284db
+            - button "关于这条结果的详细信息" [ref=e223] [cursor=pointer]:
+              - img [ref=e226]
+          - generic [ref=e230]:
+            - text: ...
+            - emphasis [ref=e231]: "2026"
+            - text: "-03-03 by Kazuma Kadowaki ... In the first part of this paper, we propose a simple fine-tuned"
+            - emphasis [ref=e232]: ModernBERT
+            - text: ...
+            - emphasis [ref=e233]: relation extraction
+            - text: and visual grounding. In ...
+        - generic [ref=e237]:
+          - generic [ref=e240]:
+            - link "A multi-layer annotated corpus for information extraction in ... Frontiers https://www.frontiersin.org › articles › full" [ref=e242] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1766899/full
+              - heading "A multi-layer annotated corpus for information extraction in ..." [level=3] [ref=e243]
+              - generic [ref=e248]:
+                - generic [ref=e250]: Frontiers
+                - generic [ref=e252]: https://www.frontiersin.org › articles › full
+            - generic [ref=e253]:
+              - generic [ref=e254]: ·
+              - link "翻译此页" [ref=e255] [cursor=pointer]:
+                - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1766899/full
+            - button "关于这条结果的详细信息" [ref=e256] [cursor=pointer]:
+              - img [ref=e259]
+          - generic [ref=e262]:
+            - generic [ref=e263]: 作者：A Sultangaziyeva —
+            - generic [ref=e264]:
+              - emphasis [ref=e265]: ModernBERT
+              - text: achieved the strongest performance across both entity extraction and semantic
+              - emphasis [ref=e266]: relation extraction
+              - text: tasks. To ensure reproducibility, each ...
+        - generic [ref=e270]:
+          - generic [ref=e273]:
+            - link "A multi-level feature enhancement framework for named ... Nature https://www.nature.com › ... › articles" [ref=e275] [cursor=pointer]:
+              - /url: https://www.nature.com/articles/s41598-025-32884-0
+              - heading "A multi-level feature enhancement framework for named ..." [level=3] [ref=e276]
+              - generic [ref=e281]:
+                - generic [ref=e283]: Nature
+                - generic [ref=e285]: https://www.nature.com › ... › articles
+            - generic [ref=e286]:
+              - generic [ref=e287]: ·
+              - link "翻译此页" [ref=e288] [cursor=pointer]:
+                - /url: https://www.nature.com/articles/s41598-025-32884-0
+            - button "关于这条结果的详细信息" [ref=e289] [cursor=pointer]:
+              - img [ref=e292]
+          - generic [ref=e295]:
+            - generic [ref=e296]: 作者：Z Wei · 2026 —
+            - generic [ref=e297]:
+              - text: ...
+              - emphasis [ref=e298]: ModernBERT
+              - text: models (3.6% F1 improvement), thus highlighting the model ... Named entity recognition and
+              - emphasis [ref=e299]: relation extraction
+              - text: ": State-of-the-art."
+        - generic [ref=e303]:
+          - generic [ref=e306]:
+            - link "ACL 2025 in Vienna, Austria ScaDS.AI Dresden/Leipzig https://scads.ai › acl-2025-in-vienna-austria" [ref=e308] [cursor=pointer]:
+              - /url: https://scads.ai/acl-2025-in-vienna-austria/
+              - heading "ACL 2025 in Vienna, Austria" [level=3] [ref=e309]
+              - generic [ref=e314]:
+                - generic [ref=e316]: ScaDS.AI Dresden/Leipzig
+                - generic [ref=e318]: https://scads.ai › acl-2025-in-vienna-austria
+            - generic [ref=e319]:
+              - generic [ref=e320]: ·
+              - link "翻译此页" [ref=e321] [cursor=pointer]:
+                - /url: https://scads.ai/acl-2025-in-vienna-austria/
+            - button "关于这条结果的详细信息" [ref=e322] [cursor=pointer]:
+              - img [ref=e325]
+          - generic [ref=e328]:
+            - generic [ref=e329]: 2025年8月5日 —
+            - generic [ref=e330]:
+              - text: Our best performing approach used an ensemble of fine-tuned encoder-only
+              - emphasis [ref=e331]: ModernBERT
+              - text: and DeBERTa-v3 models for classification. Out of nine ...
+        - generic [ref=e335]:
+          - generic [ref=e338]:
+            - link "Leveraging Large Language Models for Adverse Drug ... PSB 2026 https://psb.stanford.edu › psb26 › prioleau" [ref=e340] [cursor=pointer]:
+              - /url: https://psb.stanford.edu/psb-online/proceedings/psb26/prioleau.pdf
+              - heading "Leveraging Large Language Models for Adverse Drug ..." [level=3] [ref=e341]
+              - generic [ref=e343]:
+                - img [ref=e347]
+                - generic [ref=e349]:
+                  - generic [ref=e351]: PSB 2026
+                  - generic [ref=e353]: https://psb.stanford.edu › psb26 › prioleau
+            - generic [ref=e354]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e355] [cursor=pointer]:
+              - img [ref=e358]
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - generic [ref=e362]: 作者：H Prioleau · 2025 —
+              - generic [ref=e363]:
+                - emphasis [ref=e364]: Relation extraction
+                - text: is often simpler than NER when working with gold ...
+                - emphasis [ref=e365]: ModernBERT
+                - text: "-base,19 and bert-base-cased.20. 3.3.1. Token Classification. For the ..."
+            - generic [ref=e366]: 14 页
+        - generic [ref=e370]:
+          - generic [ref=e373]:
+            - 'link "SciLaD: A Large-Scale, Transparent, Reproducible Dataset ... arXiv https://arxiv.org › html" [ref=e375] [cursor=pointer]':
+              - /url: https://arxiv.org/html/2512.11192v2
+              - 'heading "SciLaD: A Large-Scale, Transparent, Reproducible Dataset ..." [level=3] [ref=e376]'
+              - generic [ref=e381]:
+                - generic [ref=e383]: arXiv
+                - generic [ref=e385]: https://arxiv.org › html
+            - generic [ref=e386]:
+              - generic [ref=e387]: ·
+              - link "翻译此页" [ref=e388] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2512.11192v2
+            - button "关于这条结果的详细信息" [ref=e389] [cursor=pointer]:
+              - img [ref=e392]
+          - generic [ref=e395]:
+            - generic [ref=e396]: 2026年3月23日 —
+            - generic [ref=e397]:
+              - emphasis [ref=e398]: ModernBERT
+              - text: ... Our current experiments focus on discriminative tasks such as classification,
+              - emphasis [ref=e399]: relation extraction
+              - text: ", and named entity recognition."
+        - generic [ref=e403]:
+          - generic [ref=e406]:
+            - 'link "Paper Digest: ACL 2025 Papers & Highlights Paper Digest https://www.paperdigest.org › 2025/07 › ac..." [ref=e408] [cursor=pointer]':
+              - /url: https://www.paperdigest.org/2025/07/acl-2025-papers-highlights/
+              - 'heading "Paper Digest: ACL 2025 Papers & Highlights" [level=3] [ref=e409]'
+              - generic [ref=e414]:
+                - generic [ref=e416]: Paper Digest
+                - generic [ref=e418]: https://www.paperdigest.org › 2025/07 › ac...
+            - generic [ref=e419]:
+              - generic [ref=e420]: ·
+              - link "翻译此页" [ref=e421] [cursor=pointer]:
+                - /url: https://www.paperdigest.org/2025/07/acl-2025-papers-highlights/
+            - button "关于这条结果的详细信息" [ref=e422] [cursor=pointer]:
+              - img [ref=e425]
+          - generic [ref=e428]:
+            - generic [ref=e429]: 2025年7月21日 —
+            - generic [ref=e430]:
+              - text: "Highlight: In this paper, we introduce"
+              - emphasis [ref=e431]: ModernBERT
+              - text: ", bringing modern ..."
+              - emphasis [ref=e432]: Relation Extraction
+              - text: Via LLMs-as-the-Judge · Related Papers Related ...
+        - generic [ref=e436]:
+          - generic [ref=e439]:
+            - link "Enhancing Clinical Named Entity Recognition via Fine ... MDPI https://www.mdpi.com › ..." [ref=e441] [cursor=pointer]:
+              - /url: https://www.mdpi.com/2079-9292/14/18/3676
+              - heading "Enhancing Clinical Named Entity Recognition via Fine ..." [level=3] [ref=e442]
+              - generic [ref=e447]:
+                - generic [ref=e449]: MDPI
+                - generic [ref=e451]: https://www.mdpi.com › ...
+            - generic [ref=e452]:
+              - generic [ref=e453]: ·
+              - link "翻译此页" [ref=e454] [cursor=pointer]:
+                - /url: https://www.mdpi.com/2079-9292/14/18/3676
+            - button "关于这条结果的详细信息" [ref=e455] [cursor=pointer]:
+              - img [ref=e458]
+          - generic [ref=e461]:
+            - generic [ref=e462]: 作者：SC Sreenivas · 2025 · 被引用次数：1 —
+            - generic [ref=e463]:
+              - text: introduced Clinical
+              - emphasis [ref=e464]: ModernBERT
+              - text: ", a transformer model pre-trained on large ... Prompt tuning in biomedical"
+              - emphasis [ref=e465]: relation extraction
+              - text: . J. Healthc. Inform. Res ...
+      - navigation [ref=e468]:
+        - heading "网页导航" [level=1] [ref=e469]
+        - text: "1"
+        - link "Page 2" [ref=e472] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=10&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAE
+          - text: "2"
+        - link "Page 3" [ref=e474] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=20&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAG
+          - text: "3"
+        - link "Page 4" [ref=e476] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=30&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAI
+          - text: "4"
+        - link "Page 5" [ref=e478] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=40&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAK
+          - text: "5"
+        - link "Page 6" [ref=e480] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=50&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAM
+          - text: "6"
+        - link "Page 7" [ref=e482] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=60&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAO
+          - text: "7"
+        - link "Page 8" [ref=e484] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=70&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAQ
+          - text: "8"
+        - link "Page 9" [ref=e486] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=80&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAS
+          - text: "9"
+        - link "Page 10" [ref=e488] [cursor=pointer]:
+          - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=90&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8tMDegQIDBAU
+          - text: "10"
+        - heading "下一页" [level=2] [ref=e490]:
+          - link "下一页" [ref=e491] [cursor=pointer]:
+            - /url: /search?q=%22ModernBERT%22+%22relation+extraction%22+2025+2026&sca_esv=ef6db0e9fcb54fe8&ei=s7rTaYqwB5umqtsPlvqwyA0&start=10&sa=N&sstk=Af77f_fSKvgSmBNt15W__Siya0uNhlFpaozGoMXIY_cMhjR3aH6Z-Gw68_cfWtpojIgLGDjaa_JeFfINWR7R_j_J3aT0bnd7TvaufQ&ved=2ahUKEwjK1b7cr9mTAxUbk2oFHRY9DNkQ8NMDegQIDBAW
+            - generic [ref=e493]: 下一页
+      - navigation
+    - contentinfo [ref=e494]:
+      - heading "页脚链接" [level=1] [ref=e495]
+      - generic [ref=e499]:
+        - generic [ref=e501]:
+          - text: 新加坡
+          - generic [ref=e503]:
+            - button "新加坡 - 是根据您的 IP 地址推断出来的" [ref=e505] [cursor=pointer]:
+              - generic [ref=e506]: 新加坡
+              - generic [ref=e508]:
+                - text: "-"
+                - generic [ref=e509]: 是根据您的 IP 地址推断出来的
+            - text: "-"
+            - button "更新位置信息" [ref=e511] [cursor=pointer]: 更新位置信息
+        - generic [ref=e514]:
+          - link "帮助" [ref=e515] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e516] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e517] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e518] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

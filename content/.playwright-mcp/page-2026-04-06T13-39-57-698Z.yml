@@ -1,0 +1,1137 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fjackboyla%2FGLiREL%2Fblob%2Fmain%2Fglirel%2Fmodules%2Ftoken_rep.py
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=jackboyla%2FGLiREL
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "jackboyla" [ref=e70] [cursor=pointer]:
+              - /url: /jackboyla
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "GLiREL" [ref=e73] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 22" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "22" [ref=e84]
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "263 users starred this repository" [ref=e90]: "263"
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 10" [ref=e99] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "10" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 2" [ref=e106] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "2" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Actions" [ref=e112] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/actions
+                - img [ref=e113]
+                - generic [ref=e115]: Actions
+            - listitem [ref=e116]:
+              - link "Projects" [ref=e117] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/projects
+                - img [ref=e118]
+                - generic [ref=e120]: Projects
+            - listitem [ref=e121]:
+              - link "Security and quality" [ref=e122] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/security
+                - img [ref=e123]
+                - generic [ref=e125]: Security and quality
+            - listitem [ref=e126]:
+              - link "Insights" [ref=e127] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/pulse
+                - img [ref=e128]
+                - generic [ref=e130]: Insights
+      - generic [ref=e138]:
+        - generic [ref=e140]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - heading "Collapse file tree" [level=2] [ref=e146]:
+                  - button "Collapse file tree" [expanded] [ref=e147] [cursor=pointer]:
+                    - img [ref=e148]
+                - heading "Files" [level=2] [ref=e151]
+              - generic [ref=e152]:
+                - button "main branch" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155]:
+                    - generic [ref=e157]:
+                      - img [ref=e159]
+                      - generic [ref=e162]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e164] [cursor=pointer]:
+                  - img [ref=e165]
+            - generic [ref=e168]:
+              - img [ref=e170]
+              - combobox "Go to file" [ref=e172]
+            - navigation "File Tree Navigation" [ref=e178]:
+              - tree "Files" [ref=e180]:
+                - treeitem "configs" [level=1] [ref=e181]:
+                  - generic [ref=e182] [cursor=pointer]:
+                    - img [ref=e184]
+                    - generic [ref=e186]:
+                      - img [ref=e190]
+                      - generic [ref=e192]: configs
+                - treeitem "data" [level=1] [ref=e193]:
+                  - generic [ref=e194] [cursor=pointer]:
+                    - img [ref=e196]
+                    - generic [ref=e198]:
+                      - img [ref=e202]
+                      - generic [ref=e204]: data
+                - treeitem "examples" [level=1] [ref=e205]:
+                  - generic [ref=e206] [cursor=pointer]:
+                    - img [ref=e208]
+                    - generic [ref=e210]:
+                      - img [ref=e214]
+                      - generic [ref=e216]: examples
+                - treeitem "glirel" [expanded] [level=1] [ref=e217]:
+                  - generic [ref=e218] [cursor=pointer]:
+                    - img [ref=e220]
+                    - generic [ref=e222]:
+                      - img [ref=e226]
+                      - generic [ref=e228]: glirel
+                  - group "glirel" [ref=e229]:
+                    - treeitem "modules" [expanded] [level=2] [ref=e230]:
+                      - generic [ref=e231] [cursor=pointer]:
+                        - img [ref=e236]
+                        - generic [ref=e238]:
+                          - img [ref=e242]
+                          - generic [ref=e244]: modules
+                      - group "modules" [ref=e245]:
+                        - treeitem "___init__.py" [level=3] [ref=e246]:
+                          - generic [ref=e252] [cursor=pointer]:
+                            - img [ref=e255]
+                            - generic [ref=e257]: ___init__.py
+                        - treeitem "base.py" [level=3] [ref=e258]:
+                          - generic [ref=e264] [cursor=pointer]:
+                            - img [ref=e267]
+                            - generic [ref=e269]: base.py
+                        - treeitem "custom_tokenizers.py" [level=3] [ref=e270]:
+                          - generic [ref=e276] [cursor=pointer]:
+                            - img [ref=e279]
+                            - generic [ref=e281]: custom_tokenizers.py
+                        - treeitem "data_proc.py" [level=3] [ref=e282]:
+                          - generic [ref=e288] [cursor=pointer]:
+                            - img [ref=e291]
+                            - generic [ref=e293]: data_proc.py
+                        - treeitem "evaluator.py" [level=3] [ref=e294]:
+                          - generic [ref=e300] [cursor=pointer]:
+                            - img [ref=e303]
+                            - generic [ref=e305]: evaluator.py
+                        - treeitem "layers.py" [level=3] [ref=e306]:
+                          - generic [ref=e312] [cursor=pointer]:
+                            - img [ref=e315]
+                            - generic [ref=e317]: layers.py
+                        - treeitem "loss_functions.py" [level=3] [ref=e318]:
+                          - generic [ref=e324] [cursor=pointer]:
+                            - img [ref=e327]
+                            - generic [ref=e329]: loss_functions.py
+                        - treeitem "rel_rep.py" [level=3] [ref=e330]:
+                          - generic [ref=e336] [cursor=pointer]:
+                            - img [ref=e339]
+                            - generic [ref=e341]: rel_rep.py
+                        - treeitem "run_evaluation.py" [level=3] [ref=e342]:
+                          - generic [ref=e348] [cursor=pointer]:
+                            - img [ref=e351]
+                            - generic [ref=e353]: run_evaluation.py
+                        - treeitem "span_rep.py" [level=3] [ref=e354]:
+                          - generic [ref=e360] [cursor=pointer]:
+                            - img [ref=e363]
+                            - generic [ref=e365]: span_rep.py
+                        - treeitem "test_rel_rep.py" [level=3] [ref=e366]:
+                          - generic [ref=e372] [cursor=pointer]:
+                            - img [ref=e375]
+                            - generic [ref=e377]: test_rel_rep.py
+                        - treeitem "test_token_rep.py" [level=3] [ref=e378]:
+                          - generic [ref=e384] [cursor=pointer]:
+                            - img [ref=e387]
+                            - generic [ref=e389]: test_token_rep.py
+                        - treeitem "test_transformer_embeddings.py" [level=3] [ref=e390]:
+                          - generic [ref=e396] [cursor=pointer]:
+                            - img [ref=e399]
+                            - generic [ref=e401]: test_transformer_embeddings.py
+                        - treeitem "token_rep.py" [level=3] [ref=e402]:
+                          - generic [ref=e408] [cursor=pointer]:
+                            - img [ref=e411]
+                            - generic [ref=e413]: token_rep.py
+                        - treeitem "transformer_embeddings.py" [level=3] [ref=e414]:
+                          - generic [ref=e420] [cursor=pointer]:
+                            - img [ref=e423]
+                            - generic [ref=e425]: transformer_embeddings.py
+                        - treeitem "utils.py" [level=3] [ref=e426]:
+                          - generic [ref=e432] [cursor=pointer]:
+                            - img [ref=e435]
+                            - generic [ref=e437]: utils.py
+                    - treeitem "__init__.py" [level=2] [ref=e438]:
+                      - generic [ref=e443] [cursor=pointer]:
+                        - img [ref=e446]
+                        - generic [ref=e448]: __init__.py
+                    - treeitem "model.py" [level=2] [ref=e449]:
+                      - generic [ref=e454] [cursor=pointer]:
+                        - img [ref=e457]
+                        - generic [ref=e459]: model.py
+                    - treeitem "spacy_integration.py" [level=2] [ref=e460]:
+                      - generic [ref=e465] [cursor=pointer]:
+                        - img [ref=e468]
+                        - generic [ref=e470]: spacy_integration.py
+                    - treeitem "test_model.py" [level=2] [ref=e471]:
+                      - generic [ref=e476] [cursor=pointer]:
+                        - img [ref=e479]
+                        - generic [ref=e481]: test_model.py
+                    - treeitem "test_spacy_integration.py" [level=2] [ref=e482]:
+                      - generic [ref=e487] [cursor=pointer]:
+                        - img [ref=e490]
+                        - generic [ref=e492]: test_spacy_integration.py
+                - treeitem ".gitignore" [level=1] [ref=e493]:
+                  - generic [ref=e495] [cursor=pointer]:
+                    - img [ref=e498]
+                    - generic [ref=e500]: .gitignore
+                - treeitem "Makefile" [level=1] [ref=e501]:
+                  - generic [ref=e503] [cursor=pointer]:
+                    - img [ref=e506]
+                    - generic [ref=e508]: Makefile
+                - treeitem "README.md" [level=1] [ref=e509]:
+                  - generic [ref=e511] [cursor=pointer]:
+                    - img [ref=e514]
+                    - generic [ref=e516]: README.md
+                - treeitem "RELEASE.md" [level=1] [ref=e517]:
+                  - generic [ref=e519] [cursor=pointer]:
+                    - img [ref=e522]
+                    - generic [ref=e524]: RELEASE.md
+                - treeitem "demo.jpg" [level=1] [ref=e525]:
+                  - generic [ref=e527] [cursor=pointer]:
+                    - img [ref=e530]
+                    - generic [ref=e532]: demo.jpg
+                - treeitem "eval.py" [level=1] [ref=e533]:
+                  - generic [ref=e535] [cursor=pointer]:
+                    - img [ref=e538]
+                    - generic [ref=e540]: eval.py
+                - treeitem "eval_with_gpt.py" [level=1] [ref=e541]:
+                  - generic [ref=e543] [cursor=pointer]:
+                    - img [ref=e546]
+                    - generic [ref=e548]: eval_with_gpt.py
+                - treeitem "image.png" [level=1] [ref=e549]:
+                  - generic [ref=e551] [cursor=pointer]:
+                    - img [ref=e554]
+                    - generic [ref=e556]: image.png
+                - treeitem "pyproject.toml" [level=1] [ref=e557]:
+                  - generic [ref=e559] [cursor=pointer]:
+                    - img [ref=e562]
+                    - generic [ref=e564]: pyproject.toml
+                - treeitem "quickstart.py" [level=1] [ref=e565]:
+                  - generic [ref=e567] [cursor=pointer]:
+                    - img [ref=e570]
+                    - generic [ref=e572]: quickstart.py
+                - treeitem "quickstart_demo.ipynb" [level=1] [ref=e573]:
+                  - generic [ref=e575] [cursor=pointer]:
+                    - img [ref=e578]
+                    - generic [ref=e580]: quickstart_demo.ipynb
+                - treeitem "quickstart_demo_spacy.ipynb" [level=1] [ref=e581]:
+                  - generic [ref=e583] [cursor=pointer]:
+                    - img [ref=e586]
+                    - generic [ref=e588]: quickstart_demo_spacy.ipynb
+                - treeitem "requirements-dev.txt" [level=1] [ref=e589]:
+                  - generic [ref=e591] [cursor=pointer]:
+                    - img [ref=e594]
+                    - generic [ref=e596]: requirements-dev.txt
+                - treeitem "requirements.txt" [level=1] [ref=e597]:
+                  - generic [ref=e599] [cursor=pointer]:
+                    - img [ref=e602]
+                    - generic [ref=e604]: requirements.txt
+                - treeitem "train.py" [level=1] [ref=e605]:
+                  - generic [ref=e607] [cursor=pointer]:
+                    - img [ref=e610]
+                    - generic [ref=e612]: train.py
+                - treeitem "visualise.ipynb" [level=1] [ref=e613]:
+                  - generic [ref=e615] [cursor=pointer]:
+                    - img [ref=e618]
+                    - generic [ref=e620]: visualise.ipynb
+          - slider "Draggable pane splitter" [ref=e622]
+        - generic [ref=e625]:
+          - generic [ref=e629]:
+            - generic [ref=e631]:
+              - navigation "Breadcrumbs" [ref=e632]:
+                - heading "Breadcrumbs" [level=2] [ref=e633]
+                - list [ref=e634]:
+                  - listitem [ref=e635]:
+                    - link "GLiREL" [ref=e636] [cursor=pointer]:
+                      - /url: /jackboyla/GLiREL/tree/main
+                  - listitem [ref=e637]:
+                    - text: /
+                    - link "glirel" [ref=e638] [cursor=pointer]:
+                      - /url: /jackboyla/GLiREL/tree/main/glirel
+                  - listitem [ref=e639]:
+                    - text: /
+                    - link "modules" [ref=e640] [cursor=pointer]:
+                      - /url: /jackboyla/GLiREL/tree/main/glirel/modules
+              - generic [ref=e641]:
+                - text: /
+                - heading "token_rep.py" [level=1] [ref=e642]
+              - button "Copy path" [ref=e643] [cursor=pointer]:
+                - img [ref=e644]
+            - button "More file actions" [ref=e650] [cursor=pointer]:
+              - img [ref=e651]
+          - generic [ref=e653]:
+            - generic [ref=e655]:
+              - heading "Latest commit" [level=2] [ref=e656]
+              - generic [ref=e659]:
+                - heading "History" [level=2] [ref=e660]
+                - link "History" [ref=e661] [cursor=pointer]:
+                  - /url: /jackboyla/GLiREL/commits/main/glirel/modules/token_rep.py
+                  - generic [ref=e662]:
+                    - generic:
+                      - img
+                    - generic [ref=e663]: History
+            - generic [ref=e665]:
+              - generic [ref=e667]:
+                - heading "File metadata and controls" [level=2] [ref=e668]
+                - list "File view" [ref=e670]:
+                  - listitem [ref=e671]:
+                    - button "Code" [ref=e672] [cursor=pointer]:
+                      - generic [ref=e674]: Code
+                  - listitem [ref=e675]:
+                    - button "Blame" [ref=e676] [cursor=pointer]:
+                      - generic [ref=e678]: Blame
+                - generic [ref=e679]:
+                  - generic [ref=e680]:
+                    - generic [ref=e681]:
+                      - link "Raw" [ref=e683] [cursor=pointer]:
+                        - /url: https://github.com/jackboyla/GLiREL/raw/refs/heads/main/glirel/modules/token_rep.py
+                        - generic [ref=e685]: Raw
+                      - button "Copy raw file" [ref=e687] [cursor=pointer]:
+                        - img [ref=e688]
+                      - button "Download raw file" [ref=e692] [cursor=pointer]:
+                        - img [ref=e693]
+                    - generic [ref=e696]:
+                      - button "You must be signed in to make or propose changes" [disabled] [ref=e698]:
+                        - img [ref=e699]
+                      - button "More edit options" [ref=e702] [cursor=pointer]:
+                        - img [ref=e703]
+                  - button "Open symbols panel" [ref=e705] [cursor=pointer]:
+                    - img [ref=e706]
+              - region "token_rep.py" [ref=e709]:
+                - generic [ref=e713]:
+                  - textbox "file content" [ref=e716]: "from typing import List import torch import torch.nn as nn from torch.nn.utils.rnn import pad_sequence from glirel.modules.transformer_embeddings import TransformerWordEmbeddings class MinimalToken: def __init__(self, text: str): self.text = text self._embeddings = {} def set_embedding(self, name: str, vector: torch.Tensor): self._embeddings[name] = vector def get_embedding(self, name: str) -> torch.Tensor: return self._embeddings[name] class MinimalSentence: \"\"\" A minimal drop-in replacement for Flair's Sentence \"\"\" def __init__(self, list_of_words: List[str]): self.tokens = [MinimalToken(w) for w in list_of_words] class TokenRepLayer(nn.Module): def __init__(self, model_name: str, fine_tune: bool, subtoken_pooling: str, hidden_size: int, add_tokens: List[str]): super().__init__() self.bert_layer = TransformerWordEmbeddings( model_name, fine_tune=fine_tune, subtoken_pooling=subtoken_pooling, allow_long_sentences=True ) # Flair’s code automatically inserts \"[FLERT]\" if use_context_separator=True that is the default # Adding also it here to replicate the same behavior if \"[FLERT]\" not in self.bert_layer.tokenizer.get_vocab(): self.bert_layer.tokenizer.add_special_tokens({\"additional_special_tokens\": [\"[FLERT]\"]}) # Add tokens to vocabulary if add_tokens: self.bert_layer.tokenizer.add_tokens(add_tokens) # Resize token embeddings self.bert_layer.model.resize_token_embeddings(len(self.bert_layer.tokenizer)) bert_hidden_size = self.bert_layer.embedding_length if hidden_size != bert_hidden_size: self.projection = nn.Linear(bert_hidden_size, hidden_size) def forward(self, tokens: List[List[str]], lengths: torch.Tensor): token_embeddings = self.compute_word_embedding(tokens) if hasattr(self, \"projection\"): token_embeddings = self.projection(token_embeddings) B = len(lengths) max_length = lengths.max() mask = (torch.arange(max_length).view(1, -1).repeat(B, 1) < lengths.cpu().unsqueeze(1)).to(token_embeddings.device).long() return {\"embeddings\": token_embeddings, \"mask\": mask} def compute_word_embedding(self, tokens: List[List[str]]): sentences = [MinimalSentence(toks) for toks in tokens] \"\"\" sentences[0] Sentence[29]: \"[REL] doctoral advisor [REL] publisher [REL] connecting line [SEP] The Church of the Faroe Islands ( Faroese Fólkakirkjan ) is one of the smallest of the worlds state church es .\" [t for t in sentences[0].tokens] [Token[0]: \"[REL]\", Token[1]: \"doctoral advisor\", Token[2]: \"[REL]\", Token[3]: \"publisher\", Token[4]: \"[REL]\", Token[5]: \"connecting line\", Token[6]: \"[SEP]\", Token[7]: \"The\", Token[8]: \"Church\", Token[9]: \"of\", Token[10]: \"the\", Token[11]: \"Faroe\", Token[12]: \"Islands\", Token[13]: \"(\", Token[14]: \"Faroese\", Token[15]: \"Fólkakirkjan\", Token[16]: \")\", Token[17]: \"is\", Token[18]: \"one\", Token[19]: \"of\", Token[20]: \"the\", Token[21]: \"smallest\", Token[22]: \"of\", Token[23]: \"the\", Token[24]: \"worlds\", Token[25]: \"state\", Token[26]: \"church\", Token[27]: \"es\", Token[28]: \".\"] \"\"\" self.bert_layer.embed(sentences) token_embeddings = pad_sequence( [torch.stack([tok.get_embedding(self.bert_layer.name) for tok in s.tokens]) for s in sentences], batch_first=True ) return token_embeddings"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e717]:
+                          - generic [ref=e718] [cursor=pointer]: "1"
+                          - generic [ref=e719] [cursor=pointer]: "2"
+                          - generic [ref=e720] [cursor=pointer]: "3"
+                          - generic [ref=e721] [cursor=pointer]: "4"
+                          - generic [ref=e722] [cursor=pointer]: "5"
+                          - generic [ref=e723] [cursor=pointer]: "6"
+                          - generic [ref=e724] [cursor=pointer]: "7"
+                          - generic [ref=e725] [cursor=pointer]: "8"
+                          - generic [ref=e726] [cursor=pointer]: "9"
+                          - generic [ref=e727] [cursor=pointer]:
+                            - text: "10"
+                            - button [ref=e728]:
+                              - img [ref=e729]
+                          - generic [ref=e731] [cursor=pointer]: "11"
+                          - generic [ref=e732] [cursor=pointer]: "12"
+                          - generic [ref=e733] [cursor=pointer]: "13"
+                          - generic [ref=e734] [cursor=pointer]: "14"
+                          - generic [ref=e735] [cursor=pointer]: "15"
+                          - generic [ref=e736] [cursor=pointer]: "16"
+                          - generic [ref=e737] [cursor=pointer]: "17"
+                          - generic [ref=e738] [cursor=pointer]: "18"
+                          - generic [ref=e739] [cursor=pointer]: "19"
+                          - generic [ref=e740] [cursor=pointer]: "20"
+                          - generic [ref=e741] [cursor=pointer]: "21"
+                          - generic [ref=e742] [cursor=pointer]:
+                            - text: "22"
+                            - button [ref=e743]:
+                              - img [ref=e744]
+                          - generic [ref=e746] [cursor=pointer]: "23"
+                          - generic [ref=e747] [cursor=pointer]: "24"
+                          - generic [ref=e748] [cursor=pointer]: "25"
+                          - generic [ref=e749] [cursor=pointer]: "26"
+                          - generic [ref=e750] [cursor=pointer]: "27"
+                          - generic [ref=e751] [cursor=pointer]: "28"
+                          - generic [ref=e752] [cursor=pointer]: "29"
+                          - generic [ref=e753] [cursor=pointer]:
+                            - text: "30"
+                            - button [ref=e754]:
+                              - img [ref=e755]
+                          - generic [ref=e757] [cursor=pointer]:
+                            - text: "31"
+                            - button [ref=e758]:
+                              - img [ref=e759]
+                          - generic [ref=e761] [cursor=pointer]: "32"
+                          - generic [ref=e762] [cursor=pointer]: "33"
+                          - generic [ref=e763] [cursor=pointer]: "34"
+                          - generic [ref=e764] [cursor=pointer]: "35"
+                          - generic [ref=e765] [cursor=pointer]: "36"
+                          - generic [ref=e766] [cursor=pointer]: "37"
+                          - generic [ref=e767] [cursor=pointer]: "38"
+                          - generic [ref=e768] [cursor=pointer]: "39"
+                          - generic [ref=e769] [cursor=pointer]: "40"
+                          - generic [ref=e770] [cursor=pointer]: "41"
+                          - generic [ref=e771] [cursor=pointer]: "42"
+                          - generic [ref=e772] [cursor=pointer]: "43"
+                          - generic [ref=e773] [cursor=pointer]: "44"
+                          - generic [ref=e774] [cursor=pointer]: "45"
+                          - generic [ref=e775] [cursor=pointer]: "46"
+                          - generic [ref=e776] [cursor=pointer]: "47"
+                          - generic [ref=e777] [cursor=pointer]: "48"
+                          - generic [ref=e778] [cursor=pointer]: "49"
+                          - generic [ref=e779] [cursor=pointer]: "50"
+                          - generic [ref=e780] [cursor=pointer]: "51"
+                          - generic [ref=e781] [cursor=pointer]: "52"
+                          - generic [ref=e782] [cursor=pointer]: "53"
+                          - generic [ref=e783] [cursor=pointer]: "54"
+                          - generic [ref=e784] [cursor=pointer]: "55"
+                          - generic [ref=e785] [cursor=pointer]: "56"
+                          - generic [ref=e786] [cursor=pointer]: "57"
+                          - generic [ref=e787] [cursor=pointer]: "58"
+                          - generic [ref=e788] [cursor=pointer]:
+                            - text: "59"
+                            - button [ref=e789]:
+                              - img [ref=e790]
+                          - generic [ref=e792] [cursor=pointer]: "60"
+                          - generic [ref=e793] [cursor=pointer]: "61"
+                          - generic [ref=e794] [cursor=pointer]: "62"
+                          - generic [ref=e795] [cursor=pointer]: "63"
+                          - generic [ref=e796] [cursor=pointer]: "64"
+                          - generic [ref=e797] [cursor=pointer]: "65"
+                          - generic [ref=e798] [cursor=pointer]: "66"
+                          - generic [ref=e799] [cursor=pointer]: "67"
+                          - generic [ref=e800] [cursor=pointer]: "68"
+                          - generic [ref=e801] [cursor=pointer]: "69"
+                          - generic [ref=e802] [cursor=pointer]: "70"
+                          - generic [ref=e803] [cursor=pointer]: "71"
+                          - generic [ref=e804] [cursor=pointer]:
+                            - text: "72"
+                            - button [ref=e805]:
+                              - img [ref=e806]
+                          - generic [ref=e808] [cursor=pointer]: "73"
+                          - generic [ref=e809] [cursor=pointer]: "74"
+                          - generic [ref=e810] [cursor=pointer]: "75"
+                          - generic [ref=e811] [cursor=pointer]: "76"
+                          - generic [ref=e812] [cursor=pointer]: "77"
+                          - generic [ref=e813] [cursor=pointer]: "78"
+                          - generic [ref=e814] [cursor=pointer]: "79"
+                          - generic [ref=e815] [cursor=pointer]: "80"
+                          - generic [ref=e816] [cursor=pointer]: "81"
+                          - generic [ref=e817] [cursor=pointer]: "82"
+                          - generic [ref=e818] [cursor=pointer]: "83"
+                          - generic [ref=e819] [cursor=pointer]: "84"
+                          - generic [ref=e820] [cursor=pointer]: "85"
+                          - generic [ref=e821] [cursor=pointer]: "86"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: typing
+                                - generic: import
+                                - generic: List
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: import
+                                - generic: torch
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: import
+                                - generic: torch
+                                - text: .
+                                - generic: nn
+                                - generic: as
+                                - generic: nn
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: torch
+                                - text: .
+                                - generic: nn
+                                - text: .
+                                - generic: utils
+                                - text: .
+                                - generic: rnn
+                                - generic: import
+                                - generic: pad_sequence
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: glirel
+                                - text: .
+                                - generic: modules
+                                - text: .
+                                - generic: transformer_embeddings
+                                - generic: import
+                                - generic: TransformerWordEmbeddings
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: class
+                                - generic: MinimalToken
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: __init__
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: text
+                                - text: ":"
+                                - generic: str
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: text
+                                - generic: =
+                                - generic: text
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: _embeddings
+                                - generic: =
+                                - text: "{}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: set_embedding
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: name
+                                - text: ":"
+                                - generic: str
+                                - text: ","
+                                - generic: vector
+                                - text: ":"
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: _embeddings
+                                - text: "["
+                                - generic: name
+                                - text: "]"
+                                - generic: =
+                                - generic: vector
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: get_embedding
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: name
+                                - text: ":"
+                                - generic: str
+                                - text: )
+                                - generic: "->"
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: self
+                                - text: .
+                                - generic: _embeddings
+                                - text: "["
+                                - generic: name
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: class
+                                - generic: MinimalSentence
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: A minimal drop-in replacement for Flair's Sentence
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: __init__
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: list_of_words
+                                - text: ":"
+                                - generic: List
+                                - text: "["
+                                - generic: str
+                                - text: "]):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: tokens
+                                - generic: =
+                                - text: "["
+                                - generic: MinimalToken
+                                - text: (
+                                - generic: w
+                                - text: )
+                                - generic: for
+                                - generic: w
+                                - generic: in
+                                - generic: list_of_words
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: class
+                                - generic: TokenRepLayer
+                                - text: (
+                                - generic: nn
+                                - text: .
+                                - generic: Module
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: __init__
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: model_name
+                                - text: ":"
+                                - generic: str
+                                - text: ","
+                                - generic: fine_tune
+                                - text: ":"
+                                - generic: bool
+                                - text: ","
+                                - generic: subtoken_pooling
+                                - text: ":"
+                                - generic: str
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: hidden_size
+                                - text: ":"
+                                - generic: int
+                                - text: ","
+                                - generic: add_tokens
+                                - text: ":"
+                                - generic: List
+                                - text: "["
+                                - generic: str
+                                - text: "]):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: super
+                                - text: ().
+                                - generic: __init__
+                                - text: ()
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - generic: =
+                                - generic: TransformerWordEmbeddings
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: model_name
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: fine_tune
+                                - generic: =
+                                - generic: fine_tune
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: subtoken_pooling
+                                - generic: =
+                                - generic: subtoken_pooling
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: allow_long_sentences
+                                - generic: =
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Flair’s code automatically inserts \"[FLERT]\" if use_context_separator=True that is the default"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Adding also it here to replicate the same behavior"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: "\"[FLERT]\""
+                                - generic:
+                                  - generic: not
+                                  - generic: in
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - text: .
+                                - generic: tokenizer
+                                - text: .
+                                - generic: get_vocab
+                                - text: "():"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - text: .
+                                - generic: tokenizer
+                                - text: .
+                                - generic: add_special_tokens
+                                - text: "({"
+                                - generic: "\"additional_special_tokens\""
+                                - text: ": ["
+                                - generic: "\"[FLERT]\""
+                                - text: "]})"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Add tokens to vocabulary"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: add_tokens
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - text: .
+                                - generic: tokenizer
+                                - text: .
+                                - generic: add_tokens
+                                - text: (
+                                - generic: add_tokens
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Resize token embeddings"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - text: .
+                                - generic: model
+                                - text: .
+                                - generic: resize_token_embeddings
+                                - text: (
+                                - generic: len
+                                - text: (
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - text: .
+                                - generic: tokenizer
+                                - text: ))
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: bert_hidden_size
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - text: .
+                                - generic: embedding_length
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: hidden_size
+                                - generic: "!="
+                                - generic: bert_hidden_size
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: projection
+                                - generic: =
+                                - generic: nn
+                                - text: .
+                                - generic: Linear
+                                - text: (
+                                - generic: bert_hidden_size
+                                - text: ","
+                                - generic: hidden_size
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: forward
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: tokens
+                                - text: ":"
+                                - generic: List
+                                - text: "["
+                                - generic: List
+                                - text: "["
+                                - generic: str
+                                - text: "]],"
+                                - generic: lengths
+                                - text: ":"
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_embeddings
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: compute_word_embedding
+                                - text: (
+                                - generic: tokens
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: hasattr
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: "\"projection\""
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_embeddings
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: projection
+                                - text: (
+                                - generic: token_embeddings
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: B
+                                - generic: =
+                                - generic: len
+                                - text: (
+                                - generic: lengths
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: max_length
+                                - generic: =
+                                - generic: lengths
+                                - text: .
+                                - generic: max
+                                - text: ()
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: mask
+                                - generic: =
+                                - text: (
+                                - generic: torch
+                                - text: .
+                                - generic: arange
+                                - text: (
+                                - generic: max_length
+                                - text: ).
+                                - generic: view
+                                - text: (
+                                - generic: "1"
+                                - text: ","
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ).
+                                - generic: repeat
+                                - text: (
+                                - generic: B
+                                - text: ","
+                                - generic: "1"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: <
+                                - generic: lengths
+                                - text: .
+                                - generic: cpu
+                                - text: ().
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "1"
+                                - text: )).
+                                - generic: to
+                                - text: (
+                                - generic: token_embeddings
+                                - text: .
+                                - generic: device
+                                - text: ).
+                                - generic: long
+                                - text: ()
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - text: "{"
+                                - generic: "\"embeddings\""
+                                - text: ":"
+                                - generic: token_embeddings
+                                - text: ","
+                                - generic: "\"mask\""
+                                - text: ":"
+                                - generic: mask
+                                - text: "}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: compute_word_embedding
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: tokens
+                                - text: ":"
+                                - generic: List
+                                - text: "["
+                                - generic: List
+                                - text: "["
+                                - generic: str
+                                - text: "]]):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: sentences
+                                - generic: =
+                                - text: "["
+                                - generic: MinimalSentence
+                                - text: (
+                                - generic: toks
+                                - text: )
+                                - generic: for
+                                - generic: toks
+                                - generic: in
+                                - generic: tokens
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: sentences[0]
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Sentence[29]: \"[REL] doctoral advisor [REL] publisher [REL] connecting line [SEP] The Church of the Faroe Islands ( Faroese Fólkakirkjan ) is one of the smallest of the worlds state church es .\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "[t for t in sentences[0].tokens]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "[Token[0]: \"[REL]\", Token[1]: \"doctoral advisor\", Token[2]: \"[REL]\", Token[3]: \"publisher\", Token[4]: \"[REL]\", Token[5]: \"connecting line\", Token[6]: \"[SEP]\", Token[7]: \"The\", Token[8]: \"Church\", Token[9]: \"of\", Token[10]: \"the\", Token[11]: \"Faroe\", Token[12]: \"Islands\", Token[13]: \"(\", Token[14]: \"Faroese\", Token[15]: \"Fólkakirkjan\", Token[16]: \")\", Token[17]: \"is\", Token[18]: \"one\", Token[19]: \"of\", Token[20]: \"the\", Token[21]: \"smallest\", Token[22]: \"of\", Token[23]: \"the\", Token[24]: \"worlds\", Token[25]: \"state\", Token[26]: \"church\", Token[27]: \"es\", Token[28]: \".\"]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - text: .
+                                - generic: embed
+                                - text: (
+                                - generic: sentences
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_embeddings
+                                - generic: =
+                                - generic: pad_sequence
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: "["
+                                - generic: torch
+                                - text: .
+                                - generic: stack
+                                - text: ([
+                                - generic: tok
+                                - text: .
+                                - generic: get_embedding
+                                - text: (
+                                - generic: self
+                                - text: .
+                                - generic: bert_layer
+                                - text: .
+                                - generic: name
+                                - text: )
+                                - generic: for
+                                - generic: tok
+                                - generic: in
+                                - generic: s
+                                - text: .
+                                - generic: tokens
+                                - text: "])"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: s
+                                - generic: in
+                                - generic: sentences
+                                - text: "],"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: batch_first
+                                - generic: =
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: token_embeddings
+  - alert [ref=e827]

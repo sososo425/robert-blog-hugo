@@ -1,0 +1,20 @@
+{
+  "id": "conv-1774583276505-8vrkpqgxb",
+  "title": "Explain context compression techniques in AI sy...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1774583276505,
+  "updatedAt": 1774781602905,
+  "lastResponseAt": 1774592973872,
+  "sessionId": "6ad66020-2d3d-410d-8803-eafee073338c",
+  "sdkSessionId": "6ad66020-2d3d-410d-8803-eafee073338c",
+  "currentNote": "private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

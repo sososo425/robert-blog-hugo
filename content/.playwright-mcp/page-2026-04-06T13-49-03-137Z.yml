@@ -1,0 +1,114 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - link "Homepage" [ref=e8] [cursor=pointer]:
+        - /url: https://medium.com/?source=post_page---top_nav_layout_nav-----------------------------------------
+        - img "Medium Logo" [ref=e9]
+      - generic [ref=e12]:
+        - listbox
+        - img [ref=e14]
+        - combobox "search" [ref=e16]
+    - button "Get the Medium app" [ref=e18] [cursor=pointer]:
+      - img [ref=e19]
+      - generic [ref=e22]: Get app
+    - link "Write" [ref=e25] [cursor=pointer]:
+      - /url: https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top_nav_layout_nav-----------------------new_post_topnav------------------
+      - generic [ref=e26]:
+        - img [ref=e27]
+        - text: Write
+    - generic [ref=e31]:
+      - paragraph [ref=e32]:
+        - button "Sign up" [ref=e34]
+      - paragraph [ref=e36]:
+        - link "Sign in" [ref=e38] [cursor=pointer]:
+          - /url: https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fblog.knowledgator.com%2Frefreshing-zero-shot-classification-with-modernbert-9c2a30503e42&source=post_page---top_nav_layout_nav-----------------------global_nav------------------
+    - tooltip "user options menu" [ref=e41]:
+      - button "user options menu" [ref=e43] [cursor=pointer]
+  - generic [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e52]: PAGE NOT FOUND
+      - heading "404" [level=2] [ref=e54]
+      - heading "Out of nothing, something." [level=2] [ref=e56]
+      - generic [ref=e58]: You can find (just about) anything on Medium — apparently even a page that doesn’t exist. Maybe these stories will take you somewhere new?
+      - link "Home" [ref=e61] [cursor=pointer]:
+        - /url: /?source=post_page--------------------------------------------
+    - generic [ref=e63]:
+      - generic [ref=e67]:
+        - link [ref=e68] [cursor=pointer]:
+          - /url: https://medium.com/@grateful_aqua_goat_147/deaf-english-the-dialect-that-doesnt-exist-a86668b172c3?source=post_page--------------------------------------------
+        - 'link "Deaf English: The Dialect That Doesn’t Exist" [ref=e70] [cursor=pointer]':
+          - /url: https://medium.com/@grateful_aqua_goat_147/deaf-english-the-dialect-that-doesnt-exist-a86668b172c3?source=post_page--------------------------------------------
+          - 'heading "Deaf English: The Dialect That Doesn’t Exist" [level=4] [ref=e71]'
+        - generic [ref=e73]:
+          - link "Tobin Zolkowski" [ref=e74] [cursor=pointer]:
+            - /url: https://medium.com/@grateful_aqua_goat_147?source=post_page--------------------------------------------
+            - img "Tobin Zolkowski" [ref=e76]
+          - generic [ref=e78]:
+            - link "Tobin Zolkowski" [ref=e80] [cursor=pointer]:
+              - /url: https://medium.com/@grateful_aqua_goat_147?source=post_page--------------------------------------------
+            - generic [ref=e81]:
+              - generic [ref=e83]:
+                - generic [ref=e84]: Mar 14, 2026
+                - generic [ref=e86]: ·
+                - text: 16 min read
+              - button "Member-only story" [ref=e88]:
+                - generic [ref=e89]:
+                  - img [ref=e90]
+                  - paragraph [ref=e92]: Member-only
+      - generic [ref=e96]:
+        - link [ref=e97] [cursor=pointer]:
+          - /url: https://mysteriousrook.medium.com/software-in-a-time-of-fear-4e5a08ac7c63?source=post_page--------------------------------------------
+        - link "Software, in a Time of Fear" [ref=e99] [cursor=pointer]:
+          - /url: https://mysteriousrook.medium.com/software-in-a-time-of-fear-4e5a08ac7c63?source=post_page--------------------------------------------
+          - heading "Software, in a Time of Fear" [level=4] [ref=e100]
+        - generic [ref=e102]:
+          - link "Ed Lyons" [ref=e103] [cursor=pointer]:
+            - /url: https://mysteriousrook.medium.com/?source=post_page--------------------------------------------
+            - img "Ed Lyons" [ref=e105]
+          - generic [ref=e107]:
+            - link "Ed Lyons" [ref=e109] [cursor=pointer]:
+              - /url: https://mysteriousrook.medium.com/?source=post_page--------------------------------------------
+            - generic [ref=e112]:
+              - generic [ref=e113]: Feb 27, 2026
+              - generic [ref=e115]: ·
+              - text: 12 min read
+      - generic [ref=e119]:
+        - link [ref=e120] [cursor=pointer]:
+          - /url: https://medium.com/counterarts/weak-bids-51eb93f328a3?source=post_page--------------------------------------------
+        - link "Weak Bids" [ref=e122] [cursor=pointer]:
+          - /url: https://medium.com/counterarts/weak-bids-51eb93f328a3?source=post_page--------------------------------------------
+          - heading "Weak Bids" [level=4] [ref=e123]
+        - generic [ref=e125]:
+          - link "Elizabeth Mazzola" [ref=e126] [cursor=pointer]:
+            - /url: https://medium.com/@emazzola_12716?source=post_page--------------------------------------------
+            - img "Elizabeth Mazzola" [ref=e128]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - link "Elizabeth Mazzola" [ref=e132] [cursor=pointer]:
+                - /url: https://medium.com/@emazzola_12716?source=post_page--------------------------------------------
+              - link "in Counter Arts" [ref=e133] [cursor=pointer]:
+                - /url: /counterarts?source=post_page--------------------------------------------
+            - generic [ref=e136]:
+              - generic [ref=e137]: Dec 21, 2025
+              - generic [ref=e139]: ·
+              - text: 7 min read
+      - generic [ref=e143]:
+        - link [ref=e144] [cursor=pointer]:
+          - /url: https://medium.com/whither-news/habermas-and-his-coffeehouses-aa028baceee6?source=post_page--------------------------------------------
+        - link "Habermas and his Coffeehouses" [ref=e146] [cursor=pointer]:
+          - /url: https://medium.com/whither-news/habermas-and-his-coffeehouses-aa028baceee6?source=post_page--------------------------------------------
+          - heading "Habermas and his Coffeehouses" [level=4] [ref=e147]
+        - generic [ref=e149]:
+          - link "Jeff Jarvis" [ref=e150] [cursor=pointer]:
+            - /url: https://jeffjarvis.medium.com/?source=post_page--------------------------------------------
+            - img "Jeff Jarvis" [ref=e152]
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - link "Jeff Jarvis" [ref=e156] [cursor=pointer]:
+                - /url: https://jeffjarvis.medium.com/?source=post_page--------------------------------------------
+              - link "in Whither news?" [ref=e157] [cursor=pointer]:
+                - /url: /whither-news?source=post_page--------------------------------------------
+            - generic [ref=e160]:
+              - generic [ref=e161]: Mar 16, 2026
+              - generic [ref=e163]: ·
+              - text: 18 min read

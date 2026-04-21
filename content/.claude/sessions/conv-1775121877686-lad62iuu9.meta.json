@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775121877686-lad62iuu9",
+  "title": "这里画一个mermaid流程图。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775121877686,
+  "updatedAt": 1775206846318,
+  "lastResponseAt": 1775124870431,
+  "sessionId": "99c7b0a4-ddca-48ca-8715-36a6e2bfc5b6",
+  "sdkSessionId": "99c7b0a4-ddca-48ca-8715-36a6e2bfc5b6",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/Group3 记忆构建模块 - 原理与背景.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

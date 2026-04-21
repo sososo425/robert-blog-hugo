@@ -1,0 +1,198 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwiTiNmPsNmTAxUtl2oFHealFdYQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: "\"Extensive Benchmark of Small Language Models\" \"FlanT5\" \"relation extraction\" semantic web journal \"Extensive Benchmark of Small Language Models\" \"FlanT5\" \"relation extraction\" semantic web journal"
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3D%2522Extensive%2BBenchmark%2Bof%2BSmall%2BLanguage%2BModels%2522%2B%2522FlanT5%2522%2B%2522relation%2Bextraction%2522%2Bsemantic%2Bweb%2Bjournal&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22Extensive+Benchmark+of+Small+Language+Models%22+%22FlanT5%22+%22relation+extraction%22+semantic+web+journal&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP3ZZFLnOCfvDJcU1_5sIH-fV2TBH60MoCF5nyFR5XgRiBDFXDbNxdtuaBHWfQtEUDWjdehsxS-5AkWLSn4VZ6zFaPLSW6Swz0jiMyp6xvbTIdFK3hJvQuaSR3qYG8CN_PElZCtgenUC2iaIF9Wikb3TjZtD7Q&aep=1&ntc=1&sa=X&ved=2ahUKEwiTiNmPsNmTAxUtl2oFHealFdYQ2J8OegQIERAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "图片" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP3ZZFLnOCfvDJcU1_5sIH-fV2TBH60MoCF5nyFR5XgRiBDFXDbNxdtuaBHWfQtEUDWjdehsxS-5AkWLSn4VZ6zFaPLSW6Swz0jiMyp6xvbTIdFK3hJvQuaSR3qYG8CN_PElZCtgenUC2iaIF9Wikb3TjZtD7Q&q=%22Extensive+Benchmark+of+Small+Language+Models%22+%22FlanT5%22+%22relation+extraction%22+semantic+web+journal&sa=X&ved=2ahUKEwiTiNmPsNmTAxUtl2oFHealFdYQtKgLegQIFxAB
+              - generic [ref=e89]: 图片
+          - listitem [ref=e90]:
+            - link "购物" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP3ZZFLnOCfvDJcU1_5sIH-fV2TBH60MoCF5nyFR5XgRiBDFXDbNxdtuaBHWfQtEUDWjdehsxS-5AkWLSn4VZ6zFaPLSW6Swz0jiMyp6xvbTIdFK3hJvQuaSR3qYG8CN_PElZCtgenUC2iaIF9Wikb3TjZtD7Q&q=%22Extensive+Benchmark+of+Small+Language+Models%22+%22FlanT5%22+%22relation+extraction%22+semantic+web+journal&ved=1t:220175&ictx=111
+              - generic [ref=e93]: 购物
+          - listitem [ref=e94]:
+            - link "短视频" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP3ZZFLnOCfvDJcU1_5sIH-fV2TBH60MoCF5nyFR5XgRiBDFXDbNxdtuaBHWfQtEUDWjdehsxS-5AkWLSn4VZ6zFaPLSW6Swz0jiMyp6xvbTIdFK3hJvQuaSR3qYG8CN_PElZCtgenUC2iaIF9Wikb3TjZtD7Q&q=%22Extensive+Benchmark+of+Small+Language+Models%22+%22FlanT5%22+%22relation+extraction%22+semantic+web+journal&sa=X&ved=2ahUKEwiTiNmPsNmTAxUtl2oFHealFdYQs6gLegQIExAB
+              - generic [ref=e97]: 短视频
+          - listitem [ref=e98]:
+            - link "视频" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP3ZZFLnOCfvDJcU1_5sIH-fV2TBH60MoCF5nyFR5XgRiBDFXDbNxdtuaBHWfQtEUDWjdehsxS-5AkWLSn4VZ6zFaPLSW6Swz0jiMyp6xvbTIdFK3hJvQuaSR3qYG8CN_PElZCtgenUC2iaIF9Wikb3TjZtD7Q&q=%22Extensive+Benchmark+of+Small+Language+Models%22+%22FlanT5%22+%22relation+extraction%22+semantic+web+journal&sa=X&ved=2ahUKEwiTiNmPsNmTAxUtl2oFHealFdYQtKgLegQIFRAB
+              - generic [ref=e101]: 视频
+          - listitem [ref=e102]:
+            - link "网页" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=web&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP3ZZFLnOCfvDJcU1_5sIH-fV2TBH60MoCF5nyFR5XgRiBDFXDbNxdtuaBHWfQtEUDWjdehsxS-5AkWLSn4VZ6zFaPLSW6Swz0jiMyp6xvbTIdFK3hJvQuaSR3qYG8CN_PElZCtgenUC2iaIF9Wikb3TjZtD7Q&q=%22Extensive+Benchmark+of+Small+Language+Models%22+%22FlanT5%22+%22relation+extraction%22+semantic+web+journal&sa=X&ved=2ahUKEwiTiNmPsNmTAxUtl2oFHealFdYQs6gLegQIFhAB
+              - generic [ref=e105]: 网页
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - generic [ref=e127]:
+      - generic [ref=e146]:
+        - heading "正在搜索 再多想一会儿" [level=2] [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e153]: 正在搜索
+            - generic [ref=e155]: 再多想一会儿
+        - progressbar [ref=e157]
+      - main [ref=e199]:
+        - generic [ref=e203]:
+          - generic [ref=e206]:
+            - heading "Web results" [level=2] [ref=e207]
+            - generic [ref=e208]:
+              - generic [ref=e211]:
+                - link "Extensive Benchmark of Small Language Models for ... Semantic Web Journal https://www.semantic-web-journal.net › exte..." [ref=e213] [cursor=pointer]:
+                  - /url: https://www.semantic-web-journal.net/content/extensive-benchmark-small-language-models-datatype-properties-extraction-and-rdf-knowledge
+                  - heading "Extensive Benchmark of Small Language Models for ..." [level=3] [ref=e214]
+                  - generic [ref=e219]:
+                    - generic [ref=e221]: Semantic Web Journal
+                    - generic [ref=e223]: https://www.semantic-web-journal.net › exte...
+                - generic [ref=e224]:
+                  - generic [ref=e225]: ·
+                  - link "翻译此页" [ref=e226] [cursor=pointer]:
+                    - /url: https://www.semantic-web-journal.net/content/extensive-benchmark-small-language-models-datatype-properties-extraction-and-rdf-knowledge
+                - button "关于这条结果的详细信息" [ref=e227] [cursor=pointer]:
+                  - img [ref=e230]
+              - generic [ref=e233]:
+                - generic [ref=e234]: 2025年4月23日 —
+                - generic [ref=e235]:
+                  - text: On a restricted
+                  - emphasis [ref=e236]: relation extraction
+                  - text: (RE) task, we challenged five encoder-decoder models including BART, T5, CodeT5,
+                  - emphasis [ref=e237]: FlanT5
+                  - text: and PileT5 by ...
+          - generic [ref=e241]:
+            - generic [ref=e244]:
+              - link "Extensive Benchmark of Small Language Models for Datatype ... Semantic Web Journal https://www.semantic-web-journal.net › swj3845" [ref=e246] [cursor=pointer]:
+                - /url: https://www.semantic-web-journal.net/system/files/swj3845.pdf
+                - heading "Extensive Benchmark of Small Language Models for Datatype ..." [level=3] [ref=e247]
+                - generic [ref=e252]:
+                  - generic [ref=e254]: Semantic Web Journal
+                  - generic [ref=e256]: https://www.semantic-web-journal.net › swj3845
+              - generic [ref=e257]:
+                - generic:
+                  - generic: PDF
+              - button "关于这条结果的详细信息" [ref=e258] [cursor=pointer]:
+                - img [ref=e261]
+            - generic [ref=e265]:
+              - text: On a restricted
+              - emphasis [ref=e266]: relation extraction
+              - text: (RE) task, we challenged five encoder-decoder models including BART, T5, CodeT5,.
+              - emphasis [ref=e267]: FlanT5
+              - text: and PileT5 by fine-tuning them ...
+          - generic [ref=e271]:
+            - generic [ref=e274]:
+              - link "Slides PhD Defence - Learning Pattern-Based Extractors ... HAL https://hal.science › file › Slides_PhdDefence_Ce..." [ref=e276] [cursor=pointer]:
+                - /url: https://hal.science/hal-05446838v1/file/Slides_PhdDefence_CelianRIngwald.pptx.pdf
+                - heading "Slides PhD Defence - Learning Pattern-Based Extractors ..." [level=3] [ref=e277]
+                - generic [ref=e282]:
+                  - generic [ref=e284]: HAL
+                  - generic [ref=e286]: https://hal.science › file › Slides_PhdDefence_Ce...
+              - generic [ref=e287]:
+                - generic:
+                  - generic: PDF
+              - button "关于这条结果的详细信息" [ref=e288] [cursor=pointer]:
+                - img [ref=e291]
+            - generic [ref=e294]:
+              - generic [ref=e295]: 作者：C Ringwald · 2025 —
+              - generic [ref=e296]:
+                - emphasis [ref=e297]: Extensive benchmark of small language models
+                - text: for datatype properties extraction and rdf ...
+                - emphasis [ref=e298]: relation extraction
+                - text: . In. European
+                - emphasis [ref=e299]: semantic web
+                - text: ...
+          - generic [ref=e303]:
+            - generic [ref=e306]:
+              - link "Extensive Benchmark of Frugal Encoder-Decoder ... Semantic Web Journal https://www.semantic-web-journal.net › exte..." [ref=e308] [cursor=pointer]:
+                - /url: https://www.semantic-web-journal.net/content/extensive-benchmark-frugal-encoder-decoder-language-models-datatype-properties-extraction
+                - heading "Extensive Benchmark of Frugal Encoder-Decoder ..." [level=3] [ref=e309]
+                - generic [ref=e314]:
+                  - generic [ref=e316]: Semantic Web Journal
+                  - generic [ref=e318]: https://www.semantic-web-journal.net › exte...
+              - generic [ref=e319]:
+                - generic [ref=e320]: ·
+                - link "翻译此页" [ref=e321] [cursor=pointer]:
+                  - /url: https://www.semantic-web-journal.net/content/extensive-benchmark-frugal-encoder-decoder-language-models-datatype-properties-extraction
+              - button "关于这条结果的详细信息" [ref=e322] [cursor=pointer]:
+                - img [ref=e325]
+            - generic [ref=e328]:
+              - generic [ref=e329]: 2025年11月6日 —
+              - generic [ref=e330]:
+                - text: On a restricted
+                - emphasis [ref=e331]: relation extraction
+                - text: (RE) task, we challenged five encoder-decoder models including BART, T5, CodeT5,
+                - emphasis [ref=e332]: FlanT5
+                - text: and PileT5 by ...
+        - generic:
+          - generic:
+            - navigation
+        - navigation
+    - contentinfo [ref=e333]:
+      - heading "页脚链接" [level=1] [ref=e334]
+      - generic [ref=e338]:
+        - generic [ref=e340]:
+          - text: 新加坡
+          - generic [ref=e342]:
+            - button "新加坡 - 根据您的活动记录" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]: 新加坡
+              - generic [ref=e347]:
+                - text: "-"
+                - generic [ref=e348]: 根据您的活动记录
+            - text: "-"
+            - button "更新位置信息" [ref=e350] [cursor=pointer]: 更新位置信息
+        - generic [ref=e353]:
+          - link "帮助" [ref=e354] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e355] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e356] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e357] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

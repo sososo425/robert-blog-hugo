@@ -8,34 +8,133 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0d7f751ab07449bf",
+            "id": "2cb6e3ea1fd215e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/概要设计-初稿-WIP.md",
+                "file": "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS记忆系统方案设计(WIP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "概要设计-初稿-WIP"
+              "title": "AMS记忆系统方案设计(WIP)"
             }
           },
           {
-            "id": "5dc2da88c01af14a",
+            "id": "e95b3acb11406b92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/tech/agent-memory-infra/参考资料/Leiden算法详解.md",
+                "file": "private/tech/agent-memory-infra/AMS Based Design/阶段一/Session & Trace 记忆构建应用场景 - 端到端模拟.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Leiden算法详解"
+              "title": "Session & Trace 记忆构建应用场景 - 端到端模拟"
+            }
+          },
+          {
+            "id": "94c9bdb1228a2593",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EverMemOS VS AMS对比分析.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EverMemOS VS AMS对比分析"
+            }
+          },
+          {
+            "id": "9ba1640ab8172fb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/AMS Based Design/参考材料/Agent 记忆系统深度调研对比（完整版）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agent 记忆系统深度调研对比（完整版）"
+            }
+          },
+          {
+            "id": "f131073bdc6278bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/AMS Based Design/阶段一/AMS-实体关系抽取选型及实验验证报告（重构版）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AMS-实体关系抽取选型及实验验证报告（重构版）"
+            }
+          },
+          {
+            "id": "a0feb6c2f5f8b9d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/AMS Based Design/参考说明/GLiNER实体关系抽取问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GLiNER实体关系抽取问题"
+            }
+          },
+          {
+            "id": "023e4ef2296d732a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/AMS Based Design/参考材料/RawBlock切分与语义提取的边界与分工.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RawBlock切分与语义提取的边界与分工"
+            }
+          },
+          {
+            "id": "f482d0bc95e38cd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/AMS Based Design/阶段一/实体和事件抽取粒度问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "实体和事件抽取粒度问题"
+            }
+          },
+          {
+            "id": "2511f1767f1d12c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/tech/agent-memory-infra/AMS Based Design/阶段一/历史版本/Group3-记忆构建模块-详细方案设计-评审版.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Group3-记忆构建模块-详细方案设计-评审版"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5024719238281
+    "width": 291.5
   },
   "right": {
     "id": "78aa63aae5dc8f10",
@@ -170,26 +269,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "private/tech/agent-memory-infra/AMS Based Design/阶段一/Session & Trace 记忆构建应用场景 - 端到端模拟.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Session & Trace 记忆构建应用场景 - 端到端模拟 的大纲"
             }
           },
           {
-            "id": "466de3591245c378",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
-            "id": "31e5ff33511e6638",
+            "id": "a3a4312b3200afd9",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -197,13 +287,25 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "7e68197efc696e29",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md"
+              },
+              "icon": "lucide-info",
+              "title": "00-概要设计的笔记属性"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 586.5
+    "width": 552.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,54 +322,54 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ff722bbbaf269525",
+  "active": "e95b3acb11406b92",
   "lastOpenFiles": [
-    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/00-概要设计.md",
-    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/01 - Agent Memory System（AMS）详细设计.md",
-    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/版本B-修改建议.md",
-    "private/tech/agent-memory-infra/架构讨论.md",
-    "private/tech/agent-memory-infra/参考资料/Leiden算法详解.md",
-    "assets/版本C-初稿-WIP.png",
-    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP/概要设计-初稿-WIP.md",
-    "assets/Pasted image 20260325111515.png",
-    "assets/Pasted image 20260325111351.png",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/00-概要设计.md",
-    "private/tech/agent-memory-infra/最新技术方案-版本C-WIP",
-    "private/tech/agent-memory-infra/整体技术方案-版本A/00-概要设计.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本A/01-详细设计-Agent-Framework.md",
-    "private/tech/agent-memory-infra/参考资料/研究课题梳理.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/00-概要设计_副本.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/02-Agent-Framework.md",
-    "private/tech/agent-memory-infra/参考资料",
-    "Excalidraw/图2-数据流与存储分层-生成版.excalidraw.md",
-    "assets/Pasted image 20260324093920.png",
-    "Excalidraw/图3-Semantic-Memory-内部结构-生成版.excalidraw.md",
-    "assets/Pasted image 20260324093827.png",
-    "assets/Pasted image 20260324093756.png",
-    "Excalidraw/图1-服务拓扑架构-生成版.excalidraw.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/01-Agent-Memory-System.md",
-    "private/tech/agent-memory-infra/架构讨论-raw.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/11-Testing.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/10-Deployment.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/09-Storage-Schema.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/08-Multi-Agent-Collaboration.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/07-API-Design.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/06-Agent-TES.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/05-Skill-Mining-and-Discovery.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/04-Storage-and-Retrieval.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B/03-Memory-Processing-Pipeline.md",
-    "private/tech/agent-memory-infra/整体技术方案-版本B",
-    "private/tech/agent-memory-infra/整体技术方案-版本A",
-    "Clippings",
-    "private/draft",
-    "private/tech/lance_and_video",
-    "Excalidraw/generate-excalidraw.cjs",
-    "Excalidraw/generate-excalidraw.js",
-    "assets/Pasted image 20260319153323.png",
-    "assets/Pasted image 20260319145841.png",
-    "assets/Pasted image 20260319145856.png",
-    "assets/Pasted image 20260319145749.png",
-    "assets",
+    "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS记忆系统方案设计(WIP).md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考材料/Agent 记忆系统深度调研对比（完整版）.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode 抽取策略反思与改进方案.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EverMemOS VS AMS对比分析.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考材料/RawBlock切分与语义提取的边界与分工.md",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/AMS-实体关系抽取选型及实验验证报告（重构版）.md",
+    "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计.md",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/实体和事件抽取粒度问题.md",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/历史版本/Group3-记忆构建模块-详细方案设计-评审版.md",
+    "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计 v2.md",
+    "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第3章-数据模型详细设计.md",
+    "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿",
+    "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第4章-输入适配与RawBlock生成-重构版.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode 对AMS场景的必要性.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode问题总结及替代方案.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/1. EventNode抽象的必要性.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode图谱化的讨论.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode-情景即事件.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode 类型定义方法论思考.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode",
+    "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第5章-混合抽取Pipeline-重构版.md",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/Session & Trace 记忆构建应用场景 - 端到端模拟.md",
+    "private/tech/agent-memory-infra/参考资料/Session&Trace数据源与建模问题.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考材料/Session-RawBlock生成Pipeline.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/Temporal-KG-边类型定义的方法论思考.md",
+    "private/tech/agent-memory-infra/AMS Based Design/参考说明/EntityNode中时间字段的应用场景.md",
+    "private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md",
+    "private/tech/agent-memory-infra/参考资料/知识图谱和图数据库的关系.md",
+    "images/Agent基础知识/9.jpg",
+    "images/Agent基础知识/8.jpg",
+    "images/Agent基础知识/7.jpg",
+    "images/Agent基础知识/6.jpg",
+    "images/Agent基础知识/5.jpg",
+    "images/Agent基础知识/4.jpg",
+    "images/Agent基础知识/3.jpg",
+    "images/Agent基础知识/2.jpg",
+    "images/Agent基础知识/12.jpg",
+    "images/Agent基础知识/11.jpg",
+    "images/Agent基础知识",
+    "images/Agent记忆管理-发展方向",
+    "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/历史版本",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/_write_ch4_part4.py",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/_write_ch4_part3.py",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/_write_ch4_part2.py",
+    "private/tech/agent-memory-infra/AMS Based Design/阶段一/_write_part6.py",
     "未命名.canvas"
   ]
 }

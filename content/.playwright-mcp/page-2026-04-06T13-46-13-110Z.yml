@@ -1,0 +1,365 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: SetFit relation extraction few-shot 2024 2025 SetFit relation extraction few-shot 2024 2025
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DSetFit%2Brelation%2Bextraction%2Bfew-shot%2B2024%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&aep=1&ntc=1&sa=X&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ2J8OegQIDxAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "图片" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&q=SetFit+relation+extraction+few-shot+2024+2025&sa=X&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQtKgLegQIFRAB
+              - generic [ref=e89]: 图片
+          - listitem [ref=e90]:
+            - link "视频" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&q=SetFit+relation+extraction+few-shot+2024+2025&sa=X&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQtKgLegQIExAB
+              - generic [ref=e93]: 视频
+          - listitem [ref=e94]:
+            - link "新闻" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=SetFit+relation+extraction+few-shot+2024+2025&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&sa=X&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ0pQJegQIFBAB
+              - generic [ref=e97]: 新闻
+          - listitem [ref=e98]:
+            - link "购物" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&q=SetFit+relation+extraction+few-shot+2024+2025&ved=1t:220175&ictx=111
+              - generic [ref=e101]: 购物
+          - listitem [ref=e102]:
+            - link "短视频" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVLi54dOkHWv8dWQ1lqb_5yWnnFHysznsWJN-Hkwoo5xEl0tvVkPImz6dqiyxXUrOi2QVzuXcmiLSu0GzjUWoyHjv7i1dOoas9sJQfn2AcZSvZpbcoNoWpOQBsC1WAZoTbu-K_sgHk8u6mfAtv0ALTDHLoAGJA&q=SetFit+relation+extraction+few-shot+2024+2025&sa=X&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQs6gLegQIERAB
+              - generic [ref=e105]: 短视频
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - 'link "SetFitQuad: A Few-Shot Framework for Aspect Sentiment ... IEEE https://ieeexplore.ieee.org › iel8" [ref=e142] [cursor=pointer]':
+                - /url: https://ieeexplore.ieee.org/iel8/6287639/10820123/11130183.pdf
+                - 'heading "SetFitQuad: A Few-Shot Framework for Aspect Sentiment ..." [level=3] [ref=e143]'
+                - generic [ref=e145]:
+                  - img [ref=e149]
+                  - generic [ref=e151]:
+                    - generic [ref=e153]: IEEE
+                    - generic [ref=e155]: https://ieeexplore.ieee.org › iel8
+              - button "关于这条结果的详细信息" [ref=e156] [cursor=pointer]:
+                - img [ref=e159]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]: 作者：HM Chuang · 2025 —
+                - generic [ref=e164]:
+                  - text: This study introduces
+                  - emphasis [ref=e165]: SetFitQuad, a lightweight few-shot learning framework
+                  - text: that decomposes. ASQP into modular subtasks using sentence-embedding ...
+              - generic [ref=e166]: 14 页
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - link "Few-Shot Contrastive Learning for Multilingual Multi-Label ACL Anthology https://aclanthology.org › 2025.konvens-2.43.pdf" [ref=e175] [cursor=pointer]:
+              - /url: https://aclanthology.org/2025.konvens-2.43.pdf
+              - heading "Few-Shot Contrastive Learning for Multilingual Multi-Label" [level=3] [ref=e176]
+              - generic [ref=e181]:
+                - generic [ref=e183]: ACL Anthology
+                - generic [ref=e185]: https://aclanthology.org › 2025.konvens-2.43.pdf
+            - generic [ref=e186]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e187] [cursor=pointer]:
+              - img [ref=e190]
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e194]: 作者：P Shirali · 2025 —
+              - generic [ref=e195]:
+                - text: In this study, we adapt the FastFit package1, which offers notable improvements in both train- ing speed and classification accuracy compared to existing
+                - emphasis [ref=e196]: few
+                - text: "- ..."
+            - generic [ref=e197]: 6 页
+        - generic [ref=e201]:
+          - generic [ref=e204]:
+            - 'link "Curate-Train-Refine: A Closed-Loop Agentic Framework ... arXiv https://arxiv.org › html" [ref=e206] [cursor=pointer]':
+              - /url: https://arxiv.org/html/2601.16530v1
+              - 'heading "Curate-Train-Refine: A Closed-Loop Agentic Framework ..." [level=3] [ref=e207]'
+              - generic [ref=e212]:
+                - generic [ref=e214]: arXiv
+                - generic [ref=e216]: https://arxiv.org › html
+            - generic [ref=e217]:
+              - generic [ref=e218]: ·
+              - link "翻译此页" [ref=e219] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://arxiv.org/html/2601.16530v1&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e220] [cursor=pointer]:
+              - img [ref=e223]
+          - generic [ref=e226]:
+            - generic [ref=e227]: 2026年1月23日 —
+            - generic [ref=e228]:
+              - text: In the future, we aim to extend the framework to structured prediction tasks (e.g., NER,
+              - emphasis [ref=e229]: relation extraction
+              - text: ), and explore alternative ...
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - link "(PDF) Comparing Few-Shot Learning with LLMs for ... ResearchGate https://www.researchgate.net › publication" [ref=e238] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/394059976_Comparing_Few-Shot_Learning_with_LLMs_for_Efficient_Text_Classification_in_Road_Maintenance_Applications
+              - heading "(PDF) Comparing Few-Shot Learning with LLMs for ..." [level=3] [ref=e239]
+              - generic [ref=e244]:
+                - generic [ref=e246]: ResearchGate
+                - generic [ref=e248]: https://www.researchgate.net › publication
+            - generic [ref=e249]:
+              - generic [ref=e250]: ·
+              - link "翻译此页" [ref=e251] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.researchgate.net/publication/394059976_Comparing_Few-Shot_Learning_with_LLMs_for_Efficient_Text_Classification_in_Road_Maintenance_Applications&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e252] [cursor=pointer]:
+              - img [ref=e255]
+          - generic [ref=e258]:
+            - generic [ref=e259]: 2025年7月28日 —
+            - generic [ref=e260]:
+              - text: Addition-ally, a
+              - emphasis [ref=e261]: few
+              - text: "-"
+              - emphasis [ref=e262]: shot
+              - text: learning method,
+              - emphasis [ref=e263]: SetFit
+              - text: ", was employed to address data scarcity through efficient task adaptation using minimal ..."
+        - generic [ref=e267]:
+          - generic [ref=e270]:
+            - link "Meta-learning Fine-tuned Feature Extractor for Few-shot ... ACM Digital Library https://dl.acm.org › doi" [ref=e272] [cursor=pointer]:
+              - /url: https://dl.acm.org/doi/10.1145/3512353.3512355
+              - heading "Meta-learning Fine-tuned Feature Extractor for Few-shot ..." [level=3] [ref=e273]
+              - generic [ref=e278]:
+                - generic [ref=e280]: ACM Digital Library
+                - generic [ref=e282]: https://dl.acm.org › doi
+            - generic [ref=e283]:
+              - generic [ref=e284]: ·
+              - link "翻译此页" [ref=e285] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://dl.acm.org/doi/10.1145/3512353.3512355&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e286] [cursor=pointer]:
+              - img [ref=e289]
+          - generic [ref=e293]:
+            - text: Meta-learning Fine-tuned Feature Extractor for
+            - emphasis [ref=e294]: Few
+            - text: "-"
+            - emphasis [ref=e295]: shot
+            - text: "Image Classification: A Case Study on Fine-tuning CNN Backbone with Transformer for"
+            - emphasis [ref=e296]: Few
+            - text: "-"
+            - emphasis [ref=e297]: shot
+            - text: Learning.
+        - generic [ref=e301]:
+          - generic [ref=e304]:
+            - link "Few-Label SetFit for C2C Online Marketplace Listings Dr. Pablo Rivas http://www.rivas.ai › pdfs › rivas2025fewlabelsetfit" [ref=e306] [cursor=pointer]:
+              - /url: http://www.rivas.ai/pdfs/rivas2025fewlabelsetfit.pdf
+              - heading "Few-Label SetFit for C2C Online Marketplace Listings" [level=3] [ref=e307]
+              - generic [ref=e312]:
+                - generic [ref=e314]: Dr. Pablo Rivas
+                - generic [ref=e316]: http://www.rivas.ai › pdfs › rivas2025fewlabelsetfit
+            - generic [ref=e317]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e318] [cursor=pointer]:
+              - img [ref=e321]
+          - generic [ref=e324]:
+            - generic [ref=e325]: 作者：P Rivas —
+            - generic [ref=e326]:
+              - text: This paper investigates the use of
+              - emphasis [ref=e327]: SetFit
+              - text: ", a prompt-free few-shot framework for fine-tuning sentence transformers, for detecting risk signals in online ..."
+        - generic [ref=e331]:
+          - generic [ref=e332]:
+            - heading "相关问题" [level=2] [ref=e333]
+            - button "关于这条结果的详细信息" [ref=e334] [cursor=pointer]:
+              - img [ref=e337]
+          - generic [ref=e339]:
+            - button "What is few-shot text classification?" [ref=e345] [cursor=pointer]:
+              - generic [ref=e347]: What is few-shot text classification?
+              - img [ref=e350]
+            - button "What is a SetFit model?" [ref=e359] [cursor=pointer]:
+              - generic [ref=e361]: What is a SetFit model?
+              - img [ref=e364]
+        - generic [ref=e369]:
+          - heading "Web results" [level=2] [ref=e370]
+          - generic [ref=e371]:
+            - generic [ref=e374]:
+              - 'link "One size fits all: Enhanced zero-shot text classification for ... Frontiers https://www.frontiersin.org › articles › full" [ref=e376] [cursor=pointer]':
+                - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1397470/full
+                - 'heading "One size fits all: Enhanced zero-shot text classification for ..." [level=3] [ref=e377]'
+                - generic [ref=e382]:
+                  - generic [ref=e384]: Frontiers
+                  - generic [ref=e386]: https://www.frontiersin.org › articles › full
+              - generic [ref=e387]:
+                - generic [ref=e388]: ·
+                - link "翻译此页" [ref=e389] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1397470/full&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e390] [cursor=pointer]:
+                - img [ref=e393]
+            - generic [ref=e396]:
+              - generic [ref=e397]: 作者：V Matoshi · 2025 · 被引用次数：1 —
+              - generic [ref=e398]:
+                - text: "4.3"
+                - emphasis [ref=e399]: Relation extraction
+                - text: . Once the concepts are extracted, the
+                - emphasis [ref=e400]: relation extraction
+                - text: pipeline is initiated. Similar to Obamuyide and Vlachos ...
+        - generic [ref=e404]:
+          - generic [ref=e407]:
+            - link "SetFit ModernBERT for text classification with few-shot training! Medium · Moshe Wasserblat 100+ 个赞 · 11个月前" [ref=e409] [cursor=pointer]:
+              - /url: https://moshewasserblat.medium.com/new-results-on-setfit-modernbert-for-text-classification-with-few-shot-training-53c154df7c0e
+              - heading "SetFit ModernBERT for text classification with few-shot training!" [level=3] [ref=e410]
+              - generic [ref=e415]:
+                - generic [ref=e417]: Medium · Moshe Wasserblat
+                - generic [ref=e419]: 100+ 个赞 · 11个月前
+            - button "关于这条结果的详细信息" [ref=e420] [cursor=pointer]:
+              - img [ref=e423]
+          - generic [ref=e427]:
+            - text: This post explores how ModernBERT performs for
+            - emphasis [ref=e428]: text classification with few-shot training
+            - text: (8–64 samples per class) and relatively long context (multiple ...
+          - generic [ref=e430]:
+            - text: 缺少字词： relation ‎| 必须包含：
+            - link "relation" [ref=e431] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=SetFit+%22relation%22+extraction+few-shot+2024+2025&sa=X&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ5t4CegQINxAB
+        - generic [ref=e435]:
+          - generic [ref=e438]:
+            - link "How Far Can a Few Shots Take? Exploring ... UTUPub https://www.utupub.fi › Salmela_Anna_opinnayte" [ref=e440] [cursor=pointer]:
+              - /url: https://www.utupub.fi/bitstream/handle/10024/181576/Salmela_Anna_opinnayte.pdf?sequence=1
+              - heading "How Far Can a Few Shots Take? Exploring ..." [level=3] [ref=e441]
+              - generic [ref=e446]:
+                - generic [ref=e448]: UTUPub
+                - generic [ref=e450]: https://www.utupub.fi › Salmela_Anna_opinnayte
+            - generic [ref=e451]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e452] [cursor=pointer]:
+              - img [ref=e455]
+          - generic [ref=e458]:
+            - generic [ref=e459]: 作者：A Salmela · 2025 —
+            - generic [ref=e460]:
+              - text: As the main method, this thesis explores
+              - emphasis [ref=e461]: few
+              - text: "-"
+              - emphasis [ref=e462]: shot
+              - text: learning by using the
+              - emphasis [ref=e463]: SetFit
+              - text: library as a way to fine-tune sentence embedding models for text classification.
+        - generic [ref=e467]:
+          - generic [ref=e470]:
+            - link "Efficient Detection of Stigmatizing Language in Electronic ... JMIR Medical Informatics https://medinform.jmir.org › 2025 › PDF" [ref=e472] [cursor=pointer]:
+              - /url: https://medinform.jmir.org/2025/1/e68955/PDF
+              - heading "Efficient Detection of Stigmatizing Language in Electronic ..." [level=3] [ref=e473]
+              - generic [ref=e478]:
+                - generic [ref=e480]: JMIR Medical Informatics
+                - generic [ref=e482]: https://medinform.jmir.org › 2025 › PDF
+            - generic [ref=e483]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e484] [cursor=pointer]:
+              - img [ref=e487]
+          - generic [ref=e490]:
+            - generic [ref=e491]: 作者：H Chen · 2025 · 被引用次数：4 —
+            - generic [ref=e492]:
+              - text: We compared ICL with zero-shot (textual entailment),
+              - emphasis [ref=e493]: few
+              - text: "-"
+              - emphasis [ref=e494]: shot
+              - text: (
+              - emphasis [ref=e495]: SetFit
+              - text: ), and supervised fine-tuning approaches. The ICL approach used 4 prompting.
+      - navigation [ref=e498]:
+        - heading "网页导航" [level=1] [ref=e499]
+        - text: "1"
+        - link "Page 2" [ref=e502] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=10&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAE
+          - text: "2"
+        - link "Page 3" [ref=e504] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=20&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAG
+          - text: "3"
+        - link "Page 4" [ref=e506] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=30&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAI
+          - text: "4"
+        - link "Page 5" [ref=e508] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=40&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAK
+          - text: "5"
+        - link "Page 6" [ref=e510] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=50&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAM
+          - text: "6"
+        - link "Page 7" [ref=e512] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=60&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAO
+          - text: "7"
+        - link "Page 8" [ref=e514] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=70&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAQ
+          - text: "8"
+        - link "Page 9" [ref=e516] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=80&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAS
+          - text: "9"
+        - link "Page 10" [ref=e518] [cursor=pointer]:
+          - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=90&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8tMDegQICxAU
+          - text: "10"
+        - heading "下一页" [level=2] [ref=e520]:
+          - link "下一页" [ref=e521] [cursor=pointer]:
+            - /url: /search?q=SetFit+relation+extraction+few-shot+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=I7nTafiXDuO3qtsPoKGksAM&start=10&sa=N&sstk=Af77f_fg37jUTEI4G2fOdFnqnbJTrI67uvkiXHW4hJVmO87jV7iNQVtTVpKCmsdwh4HsTsCaIundhKJ88EUZTLJ8Ixqmp-1M73BJuw&ved=2ahUKEwi4teedrtmTAxXjm2oFHaAQCTYQ8NMDegQICxAW
+            - generic [ref=e523]: 下一页
+      - navigation
+    - contentinfo [ref=e524]:
+      - heading "页脚链接" [level=1] [ref=e525]
+      - generic [ref=e529]:
+        - generic [ref=e531]:
+          - text: 新加坡
+          - generic [ref=e533]:
+            - button "新加坡 - 是根据您的 IP 地址推断出来的" [ref=e535] [cursor=pointer]:
+              - generic [ref=e536]: 新加坡
+              - generic [ref=e538]:
+                - text: "-"
+                - generic [ref=e539]: 是根据您的 IP 地址推断出来的
+            - text: "-"
+            - button "更新位置信息" [ref=e541] [cursor=pointer]: 更新位置信息
+        - generic [ref=e544]:
+          - link "帮助" [ref=e545] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e546] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e547] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e548] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

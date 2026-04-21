@@ -11,14 +11,10 @@
             "id": "203d917a77497f2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/obsidian-blog.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "obsidian-blog"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 369.5
   },
   "right": {
     "id": "2b56d76c2a16e07d",
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/obsidian-blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "obsidian-blog 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -156,21 +151,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/obsidian-blog.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "obsidian-blog 的大纲"
+              "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 580.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,27 +179,51 @@
   },
   "active": "203d917a77497f2c",
   "lastOpenFiles": [
-    "content/Excalidraw/图3-Semantic-Memory-内部结构-生成版.excalidraw.md",
-    "content/Excalidraw/图2-数据流与存储分层-生成版.excalidraw.md",
-    "content/Excalidraw/图1-服务拓扑架构-生成版.excalidraw.md",
-    "content/Excalidraw/generate-excalidraw.cjs",
-    "content/Excalidraw/generate-excalidraw.js",
-    "content/Excalidraw/图3-Semantic-Memory-内部结构.md",
-    "content/Excalidraw/未命名.md",
-    "content/Excalidraw/图2-数据流与存储分层.md",
-    "content/Excalidraw/Drawing 2026-03-19 16.07.24.excalidraw.md",
-    "content/Excalidraw/图1-服务拓扑架构.md",
-    "public/assets/Pasted image 20260319153323.png",
-    "content/assets/Pasted image 20260319153323.png",
-    "content/private/tech/agent-memory-infra/技术方案设计-1.md",
-    "content/private/tech/agent-memory-infra/技术方案设计1.md",
-    "content/private/tech/agent-memory-infra/技术方案设计.md",
-    "README.md",
-    "content/tech/llm-memory-engineering-memos.md",
-    "layouts/_default/_markup/render-image.html",
-    "layouts/_default/_markup",
-    "content/tech/autonomous-driving-big-data.md",
-    "content/tech/agent-design-patterns.md",
-    "content/tech/memgpt-letta-guide.md"
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS记忆系统方案设计(WIP).md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS记忆系统方案设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第5章-混合抽取Pipeline-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第4章-输入适配与RawBlock生成-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第3章-数据模型详细设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计 v2.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS程序性记忆(语义与情景)构建系统 - 完整方案设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计 v2.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/第5章-混合抽取Pipeline-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/第4章-输入适配与RawBlock生成-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/第3章-数据模型详细设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/第5章-混合抽取Pipeline-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/第4章-输入适配与RawBlock生成-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/AMS 陈述性记忆构建系统 — 概要设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/AMS 陈述性记忆构建系统 — 概要设计 v2.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/AMS程序性记忆(语义与情景)构建系统 - 完整方案设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/AMS-语义记忆与情景记忆构建系统-完整方案设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/阶段一/Group3 记忆构建模块 - 原理与背景.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/未命名",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/1. EventNode抽象的必要性.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode问题总结及替代方案.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/未命名.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode抽象的必要性.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/关于EventNode抽象的必要性.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/关于EventNode抽象的必要性.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/未命名",
+    "static/images/Agent基础知识/9.jpg",
+    "static/images/Agent基础知识/8.jpg",
+    "static/images/Agent基础知识/7.jpg",
+    "static/images/Agent基础知识/6.jpg",
+    "static/images/Agent基础知识/5.jpg",
+    "static/images/Agent基础知识/4.jpg",
+    "static/images/Agent基础知识/3.jpg",
+    "static/images/Agent基础知识/2.jpg",
+    "static/images/Agent基础知识/12.jpg",
+    "static/images/Agent基础知识/11.jpg",
+    "static/images/Agent基础知识",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative Memory",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Decalar"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "conv-1776310287697-wzr726w7o",
+  "title": "1",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776310287697,
+  "updatedAt": 1776688228698,
+  "lastResponseAt": 1776324796077,
+  "sessionId": "00c6ea9f-103b-4a59-8feb-0ca8b4fe152c",
+  "sdkSessionId": "00c6ea9f-103b-4a59-8feb-0ca8b4fe152c",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/阶段一/实体和事件抽取粒度问题.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

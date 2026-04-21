@@ -1,0 +1,1059 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e59]:
+      - generic [ref=e61]:
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - button "Main" [ref=e64] [cursor=pointer]
+          - listitem [ref=e65]:
+            - button "Tasks" [ref=e66] [cursor=pointer]
+          - listitem [ref=e67]:
+            - button "Libraries" [ref=e68] [cursor=pointer]
+          - listitem [ref=e69]:
+            - button "Languages" [ref=e70] [cursor=pointer]
+          - listitem [ref=e71]:
+            - button "Licenses" [ref=e72] [cursor=pointer]
+          - listitem [ref=e73]:
+            - button "Other" [ref=e74] [cursor=pointer]
+        - generic [ref=e75]:
+          - generic [ref=e77]: Tasks
+          - generic [ref=e78]:
+            - link "Text Generation" [ref=e79] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-generation
+              - generic [ref=e80]:
+                - img [ref=e82]
+                - generic [ref=e86]: Text Generation
+            - link "Any-to-Any" [ref=e87] [cursor=pointer]:
+              - /url: /models?pipeline_tag=any-to-any
+              - generic [ref=e88]:
+                - img [ref=e90]
+                - generic [ref=e92]: Any-to-Any
+            - link "Image-Text-to-Text" [ref=e93] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-text-to-text
+              - generic [ref=e94]:
+                - img [ref=e96]
+                - generic [ref=e100]: Image-Text-to-Text
+            - link "Image-to-Text" [ref=e101] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-to-text
+              - generic [ref=e102]:
+                - img [ref=e104]
+                - generic [ref=e108]: Image-to-Text
+            - link "Image-to-Image" [ref=e109] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-to-image
+              - generic [ref=e110]:
+                - img [ref=e112]
+                - generic [ref=e115]: Image-to-Image
+            - link "Text-to-Image" [ref=e116] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-image
+              - generic [ref=e117]:
+                - img [ref=e119]
+                - generic [ref=e123]: Text-to-Image
+            - link "Text-to-Video" [ref=e124] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-video
+              - generic [ref=e125]:
+                - img [ref=e127]
+                - generic [ref=e129]: Text-to-Video
+            - link "Text-to-Speech" [ref=e130] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-speech
+              - generic [ref=e131]:
+                - img [ref=e133]
+                - generic [ref=e135]: Text-to-Speech
+            - button "+ 44" [ref=e136] [cursor=pointer]
+        - generic [ref=e137]:
+          - generic [ref=e139]: Parameters
+          - generic [ref=e140]:
+            - slider "< 1B 6B 12B 32B 128B > 500B < 1B > 500B" [ref=e141]: "0"
+            - slider [ref=e142]: "10"
+            - generic [ref=e143] [cursor=pointer]:
+              - generic [ref=e145]:
+                - button "< 1B" [ref=e146]
+                - button "6B" [ref=e148]
+                - button "12B" [ref=e151]
+                - button "32B" [ref=e154]
+                - button "128B" [ref=e157]
+                - button "> 500B" [ref=e160]
+              - button "< 1B" [ref=e163]:
+                - generic [ref=e165]: < 1B
+              - button "> 500B" [ref=e166]:
+                - generic [ref=e168]: "> 500B"
+        - generic [ref=e169]:
+          - generic [ref=e171]: Libraries
+          - generic [ref=e172]:
+            - link "PyTorch" [ref=e173] [cursor=pointer]:
+              - /url: /models?library=pytorch
+              - generic [ref=e174]:
+                - img [ref=e175]
+                - generic [ref=e178]: PyTorch
+            - link "TensorFlow" [ref=e179] [cursor=pointer]:
+              - /url: /models?library=tf
+              - generic [ref=e180]:
+                - img [ref=e181]
+                - generic [ref=e186]: TensorFlow
+            - link "JAX" [ref=e187] [cursor=pointer]:
+              - /url: /models?library=jax
+              - generic [ref=e188]:
+                - img [ref=e189]
+                - generic [ref=e228]: JAX
+            - link "Transformers" [ref=e229] [cursor=pointer]:
+              - /url: /models?library=transformers
+              - generic [ref=e230]:
+                - img [ref=e231]
+                - generic [ref=e242]: Transformers
+            - link "Diffusers" [ref=e243] [cursor=pointer]:
+              - /url: /models?library=diffusers
+              - generic [ref=e244]:
+                - img [ref=e245]
+                - generic [ref=e256]: Diffusers
+            - link "sentence-transformers" [ref=e257] [cursor=pointer]:
+              - /url: /models?library=sentence-transformers
+              - generic [ref=e258]:
+                - img [ref=e259]
+                - generic [ref=e270]: sentence-transformers
+            - link "Safetensors" [ref=e271] [cursor=pointer]:
+              - /url: /models?library=safetensors
+              - generic [ref=e272]:
+                - img [ref=e273]
+                - generic [ref=e275]: Safetensors
+            - link "ONNX" [ref=e276] [cursor=pointer]:
+              - /url: /models?library=onnx
+              - generic [ref=e277]:
+                - img [ref=e278]
+                - generic [ref=e288]: ONNX
+            - link "GGUF" [ref=e289] [cursor=pointer]:
+              - /url: /models?library=gguf
+              - generic [ref=e290]:
+                - img [ref=e291]
+                - generic [ref=e293]: GGUF
+            - link "Transformers.js" [ref=e294] [cursor=pointer]:
+              - /url: /models?library=transformers.js
+              - generic [ref=e295]:
+                - img [ref=e296]
+                - generic [ref=e299]: Transformers.js
+            - link "MLX" [ref=e300] [cursor=pointer]:
+              - /url: /models?library=mlx
+              - generic [ref=e301]:
+                - img [ref=e302]
+                - generic [ref=e307]: MLX
+            - button "+ 42" [ref=e308] [cursor=pointer]
+        - generic [ref=e309]:
+          - generic [ref=e311]: Apps
+          - generic [ref=e312]:
+            - link "vLLM" [ref=e313] [cursor=pointer]:
+              - /url: /models?other=vllm
+              - generic [ref=e314]:
+                - img [ref=e315]
+                - generic [ref=e320]: vLLM
+            - link "llama.cpp" [ref=e321] [cursor=pointer]:
+              - /url: /models?other=llama.cpp
+              - generic [ref=e322]:
+                - img [ref=e323]
+                - generic [ref=e325]: llama.cpp
+            - link "MLX LM" [ref=e326] [cursor=pointer]:
+              - /url: /models?other=mlx-lm
+              - generic [ref=e327]:
+                - img [ref=e328]
+                - generic [ref=e331]: MLX LM
+            - link "LM Studio" [ref=e332] [cursor=pointer]:
+              - /url: /models?other=lmstudio
+              - generic [ref=e333]:
+                - img [ref=e334]
+                - generic [ref=e340]: LM Studio
+            - link "Ollama" [ref=e341] [cursor=pointer]:
+              - /url: /models?other=ollama
+              - generic [ref=e342]:
+                - img [ref=e343]
+                - generic [ref=e349]: Ollama
+            - link "Jan" [ref=e350] [cursor=pointer]:
+              - /url: /models?other=jan
+              - generic [ref=e351]:
+                - img [ref=e352]
+                - generic [ref=e357]: Jan
+            - link "Draw Things" [ref=e358] [cursor=pointer]:
+              - /url: /models?other=drawthings
+              - generic [ref=e359]:
+                - img [ref=e360]
+                - generic [ref=e362]: Draw Things
+            - button "+ 7" [ref=e363] [cursor=pointer]
+        - generic [ref=e364]:
+          - generic [ref=e366]: Inference Providers
+          - generic [ref=e367]:
+            - link "Groq" [ref=e368] [cursor=pointer]:
+              - /url: /models?inference_provider=groq
+              - generic [ref=e369]:
+                - img [ref=e370]
+                - generic [ref=e373]: Groq
+            - link "Novita" [ref=e374] [cursor=pointer]:
+              - /url: /models?inference_provider=novita
+              - generic [ref=e375]:
+                - img [ref=e376]
+                - generic [ref=e379]: Novita
+            - link "Cerebras" [ref=e380] [cursor=pointer]:
+              - /url: /models?inference_provider=cerebras
+              - generic [ref=e381]:
+                - img [ref=e382]
+                - generic [ref=e385]: Cerebras
+            - link "SambaNova" [ref=e386] [cursor=pointer]:
+              - /url: /models?inference_provider=sambanova
+              - generic [ref=e387]:
+                - img [ref=e388]
+                - generic [ref=e392]: SambaNova
+            - link "Nscale" [ref=e393] [cursor=pointer]:
+              - /url: /models?inference_provider=nscale
+              - generic [ref=e394]:
+                - img [ref=e395]
+                - generic [ref=e400]: Nscale
+            - link "fal" [ref=e401] [cursor=pointer]:
+              - /url: /models?inference_provider=fal-ai
+              - generic [ref=e402]:
+                - img [ref=e403]
+                - generic [ref=e405]: fal
+            - link "Hyperbolic" [ref=e406] [cursor=pointer]:
+              - /url: /models?inference_provider=hyperbolic
+              - generic [ref=e407]:
+                - img [ref=e408]
+                - generic [ref=e414]: Hyperbolic
+            - link "Together AI" [ref=e415] [cursor=pointer]:
+              - /url: /models?inference_provider=together
+              - generic [ref=e416]:
+                - img [ref=e417]
+                - generic [ref=e421]: Together AI
+            - button "+ 10" [ref=e422] [cursor=pointer]
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - heading "Models" [level=1] [ref=e426]
+            - generic [ref=e428]: 2,842
+          - generic [ref=e430]:
+            - img [ref=e431]
+            - searchbox "Filter by name" [ref=e435]: ModernBERT
+          - button "Inference Available" [ref=e439] [cursor=pointer]:
+            - img [ref=e440]
+            - text: Inference Available
+          - 'button "Sort: Most downloads" [ref=e445] [cursor=pointer]':
+            - img [ref=e446]
+            - text: "Sort: Most downloads"
+        - generic [ref=e450]:
+          - article [ref=e451]:
+            - link "answerdotai/ModernBERT-base Fill-Mask • 0.1B • Updated Jan 16, 2025 • 7.16M • 1.02k" [ref=e452] [cursor=pointer]:
+              - /url: /answerdotai/ModernBERT-base
+              - generic [ref=e453]:
+                - generic "answerdotai/ModernBERT-base" [ref=e454]:
+                  - heading "answerdotai/ModernBERT-base" [level=4] [ref=e456]
+                - generic [ref=e457]:
+                  - img [ref=e458]
+                  - text: Fill-Mask
+                  - generic [ref=e462]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e463]':
+                    - img [ref=e464]
+                    - text: 0.1B
+                  - generic [ref=e466]: •
+                  - generic [ref=e467]:
+                    - text: Updated
+                    - time [ref=e468]: Jan 16, 2025
+                  - generic [ref=e469]: •
+                  - img [ref=e470]
+                  - text: 7.16M
+                  - generic [ref=e472]: •
+                  - img [ref=e473]
+                  - text: 1.02k
+          - article [ref=e475]:
+            - link "Alibaba-NLP/gte-reranker-modernbert-base Text Ranking • 0.1B • Updated Jul 4, 2025 • 1.11M • 91" [ref=e476] [cursor=pointer]:
+              - /url: /Alibaba-NLP/gte-reranker-modernbert-base
+              - generic [ref=e477]:
+                - generic "Alibaba-NLP/gte-reranker-modernbert-base" [ref=e478]:
+                  - heading "Alibaba-NLP/gte-reranker-modernbert-base" [level=4] [ref=e480]
+                - generic [ref=e481]:
+                  - img [ref=e482]
+                  - text: Text Ranking
+                  - generic [ref=e487]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e488]':
+                    - img [ref=e489]
+                    - text: 0.1B
+                  - generic [ref=e491]: •
+                  - generic [ref=e492]:
+                    - text: Updated
+                    - time [ref=e493]: Jul 4, 2025
+                  - generic [ref=e494]: •
+                  - img [ref=e495]
+                  - text: 1.11M
+                  - generic [ref=e497]: •
+                  - img [ref=e498]
+                  - text: "91"
+          - article [ref=e500]:
+            - link "answerdotai/ModernBERT-large Fill-Mask • Updated Jan 16, 2025 • 225k • 464" [ref=e501] [cursor=pointer]:
+              - /url: /answerdotai/ModernBERT-large
+              - generic [ref=e502]:
+                - generic "answerdotai/ModernBERT-large" [ref=e503]:
+                  - heading "answerdotai/ModernBERT-large" [level=4] [ref=e505]
+                - generic [ref=e506]:
+                  - img [ref=e507]
+                  - text: Fill-Mask
+                  - generic [ref=e511]: •
+                  - generic [ref=e512]:
+                    - text: Updated
+                    - time [ref=e513]: Jan 16, 2025
+                  - generic [ref=e514]: •
+                  - img [ref=e515]
+                  - text: 225k
+                  - generic [ref=e517]: •
+                  - img [ref=e518]
+                  - text: "464"
+          - article [ref=e520]:
+            - link "nomic-ai/modernbert-embed-base Sentence Similarity • Updated Jan 24, 2025 • 177k • 228" [ref=e521] [cursor=pointer]:
+              - /url: /nomic-ai/modernbert-embed-base
+              - generic [ref=e522]:
+                - generic "nomic-ai/modernbert-embed-base" [ref=e523]:
+                  - heading "nomic-ai/modernbert-embed-base" [level=4] [ref=e525]
+                - generic [ref=e526]:
+                  - img [ref=e527]
+                  - text: Sentence Similarity
+                  - generic [ref=e533]: •
+                  - generic [ref=e534]:
+                    - text: Updated
+                    - time [ref=e535]: Jan 24, 2025
+                  - generic [ref=e536]: •
+                  - img [ref=e537]
+                  - text: 177k
+                  - generic [ref=e539]: •
+                  - img [ref=e540]
+                  - text: "228"
+          - article [ref=e542]:
+            - link "IsmaelMousa/modernbert-ner-conll2003 Token Classification • 0.1B • Updated Feb 21, 2025 • 159k • • 3" [ref=e543] [cursor=pointer]:
+              - /url: /IsmaelMousa/modernbert-ner-conll2003
+              - generic [ref=e544]:
+                - generic "IsmaelMousa/modernbert-ner-conll2003" [ref=e545]:
+                  - heading "IsmaelMousa/modernbert-ner-conll2003" [level=4] [ref=e547]
+                - generic [ref=e548]:
+                  - img [ref=e549]
+                  - text: Token Classification
+                  - generic [ref=e557]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e558]':
+                    - img [ref=e559]
+                    - text: 0.1B
+                  - generic [ref=e561]: •
+                  - generic [ref=e562]:
+                    - text: Updated
+                    - time [ref=e563]: Feb 21, 2025
+                  - generic [ref=e564]: •
+                  - img [ref=e565]
+                  - text: 159k
+                  - generic [ref=e567]: •
+                  - generic "Inference Providers available" [ref=e568]:
+                    - img [ref=e569]
+                  - generic [ref=e571]: •
+                  - img [ref=e572]
+                  - text: "3"
+          - article [ref=e574]:
+            - link "Alibaba-NLP/gte-modernbert-base Sentence Similarity • 0.1B • Updated Jul 4, 2025 • 70.6k • • 195" [ref=e575] [cursor=pointer]:
+              - /url: /Alibaba-NLP/gte-modernbert-base
+              - generic [ref=e576]:
+                - generic "Alibaba-NLP/gte-modernbert-base" [ref=e577]:
+                  - heading "Alibaba-NLP/gte-modernbert-base" [level=4] [ref=e579]
+                - generic [ref=e580]:
+                  - img [ref=e581]
+                  - text: Sentence Similarity
+                  - generic [ref=e587]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e588]':
+                    - img [ref=e589]
+                    - text: 0.1B
+                  - generic [ref=e591]: •
+                  - generic [ref=e592]:
+                    - text: Updated
+                    - time [ref=e593]: Jul 4, 2025
+                  - generic [ref=e594]: •
+                  - img [ref=e595]
+                  - text: 70.6k
+                  - generic [ref=e597]: •
+                  - generic "Inference Providers available" [ref=e598]:
+                    - img [ref=e599]
+                  - generic [ref=e601]: •
+                  - img [ref=e602]
+                  - text: "195"
+          - article [ref=e604]:
+            - link "freelawproject/modernbert-embed-base_finetune_512 Sentence Similarity • 0.1B • Updated Mar 18, 2025 • 26.6k • • 5" [ref=e605] [cursor=pointer]:
+              - /url: /freelawproject/modernbert-embed-base_finetune_512
+              - generic [ref=e606]:
+                - generic "freelawproject/modernbert-embed-base_finetune_512" [ref=e607]:
+                  - heading "freelawproject/modernbert-embed-base_finetune_512" [level=4] [ref=e609]
+                - generic [ref=e610]:
+                  - img [ref=e611]
+                  - text: Sentence Similarity
+                  - generic [ref=e617]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e618]':
+                    - img [ref=e619]
+                    - text: 0.1B
+                  - generic [ref=e621]: •
+                  - generic [ref=e622]:
+                    - text: Updated
+                    - time [ref=e623]: Mar 18, 2025
+                  - generic [ref=e624]: •
+                  - img [ref=e625]
+                  - text: 26.6k
+                  - generic [ref=e627]: •
+                  - generic "Inference Providers available" [ref=e628]:
+                    - img [ref=e629]
+                  - generic [ref=e631]: •
+                  - img [ref=e632]
+                  - text: "5"
+          - article [ref=e634]:
+            - link "sbintuitions/modernbert-ja-30m Fill-Mask • 36.9M • Updated May 1, 2025 • 25.7k • • 5" [ref=e635] [cursor=pointer]:
+              - /url: /sbintuitions/modernbert-ja-30m
+              - generic [ref=e636]:
+                - generic "sbintuitions/modernbert-ja-30m" [ref=e637]:
+                  - heading "sbintuitions/modernbert-ja-30m" [level=4] [ref=e639]
+                - generic [ref=e640]:
+                  - img [ref=e641]
+                  - text: Fill-Mask
+                  - generic [ref=e645]: •
+                  - 'generic "Number of parameters in the model: 36.9M" [ref=e646]':
+                    - img [ref=e647]
+                    - text: 36.9M
+                  - generic [ref=e649]: •
+                  - generic [ref=e650]:
+                    - text: Updated
+                    - time [ref=e651]: May 1, 2025
+                  - generic [ref=e652]: •
+                  - img [ref=e653]
+                  - text: 25.7k
+                  - generic [ref=e655]: •
+                  - generic "Inference Providers available" [ref=e656]:
+                    - img [ref=e657]
+                  - generic [ref=e659]: •
+                  - img [ref=e660]
+                  - text: "5"
+          - article [ref=e662]:
+            - link "disham993/electrical-ner-ModernBERT-base Token Classification • 0.1B • Updated Jan 12, 2025 • 23.8k • 2" [ref=e663] [cursor=pointer]:
+              - /url: /disham993/electrical-ner-ModernBERT-base
+              - generic [ref=e664]:
+                - generic "disham993/electrical-ner-ModernBERT-base" [ref=e665]:
+                  - heading "disham993/electrical-ner-ModernBERT-base" [level=4] [ref=e667]
+                - generic [ref=e668]:
+                  - img [ref=e669]
+                  - text: Token Classification
+                  - generic [ref=e677]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e678]':
+                    - img [ref=e679]
+                    - text: 0.1B
+                  - generic [ref=e681]: •
+                  - generic [ref=e682]:
+                    - text: Updated
+                    - time [ref=e683]: Jan 12, 2025
+                  - generic [ref=e684]: •
+                  - img [ref=e685]
+                  - text: 23.8k
+                  - generic [ref=e687]: •
+                  - img [ref=e688]
+                  - text: "2"
+          - article [ref=e690]:
+            - link "thomas-sounack/BioClinical-ModernBERT-large Fill-Mask • Updated Oct 3, 2025 • 19.2k • • 14" [ref=e691] [cursor=pointer]:
+              - /url: /thomas-sounack/BioClinical-ModernBERT-large
+              - generic [ref=e692]:
+                - generic "thomas-sounack/BioClinical-ModernBERT-large" [ref=e693]:
+                  - heading "thomas-sounack/BioClinical-ModernBERT-large" [level=4] [ref=e695]
+                - generic [ref=e696]:
+                  - img [ref=e697]
+                  - text: Fill-Mask
+                  - generic [ref=e701]: •
+                  - generic [ref=e702]:
+                    - text: Updated
+                    - time [ref=e703]: Oct 3, 2025
+                  - generic [ref=e704]: •
+                  - img [ref=e705]
+                  - text: 19.2k
+                  - generic [ref=e707]: •
+                  - generic "Inference Providers available" [ref=e708]:
+                    - img [ref=e709]
+                  - generic [ref=e711]: •
+                  - img [ref=e712]
+                  - text: "14"
+          - article [ref=e714]:
+            - link "Jade-Software/Jade-ModernBert-FT Sentence Similarity • 0.1B • Updated Jun 18, 2025 • 14.6k" [ref=e715] [cursor=pointer]:
+              - /url: /Jade-Software/Jade-ModernBert-FT
+              - generic [ref=e716]:
+                - generic "Jade-Software/Jade-ModernBert-FT" [ref=e717]:
+                  - heading "Jade-Software/Jade-ModernBert-FT" [level=4] [ref=e719]
+                - generic [ref=e720]:
+                  - img [ref=e721]
+                  - text: Sentence Similarity
+                  - generic [ref=e727]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e728]':
+                    - img [ref=e729]
+                    - text: 0.1B
+                  - generic [ref=e731]: •
+                  - generic [ref=e732]:
+                    - text: Updated
+                    - time [ref=e733]: Jun 18, 2025
+                  - generic [ref=e734]: •
+                  - img [ref=e735]
+                  - text: 14.6k
+          - article [ref=e737]:
+            - link "MoritzLaurer/ModernBERT-large-zeroshot-v2.0 Text Classification • 0.4B • Updated Jan 16, 2025 • 13.5k • • 65" [ref=e738] [cursor=pointer]:
+              - /url: /MoritzLaurer/ModernBERT-large-zeroshot-v2.0
+              - generic [ref=e739]:
+                - generic "MoritzLaurer/ModernBERT-large-zeroshot-v2.0" [ref=e740]:
+                  - heading "MoritzLaurer/ModernBERT-large-zeroshot-v2.0" [level=4] [ref=e742]
+                - generic [ref=e743]:
+                  - img [ref=e744]
+                  - text: Text Classification
+                  - generic [ref=e759]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e760]':
+                    - img [ref=e761]
+                    - text: 0.4B
+                  - generic [ref=e763]: •
+                  - generic [ref=e764]:
+                    - text: Updated
+                    - time [ref=e765]: Jan 16, 2025
+                  - generic [ref=e766]: •
+                  - img [ref=e767]
+                  - text: 13.5k
+                  - generic [ref=e769]: •
+                  - generic "Inference Providers available" [ref=e770]:
+                    - img [ref=e771]
+                  - generic [ref=e773]: •
+                  - img [ref=e774]
+                  - text: "65"
+          - article [ref=e776]:
+            - link "mirth/chonky_modernbert_base_1 Token Classification • 0.1B • Updated Jan 18 • 12.9k • • 7" [ref=e777] [cursor=pointer]:
+              - /url: /mirth/chonky_modernbert_base_1
+              - generic [ref=e778]:
+                - generic "mirth/chonky_modernbert_base_1" [ref=e779]:
+                  - heading "mirth/chonky_modernbert_base_1" [level=4] [ref=e781]
+                - generic [ref=e782]:
+                  - img [ref=e783]
+                  - text: Token Classification
+                  - generic [ref=e791]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e792]':
+                    - img [ref=e793]
+                    - text: 0.1B
+                  - generic [ref=e795]: •
+                  - generic [ref=e796]:
+                    - text: Updated
+                    - time [ref=e797]: Jan 18
+                  - generic [ref=e798]: •
+                  - img [ref=e799]
+                  - text: 12.9k
+                  - generic [ref=e801]: •
+                  - generic "Inference Providers available" [ref=e802]:
+                    - img [ref=e803]
+                  - generic [ref=e805]: •
+                  - img [ref=e806]
+                  - text: "7"
+          - article [ref=e808]:
+            - link "thomas-sounack/BioClinical-ModernBERT-base Fill-Mask • Updated Oct 3, 2025 • 12.6k • • 35" [ref=e809] [cursor=pointer]:
+              - /url: /thomas-sounack/BioClinical-ModernBERT-base
+              - generic [ref=e810]:
+                - generic "thomas-sounack/BioClinical-ModernBERT-base" [ref=e811]:
+                  - heading "thomas-sounack/BioClinical-ModernBERT-base" [level=4] [ref=e813]
+                - generic [ref=e814]:
+                  - img [ref=e815]
+                  - text: Fill-Mask
+                  - generic [ref=e819]: •
+                  - generic [ref=e820]:
+                    - text: Updated
+                    - time [ref=e821]: Oct 3, 2025
+                  - generic [ref=e822]: •
+                  - img [ref=e823]
+                  - text: 12.6k
+                  - generic [ref=e825]: •
+                  - generic "Inference Providers available" [ref=e826]:
+                    - img [ref=e827]
+                  - generic [ref=e829]: •
+                  - img [ref=e830]
+                  - text: "35"
+          - article [ref=e832]:
+            - link "freelawproject/modernbert-embed-base_finetune_8192 Sentence Similarity • 0.1B • Updated Mar 18, 2025 • 9.74k • 1" [ref=e833] [cursor=pointer]:
+              - /url: /freelawproject/modernbert-embed-base_finetune_8192
+              - generic [ref=e834]:
+                - generic "freelawproject/modernbert-embed-base_finetune_8192" [ref=e835]:
+                  - heading "freelawproject/modernbert-embed-base_finetune_8192" [level=4] [ref=e837]
+                - generic [ref=e838]:
+                  - img [ref=e839]
+                  - text: Sentence Similarity
+                  - generic [ref=e845]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e846]':
+                    - img [ref=e847]
+                    - text: 0.1B
+                  - generic [ref=e849]: •
+                  - generic [ref=e850]:
+                    - text: Updated
+                    - time [ref=e851]: Mar 18, 2025
+                  - generic [ref=e852]: •
+                  - img [ref=e853]
+                  - text: 9.74k
+                  - generic [ref=e855]: •
+                  - img [ref=e856]
+                  - text: "1"
+          - article [ref=e858]:
+            - link "NeuML/bioclinical-modernbert-base-embeddings Sentence Similarity • 0.1B • Updated Aug 6, 2025 • 9.49k • • 11" [ref=e859] [cursor=pointer]:
+              - /url: /NeuML/bioclinical-modernbert-base-embeddings
+              - generic [ref=e860]:
+                - generic "NeuML/bioclinical-modernbert-base-embeddings" [ref=e861]:
+                  - heading "NeuML/bioclinical-modernbert-base-embeddings" [level=4] [ref=e863]
+                - generic [ref=e864]:
+                  - img [ref=e865]
+                  - text: Sentence Similarity
+                  - generic [ref=e871]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e872]':
+                    - img [ref=e873]
+                    - text: 0.1B
+                  - generic [ref=e875]: •
+                  - generic [ref=e876]:
+                    - text: Updated
+                    - time [ref=e877]: Aug 6, 2025
+                  - generic [ref=e878]: •
+                  - img [ref=e879]
+                  - text: 9.49k
+                  - generic [ref=e881]: •
+                  - generic "Inference Providers available" [ref=e882]:
+                    - img [ref=e883]
+                  - generic [ref=e885]: •
+                  - img [ref=e886]
+                  - text: "11"
+          - article [ref=e888]:
+            - link "sbintuitions/modernbert-ja-130m Fill-Mask • 0.1B • Updated May 1, 2025 • 8.61k • • 47" [ref=e889] [cursor=pointer]:
+              - /url: /sbintuitions/modernbert-ja-130m
+              - generic [ref=e890]:
+                - generic "sbintuitions/modernbert-ja-130m" [ref=e891]:
+                  - heading "sbintuitions/modernbert-ja-130m" [level=4] [ref=e893]
+                - generic [ref=e894]:
+                  - img [ref=e895]
+                  - text: Fill-Mask
+                  - generic [ref=e899]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e900]':
+                    - img [ref=e901]
+                    - text: 0.1B
+                  - generic [ref=e903]: •
+                  - generic [ref=e904]:
+                    - text: Updated
+                    - time [ref=e905]: May 1, 2025
+                  - generic [ref=e906]: •
+                  - img [ref=e907]
+                  - text: 8.61k
+                  - generic [ref=e909]: •
+                  - generic "Inference Providers available" [ref=e910]:
+                    - img [ref=e911]
+                  - generic [ref=e913]: •
+                  - img [ref=e914]
+                  - text: "47"
+          - article [ref=e916]:
+            - link "Simonlee711/Clinical_ModernBERT Feature Extraction • 0.1B • Updated May 11, 2025 • 8.6k • • 41" [ref=e917] [cursor=pointer]:
+              - /url: /Simonlee711/Clinical_ModernBERT
+              - generic [ref=e918]:
+                - generic "Simonlee711/Clinical_ModernBERT" [ref=e919]:
+                  - heading "Simonlee711/Clinical_ModernBERT" [level=4] [ref=e921]
+                - generic [ref=e922]:
+                  - img [ref=e923]
+                  - text: Feature Extraction
+                  - generic [ref=e925]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e926]':
+                    - img [ref=e927]
+                    - text: 0.1B
+                  - generic [ref=e929]: •
+                  - generic [ref=e930]:
+                    - text: Updated
+                    - time [ref=e931]: May 11, 2025
+                  - generic [ref=e932]: •
+                  - img [ref=e933]
+                  - text: 8.6k
+                  - generic [ref=e935]: •
+                  - generic "Inference Providers available" [ref=e936]:
+                    - img [ref=e937]
+                  - generic [ref=e939]: •
+                  - img [ref=e940]
+                  - text: "41"
+          - article [ref=e942]:
+            - link "lightonai/modernbert-embed-large Sentence Similarity • 0.4B • Updated May 14, 2025 • 7.76k • • 32" [ref=e943] [cursor=pointer]:
+              - /url: /lightonai/modernbert-embed-large
+              - generic [ref=e944]:
+                - generic "lightonai/modernbert-embed-large" [ref=e945]:
+                  - heading "lightonai/modernbert-embed-large" [level=4] [ref=e947]
+                - generic [ref=e948]:
+                  - img [ref=e949]
+                  - text: Sentence Similarity
+                  - generic [ref=e955]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e956]':
+                    - img [ref=e957]
+                    - text: 0.4B
+                  - generic [ref=e959]: •
+                  - generic [ref=e960]:
+                    - text: Updated
+                    - time [ref=e961]: May 14, 2025
+                  - generic [ref=e962]: •
+                  - img [ref=e963]
+                  - text: 7.76k
+                  - generic [ref=e965]: •
+                  - generic "Inference Providers available" [ref=e966]:
+                    - img [ref=e967]
+                  - generic [ref=e969]: •
+                  - img [ref=e970]
+                  - text: "32"
+          - article [ref=e972]:
+            - link "clapAI/modernBERT-base-multilingual-sentiment Text Classification • 0.1B • Updated Jan 8, 2025 • 5.23k • • 33" [ref=e973] [cursor=pointer]:
+              - /url: /clapAI/modernBERT-base-multilingual-sentiment
+              - generic [ref=e974]:
+                - generic "clapAI/modernBERT-base-multilingual-sentiment" [ref=e975]:
+                  - heading "clapAI/modernBERT-base-multilingual-sentiment" [level=4] [ref=e977]
+                - generic [ref=e978]:
+                  - img [ref=e979]
+                  - text: Text Classification
+                  - generic [ref=e994]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e995]':
+                    - img [ref=e996]
+                    - text: 0.1B
+                  - generic [ref=e998]: •
+                  - generic [ref=e999]:
+                    - text: Updated
+                    - time [ref=e1000]: Jan 8, 2025
+                  - generic [ref=e1001]: •
+                  - img [ref=e1002]
+                  - text: 5.23k
+                  - generic [ref=e1004]: •
+                  - generic "Inference Providers available" [ref=e1005]:
+                    - img [ref=e1006]
+                  - generic [ref=e1008]: •
+                  - img [ref=e1009]
+                  - text: "33"
+          - article [ref=e1011]:
+            - link "KRLabsOrg/lettucedect-base-modernbert-en-v1 Token Classification • 0.1B • Updated Apr 1, 2025 • 5.03k • 17" [ref=e1012] [cursor=pointer]:
+              - /url: /KRLabsOrg/lettucedect-base-modernbert-en-v1
+              - generic [ref=e1013]:
+                - generic "KRLabsOrg/lettucedect-base-modernbert-en-v1" [ref=e1014]:
+                  - heading "KRLabsOrg/lettucedect-base-modernbert-en-v1" [level=4] [ref=e1016]
+                - generic [ref=e1017]:
+                  - img [ref=e1018]
+                  - text: Token Classification
+                  - generic [ref=e1026]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e1027]':
+                    - img [ref=e1028]
+                    - text: 0.1B
+                  - generic [ref=e1030]: •
+                  - generic [ref=e1031]:
+                    - text: Updated
+                    - time [ref=e1032]: Apr 1, 2025
+                  - generic [ref=e1033]: •
+                  - img [ref=e1034]
+                  - text: 5.03k
+                  - generic [ref=e1036]: •
+                  - img [ref=e1037]
+                  - text: "17"
+          - article [ref=e1039]:
+            - link "y22ma/alibaba-modernbert-router Text Classification • 0.1B • Updated Aug 27, 2025 • 4.73k" [ref=e1040] [cursor=pointer]:
+              - /url: /y22ma/alibaba-modernbert-router
+              - generic [ref=e1041]:
+                - generic "y22ma/alibaba-modernbert-router" [ref=e1042]:
+                  - heading "y22ma/alibaba-modernbert-router" [level=4] [ref=e1044]
+                - generic [ref=e1045]:
+                  - img [ref=e1046]
+                  - text: Text Classification
+                  - generic [ref=e1061]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e1062]':
+                    - img [ref=e1063]
+                    - text: 0.1B
+                  - generic [ref=e1065]: •
+                  - generic [ref=e1066]:
+                    - text: Updated
+                    - time [ref=e1067]: Aug 27, 2025
+                  - generic [ref=e1068]: •
+                  - img [ref=e1069]
+                  - text: 4.73k
+          - article [ref=e1071]:
+            - link "sbintuitions/modernbert-ja-310m Fill-Mask • 0.3B • Updated May 1, 2025 • 4.58k • • 21" [ref=e1072] [cursor=pointer]:
+              - /url: /sbintuitions/modernbert-ja-310m
+              - generic [ref=e1073]:
+                - generic "sbintuitions/modernbert-ja-310m" [ref=e1074]:
+                  - heading "sbintuitions/modernbert-ja-310m" [level=4] [ref=e1076]
+                - generic [ref=e1077]:
+                  - img [ref=e1078]
+                  - text: Fill-Mask
+                  - generic [ref=e1082]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1083]':
+                    - img [ref=e1084]
+                    - text: 0.3B
+                  - generic [ref=e1086]: •
+                  - generic [ref=e1087]:
+                    - text: Updated
+                    - time [ref=e1088]: May 1, 2025
+                  - generic [ref=e1089]: •
+                  - img [ref=e1090]
+                  - text: 4.58k
+                  - generic [ref=e1092]: •
+                  - generic "Inference Providers available" [ref=e1093]:
+                    - img [ref=e1094]
+                  - generic [ref=e1096]: •
+                  - img [ref=e1097]
+                  - text: "21"
+          - article [ref=e1099]:
+            - link "tasksource/ModernBERT-base-nli Zero-Shot Classification • 0.1B • Updated Jan 6, 2025 • 4.3k • • 27" [ref=e1100] [cursor=pointer]:
+              - /url: /tasksource/ModernBERT-base-nli
+              - generic [ref=e1101]:
+                - generic "tasksource/ModernBERT-base-nli" [ref=e1102]:
+                  - heading "tasksource/ModernBERT-base-nli" [level=4] [ref=e1104]
+                - generic [ref=e1105]:
+                  - img [ref=e1106]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1118]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e1119]':
+                    - img [ref=e1120]
+                    - text: 0.1B
+                  - generic [ref=e1122]: •
+                  - generic [ref=e1123]:
+                    - text: Updated
+                    - time [ref=e1124]: Jan 6, 2025
+                  - generic [ref=e1125]: •
+                  - img [ref=e1126]
+                  - text: 4.3k
+                  - generic [ref=e1128]: •
+                  - generic "Inference Providers available" [ref=e1129]:
+                    - img [ref=e1130]
+                  - generic [ref=e1132]: •
+                  - img [ref=e1133]
+                  - text: "27"
+          - article [ref=e1135]:
+            - link "tasksource/ModernBERT-large-nli Zero-Shot Classification • 0.4B • Updated Jan 4, 2025 • 3.26k • • 10" [ref=e1136] [cursor=pointer]:
+              - /url: /tasksource/ModernBERT-large-nli
+              - generic [ref=e1137]:
+                - generic "tasksource/ModernBERT-large-nli" [ref=e1138]:
+                  - heading "tasksource/ModernBERT-large-nli" [level=4] [ref=e1140]
+                - generic [ref=e1141]:
+                  - img [ref=e1142]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1154]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e1155]':
+                    - img [ref=e1156]
+                    - text: 0.4B
+                  - generic [ref=e1158]: •
+                  - generic [ref=e1159]:
+                    - text: Updated
+                    - time [ref=e1160]: Jan 4, 2025
+                  - generic [ref=e1161]: •
+                  - img [ref=e1162]
+                  - text: 3.26k
+                  - generic [ref=e1164]: •
+                  - generic "Inference Providers available" [ref=e1165]:
+                    - img [ref=e1166]
+                  - generic [ref=e1168]: •
+                  - img [ref=e1169]
+                  - text: "10"
+          - article [ref=e1171]:
+            - link "tomaarsen/ModernBERT-base-gooaq Sentence Similarity • 0.1B • Updated Dec 20, 2024 • 2.91k • • 14" [ref=e1172] [cursor=pointer]:
+              - /url: /tomaarsen/ModernBERT-base-gooaq
+              - generic [ref=e1173]:
+                - generic "tomaarsen/ModernBERT-base-gooaq" [ref=e1174]:
+                  - heading "tomaarsen/ModernBERT-base-gooaq" [level=4] [ref=e1176]
+                - generic [ref=e1177]:
+                  - img [ref=e1178]
+                  - text: Sentence Similarity
+                  - generic [ref=e1184]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e1185]':
+                    - img [ref=e1186]
+                    - text: 0.1B
+                  - generic [ref=e1188]: •
+                  - generic [ref=e1189]:
+                    - text: Updated
+                    - time [ref=e1190]: Dec 20, 2024
+                  - generic [ref=e1191]: •
+                  - img [ref=e1192]
+                  - text: 2.91k
+                  - generic [ref=e1194]: •
+                  - generic "Inference Providers available" [ref=e1195]:
+                    - img [ref=e1196]
+                  - generic [ref=e1198]: •
+                  - img [ref=e1199]
+                  - text: "14"
+          - article [ref=e1201]:
+            - link "cirimus/modernbert-base-go-emotions Text Classification • 0.1B • Updated 29 days ago • 2.79k • • 10" [ref=e1202] [cursor=pointer]:
+              - /url: /cirimus/modernbert-base-go-emotions
+              - generic [ref=e1203]:
+                - generic "cirimus/modernbert-base-go-emotions" [ref=e1204]:
+                  - heading "cirimus/modernbert-base-go-emotions" [level=4] [ref=e1206]
+                - generic [ref=e1207]:
+                  - img [ref=e1208]
+                  - text: Text Classification
+                  - generic [ref=e1223]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e1224]':
+                    - img [ref=e1225]
+                    - text: 0.1B
+                  - generic [ref=e1227]: •
+                  - generic [ref=e1228]:
+                    - text: Updated
+                    - time [ref=e1229]: 29 days ago
+                  - generic [ref=e1230]: •
+                  - img [ref=e1231]
+                  - text: 2.79k
+                  - generic [ref=e1233]: •
+                  - generic "Inference Providers available" [ref=e1234]:
+                    - img [ref=e1235]
+                  - generic [ref=e1237]: •
+                  - img [ref=e1238]
+                  - text: "10"
+          - article [ref=e1240]:
+            - link "tomaarsen/reranker-ModernBERT-base-gooaq-bce Text Ranking • 0.1B • Updated Mar 25, 2025 • 2.65k • 3" [ref=e1241] [cursor=pointer]:
+              - /url: /tomaarsen/reranker-ModernBERT-base-gooaq-bce
+              - generic [ref=e1242]:
+                - generic "tomaarsen/reranker-ModernBERT-base-gooaq-bce" [ref=e1243]:
+                  - heading "tomaarsen/reranker-ModernBERT-base-gooaq-bce" [level=4] [ref=e1245]
+                - generic [ref=e1246]:
+                  - img [ref=e1247]
+                  - text: Text Ranking
+                  - generic [ref=e1252]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e1253]':
+                    - img [ref=e1254]
+                    - text: 0.1B
+                  - generic [ref=e1256]: •
+                  - generic [ref=e1257]:
+                    - text: Updated
+                    - time [ref=e1258]: Mar 25, 2025
+                  - generic [ref=e1259]: •
+                  - img [ref=e1260]
+                  - text: 2.65k
+                  - generic [ref=e1262]: •
+                  - img [ref=e1263]
+                  - text: "3"
+          - article [ref=e1265]:
+            - link "AI-Sweden-Models/ModernBERT-large Fill-Mask • 0.4B • Updated Sep 22, 2025 • 2.47k • 7" [ref=e1266] [cursor=pointer]:
+              - /url: /AI-Sweden-Models/ModernBERT-large
+              - generic [ref=e1267]:
+                - generic "AI-Sweden-Models/ModernBERT-large" [ref=e1268]:
+                  - heading "AI-Sweden-Models/ModernBERT-large" [level=4] [ref=e1270]
+                - generic [ref=e1271]:
+                  - img [ref=e1272]
+                  - text: Fill-Mask
+                  - generic [ref=e1276]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e1277]':
+                    - img [ref=e1278]
+                    - text: 0.4B
+                  - generic [ref=e1280]: •
+                  - generic [ref=e1281]:
+                    - text: Updated
+                    - time [ref=e1282]: Sep 22, 2025
+                  - generic [ref=e1283]: •
+                  - img [ref=e1284]
+                  - text: 2.47k
+                  - generic [ref=e1286]: •
+                  - img [ref=e1287]
+                  - text: "7"
+          - article [ref=e1289]:
+            - link "karsar/ModernBERT-base-hu_v3 Sentence Similarity • 0.1B • Updated Jan 21, 2025 • 2.37k • • 2" [ref=e1290] [cursor=pointer]:
+              - /url: /karsar/ModernBERT-base-hu_v3
+              - generic [ref=e1291]:
+                - generic "karsar/ModernBERT-base-hu_v3" [ref=e1292]:
+                  - heading "karsar/ModernBERT-base-hu_v3" [level=4] [ref=e1294]
+                - generic [ref=e1295]:
+                  - img [ref=e1296]
+                  - text: Sentence Similarity
+                  - generic [ref=e1302]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e1303]':
+                    - img [ref=e1304]
+                    - text: 0.1B
+                  - generic [ref=e1306]: •
+                  - generic [ref=e1307]:
+                    - text: Updated
+                    - time [ref=e1308]: Jan 21, 2025
+                  - generic [ref=e1309]: •
+                  - img [ref=e1310]
+                  - text: 2.37k
+                  - generic [ref=e1312]: •
+                  - generic "Inference Providers available" [ref=e1313]:
+                    - img [ref=e1314]
+                  - generic [ref=e1316]: •
+                  - img [ref=e1317]
+                  - text: "2"
+        - navigation [ref=e1319]:
+          - list [ref=e1320]:
+            - listitem [ref=e1321]:
+              - link "Previous":
+                - /url: ""
+                - img
+                - text: Previous
+            - listitem [ref=e1322]:
+              - link "1" [ref=e1323] [cursor=pointer]:
+                - /url: "?p=0&sort=downloads&search=ModernBERT"
+            - listitem [ref=e1324]:
+              - link "2" [ref=e1325] [cursor=pointer]:
+                - /url: "?p=1&sort=downloads&search=ModernBERT"
+            - listitem [ref=e1326]:
+              - link "3" [ref=e1327] [cursor=pointer]:
+                - /url: "?p=2&sort=downloads&search=ModernBERT"
+            - listitem [ref=e1328]:
+              - link "...":
+                - /url: "#"
+            - listitem [ref=e1329]:
+              - link "95" [ref=e1330] [cursor=pointer]:
+                - /url: "?p=94&sort=downloads&search=ModernBERT"
+            - listitem [ref=e1331]:
+              - link "Next" [ref=e1332] [cursor=pointer]:
+                - /url: "?p=1&sort=downloads&search=ModernBERT"
+                - text: Next
+                - img [ref=e1333]
+  - contentinfo [ref=e1335]:
+    - navigation [ref=e1336]:
+      - button "System theme" [ref=e1339] [cursor=pointer]:
+        - img [ref=e1340]
+        - text: System theme
+      - link "TOS" [ref=e1345] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e1346] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e1347] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e1348] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e1349] [cursor=pointer]:
+        - /url: /
+        - img [ref=e1350]
+      - link "Models" [ref=e1364] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e1365] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e1366] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e1367] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e1368] [cursor=pointer]:
+        - /url: /docs

@@ -1,0 +1,800 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "VAGOsolutions / SauerkrautLM-GLiNER like 14 Follow VAGO solutions 181" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /VAGOsolutions
+          - link "VAGOsolutions" [ref=e70] [cursor=pointer]:
+            - /url: /VAGOsolutions
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "SauerkrautLM-GLiNER" [ref=e73] [cursor=pointer]:
+            - /url: /VAGOsolutions/SauerkrautLM-GLiNER
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "14" [ref=e84] [cursor=pointer]
+        - generic [ref=e86]:
+          - button "Follow VAGO solutions" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Follow
+            - generic [ref=e89]: VAGO solutions
+          - button "181" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]:
+        - link "Token Classification" [ref=e92] [cursor=pointer]:
+          - /url: /models?pipeline_tag=token-classification
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e103]: Token Classification
+        - link "GLiNER" [ref=e104] [cursor=pointer]:
+          - /url: /models?library=gliner
+          - generic [ref=e106]: GLiNER
+        - link "PyTorch" [ref=e107] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e108]:
+            - img [ref=e109]
+            - generic [ref=e112]: PyTorch
+        - button "5 languages" [ref=e113] [cursor=pointer]:
+          - generic [ref=e114]:
+            - img [ref=e115]
+            - generic [ref=e117]: 5 languages
+        - link "ner" [ref=e118] [cursor=pointer]:
+          - /url: /models?other=ner
+          - generic [ref=e120]: ner
+        - link "multilingual" [ref=e121] [cursor=pointer]:
+          - /url: /models?other=multilingual
+          - generic [ref=e123]: multilingual
+        - link "sauerkrautlm" [ref=e124] [cursor=pointer]:
+          - /url: /models?other=sauerkrautlm
+          - generic [ref=e126]: sauerkrautlm
+        - link "pii" [ref=e127] [cursor=pointer]:
+          - /url: /models?other=pii
+          - generic [ref=e129]: pii
+        - 'button "License: mit" [ref=e131] [cursor=pointer]':
+          - generic [ref=e133]:
+            - img [ref=e134]
+            - generic [ref=e136]: "License:"
+            - generic [ref=e137]: mit
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - link "Model card" [ref=e141] [cursor=pointer]:
+            - /url: /VAGOsolutions/SauerkrautLM-GLiNER
+            - img [ref=e142]
+            - text: Model card
+          - link "Files xet" [ref=e146] [cursor=pointer]:
+            - /url: /VAGOsolutions/SauerkrautLM-GLiNER/tree/main
+            - img [ref=e147]
+            - generic [ref=e150]: Files
+            - generic [ref=e153]:
+              - img [ref=e154]
+              - generic [ref=e157]: xet
+          - link "Community 1" [ref=e158] [cursor=pointer]:
+            - /url: /VAGOsolutions/SauerkrautLM-GLiNER/discussions
+            - img [ref=e159]
+            - text: Community
+            - generic [ref=e162]: "1"
+        - generic [ref=e163]:
+          - button [ref=e166] [cursor=pointer]:
+            - img [ref=e167]
+          - button "Use this model" [ref=e172] [cursor=pointer]:
+            - img [ref=e173]
+            - text: Use this model
+            - img [ref=e175]
+    - generic [ref=e177]:
+      - generic [ref=e179]:
+        - button [ref=e185] [cursor=pointer]:
+          - img [ref=e186]
+        - generic [ref=e188]:
+          - img [ref=e189]
+          - heading "SauerkrautLM-GLiNER" [level=1] [ref=e190]:
+            - link [ref=e191] [cursor=pointer]:
+              - /url: "#sauerkrautlm-gliner"
+              - img [ref=e193]
+            - generic [ref=e195]: SauerkrautLM-GLiNER
+          - paragraph [ref=e196]:
+            - text: SauerkrautLM-GLiNER is a multilingual GLiNER-style model for
+            - strong [ref=e197]: zero-shot named entity recognition (NER)
+            - text: based on the
+            - code [ref=e198]: jhu-clsp/mmBERT-base
+            - text: backbone (a ModernBERT-style multilingual encoder).
+          - paragraph [ref=e199]:
+            - text: The model is trained jointly on
+            - strong [ref=e200]: English, German, Italian, French, and Spanish
+            - text: over roughly
+            - strong [ref=e201]: 21k distinct entity types
+            - text: ", and is designed for"
+            - strong [ref=e202]: prompted / label-list NER
+            - text: in real-world multilingual scenarios (documents, logs, PII detection, etc.).
+          - paragraph [ref=e203]:
+            - text: As a baseline, we compare against
+            - strong [ref=e204]:
+              - code [ref=e205]: urchade/gliner_multi-v2.1
+            - text: ", which is built on"
+            - strong [ref=e206]:
+              - code [ref=e207]: microsoft/mdeberta-v3-base
+            - text: ", a multilingual DeBERTa v3 model that extends BERT/RoBERTa with"
+            - strong [ref=e208]: disentangled attention
+            - text: and an
+            - strong [ref=e209]: enhanced mask decoder
+            - text: ", architectural features that improve token-level representations and benefit sequence-labeling tasks such as NER."
+          - heading "Demo" [level=1] [ref=e210]:
+            - link [ref=e211] [cursor=pointer]:
+              - /url: "#demo"
+              - img [ref=e213]
+            - generic [ref=e215]: Demo
+          - blockquote [ref=e216]:
+            - paragraph [ref=e217]:
+              - text: 🔍
+              - strong [ref=e218]: "Demo:"
+              - text: "You can try the model directly in the browser via our Hugging Face Space:"
+              - strong [ref=e219]:
+                - link "https://huggingface.co/spaces/VAGOsolutions/SauerkrautLM-GLiNER-Demo" [ref=e220] [cursor=pointer]:
+                  - /url: https://huggingface.co/spaces/VAGOsolutions/SauerkrautLM-GLiNER-Demo
+          - separator [ref=e221]
+          - heading "Model details" [level=2] [ref=e222]:
+            - link [ref=e223] [cursor=pointer]:
+              - /url: "#model-details"
+              - img [ref=e225]
+            - generic [ref=e227]: Model details
+          - list [ref=e228]:
+            - listitem [ref=e229]:
+              - strong [ref=e230]: "Model name:"
+              - text: SauerkrautLM-GLiNER
+            - listitem [ref=e231]:
+              - strong [ref=e232]: "Backbone:"
+              - code [ref=e233]: jhu-clsp/mmBERT-base
+              - text: (ModernBERT-style multilingual encoder)
+            - listitem [ref=e234]:
+              - strong [ref=e235]: "Architecture:"
+              - text: GLiNER-style prompted NER (span classification conditioned on textual labels)
+            - listitem [ref=e236]:
+              - strong [ref=e237]: "Languages (training):"
+              - text: English, German, French, Italian, Spanish
+            - listitem [ref=e238]:
+              - strong [ref=e239]: "Entity types:"
+              - text: ~21k distinct entity labels
+            - listitem [ref=e240]:
+              - strong [ref=e241]: "Objective:"
+              - text: Multilingual,
+              - strong [ref=e242]: zero-shot
+              - text: and
+              - strong [ref=e243]: few-shot
+              - text: NER with arbitrary label lists
+            - listitem [ref=e244]:
+              - strong [ref=e245]: "License:"
+              - text: MIT
+          - paragraph [ref=e246]:
+            - text: The model is trained as a
+            - strong [ref=e247]: general-purpose multilingual NER model
+            - text: ": unlike a PII-only model, it is exposed to many domains (news, encyclopedic text, technical and general content) and a very large label space, making it suitable for both"
+            - strong [ref=e248]: broad-domain extraction
+            - text: and
+            - strong [ref=e249]: specialized taxonomies
+            - text: .
+          - heading "Evaluation & Benchmarks" [level=2] [ref=e250]:
+            - link [ref=e251] [cursor=pointer]:
+              - /url: "#evaluation--benchmarks"
+              - img [ref=e253]
+            - generic [ref=e255]: Evaluation & Benchmarks
+          - heading "Datasets" [level=3] [ref=e256]:
+            - link [ref=e257] [cursor=pointer]:
+              - /url: "#datasets"
+              - img [ref=e259]
+            - generic [ref=e261]: Datasets
+          - paragraph [ref=e262]:
+            - text: The model is evaluated on the
+            - strong [ref=e263]: VAGOsolutions/gliner-benchmark-multilingual
+            - text: dataset (
+            - link "🤗 Dataset Link" [ref=e264] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/VAGOsolutions/gliner-benchmark-multilingual
+            - text: ), which extends the original
+            - strong [ref=e265]: DFKI-SLT/cross_ner
+            - text: dataset (English-only) with
+            - strong [ref=e266]: German, French, Italian, and Spanish
+            - text: .
+          - paragraph [ref=e267]:
+            - strong [ref=e268]: "Important:"
+            - text: The non-English data is
+            - strong [ref=e269]: not simply translated
+            - text: from the English original. Instead, new language-specific data was carefully curated to ensure high-quality, authentic entity extraction across all languages.
+          - heading "Results" [level=3] [ref=e270]:
+            - link [ref=e271] [cursor=pointer]:
+              - /url: "#results"
+              - img [ref=e273]
+            - generic [ref=e275]: Results
+          - paragraph [ref=e276]:
+            - text: We compare
+            - strong [ref=e277]: SauerkrautLM-GLiNER
+            - text: "against two baselines:"
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - strong [ref=e280]: urchade/gliner_multi-v2.1
+              - text: – General multilingual NER model
+            - listitem [ref=e281]:
+              - strong [ref=e282]: urchade/gliner_multi_pii-v1
+              - text: – Specialized PII detection model
+          - 'heading "CrossNER + Multilingual Domain Benchmarks (Threshold: 0.8 for SauerkrautLM-GLiNER, 0.65 for gliner_multi-v2.1)" [level=4] [ref=e283]':
+            - link [ref=e284] [cursor=pointer]:
+              - /url: "#crossner--multilingual-domain-benchmarks-threshold-08-for-sauerkrautlm-gliner-065-for-gliner_multi-v21"
+              - img [ref=e286]
+            - generic [ref=e288]: "CrossNER + Multilingual Domain Benchmarks (Threshold: 0.8 for SauerkrautLM-GLiNER, 0.65 for gliner_multi-v2.1)"
+          - table [ref=e290]:
+            - rowgroup [ref=e291]:
+              - row "Dataset Samples Entities SauerkrautLM-GLiNER P / R / F1 gliner_multi-v2.1 P / R / F1" [ref=e292]:
+                - columnheader "Dataset" [ref=e293]
+                - columnheader "Samples" [ref=e294]
+                - columnheader "Entities" [ref=e295]
+                - columnheader "SauerkrautLM-GLiNER P / R / F1" [ref=e296]:
+                  - strong [ref=e297]: SauerkrautLM-GLiNER
+                  - text: P / R / F1
+                - columnheader "gliner_multi-v2.1 P / R / F1" [ref=e298]:
+                  - strong [ref=e299]: gliner_multi-v2.1
+                  - text: P / R / F1
+            - rowgroup [ref=e300]:
+              - row "CrossNER (English)" [ref=e301]:
+                - cell "CrossNER (English)" [ref=e302]:
+                  - strong [ref=e303]: CrossNER (English)
+                - cell [ref=e304]
+                - cell [ref=e305]
+                - cell [ref=e306]
+                - cell [ref=e307]
+              - row "crossner_ai_test.jsonl 431 14 58.03 / 48.92 / 53.09 64.94 / 40.24 / 49.69" [ref=e308]:
+                - cell "crossner_ai_test.jsonl" [ref=e309]
+                - cell "431" [ref=e310]
+                - cell "14" [ref=e311]
+                - cell "58.03 / 48.92 / 53.09" [ref=e312]:
+                  - text: 58.03 / 48.92 /
+                  - strong [ref=e313]: "53.09"
+                - cell "64.94 / 40.24 / 49.69" [ref=e314]
+              - row "crossner_literature_test.jsonl 416 12 55.57 / 47.79 / 51.39 73.11 / 51.59 / 60.49" [ref=e315]:
+                - cell "crossner_literature_test.jsonl" [ref=e316]
+                - cell "416" [ref=e317]
+                - cell "12" [ref=e318]
+                - cell "55.57 / 47.79 / 51.39" [ref=e319]:
+                  - text: 55.57 / 47.79 /
+                  - strong [ref=e320]: "51.39"
+                - cell "73.11 / 51.59 / 60.49" [ref=e321]
+              - row "crossner_music_test.jsonl 465 13 67.43 / 54.86 / 60.50 76.80 / 66.40 / 71.22" [ref=e322]:
+                - cell "crossner_music_test.jsonl" [ref=e323]
+                - cell "465" [ref=e324]
+                - cell "13" [ref=e325]
+                - cell "67.43 / 54.86 / 60.50" [ref=e326]:
+                  - text: 67.43 / 54.86 /
+                  - strong [ref=e327]: "60.50"
+                - cell "76.80 / 66.40 / 71.22" [ref=e328]
+              - row "crossner_politics_test.jsonl 651 9 57.85 / 54.36 / 56.05 72.85 / 64.46 / 68.40" [ref=e329]:
+                - cell "crossner_politics_test.jsonl" [ref=e330]
+                - cell "651" [ref=e331]
+                - cell "9" [ref=e332]
+                - cell "57.85 / 54.36 / 56.05" [ref=e333]:
+                  - text: 57.85 / 54.36 /
+                  - strong [ref=e334]: "56.05"
+                - cell "72.85 / 64.46 / 68.40" [ref=e335]
+              - row "crossner_science_test.jsonl 543 17 57.83 / 47.01 / 51.86 67.05 / 54.10 / 59.88" [ref=e336]:
+                - cell "crossner_science_test.jsonl" [ref=e337]
+                - cell "543" [ref=e338]
+                - cell "17" [ref=e339]
+                - cell "57.83 / 47.01 / 51.86" [ref=e340]:
+                  - text: 57.83 / 47.01 /
+                  - strong [ref=e341]: "51.86"
+                - cell "67.05 / 54.10 / 59.88" [ref=e342]
+              - row "AI Domain (Multilingual)" [ref=e343]:
+                - cell "AI Domain (Multilingual)" [ref=e344]:
+                  - strong [ref=e345]: AI Domain (Multilingual)
+                - cell [ref=e346]
+                - cell [ref=e347]
+                - cell [ref=e348]
+                - cell [ref=e349]
+              - row "ai_french.jsonl 2311 20 53.76 / 66.13 / 59.30 56.68 / 22.17 / 31.88" [ref=e350]:
+                - cell "ai_french.jsonl" [ref=e351]
+                - cell "2311" [ref=e352]
+                - cell "20" [ref=e353]
+                - cell "53.76 / 66.13 / 59.30" [ref=e354]:
+                  - text: 53.76 / 66.13 /
+                  - strong [ref=e355]: "59.30"
+                - cell "56.68 / 22.17 / 31.88" [ref=e356]
+              - row "ai_german.jsonl 2348 19 53.37 / 67.99 / 59.80 57.41 / 23.23 / 33.08" [ref=e357]:
+                - cell "ai_german.jsonl" [ref=e358]
+                - cell "2348" [ref=e359]
+                - cell "19" [ref=e360]
+                - cell "53.37 / 67.99 / 59.80" [ref=e361]:
+                  - text: 53.37 / 67.99 /
+                  - strong [ref=e362]: "59.80"
+                - cell "57.41 / 23.23 / 33.08" [ref=e363]
+              - row "ai_italian.jsonl 2188 25 47.33 / 54.00 / 50.45 49.64 / 15.62 / 23.76" [ref=e364]:
+                - cell "ai_italian.jsonl" [ref=e365]
+                - cell "2188" [ref=e366]
+                - cell "25" [ref=e367]
+                - cell "47.33 / 54.00 / 50.45" [ref=e368]:
+                  - text: 47.33 / 54.00 /
+                  - strong [ref=e369]: "50.45"
+                - cell "49.64 / 15.62 / 23.76" [ref=e370]
+              - row "ai_spanish.jsonl 2253 19 54.23 / 63.96 / 58.69 50.09 / 21.63 / 30.21" [ref=e371]:
+                - cell "ai_spanish.jsonl" [ref=e372]
+                - cell "2253" [ref=e373]
+                - cell "19" [ref=e374]
+                - cell "54.23 / 63.96 / 58.69" [ref=e375]:
+                  - text: 54.23 / 63.96 /
+                  - strong [ref=e376]: "58.69"
+                - cell "50.09 / 21.63 / 30.21" [ref=e377]
+              - row "Literature Domain (Multilingual)" [ref=e378]:
+                - cell "Literature Domain (Multilingual)" [ref=e379]:
+                  - strong [ref=e380]: Literature Domain (Multilingual)
+                - cell [ref=e381]
+                - cell [ref=e382]
+                - cell [ref=e383]
+                - cell [ref=e384]
+              - row "literature_french.jsonl 541 17 45.64 / 59.36 / 51.60 36.75 / 18.16 / 24.31" [ref=e385]:
+                - cell "literature_french.jsonl" [ref=e386]
+                - cell "541" [ref=e387]
+                - cell "17" [ref=e388]
+                - cell "45.64 / 59.36 / 51.60" [ref=e389]:
+                  - text: 45.64 / 59.36 /
+                  - strong [ref=e390]: "51.60"
+                - cell "36.75 / 18.16 / 24.31" [ref=e391]
+              - row "literature_german.jsonl 505 20 34.59 / 41.94 / 37.92 30.13 / 10.04 / 15.07" [ref=e392]:
+                - cell "literature_german.jsonl" [ref=e393]
+                - cell "505" [ref=e394]
+                - cell "20" [ref=e395]
+                - cell "34.59 / 41.94 / 37.92" [ref=e396]:
+                  - text: 34.59 / 41.94 /
+                  - strong [ref=e397]: "37.92"
+                - cell "30.13 / 10.04 / 15.07" [ref=e398]
+              - row "literature_italian.jsonl 634 28 47.22 / 59.13 / 52.51 23.89 / 5.39 / 8.79" [ref=e399]:
+                - cell "literature_italian.jsonl" [ref=e400]
+                - cell "634" [ref=e401]
+                - cell "28" [ref=e402]
+                - cell "47.22 / 59.13 / 52.51" [ref=e403]:
+                  - text: 47.22 / 59.13 /
+                  - strong [ref=e404]: "52.51"
+                - cell "23.89 / 5.39 / 8.79" [ref=e405]
+              - row "literature_spanish.jsonl 495 17 47.21 / 58.73 / 52.34 37.14 / 16.81 / 23.14" [ref=e406]:
+                - cell "literature_spanish.jsonl" [ref=e407]
+                - cell "495" [ref=e408]
+                - cell "17" [ref=e409]
+                - cell "47.21 / 58.73 / 52.34" [ref=e410]:
+                  - text: 47.21 / 58.73 /
+                  - strong [ref=e411]: "52.34"
+                - cell "37.14 / 16.81 / 23.14" [ref=e412]
+              - row "Music Domain (Multilingual)" [ref=e413]:
+                - cell "Music Domain (Multilingual)" [ref=e414]:
+                  - strong [ref=e415]: Music Domain (Multilingual)
+                - cell [ref=e416]
+                - cell [ref=e417]
+                - cell [ref=e418]
+                - cell [ref=e419]
+              - row "music_french.jsonl 576 18 55.59 / 67.62 / 61.02 45.58 / 26.11 / 33.20" [ref=e420]:
+                - cell "music_french.jsonl" [ref=e421]
+                - cell "576" [ref=e422]
+                - cell "18" [ref=e423]
+                - cell "55.59 / 67.62 / 61.02" [ref=e424]:
+                  - text: 55.59 / 67.62 /
+                  - strong [ref=e425]: "61.02"
+                - cell "45.58 / 26.11 / 33.20" [ref=e426]
+              - row "music_german.jsonl 457 18 53.68 / 65.01 / 58.81 54.95 / 31.94 / 40.40" [ref=e427]:
+                - cell "music_german.jsonl" [ref=e428]
+                - cell "457" [ref=e429]
+                - cell "18" [ref=e430]
+                - cell "53.68 / 65.01 / 58.81" [ref=e431]:
+                  - text: 53.68 / 65.01 /
+                  - strong [ref=e432]: "58.81"
+                - cell "54.95 / 31.94 / 40.40" [ref=e433]
+              - row "music_italian.jsonl 555 23 71.75 / 73.07 / 72.40 45.48 / 16.92 / 24.66" [ref=e434]:
+                - cell "music_italian.jsonl" [ref=e435]
+                - cell "555" [ref=e436]
+                - cell "23" [ref=e437]
+                - cell "71.75 / 73.07 / 72.40" [ref=e438]:
+                  - text: 71.75 / 73.07 /
+                  - strong [ref=e439]: "72.40"
+                - cell "45.48 / 16.92 / 24.66" [ref=e440]
+              - row "music_spanish.jsonl 540 18 59.54 / 68.54 / 63.72 49.07 / 27.54 / 35.28" [ref=e441]:
+                - cell "music_spanish.jsonl" [ref=e442]
+                - cell "540" [ref=e443]
+                - cell "18" [ref=e444]
+                - cell "59.54 / 68.54 / 63.72" [ref=e445]:
+                  - text: 59.54 / 68.54 /
+                  - strong [ref=e446]: "63.72"
+                - cell "49.07 / 27.54 / 35.28" [ref=e447]
+              - row "Politics Domain (Multilingual)" [ref=e448]:
+                - cell "Politics Domain (Multilingual)" [ref=e449]:
+                  - strong [ref=e450]: Politics Domain (Multilingual)
+                - cell [ref=e451]
+                - cell [ref=e452]
+                - cell [ref=e453]
+                - cell [ref=e454]
+              - row "politics_french.jsonl 571 11 44.44 / 64.59 / 52.65 40.94 / 27.31 / 32.76" [ref=e455]:
+                - cell "politics_french.jsonl" [ref=e456]
+                - cell "571" [ref=e457]
+                - cell "11" [ref=e458]
+                - cell "44.44 / 64.59 / 52.65" [ref=e459]:
+                  - text: 44.44 / 64.59 /
+                  - strong [ref=e460]: "52.65"
+                - cell "40.94 / 27.31 / 32.76" [ref=e461]
+              - row "politics_german.jsonl 550 14 31.96 / 46.44 / 37.86 25.16 / 13.88 / 17.90" [ref=e462]:
+                - cell "politics_german.jsonl" [ref=e463]
+                - cell "550" [ref=e464]
+                - cell "14" [ref=e465]
+                - cell "31.96 / 46.44 / 37.86" [ref=e466]:
+                  - text: 31.96 / 46.44 /
+                  - strong [ref=e467]: "37.86"
+                - cell "25.16 / 13.88 / 17.90" [ref=e468]
+              - row "politics_italian.jsonl 574 17 49.64 / 68.87 / 57.70 41.52 / 21.04 / 27.93" [ref=e469]:
+                - cell "politics_italian.jsonl" [ref=e470]
+                - cell "574" [ref=e471]
+                - cell "17" [ref=e472]
+                - cell "49.64 / 68.87 / 57.70" [ref=e473]:
+                  - text: 49.64 / 68.87 /
+                  - strong [ref=e474]: "57.70"
+                - cell "41.52 / 21.04 / 27.93" [ref=e475]
+              - row "politics_spanish.jsonl 559 13 50.86 / 69.71 / 58.81 46.14 / 29.71 / 36.15" [ref=e476]:
+                - cell "politics_spanish.jsonl" [ref=e477]
+                - cell "559" [ref=e478]
+                - cell "13" [ref=e479]
+                - cell "50.86 / 69.71 / 58.81" [ref=e480]:
+                  - text: 50.86 / 69.71 /
+                  - strong [ref=e481]: "58.81"
+                - cell "46.14 / 29.71 / 36.15" [ref=e482]
+              - row "Science Domain (Multilingual)" [ref=e483]:
+                - cell "Science Domain (Multilingual)" [ref=e484]:
+                  - strong [ref=e485]: Science Domain (Multilingual)
+                - cell [ref=e486]
+                - cell [ref=e487]
+                - cell [ref=e488]
+                - cell [ref=e489]
+              - row "science_french.jsonl 563 25 59.24 / 61.42 / 60.31 55.55 / 13.89 / 22.23" [ref=e490]:
+                - cell "science_french.jsonl" [ref=e491]
+                - cell "563" [ref=e492]
+                - cell "25" [ref=e493]
+                - cell "59.24 / 61.42 / 60.31" [ref=e494]:
+                  - text: 59.24 / 61.42 /
+                  - strong [ref=e495]: "60.31"
+                - cell "55.55 / 13.89 / 22.23" [ref=e496]
+              - row "science_german.jsonl 555 29 41.79 / 49.61 / 45.37 34.55 / 8.99 / 14.27" [ref=e497]:
+                - cell "science_german.jsonl" [ref=e498]
+                - cell "555" [ref=e499]
+                - cell "29" [ref=e500]
+                - cell "41.79 / 49.61 / 45.37" [ref=e501]:
+                  - text: 41.79 / 49.61 /
+                  - strong [ref=e502]: "45.37"
+                - cell "34.55 / 8.99 / 14.27" [ref=e503]
+              - row "science_italian.jsonl 523 36 64.55 / 63.35 / 63.95 43.21 / 8.18 / 13.75" [ref=e504]:
+                - cell "science_italian.jsonl" [ref=e505]
+                - cell "523" [ref=e506]
+                - cell "36" [ref=e507]
+                - cell "64.55 / 63.35 / 63.95" [ref=e508]:
+                  - text: 64.55 / 63.35 /
+                  - strong [ref=e509]: "63.95"
+                - cell "43.21 / 8.18 / 13.75" [ref=e510]
+              - row "science_spanish.jsonl 555 32 54.95 / 55.95 / 55.45 23.89 / 5.88 / 9.43" [ref=e511]:
+                - cell "science_spanish.jsonl" [ref=e512]
+                - cell "555" [ref=e513]
+                - cell "32" [ref=e514]
+                - cell "54.95 / 55.95 / 55.45" [ref=e515]:
+                  - text: 54.95 / 55.95 /
+                  - strong [ref=e516]: "55.45"
+                - cell "23.89 / 5.88 / 9.43" [ref=e517]
+              - row "AVERAGE 20,359 – 52.72 / 59.13 / 55.34 48.10 / 25.65 / 32.32" [ref=e518]:
+                - cell "AVERAGE" [ref=e519]:
+                  - strong [ref=e520]: AVERAGE
+                - cell "20,359" [ref=e521]:
+                  - strong [ref=e522]: 20,359
+                - cell "–" [ref=e523]
+                - cell "52.72 / 59.13 / 55.34" [ref=e524]:
+                  - strong [ref=e525]: 52.72 / 59.13 / 55.34
+                - cell "48.10 / 25.65 / 32.32" [ref=e526]:
+                  - strong [ref=e527]: 48.10 / 25.65 / 32.32
+          - img [ref=e528]
+          - paragraph [ref=e529]:
+            - strong [ref=e530]: "Key Takeaway:"
+            - text: SauerkrautLM-GLiNER achieves
+            - strong [ref=e531]: +23.02 F1 points
+            - text: over gliner_multi-v2.1 on average, with particularly strong improvements in recall across all non-English languages.
+          - separator [ref=e532]
+          - 'heading "PII Detection Benchmark (Threshold: 0.75 for SauerkrautLM-GLiNER, 0.6 for baselines)" [level=4] [ref=e533]':
+            - link [ref=e534] [cursor=pointer]:
+              - /url: "#pii-detection-benchmark-threshold-075-for-sauerkrautlm-gliner-06-for-baselines"
+              - img [ref=e536]
+            - generic [ref=e538]: "PII Detection Benchmark (Threshold: 0.75 for SauerkrautLM-GLiNER, 0.6 for baselines)"
+          - table [ref=e540]:
+            - rowgroup [ref=e541]:
+              - row "Dataset Samples Entities SauerkrautLM-GLiNER P / R / F1 gliner_multi-v2.1 P / R / F1 gliner_multi_pii-v1 P / R / F1" [ref=e542]:
+                - columnheader "Dataset" [ref=e543]
+                - columnheader "Samples" [ref=e544]
+                - columnheader "Entities" [ref=e545]
+                - columnheader "SauerkrautLM-GLiNER P / R / F1" [ref=e546]:
+                  - strong [ref=e547]: SauerkrautLM-GLiNER
+                  - text: P / R / F1
+                - columnheader "gliner_multi-v2.1 P / R / F1" [ref=e548]:
+                  - strong [ref=e549]: gliner_multi-v2.1
+                  - text: P / R / F1
+                - columnheader "gliner_multi_pii-v1 P / R / F1" [ref=e550]:
+                  - strong [ref=e551]: gliner_multi_pii-v1
+                  - text: P / R / F1
+            - rowgroup [ref=e552]:
+              - row "pii_english.jsonl 500 20 55.83 / 40.86 / 47.19 32.12 / 16.01 / 21.37 63.33 / 26.74 / 37.60" [ref=e553]:
+                - cell "pii_english.jsonl" [ref=e554]
+                - cell "500" [ref=e555]
+                - cell "20" [ref=e556]
+                - cell "55.83 / 40.86 / 47.19" [ref=e557]:
+                  - text: 55.83 / 40.86 /
+                  - strong [ref=e558]: "47.19"
+                - cell "32.12 / 16.01 / 21.37" [ref=e559]
+                - cell "63.33 / 26.74 / 37.60" [ref=e560]
+              - row "pii_french.jsonl 500 20 56.62 / 36.44 / 44.34 36.08 / 18.09 / 24.09 71.57 / 37.14 / 48.90" [ref=e561]:
+                - cell "pii_french.jsonl" [ref=e562]
+                - cell "500" [ref=e563]
+                - cell "20" [ref=e564]
+                - cell "56.62 / 36.44 / 44.34" [ref=e565]:
+                  - text: 56.62 / 36.44 /
+                  - strong [ref=e566]: "44.34"
+                - cell "36.08 / 18.09 / 24.09" [ref=e567]
+                - cell "71.57 / 37.14 / 48.90" [ref=e568]
+              - row "pii_german.jsonl 500 20 54.59 / 36.24 / 43.56 34.61 / 16.85 / 22.67 69.48 / 31.41 / 43.27" [ref=e569]:
+                - cell "pii_german.jsonl" [ref=e570]
+                - cell "500" [ref=e571]
+                - cell "20" [ref=e572]
+                - cell "54.59 / 36.24 / 43.56" [ref=e573]:
+                  - text: 54.59 / 36.24 /
+                  - strong [ref=e574]: "43.56"
+                - cell "34.61 / 16.85 / 22.67" [ref=e575]
+                - cell "69.48 / 31.41 / 43.27" [ref=e576]
+              - row "pii_italian.jsonl 500 20 58.14 / 38.01 / 45.97 39.80 / 19.93 / 26.56 71.40 / 34.38 / 46.41" [ref=e577]:
+                - cell "pii_italian.jsonl" [ref=e578]
+                - cell "500" [ref=e579]
+                - cell "20" [ref=e580]
+                - cell "58.14 / 38.01 / 45.97" [ref=e581]:
+                  - text: 58.14 / 38.01 /
+                  - strong [ref=e582]: "45.97"
+                - cell "39.80 / 19.93 / 26.56" [ref=e583]
+                - cell "71.40 / 34.38 / 46.41" [ref=e584]
+              - row "pii_spanish.jsonl 500 20 55.05 / 36.13 / 43.62 39.86 / 20.24 / 26.85 66.84 / 33.25 / 44.41" [ref=e585]:
+                - cell "pii_spanish.jsonl" [ref=e586]
+                - cell "500" [ref=e587]
+                - cell "20" [ref=e588]
+                - cell "55.05 / 36.13 / 43.62" [ref=e589]:
+                  - text: 55.05 / 36.13 /
+                  - strong [ref=e590]: "43.62"
+                - cell "39.86 / 20.24 / 26.85" [ref=e591]
+                - cell "66.84 / 33.25 / 44.41" [ref=e592]
+              - row "AVERAGE 2,500 – 56.05 / 37.54 / 44.94 36.49 / 18.22 / 24.31 68.52 / 32.58 / 44.12" [ref=e593]:
+                - cell "AVERAGE" [ref=e594]:
+                  - strong [ref=e595]: AVERAGE
+                - cell "2,500" [ref=e596]:
+                  - strong [ref=e597]: 2,500
+                - cell "–" [ref=e598]
+                - cell "56.05 / 37.54 / 44.94" [ref=e599]:
+                  - strong [ref=e600]: 56.05 / 37.54 / 44.94
+                - cell "36.49 / 18.22 / 24.31" [ref=e601]:
+                  - strong [ref=e602]: 36.49 / 18.22 / 24.31
+                - cell "68.52 / 32.58 / 44.12" [ref=e603]:
+                  - strong [ref=e604]: 68.52 / 32.58 / 44.12
+          - img [ref=e605]
+          - paragraph [ref=e606]:
+            - strong [ref=e607]: "Key Takeaway:"
+            - text: SauerkrautLM-GLiNER performs competitively on PII detection despite being a general-purpose NER model (not PII-specialized), achieving
+            - strong [ref=e608]: +20.63 F1
+            - text: over gliner_multi-v2.1 and matching the specialized gliner_multi_pii-v1 model.
+          - separator [ref=e609]
+          - heading "Usage" [level=2] [ref=e610]:
+            - link [ref=e611] [cursor=pointer]:
+              - /url: "#usage"
+              - img [ref=e613]
+            - generic [ref=e615]: Usage
+          - heading "Installation" [level=3] [ref=e616]:
+            - link [ref=e617] [cursor=pointer]:
+              - /url: "#installation"
+              - img [ref=e619]
+            - generic [ref=e621]: Installation
+          - generic [ref=e622]:
+            - code [ref=e624]: pip install gliner
+            - button [ref=e625] [cursor=pointer]:
+              - img [ref=e626]
+          - heading "Basic Example" [level=3] [ref=e630]:
+            - link [ref=e631] [cursor=pointer]:
+              - /url: "#basic-example"
+              - img [ref=e633]
+            - generic [ref=e635]: Basic Example
+          - generic [ref=e636]:
+            - code [ref=e638]: "from gliner import GLiNER # Load the model model = GLiNER.from_pretrained(\"VAGOsolutions/SauerkrautLM-GLiNER\") # Example text text = \"\"\" Cristiano Ronaldo dos Santos Aveiro (Portuguese pronunciation: [kɾiʃˈtjɐnu ʁɔˈnaldu]; born 5 February 1985) is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al Nassr and the Portugal national team. Widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d'Or awards,[note 3] a record three UEFA Men's Player of the Year Awards, and four European Golden Shoes, the most by a European player. He has won 33 trophies in his career, including seven league titles, five UEFA Champions Leagues, the UEFA European Championship and the UEFA Nations League. Ronaldo holds the records for most appearances (183), goals (140) and assists (42) in the Champions League, goals in the European Championship (14), international goals (128) and international appearances (205). He is one of the few players to have made over 1,200 professional career appearances, the most by an outfield player, and has scored over 850 official senior career goals for club and country, making him the top goalscorer of all time. \"\"\" # Define labels (entity types you want to extract) labels = [\"person\", \"award\", \"date\", \"competitions\", \"teams\"] # Predict entities entities = model.predict_entities(text, labels) # Print results for entity in entities: print(entity[\"text\"], \"=>\", entity[\"label\"])"
+            - button [ref=e639] [cursor=pointer]:
+              - img [ref=e640]
+          - paragraph [ref=e644]:
+            - strong [ref=e645]: "Expected Output:"
+          - generic [ref=e646]:
+            - code [ref=e648]: Cristiano Ronaldo dos Santos Aveiro => person 5 February 1985 => date Al Nassr => teams Portugal national team => teams Ballon d'Or => award UEFA Men's Player of the Year Awards => award European Golden Shoes => award UEFA Champions Leagues => competitions UEFA European Championship => competitions UEFA Nations League => competitions Champions League => competitions European Championship => competitions
+            - button [ref=e649] [cursor=pointer]:
+              - img [ref=e650]
+          - heading "Multilingual Example" [level=3] [ref=e654]:
+            - link [ref=e655] [cursor=pointer]:
+              - /url: "#multilingual-example"
+              - img [ref=e657]
+            - generic [ref=e659]: Multilingual Example
+          - paragraph [ref=e660]: "The model works seamlessly across multiple languages:"
+          - generic [ref=e661]:
+            - code [ref=e663]: "# German text text_de = \"Angela Merkel war von 2005 bis 2021 Bundeskanzlerin der Bundesrepublik Deutschland.\" labels_de = [\"person\", \"position\", \"location\", \"date\"] entities_de = model.predict_entities(text_de, labels_de) for entity in entities_de: print(entity[\"text\"], \"=>\", entity[\"label\"]) # French text text_fr = \"Emmanuel Macron est président de la République française depuis mai 2017.\" labels_fr = [\"person\", \"position\", \"location\", \"date\"] entities_fr = model.predict_entities(text_fr, labels_fr) for entity in entities_fr: print(entity[\"text\"], \"=>\", entity[\"label\"])"
+            - button [ref=e664] [cursor=pointer]:
+              - img [ref=e665]
+          - heading "Custom Labels for Domain-Specific NER" [level=3] [ref=e669]:
+            - link [ref=e670] [cursor=pointer]:
+              - /url: "#custom-labels-for-domain-specific-ner"
+              - img [ref=e672]
+            - generic [ref=e674]: Custom Labels for Domain-Specific NER
+          - paragraph [ref=e675]: "Simply adjust the label list to match your domain:"
+          - generic [ref=e676]:
+            - code [ref=e678]: "# PII Detection text_pii = \"Contact John Smith at john.smith@email.com or call +1-555-0123.\" labels_pii = [\"person\", \"email\", \"phone\"] # Scientific Text text_science = \"The experiment used CRISPR-Cas9 to edit the BRCA1 gene in human cells.\" labels_science = [\"technique\", \"gene\", \"organism\"] # Business Documents text_business = \"Apple Inc. acquired startup.ai for $2.5 billion in Q3 2024.\" labels_business = [\"company\", \"money\", \"date\"]"
+            - button [ref=e679] [cursor=pointer]:
+              - img [ref=e680]
+          - separator [ref=e684]
+          - heading "Intended use & limitations" [level=2] [ref=e685]:
+            - link [ref=e686] [cursor=pointer]:
+              - /url: "#intended-use--limitations"
+              - img [ref=e688]
+            - generic [ref=e690]: Intended use & limitations
+          - heading "Intended use" [level=3] [ref=e691]:
+            - link [ref=e692] [cursor=pointer]:
+              - /url: "#intended-use"
+              - img [ref=e694]
+            - generic [ref=e696]: Intended use
+          - list [ref=e697]:
+            - listitem [ref=e698]:
+              - text: "Zero-shot or few-shot NER in:"
+              - list [ref=e699]:
+                - listitem [ref=e700]: Multilingual documents (EN/DE/FR/IT/ES)
+                - listitem [ref=e701]: Domain-specific content (AI, literature, music, politics, science)
+                - listitem [ref=e702]: PII / sensitive-data detection (emails, IDs, names, locations, etc.)
+            - listitem [ref=e703]:
+              - text: Rapid prototyping of new NER schemas by simply changing the
+              - strong [ref=e704]: label list
+              - text: ":"
+              - list [ref=e705]:
+                - listitem [ref=e706]:
+                  - text: e.g.
+                  - code [ref=e707]: "[\"person\", \"organization\", \"product\"]"
+                - listitem [ref=e708]:
+                  - text: or more domain-specific labels like
+                  - code [ref=e709]: "[\"award\", \"competition\", \"team\", \"date\"]"
+          - heading "Not intended for" [level=3] [ref=e710]:
+            - link [ref=e711] [cursor=pointer]:
+              - /url: "#not-intended-for"
+              - img [ref=e713]
+            - generic [ref=e715]: Not intended for
+          - list [ref=e716]:
+            - listitem [ref=e717]: Safety-critical scenarios without human oversight (e.g. automated compliance decisions or legal / financial judgments).
+          - separator [ref=e718]
+          - heading "Citation" [level=2] [ref=e719]:
+            - link [ref=e720] [cursor=pointer]:
+              - /url: "#citation"
+              - img [ref=e722]
+            - generic [ref=e724]: Citation
+          - paragraph [ref=e725]: "If you use SauerkrautLM-GLiNER in your research or applications, please cite:"
+          - generic [ref=e726]:
+            - code [ref=e728]: "@misc{SauerkrautLM-GLiNER, title={SauerkrautLM-GLiNER}, author={Michele Montebovi}, organization={VAGO Solutions}, url={https://huggingface.co/VAGOsolutions/SauerkrautLM-GLiNER}, year={2025} }"
+            - button [ref=e729] [cursor=pointer]:
+              - img [ref=e730]
+          - heading "Acknowledgments" [level=3] [ref=e734]:
+            - link [ref=e735] [cursor=pointer]:
+              - /url: "#acknowledgments"
+              - img [ref=e737]
+            - generic [ref=e739]: Acknowledgments
+          - paragraph [ref=e740]: "This model builds upon:"
+          - list [ref=e741]:
+            - listitem [ref=e742]:
+              - strong [ref=e743]: mmBERT
+              - text: (
+              - link "jhu-clsp/mmBERT-base" [ref=e744] [cursor=pointer]:
+                - /url: https://huggingface.co/jhu-clsp/mmBERT-base
+              - text: ) – ModernBERT-style multilingual encoder
+            - listitem [ref=e745]:
+              - strong [ref=e746]: GLiNER
+              - text: architecture (
+              - link "urchade/gliner_multi-v2.1" [ref=e747] [cursor=pointer]:
+                - /url: https://huggingface.co/urchade/gliner_multi-v2.1
+              - text: ) – Zero-shot NER framework
+      - generic [ref=e748]:
+        - generic [ref=e749]:
+          - generic [ref=e750]:
+            - term [ref=e751]: Downloads last month
+            - definition [ref=e752]: "435"
+          - img [ref=e754]
+        - generic [ref=e760]:
+          - generic [ref=e762]:
+            - img [ref=e763]
+            - generic [ref=e765]: Inference Providers
+            - link "NEW" [ref=e766] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/inference-providers
+          - link "Token Classification" [ref=e769] [cursor=pointer]:
+            - /url: /tasks/token-classification
+            - generic [ref=e770]:
+              - img [ref=e771]
+              - generic [ref=e779]: Token Classification
+          - generic [ref=e780]:
+            - generic [ref=e781]: This model isn't deployed by any Inference Provider.
+            - link "🙋 Ask for provider support" [ref=e782] [cursor=pointer]:
+              - /url: /spaces/huggingface/InferenceSupport/discussions/new?title=VAGOsolutions/SauerkrautLM-GLiNER&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5BVAGOsolutions%2FSauerkrautLM-GLiNER%5D(%2FVAGOsolutions%2FSauerkrautLM-GLiNER)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+              - generic [ref=e784]: 🙋
+              - generic [ref=e785]: Ask for provider support
+        - heading "Space using VAGOsolutions/SauerkrautLM-GLiNER 1" [level=2] [ref=e787]:
+          - img [ref=e788]
+          - text: Space using
+          - generic [ref=e794]: VAGOsolutions/SauerkrautLM-GLiNER
+          - generic [ref=e795]: "1"
+        - navigation [ref=e797]:
+          - link "VAGOsolutions/SauerkrautLM-GLiNER-Demo" [ref=e798] [cursor=pointer]:
+            - /url: /spaces/VAGOsolutions/SauerkrautLM-GLiNER-Demo
+            - generic [ref=e800]: VAGOsolutions/SauerkrautLM-GLiNER-Demo
+            - img [ref=e801]
+  - contentinfo [ref=e804]:
+    - navigation [ref=e805]:
+      - button "System theme" [ref=e808] [cursor=pointer]:
+        - img [ref=e809]
+        - text: System theme
+      - link "TOS" [ref=e814] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e815] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e816] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e817] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e818] [cursor=pointer]:
+        - /url: /
+        - img [ref=e819]
+      - link "Models" [ref=e833] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e834] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e835] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e836] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e837] [cursor=pointer]:
+        - /url: /docs

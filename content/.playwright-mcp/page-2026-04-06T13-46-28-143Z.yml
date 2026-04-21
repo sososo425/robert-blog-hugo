@@ -1,0 +1,407 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: GLiNER ModernBERT backbone support 2025 GLiNER ModernBERT backbone support 2025
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DGLiNER%2BModernBERT%2Bbackbone%2Bsupport%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o6wyyIZdyQqcqjnML55FZ4QrB0tEniDOsTQOdHgSNg_dMIPPu4vHUZKvLYrPVNyjbuhbY0JMhOzU3YhndR7SU4NOtBLcV9f1xQDZj-pREpoFNuz16A&aep=1&ntc=1&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q2J8OegQIDxAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "购物" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o6wyyIZdyQqcqjnML55FZ4QrB0tEniDOsTQOdHgSNg_dMIPPu4vHUZKvLYrPVNyjbuhbY0JMhOzU3YhndR7SU4NOtBLcV9f1xQDZj-pREpoFNuz16A&q=GLiNER+ModernBERT+backbone+support+2025&ved=1t:220175&ictx=111
+              - generic [ref=e89]: 购物
+          - listitem [ref=e90]:
+            - link "图片" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o6wyyIZdyQqcqjnML55FZ4QrB0tEniDOsTQOdHgSNg_dMIPPu4vHUZKvLYrPVNyjbuhbY0JMhOzU3YhndR7SU4NOtBLcV9f1xQDZj-pREpoFNuz16A&q=GLiNER+ModernBERT+backbone+support+2025&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8QtKgLegQIFRAB
+              - generic [ref=e93]: 图片
+          - listitem [ref=e94]:
+            - link "视频" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o6wyyIZdyQqcqjnML55FZ4QrB0tEniDOsTQOdHgSNg_dMIPPu4vHUZKvLYrPVNyjbuhbY0JMhOzU3YhndR7SU4NOtBLcV9f1xQDZj-pREpoFNuz16A&q=GLiNER+ModernBERT+backbone+support+2025&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8QtKgLegQIExAB
+              - generic [ref=e97]: 视频
+          - listitem [ref=e98]:
+            - link "新闻" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=GLiNER+ModernBERT+backbone+support+2025&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o6wyyIZdyQqcqjnML55FZ4QrB0tEniDOsTQOdHgSNg_dMIPPu4vHUZKvLYrPVNyjbuhbY0JMhOzU3YhndR7SU4NOtBLcV9f1xQDZj-pREpoFNuz16A&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q0pQJegQIERAB
+              - generic [ref=e101]: 新闻
+          - listitem [ref=e102]:
+            - link "短视频" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o6wyyIZdyQqcqjnML55FZ4QrB0tEniDOsTQOdHgSNg_dMIPPu4vHUZKvLYrPVNyjbuhbY0JMhOzU3YhndR7SU4NOtBLcV9f1xQDZj-pREpoFNuz16A&q=GLiNER+ModernBERT+backbone+support+2025&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Qs6gLegQIEhAB
+              - generic [ref=e105]: 短视频
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Converting GLiNER with ModernBERT backbone to onnx ... GitHub https://github.com › GLiNER › issues" [ref=e142] [cursor=pointer]:
+                - /url: https://github.com/urchade/GLiNER/issues/237
+                - heading "Converting GLiNER with ModernBERT backbone to onnx ..." [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: GitHub
+                  - generic [ref=e152]: https://github.com › GLiNER › issues
+              - generic [ref=e153]:
+                - generic [ref=e154]: ·
+                - link "翻译此页" [ref=e155] [cursor=pointer]:
+                  - /url: https://github.com/urchade/GLiNER/issues/237
+              - button "关于这条结果的详细信息" [ref=e156] [cursor=pointer]:
+                - img [ref=e159]
+            - generic [ref=e162]:
+              - generic [ref=e163]: 2025年3月16日 —
+              - generic [ref=e164]:
+                - text: Has anyone tried to convert Modern
+                - emphasis [ref=e165]: GLiNER
+                - text: using this example notebook? I got an error while running all baseline with zero changes at torch.onnx ...
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - 'link "Finally, a Replacement for BERT: Introducing ModernBERT Hugging Face https://huggingface.co › blog › modernbert" [ref=e174] [cursor=pointer]':
+              - /url: https://huggingface.co/blog/modernbert
+              - 'heading "Finally, a Replacement for BERT: Introducing ModernBERT" [level=3] [ref=e175]'
+              - generic [ref=e180]:
+                - generic [ref=e182]: Hugging Face
+                - generic [ref=e184]: https://huggingface.co › blog › modernbert
+            - generic [ref=e185]:
+              - generic [ref=e186]: ·
+              - link "翻译此页" [ref=e187] [cursor=pointer]:
+                - /url: https://huggingface.co/blog/modernbert
+            - button "关于这条结果的详细信息" [ref=e188] [cursor=pointer]:
+              - img [ref=e191]
+          - generic [ref=e194]:
+            - generic [ref=e195]: 2024年12月19日 —
+            - generic [ref=e196]:
+              - text: Apr 25,
+              - emphasis [ref=e197]: "2025"
+              - text: . I was very happy to see that vLLM added
+              - emphasis [ref=e198]: support
+              - text: for
+              - emphasis [ref=e199]: Modernbert
+              - text: recently! Wrote a short blog guide on using that here. Hope that ...
+        - generic [ref=e203]:
+          - generic [ref=e206]:
+            - 'link "GLiClass: Generalist Lightweight Model for Sequence ... arXiv https://arxiv.org › html" [ref=e208] [cursor=pointer]':
+              - /url: https://arxiv.org/html/2508.07662v1
+              - 'heading "GLiClass: Generalist Lightweight Model for Sequence ..." [level=3] [ref=e209]'
+              - generic [ref=e214]:
+                - generic [ref=e216]: arXiv
+                - generic [ref=e218]: https://arxiv.org › html
+            - generic [ref=e219]:
+              - generic [ref=e220]: ·
+              - link "翻译此页" [ref=e221] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2508.07662v1
+            - button "关于这条结果的详细信息" [ref=e222] [cursor=pointer]:
+              - img [ref=e225]
+          - generic [ref=e228]:
+            - generic [ref=e229]: 2025年8月11日 —
+            - generic [ref=e230]:
+              - text: In addition, we experimented with models based on the
+              - emphasis [ref=e231]: ModernBERT backbone
+              - text: (Warner et al., 2024; Weller et al.,
+              - emphasis [ref=e232]: "2025"
+              - text: ) , which integrates ...
+        - generic [ref=e236]:
+          - generic [ref=e239]:
+            - link "Refreshing zero-shot classification with ModernBERT Knowledgator https://blog.knowledgator.com › refreshing..." [ref=e241] [cursor=pointer]:
+              - /url: https://blog.knowledgator.com/refreshing-zero-shot-classification-with-modernbert-1a7ea9a4a776
+              - heading "Refreshing zero-shot classification with ModernBERT" [level=3] [ref=e242]
+              - generic [ref=e247]:
+                - generic [ref=e249]: Knowledgator
+                - generic [ref=e251]: https://blog.knowledgator.com › refreshing...
+            - generic [ref=e252]:
+              - generic [ref=e253]: ·
+              - link "翻译此页" [ref=e254] [cursor=pointer]:
+                - /url: https://blog.knowledgator.com/refreshing-zero-shot-classification-with-modernbert-1a7ea9a4a776
+            - button "关于这条结果的详细信息" [ref=e255] [cursor=pointer]:
+              - img [ref=e258]
+          - generic [ref=e261]:
+            - generic [ref=e262]: 2025年2月19日 —
+            - generic [ref=e263]:
+              - text: We propose a novel approach for text classification that builds upon the
+              - emphasis [ref=e264]: GLiNER
+              - text: architecture, adapting it specifically for sequence classification tasks.
+        - generic [ref=e268]:
+          - generic [ref=e271]:
+            - 'link "ZERONER: Fueling Zero-Shot Named Entity Recognition ... ACL Anthology https://aclanthology.org › 2025.findings-acl.805...." [ref=e273] [cursor=pointer]':
+              - /url: https://aclanthology.org/2025.findings-acl.805.pdf
+              - 'heading "ZERONER: Fueling Zero-Shot Named Entity Recognition ..." [level=3] [ref=e274]'
+              - generic [ref=e279]:
+                - generic [ref=e281]: ACL Anthology
+                - generic [ref=e283]: https://aclanthology.org › 2025.findings-acl.805....
+            - generic [ref=e284]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e285] [cursor=pointer]:
+              - img [ref=e288]
+          - generic [ref=e290]:
+            - generic [ref=e291]:
+              - generic [ref=e292]: 作者：A Cocchieri · 2025 · 被引用次数：6 —
+              - generic [ref=e293]:
+                - text: July 27 - August 1,
+                - emphasis [ref=e294]: "2025"
+                - text: ©
+                - emphasis [ref=e295]: "2025"
+                - text: Association for Computational Linguistics ... training corpora of the considered
+                - emphasis [ref=e296]: GLiNER
+                - text: base- lines and the benchmarks ...
+            - generic [ref=e297]: 23 页
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - heading "相关问题" [level=2] [ref=e303]
+            - button "关于这条结果的详细信息" [ref=e304] [cursor=pointer]:
+              - img [ref=e307]
+          - generic [ref=e309]:
+            - button "How fast is BERT compared to ModernBERT?" [ref=e315] [cursor=pointer]:
+              - generic [ref=e317]: How fast is BERT compared to ModernBERT?
+              - img [ref=e320]
+            - button "How does GLiNER work?" [ref=e329] [cursor=pointer]:
+              - generic [ref=e331]: How does GLiNER work?
+              - img [ref=e334]
+        - generic [ref=e339]:
+          - heading "Web results" [level=2] [ref=e340]
+          - generic [ref=e341]:
+            - generic [ref=e344]:
+              - link "Finer, Gliner, and Smolagents in Financial Named Entity ... Substack · Encyclopedia Autonomica 被赞过 1 次 · 1年前" [ref=e346] [cursor=pointer]:
+                - /url: https://jdsemrau.substack.com/p/finer-gliner-and-smolagents-in-finance
+                - heading "Finer, Gliner, and Smolagents in Financial Named Entity ..." [level=3] [ref=e347]
+                - generic [ref=e352]:
+                  - generic [ref=e354]: Substack · Encyclopedia Autonomica
+                  - generic [ref=e356]: 被赞过 1 次 · 1年前
+              - button "关于这条结果的详细信息" [ref=e357] [cursor=pointer]:
+                - img [ref=e360]
+            - generic [ref=e364]:
+              - text: Here is an example of how you would run
+              - emphasis [ref=e365]: GLiNER
+              - text: . from
+              - emphasis [ref=e366]: gliner
+              - text: import
+              - emphasis [ref=e367]: GLiNER
+              - text: "# Load the pre-trained"
+              - emphasis [ref=e368]: GLiNER
+              - text: model with
+              - emphasis [ref=e369]: ModernBERT
+              - text: as the
+              - emphasis [ref=e370]: backbone
+              - text: ...
+            - link "来自jdsemrau.substack.com的“GLiNER ModernBERT backbone support 2025”" [ref=e373] [cursor=pointer]:
+              - /url: https://jdsemrau.substack.com/p/finer-gliner-and-smolagents-in-finance
+              - img "来自jdsemrau.substack.com的“GLiNER ModernBERT backbone support 2025”" [ref=e375]
+        - generic [ref=e379]:
+          - generic [ref=e382]:
+            - link "Issues · urchade/GLiNER GitHub https://github.com › urchade › issues" [ref=e384] [cursor=pointer]:
+              - /url: https://github.com/urchade/GLiNER/issues
+              - heading "Issues · urchade/GLiNER" [level=3] [ref=e385]
+              - generic [ref=e390]:
+                - generic [ref=e392]: GitHub
+                - generic [ref=e394]: https://github.com › urchade › issues
+            - generic [ref=e395]:
+              - generic [ref=e396]: ·
+              - link "翻译此页" [ref=e397] [cursor=pointer]:
+                - /url: https://github.com/urchade/GLiNER/issues
+            - button "关于这条结果的详细信息" [ref=e398] [cursor=pointer]:
+              - img [ref=e401]
+          - generic [ref=e405]:
+            - emphasis [ref=e406]: Getting bad results when fine-tuning GLiNER
+            - text: ". Status: Open. #294 In urchade/GLiNER;. · tamarastojanova opened on Sep 20, 2025. 9 comments. Training modernbert vs ..."
+        - generic [ref=e410]:
+          - generic [ref=e413]:
+            - link "VAGOsolutions/SauerkrautLM-GLiNER Hugging Face https://huggingface.co › VAGOsolutions › S..." [ref=e415] [cursor=pointer]:
+              - /url: https://huggingface.co/VAGOsolutions/SauerkrautLM-GLiNER
+              - heading "VAGOsolutions/SauerkrautLM-GLiNER" [level=3] [ref=e416]
+              - generic [ref=e421]:
+                - generic [ref=e423]: Hugging Face
+                - generic [ref=e425]: https://huggingface.co › VAGOsolutions › S...
+            - generic [ref=e426]:
+              - generic [ref=e427]: ·
+              - link "翻译此页" [ref=e428] [cursor=pointer]:
+                - /url: https://huggingface.co/VAGOsolutions/SauerkrautLM-GLiNER
+            - button "关于这条结果的详细信息" [ref=e429] [cursor=pointer]:
+              - img [ref=e432]
+          - generic [ref=e436]:
+            - text: SauerkrautLM-
+            - emphasis [ref=e437]: GLiNER
+            - text: is a multilingual
+            - emphasis [ref=e438]: GLiNER
+            - text: "-style model for zero-shot named entity recognition (NER) based on the jhu-clsp/mmBERT-base"
+            - emphasis [ref=e439]: backbone
+            - text: (a
+            - emphasis [ref=e440]: ModernBERT
+            - text: "- ..."
+        - generic [ref=e444]:
+          - generic [ref=e447]:
+            - link "MODERNGENA AS A STRONG, EFFICIENT BASELINE ... OpenReview https://openreview.net › pdf" [ref=e449] [cursor=pointer]:
+              - /url: https://openreview.net/pdf/5f9c6c2c672d7cd22096534642ed8033c655d913.pdf
+              - heading "MODERNGENA AS A STRONG, EFFICIENT BASELINE ..." [level=3] [ref=e450]
+              - generic [ref=e455]:
+                - generic [ref=e457]: OpenReview
+                - generic [ref=e459]: https://openreview.net › pdf
+            - generic [ref=e460]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e461] [cursor=pointer]:
+              - img [ref=e464]
+          - generic [ref=e468]:
+            - emphasis [ref=e469]: ModernBERT (Warner et al., 2025) serves as the backbone
+            - text: ", which is an encoder-only Transformer modernized for stable training and high throughput on long ..."
+        - generic [ref=e473]:
+          - generic [ref=e476]:
+            - link "Supported Models - vLLM vLLM Docs https://docs.vllm.ai › models › supported_m..." [ref=e478] [cursor=pointer]:
+              - /url: https://docs.vllm.ai/en/v0.14.1/models/supported_models/
+              - heading "Supported Models - vLLM" [level=3] [ref=e479]
+              - generic [ref=e484]:
+                - generic [ref=e486]: vLLM Docs
+                - generic [ref=e488]: https://docs.vllm.ai › models › supported_m...
+            - generic [ref=e489]:
+              - generic [ref=e490]: ·
+              - link "翻译此页" [ref=e491] [cursor=pointer]:
+                - /url: https://docs.vllm.ai/en/v0.14.1/models/supported_models/
+            - button "关于这条结果的详细信息" [ref=e492] [cursor=pointer]:
+              - img [ref=e495]
+          - generic [ref=e498]: Supported Models¶. vLLM supports generative and pooling models across various tasks. For each task, we list the model architectures that have been ...
+      - generic [ref=e500]:
+        - generic [ref=e505]:
+          - heading "用户还搜索了" [level=2] [ref=e507]
+          - generic [ref=e509]:
+            - generic [ref=e510]:
+              - link "Neobert" [ref=e514] [cursor=pointer]:
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=Neobert&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q1QJ6BAgoEAE
+                - generic [ref=e515]:
+                  - generic [ref=e520]: Neobert
+                  - img [ref=e524]
+              - link "Modernbert 中文" [ref=e529] [cursor=pointer]:
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=Modernbert+%E4%B8%AD%E6%96%87&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q1QJ6BAgxEAE
+                - generic [ref=e530]:
+                  - generic [ref=e535]: Modernbert 中文
+                  - img [ref=e539]
+              - link "GLiNER multilingual" [ref=e544] [cursor=pointer]:
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=GLiNER+multilingual&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q1QJ6BAgrEAE
+                - generic [ref=e545]:
+                  - generic [ref=e550]: GLiNER multilingual
+                  - img [ref=e554]
+              - link "Gliner-decoder" [ref=e559] [cursor=pointer]:
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=Gliner-decoder&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q1QJ6BAgwEAE
+                - generic [ref=e560]:
+                  - generic [ref=e565]: Gliner-decoder
+                  - img [ref=e569]
+            - generic [ref=e571]:
+              - link "Debertav3" [ref=e575] [cursor=pointer]:
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=Debertav3&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q1QJ6BAgtEAE
+                - generic [ref=e576]:
+                  - generic [ref=e581]: Debertav3
+                  - img [ref=e585]
+              - 'link "GLiNER: Generalist model for Named entity Recognition using bidirectional transformer" [ref=e590] [cursor=pointer]':
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=GLiNER:+Generalist+model+for+Named+entity+Recognition+using+bidirectional+transformer&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q1QJ6BAgsEAE
+                - generic [ref=e591]:
+                  - generic [ref=e596]: "GLiNER: Generalist model for Named entity Recognition using bidirectional transformer"
+                  - img [ref=e600]
+              - link "Mmbert" [ref=e605] [cursor=pointer]:
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=Mmbert&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q1QJ6BAgqEAE
+                - generic [ref=e606]:
+                  - generic [ref=e611]: Mmbert
+                  - img [ref=e615]
+              - link "Gliner github" [ref=e620] [cursor=pointer]:
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=Gliner+github&sa=X&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q1QJ6BAgpEAE
+                - generic [ref=e621]:
+                  - generic [ref=e626]: Gliner github
+                  - img [ref=e630]
+        - navigation [ref=e632]:
+          - heading "网页导航" [level=1] [ref=e633]
+          - text: "1"
+          - link "Page 2" [ref=e636] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=10&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAE
+            - text: "2"
+          - link "Page 3" [ref=e638] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=20&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAG
+            - text: "3"
+          - link "Page 4" [ref=e640] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=30&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAI
+            - text: "4"
+          - link "Page 5" [ref=e642] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=40&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAK
+            - text: "5"
+          - link "Page 6" [ref=e644] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=50&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAM
+            - text: "6"
+          - link "Page 7" [ref=e646] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=60&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAO
+            - text: "7"
+          - link "Page 8" [ref=e648] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=70&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAQ
+            - text: "8"
+          - link "Page 9" [ref=e650] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=80&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAS
+            - text: "9"
+          - link "Page 10" [ref=e652] [cursor=pointer]:
+            - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=90&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8tMDegQICxAU
+            - text: "10"
+          - heading "下一页" [level=2] [ref=e654]:
+            - link "下一页" [ref=e655] [cursor=pointer]:
+              - /url: /search?q=GLiNER+ModernBERT+backbone+support+2025&sca_esv=ef6db0e9fcb54fe8&ei=MrnTaY_UEc-qqtsPgu7G-AY&start=10&sa=N&sstk=Af77f_cFrKVk2j0qY74v5b-iN9cNlGRdTBDFer4Y44dF-UlB8FVmcIuQx0JEf79IrPGZ1-EaRerTEayJ0W4gzOexaQnQHgX4Ohc9hg&ved=2ahUKEwiPtf6krtmTAxVPlWoFHQK3EW8Q8NMDegQICxAW
+              - generic [ref=e657]: 下一页
+      - navigation
+    - contentinfo [ref=e658]:
+      - heading "页脚链接" [level=1] [ref=e659]
+      - generic [ref=e663]:
+        - generic [ref=e665]:
+          - text: 新加坡
+          - generic [ref=e667]:
+            - button "新加坡 - 是根据您的 IP 地址推断出来的" [ref=e669] [cursor=pointer]:
+              - generic [ref=e670]: 新加坡
+              - generic [ref=e672]:
+                - text: "-"
+                - generic [ref=e673]: 是根据您的 IP 地址推断出来的
+            - text: "-"
+            - button "更新位置信息" [ref=e675] [cursor=pointer]: 更新位置信息
+        - generic [ref=e678]:
+          - link "帮助" [ref=e679] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e680] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e681] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e682] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

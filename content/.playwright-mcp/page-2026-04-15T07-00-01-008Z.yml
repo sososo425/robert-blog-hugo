@@ -1,0 +1,679 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "answerdotai / ModernBERT-base like 1.02k Follow Answer.AI 584" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /answerdotai
+          - link "answerdotai" [ref=e70] [cursor=pointer]:
+            - /url: /answerdotai
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "ModernBERT-base" [ref=e73] [cursor=pointer]:
+            - /url: /answerdotai/ModernBERT-base
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "1.02k" [ref=e84] [cursor=pointer]
+        - generic [ref=e86]:
+          - button "Follow Answer.AI" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Follow
+            - generic [ref=e89]: Answer.AI
+          - button "584" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]:
+        - link "Fill-Mask" [ref=e92] [cursor=pointer]:
+          - /url: /models?pipeline_tag=fill-mask
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e99]: Fill-Mask
+        - link "Transformers" [ref=e100] [cursor=pointer]:
+          - /url: /models?library=transformers
+          - generic [ref=e101]:
+            - img [ref=e102]
+            - generic [ref=e113]: Transformers
+        - link "PyTorch" [ref=e114] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e115]:
+            - img [ref=e116]
+            - generic [ref=e119]: PyTorch
+        - link "ONNX" [ref=e120] [cursor=pointer]:
+          - /url: /models?library=onnx
+          - generic [ref=e121]:
+            - img [ref=e122]
+            - generic [ref=e132]: ONNX
+        - link "Safetensors" [ref=e133] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e134]:
+            - img [ref=e135]
+            - generic [ref=e137]: Safetensors
+        - link "English" [ref=e138] [cursor=pointer]:
+          - /url: /models?language=en
+          - generic [ref=e139]:
+            - img [ref=e140]
+            - generic [ref=e142]: English
+        - link "modernbert" [ref=e143] [cursor=pointer]:
+          - /url: /models?other=modernbert
+          - generic [ref=e145]: modernbert
+        - link "masked-lm" [ref=e146] [cursor=pointer]:
+          - /url: /models?other=masked-lm
+          - generic [ref=e148]: masked-lm
+        - link "long-context" [ref=e149] [cursor=pointer]:
+          - /url: /models?other=long-context
+          - generic [ref=e151]: long-context
+        - 'button "arxiv: 2412.13663" [ref=e153] [cursor=pointer]':
+          - generic [ref=e155]:
+            - img [ref=e156]
+            - generic [ref=e159]: "arxiv:"
+            - generic [ref=e160]: "2412.13663"
+        - 'button "License: apache-2.0" [ref=e163] [cursor=pointer]':
+          - generic [ref=e165]:
+            - img [ref=e166]
+            - generic [ref=e168]: "License:"
+            - generic [ref=e169]: apache-2.0
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - link "Model card" [ref=e173] [cursor=pointer]:
+            - /url: /answerdotai/ModernBERT-base
+            - img [ref=e174]
+            - text: Model card
+          - link "Files xet" [ref=e178] [cursor=pointer]:
+            - /url: /answerdotai/ModernBERT-base/tree/main
+            - img [ref=e179]
+            - generic [ref=e182]: Files
+            - generic [ref=e185]:
+              - img [ref=e186]
+              - generic [ref=e189]: xet
+          - link "Community 85" [ref=e190] [cursor=pointer]:
+            - /url: /answerdotai/ModernBERT-base/discussions
+            - img [ref=e191]
+            - text: Community
+            - generic [ref=e194]: "85"
+        - generic [ref=e195]:
+          - button [ref=e198] [cursor=pointer]:
+            - img [ref=e199]
+          - generic [ref=e203]:
+            - button "Deploy" [ref=e205] [cursor=pointer]:
+              - img [ref=e206]
+              - text: Deploy
+              - img [ref=e209]
+            - dialog
+          - button "Use this model" [ref=e212] [cursor=pointer]:
+            - img [ref=e213]
+            - text: Use this model
+            - img [ref=e215]
+    - generic [ref=e217]:
+      - generic [ref=e219]:
+        - button [ref=e225] [cursor=pointer]:
+          - img [ref=e226]
+        - generic [ref=e228]:
+          - heading "ModernBERT" [level=1] [ref=e229]:
+            - link [ref=e230] [cursor=pointer]:
+              - /url: "#modernbert"
+              - img [ref=e232]
+            - generic [ref=e234]: ModernBERT
+          - heading "Table of Contents" [level=2] [ref=e235]:
+            - link [ref=e236] [cursor=pointer]:
+              - /url: "#table-of-contents"
+              - img [ref=e238]
+            - generic [ref=e240]: Table of Contents
+          - list [ref=e241]:
+            - listitem [ref=e242]:
+              - link "Model Summary" [ref=e243] [cursor=pointer]:
+                - /url: "#model-summary"
+            - listitem [ref=e244]:
+              - link "Usage" [ref=e245] [cursor=pointer]:
+                - /url: "#Usage"
+            - listitem [ref=e246]:
+              - link "Evaluation" [ref=e247] [cursor=pointer]:
+                - /url: "#Evaluation"
+            - listitem [ref=e248]:
+              - link "Limitations" [ref=e249] [cursor=pointer]:
+                - /url: "#limitations"
+            - listitem [ref=e250]:
+              - link "Training" [ref=e251] [cursor=pointer]:
+                - /url: "#training"
+            - listitem [ref=e252]:
+              - link "License" [ref=e253] [cursor=pointer]:
+                - /url: "#license"
+            - listitem [ref=e254]:
+              - link "Citation" [ref=e255] [cursor=pointer]:
+                - /url: "#citation"
+          - heading "Model Summary" [level=2] [ref=e256]:
+            - link [ref=e257] [cursor=pointer]:
+              - /url: "#model-summary"
+              - img [ref=e259]
+            - generic [ref=e261]: Model Summary
+          - paragraph [ref=e262]: "ModernBERT is a modernized bidirectional encoder-only Transformer model (BERT-style) pre-trained on 2 trillion tokens of English and code data with a native context length of up to 8,192 tokens. ModernBERT leverages recent architectural improvements such as:"
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - strong [ref=e265]: Rotary Positional Embeddings (RoPE)
+              - text: for long-context support.
+            - listitem [ref=e266]:
+              - strong [ref=e267]: Local-Global Alternating Attention
+              - text: for efficiency on long inputs.
+            - listitem [ref=e268]:
+              - strong [ref=e269]: Unpadding and Flash Attention
+              - text: for efficient inference.
+          - paragraph [ref=e270]: ModernBERT’s native long context length makes it ideal for tasks that require processing long documents, such as retrieval, classification, and semantic search within large corpora. The model was trained on a large corpus of text and code, making it suitable for a wide range of downstream tasks, including code retrieval and hybrid (text + code) semantic search.
+          - paragraph [ref=e271]: "It is available in the following sizes:"
+          - list [ref=e272]:
+            - listitem [ref=e273]:
+              - link "ModernBERT-base" [ref=e274] [cursor=pointer]:
+                - /url: https://huggingface.co/answerdotai/ModernBERT-base
+              - text: "- 22 layers, 149 million parameters"
+            - listitem [ref=e275]:
+              - link "ModernBERT-large" [ref=e276] [cursor=pointer]:
+                - /url: https://huggingface.co/answerdotai/ModernBERT-large
+              - text: "- 28 layers, 395 million parameters"
+          - paragraph [ref=e277]:
+            - text: For more information about ModernBERT, we recommend our
+            - link "release blog post" [ref=e278] [cursor=pointer]:
+              - /url: https://huggingface.co/blog/modernbert
+            - text: for a high-level overview, and our
+            - link "arXiv pre-print" [ref=e279] [cursor=pointer]:
+              - /url: https://arxiv.org/abs/2412.13663
+            - text: for in-depth information.
+          - paragraph [ref=e280]:
+            - emphasis [ref=e281]:
+              - text: ModernBERT is a collaboration between
+              - link "Answer.AI" [ref=e282] [cursor=pointer]:
+                - /url: https://answer.ai
+              - text: ","
+              - link "LightOn" [ref=e283] [cursor=pointer]:
+                - /url: https://lighton.ai
+              - text: ", and friends."
+          - heading "Usage" [level=2] [ref=e284]:
+            - link [ref=e285] [cursor=pointer]:
+              - /url: "#usage"
+              - img [ref=e287]
+            - generic [ref=e289]: Usage
+          - paragraph [ref=e290]:
+            - text: You can use these models directly with the
+            - code [ref=e291]: transformers
+            - text: "library starting from v4.48.0:"
+          - generic [ref=e292]:
+            - code [ref=e294]: pip install -U transformers>=4.48.0
+            - button [ref=e295] [cursor=pointer]:
+              - img [ref=e296]
+          - paragraph [ref=e300]:
+            - text: Since ModernBERT is a Masked Language Model (MLM), you can use the
+            - code [ref=e301]: fill-mask
+            - text: pipeline or load it via
+            - code [ref=e302]: AutoModelForMaskedLM
+            - text: . To use ModernBERT for downstream tasks like classification, retrieval, or QA, fine-tune it following standard BERT fine-tuning recipes.
+          - paragraph [ref=e303]:
+            - strong [ref=e304]: "⚠️ If your GPU supports it, we recommend using ModernBERT with Flash Attention 2 to reach the highest efficiency. To do so, install Flash Attention as follows, then use the model as normal:"
+          - generic [ref=e305]:
+            - code [ref=e307]: pip install flash-attn
+            - button [ref=e308] [cursor=pointer]:
+              - img [ref=e309]
+          - paragraph [ref=e313]:
+            - text: Using
+            - code [ref=e314]: AutoModelForMaskedLM
+            - text: ":"
+          - generic [ref=e315]:
+            - code [ref=e317]: "from transformers import AutoTokenizer, AutoModelForMaskedLM model_id = \"answerdotai/ModernBERT-base\" tokenizer = AutoTokenizer.from_pretrained(model_id) model = AutoModelForMaskedLM.from_pretrained(model_id) text = \"The capital of France is [MASK].\" inputs = tokenizer(text, return_tensors=\"pt\") outputs = model(**inputs) # To get predictions for the mask: masked_index = inputs[\"input_ids\"][0].tolist().index(tokenizer.mask_token_id) predicted_token_id = outputs.logits[0, masked_index].argmax(axis=-1) predicted_token = tokenizer.decode(predicted_token_id) print(\"Predicted token:\", predicted_token) # Predicted token: Paris"
+            - button [ref=e318] [cursor=pointer]:
+              - img [ref=e319]
+          - paragraph [ref=e323]: "Using a pipeline:"
+          - generic [ref=e324]:
+            - code [ref=e326]: import torch from transformers import pipeline from pprint import pprint pipe = pipeline( "fill-mask", model="answerdotai/ModernBERT-base", torch_dtype=torch.bfloat16, ) input_text = "He walked to the [MASK]." results = pipe(input_text) pprint(results)
+            - button [ref=e327] [cursor=pointer]:
+              - img [ref=e328]
+          - paragraph [ref=e332]:
+            - strong [ref=e333]: "Note:"
+            - text: ModernBERT does not use token type IDs, unlike some earlier BERT models. Most downstream usage is identical to standard BERT models on the Hugging Face Hub, except you can omit the
+            - code [ref=e334]: token_type_ids
+            - text: parameter.
+          - heading "Evaluation" [level=2] [ref=e335]:
+            - link [ref=e336] [cursor=pointer]:
+              - /url: "#evaluation"
+              - img [ref=e338]
+            - generic [ref=e340]: Evaluation
+          - paragraph [ref=e341]: We evaluate ModernBERT across a range of tasks, including natural language understanding (GLUE), general retrieval (BEIR), long-context retrieval (MLDR), and code retrieval (CodeSearchNet and StackQA).
+          - paragraph [ref=e342]:
+            - strong [ref=e343]: "Key highlights:"
+          - list [ref=e344]:
+            - listitem [ref=e345]: On GLUE, ModernBERT-base surpasses other similarly-sized encoder models, and ModernBERT-large is second only to Deberta-v3-large.
+            - listitem [ref=e346]: For general retrieval tasks, ModernBERT performs well on BEIR in both single-vector (DPR-style) and multi-vector (ColBERT-style) settings.
+            - listitem [ref=e347]: Thanks to the inclusion of code data in its training mixture, ModernBERT as a backbone also achieves new state-of-the-art code retrieval results on CodeSearchNet and StackQA.
+          - heading "Base Models" [level=3] [ref=e348]:
+            - link [ref=e349] [cursor=pointer]:
+              - /url: "#base-models"
+              - img [ref=e351]
+            - generic [ref=e353]: Base Models
+          - table [ref=e355]:
+            - rowgroup [ref=e356]:
+              - row "Model IR (DPR) IR (DPR) IR (DPR) IR (ColBERT) IR (ColBERT) NLU Code Code" [ref=e357]:
+                - columnheader "Model" [ref=e358]
+                - columnheader "IR (DPR)" [ref=e359]
+                - columnheader "IR (DPR)" [ref=e360]
+                - columnheader "IR (DPR)" [ref=e361]
+                - columnheader "IR (ColBERT)" [ref=e362]
+                - columnheader "IR (ColBERT)" [ref=e363]
+                - columnheader "NLU" [ref=e364]
+                - columnheader "Code" [ref=e365]
+                - columnheader "Code" [ref=e366]
+            - rowgroup [ref=e367]:
+              - row "BEIR MLDR_OOD MLDR_ID BEIR MLDR_OOD GLUE CSN SQA" [ref=e368]:
+                - cell [ref=e369]
+                - cell "BEIR" [ref=e370]
+                - cell "MLDR_OOD" [ref=e371]
+                - cell "MLDR_ID" [ref=e372]
+                - cell "BEIR" [ref=e373]
+                - cell "MLDR_OOD" [ref=e374]
+                - cell "GLUE" [ref=e375]
+                - cell "CSN" [ref=e376]
+                - cell "SQA" [ref=e377]
+              - row "BERT 38.9 23.9 32.2 49.0 28.1 84.7 41.2 59.5" [ref=e378]:
+                - cell "BERT" [ref=e379]
+                - cell "38.9" [ref=e380]
+                - cell "23.9" [ref=e381]
+                - cell "32.2" [ref=e382]
+                - cell "49.0" [ref=e383]
+                - cell "28.1" [ref=e384]
+                - cell "84.7" [ref=e385]
+                - cell "41.2" [ref=e386]
+                - cell "59.5" [ref=e387]
+              - row "RoBERTa 37.7 22.9 32.8 48.7 28.2 86.4 44.3 59.6" [ref=e388]:
+                - cell "RoBERTa" [ref=e389]
+                - cell "37.7" [ref=e390]
+                - cell "22.9" [ref=e391]
+                - cell "32.8" [ref=e392]
+                - cell "48.7" [ref=e393]
+                - cell "28.2" [ref=e394]
+                - cell "86.4" [ref=e395]
+                - cell "44.3" [ref=e396]
+                - cell "59.6" [ref=e397]
+              - row "DeBERTaV3 20.2 5.4 13.4 47.1 21.9 88.1 17.5 18.6" [ref=e398]:
+                - cell "DeBERTaV3" [ref=e399]
+                - cell "20.2" [ref=e400]
+                - cell "5.4" [ref=e401]
+                - cell "13.4" [ref=e402]
+                - cell "47.1" [ref=e403]
+                - cell "21.9" [ref=e404]
+                - cell "88.1" [ref=e405]
+                - cell "17.5" [ref=e406]
+                - cell "18.6" [ref=e407]
+              - row "NomicBERT 41.0 26.7 30.3 49.9 61.3 84.0 41.6 61.4" [ref=e408]:
+                - cell "NomicBERT" [ref=e409]
+                - cell "41.0" [ref=e410]
+                - cell "26.7" [ref=e411]
+                - cell "30.3" [ref=e412]
+                - cell "49.9" [ref=e413]
+                - cell "61.3" [ref=e414]
+                - cell "84.0" [ref=e415]
+                - cell "41.6" [ref=e416]
+                - cell "61.4" [ref=e417]
+              - row "GTE-en-MLM 41.4 34.3 44.4 48.2 69.3 85.6 44.9 71.4" [ref=e418]:
+                - cell "GTE-en-MLM" [ref=e419]
+                - cell "41.4" [ref=e420]
+                - cell "34.3" [ref=e421]:
+                  - strong [ref=e422]: "34.3"
+                - cell "44.4" [ref=e423]:
+                  - strong [ref=e424]: "44.4"
+                - cell "48.2" [ref=e425]
+                - cell "69.3" [ref=e426]
+                - cell "85.6" [ref=e427]
+                - cell "44.9" [ref=e428]
+                - cell "71.4" [ref=e429]
+              - row "ModernBERT 41.6 27.4 44.0 51.3 80.2 88.4 56.4 73.6" [ref=e430]:
+                - cell "ModernBERT" [ref=e431]
+                - cell "41.6" [ref=e432]:
+                  - strong [ref=e433]: "41.6"
+                - cell "27.4" [ref=e434]
+                - cell "44.0" [ref=e435]
+                - cell "51.3" [ref=e436]:
+                  - strong [ref=e437]: "51.3"
+                - cell "80.2" [ref=e438]:
+                  - strong [ref=e439]: "80.2"
+                - cell "88.4" [ref=e440]:
+                  - strong [ref=e441]: "88.4"
+                - cell "56.4" [ref=e442]:
+                  - strong [ref=e443]: "56.4"
+                - cell "73.6" [ref=e444]:
+                  - strong [ref=e445]: "73.6"
+          - separator [ref=e446]
+          - heading "Large Models" [level=3] [ref=e447]:
+            - link [ref=e448] [cursor=pointer]:
+              - /url: "#large-models"
+              - img [ref=e450]
+            - generic [ref=e452]: Large Models
+          - table [ref=e454]:
+            - rowgroup [ref=e455]:
+              - row "Model IR (DPR) IR (DPR) IR (DPR) IR (ColBERT) IR (ColBERT) NLU Code Code" [ref=e456]:
+                - columnheader "Model" [ref=e457]
+                - columnheader "IR (DPR)" [ref=e458]
+                - columnheader "IR (DPR)" [ref=e459]
+                - columnheader "IR (DPR)" [ref=e460]
+                - columnheader "IR (ColBERT)" [ref=e461]
+                - columnheader "IR (ColBERT)" [ref=e462]
+                - columnheader "NLU" [ref=e463]
+                - columnheader "Code" [ref=e464]
+                - columnheader "Code" [ref=e465]
+            - rowgroup [ref=e466]:
+              - row "BEIR MLDR_OOD MLDR_ID BEIR MLDR_OOD GLUE CSN SQA" [ref=e467]:
+                - cell [ref=e468]
+                - cell "BEIR" [ref=e469]
+                - cell "MLDR_OOD" [ref=e470]
+                - cell "MLDR_ID" [ref=e471]
+                - cell "BEIR" [ref=e472]
+                - cell "MLDR_OOD" [ref=e473]
+                - cell "GLUE" [ref=e474]
+                - cell "CSN" [ref=e475]
+                - cell "SQA" [ref=e476]
+              - row "BERT 38.9 23.3 31.7 49.5 28.5 85.2 41.6 60.8" [ref=e477]:
+                - cell "BERT" [ref=e478]
+                - cell "38.9" [ref=e479]
+                - cell "23.3" [ref=e480]
+                - cell "31.7" [ref=e481]
+                - cell "49.5" [ref=e482]
+                - cell "28.5" [ref=e483]
+                - cell "85.2" [ref=e484]
+                - cell "41.6" [ref=e485]
+                - cell "60.8" [ref=e486]
+              - row "RoBERTa 41.4 22.6 36.1 49.8 28.8 88.9 47.3 68.1" [ref=e487]:
+                - cell "RoBERTa" [ref=e488]
+                - cell "41.4" [ref=e489]
+                - cell "22.6" [ref=e490]
+                - cell "36.1" [ref=e491]
+                - cell "49.8" [ref=e492]
+                - cell "28.8" [ref=e493]
+                - cell "88.9" [ref=e494]
+                - cell "47.3" [ref=e495]
+                - cell "68.1" [ref=e496]
+              - row "DeBERTaV3 25.6 7.1 19.2 46.7 23.0 91.4 21.2 19.7" [ref=e497]:
+                - cell "DeBERTaV3" [ref=e498]
+                - cell "25.6" [ref=e499]
+                - cell "7.1" [ref=e500]
+                - cell "19.2" [ref=e501]
+                - cell "46.7" [ref=e502]
+                - cell "23.0" [ref=e503]
+                - cell "91.4" [ref=e504]:
+                  - strong [ref=e505]: "91.4"
+                - cell "21.2" [ref=e506]
+                - cell "19.7" [ref=e507]
+              - row "GTE-en-MLM 42.5 36.4 48.9 50.7 71.3 87.6 40.5 66.9" [ref=e508]:
+                - cell "GTE-en-MLM" [ref=e509]
+                - cell "42.5" [ref=e510]
+                - cell "36.4" [ref=e511]:
+                  - strong [ref=e512]: "36.4"
+                - cell "48.9" [ref=e513]:
+                  - strong [ref=e514]: "48.9"
+                - cell "50.7" [ref=e515]
+                - cell "71.3" [ref=e516]
+                - cell "87.6" [ref=e517]
+                - cell "40.5" [ref=e518]
+                - cell "66.9" [ref=e519]
+              - row "ModernBERT 44.0 34.3 48.6 52.4 80.4 90.4 59.5 83.9" [ref=e520]:
+                - cell "ModernBERT" [ref=e521]
+                - cell "44.0" [ref=e522]:
+                  - strong [ref=e523]: "44.0"
+                - cell "34.3" [ref=e524]
+                - cell "48.6" [ref=e525]
+                - cell "52.4" [ref=e526]:
+                  - strong [ref=e527]: "52.4"
+                - cell "80.4" [ref=e528]:
+                  - strong [ref=e529]: "80.4"
+                - cell "90.4" [ref=e530]
+                - cell "59.5" [ref=e531]:
+                  - strong [ref=e532]: "59.5"
+                - cell "83.9" [ref=e533]:
+                  - strong [ref=e534]: "83.9"
+          - paragraph [ref=e535]:
+            - emphasis [ref=e536]: "Table 1: Results for all models across an overview of all tasks. CSN refers to CodeSearchNet and SQA to StackQA. MLDRID refers to in-domain (fine-tuned on the training set) evaluation, and MLDR_OOD to out-of-domain."
+          - paragraph [ref=e537]: ModernBERT’s strong results, coupled with its efficient runtime on long-context inputs, demonstrate that encoder-only models can be significantly improved through modern architectural choices and extensive pretraining on diversified data sources.
+          - heading "Limitations" [level=2] [ref=e538]:
+            - link [ref=e539] [cursor=pointer]:
+              - /url: "#limitations"
+              - img [ref=e541]
+            - generic [ref=e543]: Limitations
+          - paragraph [ref=e544]: ModernBERT’s training data is primarily English and code, so performance may be lower for other languages. While it can handle long sequences efficiently, using the full 8,192 tokens window may be slower than short-context inference. Like any large language model, ModernBERT may produce representations that reflect biases present in its training data. Verify critical or sensitive outputs before relying on them.
+          - heading "Training" [level=2] [ref=e545]:
+            - link [ref=e546] [cursor=pointer]:
+              - /url: "#training"
+              - img [ref=e548]
+            - generic [ref=e550]: Training
+          - list [ref=e551]:
+            - listitem [ref=e552]: "Architecture: Encoder-only, Pre-Norm Transformer with GeGLU activations."
+            - listitem [ref=e553]: "Sequence Length: Pre-trained up to 1,024 tokens, then extended to 8,192 tokens."
+            - listitem [ref=e554]: "Data: 2 trillion tokens of English text and code."
+            - listitem [ref=e555]: "Optimizer: StableAdamW with trapezoidal LR scheduling and 1-sqrt decay."
+            - listitem [ref=e556]: "Hardware: Trained on 8x H100 GPUs."
+          - paragraph [ref=e557]: See the paper for more details.
+          - heading "License" [level=2] [ref=e558]:
+            - link [ref=e559] [cursor=pointer]:
+              - /url: "#license"
+              - img [ref=e561]
+            - generic [ref=e563]: License
+          - paragraph [ref=e564]: We release the ModernBERT model architectures, model weights, training codebase under the Apache 2.0 license.
+          - heading "Citation" [level=2] [ref=e565]:
+            - link [ref=e566] [cursor=pointer]:
+              - /url: "#citation"
+              - img [ref=e568]
+            - generic [ref=e570]: Citation
+          - paragraph [ref=e571]: "If you use ModernBERT in your work, please cite:"
+          - generic [ref=e572]:
+            - code [ref=e574]: "@misc{modernbert, title={Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference}, author={Benjamin Warner and Antoine Chaffin and Benjamin Clavié and Orion Weller and Oskar Hallström and Said Taghadouini and Alexis Gallagher and Raja Biswas and Faisal Ladhak and Tom Aarsen and Nathan Cooper and Griffin Adams and Jeremy Howard and Iacopo Poli}, year={2024}, eprint={2412.13663}, archivePrefix={arXiv}, primaryClass={cs.CL}, url={https://arxiv.org/abs/2412.13663}, }"
+            - button [ref=e575] [cursor=pointer]:
+              - img [ref=e576]
+      - generic [ref=e580]:
+        - generic [ref=e581]:
+          - generic [ref=e582]:
+            - term [ref=e583]: Downloads last month
+            - definition [ref=e584]: 7,160,531
+          - img [ref=e586]
+        - generic [ref=e591]:
+          - generic [ref=e592]:
+            - img [ref=e593]
+            - text: Safetensors
+            - link [ref=e595] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/safetensors
+              - img [ref=e596]
+          - generic [ref=e600]:
+            - generic [ref=e601]:
+              - generic [ref=e602]: Model size
+              - generic [ref=e603]: 0.1B params
+            - generic [ref=e604]:
+              - generic [ref=e605]: Tensor type
+              - generic [ref=e606]: F32
+            - button "Files info" [ref=e608] [cursor=pointer]:
+              - img [ref=e609]
+              - paragraph [ref=e611]: Files info
+        - generic [ref=e615]:
+          - generic [ref=e617]:
+            - img [ref=e618]
+            - generic [ref=e620]: Inference Providers
+            - link "NEW" [ref=e621] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/inference-providers
+          - link "Fill-Mask" [ref=e624] [cursor=pointer]:
+            - /url: /tasks/fill-mask
+            - generic [ref=e625]:
+              - img [ref=e626]
+              - generic [ref=e630]: Fill-Mask
+          - generic [ref=e631]:
+            - generic [ref=e632]: This model isn't deployed by any Inference Provider.
+            - link "🙋 5 Ask for provider support" [ref=e633] [cursor=pointer]:
+              - /url: /spaces/huggingface/InferenceSupport/discussions/1363
+              - generic [ref=e634]:
+                - generic [ref=e635]: 🙋
+                - generic [ref=e636]: "5"
+              - generic [ref=e637]: Ask for provider support
+        - heading "Model tree for answerdotai/ModernBERT-base" [level=2] [ref=e639]:
+          - img [ref=e640]
+          - text: Model tree for
+          - generic [ref=e643]: answerdotai/ModernBERT-base
+        - generic [ref=e645]:
+          - generic [ref=e646]:
+            - img [ref=e649]
+            - generic [ref=e651]: Adapters
+            - link "30 models" [ref=e653] [cursor=pointer]:
+              - /url: /models?other=base_model:adapter:answerdotai/ModernBERT-base
+          - generic [ref=e654]:
+            - img [ref=e657]
+            - generic [ref=e659]: Finetunes
+            - link "1177 models" [ref=e661] [cursor=pointer]:
+              - /url: /models?other=base_model:finetune:answerdotai/ModernBERT-base
+          - generic [ref=e662]:
+            - img [ref=e665]
+            - generic [ref=e667]: Quantizations
+            - link "19 models" [ref=e669] [cursor=pointer]:
+              - /url: /models?other=base_model:quantized:answerdotai/ModernBERT-base
+        - heading "Spaces using answerdotai/ModernBERT-base 81" [level=2] [ref=e671]:
+          - img [ref=e672]
+          - text: Spaces using
+          - generic [ref=e678]: answerdotai/ModernBERT-base
+          - generic [ref=e679]: "81"
+        - navigation [ref=e681]:
+          - link "📈 yadagiriannepaka/AiTextSpace" [ref=e682] [cursor=pointer]:
+            - /url: /spaces/yadagiriannepaka/AiTextSpace
+            - generic [ref=e683]: 📈
+            - generic [ref=e684]: yadagiriannepaka/AiTextSpace
+          - link "📚 eduagarcia/multilingual-tokenizer-leaderboard" [ref=e685] [cursor=pointer]:
+            - /url: /spaces/eduagarcia/multilingual-tokenizer-leaderboard
+            - generic [ref=e686]: 📚
+            - generic [ref=e687]: eduagarcia/multilingual-tokenizer-leaderboard
+          - link "👀 SzegedAI/AI_Detector" [ref=e688] [cursor=pointer]:
+            - /url: /spaces/SzegedAI/AI_Detector
+            - generic [ref=e689]: 👀
+            - generic [ref=e690]: SzegedAI/AI_Detector
+          - link "🚀 eswardivi/ModernBert-Similarity" [ref=e691] [cursor=pointer]:
+            - /url: /spaces/eswardivi/ModernBert-Similarity
+            - generic [ref=e692]: 🚀
+            - generic [ref=e693]: eswardivi/ModernBert-Similarity
+          - link "🧠 tasksource/ModernBERT-zero-shot-nli" [ref=e694] [cursor=pointer]:
+            - /url: /spaces/tasksource/ModernBERT-zero-shot-nli
+            - generic [ref=e695]: 🧠
+            - generic [ref=e696]: tasksource/ModernBERT-zero-shot-nli
+          - link "👀 pulkitmehtawork/modern_bert_large_fill_mask" [ref=e697] [cursor=pointer]:
+            - /url: /spaces/pulkitmehtawork/modern_bert_large_fill_mask
+            - generic [ref=e698]: 👀
+            - generic [ref=e699]: pulkitmehtawork/modern_bert_large_fill_mask
+          - link "💬 nanageona/answerdotai-ModernBERT-base" [ref=e700] [cursor=pointer]:
+            - /url: /spaces/nanageona/answerdotai-ModernBERT-base
+            - generic [ref=e701]: 💬
+            - generic [ref=e702]: nanageona/answerdotai-ModernBERT-base
+          - link "🐢 AliMusaRizvi/phishing_email" [ref=e703] [cursor=pointer]:
+            - /url: /spaces/AliMusaRizvi/phishing_email
+            - generic [ref=e704]: 🐢
+            - generic [ref=e705]: AliMusaRizvi/phishing_email
+          - button "+ 73 Spaces" [ref=e706] [cursor=pointer]
+        - heading "Collection including answerdotai/ModernBERT-base" [level=2] [ref=e708]:
+          - img [ref=e709]
+          - text: Collection including
+          - generic [ref=e713]: answerdotai/ModernBERT-base
+        - article [ref=e716]:
+          - link "ModernBERT Collection Bringing BERT into modernity via both architecture changes and scaling • 3 items • Updated Dec 19, 2024 • 159" [ref=e717] [cursor=pointer]:
+            - /url: /collections/answerdotai/modernbert
+            - generic "ModernBERT" [ref=e718]:
+              - heading "ModernBERT" [level=4] [ref=e719]
+              - generic [ref=e720]:
+                - img [ref=e721]
+                - text: Collection
+            - generic [ref=e725]:
+              - generic [ref=e726]: Bringing BERT into modernity via both architecture changes and scaling
+              - generic [ref=e727]: •
+              - generic [ref=e728]: 3 items
+              - generic [ref=e729]: •
+              - generic [ref=e730]:
+                - text: Updated
+                - time [ref=e731]: Dec 19, 2024
+              - generic [ref=e732]: •
+              - img [ref=e733]
+              - text: "159"
+        - heading "Paper for answerdotai/ModernBERT-base" [level=2] [ref=e737]:
+          - img [ref=e738]
+          - text: Paper for
+          - generic [ref=e741]: answerdotai/ModernBERT-base
+        - article [ref=e743]:
+          - 'link "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference Paper • 2412.13663 • Published Dec 18, 2024 • 163" [ref=e744] [cursor=pointer]':
+            - /url: /papers/2412.13663
+            - generic "arxiv:2412.13663" [ref=e745]:
+              - 'heading "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference" [level=4] [ref=e746]'
+            - generic [ref=e747]:
+              - img [ref=e748]
+              - text: Paper
+              - generic [ref=e751]: •
+              - text: "2412.13663"
+              - generic [ref=e752]: •
+              - generic [ref=e753]:
+                - text: Published
+                - time [ref=e754]: Dec 18, 2024
+              - generic [ref=e755]: •
+              - img [ref=e756]
+              - text: "163"
+  - contentinfo [ref=e758]:
+    - navigation [ref=e759]:
+      - button "System theme" [ref=e762] [cursor=pointer]:
+        - img [ref=e763]
+        - text: System theme
+      - link "TOS" [ref=e768] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e769] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e770] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e771] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e772] [cursor=pointer]:
+        - /url: /
+        - img [ref=e773]
+      - link "Models" [ref=e787] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e788] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e789] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e790] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e791] [cursor=pointer]:
+        - /url: /docs

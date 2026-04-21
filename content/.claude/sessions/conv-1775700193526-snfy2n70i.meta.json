@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775700193526-snfy2n70i",
+  "title": "Explain acmecorp and tenant_id for agent workflows",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775700193526,
+  "updatedAt": 1775807430571,
+  "lastResponseAt": 1775800915211,
+  "sessionId": "4173ada0-c276-477b-baba-b07857ecaa76",
+  "sdkSessionId": "4173ada0-c276-477b-baba-b07857ecaa76",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/阶段一/AMS-语义记忆与情景记忆构建系统-完整方案设计.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

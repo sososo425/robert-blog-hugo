@@ -1,0 +1,429 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "knowledgator / gliner-relex-multi-v1.0 like 1 Follow Knowledgator Engineering 276" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /knowledgator
+          - link "knowledgator" [ref=e70] [cursor=pointer]:
+            - /url: /knowledgator
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "gliner-relex-multi-v1.0" [ref=e73] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "1" [ref=e84] [cursor=pointer]
+        - generic [ref=e86]:
+          - button "Follow Knowledgator Engineering" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Follow
+            - generic [ref=e89]: Knowledgator Engineering
+          - button "276" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]:
+        - link "Token Classification" [ref=e92] [cursor=pointer]:
+          - /url: /models?pipeline_tag=token-classification
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e103]: Token Classification
+        - link "GLiNER" [ref=e104] [cursor=pointer]:
+          - /url: /models?library=gliner
+          - generic [ref=e106]: GLiNER
+        - link "Safetensors" [ref=e107] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e108]:
+            - img [ref=e109]
+            - generic [ref=e111]: Safetensors
+        - link "named-entity-recognition" [ref=e112] [cursor=pointer]:
+          - /url: /models?other=named-entity-recognition
+          - generic [ref=e114]: named-entity-recognition
+        - link "relation-extraction" [ref=e115] [cursor=pointer]:
+          - /url: /models?other=relation-extraction
+          - generic [ref=e117]: relation-extraction
+        - link "zero-shot" [ref=e118] [cursor=pointer]:
+          - /url: /models?other=zero-shot
+          - generic [ref=e120]: zero-shot
+        - link "information-extraction" [ref=e121] [cursor=pointer]:
+          - /url: /models?other=information-extraction
+          - generic [ref=e123]: information-extraction
+        - 'button "License: apache-2.0" [ref=e125] [cursor=pointer]':
+          - generic [ref=e127]:
+            - img [ref=e128]
+            - generic [ref=e130]: "License:"
+            - generic [ref=e131]: apache-2.0
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - link "Model card" [ref=e135] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0
+            - img [ref=e136]
+            - text: Model card
+          - link "Files xet" [ref=e140] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0/tree/main
+            - img [ref=e141]
+            - generic [ref=e144]: Files
+            - generic [ref=e147]:
+              - img [ref=e148]
+              - generic [ref=e151]: xet
+          - link "Community" [ref=e152] [cursor=pointer]:
+            - /url: /knowledgator/gliner-relex-multi-v1.0/discussions
+            - img [ref=e153]
+            - text: Community
+        - generic [ref=e156]:
+          - button [ref=e159] [cursor=pointer]:
+            - img [ref=e160]
+          - button "Use this model" [ref=e165] [cursor=pointer]:
+            - img [ref=e166]
+            - text: Use this model
+            - img [ref=e168]
+    - generic [ref=e170]:
+      - generic [ref=e172]:
+        - button [ref=e178] [cursor=pointer]:
+          - img [ref=e179]
+        - generic [ref=e181]:
+          - 'heading "🔗 GLiNER-relex: Generalist and Lightweight Model for Joint Zero-Shot NER and Relation Extraction" [level=1] [ref=e182]':
+            - link [ref=e183] [cursor=pointer]:
+              - /url: "#🔗-gliner-relex-generalist-and-lightweight-model-for-joint-zero-shot-ner-and-relation-extraction"
+              - img [ref=e185]
+            - generic [ref=e187]: "🔗 GLiNER-relex: Generalist and Lightweight Model for Joint Zero-Shot NER and Relation Extraction"
+          - paragraph [ref=e188]:
+            - text: GLiNER-relex is a unified model for
+            - strong [ref=e189]: zero-shot Named Entity Recognition (NER)
+            - text: and
+            - strong [ref=e190]: Relation Extraction (RE)
+            - text: that performs both tasks simultaneously in a single forward pass. Built on the GLiNER architecture, it extends the span-based approach to jointly identify entities and extract relationships between them.
+          - heading "✨ Key Features" [level=2] [ref=e191]:
+            - link [ref=e192] [cursor=pointer]:
+              - /url: "#✨-key-features"
+              - img [ref=e194]
+            - generic [ref=e196]: ✨ Key Features
+          - list [ref=e197]:
+            - listitem [ref=e198]:
+              - strong [ref=e199]: Joint Extraction
+              - text: ": Simultaneously extracts entities and relations in one forward pass"
+            - listitem [ref=e200]:
+              - strong [ref=e201]: Zero-Shot
+              - text: ": No fine-tuning required — specify entity types and relation types at inference time"
+            - listitem [ref=e202]:
+              - strong [ref=e203]: Label Descriptions
+              - text: ": Supports natural language descriptions for entity labels, improving accuracy by providing richer semantic context to the model"
+            - listitem [ref=e204]:
+              - strong [ref=e205]: "\"Other\" Entity Type"
+              - text: ": Use the special"
+              - code [ref=e206]: "\"other\""
+              - text: label to extract entities whose types are not explicitly defined but can be inferred from the specified relations
+            - listitem [ref=e207]:
+              - strong [ref=e208]: Efficient
+              - text: ": Single encoder architecture processes both tasks together"
+            - listitem [ref=e209]:
+              - strong [ref=e210]: Flexible
+              - text: ": Supports custom entity and relation schemas per inference call"
+            - listitem [ref=e211]:
+              - strong [ref=e212]: Production-Ready
+              - text: ": ONNX export support for deployment"
+          - heading "📦 Installation" [level=2] [ref=e213]:
+            - link [ref=e214] [cursor=pointer]:
+              - /url: "#📦-installation"
+              - img [ref=e216]
+            - generic [ref=e218]: 📦 Installation
+          - paragraph [ref=e219]: "First, install the GLiNER library:"
+          - generic [ref=e220]:
+            - code [ref=e222]: pip install gliner -U
+            - button [ref=e223] [cursor=pointer]:
+              - img [ref=e224]
+          - heading "🚀 Quick Start" [level=2] [ref=e228]:
+            - link [ref=e229] [cursor=pointer]:
+              - /url: "#🚀-quick-start"
+              - img [ref=e231]
+            - generic [ref=e233]: 🚀 Quick Start
+          - heading "Basic Usage" [level=3] [ref=e234]:
+            - link [ref=e235] [cursor=pointer]:
+              - /url: "#basic-usage"
+              - img [ref=e237]
+            - generic [ref=e239]: Basic Usage
+          - generic [ref=e240]:
+            - code [ref=e242]:
+              - text: "from gliner import GLiNER # Load the model model = GLiNER.from_pretrained(\"knowledgator/gliner-relex-multi-v1.0\") # Define your entity types and relation types entity_labels = [\"location\", \"person\", \"date\", \"structure\"] relation_labels = [\"located in\", \"designed by\", \"completed in\"] # Input text text = \"The Eiffel Tower, located in Paris, France, was designed by engineer Gustave Eiffel and completed in 1889.\" # Run inference - returns both entities and relations entities, relations = model.inference( texts=[text], labels=entity_labels, relations=relation_labels, threshold=0.3, relation_threshold=0.5, return_relations=True, flat_ner=False ) # Print entities print(\"Entities:\") for entity in entities[0]: print("
+              - generic [ref=e243]:
+                - text: f"
+                - generic [ref=e244]: "{entity['text']}"
+                - text: "->"
+                - generic [ref=e245]: "{entity['label']}"
+                - text: "(score:"
+                - generic [ref=e246]: "{entity['score']:.3f}"
+                - text: )"
+              - text: ") # Print relations print(\"\\nRelations:\") for relation in relations[0]: head = relation[\"head\"][\"text\"] tail = relation[\"tail\"][\"text\"] rel_type = relation[\"relation\"] score = relation[\"score\"] print("
+              - generic [ref=e247]:
+                - text: "f\" {head} --[{rel_type}]--> {tail} (score:"
+                - generic [ref=e248]: "{score:.3f}"
+                - text: )"
+              - text: )
+            - button [ref=e249] [cursor=pointer]:
+              - img [ref=e250]
+          - paragraph [ref=e254]: "Expected output:"
+          - generic [ref=e255]:
+            - code [ref=e257]: "Entities: Eiffel Tower -> structure (score: 0.912) Paris -> location (score: 0.934) France -> location (score: 0.891) Gustave Eiffel -> person (score: 0.923) 1889 -> date (score: 0.856) Relations: Eiffel Tower --[located in]--> Paris (score: 0.823) Eiffel Tower --[designed by]--> Gustave Eiffel (score: 0.847) Eiffel Tower --[completed in]--> 1889 (score: 0.789)"
+            - button [ref=e258] [cursor=pointer]:
+              - img [ref=e259]
+          - heading "Using Label Descriptions" [level=2] [ref=e263]:
+            - link [ref=e264] [cursor=pointer]:
+              - /url: "#using-label-descriptions"
+              - img [ref=e266]
+            - generic [ref=e268]: Using Label Descriptions
+          - paragraph [ref=e269]: "You can provide natural language descriptions for entity labels to give the model richer context, which can improve extraction accuracy, especially for ambiguous or domain-specific types:"
+          - generic [ref=e270]:
+            - code [ref=e272]: "entity_labels = { \"person\": \"A human individual, including fictional characters\", \"organization\": \"A company, institution, agency, or other group of people\", \"location\": \"A physical place, geographic region, or address\", \"date\": \"A calendar date, time period, or temporal expression\" } relation_labels = [\"works for\", \"located in\", \"founded on\"] text = \"Tim Cook has been leading Apple Inc. from its headquarters in Cupertino since 2011.\" entities, relations = model.inference( texts=[text], labels=entity_labels, relations=relation_labels, threshold=0.5, relation_threshold=0.7, return_relations=True, flat_ner=False )"
+            - button [ref=e273] [cursor=pointer]:
+              - img [ref=e274]
+          - paragraph [ref=e278]: When using descriptions, pass labels as a dictionary where keys are label names and values are their descriptions. The model encodes these descriptions alongside the text for better semantic matching.
+          - heading "Using the \"Other\" Entity Type" [level=2] [ref=e279]:
+            - link [ref=e280] [cursor=pointer]:
+              - /url: "#using-the-other-entity-type"
+              - img [ref=e282]
+            - generic [ref=e284]: Using the "Other" Entity Type
+          - paragraph [ref=e285]:
+            - text: When you want to extract entities involved in specific relations without predefining every entity type, use the special
+            - code [ref=e286]: "\"other\""
+            - text: "label. The model will identify entities based on the relations they participate in, even if their type does not match any of the explicitly defined labels:"
+          - generic [ref=e287]:
+            - code [ref=e289]: "entity_labels = [\"person\"] relation_labels = [\"author of\", \"born in\"] text = \"Gabriel García Márquez, born in Aracataca, wrote One Hundred Years of Solitude.\" entities, relations = model.inference( texts=[text], labels=entity_labels + [\"other\"], # \"other\" captures relation-driven entities relations=relation_labels, threshold=0.5, relation_threshold=0.7, return_relations=True, flat_ner=False )"
+            - button [ref=e290] [cursor=pointer]:
+              - img [ref=e291]
+          - paragraph [ref=e295]: "Expected output:"
+          - generic [ref=e296]:
+            - code [ref=e298]: "Entities: Gabriel García Márquez -> person (score: 0.931) Aracataca -> other (score: 0.724) One Hundred Years of Solitude -> other (score: 0.689) Relations: Gabriel García Márquez --[born in]--> Aracataca (score: 0.812) Gabriel García Márquez --[author of]--> One Hundred Years of Solitude (score: 0.795)"
+            - button [ref=e299] [cursor=pointer]:
+              - img [ref=e300]
+          - paragraph [ref=e304]: "This is particularly useful when:"
+          - list [ref=e305]:
+            - listitem [ref=e306]: You care more about extracting relations than classifying every entity type
+            - listitem [ref=e307]: The set of possible entity types is open-ended or unknown
+            - listitem [ref=e308]: You want to discover entities that are connected to known types through specific relations
+          - heading "Batch Processing" [level=2] [ref=e309]:
+            - link [ref=e310] [cursor=pointer]:
+              - /url: "#batch-processing"
+              - img [ref=e312]
+            - generic [ref=e314]: Batch Processing
+          - generic [ref=e315]:
+            - code [ref=e317]:
+              - text: "texts = [ \"Elon Musk founded SpaceX in Hawthorne, California.\", \"Microsoft, led by Satya Nadella, acquired GitHub in 2018.\", \"The Louvre Museum in Paris houses the Mona Lisa.\" ] entity_labels = [\"person\", \"organization\", \"location\", \"artwork\"] relation_labels = [\"founder of\", \"CEO of\", \"located in\", \"acquired\", \"houses\"] entities, relations = model.inference( texts=texts, labels=entity_labels, relations=relation_labels, threshold=0.5, relation_threshold=0.5, batch_size=8, return_relations=True, flat_ner=False ) for i, (text_entities, text_relations) in enumerate(zip(entities, relations)): print("
+              - generic [ref=e318]:
+                - text: f"\nText
+                - generic [ref=e319]: "{i + 1}"
+                - text: :"
+              - text: ) print(
+              - generic [ref=e320]:
+                - text: "f\" Entities:"
+                - generic [ref=e321]: "{[e['text'] for e in text_entities]}"
+                - text: "\""
+              - text: ) print(
+              - generic [ref=e322]:
+                - text: "f\" Relations:"
+                - generic [ref=e323]: "{[(r['head']['text'], r['relation'], r['tail']['text']) for r in text_relations]}"
+                - text: "\""
+              - text: )
+            - button [ref=e324] [cursor=pointer]:
+              - img [ref=e325]
+          - heading "Entity-Only Extraction" [level=2] [ref=e329]:
+            - link [ref=e330] [cursor=pointer]:
+              - /url: "#entity-only-extraction"
+              - img [ref=e332]
+            - generic [ref=e334]: Entity-Only Extraction
+          - paragraph [ref=e335]: "If you only need entities without relations:"
+          - generic [ref=e336]:
+            - code [ref=e338]: "entities = model.inference( texts=[text], labels=entity_labels, relations=[], # Empty list for relations threshold=0.5, return_relations=False, # Skip relation extraction flat_ner=False )"
+            - button [ref=e339] [cursor=pointer]:
+              - img [ref=e340]
+          - heading "⚙️ Advanced Configuration" [level=2] [ref=e344]:
+            - link [ref=e345] [cursor=pointer]:
+              - /url: "#⚙️-advanced-configuration"
+              - img [ref=e347]
+            - generic [ref=e349]: ⚙️ Advanced Configuration
+          - heading "Adjusting Thresholds" [level=3] [ref=e350]:
+            - link [ref=e351] [cursor=pointer]:
+              - /url: "#adjusting-thresholds"
+              - img [ref=e353]
+            - generic [ref=e355]: Adjusting Thresholds
+          - paragraph [ref=e356]: "You can fine-tune extraction sensitivity with separate thresholds:"
+          - generic [ref=e357]:
+            - code [ref=e359]: "entities, relations = model.inference( texts=texts, labels=entity_labels, relations=relation_labels, threshold=0.5, # Entity confidence threshold adjacency_threshold=0.6, # Threshold for entity pair candidates relation_threshold=0.7, # Relation classification threshold flat_ner=True, # Enforce non-overlapping entities multi_label=False, # Single label per entity span return_relations=True )"
+            - button [ref=e360] [cursor=pointer]:
+              - img [ref=e361]
+          - paragraph [ref=e365]:
+            - text: We recommend lowering the threshold (entity extraction threshold) and keeping it in the range of
+            - code [ref=e366]: 0.3–0.5
+            - text: . For
+            - code [ref=e367]: adjacency_threshold
+            - text: ", the model provides good results in the"
+            - code [ref=e368]: 0.5–0.65
+            - text: range. For
+            - code [ref=e369]: relation_threshold
+            - text: ", use larger values like"
+            - code [ref=e370]: 0.7–0.9
+            - text: . Feel free to adjust all of these values based on your project requirements.
+          - heading "📊 Output Format" [level=2] [ref=e371]:
+            - link [ref=e372] [cursor=pointer]:
+              - /url: "#📊-output-format"
+              - img [ref=e374]
+            - generic [ref=e376]: 📊 Output Format
+          - heading "Entity Format" [level=3] [ref=e377]:
+            - link [ref=e378] [cursor=pointer]:
+              - /url: "#entity-format"
+              - img [ref=e380]
+            - generic [ref=e382]: Entity Format
+          - generic [ref=e383]:
+            - code [ref=e385]: "{ \"start\": int, # Start character position \"end\": int, # End character position \"text\": str, # Entity text span \"label\": str, # Entity type \"score\": float # Confidence score (0-1) }"
+            - button [ref=e386] [cursor=pointer]:
+              - img [ref=e387]
+          - heading "Relation Format" [level=3] [ref=e391]:
+            - link [ref=e392] [cursor=pointer]:
+              - /url: "#relation-format"
+              - img [ref=e394]
+            - generic [ref=e396]: Relation Format
+          - generic [ref=e397]:
+            - code [ref=e399]: "{ \"head\": { \"start\": int, \"end\": int, \"text\": str, \"type\": str, \"entity_idx\": int # Index in entities list }, \"tail\": { \"start\": int, \"end\": int, \"text\": str, \"type\": str, \"entity_idx\": int }, \"relation\": str, # Relation type \"score\": float # Confidence score (0-1) }"
+            - button [ref=e400] [cursor=pointer]:
+              - img [ref=e401]
+          - heading "🏗️ Architecture" [level=2] [ref=e405]:
+            - link [ref=e406] [cursor=pointer]:
+              - /url: "#🏗️-architecture"
+              - img [ref=e408]
+            - generic [ref=e410]: 🏗️ Architecture
+          - paragraph [ref=e411]: "GLiNER-relex uses a unified encoder architecture that:"
+          - list [ref=e412]:
+            - listitem [ref=e413]: Encodes text and labels jointly using a transformer backbone.
+            - listitem [ref=e414]: Identifies entity spans using span-based classification.
+            - listitem [ref=e415]: Constructs an adjacency matrix to identify potential entity pairs using graph convolutional networks.
+            - listitem [ref=e416]: Classifies relations between selected entity pairs.
+          - paragraph [ref=e417]: This joint approach allows the model to leverage entity information when extracting relations, leading to more coherent predictions.
+          - heading "📚 Use Cases" [level=2] [ref=e418]:
+            - link [ref=e419] [cursor=pointer]:
+              - /url: "#📚-use-cases"
+              - img [ref=e421]
+            - generic [ref=e423]: 📚 Use Cases
+          - list [ref=e424]:
+            - listitem [ref=e425]: "Knowledge Graph Construction: Extract structured facts from unstructured text"
+            - listitem [ref=e426]: "Information Extraction Pipelines: Build end-to-end IE systems"
+            - listitem [ref=e427]: "Document Understanding: Extract entities and their relationships from documents"
+            - listitem [ref=e428]: "Question Answering: Power QA systems with structured knowledge"
+            - listitem [ref=e429]: "Data Enrichment: Automatically annotate text corpora"
+      - generic [ref=e430]:
+        - generic [ref=e431]:
+          - generic [ref=e432]:
+            - term [ref=e433]: Downloads last month
+            - definition [ref=e434]: "47"
+          - img [ref=e436]
+        - generic [ref=e442]:
+          - generic [ref=e444]:
+            - img [ref=e445]
+            - generic [ref=e447]: Inference Providers
+            - link "NEW" [ref=e448] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/inference-providers
+          - link "Token Classification" [ref=e451] [cursor=pointer]:
+            - /url: /tasks/token-classification
+            - generic [ref=e452]:
+              - img [ref=e453]
+              - generic [ref=e461]: Token Classification
+          - generic [ref=e462]:
+            - generic [ref=e463]: This model isn't deployed by any Inference Provider.
+            - link "🙋 Ask for provider support" [ref=e464] [cursor=pointer]:
+              - /url: /spaces/huggingface/InferenceSupport/discussions/new?title=knowledgator/gliner-relex-multi-v1.0&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bknowledgator%2Fgliner-relex-multi-v1.0%5D(%2Fknowledgator%2Fgliner-relex-multi-v1.0)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+              - generic [ref=e466]: 🙋
+              - generic [ref=e467]: Ask for provider support
+        - heading "Collection including knowledgator/gliner-relex-multi-v1.0" [level=2] [ref=e469]:
+          - img [ref=e470]
+          - text: Collection including
+          - generic [ref=e474]: knowledgator/gliner-relex-multi-v1.0
+        - article [ref=e477]:
+          - link "GLiNER-relex Collection Zero-shot joint NER and relation extraction models • 4 items • Updated 18 days ago • 2" [ref=e478] [cursor=pointer]:
+            - /url: /collections/knowledgator/gliner-relex
+            - generic "GLiNER-relex" [ref=e479]:
+              - heading "GLiNER-relex" [level=4] [ref=e480]
+              - generic [ref=e481]:
+                - img [ref=e482]
+                - text: Collection
+            - generic [ref=e486]:
+              - generic [ref=e487]: Zero-shot joint NER and relation extraction models
+              - generic [ref=e488]: •
+              - generic [ref=e489]: 4 items
+              - generic [ref=e490]: •
+              - generic [ref=e491]:
+                - text: Updated
+                - time [ref=e492]: 18 days ago
+              - generic [ref=e493]: •
+              - img [ref=e494]
+              - text: "2"
+  - contentinfo [ref=e497]:
+    - navigation [ref=e498]:
+      - button "System theme" [ref=e501] [cursor=pointer]:
+        - img [ref=e502]
+        - text: System theme
+      - link "TOS" [ref=e507] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e508] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e509] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e510] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e511] [cursor=pointer]:
+        - /url: /
+        - img [ref=e512]
+      - link "Models" [ref=e526] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e527] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e528] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e529] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e530] [cursor=pointer]:
+        - /url: /docs

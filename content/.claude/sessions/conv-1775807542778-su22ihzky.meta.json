@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775807542778-su22ihzky",
+  "title": "这个和本体论是什么关系？我们之前的 @private/tech/agent-memory-infra...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775807542778,
+  "updatedAt": 1776396556215,
+  "lastResponseAt": 1776062261966,
+  "sessionId": "754ef89b-bf26-4050-b2f6-5e3c6c764427",
+  "sdkSessionId": "754ef89b-bf26-4050-b2f6-5e3c6c764427",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/参考说明/Temporal-KG-边类型定义的方法论思考.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 53455,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 53455,
+    "percentage": 27
+  }
+}

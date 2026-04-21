@@ -1,0 +1,305 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e59]:
+      - generic [ref=e61]:
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - button "Main" [ref=e64] [cursor=pointer]
+          - listitem [ref=e65]:
+            - button "Tasks" [ref=e66] [cursor=pointer]
+          - listitem [ref=e67]:
+            - button "Libraries" [ref=e68] [cursor=pointer]
+          - listitem [ref=e69]:
+            - button "Languages" [ref=e70] [cursor=pointer]
+          - listitem [ref=e71]:
+            - button "Licenses" [ref=e72] [cursor=pointer]
+          - listitem [ref=e73]:
+            - button "Other" [ref=e74] [cursor=pointer]
+        - generic [ref=e75]:
+          - generic [ref=e77]: Tasks
+          - generic [ref=e78]:
+            - link "Text Generation" [ref=e79] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-generation
+              - generic [ref=e80]:
+                - img [ref=e82]
+                - generic [ref=e86]: Text Generation
+            - link "Any-to-Any" [ref=e87] [cursor=pointer]:
+              - /url: /models?pipeline_tag=any-to-any
+              - generic [ref=e88]:
+                - img [ref=e90]
+                - generic [ref=e92]: Any-to-Any
+            - link "Image-Text-to-Text" [ref=e93] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-text-to-text
+              - generic [ref=e94]:
+                - img [ref=e96]
+                - generic [ref=e100]: Image-Text-to-Text
+            - link "Image-to-Text" [ref=e101] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-to-text
+              - generic [ref=e102]:
+                - img [ref=e104]
+                - generic [ref=e108]: Image-to-Text
+            - link "Image-to-Image" [ref=e109] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-to-image
+              - generic [ref=e110]:
+                - img [ref=e112]
+                - generic [ref=e115]: Image-to-Image
+            - link "Text-to-Image" [ref=e116] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-image
+              - generic [ref=e117]:
+                - img [ref=e119]
+                - generic [ref=e123]: Text-to-Image
+            - link "Text-to-Video" [ref=e124] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-video
+              - generic [ref=e125]:
+                - img [ref=e127]
+                - generic [ref=e129]: Text-to-Video
+            - link "Text-to-Speech" [ref=e130] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-speech
+              - generic [ref=e131]:
+                - img [ref=e133]
+                - generic [ref=e135]: Text-to-Speech
+            - button "+ 44" [ref=e136] [cursor=pointer]
+        - generic [ref=e137]:
+          - generic [ref=e139]: Parameters
+          - generic [ref=e140]:
+            - slider "< 1B 6B 12B 32B 128B > 500B < 1B > 500B" [ref=e141]: "0"
+            - slider [ref=e142]: "10"
+            - generic [ref=e143] [cursor=pointer]:
+              - generic [ref=e145]:
+                - button "< 1B" [ref=e146]
+                - button "6B" [ref=e148]
+                - button "12B" [ref=e151]
+                - button "32B" [ref=e154]
+                - button "128B" [ref=e157]
+                - button "> 500B" [ref=e160]
+              - button "< 1B" [ref=e163]:
+                - generic [ref=e165]: < 1B
+              - button "> 500B" [ref=e166]:
+                - generic [ref=e168]: "> 500B"
+        - generic [ref=e169]:
+          - generic [ref=e171]: Libraries
+          - generic [ref=e172]:
+            - link "PyTorch" [ref=e173] [cursor=pointer]:
+              - /url: /models?library=pytorch
+              - generic [ref=e174]:
+                - img [ref=e175]
+                - generic [ref=e178]: PyTorch
+            - link "TensorFlow" [ref=e179] [cursor=pointer]:
+              - /url: /models?library=tf
+              - generic [ref=e180]:
+                - img [ref=e181]
+                - generic [ref=e186]: TensorFlow
+            - link "JAX" [ref=e187] [cursor=pointer]:
+              - /url: /models?library=jax
+              - generic [ref=e188]:
+                - img [ref=e189]
+                - generic [ref=e228]: JAX
+            - link "Transformers" [ref=e229] [cursor=pointer]:
+              - /url: /models?library=transformers
+              - generic [ref=e230]:
+                - img [ref=e231]
+                - generic [ref=e242]: Transformers
+            - link "Diffusers" [ref=e243] [cursor=pointer]:
+              - /url: /models?library=diffusers
+              - generic [ref=e244]:
+                - img [ref=e245]
+                - generic [ref=e256]: Diffusers
+            - link "sentence-transformers" [ref=e257] [cursor=pointer]:
+              - /url: /models?library=sentence-transformers
+              - generic [ref=e258]:
+                - img [ref=e259]
+                - generic [ref=e270]: sentence-transformers
+            - link "Safetensors" [ref=e271] [cursor=pointer]:
+              - /url: /models?library=safetensors
+              - generic [ref=e272]:
+                - img [ref=e273]
+                - generic [ref=e275]: Safetensors
+            - link "ONNX" [ref=e276] [cursor=pointer]:
+              - /url: /models?library=onnx
+              - generic [ref=e277]:
+                - img [ref=e278]
+                - generic [ref=e288]: ONNX
+            - link "GGUF" [ref=e289] [cursor=pointer]:
+              - /url: /models?library=gguf
+              - generic [ref=e290]:
+                - img [ref=e291]
+                - generic [ref=e293]: GGUF
+            - link "Transformers.js" [ref=e294] [cursor=pointer]:
+              - /url: /models?library=transformers.js
+              - generic [ref=e295]:
+                - img [ref=e296]
+                - generic [ref=e299]: Transformers.js
+            - link "MLX" [ref=e300] [cursor=pointer]:
+              - /url: /models?library=mlx
+              - generic [ref=e301]:
+                - img [ref=e302]
+                - generic [ref=e307]: MLX
+            - button "+ 42" [ref=e308] [cursor=pointer]
+        - generic [ref=e309]:
+          - generic [ref=e311]: Apps
+          - generic [ref=e312]:
+            - link "vLLM" [ref=e313] [cursor=pointer]:
+              - /url: /models?other=vllm
+              - generic [ref=e314]:
+                - img [ref=e315]
+                - generic [ref=e320]: vLLM
+            - link "llama.cpp" [ref=e321] [cursor=pointer]:
+              - /url: /models?other=llama.cpp
+              - generic [ref=e322]:
+                - img [ref=e323]
+                - generic [ref=e325]: llama.cpp
+            - link "MLX LM" [ref=e326] [cursor=pointer]:
+              - /url: /models?other=mlx-lm
+              - generic [ref=e327]:
+                - img [ref=e328]
+                - generic [ref=e331]: MLX LM
+            - link "LM Studio" [ref=e332] [cursor=pointer]:
+              - /url: /models?other=lmstudio
+              - generic [ref=e333]:
+                - img [ref=e334]
+                - generic [ref=e340]: LM Studio
+            - link "Ollama" [ref=e341] [cursor=pointer]:
+              - /url: /models?other=ollama
+              - generic [ref=e342]:
+                - img [ref=e343]
+                - generic [ref=e349]: Ollama
+            - link "Jan" [ref=e350] [cursor=pointer]:
+              - /url: /models?other=jan
+              - generic [ref=e351]:
+                - img [ref=e352]
+                - generic [ref=e357]: Jan
+            - link "Draw Things" [ref=e358] [cursor=pointer]:
+              - /url: /models?other=drawthings
+              - generic [ref=e359]:
+                - img [ref=e360]
+                - generic [ref=e362]: Draw Things
+            - button "+ 7" [ref=e363] [cursor=pointer]
+        - generic [ref=e364]:
+          - generic [ref=e366]: Inference Providers
+          - generic [ref=e367]:
+            - link "Groq" [ref=e368] [cursor=pointer]:
+              - /url: /models?inference_provider=groq
+              - generic [ref=e369]:
+                - img [ref=e370]
+                - generic [ref=e373]: Groq
+            - link "Novita" [ref=e374] [cursor=pointer]:
+              - /url: /models?inference_provider=novita
+              - generic [ref=e375]:
+                - img [ref=e376]
+                - generic [ref=e379]: Novita
+            - link "Cerebras" [ref=e380] [cursor=pointer]:
+              - /url: /models?inference_provider=cerebras
+              - generic [ref=e381]:
+                - img [ref=e382]
+                - generic [ref=e385]: Cerebras
+            - link "SambaNova" [ref=e386] [cursor=pointer]:
+              - /url: /models?inference_provider=sambanova
+              - generic [ref=e387]:
+                - img [ref=e388]
+                - generic [ref=e392]: SambaNova
+            - link "Nscale" [ref=e393] [cursor=pointer]:
+              - /url: /models?inference_provider=nscale
+              - generic [ref=e394]:
+                - img [ref=e395]
+                - generic [ref=e400]: Nscale
+            - link "fal" [ref=e401] [cursor=pointer]:
+              - /url: /models?inference_provider=fal-ai
+              - generic [ref=e402]:
+                - img [ref=e403]
+                - generic [ref=e405]: fal
+            - link "Hyperbolic" [ref=e406] [cursor=pointer]:
+              - /url: /models?inference_provider=hyperbolic
+              - generic [ref=e407]:
+                - img [ref=e408]
+                - generic [ref=e414]: Hyperbolic
+            - link "Together AI" [ref=e415] [cursor=pointer]:
+              - /url: /models?inference_provider=together
+              - generic [ref=e416]:
+                - img [ref=e417]
+                - generic [ref=e422]: Together AI
+            - button "+ 10" [ref=e423] [cursor=pointer]
+      - generic [ref=e425]:
+        - generic [ref=e426]:
+          - heading "Models" [level=1] [ref=e427]
+          - generic [ref=e429]: "0"
+        - generic [ref=e431]:
+          - img [ref=e432]
+          - searchbox "Filter by name" [ref=e436]: zero-shot relation extraction
+        - button "Inference Available" [ref=e440] [cursor=pointer]:
+          - img [ref=e441]
+          - text: Inference Available
+        - 'button "Sort: Trending" [ref=e446] [cursor=pointer]':
+          - img [ref=e447]
+          - text: "Sort: Trending"
+  - contentinfo [ref=e450]:
+    - navigation [ref=e451]:
+      - button "System theme" [ref=e454] [cursor=pointer]:
+        - img [ref=e455]
+        - text: System theme
+      - link "TOS" [ref=e460] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e461] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e462] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e463] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e464] [cursor=pointer]:
+        - /url: /
+        - img [ref=e465]
+      - link "Models" [ref=e479] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e480] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e481] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e482] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e483] [cursor=pointer]:
+        - /url: /docs

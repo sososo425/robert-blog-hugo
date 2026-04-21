@@ -1,0 +1,20 @@
+{
+  "id": "conv-1776246881850-d4a8yzkxo",
+  "title": "想讨论下整个方案中 时序知识图谱粒度的问题，太细的话会导致图谱过于复杂，太粗的话又很难精准回溯和情景...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776246881850,
+  "updatedAt": 1776247708072,
+  "lastResponseAt": 1776247486174,
+  "sessionId": "66d64f95-c50e-45d5-9914-069ae0adf3c2",
+  "sdkSessionId": "66d64f95-c50e-45d5-9914-069ae0adf3c2",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/阶段一/AMS-语义记忆与情景记忆构建系统-完整方案设计.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

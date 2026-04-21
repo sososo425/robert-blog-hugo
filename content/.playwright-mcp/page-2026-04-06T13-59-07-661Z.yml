@@ -1,0 +1,780 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fjackboyla%2FGLiREL
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=jackboyla%2FGLiREL
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "jackboyla" [ref=e70] [cursor=pointer]:
+            - /url: /jackboyla
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "GLiREL" [ref=e73] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 22" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                - img [ref=e82]
+                - text: Fork
+                - generic "22" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                - img [ref=e88]
+                - text: Star
+                - generic "263 users starred this repository" [ref=e90]: "263"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 10" [ref=e99] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "10" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 2" [ref=e106] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "2" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "jackboyla/GLiREL" [level=1] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - button "main branch" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e161]: main
+                  - generic:
+                    - img
+              - generic [ref=e162]:
+                - link "Branches" [ref=e163] [cursor=pointer]:
+                  - /url: /jackboyla/GLiREL/branches
+                  - generic [ref=e164]:
+                    - generic:
+                      - img
+                    - generic [ref=e165]: Branches
+                - link "Tags" [ref=e166] [cursor=pointer]:
+                  - /url: /jackboyla/GLiREL/tags
+                  - generic [ref=e167]:
+                    - generic:
+                      - img
+                    - generic [ref=e168]: Tags
+            - generic [ref=e169]:
+              - generic [ref=e173]:
+                - img [ref=e175]
+                - combobox "Go to file" [ref=e177]
+              - button "Code" [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]:
+                  - generic:
+                    - img
+                  - generic [ref=e180]: Code
+                  - generic:
+                    - img
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - heading "Folders and files" [level=2] [ref=e183]
+              - table "Folders and files" [ref=e184]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e185]:
+                  - row "Latest commit History 180 Commits" [ref=e186]:
+                    - cell "Latest commit History 180 Commits" [ref=e187]:
+                      - generic [ref=e188]:
+                        - heading "Latest commit" [level=2] [ref=e189]
+                        - generic [ref=e192]:
+                          - heading "History" [level=2] [ref=e193]
+                          - link "180 Commits" [ref=e194] [cursor=pointer]:
+                            - /url: /jackboyla/GLiREL/commits/main/
+                            - generic [ref=e195]:
+                              - generic:
+                                - img
+                              - generic [ref=e196]: 180 Commits
+                  - row "configs, (Directory)" [ref=e197]:
+                    - cell "configs, (Directory)" [ref=e198]:
+                      - generic [ref=e199]:
+                        - img [ref=e200]
+                        - link "configs, (Directory)" [ref=e205] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/tree/main/configs
+                          - text: configs
+                    - cell [ref=e206]
+                    - cell [ref=e208]
+                  - row "data, (Directory)" [ref=e211]:
+                    - cell "data, (Directory)" [ref=e212]:
+                      - generic [ref=e213]:
+                        - img [ref=e214]
+                        - link "data, (Directory)" [ref=e219] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/tree/main/data
+                          - text: data
+                    - cell [ref=e220]
+                    - cell [ref=e222]
+                  - row "examples, (Directory)" [ref=e225]:
+                    - cell "examples, (Directory)" [ref=e226]:
+                      - generic [ref=e227]:
+                        - img [ref=e228]
+                        - link "examples, (Directory)" [ref=e233] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/tree/main/examples
+                          - text: examples
+                    - cell [ref=e234]
+                    - cell [ref=e236]
+                  - row "glirel, (Directory)" [ref=e239]:
+                    - cell "glirel, (Directory)" [ref=e240]:
+                      - generic [ref=e241]:
+                        - img [ref=e242]
+                        - link "glirel, (Directory)" [ref=e247] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/tree/main/glirel
+                          - text: glirel
+                    - cell [ref=e248]
+                    - cell [ref=e250]
+                  - row ".gitignore, (File)" [ref=e253]:
+                    - cell ".gitignore, (File)" [ref=e254]:
+                      - generic [ref=e255]:
+                        - img [ref=e256]
+                        - link ".gitignore, (File)" [ref=e261] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e262]
+                    - cell [ref=e264]
+                  - row "Makefile, (File)" [ref=e267]:
+                    - cell "Makefile, (File)" [ref=e268]:
+                      - generic [ref=e269]:
+                        - img [ref=e270]
+                        - link "Makefile, (File)" [ref=e275] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/Makefile
+                          - text: Makefile
+                    - cell [ref=e276]
+                    - cell [ref=e278]
+                  - row "README.md, (File)" [ref=e281]:
+                    - cell "README.md, (File)" [ref=e282]:
+                      - generic [ref=e283]:
+                        - img [ref=e284]
+                        - link "README.md, (File)" [ref=e289] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/README.md
+                          - text: README.md
+                    - cell [ref=e290]
+                    - cell [ref=e292]
+                  - row "RELEASE.md, (File)" [ref=e295]:
+                    - cell "RELEASE.md, (File)" [ref=e296]:
+                      - generic [ref=e297]:
+                        - img [ref=e298]
+                        - link "RELEASE.md, (File)" [ref=e303] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/RELEASE.md
+                          - text: RELEASE.md
+                    - cell [ref=e304]
+                    - cell [ref=e306]
+                  - row "demo.jpg, (File)" [ref=e309]:
+                    - cell "demo.jpg, (File)" [ref=e310]:
+                      - generic [ref=e311]:
+                        - img [ref=e312]
+                        - link "demo.jpg, (File)" [ref=e317] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/demo.jpg
+                          - text: demo.jpg
+                    - cell [ref=e318]
+                    - cell [ref=e320]
+                  - row "eval.py, (File)" [ref=e323]:
+                    - cell "eval.py, (File)" [ref=e324]:
+                      - generic [ref=e325]:
+                        - img [ref=e326]
+                        - link "eval.py, (File)" [ref=e331] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/eval.py
+                          - text: eval.py
+                    - cell [ref=e332]
+                    - cell [ref=e334]
+                  - row "eval_with_gpt.py, (File)" [ref=e337]:
+                    - cell "eval_with_gpt.py, (File)" [ref=e338]:
+                      - generic [ref=e339]:
+                        - img [ref=e340]
+                        - link "eval_with_gpt.py, (File)" [ref=e345] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/eval_with_gpt.py
+                          - text: eval_with_gpt.py
+                    - cell [ref=e346]
+                    - cell [ref=e348]
+                  - row "image.png, (File)" [ref=e351]:
+                    - cell "image.png, (File)" [ref=e352]:
+                      - generic [ref=e353]:
+                        - img [ref=e354]
+                        - link "image.png, (File)" [ref=e359] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/image.png
+                          - text: image.png
+                    - cell [ref=e360]
+                    - cell [ref=e362]
+                  - row "pyproject.toml, (File)" [ref=e365]:
+                    - cell "pyproject.toml, (File)" [ref=e366]:
+                      - generic [ref=e367]:
+                        - img [ref=e368]
+                        - link "pyproject.toml, (File)" [ref=e373] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - cell [ref=e374]
+                    - cell [ref=e376]
+                  - row "quickstart.py, (File)" [ref=e379]:
+                    - cell "quickstart.py, (File)" [ref=e380]:
+                      - generic [ref=e381]:
+                        - img [ref=e382]
+                        - link "quickstart.py, (File)" [ref=e387] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/quickstart.py
+                          - text: quickstart.py
+                    - cell [ref=e388]
+                    - cell [ref=e390]
+                  - row "quickstart_demo.ipynb, (File)" [ref=e393]:
+                    - cell "quickstart_demo.ipynb, (File)" [ref=e394]:
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - link "quickstart_demo.ipynb, (File)" [ref=e401] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/quickstart_demo.ipynb
+                          - text: quickstart_demo.ipynb
+                    - cell [ref=e402]
+                    - cell [ref=e404]
+                  - row "quickstart_demo_spacy.ipynb, (File)" [ref=e407]:
+                    - cell "quickstart_demo_spacy.ipynb, (File)" [ref=e408]:
+                      - generic [ref=e409]:
+                        - img [ref=e410]
+                        - link "quickstart_demo_spacy.ipynb, (File)" [ref=e415] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/quickstart_demo_spacy.ipynb
+                          - text: quickstart_demo_spacy.ipynb
+                    - cell [ref=e416]
+                    - cell [ref=e418]
+                  - row "requirements-dev.txt, (File)" [ref=e421]:
+                    - cell "requirements-dev.txt, (File)" [ref=e422]:
+                      - generic [ref=e423]:
+                        - img [ref=e424]
+                        - link "requirements-dev.txt, (File)" [ref=e429] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/requirements-dev.txt
+                          - text: requirements-dev.txt
+                    - cell [ref=e430]
+                    - cell [ref=e432]
+                  - row "requirements.txt, (File)" [ref=e435]:
+                    - cell "requirements.txt, (File)" [ref=e436]:
+                      - generic [ref=e437]:
+                        - img [ref=e438]
+                        - link "requirements.txt, (File)" [ref=e443] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/requirements.txt
+                          - text: requirements.txt
+                    - cell [ref=e444]
+                    - cell [ref=e446]
+                  - row "train.py, (File)" [ref=e449]:
+                    - cell "train.py, (File)" [ref=e450]:
+                      - generic [ref=e451]:
+                        - img [ref=e452]
+                        - link "train.py, (File)" [ref=e457] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/train.py
+                          - text: train.py
+                    - cell [ref=e458]
+                    - cell [ref=e460]
+                  - row "visualise.ipynb, (File)" [ref=e463]:
+                    - cell "visualise.ipynb, (File)" [ref=e464]:
+                      - generic [ref=e465]:
+                        - img [ref=e466]
+                        - link "visualise.ipynb, (File)" [ref=e471] [cursor=pointer]:
+                          - /url: /jackboyla/GLiREL/blob/main/visualise.ipynb
+                          - text: visualise.ipynb
+                    - cell [ref=e472]
+                    - cell [ref=e474]
+            - generic [ref=e478]:
+              - generic [ref=e479]:
+                - heading "Repository files navigation" [level=2] [ref=e480]
+                - navigation "Repository files" [ref=e481]:
+                  - list [ref=e482]:
+                    - listitem [ref=e483]:
+                      - link "README" [ref=e484] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e486]
+                        - generic [ref=e488]: README
+                - button "Outline" [ref=e489] [cursor=pointer]:
+                  - img [ref=e490]
+              - article [ref=e493]:
+                - generic [ref=e494]:
+                  - 'heading "GLiREL : Generalist and Lightweight model for Zero-Shot Relation Extraction" [level=1] [ref=e495]'
+                  - 'link "Permalink: GLiREL : Generalist and Lightweight model for Zero-Shot Relation Extraction" [ref=e496] [cursor=pointer]':
+                    - /url: "#glirel--generalist-and-lightweight-model-for-zero-shot-relation-extraction"
+                    - img [ref=e497]
+                - paragraph [ref=e499]:
+                  - text: GLiREL is a Relation Extraction model capable of classifying unseen relations given the entities within a text. This builds upon the excelent work done by Urchade Zaratiana, Nadi Tomeh, Pierre Holat, Thierry Charnois on the
+                  - link "GLiNER" [ref=e500] [cursor=pointer]:
+                    - /url: https://github.com/urchade/GLiNER
+                  - text: library which enables efficient zero-shot Named Entity Recognition.
+                - paragraph [ref=e501]:
+                  - link "Python Version" [ref=e502] [cursor=pointer]:
+                    - /url: https://pypi.org/project/glirel/
+                    - img "Python" [ref=e503]
+                    - img "Version" [ref=e504]
+                - paragraph [ref=e505]:
+                  - link "📄 GLiREL Paper" [ref=e506] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2501.03172
+                  - text: •
+                  - link "📄 GLiNER Paper" [ref=e507] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2311.08526
+                  - text: •
+                  - link "🤗 Demo" [ref=e508] [cursor=pointer]:
+                    - /url: https://huggingface.co/spaces/jackboyla/GLiREL
+                  - text: •
+                  - link "🤗 Available models" [ref=e509] [cursor=pointer]:
+                    - /url: https://huggingface.co/collections/jackboyla/glirel-6766b213a4c1fa8c4e982322
+                - separator [ref=e510]
+                - generic [ref=e511]:
+                  - heading "Installation" [level=1] [ref=e512]
+                  - 'link "Permalink: Installation" [ref=e513] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e514]
+                - generic [ref=e516]:
+                  - generic [ref=e517]: pip install glirel
+                  - button "Copy" [ref=e519] [cursor=pointer]:
+                    - img [ref=e520]
+                - generic [ref=e523]:
+                  - heading "Usage" [level=2] [ref=e524]
+                  - 'link "Permalink: Usage" [ref=e525] [cursor=pointer]':
+                    - /url: "#usage"
+                    - img [ref=e526]
+                - paragraph [ref=e528]:
+                  - text: Once you've downloaded the GLiREL library, you can import the
+                  - code [ref=e529]: GLiREL
+                  - text: class. You can then load this model using
+                  - code [ref=e530]: GLiREL.from_pretrained
+                  - text: and predict entities with
+                  - code [ref=e531]: predict_relations
+                  - text: .
+                - generic [ref=e532]:
+                  - generic [ref=e533]:
+                    - text: "from glirel import GLiREL import spacy model = GLiREL.from_pretrained(\"jackboyla/glirel-large-v0\") nlp = spacy.load('en_core_web_sm') text = 'Derren Nesbitt had a history of being cast in \"Doctor Who\", having played villainous warlord Tegana in the 1964 First Doctor serial \"Marco Polo\".' doc = nlp(text) tokens = [token.text for token in doc] labels = ['country of origin', 'licensed to broadcast to', 'father', 'followed by', 'characters'] ner = [[26, 27, 'PERSON', 'Marco Polo'], [22, 23, 'Q2989412', 'First Doctor']] # 'type' is not used -- it can be any string! relations = model.predict_relations(tokens, labels, threshold=0.0, ner=ner, top_k=1) print('Number of relations:', len(relations)) sorted_data_desc = sorted(relations, key=lambda x: x['score'], reverse=True) print("
+                    - generic [ref=e534]: "\"\\nDescending Order by Score:\""
+                    - text: ") for item in sorted_data_desc: print("
+                    - generic [ref=e535]:
+                      - text: f"
+                      - generic [ref=e536]: "{item['head_text']}"
+                      - text: "-->"
+                      - generic [ref=e537]: "{item['label']}"
+                      - text: "-->"
+                      - generic [ref=e538]: "{item['tail_text']}"
+                      - text: "| score:"
+                      - generic [ref=e539]: "{item['score']}"
+                      - text: "\""
+                    - text: )
+                  - button "Copy" [ref=e541] [cursor=pointer]:
+                    - img [ref=e542]
+                - generic [ref=e545]:
+                  - heading "Expected Output" [level=3] [ref=e546]
+                  - 'link "Permalink: Expected Output" [ref=e547] [cursor=pointer]':
+                    - /url: "#expected-output"
+                    - img [ref=e548]
+                - generic [ref=e550]:
+                  - code [ref=e552]: "Number of relations: 2 Descending Order by Score: {'head_pos': [26, 28], 'tail_pos': [22, 24], 'head_text': ['Marco', 'Polo'], 'tail_text': ['First', 'Doctor'], 'label': 'characters', 'score': 0.9923334121704102} {'head_pos': [22, 24], 'tail_pos': [26, 28], 'head_text': ['First', 'Doctor'], 'tail_text': ['Marco', 'Polo'], 'label': 'characters', 'score': 0.9915636777877808}"
+                  - button "Copy" [ref=e554] [cursor=pointer]:
+                    - img [ref=e555]
+                - generic [ref=e558]:
+                  - heading "Constrain labels" [level=2] [ref=e559]
+                  - 'link "Permalink: Constrain labels" [ref=e560] [cursor=pointer]':
+                    - /url: "#constrain-labels"
+                    - img [ref=e561]
+                - paragraph [ref=e563]: "In practice, we usually want to define the types of entities that can exist as a head and/or tail of a relationship. This is already implemented in GLiREL:"
+                - generic [ref=e564]:
+                  - generic [ref=e565]: "labels = {\"glirel_labels\": { 'co-founder': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"ORG\"]}, 'no relation': {}, # head and tail can be any entity type 'country of origin': {\"allowed_head\": [\"PERSON\", \"ORG\"], \"allowed_tail\": [\"LOC\", \"GPE\"]}, 'parent': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'located in or next to body of water': {\"allowed_head\": [\"LOC\", \"GPE\", \"FAC\"], \"allowed_tail\": [\"LOC\", \"GPE\"]}, 'spouse': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'child': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'founder': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"ORG\"]}, 'founded on date': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"DATE\"]}, 'headquartered in': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"LOC\", \"GPE\", \"FAC\"]}, 'acquired by': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"ORG\", \"PERSON\"]}, 'subsidiary of': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"ORG\", \"PERSON\"]}, } }"
+                  - button "Copy" [ref=e567] [cursor=pointer]:
+                    - img [ref=e568]
+                - generic [ref=e571]:
+                  - heading "Usage with spaCy" [level=2] [ref=e572]
+                  - 'link "Permalink: Usage with spaCy" [ref=e573] [cursor=pointer]':
+                    - /url: "#usage-with-spacy"
+                    - img [ref=e574]
+                - paragraph [ref=e576]: You can also load GliREL into a regular spaCy NLP pipeline. Here's an example using an English pipeline.
+                - generic [ref=e577]:
+                  - generic [ref=e578]:
+                    - text: "import spacy import glirel # Load a blank spaCy model or an existing one nlp = spacy.load('en_core_web_sm') # Add the GLiREL component to the pipeline nlp.add_pipe(\"glirel\", after=\"ner\") # Now you can use the pipeline with the GLiREL component text = \"Apple Inc. was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976. The company is headquartered in Cupertino, California.\" labels = {\"glirel_labels\": { 'co-founder': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"ORG\"]}, 'country of origin': {\"allowed_head\": [\"PERSON\", \"ORG\"], \"allowed_tail\": [\"LOC\", \"GPE\"]}, 'licensed to broadcast to': {\"allowed_head\": [\"ORG\"]}, 'no relation': {}, 'parent': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'followed by': {\"allowed_head\": [\"PERSON\", \"ORG\"], \"allowed_tail\": [\"PERSON\", \"ORG\"]}, 'located in or next to body of water': {\"allowed_head\": [\"LOC\", \"GPE\", \"FAC\"], \"allowed_tail\": [\"LOC\", \"GPE\"]}, 'spouse': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'child': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'founder': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"ORG\"]}, 'headquartered in': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"LOC\", \"GPE\", \"FAC\"]}, 'acquired by': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"ORG\", \"PERSON\"]}, 'subsidiary of': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"ORG\", \"PERSON\"]}, } } # Add the labels to the pipeline at inference time docs = list( nlp.pipe([(text, labels)], as_tuples=True) ) relations = docs[0][0]._.relations print('Number of relations:', len(relations)) sorted_data_desc = sorted(relations, key=lambda x: x['score'], reverse=True) print("
+                    - generic [ref=e579]: "\"\\nDescending Order by Score:\""
+                    - text: ") for item in sorted_data_desc: print("
+                    - generic [ref=e580]:
+                      - text: f"
+                      - generic [ref=e581]: "{item['head_text']}"
+                      - text: "-->"
+                      - generic [ref=e582]: "{item['label']}"
+                      - text: "-->"
+                      - generic [ref=e583]: "{item['tail_text']}"
+                      - text: "| score:"
+                      - generic [ref=e584]: "{item['score']}"
+                      - text: "\""
+                    - text: )
+                  - button "Copy" [ref=e586] [cursor=pointer]:
+                    - img [ref=e587]
+                - generic [ref=e590]:
+                  - heading "Expected Output" [level=3] [ref=e591]
+                  - 'link "Permalink: Expected Output" [ref=e592] [cursor=pointer]':
+                    - /url: "#expected-output-1"
+                    - img [ref=e593]
+                - generic [ref=e595]:
+                  - code [ref=e597]: "Number of relations: 5 Descending Order by Score: ['Apple', 'Inc.'] --> headquartered in --> ['California'] | score: 0.9854260683059692 ['Apple', 'Inc.'] --> headquartered in --> ['Cupertino'] | score: 0.9569844603538513 ['Steve', 'Wozniak'] --> co-founder --> ['Apple', 'Inc.'] | score: 0.09025496244430542 ['Steve', 'Jobs'] --> co-founder --> ['Apple', 'Inc.'] | score: 0.08805803954601288 ['Ronald', 'Wayne'] --> co-founder --> ['Apple', 'Inc.'] | score: 0.07996643334627151"
+                  - button "Copy" [ref=e599] [cursor=pointer]:
+                    - img [ref=e600]
+                - generic [ref=e603]:
+                  - heading "Example training data" [level=2] [ref=e604]
+                  - 'link "Permalink: Example training data" [ref=e605] [cursor=pointer]':
+                    - /url: "#example-training-data"
+                    - img [ref=e606]
+                - paragraph [ref=e608]:
+                  - text: NOTE that the entity indices are inclusive i.e
+                  - code [ref=e609]: "\"Binsey\""
+                  - text: is
+                  - code [ref=e610]: "[7, 7]"
+                  - text: . This differs from spaCy where the end index is exclusive (in this case spaCy would set the indices to
+                  - code [ref=e611]: "[7, 8]"
+                  - text: )
+                - paragraph [ref=e612]: "JSONL file:"
+                - generic [ref=e613]:
+                  - generic [ref=e614]:
+                    - text: "{ \"ner\": [ [7, 7,"
+                    - generic [ref=e615]: "\"Q4914513\""
+                    - text: ","
+                    - generic [ref=e616]: "\"Binsey\""
+                    - text: "], [11, 12,"
+                    - generic [ref=e617]: "\"Q19686\""
+                    - text: ","
+                    - generic [ref=e618]: "\"River Thames\""
+                    - text: "] ], \"relations\": [ { \"head\": {\"mention\":"
+                    - generic [ref=e619]: "\"Binsey\""
+                    - text: ", \"position\": [7, 7], \"type\":"
+                    - generic [ref=e620]: "\"LOC\""
+                    - text: "}, # 'type' is not used -- it can be any string! \"tail\": {\"mention\":"
+                    - generic [ref=e621]: "\"River Thames\""
+                    - text: ", \"position\": [11, 12], \"type\":"
+                    - generic [ref=e622]: "\"Q19686\""
+                    - text: "}, \"relation_text\":"
+                    - generic [ref=e623]: "\"located in or next to body of water\""
+                    - text: "} ], \"tokenized_text\": ["
+                    - generic [ref=e624]: "\"The\""
+                    - text: ","
+                    - generic [ref=e625]: "\"race\""
+                    - text: ","
+                    - generic [ref=e626]: "\"took\""
+                    - text: ","
+                    - generic [ref=e627]: "\"place\""
+                    - text: ","
+                    - generic [ref=e628]: "\"between\""
+                    - text: ","
+                    - generic [ref=e629]: "\"Godstow\""
+                    - text: ","
+                    - generic [ref=e630]: "\"and\""
+                    - text: ","
+                    - generic [ref=e631]: "\"Binsey\""
+                    - text: ","
+                    - generic [ref=e632]: "\"along\""
+                    - text: ","
+                    - generic [ref=e633]: "\"the\""
+                    - text: ","
+                    - generic [ref=e634]: "\"Upper\""
+                    - text: ","
+                    - generic [ref=e635]: "\"River\""
+                    - text: ","
+                    - generic [ref=e636]: "\"Thames\""
+                    - text: ","
+                    - generic [ref=e637]: "\".\""
+                    - text: "] }, { \"ner\": [ [9, 10,"
+                    - generic [ref=e638]: "\"Q4386693\""
+                    - text: ","
+                    - generic [ref=e639]: "\"Legislative Assembly\""
+                    - text: "], [1, 3,"
+                    - generic [ref=e640]: "\"Q1848835\""
+                    - text: ","
+                    - generic [ref=e641]: "\"Parliament of Victoria\""
+                    - text: "] ], \"relations\": [ { \"head\": {\"mention\":"
+                    - generic [ref=e642]: "\"Legislative Assembly\""
+                    - text: ", \"position\": [9, 10], \"type\":"
+                    - generic [ref=e643]: "\"Q4386693\""
+                    - text: "}, \"tail\": {\"mention\":"
+                    - generic [ref=e644]: "\"Parliament of Victoria\""
+                    - text: ", \"position\": [1, 3], \"type\":"
+                    - generic [ref=e645]: "\"Q1848835\""
+                    - text: "}, \"relation_text\":"
+                    - generic [ref=e646]: "\"part of\""
+                    - text: "} ], \"tokenized_text\": ["
+                    - generic [ref=e647]: "\"The\""
+                    - text: ","
+                    - generic [ref=e648]: "\"Parliament\""
+                    - text: ","
+                    - generic [ref=e649]: "\"of\""
+                    - text: ","
+                    - generic [ref=e650]: "\"Victoria\""
+                    - text: ","
+                    - generic [ref=e651]: "\"consists\""
+                    - text: ","
+                    - generic [ref=e652]: "\"of\""
+                    - text: ","
+                    - generic [ref=e653]: "\"the\""
+                    - text: ","
+                    - generic [ref=e654]: "\"lower\""
+                    - text: ","
+                    - generic [ref=e655]: "\"house\""
+                    - text: ","
+                    - generic [ref=e656]: "\"Legislative\""
+                    - text: ","
+                    - generic [ref=e657]: "\"Assembly\""
+                    - text: ","
+                    - generic [ref=e658]: "\",\""
+                    - text: ","
+                    - generic [ref=e659]: "\"the\""
+                    - text: ","
+                    - generic [ref=e660]: "\"upper\""
+                    - text: ","
+                    - generic [ref=e661]: "\"house\""
+                    - text: ","
+                    - generic [ref=e662]: "\"Legislative\""
+                    - text: ","
+                    - generic [ref=e663]: "\"Council\""
+                    - text: ","
+                    - generic [ref=e664]: "\"and\""
+                    - text: ","
+                    - generic [ref=e665]: "\"the\""
+                    - text: ","
+                    - generic [ref=e666]: "\"Queen\""
+                    - text: ","
+                    - generic [ref=e667]: "\"of\""
+                    - text: ","
+                    - generic [ref=e668]: "\"Australia\""
+                    - text: ","
+                    - generic [ref=e669]: "\".\""
+                    - text: "] }"
+                  - button "Copy" [ref=e671] [cursor=pointer]:
+                    - img [ref=e672]
+                - generic [ref=e675]:
+                  - heading "License" [level=2] [ref=e676]
+                  - 'link "Permalink: License" [ref=e677] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e678]
+                - paragraph [ref=e680]:
+                  - link "GLiREL" [ref=e681] [cursor=pointer]:
+                    - /url: https://github.com/jackboyla/GLiREL
+                  - text: by
+                  - link "Jack Boylan" [ref=e682] [cursor=pointer]:
+                    - /url: https://github.com/jackboyla
+                  - text: is licensed under
+                  - link "CC BY-NC-SA 4.0" [ref=e683] [cursor=pointer]:
+                    - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
+                  - text: .
+                - link "CC Logo BY Logo NC Logo SA Logo" [ref=e684] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
+                  - img "CC Logo" [ref=e685]
+                  - img "BY Logo" [ref=e686]
+                  - img "NC Logo" [ref=e687]
+                  - img "SA Logo" [ref=e688]
+                - generic [ref=e689]:
+                  - heading "Citation" [level=2] [ref=e690]
+                  - 'link "Permalink: Citation" [ref=e691] [cursor=pointer]':
+                    - /url: "#citation"
+                    - img [ref=e692]
+                - paragraph [ref=e694]: "If you use code or ideas from this project, please cite:"
+                - generic [ref=e695]:
+                  - code [ref=e697]: "@misc{boylan2025glirelgeneralistmodel, title={GLiREL -- Generalist Model for Zero-Shot Relation Extraction}, author={Jack Boylan and Chris Hokamp and Demian Gholipour Ghalandari}, year={2025}, eprint={2501.03172}, archivePrefix={arXiv}, primaryClass={cs.CL}, url={https://arxiv.org/abs/2501.03172}, }"
+                  - button "Copy" [ref=e699] [cursor=pointer]:
+                    - img [ref=e700]
+        - generic [ref=e706]:
+          - generic [ref=e709]:
+            - heading "About" [level=2] [ref=e710]
+            - paragraph [ref=e711]: Generalist and Lightweight Model for Relation Extraction (Extract any relationship types from text)
+            - generic [ref=e712]:
+              - img [ref=e713]
+              - link "arxiv.org/abs/2501.03172" [ref=e716] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2501.03172
+            - heading "Topics" [level=3] [ref=e717]
+            - generic [ref=e719]:
+              - link "natural-language-processing" [ref=e720] [cursor=pointer]:
+                - /url: /topics/natural-language-processing
+              - link "information-extraction" [ref=e721] [cursor=pointer]:
+                - /url: /topics/information-extraction
+              - link "bert" [ref=e722] [cursor=pointer]:
+                - /url: /topics/bert
+              - link "relation-extraction" [ref=e723] [cursor=pointer]:
+                - /url: /topics/relation-extraction
+              - link "zero-shot-learning" [ref=e724] [cursor=pointer]:
+                - /url: /topics/zero-shot-learning
+            - heading "Resources" [level=3] [ref=e725]
+            - link "Readme" [ref=e727] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e728]
+              - text: Readme
+            - link "Activity" [ref=e731] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/activity
+              - img [ref=e732]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e734]
+            - link "263 stars" [ref=e736] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/stargazers
+              - img [ref=e737]
+              - strong [ref=e739]: "263"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e740]
+            - link "8 watching" [ref=e742] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/watchers
+              - img [ref=e743]
+              - strong [ref=e745]: "8"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e746]
+            - link "22 forks" [ref=e748] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/forks
+              - img [ref=e749]
+              - strong [ref=e751]: "22"
+              - text: forks
+            - link "Report repository" [ref=e753] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fjackboyla%2FGLiREL&report=jackboyla+%28user%29
+          - generic [ref=e755]:
+            - heading "Releases 9" [level=2] [ref=e756]:
+              - link "Releases 9" [ref=e757] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/releases
+                - text: Releases
+                - generic "9" [ref=e758]
+            - link "v1.2.1 Latest Apr 11, 2025on Apr 11, 2025" [ref=e759] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/releases/tag/v1.2.1
+              - img [ref=e760]
+              - generic [ref=e762]:
+                - generic [ref=e763]:
+                  - generic [ref=e764]: v1.2.1
+                  - 'generic "Label: Latest" [ref=e765]': Latest
+                - generic [ref=e766]: Apr 11, 2025on Apr 11, 2025
+            - link "+ 8 releases" [ref=e768] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/releases
+          - generic "Loading latest packages" [ref=e771]:
+            - heading "Packages" [level=2] [ref=e772]:
+              - link "Packages" [ref=e773] [cursor=pointer]:
+                - /url: /users/jackboyla/packages?repo_name=GLiREL
+          - generic "Loading contributors" [ref=e785]:
+            - generic:
+              - heading "Contributors" [level=2] [ref=e786]:
+                - link "Contributors" [ref=e787] [cursor=pointer]:
+                  - /url: /jackboyla/GLiREL/graphs/contributors
+              - list [ref=e788]:
+                - listitem [ref=e789]
+                - listitem [ref=e791]
+                - listitem [ref=e793]
+          - generic [ref=e796]:
+            - heading "Languages" [level=2] [ref=e797]
+            - list [ref=e802]:
+              - listitem [ref=e803]:
+                - link "Python 51.8%" [ref=e804] [cursor=pointer]:
+                  - /url: /jackboyla/GLiREL/search?l=python
+                  - img [ref=e805]
+                  - generic [ref=e807]: Python
+                  - generic [ref=e808]: 51.8%
+              - listitem [ref=e809]:
+                - link "Jupyter Notebook 48.2%" [ref=e810] [cursor=pointer]:
+                  - /url: /jackboyla/GLiREL/search?l=jupyter-notebook
+                  - img [ref=e811]
+                  - generic [ref=e813]: Jupyter Notebook
+                  - generic [ref=e814]: 48.2%
+  - contentinfo [ref=e816]:
+    - heading "Footer" [level=2] [ref=e817]
+    - generic [ref=e818]:
+      - generic [ref=e819]:
+        - link "GitHub Homepage" [ref=e820] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e821]
+        - generic [ref=e823]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e824]:
+        - heading "Footer navigation" [level=3] [ref=e825]
+        - list "Footer navigation" [ref=e826]:
+          - listitem [ref=e827]:
+            - link "Terms" [ref=e828] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e829]:
+            - link "Privacy" [ref=e830] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e831]:
+            - link "Security" [ref=e832] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e833]:
+            - link "Status" [ref=e834] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e835]:
+            - link "Community" [ref=e836] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e837]:
+            - link "Docs" [ref=e838] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e839]:
+            - link "Contact" [ref=e840] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e841]:
+            - button "Manage cookies" [ref=e843] [cursor=pointer]
+          - listitem [ref=e844]:
+            - button "Do not share my personal information" [ref=e846] [cursor=pointer]

@@ -1,0 +1,20 @@
+{
+  "id": "conv-1776396838031-8tq4bom3h",
+  "title": "把这个方案设计文档，拆分/改写 成概要设计文档+分章节的详细设计文档。概要设计文档主要描述原理、思路...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776396838033,
+  "updatedAt": 1776739087085,
+  "lastResponseAt": 1776739087084,
+  "sessionId": "fdd2de4e-bcaf-4218-936f-69a3e9fe988b",
+  "sdkSessionId": "fdd2de4e-bcaf-4218-936f-69a3e9fe988b",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS记忆系统方案设计(WIP).md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

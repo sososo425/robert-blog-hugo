@@ -1,0 +1,1068 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e59]:
+      - generic [ref=e61]:
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - button "Main" [ref=e64] [cursor=pointer]
+          - listitem [ref=e65]:
+            - button "Tasks 1" [ref=e66] [cursor=pointer]:
+              - text: Tasks
+              - generic [ref=e67]: "1"
+          - listitem [ref=e68]:
+            - button "Libraries" [ref=e69] [cursor=pointer]
+          - listitem [ref=e70]:
+            - button "Languages" [ref=e71] [cursor=pointer]
+          - listitem [ref=e72]:
+            - button "Licenses" [ref=e73] [cursor=pointer]
+          - listitem [ref=e74]:
+            - button "Other" [ref=e75] [cursor=pointer]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - img
+              - textbox "Filter Tasks by name" [ref=e79]
+            - button "Reset Tasks" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+              - text: Reset Tasks
+          - generic [ref=e83]:
+            - generic [ref=e84]: Multimodal
+            - generic [ref=e85]:
+              - link "Audio-Text-to-Text" [ref=e86] [cursor=pointer]:
+                - /url: /models?pipeline_tag=audio-text-to-text
+                - generic [ref=e87]:
+                  - img [ref=e89]
+                  - generic [ref=e91]: Audio-Text-to-Text
+              - link "Image-Text-to-Text" [ref=e92] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-text-to-text
+                - generic [ref=e93]:
+                  - img [ref=e95]
+                  - generic [ref=e99]: Image-Text-to-Text
+              - link "Image-Text-to-Image" [ref=e100] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-text-to-image
+                - generic [ref=e101]:
+                  - img [ref=e103]
+                  - generic [ref=e105]: Image-Text-to-Image
+              - link "Image-Text-to-Video" [ref=e106] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-text-to-video
+                - generic [ref=e107]:
+                  - img [ref=e109]
+                  - generic [ref=e111]: Image-Text-to-Video
+              - link "Visual Question Answering" [ref=e112] [cursor=pointer]:
+                - /url: /models?pipeline_tag=visual-question-answering
+                - generic [ref=e113]:
+                  - img [ref=e115]
+                  - generic [ref=e118]: Visual Question Answering
+              - link "Document Question Answering" [ref=e119] [cursor=pointer]:
+                - /url: /models?pipeline_tag=document-question-answering
+                - generic [ref=e120]:
+                  - img [ref=e122]
+                  - generic [ref=e125]: Document Question Answering
+              - link "Video-Text-to-Text" [ref=e126] [cursor=pointer]:
+                - /url: /models?pipeline_tag=video-text-to-text
+                - generic [ref=e127]:
+                  - img [ref=e129]
+                  - generic [ref=e132]: Video-Text-to-Text
+              - link "Visual Document Retrieval" [ref=e133] [cursor=pointer]:
+                - /url: /models?pipeline_tag=visual-document-retrieval
+                - generic [ref=e134]:
+                  - img [ref=e136]
+                  - generic [ref=e140]: Visual Document Retrieval
+              - link "Any-to-Any" [ref=e141] [cursor=pointer]:
+                - /url: /models?pipeline_tag=any-to-any
+                - generic [ref=e142]:
+                  - img [ref=e144]
+                  - generic [ref=e146]: Any-to-Any
+          - generic [ref=e147]:
+            - generic [ref=e148]: Computer Vision
+            - generic [ref=e149]:
+              - link "Depth Estimation" [ref=e150] [cursor=pointer]:
+                - /url: /models?pipeline_tag=depth-estimation
+                - generic [ref=e151]:
+                  - img [ref=e153]
+                  - generic [ref=e155]: Depth Estimation
+              - link "Image Classification" [ref=e156] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-classification
+                - generic [ref=e157]:
+                  - img [ref=e159]
+                  - generic [ref=e163]: Image Classification
+              - link "Object Detection" [ref=e164] [cursor=pointer]:
+                - /url: /models?pipeline_tag=object-detection
+                - generic [ref=e165]:
+                  - img [ref=e167]
+                  - generic [ref=e171]: Object Detection
+              - link "Image Segmentation" [ref=e172] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-segmentation
+                - generic [ref=e173]:
+                  - img [ref=e175]
+                  - generic [ref=e178]: Image Segmentation
+              - link "Text-to-Image" [ref=e179] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-image
+                - generic [ref=e180]:
+                  - img [ref=e182]
+                  - generic [ref=e186]: Text-to-Image
+              - link "Image-to-Text" [ref=e187] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-to-text
+                - generic [ref=e188]:
+                  - img [ref=e190]
+                  - generic [ref=e194]: Image-to-Text
+              - link "Image-to-Image" [ref=e195] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-to-image
+                - generic [ref=e196]:
+                  - img [ref=e198]
+                  - generic [ref=e201]: Image-to-Image
+              - link "Image-to-Video" [ref=e202] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-to-video
+                - generic [ref=e203]:
+                  - img [ref=e205]
+                  - generic [ref=e207]: Image-to-Video
+              - link "Unconditional Image Generation" [ref=e208] [cursor=pointer]:
+                - /url: /models?pipeline_tag=unconditional-image-generation
+                - generic [ref=e209]:
+                  - img [ref=e211]
+                  - generic [ref=e214]: Unconditional Image Generation
+              - link "Video Classification" [ref=e215] [cursor=pointer]:
+                - /url: /models?pipeline_tag=video-classification
+                - generic [ref=e216]:
+                  - img [ref=e218]
+                  - generic [ref=e220]: Video Classification
+              - link "Text-to-Video" [ref=e221] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-video
+                - generic [ref=e222]:
+                  - img [ref=e224]
+                  - generic [ref=e226]: Text-to-Video
+              - link "Zero-Shot Image Classification" [ref=e227] [cursor=pointer]:
+                - /url: /models?pipeline_tag=zero-shot-image-classification
+                - generic [ref=e228]:
+                  - img [ref=e230]
+                  - generic [ref=e234]: Zero-Shot Image Classification
+              - link "Mask Generation" [ref=e235] [cursor=pointer]:
+                - /url: /models?pipeline_tag=mask-generation
+                - generic [ref=e236]:
+                  - img [ref=e238]
+                  - generic [ref=e240]: Mask Generation
+              - link "Zero-Shot Object Detection" [ref=e241] [cursor=pointer]:
+                - /url: /models?pipeline_tag=zero-shot-object-detection
+                - generic [ref=e242]:
+                  - img [ref=e244]
+                  - generic [ref=e247]: Zero-Shot Object Detection
+              - link "Text-to-3D" [ref=e248] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-3d
+                - generic [ref=e249]:
+                  - img [ref=e251]
+                  - generic [ref=e254]: Text-to-3D
+              - link "Image-to-3D" [ref=e255] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-to-3d
+                - generic [ref=e256]:
+                  - img [ref=e258]
+                  - generic [ref=e264]: Image-to-3D
+              - link "Image Feature Extraction" [ref=e265] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-feature-extraction
+                - generic [ref=e266]:
+                  - img [ref=e268]
+                  - generic [ref=e270]: Image Feature Extraction
+              - link "Keypoint Detection" [ref=e271] [cursor=pointer]:
+                - /url: /models?pipeline_tag=keypoint-detection
+                - generic [ref=e272]:
+                  - img [ref=e274]
+                  - generic [ref=e276]: Keypoint Detection
+              - link "Video-to-Video" [ref=e277] [cursor=pointer]:
+                - /url: /models?pipeline_tag=video-to-video
+                - generic [ref=e278]:
+                  - img [ref=e280]
+                  - generic [ref=e282]: Video-to-Video
+          - generic [ref=e283]:
+            - generic [ref=e284]: Natural Language Processing
+            - generic [ref=e285]:
+              - link "Text Classification" [ref=e286] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-classification
+                - generic [ref=e287]:
+                  - img [ref=e289]
+                  - generic [ref=e304]: Text Classification
+              - link "Token Classification" [ref=e305] [cursor=pointer]:
+                - /url: /models?pipeline_tag=token-classification
+                - generic [ref=e306]:
+                  - img [ref=e308]
+                  - generic [ref=e316]: Token Classification
+              - link "Table Question Answering" [ref=e317] [cursor=pointer]:
+                - /url: /models?pipeline_tag=table-question-answering
+                - generic [ref=e318]:
+                  - img [ref=e320]
+                  - generic [ref=e322]: Table Question Answering
+              - link "Question Answering" [ref=e323] [cursor=pointer]:
+                - /url: /models?pipeline_tag=question-answering
+                - generic [ref=e324]:
+                  - img [ref=e326]
+                  - generic [ref=e331]: Question Answering
+              - link "Zero-Shot Classification" [ref=e332] [cursor=pointer]:
+                - /url: /models?pipeline_tag=zero-shot-classification
+                - generic [ref=e333]:
+                  - img [ref=e335]
+                  - generic [ref=e347]: Zero-Shot Classification
+              - link "Translation" [ref=e348] [cursor=pointer]:
+                - /url: /models?pipeline_tag=translation
+                - generic [ref=e349]:
+                  - img [ref=e351]
+                  - generic [ref=e354]: Translation
+              - link "Summarization" [ref=e355] [cursor=pointer]:
+                - /url: /models?pipeline_tag=summarization
+                - generic [ref=e356]:
+                  - img [ref=e358]
+                  - generic [ref=e361]: Summarization
+              - link "Feature Extraction" [ref=e362] [cursor=pointer]:
+                - /url: /models?pipeline_tag=feature-extraction
+                - generic [ref=e363]:
+                  - img [ref=e365]
+                  - generic [ref=e367]: Feature Extraction
+              - link "Text Generation" [ref=e368] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-generation
+                - generic [ref=e369]:
+                  - img [ref=e371]
+                  - generic [ref=e375]: Text Generation
+              - link "Fill-Mask" [ref=e376] [cursor=pointer]:
+                - /url: /models?pipeline_tag=fill-mask
+                - generic [ref=e377]:
+                  - img [ref=e379]
+                  - generic [ref=e383]: Fill-Mask
+              - link "Sentence Similarity" [ref=e384] [cursor=pointer]:
+                - /url: /models?pipeline_tag=sentence-similarity
+                - generic [ref=e385]:
+                  - img [ref=e387]
+                  - generic [ref=e393]: Sentence Similarity
+              - link "Text Ranking" [ref=e394] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-ranking
+                - generic [ref=e395]:
+                  - img [ref=e397]
+                  - generic [ref=e402]: Text Ranking
+          - generic [ref=e403]:
+            - generic [ref=e404]: Audio
+            - generic [ref=e405]:
+              - link "Text-to-Speech" [ref=e406] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-speech
+                - generic [ref=e407]:
+                  - img [ref=e409]
+                  - generic [ref=e411]: Text-to-Speech
+              - link "Text-to-Audio" [ref=e412] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-audio
+                - generic [ref=e413]:
+                  - img [ref=e415]
+                  - generic [ref=e417]: Text-to-Audio
+              - link "Automatic Speech Recognition" [ref=e418] [cursor=pointer]:
+                - /url: /models?pipeline_tag=automatic-speech-recognition
+                - generic [ref=e419]:
+                  - img [ref=e421]
+                  - generic [ref=e423]: Automatic Speech Recognition
+              - link "Audio-to-Audio" [ref=e424] [cursor=pointer]:
+                - /url: /models?pipeline_tag=audio-to-audio
+                - generic [ref=e425]:
+                  - img [ref=e427]
+                  - generic [ref=e429]: Audio-to-Audio
+              - link "Audio Classification" [ref=e430] [cursor=pointer]:
+                - /url: /models?pipeline_tag=audio-classification
+                - generic [ref=e431]:
+                  - img [ref=e433]
+                  - generic [ref=e435]: Audio Classification
+              - link "Voice Activity Detection" [ref=e436] [cursor=pointer]:
+                - /url: /models?pipeline_tag=voice-activity-detection
+                - generic [ref=e437]:
+                  - img [ref=e439]
+                  - generic [ref=e441]: Voice Activity Detection
+          - generic [ref=e442]:
+            - generic [ref=e443]: Tabular
+            - generic [ref=e444]:
+              - link "Tabular Classification" [ref=e445] [cursor=pointer]:
+                - /url: /models?pipeline_tag=tabular-classification
+                - generic [ref=e446]:
+                  - img [ref=e448]
+                  - generic [ref=e450]: Tabular Classification
+              - link "Tabular Regression" [ref=e451] [cursor=pointer]:
+                - /url: /models?pipeline_tag=tabular-regression
+                - generic [ref=e452]:
+                  - img [ref=e454]
+                  - generic [ref=e456]: Tabular Regression
+              - link "Time Series Forecasting" [ref=e457] [cursor=pointer]:
+                - /url: /models?pipeline_tag=time-series-forecasting
+                - generic [ref=e458]:
+                  - img [ref=e460]
+                  - generic [ref=e462]: Time Series Forecasting
+          - generic [ref=e463]:
+            - generic [ref=e464]: Reinforcement Learning
+            - generic [ref=e465]:
+              - link "Reinforcement Learning" [ref=e466] [cursor=pointer]:
+                - /url: /models?pipeline_tag=reinforcement-learning
+                - generic [ref=e467]:
+                  - img [ref=e469]
+                  - generic [ref=e472]: Reinforcement Learning
+              - link "Robotics" [ref=e473] [cursor=pointer]:
+                - /url: /models?pipeline_tag=robotics
+                - generic [ref=e474]:
+                  - img [ref=e476]
+                  - generic [ref=e478]: Robotics
+          - generic [ref=e479]:
+            - generic [ref=e480]: Other
+            - link "Graph Machine Learning" [ref=e482] [cursor=pointer]:
+              - /url: /models?pipeline_tag=graph-ml
+              - generic [ref=e483]:
+                - img [ref=e485]
+                - generic [ref=e487]: Graph Machine Learning
+      - generic [ref=e488]:
+        - generic [ref=e489]:
+          - generic [ref=e490]:
+            - heading "Models" [level=1] [ref=e491]
+            - generic [ref=e493]: "468"
+          - generic [ref=e495]:
+            - img [ref=e496]
+            - searchbox "Filter by name" [ref=e500]
+          - button "Inference Available" [ref=e504] [cursor=pointer]:
+            - img [ref=e505]
+            - text: Inference Available
+          - 'button "Sort: Trending" [ref=e510] [cursor=pointer]':
+            - img [ref=e511]
+            - text: "Sort: Trending"
+        - generic [ref=e515]:
+          - article [ref=e516]:
+            - link "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli Zero-Shot Classification • 0.3B • Updated Jan 8, 2024 • 252k • • 302" [ref=e517] [cursor=pointer]:
+              - /url: /MoritzLaurer/mDeBERTa-v3-base-mnli-xnli
+              - generic [ref=e518]:
+                - generic "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli" [ref=e519]:
+                  - heading "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli" [level=4] [ref=e521]
+                - generic [ref=e522]:
+                  - img [ref=e523]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e535]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e536]':
+                    - img [ref=e537]
+                    - text: 0.3B
+                  - generic [ref=e539]: •
+                  - generic [ref=e540]:
+                    - text: Updated
+                    - time [ref=e541]: Jan 8, 2024
+                  - generic [ref=e542]: •
+                  - img [ref=e543]
+                  - text: 252k
+                  - generic [ref=e545]: •
+                  - generic "Inference Providers available" [ref=e546]:
+                    - img [ref=e547]
+                  - generic [ref=e549]: •
+                  - img [ref=e550]
+                  - text: "302"
+          - article [ref=e552]:
+            - link "facebook/bart-large-mnli Zero-Shot Classification • 0.4B • Updated Sep 5, 2023 • 2.83M • • 1.56k" [ref=e553] [cursor=pointer]:
+              - /url: /facebook/bart-large-mnli
+              - generic [ref=e554]:
+                - generic "facebook/bart-large-mnli" [ref=e555]:
+                  - heading "facebook/bart-large-mnli" [level=4] [ref=e557]
+                - generic [ref=e558]:
+                  - img [ref=e559]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e571]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e572]':
+                    - img [ref=e573]
+                    - text: 0.4B
+                  - generic [ref=e575]: •
+                  - generic [ref=e576]:
+                    - text: Updated
+                    - time [ref=e577]: Sep 5, 2023
+                  - generic [ref=e578]: •
+                  - img [ref=e579]
+                  - text: 2.83M
+                  - generic [ref=e581]: •
+                  - generic "Inference Providers available" [ref=e582]:
+                    - img [ref=e583]
+                  - generic [ref=e585]: •
+                  - img [ref=e586]
+                  - text: 1.56k
+          - article [ref=e588]:
+            - link "joeddav/xlm-roberta-large-xnli Zero-Shot Classification • 0.6B • Updated Oct 16, 2024 • 114k • • 288" [ref=e589] [cursor=pointer]:
+              - /url: /joeddav/xlm-roberta-large-xnli
+              - generic [ref=e590]:
+                - generic "joeddav/xlm-roberta-large-xnli" [ref=e591]:
+                  - heading "joeddav/xlm-roberta-large-xnli" [level=4] [ref=e593]
+                - generic [ref=e594]:
+                  - img [ref=e595]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e607]: •
+                  - 'generic "Number of parameters in the model: 0.6B" [ref=e608]':
+                    - img [ref=e609]
+                    - text: 0.6B
+                  - generic [ref=e611]: •
+                  - generic [ref=e612]:
+                    - text: Updated
+                    - time [ref=e613]: Oct 16, 2024
+                  - generic [ref=e614]: •
+                  - img [ref=e615]
+                  - text: 114k
+                  - generic [ref=e617]: •
+                  - generic "Inference Providers available" [ref=e618]:
+                    - img [ref=e619]
+                  - generic [ref=e621]: •
+                  - img [ref=e622]
+                  - text: "288"
+          - article [ref=e624]:
+            - link "MoritzLaurer/DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary Zero-Shot Classification • 70.8M • Updated Apr 11, 2024 • 54.7k • • 7" [ref=e625] [cursor=pointer]:
+              - /url: /MoritzLaurer/DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary
+              - generic [ref=e626]:
+                - generic "MoritzLaurer/DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary" [ref=e627]:
+                  - heading "MoritzLaurer/DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary" [level=4] [ref=e629]
+                - generic [ref=e630]:
+                  - img [ref=e631]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e643]: •
+                  - 'generic "Number of parameters in the model: 70.8M" [ref=e644]':
+                    - img [ref=e645]
+                    - text: 70.8M
+                  - generic [ref=e647]: •
+                  - generic [ref=e648]:
+                    - text: Updated
+                    - time [ref=e649]: Apr 11, 2024
+                  - generic [ref=e650]: •
+                  - img [ref=e651]
+                  - text: 54.7k
+                  - generic [ref=e653]: •
+                  - generic "Inference Providers available" [ref=e654]:
+                    - img [ref=e655]
+                  - generic [ref=e657]: •
+                  - img [ref=e658]
+                  - text: "7"
+          - article [ref=e660]:
+            - link "cross-encoder/nli-deberta-v3-small Zero-Shot Classification • 0.1B • Updated Apr 15, 2025 • 219k • 13" [ref=e661] [cursor=pointer]:
+              - /url: /cross-encoder/nli-deberta-v3-small
+              - generic [ref=e662]:
+                - generic "cross-encoder/nli-deberta-v3-small" [ref=e663]:
+                  - heading "cross-encoder/nli-deberta-v3-small" [level=4] [ref=e665]
+                - generic [ref=e666]:
+                  - img [ref=e667]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e679]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e680]':
+                    - img [ref=e681]
+                    - text: 0.1B
+                  - generic [ref=e683]: •
+                  - generic [ref=e684]:
+                    - text: Updated
+                    - time [ref=e685]: Apr 15, 2025
+                  - generic [ref=e686]: •
+                  - img [ref=e687]
+                  - text: 219k
+                  - generic [ref=e689]: •
+                  - img [ref=e690]
+                  - text: "13"
+          - article [ref=e692]:
+            - link "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli Zero-Shot Classification • 0.4B • Updated Apr 11, 2024 • 102k • • 121" [ref=e693] [cursor=pointer]:
+              - /url: /MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli
+              - generic [ref=e694]:
+                - generic "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli" [ref=e695]:
+                  - heading "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli" [level=4] [ref=e697]
+                - generic [ref=e698]:
+                  - img [ref=e699]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e711]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e712]':
+                    - img [ref=e713]
+                    - text: 0.4B
+                  - generic [ref=e715]: •
+                  - generic [ref=e716]:
+                    - text: Updated
+                    - time [ref=e717]: Apr 11, 2024
+                  - generic [ref=e718]: •
+                  - img [ref=e719]
+                  - text: 102k
+                  - generic [ref=e721]: •
+                  - generic "Inference Providers available" [ref=e722]:
+                    - img [ref=e723]
+                  - generic [ref=e725]: •
+                  - img [ref=e726]
+                  - text: "121"
+          - article [ref=e728]:
+            - link "MoritzLaurer/bge-m3-zeroshot-v2.0-c Zero-Shot Classification • 0.6B • Updated Apr 4, 2024 • 112 • 14" [ref=e729] [cursor=pointer]:
+              - /url: /MoritzLaurer/bge-m3-zeroshot-v2.0-c
+              - generic [ref=e730]:
+                - generic "MoritzLaurer/bge-m3-zeroshot-v2.0-c" [ref=e731]:
+                  - heading "MoritzLaurer/bge-m3-zeroshot-v2.0-c" [level=4] [ref=e733]
+                - generic [ref=e734]:
+                  - img [ref=e735]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e747]: •
+                  - 'generic "Number of parameters in the model: 0.6B" [ref=e748]':
+                    - img [ref=e749]
+                    - text: 0.6B
+                  - generic [ref=e751]: •
+                  - generic [ref=e752]:
+                    - text: Updated
+                    - time [ref=e753]: Apr 4, 2024
+                  - generic [ref=e754]: •
+                  - img [ref=e755]
+                  - text: "112"
+                  - generic [ref=e757]: •
+                  - img [ref=e758]
+                  - text: "14"
+          - article [ref=e760]:
+            - link "ashrafulparan/llama-3-finetuned-for-subjectivity-english-lora Zero-Shot Classification • Updated May 25, 2024 • 23 • 1" [ref=e761] [cursor=pointer]:
+              - /url: /ashrafulparan/llama-3-finetuned-for-subjectivity-english-lora
+              - generic [ref=e762]:
+                - generic "ashrafulparan/llama-3-finetuned-for-subjectivity-english-lora" [ref=e763]:
+                  - heading "ashrafulparan/llama-3-finetuned-for-subjectivity-english-lora" [level=4] [ref=e765]
+                - generic [ref=e766]:
+                  - img [ref=e767]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e779]: •
+                  - generic [ref=e780]:
+                    - text: Updated
+                    - time [ref=e781]: May 25, 2024
+                  - generic [ref=e782]: •
+                  - img [ref=e783]
+                  - text: "23"
+                  - generic [ref=e785]: •
+                  - img [ref=e786]
+                  - text: "1"
+          - article [ref=e788]:
+            - link "harshag11/zero-shot-wikidata-classifier Zero-Shot Classification • 0.4B • Updated Jun 13, 2025 • 18 • 1" [ref=e789] [cursor=pointer]:
+              - /url: /harshag11/zero-shot-wikidata-classifier
+              - generic [ref=e790]:
+                - generic "harshag11/zero-shot-wikidata-classifier" [ref=e791]:
+                  - heading "harshag11/zero-shot-wikidata-classifier" [level=4] [ref=e793]
+                - generic [ref=e794]:
+                  - img [ref=e795]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e807]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e808]':
+                    - img [ref=e809]
+                    - text: 0.4B
+                  - generic [ref=e811]: •
+                  - generic [ref=e812]:
+                    - text: Updated
+                    - time [ref=e813]: Jun 13, 2025
+                  - generic [ref=e814]: •
+                  - img [ref=e815]
+                  - text: "18"
+                  - generic [ref=e817]: •
+                  - img [ref=e818]
+                  - text: "1"
+          - article [ref=e820]:
+            - link "UrbixAI/Urbix Zero-Shot Classification • Updated Feb 22 • 2" [ref=e821] [cursor=pointer]:
+              - /url: /UrbixAI/Urbix
+              - generic [ref=e822]:
+                - generic "UrbixAI/Urbix" [ref=e823]:
+                  - heading "UrbixAI/Urbix" [level=4] [ref=e825]
+                - generic [ref=e826]:
+                  - img [ref=e827]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e839]: •
+                  - generic [ref=e840]:
+                    - text: Updated
+                    - time [ref=e841]: Feb 22
+                  - generic [ref=e842]: •
+                  - img [ref=e843]
+                  - text: "2"
+          - article [ref=e845]:
+            - link "hivetrace/gliner-guard-uniencoder Zero-Shot Classification • Updated 20 days ago • 1.77k • 5" [ref=e846] [cursor=pointer]:
+              - /url: /hivetrace/gliner-guard-uniencoder
+              - generic [ref=e847]:
+                - generic "hivetrace/gliner-guard-uniencoder" [ref=e848]:
+                  - heading "hivetrace/gliner-guard-uniencoder" [level=4] [ref=e850]
+                - generic [ref=e851]:
+                  - img [ref=e852]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e864]: •
+                  - generic [ref=e865]:
+                    - text: Updated
+                    - time [ref=e866]: 20 days ago
+                  - generic [ref=e867]: •
+                  - img [ref=e868]
+                  - text: 1.77k
+                  - generic [ref=e870]: •
+                  - img [ref=e871]
+                  - text: "5"
+          - article [ref=e873]:
+            - link "hivetrace/gliner-guard-biencoder Zero-Shot Classification • Updated 20 days ago • 368 • 3" [ref=e874] [cursor=pointer]:
+              - /url: /hivetrace/gliner-guard-biencoder
+              - generic [ref=e875]:
+                - generic "hivetrace/gliner-guard-biencoder" [ref=e876]:
+                  - heading "hivetrace/gliner-guard-biencoder" [level=4] [ref=e878]
+                - generic [ref=e879]:
+                  - img [ref=e880]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e892]: •
+                  - generic [ref=e893]:
+                    - text: Updated
+                    - time [ref=e894]: 20 days ago
+                  - generic [ref=e895]: •
+                  - img [ref=e896]
+                  - text: "368"
+                  - generic [ref=e898]: •
+                  - img [ref=e899]
+                  - text: "3"
+          - article [ref=e901]:
+            - link "schift-io/schift-nli Zero-Shot Classification • Updated 6 days ago • 27 • 1" [ref=e902] [cursor=pointer]:
+              - /url: /schift-io/schift-nli
+              - generic [ref=e903]:
+                - generic "schift-io/schift-nli" [ref=e904]:
+                  - heading "schift-io/schift-nli" [level=4] [ref=e906]
+                - generic [ref=e907]:
+                  - img [ref=e908]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e920]: •
+                  - generic [ref=e921]:
+                    - text: Updated
+                    - time [ref=e922]: 6 days ago
+                  - generic [ref=e923]: •
+                  - img [ref=e924]
+                  - text: "27"
+                  - generic [ref=e926]: •
+                  - img [ref=e927]
+                  - text: "1"
+          - article [ref=e929]:
+            - link "hivetrace/gliner-guard-omni Zero-Shot Classification • Updated 1 day ago • 37 • 1" [ref=e930] [cursor=pointer]:
+              - /url: /hivetrace/gliner-guard-omni
+              - generic [ref=e931]:
+                - generic "hivetrace/gliner-guard-omni" [ref=e932]:
+                  - heading "hivetrace/gliner-guard-omni" [level=4] [ref=e934]
+                - generic [ref=e935]:
+                  - img [ref=e936]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e948]: •
+                  - generic [ref=e949]:
+                    - text: Updated
+                    - time [ref=e950]: 1 day ago
+                  - generic [ref=e951]: •
+                  - img [ref=e952]
+                  - text: "37"
+                  - generic [ref=e954]: •
+                  - img [ref=e955]
+                  - text: "1"
+          - article [ref=e957]:
+            - link "ClaudeYang/awesome_fb_model Zero-Shot Classification • Updated Nov 15, 2021 • 16 • 1" [ref=e958] [cursor=pointer]:
+              - /url: /ClaudeYang/awesome_fb_model
+              - generic [ref=e959]:
+                - generic "ClaudeYang/awesome_fb_model" [ref=e960]:
+                  - heading "ClaudeYang/awesome_fb_model" [level=4] [ref=e962]
+                - generic [ref=e963]:
+                  - img [ref=e964]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e976]: •
+                  - generic [ref=e977]:
+                    - text: Updated
+                    - time [ref=e978]: Nov 15, 2021
+                  - generic [ref=e979]: •
+                  - img [ref=e980]
+                  - text: "16"
+                  - generic [ref=e982]: •
+                  - img [ref=e983]
+                  - text: "1"
+          - article [ref=e985]:
+            - link "Jiva/xlm-roberta-large-it-mnli Zero-Shot Classification • 0.6B • Updated May 22, 2023 • 810 • 8" [ref=e986] [cursor=pointer]:
+              - /url: /Jiva/xlm-roberta-large-it-mnli
+              - generic [ref=e987]:
+                - generic "Jiva/xlm-roberta-large-it-mnli" [ref=e988]:
+                  - heading "Jiva/xlm-roberta-large-it-mnli" [level=4] [ref=e990]
+                - generic [ref=e991]:
+                  - img [ref=e992]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1004]: •
+                  - 'generic "Number of parameters in the model: 0.6B" [ref=e1005]':
+                    - img [ref=e1006]
+                    - text: 0.6B
+                  - generic [ref=e1008]: •
+                  - generic [ref=e1009]:
+                    - text: Updated
+                    - time [ref=e1010]: May 22, 2023
+                  - generic [ref=e1011]: •
+                  - img [ref=e1012]
+                  - text: "810"
+                  - generic [ref=e1014]: •
+                  - img [ref=e1015]
+                  - text: "8"
+          - article [ref=e1017]:
+            - link "KheireddineDaouadi/ZeroAraElectra Zero-Shot Classification • Updated Feb 26, 2022 • 31" [ref=e1018] [cursor=pointer]:
+              - /url: /KheireddineDaouadi/ZeroAraElectra
+              - generic [ref=e1019]:
+                - generic "KheireddineDaouadi/ZeroAraElectra" [ref=e1020]:
+                  - heading "KheireddineDaouadi/ZeroAraElectra" [level=4] [ref=e1022]
+                - generic [ref=e1023]:
+                  - img [ref=e1024]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1036]: •
+                  - generic [ref=e1037]:
+                    - text: Updated
+                    - time [ref=e1038]: Feb 26, 2022
+                  - generic [ref=e1039]: •
+                  - img [ref=e1040]
+                  - text: "31"
+          - article [ref=e1042]:
+            - link "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli Zero-Shot Classification • 0.2B • Updated Apr 11, 2024 • 55.3k • • 223" [ref=e1043] [cursor=pointer]:
+              - /url: /MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli
+              - generic [ref=e1044]:
+                - generic "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli" [ref=e1045]:
+                  - heading "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli" [level=4] [ref=e1047]
+                - generic [ref=e1048]:
+                  - img [ref=e1049]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1061]: •
+                  - 'generic "Number of parameters in the model: 0.2B" [ref=e1062]':
+                    - img [ref=e1063]
+                    - text: 0.2B
+                  - generic [ref=e1065]: •
+                  - generic [ref=e1066]:
+                    - text: Updated
+                    - time [ref=e1067]: Apr 11, 2024
+                  - generic [ref=e1068]: •
+                  - img [ref=e1069]
+                  - text: 55.3k
+                  - generic [ref=e1071]: •
+                  - generic "Inference Providers available" [ref=e1072]:
+                    - img [ref=e1073]
+                  - generic [ref=e1075]: •
+                  - img [ref=e1076]
+                  - text: "223"
+          - article [ref=e1078]:
+            - link "MoritzLaurer/DeBERTa-v3-base-mnli Zero-Shot Classification • 0.2B • Updated Mar 20, 2023 • 3.33k • • 8" [ref=e1079] [cursor=pointer]:
+              - /url: /MoritzLaurer/DeBERTa-v3-base-mnli
+              - generic [ref=e1080]:
+                - generic "MoritzLaurer/DeBERTa-v3-base-mnli" [ref=e1081]:
+                  - heading "MoritzLaurer/DeBERTa-v3-base-mnli" [level=4] [ref=e1083]
+                - generic [ref=e1084]:
+                  - img [ref=e1085]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1097]: •
+                  - 'generic "Number of parameters in the model: 0.2B" [ref=e1098]':
+                    - img [ref=e1099]
+                    - text: 0.2B
+                  - generic [ref=e1101]: •
+                  - generic [ref=e1102]:
+                    - text: Updated
+                    - time [ref=e1103]: Mar 20, 2023
+                  - generic [ref=e1104]: •
+                  - img [ref=e1105]
+                  - text: 3.33k
+                  - generic [ref=e1107]: •
+                  - generic "Inference Providers available" [ref=e1108]:
+                    - img [ref=e1109]
+                  - generic [ref=e1111]: •
+                  - img [ref=e1112]
+                  - text: "8"
+          - article [ref=e1114]:
+            - link "MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary Zero-Shot Classification • 12.8M • Updated Jan 16, 2025 • 75 • 3" [ref=e1115] [cursor=pointer]:
+              - /url: /MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary
+              - generic [ref=e1116]:
+                - generic "MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary" [ref=e1117]:
+                  - heading "MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary" [level=4] [ref=e1119]
+                - generic [ref=e1120]:
+                  - img [ref=e1121]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1133]: •
+                  - 'generic "Number of parameters in the model: 12.8M" [ref=e1134]':
+                    - img [ref=e1135]
+                    - text: 12.8M
+                  - generic [ref=e1137]: •
+                  - generic [ref=e1138]:
+                    - text: Updated
+                    - time [ref=e1139]: Jan 16, 2025
+                  - generic [ref=e1140]: •
+                  - img [ref=e1141]
+                  - text: "75"
+                  - generic [ref=e1143]: •
+                  - img [ref=e1144]
+                  - text: "3"
+          - article [ref=e1146]:
+            - link "NDugar/1epochv3 Zero-Shot Classification • Updated Nov 30, 2021 • 6" [ref=e1147] [cursor=pointer]:
+              - /url: /NDugar/1epochv3
+              - generic [ref=e1148]:
+                - generic "NDugar/1epochv3" [ref=e1149]:
+                  - heading "NDugar/1epochv3" [level=4] [ref=e1151]
+                - generic [ref=e1152]:
+                  - img [ref=e1153]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1165]: •
+                  - generic [ref=e1166]:
+                    - text: Updated
+                    - time [ref=e1167]: Nov 30, 2021
+                  - generic [ref=e1168]: •
+                  - img [ref=e1169]
+                  - text: "6"
+          - article [ref=e1171]:
+            - link "NDugar/2epochv3mlni Zero-Shot Classification • 0.4B • Updated Feb 19, 2025 • 23" [ref=e1172] [cursor=pointer]:
+              - /url: /NDugar/2epochv3mlni
+              - generic [ref=e1173]:
+                - generic "NDugar/2epochv3mlni" [ref=e1174]:
+                  - heading "NDugar/2epochv3mlni" [level=4] [ref=e1176]
+                - generic [ref=e1177]:
+                  - img [ref=e1178]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1190]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e1191]':
+                    - img [ref=e1192]
+                    - text: 0.4B
+                  - generic [ref=e1194]: •
+                  - generic [ref=e1195]:
+                    - text: Updated
+                    - time [ref=e1196]: Feb 19, 2025
+                  - generic [ref=e1197]: •
+                  - img [ref=e1198]
+                  - text: "23"
+          - article [ref=e1200]:
+            - link "NDugar/3epoch-3large Zero-Shot Classification • Updated Nov 30, 2021 • 17 • 2" [ref=e1201] [cursor=pointer]:
+              - /url: /NDugar/3epoch-3large
+              - generic [ref=e1202]:
+                - generic "NDugar/3epoch-3large" [ref=e1203]:
+                  - heading "NDugar/3epoch-3large" [level=4] [ref=e1205]
+                - generic [ref=e1206]:
+                  - img [ref=e1207]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1219]: •
+                  - generic [ref=e1220]:
+                    - text: Updated
+                    - time [ref=e1221]: Nov 30, 2021
+                  - generic [ref=e1222]: •
+                  - img [ref=e1223]
+                  - text: "17"
+                  - generic [ref=e1225]: •
+                  - img [ref=e1226]
+                  - text: "2"
+          - article [ref=e1228]:
+            - link "NDugar/ZSD-microsoft-v2xxlmnli Zero-Shot Classification • 2B • Updated Nov 22, 2023 • 14 • 3" [ref=e1229] [cursor=pointer]:
+              - /url: /NDugar/ZSD-microsoft-v2xxlmnli
+              - generic [ref=e1230]:
+                - generic "NDugar/ZSD-microsoft-v2xxlmnli" [ref=e1231]:
+                  - heading "NDugar/ZSD-microsoft-v2xxlmnli" [level=4] [ref=e1233]
+                - generic [ref=e1234]:
+                  - img [ref=e1235]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1247]: •
+                  - 'generic "Number of parameters in the model: 2B" [ref=e1248]':
+                    - img [ref=e1249]
+                    - text: 2B
+                  - generic [ref=e1251]: •
+                  - generic [ref=e1252]:
+                    - text: Updated
+                    - time [ref=e1253]: Nov 22, 2023
+                  - generic [ref=e1254]: •
+                  - img [ref=e1255]
+                  - text: "14"
+                  - generic [ref=e1257]: •
+                  - img [ref=e1258]
+                  - text: "3"
+          - article [ref=e1260]:
+            - link "NDugar/deberta-v2-xlarge-mnli Zero-Shot Classification • 0.9B • Updated Feb 19, 2025 • 27" [ref=e1261] [cursor=pointer]:
+              - /url: /NDugar/deberta-v2-xlarge-mnli
+              - generic [ref=e1262]:
+                - generic "NDugar/deberta-v2-xlarge-mnli" [ref=e1263]:
+                  - heading "NDugar/deberta-v2-xlarge-mnli" [level=4] [ref=e1265]
+                - generic [ref=e1266]:
+                  - img [ref=e1267]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1279]: •
+                  - 'generic "Number of parameters in the model: 0.9B" [ref=e1280]':
+                    - img [ref=e1281]
+                    - text: 0.9B
+                  - generic [ref=e1283]: •
+                  - generic [ref=e1284]:
+                    - text: Updated
+                    - time [ref=e1285]: Feb 19, 2025
+                  - generic [ref=e1286]: •
+                  - img [ref=e1287]
+                  - text: "27"
+          - article [ref=e1289]:
+            - link "NDugar/debertav3-mnli-snli-anli Zero-Shot Classification • 0.4B • Updated May 1, 2023 • 29 • 3" [ref=e1290] [cursor=pointer]:
+              - /url: /NDugar/debertav3-mnli-snli-anli
+              - generic [ref=e1291]:
+                - generic "NDugar/debertav3-mnli-snli-anli" [ref=e1292]:
+                  - heading "NDugar/debertav3-mnli-snli-anli" [level=4] [ref=e1294]
+                - generic [ref=e1295]:
+                  - img [ref=e1296]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1308]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e1309]':
+                    - img [ref=e1310]
+                    - text: 0.4B
+                  - generic [ref=e1312]: •
+                  - generic [ref=e1313]:
+                    - text: Updated
+                    - time [ref=e1314]: May 1, 2023
+                  - generic [ref=e1315]: •
+                  - img [ref=e1316]
+                  - text: "29"
+                  - generic [ref=e1318]: •
+                  - img [ref=e1319]
+                  - text: "3"
+          - article [ref=e1321]:
+            - link "NDugar/v2xl-again-mnli Zero-Shot Classification • 0.9B • Updated Feb 19, 2025 • 12" [ref=e1322] [cursor=pointer]:
+              - /url: /NDugar/v2xl-again-mnli
+              - generic [ref=e1323]:
+                - generic "NDugar/v2xl-again-mnli" [ref=e1324]:
+                  - heading "NDugar/v2xl-again-mnli" [level=4] [ref=e1326]
+                - generic [ref=e1327]:
+                  - img [ref=e1328]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1340]: •
+                  - 'generic "Number of parameters in the model: 0.9B" [ref=e1341]':
+                    - img [ref=e1342]
+                    - text: 0.9B
+                  - generic [ref=e1344]: •
+                  - generic [ref=e1345]:
+                    - text: Updated
+                    - time [ref=e1346]: Feb 19, 2025
+                  - generic [ref=e1347]: •
+                  - img [ref=e1348]
+                  - text: "12"
+          - article [ref=e1350]:
+            - link "NDugar/v3-Large-mnli Zero-Shot Classification • 0.4B • Updated Nov 22, 2023 • 13 • 1" [ref=e1351] [cursor=pointer]:
+              - /url: /NDugar/v3-Large-mnli
+              - generic [ref=e1352]:
+                - generic "NDugar/v3-Large-mnli" [ref=e1353]:
+                  - heading "NDugar/v3-Large-mnli" [level=4] [ref=e1355]
+                - generic [ref=e1356]:
+                  - img [ref=e1357]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1369]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e1370]':
+                    - img [ref=e1371]
+                    - text: 0.4B
+                  - generic [ref=e1373]: •
+                  - generic [ref=e1374]:
+                    - text: Updated
+                    - time [ref=e1375]: Nov 22, 2023
+                  - generic [ref=e1376]: •
+                  - img [ref=e1377]
+                  - text: "13"
+                  - generic [ref=e1379]: •
+                  - img [ref=e1380]
+                  - text: "1"
+          - article [ref=e1382]:
+            - link "NDugar/v3large-1epoch Zero-Shot Classification • 0.4B • Updated Nov 22, 2023 • 16" [ref=e1383] [cursor=pointer]:
+              - /url: /NDugar/v3large-1epoch
+              - generic [ref=e1384]:
+                - generic "NDugar/v3large-1epoch" [ref=e1385]:
+                  - heading "NDugar/v3large-1epoch" [level=4] [ref=e1387]
+                - generic [ref=e1388]:
+                  - img [ref=e1389]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1401]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e1402]':
+                    - img [ref=e1403]
+                    - text: 0.4B
+                  - generic [ref=e1405]: •
+                  - generic [ref=e1406]:
+                    - text: Updated
+                    - time [ref=e1407]: Nov 22, 2023
+                  - generic [ref=e1408]: •
+                  - img [ref=e1409]
+                  - text: "16"
+          - article [ref=e1411]:
+            - link "NDugar/v3large-2epoch Zero-Shot Classification • 0.4B • Updated Dec 6, 2025 • 21" [ref=e1412] [cursor=pointer]:
+              - /url: /NDugar/v3large-2epoch
+              - generic [ref=e1413]:
+                - generic "NDugar/v3large-2epoch" [ref=e1414]:
+                  - heading "NDugar/v3large-2epoch" [level=4] [ref=e1416]
+                - generic [ref=e1417]:
+                  - img [ref=e1418]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1430]: •
+                  - 'generic "Number of parameters in the model: 0.4B" [ref=e1431]':
+                    - img [ref=e1432]
+                    - text: 0.4B
+                  - generic [ref=e1434]: •
+                  - generic [ref=e1435]:
+                    - text: Updated
+                    - time [ref=e1436]: Dec 6, 2025
+                  - generic [ref=e1437]: •
+                  - img [ref=e1438]
+                  - text: "21"
+        - navigation [ref=e1440]:
+          - list [ref=e1441]:
+            - listitem [ref=e1442]:
+              - link "Previous":
+                - /url: ""
+                - img
+                - text: Previous
+            - listitem [ref=e1443]:
+              - link "1" [ref=e1444] [cursor=pointer]:
+                - /url: "?pipeline_tag=zero-shot-classification&p=0&sort=trending"
+            - listitem [ref=e1445]:
+              - link "2" [ref=e1446] [cursor=pointer]:
+                - /url: "?pipeline_tag=zero-shot-classification&p=1&sort=trending"
+            - listitem [ref=e1447]:
+              - link "3" [ref=e1448] [cursor=pointer]:
+                - /url: "?pipeline_tag=zero-shot-classification&p=2&sort=trending"
+            - listitem [ref=e1449]:
+              - link "...":
+                - /url: "#"
+            - listitem [ref=e1450]:
+              - link "16" [ref=e1451] [cursor=pointer]:
+                - /url: "?pipeline_tag=zero-shot-classification&p=15&sort=trending"
+            - listitem [ref=e1452]:
+              - link "Next" [ref=e1453] [cursor=pointer]:
+                - /url: "?pipeline_tag=zero-shot-classification&p=1&sort=trending"
+                - text: Next
+                - img [ref=e1454]
+  - contentinfo [ref=e1456]:
+    - navigation [ref=e1457]:
+      - button "System theme" [ref=e1460] [cursor=pointer]:
+        - img [ref=e1461]
+        - text: System theme
+      - link "TOS" [ref=e1466] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e1467] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e1468] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e1469] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e1470] [cursor=pointer]:
+        - /url: /
+        - img [ref=e1471]
+      - link "Models" [ref=e1485] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e1486] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e1487] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e1488] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e1489] [cursor=pointer]:
+        - /url: /docs

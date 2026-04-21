@@ -1,0 +1,2782 @@
+{
+  "meta": {
+    "llm_prompt": "agent_memory.ams.llm_extract: EXTRACTION_SYSTEM_PROMPT + build_extraction_user_prompt(..., prior_encoder_extraction=None); parse_session_extraction_from_llm_text (same entrypoints as run_kimi_session_extraction)",
+    "gliner_entity_default_hf": "urchade/gliner_large-v2.1",
+    "gliner_relex_default_hf": "knowledgator/gliner-relex-multi-v1.0",
+    "ollama_base_url": "http://127.0.0.1:11434",
+    "ollama_model": "gemma4-e4b:latest",
+    "ollama_temperature": 0.2,
+    "gliner_entity_model": "urchade/gliner_small-v2.1",
+    "gliner_relex_model": "knowledgator/gliner-relex-multi-v1.0",
+    "gliner_threshold": 0.35,
+    "skip_gliner": false,
+    "skip_relex": false,
+    "skip_ollama": false
+  },
+  "by_sample": {
+    "zh_weather": {
+      "sample_id": "zh_weather",
+      "text": "上海今天天气怎么样",
+      "gliner_entity": {
+        "stage": "gliner_entity",
+        "backend": "urchade/gliner_small-v2.1",
+        "sample_id": "zh_weather",
+        "text_len": 9,
+        "text": "上海今天天气怎么样",
+        "labels_en_preds": [
+          {
+            "start": 0,
+            "end": 9,
+            "text": "上海今天天气怎么样",
+            "label": "City",
+            "score": 0.6753891706466675
+          }
+        ],
+        "labels_zh_preds": [
+          {
+            "start": 0,
+            "end": 9,
+            "text": "上海今天天气怎么样",
+            "label": "城市",
+            "score": 0.5483961701393127
+          }
+        ]
+      },
+      "gliner_relex": {
+        "stage": "gliner_relex",
+        "backend": "knowledgator/gliner-relex-multi-v1.0",
+        "sample_id": "zh_weather",
+        "text_len": 9,
+        "text": "上海今天天气怎么样",
+        "labels": "en_labels",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "text": "上海今天天气怎么样",
+            "label": "City",
+            "score": 0.8946407437324524
+          }
+        ],
+        "relations": [
+          {
+            "head": {
+              "start": 0,
+              "end": 9,
+              "text": "上海今天天气怎么样",
+              "type": "City",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 0,
+              "end": 9,
+              "text": "上海今天天气怎么样",
+              "type": "City",
+              "entity_idx": 0
+            },
+            "relation": "located_in",
+            "score": 0.5207716226577759
+          },
+          {
+            "head": {
+              "start": 0,
+              "end": 9,
+              "text": "上海今天天气怎么样",
+              "type": "City",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 0,
+              "end": 9,
+              "text": "上海今天天气怎么样",
+              "type": "City",
+              "entity_idx": 0
+            },
+            "relation": "located_in",
+            "score": 0.5207716226577759
+          }
+        ]
+      },
+      "ollama": {
+        "stage": "ollama_session_extraction",
+        "backend": "gemma4-e4b:latest",
+        "sample_id": "zh_weather",
+        "text_len": 9,
+        "text": "上海今天天气怎么样",
+        "payload": {
+          "ok": true,
+          "extraction": {
+            "entities": [
+              {
+                "entity_id": "e-1",
+                "name": "上海",
+                "entity_type": "CONCEPT",
+                "aliases": [
+                  "Shanghai"
+                ],
+                "schema_version": "v1"
+              }
+            ],
+            "events": [
+              {
+                "event_id": "ev-1",
+                "event_type": "user_request",
+                "summary": "用户询问上海当天的天气情况",
+                "event_time": "2026-01-15T12:00:00+00:00",
+                "time_resolution_confidence": 0.95,
+                "confidence": 1.0,
+                "source_block_id": "b-1",
+                "source_type": "session"
+              }
+            ],
+            "participants": [
+              {
+                "entity_id": "e-1",
+                "event_id": "ev-1",
+                "role": "context"
+              }
+            ],
+            "relationships": [
+              {
+                "rel_type": "DERIVED_FROM",
+                "from_event_id": "ev-1",
+                "to_block_id": "b-1"
+              }
+            ]
+          },
+          "counts": {
+            "entities": 1,
+            "events": 1,
+            "participants": 1,
+            "relationships": 1
+          },
+          "user_prompt_chars": 2596
+        }
+      }
+    },
+    "zh_money": {
+      "sample_id": "zh_money",
+      "text": "我有10万闲钱,想做稳健理财",
+      "gliner_entity": {
+        "stage": "gliner_entity",
+        "backend": "urchade/gliner_small-v2.1",
+        "sample_id": "zh_money",
+        "text_len": 14,
+        "text": "我有10万闲钱,想做稳健理财",
+        "labels_en_preds": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "我有10万闲钱",
+            "label": "Person",
+            "score": 0.8456830382347107
+          }
+        ],
+        "labels_zh_preds": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "我有10万闲钱",
+            "label": "人物",
+            "score": 0.7454702854156494
+          }
+        ]
+      },
+      "gliner_relex": {
+        "stage": "gliner_relex",
+        "backend": "knowledgator/gliner-relex-multi-v1.0",
+        "sample_id": "zh_money",
+        "text_len": 14,
+        "text": "我有10万闲钱,想做稳健理财",
+        "labels": "en_labels",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "我有10万闲钱",
+            "label": "Person",
+            "score": 0.9139809012413025
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "text": "想做稳健理财",
+            "label": "Person",
+            "score": 0.40964141488075256
+          }
+        ],
+        "relations": []
+      },
+      "ollama": {
+        "stage": "ollama_session_extraction",
+        "backend": "gemma4-e4b:latest",
+        "sample_id": "zh_money",
+        "text_len": 14,
+        "text": "我有10万闲钱,想做稳健理财",
+        "payload": {
+          "ok": true,
+          "extraction": {
+            "entities": [
+              {
+                "entity_id": "e-1",
+                "name": "10万闲钱",
+                "entity_type": "RESOURCE",
+                "aliases": [],
+                "schema_version": "v1"
+              }
+            ],
+            "events": [
+              {
+                "event_id": "ev-1",
+                "event_type": "user_request",
+                "summary": "用户希望对10万闲钱进行稳健理财",
+                "event_time": "2026-01-15T12:00:00+00:00",
+                "time_resolution_confidence": 0.95,
+                "confidence": 1.0,
+                "source_block_id": "b-1",
+                "source_type": "session"
+              }
+            ],
+            "participants": [
+              {
+                "entity_id": "e-1",
+                "event_id": "ev-1",
+                "role": "object"
+              }
+            ],
+            "relationships": [
+              {
+                "rel_type": "DERIVED_FROM",
+                "from_event_id": "ev-1",
+                "to_block_id": "b-1"
+              }
+            ]
+          },
+          "counts": {
+            "entities": 1,
+            "events": 1,
+            "participants": 1,
+            "relationships": 1
+          },
+          "user_prompt_chars": 2604
+        }
+      }
+    },
+    "zh_lend": {
+      "sample_id": "zh_lend",
+      "text": "我有10万块钱,想借给葛瑞刚",
+      "gliner_entity": {
+        "stage": "gliner_entity",
+        "backend": "urchade/gliner_small-v2.1",
+        "sample_id": "zh_lend",
+        "text_len": 14,
+        "text": "我有10万块钱,想借给葛瑞刚",
+        "labels_en_preds": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "我有10万块钱",
+            "label": "Person",
+            "score": 0.8176924586296082
+          }
+        ],
+        "labels_zh_preds": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "我有10万块钱",
+            "label": "人物",
+            "score": 0.7239054441452026
+          }
+        ]
+      },
+      "gliner_relex": {
+        "stage": "gliner_relex",
+        "backend": "knowledgator/gliner-relex-multi-v1.0",
+        "sample_id": "zh_lend",
+        "text_len": 14,
+        "text": "我有10万块钱,想借给葛瑞刚",
+        "labels": "en_labels",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "我有10万块钱",
+            "label": "Person",
+            "score": 0.754034161567688
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "text": "想借给葛瑞刚",
+            "label": "Person",
+            "score": 0.3690508306026459
+          }
+        ],
+        "relations": []
+      },
+      "ollama": {
+        "stage": "ollama_session_extraction",
+        "backend": "gemma4-e4b:latest",
+        "sample_id": "zh_lend",
+        "text_len": 14,
+        "text": "我有10万块钱,想借给葛瑞刚",
+        "payload": {
+          "ok": true,
+          "extraction": {
+            "entities": [
+              {
+                "entity_id": "e-1",
+                "name": "10万块钱",
+                "entity_type": "RESOURCE",
+                "aliases": [],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-2",
+                "name": "葛瑞刚",
+                "entity_type": "PERSON",
+                "aliases": [],
+                "schema_version": "v1"
+              }
+            ],
+            "events": [
+              {
+                "event_id": "ev-1",
+                "event_type": "user_request",
+                "summary": "用户表示有10万块钱，并希望借给葛瑞刚。",
+                "event_time": "2026-01-15T12:00:00+00:00",
+                "time_resolution_confidence": 0.95,
+                "confidence": 1.0,
+                "source_block_id": "b-1",
+                "source_type": "session"
+              }
+            ],
+            "participants": [
+              {
+                "entity_id": "e-1",
+                "event_id": "ev-1",
+                "role": "object"
+              },
+              {
+                "entity_id": "e-2",
+                "event_id": "ev-1",
+                "role": "object"
+              }
+            ],
+            "relationships": [
+              {
+                "rel_type": "DERIVED_FROM",
+                "from_event_id": "ev-1",
+                "to_block_id": "b-1"
+              },
+              {
+                "rel_type": "MENTIONS",
+                "from_entity_id": "e-1",
+                "to_entity_id": "e-2",
+                "fact_text": "用户希望将10万块钱借给葛瑞刚。",
+                "confidence": 1.0,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              }
+            ]
+          },
+          "counts": {
+            "entities": 2,
+            "events": 1,
+            "participants": 2,
+            "relationships": 2
+          },
+          "user_prompt_chars": 2603
+        }
+      }
+    },
+    "en_flight": {
+      "sample_id": "en_flight",
+      "text": "Book a flight from Shanghai to Beijing tomorrow morning.",
+      "gliner_entity": {
+        "stage": "gliner_entity",
+        "backend": "urchade/gliner_small-v2.1",
+        "sample_id": "en_flight",
+        "text_len": 56,
+        "text": "Book a flight from Shanghai to Beijing tomorrow morning.",
+        "labels_en_preds": [
+          {
+            "start": 7,
+            "end": 13,
+            "text": "flight",
+            "label": "Transport",
+            "score": 0.7518565654754639
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "text": "Shanghai",
+            "label": "City",
+            "score": 0.8346530795097351
+          },
+          {
+            "start": 31,
+            "end": 38,
+            "text": "Beijing",
+            "label": "City",
+            "score": 0.8621361255645752
+          },
+          {
+            "start": 39,
+            "end": 55,
+            "text": "tomorrow morning",
+            "label": "Date",
+            "score": 0.9008257985115051
+          }
+        ],
+        "labels_zh_preds": [
+          {
+            "start": 7,
+            "end": 13,
+            "text": "flight",
+            "label": "交通",
+            "score": 0.5576294660568237
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "text": "Shanghai",
+            "label": "城市",
+            "score": 0.7677456736564636
+          },
+          {
+            "start": 31,
+            "end": 38,
+            "text": "Beijing",
+            "label": "城市",
+            "score": 0.8463115692138672
+          },
+          {
+            "start": 39,
+            "end": 55,
+            "text": "tomorrow morning",
+            "label": "日期",
+            "score": 0.8128939867019653
+          }
+        ]
+      },
+      "gliner_relex": {
+        "stage": "gliner_relex",
+        "backend": "knowledgator/gliner-relex-multi-v1.0",
+        "sample_id": "en_flight",
+        "text_len": 56,
+        "text": "Book a flight from Shanghai to Beijing tomorrow morning.",
+        "labels": "en_labels",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "text": "flight",
+            "label": "Transport",
+            "score": 0.9850030541419983
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "text": "Shanghai",
+            "label": "City",
+            "score": 0.9711271524429321
+          },
+          {
+            "start": 31,
+            "end": 38,
+            "text": "Beijing",
+            "label": "City",
+            "score": 0.9505501389503479
+          },
+          {
+            "start": 39,
+            "end": 47,
+            "text": "tomorrow",
+            "label": "Date",
+            "score": 0.8461579084396362
+          }
+        ],
+        "relations": [
+          {
+            "head": {
+              "start": 7,
+              "end": 13,
+              "text": "flight",
+              "type": "Transport",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 19,
+              "end": 27,
+              "text": "Shanghai",
+              "type": "City",
+              "entity_idx": 1
+            },
+            "relation": "flies_from",
+            "score": 0.9444300532341003
+          },
+          {
+            "head": {
+              "start": 7,
+              "end": 13,
+              "text": "flight",
+              "type": "Transport",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 19,
+              "end": 27,
+              "text": "Shanghai",
+              "type": "City",
+              "entity_idx": 1
+            },
+            "relation": "flies_from",
+            "score": 0.9444300532341003
+          },
+          {
+            "head": {
+              "start": 7,
+              "end": 13,
+              "text": "flight",
+              "type": "Transport",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 31,
+              "end": 38,
+              "text": "Beijing",
+              "type": "City",
+              "entity_idx": 2
+            },
+            "relation": "flies_to",
+            "score": 0.9305040836334229
+          },
+          {
+            "head": {
+              "start": 7,
+              "end": 13,
+              "text": "flight",
+              "type": "Transport",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 39,
+              "end": 47,
+              "text": "tomorrow",
+              "type": "Date",
+              "entity_idx": 3
+            },
+            "relation": "scheduled_on",
+            "score": 0.9265639781951904
+          }
+        ]
+      },
+      "ollama": {
+        "stage": "ollama_session_extraction",
+        "backend": "gemma4-e4b:latest",
+        "sample_id": "en_flight",
+        "text_len": 56,
+        "text": "Book a flight from Shanghai to Beijing tomorrow morning.",
+        "payload": {
+          "ok": true,
+          "extraction": {
+            "entities": [
+              {
+                "entity_id": "e-1",
+                "name": "Shanghai",
+                "entity_type": "CITY",
+                "aliases": [
+                  "SHANGHAI"
+                ],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-2",
+                "name": "Beijing",
+                "entity_type": "CITY",
+                "aliases": [
+                  "BEIJING"
+                ],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-3",
+                "name": "tomorrow morning",
+                "entity_type": "TIME",
+                "aliases": [],
+                "schema_version": "v1"
+              }
+            ],
+            "events": [
+              {
+                "event_id": "ev-1",
+                "event_type": "user_request",
+                "summary": "用户请求预订从上海到北京明早的航班。",
+                "event_time": "2026-01-16T08:00:00+00:00",
+                "time_resolution_confidence": 0.7,
+                "confidence": 0.95,
+                "source_block_id": "b-1",
+                "source_type": "session"
+              }
+            ],
+            "participants": [
+              {
+                "entity_id": "e-1",
+                "event_id": "ev-1",
+                "role": "object"
+              },
+              {
+                "entity_id": "e-2",
+                "event_id": "ev-1",
+                "role": "object"
+              },
+              {
+                "entity_id": "e-3",
+                "event_id": "ev-1",
+                "role": "context"
+              }
+            ],
+            "relationships": [
+              {
+                "rel_type": "DERIVED_FROM",
+                "from_event_id": "ev-1",
+                "to_block_id": "b-1"
+              },
+              {
+                "rel_type": "MENTIONS",
+                "from_entity_id": "e-1",
+                "to_entity_id": "e-2",
+                "fact_text": "用户请求预订从上海到北京的航班。",
+                "confidence": 0.9,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              },
+              {
+                "rel_type": "RELATES_TO",
+                "from_entity_id": "e-3",
+                "to_entity_id": "ev-1",
+                "fact_text": "航班预订的时间要求是明天早上。",
+                "confidence": 0.9,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              }
+            ]
+          },
+          "counts": {
+            "entities": 3,
+            "events": 1,
+            "participants": 3,
+            "relationships": 3
+          },
+          "user_prompt_chars": 2689
+        }
+      }
+    },
+    "en_code_mixed": {
+      "sample_id": "en_code_mixed",
+      "text": "The user in our Shanghai office called the LangChain API from Python; tomorrow we ship a prod hotfix for the billing service.",
+      "gliner_entity": {
+        "stage": "gliner_entity",
+        "backend": "urchade/gliner_small-v2.1",
+        "sample_id": "en_code_mixed",
+        "text_len": 125,
+        "text": "The user in our Shanghai office called the LangChain API from Python; tomorrow we ship a prod hotfix for the billing service.",
+        "labels_en_preds": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "The user",
+            "label": "Person",
+            "score": 0.7841196060180664
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "text": "Shanghai",
+            "label": "City",
+            "score": 0.7176513075828552
+          },
+          {
+            "start": 70,
+            "end": 78,
+            "text": "tomorrow",
+            "label": "Date",
+            "score": 0.8628149628639221
+          }
+        ],
+        "labels_zh_preds": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "The user",
+            "label": "人物",
+            "score": 0.7376725077629089
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "text": "Shanghai",
+            "label": "城市",
+            "score": 0.69878751039505
+          },
+          {
+            "start": 70,
+            "end": 78,
+            "text": "tomorrow",
+            "label": "日期",
+            "score": 0.8468821048736572
+          }
+        ]
+      },
+      "gliner_relex": {
+        "stage": "gliner_relex",
+        "backend": "knowledgator/gliner-relex-multi-v1.0",
+        "sample_id": "en_code_mixed",
+        "text_len": 125,
+        "text": "The user in our Shanghai office called the LangChain API from Python; tomorrow we ship a prod hotfix for the billing service.",
+        "labels": "en_labels",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "text": "user",
+            "label": "Person",
+            "score": 0.9896642565727234
+          },
+          {
+            "start": 16,
+            "end": 31,
+            "text": "Shanghai office",
+            "label": "Location",
+            "score": 0.9740376472473145
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "text": "LangChain API",
+            "label": "Concept",
+            "score": 0.725774884223938
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "text": "Python",
+            "label": "Concept",
+            "score": 0.6059397459030151
+          },
+          {
+            "start": 70,
+            "end": 78,
+            "text": "tomorrow",
+            "label": "Date",
+            "score": 0.9966186285018921
+          },
+          {
+            "start": 89,
+            "end": 100,
+            "text": "prod hotfix",
+            "label": "Concept",
+            "score": 0.6753002405166626
+          },
+          {
+            "start": 109,
+            "end": 124,
+            "text": "billing service",
+            "label": "Concept",
+            "score": 0.6816824674606323
+          }
+        ],
+        "relations": [
+          {
+            "head": {
+              "start": 4,
+              "end": 8,
+              "text": "user",
+              "type": "Person",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 16,
+              "end": 31,
+              "text": "Shanghai office",
+              "type": "Location",
+              "entity_idx": 1
+            },
+            "relation": "located_in",
+            "score": 0.7393494248390198
+          },
+          {
+            "head": {
+              "start": 4,
+              "end": 8,
+              "text": "user",
+              "type": "Person",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 16,
+              "end": 31,
+              "text": "Shanghai office",
+              "type": "Location",
+              "entity_idx": 1
+            },
+            "relation": "works_at",
+            "score": 0.9351223111152649
+          },
+          {
+            "head": {
+              "start": 4,
+              "end": 8,
+              "text": "user",
+              "type": "Person",
+              "entity_idx": 0
+            },
+            "tail": {
+              "start": 70,
+              "end": 78,
+              "text": "tomorrow",
+              "type": "Date",
+              "entity_idx": 4
+            },
+            "relation": "scheduled_on",
+            "score": 0.6558602452278137
+          },
+          {
+            "head": {
+              "start": 43,
+              "end": 56,
+              "text": "LangChain API",
+              "type": "Concept",
+              "entity_idx": 2
+            },
+            "tail": {
+              "start": 62,
+              "end": 68,
+              "text": "Python",
+              "type": "Concept",
+              "entity_idx": 3
+            },
+            "relation": "related_to",
+            "score": 0.5217326879501343
+          },
+          {
+            "head": {
+              "start": 43,
+              "end": 56,
+              "text": "LangChain API",
+              "type": "Concept",
+              "entity_idx": 2
+            },
+            "tail": {
+              "start": 62,
+              "end": 68,
+              "text": "Python",
+              "type": "Concept",
+              "entity_idx": 3
+            },
+            "relation": "related_to",
+            "score": 0.5217326879501343
+          },
+          {
+            "head": {
+              "start": 43,
+              "end": 56,
+              "text": "LangChain API",
+              "type": "Concept",
+              "entity_idx": 2
+            },
+            "tail": {
+              "start": 70,
+              "end": 78,
+              "text": "tomorrow",
+              "type": "Date",
+              "entity_idx": 4
+            },
+            "relation": "scheduled_on",
+            "score": 0.7322766184806824
+          },
+          {
+            "head": {
+              "start": 43,
+              "end": 56,
+              "text": "LangChain API",
+              "type": "Concept",
+              "entity_idx": 2
+            },
+            "tail": {
+              "start": 109,
+              "end": 124,
+              "text": "billing service",
+              "type": "Concept",
+              "entity_idx": 6
+            },
+            "relation": "related_to",
+            "score": 0.4484296143054962
+          },
+          {
+            "head": {
+              "start": 89,
+              "end": 100,
+              "text": "prod hotfix",
+              "type": "Concept",
+              "entity_idx": 5
+            },
+            "tail": {
+              "start": 70,
+              "end": 78,
+              "text": "tomorrow",
+              "type": "Date",
+              "entity_idx": 4
+            },
+            "relation": "scheduled_on",
+            "score": 0.9312407374382019
+          },
+          {
+            "head": {
+              "start": 89,
+              "end": 100,
+              "text": "prod hotfix",
+              "type": "Concept",
+              "entity_idx": 5
+            },
+            "tail": {
+              "start": 109,
+              "end": 124,
+              "text": "billing service",
+              "type": "Concept",
+              "entity_idx": 6
+            },
+            "relation": "mentions",
+            "score": 0.5262817740440369
+          },
+          {
+            "head": {
+              "start": 89,
+              "end": 100,
+              "text": "prod hotfix",
+              "type": "Concept",
+              "entity_idx": 5
+            },
+            "tail": {
+              "start": 109,
+              "end": 124,
+              "text": "billing service",
+              "type": "Concept",
+              "entity_idx": 6
+            },
+            "relation": "related_to",
+            "score": 0.785315990447998
+          },
+          {
+            "head": {
+              "start": 109,
+              "end": 124,
+              "text": "billing service",
+              "type": "Concept",
+              "entity_idx": 6
+            },
+            "tail": {
+              "start": 70,
+              "end": 78,
+              "text": "tomorrow",
+              "type": "Date",
+              "entity_idx": 4
+            },
+            "relation": "scheduled_on",
+            "score": 0.5988220572471619
+          }
+        ]
+      },
+      "ollama": {
+        "stage": "ollama_session_extraction",
+        "backend": "gemma4-e4b:latest",
+        "sample_id": "en_code_mixed",
+        "text_len": 125,
+        "text": "The user in our Shanghai office called the LangChain API from Python; tomorrow we ship a prod hotfix for the billing service.",
+        "payload": {
+          "ok": true,
+          "extraction": {
+            "entities": [
+              {
+                "entity_id": "e-1",
+                "name": "Shanghai office",
+                "entity_type": "ORG",
+                "aliases": [],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-2",
+                "name": "LangChain API",
+                "entity_type": "RESOURCE",
+                "aliases": [],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-3",
+                "name": "Python",
+                "entity_type": "CONCEPT",
+                "aliases": [],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-4",
+                "name": "prod hotfix",
+                "entity_type": "RESOURCE",
+                "aliases": [],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-5",
+                "name": "billing service",
+                "entity_type": "RESOURCE",
+                "aliases": [],
+                "schema_version": "v1"
+              }
+            ],
+            "events": [
+              {
+                "event_id": "ev-1",
+                "event_type": "user_request",
+                "summary": "用户在上海办公室使用 Python 调用 LangChain API",
+                "event_time": "2026-01-15T12:00:00+00:00",
+                "time_resolution_confidence": 0.95,
+                "confidence": 0.9,
+                "source_block_id": "b-1",
+                "source_type": "session"
+              },
+              {
+                "event_id": "ev-2",
+                "event_type": "other",
+                "summary": "计划在明天发布一个针对计费服务的生产热修复补丁",
+                "event_time": "2026-01-16T12:00:00+00:00",
+                "time_resolution_confidence": 0.7,
+                "confidence": 0.9,
+                "source_block_id": "b-1",
+                "source_type": "session"
+              }
+            ],
+            "participants": [
+              {
+                "entity_id": "e-1",
+                "event_id": "ev-1",
+                "role": "context"
+              },
+              {
+                "entity_id": "e-2",
+                "event_id": "ev-1",
+                "role": "object"
+              },
+              {
+                "entity_id": "e-3",
+                "event_id": "ev-1",
+                "role": "context"
+              },
+              {
+                "entity_id": "e-4",
+                "event_id": "ev-2",
+                "role": "object"
+              },
+              {
+                "entity_id": "e-5",
+                "event_id": "ev-2",
+                "role": "object"
+              }
+            ],
+            "relationships": [
+              {
+                "rel_type": "DERIVED_FROM",
+                "from_event_id": "ev-1",
+                "to_block_id": "b-1"
+              },
+              {
+                "rel_type": "DERIVED_FROM",
+                "from_event_id": "ev-2",
+                "to_block_id": "b-1"
+              },
+              {
+                "rel_type": "INVOKES",
+                "from_entity_id": "e-3",
+                "to_entity_id": "e-2",
+                "fact_text": "Python 用于调用 LangChain API",
+                "confidence": 0.9,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              },
+              {
+                "rel_type": "MENTIONS",
+                "from_entity_id": "e-1",
+                "to_entity_id": "e-2",
+                "fact_text": "用户在上海办公室调用了 LangChain API",
+                "confidence": 0.9,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              },
+              {
+                "rel_type": "CAUSED_BY",
+                "from_entity_id": "e-1",
+                "to_entity_id": "e-2",
+                "fact_text": "上海办公室的用户触发了 LangChain API 调用",
+                "confidence": 0.9,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              },
+              {
+                "rel_type": "PRODUCES",
+                "from_entity_id": "e-4",
+                "to_entity_id": "e-5",
+                "fact_text": "生产热修复补丁是针对计费服务的",
+                "confidence": 0.9,
+                "valid_at": "2026-01-16T12:00:00+00:00"
+              },
+              {
+                "rel_type": "RELATES_TO",
+                "from_entity_id": "e-4",
+                "to_entity_id": "e-5",
+                "fact_text": "生产热修复补丁是关于计费服务的",
+                "confidence": 0.9,
+                "valid_at": "2026-01-16T12:00:00+00:00"
+              },
+              {
+                "rel_type": "PRECEDES",
+                "from_event_id": "ev-1",
+                "to_event_id": "ev-2",
+                "fact_text": "API 调用发生在计划发布热修复补丁之前",
+                "confidence": 0.7,
+                "valid_at": "2026-01-15T12:00:00+00:00",
+                "invalid_at": "2026-01-16T12:00:00+00:00"
+              }
+            ]
+          },
+          "counts": {
+            "entities": 5,
+            "events": 2,
+            "participants": 5,
+            "relationships": 8
+          },
+          "user_prompt_chars": 2831
+        }
+      }
+    },
+    "mixed_dialogue": {
+      "sample_id": "mixed_dialogue",
+      "text": "Melanie said the lake sunrise painting was from last year. Caroline 觉得色彩融合很好,还问下周是否一起去 museum 看展。",
+      "gliner_entity": {
+        "stage": "gliner_entity",
+        "backend": "urchade/gliner_small-v2.1",
+        "sample_id": "mixed_dialogue",
+        "text_len": 97,
+        "text": "Melanie said the lake sunrise painting was from last year. Caroline 觉得色彩融合很好,还问下周是否一起去 museum 看展。",
+        "labels_en_preds": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "Melanie",
+            "label": "Person",
+            "score": 0.9691596627235413
+          },
+          {
+            "start": 48,
+            "end": 57,
+            "text": "last year",
+            "label": "Date",
+            "score": 0.5110233426094055
+          },
+          {
+            "start": 59,
+            "end": 67,
+            "text": "Caroline",
+            "label": "Person",
+            "score": 0.9800506234169006
+          },
+          {
+            "start": 87,
+            "end": 93,
+            "text": "museum",
+            "label": "Location",
+            "score": 0.5643101334571838
+          }
+        ],
+        "labels_zh_preds": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "Melanie",
+            "label": "人物",
+            "score": 0.9344695806503296
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "text": "sunrise",
+            "label": "天气",
+            "score": 0.6563641428947449
+          },
+          {
+            "start": 59,
+            "end": 67,
+            "text": "Caroline",
+            "label": "人物",
+            "score": 0.9554861783981323
+          }
+        ]
+      },
+      "gliner_relex": {
+        "stage": "gliner_relex",
+        "backend": "knowledgator/gliner-relex-multi-v1.0",
+        "sample_id": "mixed_dialogue",
+        "text_len": 97,
+        "text": "Melanie said the lake sunrise painting was from last year. Caroline 觉得色彩融合很好,还问下周是否一起去 museum 看展。",
+        "labels": "en_labels",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "Melanie",
+            "label": "Person",
+            "score": 0.9925280809402466
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "text": "lake",
+            "label": "Location",
+            "score": 0.4539133906364441
+          },
+          {
+            "start": 59,
+            "end": 67,
+            "text": "Caroline",
+            "label": "Person",
+            "score": 0.9985153079032898
+          },
+          {
+            "start": 87,
+            "end": 93,
+            "text": "museum",
+            "label": "Location",
+            "score": 0.977546751499176
+          }
+        ],
+        "relations": [
+          {
+            "head": {
+              "start": 59,
+              "end": 67,
+              "text": "Caroline",
+              "type": "Person",
+              "entity_idx": 2
+            },
+            "tail": {
+              "start": 87,
+              "end": 93,
+              "text": "museum",
+              "type": "Location",
+              "entity_idx": 3
+            },
+            "relation": "works_at",
+            "score": 0.7144376039505005
+          },
+          {
+            "head": {
+              "start": 59,
+              "end": 67,
+              "text": "Caroline",
+              "type": "Person",
+              "entity_idx": 2
+            },
+            "tail": {
+              "start": 87,
+              "end": 93,
+              "text": "museum",
+              "type": "Location",
+              "entity_idx": 3
+            },
+            "relation": "visits_with",
+            "score": 0.36874082684516907
+          }
+        ]
+      },
+      "ollama": {
+        "stage": "ollama_session_extraction",
+        "backend": "gemma4-e4b:latest",
+        "sample_id": "mixed_dialogue",
+        "text_len": 97,
+        "text": "Melanie said the lake sunrise painting was from last year. Caroline 觉得色彩融合很好,还问下周是否一起去 museum 看展。",
+        "payload": {
+          "ok": true,
+          "extraction": {
+            "entities": [
+              {
+                "entity_id": "e-1",
+                "name": "Melanie",
+                "entity_type": "PERSON",
+                "aliases": [],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-2",
+                "name": "lake sunrise painting",
+                "entity_type": "RESOURCE",
+                "aliases": [],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-3",
+                "name": "Caroline",
+                "entity_type": "PERSON",
+                "aliases": [],
+                "schema_version": "v1"
+              },
+              {
+                "entity_id": "e-4",
+                "name": "museum",
+                "entity_type": "RESOURCE",
+                "aliases": [],
+                "schema_version": "v1"
+              }
+            ],
+            "events": [
+              {
+                "event_id": "ev-1",
+                "event_type": "user_request",
+                "summary": "Melanie提到湖泊日出画是去年的，Caroline觉得色彩融合很好，并询问下周是否一起去博物馆看展。",
+                "event_time": "2026-01-15T12:00:00+00:00",
+                "time_resolution_confidence": 0.95,
+                "confidence": 0.9,
+                "source_block_id": "b-1",
+                "source_type": "session"
+              }
+            ],
+            "participants": [
+              {
+                "entity_id": "e-1",
+                "event_id": "ev-1",
+                "role": "context"
+              },
+              {
+                "entity_id": "e-2",
+                "event_id": "ev-1",
+                "role": "context"
+              },
+              {
+                "entity_id": "e-3",
+                "event_id": "ev-1",
+                "role": "context"
+              },
+              {
+                "entity_id": "e-4",
+                "event_id": "ev-1",
+                "role": "context"
+              }
+            ],
+            "relationships": [
+              {
+                "rel_type": "DERIVED_FROM",
+                "from_event_id": "ev-1",
+                "to_block_id": "b-1"
+              },
+              {
+                "rel_type": "MENTIONS",
+                "from_entity_id": "e-1",
+                "to_entity_id": "e-2",
+                "fact_text": "Melanie提到湖泊日出画是去年的。",
+                "confidence": 0.9,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              },
+              {
+                "rel_type": "MENTIONS",
+                "from_entity_id": "e-3",
+                "to_entity_id": "e-2",
+                "fact_text": "Caroline认为湖泊日出画的色彩融合很好。",
+                "confidence": 0.9,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              },
+              {
+                "rel_type": "MENTIONS",
+                "from_entity_id": "e-3",
+                "to_entity_id": "e-4",
+                "fact_text": "Caroline询问下周是否一起去博物馆看展。",
+                "confidence": 0.9,
+                "valid_at": "2026-01-15T12:00:00+00:00"
+              }
+            ]
+          },
+          "counts": {
+            "entities": 4,
+            "events": 1,
+            "participants": 4,
+            "relationships": 4
+          },
+          "user_prompt_chars": 2776
+        }
+      }
+    }
+  },
+  "raw_rows": [
+    {
+      "stage": "gliner_entity",
+      "backend": "urchade/gliner_small-v2.1",
+      "sample_id": "zh_weather",
+      "text_len": 9,
+      "text": "上海今天天气怎么样",
+      "labels_en_preds": [
+        {
+          "start": 0,
+          "end": 9,
+          "text": "上海今天天气怎么样",
+          "label": "City",
+          "score": 0.6753891706466675
+        }
+      ],
+      "labels_zh_preds": [
+        {
+          "start": 0,
+          "end": 9,
+          "text": "上海今天天气怎么样",
+          "label": "城市",
+          "score": 0.5483961701393127
+        }
+      ]
+    },
+    {
+      "stage": "gliner_entity",
+      "backend": "urchade/gliner_small-v2.1",
+      "sample_id": "zh_money",
+      "text_len": 14,
+      "text": "我有10万闲钱,想做稳健理财",
+      "labels_en_preds": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "我有10万闲钱",
+          "label": "Person",
+          "score": 0.8456830382347107
+        }
+      ],
+      "labels_zh_preds": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "我有10万闲钱",
+          "label": "人物",
+          "score": 0.7454702854156494
+        }
+      ]
+    },
+    {
+      "stage": "gliner_entity",
+      "backend": "urchade/gliner_small-v2.1",
+      "sample_id": "zh_lend",
+      "text_len": 14,
+      "text": "我有10万块钱,想借给葛瑞刚",
+      "labels_en_preds": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "我有10万块钱",
+          "label": "Person",
+          "score": 0.8176924586296082
+        }
+      ],
+      "labels_zh_preds": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "我有10万块钱",
+          "label": "人物",
+          "score": 0.7239054441452026
+        }
+      ]
+    },
+    {
+      "stage": "gliner_entity",
+      "backend": "urchade/gliner_small-v2.1",
+      "sample_id": "en_flight",
+      "text_len": 56,
+      "text": "Book a flight from Shanghai to Beijing tomorrow morning.",
+      "labels_en_preds": [
+        {
+          "start": 7,
+          "end": 13,
+          "text": "flight",
+          "label": "Transport",
+          "score": 0.7518565654754639
+        },
+        {
+          "start": 19,
+          "end": 27,
+          "text": "Shanghai",
+          "label": "City",
+          "score": 0.8346530795097351
+        },
+        {
+          "start": 31,
+          "end": 38,
+          "text": "Beijing",
+          "label": "City",
+          "score": 0.8621361255645752
+        },
+        {
+          "start": 39,
+          "end": 55,
+          "text": "tomorrow morning",
+          "label": "Date",
+          "score": 0.9008257985115051
+        }
+      ],
+      "labels_zh_preds": [
+        {
+          "start": 7,
+          "end": 13,
+          "text": "flight",
+          "label": "交通",
+          "score": 0.5576294660568237
+        },
+        {
+          "start": 19,
+          "end": 27,
+          "text": "Shanghai",
+          "label": "城市",
+          "score": 0.7677456736564636
+        },
+        {
+          "start": 31,
+          "end": 38,
+          "text": "Beijing",
+          "label": "城市",
+          "score": 0.8463115692138672
+        },
+        {
+          "start": 39,
+          "end": 55,
+          "text": "tomorrow morning",
+          "label": "日期",
+          "score": 0.8128939867019653
+        }
+      ]
+    },
+    {
+      "stage": "gliner_entity",
+      "backend": "urchade/gliner_small-v2.1",
+      "sample_id": "en_code_mixed",
+      "text_len": 125,
+      "text": "The user in our Shanghai office called the LangChain API from Python; tomorrow we ship a prod hotfix for the billing service.",
+      "labels_en_preds": [
+        {
+          "start": 0,
+          "end": 8,
+          "text": "The user",
+          "label": "Person",
+          "score": 0.7841196060180664
+        },
+        {
+          "start": 16,
+          "end": 24,
+          "text": "Shanghai",
+          "label": "City",
+          "score": 0.7176513075828552
+        },
+        {
+          "start": 70,
+          "end": 78,
+          "text": "tomorrow",
+          "label": "Date",
+          "score": 0.8628149628639221
+        }
+      ],
+      "labels_zh_preds": [
+        {
+          "start": 0,
+          "end": 8,
+          "text": "The user",
+          "label": "人物",
+          "score": 0.7376725077629089
+        },
+        {
+          "start": 16,
+          "end": 24,
+          "text": "Shanghai",
+          "label": "城市",
+          "score": 0.69878751039505
+        },
+        {
+          "start": 70,
+          "end": 78,
+          "text": "tomorrow",
+          "label": "日期",
+          "score": 0.8468821048736572
+        }
+      ]
+    },
+    {
+      "stage": "gliner_entity",
+      "backend": "urchade/gliner_small-v2.1",
+      "sample_id": "mixed_dialogue",
+      "text_len": 97,
+      "text": "Melanie said the lake sunrise painting was from last year. Caroline 觉得色彩融合很好,还问下周是否一起去 museum 看展。",
+      "labels_en_preds": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "Melanie",
+          "label": "Person",
+          "score": 0.9691596627235413
+        },
+        {
+          "start": 48,
+          "end": 57,
+          "text": "last year",
+          "label": "Date",
+          "score": 0.5110233426094055
+        },
+        {
+          "start": 59,
+          "end": 67,
+          "text": "Caroline",
+          "label": "Person",
+          "score": 0.9800506234169006
+        },
+        {
+          "start": 87,
+          "end": 93,
+          "text": "museum",
+          "label": "Location",
+          "score": 0.5643101334571838
+        }
+      ],
+      "labels_zh_preds": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "Melanie",
+          "label": "人物",
+          "score": 0.9344695806503296
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "text": "sunrise",
+          "label": "天气",
+          "score": 0.6563641428947449
+        },
+        {
+          "start": 59,
+          "end": 67,
+          "text": "Caroline",
+          "label": "人物",
+          "score": 0.9554861783981323
+        }
+      ]
+    },
+    {
+      "stage": "gliner_relex",
+      "backend": "knowledgator/gliner-relex-multi-v1.0",
+      "sample_id": "zh_weather",
+      "text_len": 9,
+      "text": "上海今天天气怎么样",
+      "labels": "en_labels",
+      "entities": [
+        {
+          "start": 0,
+          "end": 9,
+          "text": "上海今天天气怎么样",
+          "label": "City",
+          "score": 0.8946407437324524
+        }
+      ],
+      "relations": [
+        {
+          "head": {
+            "start": 0,
+            "end": 9,
+            "text": "上海今天天气怎么样",
+            "type": "City",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 0,
+            "end": 9,
+            "text": "上海今天天气怎么样",
+            "type": "City",
+            "entity_idx": 0
+          },
+          "relation": "located_in",
+          "score": 0.5207716226577759
+        },
+        {
+          "head": {
+            "start": 0,
+            "end": 9,
+            "text": "上海今天天气怎么样",
+            "type": "City",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 0,
+            "end": 9,
+            "text": "上海今天天气怎么样",
+            "type": "City",
+            "entity_idx": 0
+          },
+          "relation": "located_in",
+          "score": 0.5207716226577759
+        }
+      ]
+    },
+    {
+      "stage": "gliner_relex",
+      "backend": "knowledgator/gliner-relex-multi-v1.0",
+      "sample_id": "zh_money",
+      "text_len": 14,
+      "text": "我有10万闲钱,想做稳健理财",
+      "labels": "en_labels",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "我有10万闲钱",
+          "label": "Person",
+          "score": 0.9139809012413025
+        },
+        {
+          "start": 8,
+          "end": 14,
+          "text": "想做稳健理财",
+          "label": "Person",
+          "score": 0.40964141488075256
+        }
+      ],
+      "relations": []
+    },
+    {
+      "stage": "gliner_relex",
+      "backend": "knowledgator/gliner-relex-multi-v1.0",
+      "sample_id": "zh_lend",
+      "text_len": 14,
+      "text": "我有10万块钱,想借给葛瑞刚",
+      "labels": "en_labels",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "我有10万块钱",
+          "label": "Person",
+          "score": 0.754034161567688
+        },
+        {
+          "start": 8,
+          "end": 14,
+          "text": "想借给葛瑞刚",
+          "label": "Person",
+          "score": 0.3690508306026459
+        }
+      ],
+      "relations": []
+    },
+    {
+      "stage": "gliner_relex",
+      "backend": "knowledgator/gliner-relex-multi-v1.0",
+      "sample_id": "en_flight",
+      "text_len": 56,
+      "text": "Book a flight from Shanghai to Beijing tomorrow morning.",
+      "labels": "en_labels",
+      "entities": [
+        {
+          "start": 7,
+          "end": 13,
+          "text": "flight",
+          "label": "Transport",
+          "score": 0.9850030541419983
+        },
+        {
+          "start": 19,
+          "end": 27,
+          "text": "Shanghai",
+          "label": "City",
+          "score": 0.9711271524429321
+        },
+        {
+          "start": 31,
+          "end": 38,
+          "text": "Beijing",
+          "label": "City",
+          "score": 0.9505501389503479
+        },
+        {
+          "start": 39,
+          "end": 47,
+          "text": "tomorrow",
+          "label": "Date",
+          "score": 0.8461579084396362
+        }
+      ],
+      "relations": [
+        {
+          "head": {
+            "start": 7,
+            "end": 13,
+            "text": "flight",
+            "type": "Transport",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 19,
+            "end": 27,
+            "text": "Shanghai",
+            "type": "City",
+            "entity_idx": 1
+          },
+          "relation": "flies_from",
+          "score": 0.9444300532341003
+        },
+        {
+          "head": {
+            "start": 7,
+            "end": 13,
+            "text": "flight",
+            "type": "Transport",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 19,
+            "end": 27,
+            "text": "Shanghai",
+            "type": "City",
+            "entity_idx": 1
+          },
+          "relation": "flies_from",
+          "score": 0.9444300532341003
+        },
+        {
+          "head": {
+            "start": 7,
+            "end": 13,
+            "text": "flight",
+            "type": "Transport",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 31,
+            "end": 38,
+            "text": "Beijing",
+            "type": "City",
+            "entity_idx": 2
+          },
+          "relation": "flies_to",
+          "score": 0.9305040836334229
+        },
+        {
+          "head": {
+            "start": 7,
+            "end": 13,
+            "text": "flight",
+            "type": "Transport",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 39,
+            "end": 47,
+            "text": "tomorrow",
+            "type": "Date",
+            "entity_idx": 3
+          },
+          "relation": "scheduled_on",
+          "score": 0.9265639781951904
+        }
+      ]
+    },
+    {
+      "stage": "gliner_relex",
+      "backend": "knowledgator/gliner-relex-multi-v1.0",
+      "sample_id": "en_code_mixed",
+      "text_len": 125,
+      "text": "The user in our Shanghai office called the LangChain API from Python; tomorrow we ship a prod hotfix for the billing service.",
+      "labels": "en_labels",
+      "entities": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "user",
+          "label": "Person",
+          "score": 0.9896642565727234
+        },
+        {
+          "start": 16,
+          "end": 31,
+          "text": "Shanghai office",
+          "label": "Location",
+          "score": 0.9740376472473145
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "text": "LangChain API",
+          "label": "Concept",
+          "score": 0.725774884223938
+        },
+        {
+          "start": 62,
+          "end": 68,
+          "text": "Python",
+          "label": "Concept",
+          "score": 0.6059397459030151
+        },
+        {
+          "start": 70,
+          "end": 78,
+          "text": "tomorrow",
+          "label": "Date",
+          "score": 0.9966186285018921
+        },
+        {
+          "start": 89,
+          "end": 100,
+          "text": "prod hotfix",
+          "label": "Concept",
+          "score": 0.6753002405166626
+        },
+        {
+          "start": 109,
+          "end": 124,
+          "text": "billing service",
+          "label": "Concept",
+          "score": 0.6816824674606323
+        }
+      ],
+      "relations": [
+        {
+          "head": {
+            "start": 4,
+            "end": 8,
+            "text": "user",
+            "type": "Person",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 16,
+            "end": 31,
+            "text": "Shanghai office",
+            "type": "Location",
+            "entity_idx": 1
+          },
+          "relation": "located_in",
+          "score": 0.7393494248390198
+        },
+        {
+          "head": {
+            "start": 4,
+            "end": 8,
+            "text": "user",
+            "type": "Person",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 16,
+            "end": 31,
+            "text": "Shanghai office",
+            "type": "Location",
+            "entity_idx": 1
+          },
+          "relation": "works_at",
+          "score": 0.9351223111152649
+        },
+        {
+          "head": {
+            "start": 4,
+            "end": 8,
+            "text": "user",
+            "type": "Person",
+            "entity_idx": 0
+          },
+          "tail": {
+            "start": 70,
+            "end": 78,
+            "text": "tomorrow",
+            "type": "Date",
+            "entity_idx": 4
+          },
+          "relation": "scheduled_on",
+          "score": 0.6558602452278137
+        },
+        {
+          "head": {
+            "start": 43,
+            "end": 56,
+            "text": "LangChain API",
+            "type": "Concept",
+            "entity_idx": 2
+          },
+          "tail": {
+            "start": 62,
+            "end": 68,
+            "text": "Python",
+            "type": "Concept",
+            "entity_idx": 3
+          },
+          "relation": "related_to",
+          "score": 0.5217326879501343
+        },
+        {
+          "head": {
+            "start": 43,
+            "end": 56,
+            "text": "LangChain API",
+            "type": "Concept",
+            "entity_idx": 2
+          },
+          "tail": {
+            "start": 62,
+            "end": 68,
+            "text": "Python",
+            "type": "Concept",
+            "entity_idx": 3
+          },
+          "relation": "related_to",
+          "score": 0.5217326879501343
+        },
+        {
+          "head": {
+            "start": 43,
+            "end": 56,
+            "text": "LangChain API",
+            "type": "Concept",
+            "entity_idx": 2
+          },
+          "tail": {
+            "start": 70,
+            "end": 78,
+            "text": "tomorrow",
+            "type": "Date",
+            "entity_idx": 4
+          },
+          "relation": "scheduled_on",
+          "score": 0.7322766184806824
+        },
+        {
+          "head": {
+            "start": 43,
+            "end": 56,
+            "text": "LangChain API",
+            "type": "Concept",
+            "entity_idx": 2
+          },
+          "tail": {
+            "start": 109,
+            "end": 124,
+            "text": "billing service",
+            "type": "Concept",
+            "entity_idx": 6
+          },
+          "relation": "related_to",
+          "score": 0.4484296143054962
+        },
+        {
+          "head": {
+            "start": 89,
+            "end": 100,
+            "text": "prod hotfix",
+            "type": "Concept",
+            "entity_idx": 5
+          },
+          "tail": {
+            "start": 70,
+            "end": 78,
+            "text": "tomorrow",
+            "type": "Date",
+            "entity_idx": 4
+          },
+          "relation": "scheduled_on",
+          "score": 0.9312407374382019
+        },
+        {
+          "head": {
+            "start": 89,
+            "end": 100,
+            "text": "prod hotfix",
+            "type": "Concept",
+            "entity_idx": 5
+          },
+          "tail": {
+            "start": 109,
+            "end": 124,
+            "text": "billing service",
+            "type": "Concept",
+            "entity_idx": 6
+          },
+          "relation": "mentions",
+          "score": 0.5262817740440369
+        },
+        {
+          "head": {
+            "start": 89,
+            "end": 100,
+            "text": "prod hotfix",
+            "type": "Concept",
+            "entity_idx": 5
+          },
+          "tail": {
+            "start": 109,
+            "end": 124,
+            "text": "billing service",
+            "type": "Concept",
+            "entity_idx": 6
+          },
+          "relation": "related_to",
+          "score": 0.785315990447998
+        },
+        {
+          "head": {
+            "start": 109,
+            "end": 124,
+            "text": "billing service",
+            "type": "Concept",
+            "entity_idx": 6
+          },
+          "tail": {
+            "start": 70,
+            "end": 78,
+            "text": "tomorrow",
+            "type": "Date",
+            "entity_idx": 4
+          },
+          "relation": "scheduled_on",
+          "score": 0.5988220572471619
+        }
+      ]
+    },
+    {
+      "stage": "gliner_relex",
+      "backend": "knowledgator/gliner-relex-multi-v1.0",
+      "sample_id": "mixed_dialogue",
+      "text_len": 97,
+      "text": "Melanie said the lake sunrise painting was from last year. Caroline 觉得色彩融合很好,还问下周是否一起去 museum 看展。",
+      "labels": "en_labels",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "text": "Melanie",
+          "label": "Person",
+          "score": 0.9925280809402466
+        },
+        {
+          "start": 17,
+          "end": 21,
+          "text": "lake",
+          "label": "Location",
+          "score": 0.4539133906364441
+        },
+        {
+          "start": 59,
+          "end": 67,
+          "text": "Caroline",
+          "label": "Person",
+          "score": 0.9985153079032898
+        },
+        {
+          "start": 87,
+          "end": 93,
+          "text": "museum",
+          "label": "Location",
+          "score": 0.977546751499176
+        }
+      ],
+      "relations": [
+        {
+          "head": {
+            "start": 59,
+            "end": 67,
+            "text": "Caroline",
+            "type": "Person",
+            "entity_idx": 2
+          },
+          "tail": {
+            "start": 87,
+            "end": 93,
+            "text": "museum",
+            "type": "Location",
+            "entity_idx": 3
+          },
+          "relation": "works_at",
+          "score": 0.7144376039505005
+        },
+        {
+          "head": {
+            "start": 59,
+            "end": 67,
+            "text": "Caroline",
+            "type": "Person",
+            "entity_idx": 2
+          },
+          "tail": {
+            "start": 87,
+            "end": 93,
+            "text": "museum",
+            "type": "Location",
+            "entity_idx": 3
+          },
+          "relation": "visits_with",
+          "score": 0.36874082684516907
+        }
+      ]
+    },
+    {
+      "stage": "ollama_session_extraction",
+      "backend": "gemma4-e4b:latest",
+      "sample_id": "zh_weather",
+      "text_len": 9,
+      "text": "上海今天天气怎么样",
+      "payload": {
+        "ok": true,
+        "extraction": {
+          "entities": [
+            {
+              "entity_id": "e-1",
+              "name": "上海",
+              "entity_type": "CONCEPT",
+              "aliases": [
+                "Shanghai"
+              ],
+              "schema_version": "v1"
+            }
+          ],
+          "events": [
+            {
+              "event_id": "ev-1",
+              "event_type": "user_request",
+              "summary": "用户询问上海当天的天气情况",
+              "event_time": "2026-01-15T12:00:00+00:00",
+              "time_resolution_confidence": 0.95,
+              "confidence": 1.0,
+              "source_block_id": "b-1",
+              "source_type": "session"
+            }
+          ],
+          "participants": [
+            {
+              "entity_id": "e-1",
+              "event_id": "ev-1",
+              "role": "context"
+            }
+          ],
+          "relationships": [
+            {
+              "rel_type": "DERIVED_FROM",
+              "from_event_id": "ev-1",
+              "to_block_id": "b-1"
+            }
+          ]
+        },
+        "counts": {
+          "entities": 1,
+          "events": 1,
+          "participants": 1,
+          "relationships": 1
+        },
+        "user_prompt_chars": 2596
+      }
+    },
+    {
+      "stage": "ollama_session_extraction",
+      "backend": "gemma4-e4b:latest",
+      "sample_id": "zh_money",
+      "text_len": 14,
+      "text": "我有10万闲钱,想做稳健理财",
+      "payload": {
+        "ok": true,
+        "extraction": {
+          "entities": [
+            {
+              "entity_id": "e-1",
+              "name": "10万闲钱",
+              "entity_type": "RESOURCE",
+              "aliases": [],
+              "schema_version": "v1"
+            }
+          ],
+          "events": [
+            {
+              "event_id": "ev-1",
+              "event_type": "user_request",
+              "summary": "用户希望对10万闲钱进行稳健理财",
+              "event_time": "2026-01-15T12:00:00+00:00",
+              "time_resolution_confidence": 0.95,
+              "confidence": 1.0,
+              "source_block_id": "b-1",
+              "source_type": "session"
+            }
+          ],
+          "participants": [
+            {
+              "entity_id": "e-1",
+              "event_id": "ev-1",
+              "role": "object"
+            }
+          ],
+          "relationships": [
+            {
+              "rel_type": "DERIVED_FROM",
+              "from_event_id": "ev-1",
+              "to_block_id": "b-1"
+            }
+          ]
+        },
+        "counts": {
+          "entities": 1,
+          "events": 1,
+          "participants": 1,
+          "relationships": 1
+        },
+        "user_prompt_chars": 2604
+      }
+    },
+    {
+      "stage": "ollama_session_extraction",
+      "backend": "gemma4-e4b:latest",
+      "sample_id": "zh_lend",
+      "text_len": 14,
+      "text": "我有10万块钱,想借给葛瑞刚",
+      "payload": {
+        "ok": true,
+        "extraction": {
+          "entities": [
+            {
+              "entity_id": "e-1",
+              "name": "10万块钱",
+              "entity_type": "RESOURCE",
+              "aliases": [],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-2",
+              "name": "葛瑞刚",
+              "entity_type": "PERSON",
+              "aliases": [],
+              "schema_version": "v1"
+            }
+          ],
+          "events": [
+            {
+              "event_id": "ev-1",
+              "event_type": "user_request",
+              "summary": "用户表示有10万块钱，并希望借给葛瑞刚。",
+              "event_time": "2026-01-15T12:00:00+00:00",
+              "time_resolution_confidence": 0.95,
+              "confidence": 1.0,
+              "source_block_id": "b-1",
+              "source_type": "session"
+            }
+          ],
+          "participants": [
+            {
+              "entity_id": "e-1",
+              "event_id": "ev-1",
+              "role": "object"
+            },
+            {
+              "entity_id": "e-2",
+              "event_id": "ev-1",
+              "role": "object"
+            }
+          ],
+          "relationships": [
+            {
+              "rel_type": "DERIVED_FROM",
+              "from_event_id": "ev-1",
+              "to_block_id": "b-1"
+            },
+            {
+              "rel_type": "MENTIONS",
+              "from_entity_id": "e-1",
+              "to_entity_id": "e-2",
+              "fact_text": "用户希望将10万块钱借给葛瑞刚。",
+              "confidence": 1.0,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            }
+          ]
+        },
+        "counts": {
+          "entities": 2,
+          "events": 1,
+          "participants": 2,
+          "relationships": 2
+        },
+        "user_prompt_chars": 2603
+      }
+    },
+    {
+      "stage": "ollama_session_extraction",
+      "backend": "gemma4-e4b:latest",
+      "sample_id": "en_flight",
+      "text_len": 56,
+      "text": "Book a flight from Shanghai to Beijing tomorrow morning.",
+      "payload": {
+        "ok": true,
+        "extraction": {
+          "entities": [
+            {
+              "entity_id": "e-1",
+              "name": "Shanghai",
+              "entity_type": "CITY",
+              "aliases": [
+                "SHANGHAI"
+              ],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-2",
+              "name": "Beijing",
+              "entity_type": "CITY",
+              "aliases": [
+                "BEIJING"
+              ],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-3",
+              "name": "tomorrow morning",
+              "entity_type": "TIME",
+              "aliases": [],
+              "schema_version": "v1"
+            }
+          ],
+          "events": [
+            {
+              "event_id": "ev-1",
+              "event_type": "user_request",
+              "summary": "用户请求预订从上海到北京明早的航班。",
+              "event_time": "2026-01-16T08:00:00+00:00",
+              "time_resolution_confidence": 0.7,
+              "confidence": 0.95,
+              "source_block_id": "b-1",
+              "source_type": "session"
+            }
+          ],
+          "participants": [
+            {
+              "entity_id": "e-1",
+              "event_id": "ev-1",
+              "role": "object"
+            },
+            {
+              "entity_id": "e-2",
+              "event_id": "ev-1",
+              "role": "object"
+            },
+            {
+              "entity_id": "e-3",
+              "event_id": "ev-1",
+              "role": "context"
+            }
+          ],
+          "relationships": [
+            {
+              "rel_type": "DERIVED_FROM",
+              "from_event_id": "ev-1",
+              "to_block_id": "b-1"
+            },
+            {
+              "rel_type": "MENTIONS",
+              "from_entity_id": "e-1",
+              "to_entity_id": "e-2",
+              "fact_text": "用户请求预订从上海到北京的航班。",
+              "confidence": 0.9,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            },
+            {
+              "rel_type": "RELATES_TO",
+              "from_entity_id": "e-3",
+              "to_entity_id": "ev-1",
+              "fact_text": "航班预订的时间要求是明天早上。",
+              "confidence": 0.9,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            }
+          ]
+        },
+        "counts": {
+          "entities": 3,
+          "events": 1,
+          "participants": 3,
+          "relationships": 3
+        },
+        "user_prompt_chars": 2689
+      }
+    },
+    {
+      "stage": "ollama_session_extraction",
+      "backend": "gemma4-e4b:latest",
+      "sample_id": "en_code_mixed",
+      "text_len": 125,
+      "text": "The user in our Shanghai office called the LangChain API from Python; tomorrow we ship a prod hotfix for the billing service.",
+      "payload": {
+        "ok": true,
+        "extraction": {
+          "entities": [
+            {
+              "entity_id": "e-1",
+              "name": "Shanghai office",
+              "entity_type": "ORG",
+              "aliases": [],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-2",
+              "name": "LangChain API",
+              "entity_type": "RESOURCE",
+              "aliases": [],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-3",
+              "name": "Python",
+              "entity_type": "CONCEPT",
+              "aliases": [],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-4",
+              "name": "prod hotfix",
+              "entity_type": "RESOURCE",
+              "aliases": [],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-5",
+              "name": "billing service",
+              "entity_type": "RESOURCE",
+              "aliases": [],
+              "schema_version": "v1"
+            }
+          ],
+          "events": [
+            {
+              "event_id": "ev-1",
+              "event_type": "user_request",
+              "summary": "用户在上海办公室使用 Python 调用 LangChain API",
+              "event_time": "2026-01-15T12:00:00+00:00",
+              "time_resolution_confidence": 0.95,
+              "confidence": 0.9,
+              "source_block_id": "b-1",
+              "source_type": "session"
+            },
+            {
+              "event_id": "ev-2",
+              "event_type": "other",
+              "summary": "计划在明天发布一个针对计费服务的生产热修复补丁",
+              "event_time": "2026-01-16T12:00:00+00:00",
+              "time_resolution_confidence": 0.7,
+              "confidence": 0.9,
+              "source_block_id": "b-1",
+              "source_type": "session"
+            }
+          ],
+          "participants": [
+            {
+              "entity_id": "e-1",
+              "event_id": "ev-1",
+              "role": "context"
+            },
+            {
+              "entity_id": "e-2",
+              "event_id": "ev-1",
+              "role": "object"
+            },
+            {
+              "entity_id": "e-3",
+              "event_id": "ev-1",
+              "role": "context"
+            },
+            {
+              "entity_id": "e-4",
+              "event_id": "ev-2",
+              "role": "object"
+            },
+            {
+              "entity_id": "e-5",
+              "event_id": "ev-2",
+              "role": "object"
+            }
+          ],
+          "relationships": [
+            {
+              "rel_type": "DERIVED_FROM",
+              "from_event_id": "ev-1",
+              "to_block_id": "b-1"
+            },
+            {
+              "rel_type": "DERIVED_FROM",
+              "from_event_id": "ev-2",
+              "to_block_id": "b-1"
+            },
+            {
+              "rel_type": "INVOKES",
+              "from_entity_id": "e-3",
+              "to_entity_id": "e-2",
+              "fact_text": "Python 用于调用 LangChain API",
+              "confidence": 0.9,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            },
+            {
+              "rel_type": "MENTIONS",
+              "from_entity_id": "e-1",
+              "to_entity_id": "e-2",
+              "fact_text": "用户在上海办公室调用了 LangChain API",
+              "confidence": 0.9,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            },
+            {
+              "rel_type": "CAUSED_BY",
+              "from_entity_id": "e-1",
+              "to_entity_id": "e-2",
+              "fact_text": "上海办公室的用户触发了 LangChain API 调用",
+              "confidence": 0.9,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            },
+            {
+              "rel_type": "PRODUCES",
+              "from_entity_id": "e-4",
+              "to_entity_id": "e-5",
+              "fact_text": "生产热修复补丁是针对计费服务的",
+              "confidence": 0.9,
+              "valid_at": "2026-01-16T12:00:00+00:00"
+            },
+            {
+              "rel_type": "RELATES_TO",
+              "from_entity_id": "e-4",
+              "to_entity_id": "e-5",
+              "fact_text": "生产热修复补丁是关于计费服务的",
+              "confidence": 0.9,
+              "valid_at": "2026-01-16T12:00:00+00:00"
+            },
+            {
+              "rel_type": "PRECEDES",
+              "from_event_id": "ev-1",
+              "to_event_id": "ev-2",
+              "fact_text": "API 调用发生在计划发布热修复补丁之前",
+              "confidence": 0.7,
+              "valid_at": "2026-01-15T12:00:00+00:00",
+              "invalid_at": "2026-01-16T12:00:00+00:00"
+            }
+          ]
+        },
+        "counts": {
+          "entities": 5,
+          "events": 2,
+          "participants": 5,
+          "relationships": 8
+        },
+        "user_prompt_chars": 2831
+      }
+    },
+    {
+      "stage": "ollama_session_extraction",
+      "backend": "gemma4-e4b:latest",
+      "sample_id": "mixed_dialogue",
+      "text_len": 97,
+      "text": "Melanie said the lake sunrise painting was from last year. Caroline 觉得色彩融合很好,还问下周是否一起去 museum 看展。",
+      "payload": {
+        "ok": true,
+        "extraction": {
+          "entities": [
+            {
+              "entity_id": "e-1",
+              "name": "Melanie",
+              "entity_type": "PERSON",
+              "aliases": [],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-2",
+              "name": "lake sunrise painting",
+              "entity_type": "RESOURCE",
+              "aliases": [],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-3",
+              "name": "Caroline",
+              "entity_type": "PERSON",
+              "aliases": [],
+              "schema_version": "v1"
+            },
+            {
+              "entity_id": "e-4",
+              "name": "museum",
+              "entity_type": "RESOURCE",
+              "aliases": [],
+              "schema_version": "v1"
+            }
+          ],
+          "events": [
+            {
+              "event_id": "ev-1",
+              "event_type": "user_request",
+              "summary": "Melanie提到湖泊日出画是去年的，Caroline觉得色彩融合很好，并询问下周是否一起去博物馆看展。",
+              "event_time": "2026-01-15T12:00:00+00:00",
+              "time_resolution_confidence": 0.95,
+              "confidence": 0.9,
+              "source_block_id": "b-1",
+              "source_type": "session"
+            }
+          ],
+          "participants": [
+            {
+              "entity_id": "e-1",
+              "event_id": "ev-1",
+              "role": "context"
+            },
+            {
+              "entity_id": "e-2",
+              "event_id": "ev-1",
+              "role": "context"
+            },
+            {
+              "entity_id": "e-3",
+              "event_id": "ev-1",
+              "role": "context"
+            },
+            {
+              "entity_id": "e-4",
+              "event_id": "ev-1",
+              "role": "context"
+            }
+          ],
+          "relationships": [
+            {
+              "rel_type": "DERIVED_FROM",
+              "from_event_id": "ev-1",
+              "to_block_id": "b-1"
+            },
+            {
+              "rel_type": "MENTIONS",
+              "from_entity_id": "e-1",
+              "to_entity_id": "e-2",
+              "fact_text": "Melanie提到湖泊日出画是去年的。",
+              "confidence": 0.9,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            },
+            {
+              "rel_type": "MENTIONS",
+              "from_entity_id": "e-3",
+              "to_entity_id": "e-2",
+              "fact_text": "Caroline认为湖泊日出画的色彩融合很好。",
+              "confidence": 0.9,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            },
+            {
+              "rel_type": "MENTIONS",
+              "from_entity_id": "e-3",
+              "to_entity_id": "e-4",
+              "fact_text": "Caroline询问下周是否一起去博物馆看展。",
+              "confidence": 0.9,
+              "valid_at": "2026-01-15T12:00:00+00:00"
+            }
+          ]
+        },
+        "counts": {
+          "entities": 4,
+          "events": 1,
+          "participants": 4,
+          "relationships": 4
+        },
+        "user_prompt_chars": 2776
+      }
+    }
+  ]
+}

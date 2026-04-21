@@ -1,0 +1,810 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e3]: Skip to main content
+  - generic [ref=e6]:
+    - navigation:
+      - generic [ref=e8]:
+        - link "Frontiershome" [ref=e10] [cursor=pointer]:
+          - /url: //www.frontiersin.org/
+          - img [ref=e11]
+        - generic [ref=e22]:
+          - button "About us " [ref=e23]
+          - text:  
+        - link "All journals" [ref=e24] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals
+        - link "All articles" [ref=e25] [cursor=pointer]:
+          - /url: //www.frontiersin.org/articles
+        - link "Submit your research" [ref=e26] [cursor=pointer]:
+          - /url: //www.frontiersin.org/submission/submit?domainid=1&fieldid=118&specialtyid=0&entitytype=2&entityid=1437
+        - link "Search" [ref=e27] [cursor=pointer]:
+          - /url: //www.frontiersin.org/search?tab=top-results&origin=https%3A%2F%2Fwww.frontiersin.org%2Fjournals%2Fartificial-intelligence%2Farticles%3Fquery%3DModernBERT%2520relation%2520extraction%2520Sultangaziyeva
+          - text: Search
+        - link "Login" [ref=e28] [cursor=pointer]:
+          - /url: https://www.frontiersin.org/people/login?returnUrl=https%3A%2F%2Fwww.frontiersin.org%2Fjournals%2Fartificial-intelligence%2Farticles%3Fquery%3DModernBERT%2520relation%2520extraction%2520Sultangaziyeva
+          - text: Login
+      - text:          
+      - generic [ref=e30]:
+        - link "Frontiers in Artificial Intelligence" [ref=e31] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals/artificial-intelligence
+          - generic [ref=e33]: Frontiers in Artificial Intelligence
+        - generic [ref=e34]:
+          - button "Sections " [ref=e35]
+          - text:  
+        - link "Articles" [ref=e36] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals/artificial-intelligence/articles
+        - link "Research Topics" [ref=e37] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals/artificial-intelligence/research-topics
+        - link "Editorial board" [ref=e38] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals/artificial-intelligence/editors
+        - generic [ref=e39]:
+          - button "About journal " [ref=e40]
+          - text:  
+    - generic [ref=e41]:
+      - banner [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: 
+            - textbox "Search in this journal" [active] [ref=e46]: ModernBERT relation extraction Sultangaziyeva
+            - generic [ref=e47] [cursor=pointer]: 
+          - generic [ref=e48]: Type at least 3 characters
+        - heading "65 articles" [level=1] [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - button "Most relevant" [ref=e54] [cursor=pointer]
+            - button "Most recent" [ref=e55] [cursor=pointer]
+            - button "Most viewed" [ref=e56] [cursor=pointer]
+            - button "Most cited" [ref=e57] [cursor=pointer]
+            - text: 
+          - generic [ref=e59]:
+            - list [ref=e60]:
+              - listitem [ref=e61]:
+                - generic [ref=e62]:
+                  - button "Type " [ref=e63] [cursor=pointer]:
+                    - generic [ref=e64]: Type
+                    - text: 
+                  - text:     
+              - listitem [ref=e65]:
+                - button "Date " [ref=e68] [cursor=pointer]:
+                  - generic [ref=e69]: Date
+                  - text: 
+              - listitem [ref=e70]:
+                - generic [ref=e71]:
+                  - button "Sections " [ref=e72] [cursor=pointer]:
+                    - generic [ref=e73]: Sections
+                    - text: 
+                  - text:     
+              - listitem [ref=e74]:
+                - generic [ref=e75]:
+                  - button "Part of Research Topics " [ref=e76] [cursor=pointer]:
+                    - generic [ref=e77]: Part of Research Topics
+                    - text: 
+                  - text:     
+              - listitem
+            - generic: 
+      - main [ref=e78]:
+        - heading "articles" [level=1] [ref=e79]
+        - generic [ref=e80]:
+          - article [ref=e81]:
+            - link "Original Research Published on 31 Mar 2026 A multi-layer annotated corpus for information extraction in Russian clinical NLP Anar Sultangaziyeva · Madina Sambetbayeva · Nurzhan Mukazhanov · Bayangali Abdygalym · Sandugash Serikbayeva Frontiers in Artificial Intelligence doi 10.3389/frai.2026.1766899 115 views" [ref=e82] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1766899/full
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - paragraph [ref=e85]: Original Research
+                  - paragraph [ref=e86]: Published on 31 Mar 2026
+                - heading "A multi-layer annotated corpus for information extraction in Russian clinical NLP" [level=2] [ref=e87]:
+                  - text: A multi-layer annotated corpus for information
+                  - mark [ref=e88]: extraction
+                  - text: in Russian clinical NLP
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - text: Anar
+                    - mark [ref=e91]: Sultangaziyeva
+                    - text: ·
+                  - listitem [ref=e92]: Madina Sambetbayeva ·
+                  - listitem [ref=e93]: Nurzhan Mukazhanov ·
+                  - listitem [ref=e94]: Bayangali Abdygalym ·
+                  - listitem [ref=e95]: Sandugash Serikbayeva
+                - generic [ref=e97]:
+                  - generic [ref=e98]: Frontiers in Artificial Intelligence
+                  - generic [ref=e99]: doi 10.3389/frai.2026.1766899
+              - list [ref=e100]:
+                - listitem [ref=e101]:
+                  - strong [ref=e102]: "115"
+                  - text: views
+          - article [ref=e103]:
+            - link "Brief Research Report Published on 29 Apr 2024 Streamlining event extraction with a simplified annotation framework Chanatip Saetia · Areeya Thonglong · Thanpitcha Amornchaiteera · Tawunrat Chalothorn · Supawat Taerungruang · Pakpoom Buabthong Frontiers in Artificial Intelligence doi 10.3389/frai.2024.1361483 3,661 views 1 citation" [ref=e104] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1361483/full
+              - generic [ref=e105]:
+                - generic [ref=e106]:
+                  - paragraph [ref=e107]: Brief Research Report
+                  - paragraph [ref=e108]: Published on 29 Apr 2024
+                - heading "Streamlining event extraction with a simplified annotation framework" [level=2] [ref=e109]:
+                  - text: Streamlining event
+                  - mark [ref=e110]: extraction
+                  - text: with a simplified annotation framework
+                - list [ref=e111]:
+                  - listitem [ref=e112]: Chanatip Saetia ·
+                  - listitem [ref=e113]: Areeya Thonglong ·
+                  - listitem [ref=e114]: Thanpitcha Amornchaiteera ·
+                  - listitem [ref=e115]: Tawunrat Chalothorn ·
+                  - listitem [ref=e116]: Supawat Taerungruang ·
+                  - listitem [ref=e117]: Pakpoom Buabthong
+                - figure [ref=e118]:
+                  - img "Streamlining event <mark class=\"highlighted\">extraction</mark> with a simplified annotation framework" [ref=e119]
+                - generic [ref=e120]:
+                  - generic [ref=e121]: Frontiers in Artificial Intelligence
+                  - generic [ref=e122]: doi 10.3389/frai.2024.1361483
+              - list [ref=e123]:
+                - listitem [ref=e124]:
+                  - strong [ref=e125]: 3,661
+                  - text: views
+                - listitem [ref=e126]:
+                  - strong [ref=e127]: "1"
+                  - text: citation
+          - article [ref=e128]:
+            - link "Original Research Published on 02 Jul 2025 Dynamic taxonomy generation for future skills identification using a named entity recognition and relation extraction pipeline Luis Jose Gonzalez-Gomez · Sofia Margarita Hernandez-Munoz · Abiel Borja · Fernando A. Arana-Salas · Jose Daniel Azofeifa · Julieta Noguez · Patricia Caratozzolo Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1579998 3,156 views 1 citation" [ref=e129] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1579998/full
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - paragraph [ref=e132]: Original Research
+                  - paragraph [ref=e133]: Published on 02 Jul 2025
+                - heading "Dynamic taxonomy generation for future skills identification using a named entity recognition and relation extraction pipeline" [level=2] [ref=e134]:
+                  - text: Dynamic taxonomy generation for future skills identification using a named entity recognition and
+                  - mark [ref=e135]: relation
+                  - mark [ref=e136]: extraction
+                  - text: pipeline
+                - list [ref=e137]:
+                  - listitem [ref=e138]: Luis Jose Gonzalez-Gomez ·
+                  - listitem [ref=e139]: Sofia Margarita Hernandez-Munoz ·
+                  - listitem [ref=e140]: Abiel Borja ·
+                  - listitem [ref=e141]: Fernando A. Arana-Salas ·
+                  - listitem [ref=e142]: Jose Daniel Azofeifa ·
+                  - listitem [ref=e143]: Julieta Noguez ·
+                  - listitem [ref=e144]: Patricia Caratozzolo
+                - generic [ref=e146]:
+                  - generic [ref=e147]: Frontiers in Artificial Intelligence
+                  - generic [ref=e148]: doi 10.3389/frai.2025.1579998
+              - list [ref=e149]:
+                - listitem [ref=e150]:
+                  - strong [ref=e151]: 3,156
+                  - text: views
+                - listitem [ref=e152]:
+                  - strong [ref=e153]: "1"
+                  - text: citation
+          - article [ref=e154]:
+            - link "Original Research Published on 08 Aug 2025 Grouped semantic-feature relation extraction from texts to represent medicinal-plant property knowledge on social media Chaveevan Pechsiri · Intaka Piriyakul · Joseph Santhi Pechsiri Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1579357 2,121 views" [ref=e155] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1579357/full
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - paragraph [ref=e158]: Original Research
+                  - paragraph [ref=e159]: Published on 08 Aug 2025
+                - heading "Grouped semantic-feature relation extraction from texts to represent medicinal-plant property knowledge on social media" [level=2] [ref=e160]:
+                  - text: Grouped semantic-feature
+                  - mark [ref=e161]: relation
+                  - mark [ref=e162]: extraction
+                  - text: from texts to represent medicinal-plant property knowledge on social media
+                - list [ref=e163]:
+                  - listitem [ref=e164]: Chaveevan Pechsiri ·
+                  - listitem [ref=e165]: Intaka Piriyakul ·
+                  - listitem [ref=e166]: Joseph Santhi Pechsiri
+                - generic [ref=e168]:
+                  - generic [ref=e169]: Frontiers in Artificial Intelligence
+                  - generic [ref=e170]: doi 10.3389/frai.2025.1579357
+              - list [ref=e171]:
+                - listitem [ref=e172]:
+                  - strong [ref=e173]: 2,121
+                  - text: views
+          - article [ref=e174]:
+            - link "Original Research Published on 24 Apr 2025 Enhancing pre-trained language model by answering natural questions for event extraction Yuxin Zhang · Qing Han Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1520290 2,755 views 1 citation" [ref=e175] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1520290/full
+              - generic [ref=e176]:
+                - generic [ref=e177]:
+                  - paragraph [ref=e178]: Original Research
+                  - paragraph [ref=e179]: Published on 24 Apr 2025
+                - heading "Enhancing pre-trained language model by answering natural questions for event extraction" [level=2] [ref=e180]:
+                  - text: Enhancing pre-trained language model by answering natural questions for event
+                  - mark [ref=e181]: extraction
+                - list [ref=e182]:
+                  - listitem [ref=e183]: Yuxin Zhang ·
+                  - listitem [ref=e184]: Qing Han
+                - generic [ref=e186]:
+                  - generic [ref=e187]: Frontiers in Artificial Intelligence
+                  - generic [ref=e188]: doi 10.3389/frai.2025.1520290
+              - list [ref=e189]:
+                - listitem [ref=e190]:
+                  - strong [ref=e191]: 2,755
+                  - text: views
+                - listitem [ref=e192]:
+                  - strong [ref=e193]: "1"
+                  - text: citation
+          - article [ref=e194]:
+            - link "Methods Published on 14 May 2019 A Pattern-Based Method for Medical Entity Recognition From Chinese Diagnostic Imaging Text Zihong Liang · Junjie Chen · Zhaopeng Xu · Yuyang Chen · Tianyong Hao Frontiers in Artificial Intelligence doi 10.3389/frai.2019.00001 8,333 views 14 citations" [ref=e195] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2019.00001/full
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - paragraph [ref=e198]: Methods
+                  - paragraph [ref=e199]: Published on 14 May 2019
+                - heading "A Pattern-Based Method for Medical Entity Recognition From Chinese Diagnostic Imaging Text" [level=2] [ref=e200]
+                - list [ref=e201]:
+                  - listitem [ref=e202]: Zihong Liang ·
+                  - listitem [ref=e203]: Junjie Chen ·
+                  - listitem [ref=e204]: Zhaopeng Xu ·
+                  - listitem [ref=e205]: Yuyang Chen ·
+                  - listitem [ref=e206]: Tianyong Hao
+                - figure [ref=e207]:
+                  - img "A Pattern-Based Method for Medical Entity Recognition From Chinese Diagnostic Imaging Text" [ref=e208]
+                - generic [ref=e209]:
+                  - generic [ref=e210]: Frontiers in Artificial Intelligence
+                  - generic [ref=e211]: doi 10.3389/frai.2019.00001
+              - list [ref=e212]:
+                - listitem [ref=e213]:
+                  - strong [ref=e214]: 8,333
+                  - text: views
+                - listitem [ref=e215]:
+                  - strong [ref=e216]: "14"
+                  - text: citations
+          - article [ref=e217]:
+            - 'link "Original Research Published on 15 Aug 2024 Automated information extraction model enhancing traditional Chinese medicine RCT evidence extraction (Evi-BERT): algorithm development and validation Yizhen Li · Zhongzhi Luan · Yixing Liu · Heyuan Liu · Jiaxing Qi · Dongran Han Frontiers in Artificial Intelligence doi 10.3389/frai.2024.1454945 4,191 views 8 citations" [ref=e218] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1454945/full
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - paragraph [ref=e221]: Original Research
+                  - paragraph [ref=e222]: Published on 15 Aug 2024
+                - 'heading "Automated information extraction model enhancing traditional Chinese medicine RCT evidence extraction (Evi-BERT): algorithm development and validation" [level=2] [ref=e223]':
+                  - text: Automated information
+                  - mark [ref=e224]: extraction
+                  - text: model enhancing traditional Chinese medicine RCT evidence
+                  - mark [ref=e225]: extraction
+                  - text: "(Evi-BERT): algorithm development and validation"
+                - list [ref=e226]:
+                  - listitem [ref=e227]: Yizhen Li ·
+                  - listitem [ref=e228]: Zhongzhi Luan ·
+                  - listitem [ref=e229]: Yixing Liu ·
+                  - listitem [ref=e230]: Heyuan Liu ·
+                  - listitem [ref=e231]: Jiaxing Qi ·
+                  - listitem [ref=e232]: Dongran Han
+                - generic [ref=e234]:
+                  - generic [ref=e235]: Frontiers in Artificial Intelligence
+                  - generic [ref=e236]: doi 10.3389/frai.2024.1454945
+              - list [ref=e237]:
+                - listitem [ref=e238]:
+                  - strong [ref=e239]: 4,191
+                  - text: views
+                - listitem [ref=e240]:
+                  - strong [ref=e241]: "8"
+                  - text: citations
+          - article [ref=e242]:
+            - link "Review Published on 25 Jan 2023 Trends in EEG signal feature extraction applications Anupreet Kaur Singh · Sridhar Krishnan Frontiers in Artificial Intelligence doi 10.3389/frai.2022.1072801 42,904 views 135 citations" [ref=e243] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2022.1072801/full
+              - generic [ref=e244]:
+                - generic [ref=e245]:
+                  - paragraph [ref=e246]: Review
+                  - paragraph [ref=e247]: Published on 25 Jan 2023
+                - heading "Trends in EEG signal feature extraction applications" [level=2] [ref=e248]:
+                  - text: Trends in EEG signal feature
+                  - mark [ref=e249]: extraction
+                  - text: applications
+                - list [ref=e250]:
+                  - listitem [ref=e251]: Anupreet Kaur Singh ·
+                  - listitem [ref=e252]: Sridhar Krishnan
+                - figure [ref=e254]:
+                  - img "Trends in EEG signal feature <mark class=\"highlighted\">extraction</mark> applications" [ref=e255]
+                - generic [ref=e256]:
+                  - generic [ref=e257]: Frontiers in Artificial Intelligence
+                  - generic [ref=e258]: doi 10.3389/frai.2022.1072801
+              - list [ref=e259]:
+                - listitem [ref=e260]:
+                  - strong [ref=e261]: 42,904
+                  - text: views
+                - listitem [ref=e262]:
+                  - strong [ref=e263]: "135"
+                  - text: citations
+          - article [ref=e264]:
+            - 'link "Editorial Published on 16 Jun 2023 Editorial: Information extraction for health documents Enrico Mensa · Paloma Martínez Fernández · Roland Roller · Daniele P. Radicioni Frontiers in Artificial Intelligence doi 10.3389/frai.2023.1224529 2,973 views 3 citations" [ref=e265] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2023.1224529/full
+              - generic [ref=e266]:
+                - generic [ref=e267]:
+                  - paragraph [ref=e268]: Editorial
+                  - paragraph [ref=e269]: Published on 16 Jun 2023
+                - 'heading "Editorial: Information extraction for health documents" [level=2] [ref=e270]':
+                  - text: "Editorial: Information"
+                  - mark [ref=e271]: extraction
+                  - text: for health documents
+                - list [ref=e272]:
+                  - listitem [ref=e273]: Enrico Mensa ·
+                  - listitem [ref=e274]: Paloma Martínez Fernández ·
+                  - listitem [ref=e275]: Roland Roller ·
+                  - listitem [ref=e276]: Daniele P. Radicioni
+                - generic [ref=e278]:
+                  - generic [ref=e279]: Frontiers in Artificial Intelligence
+                  - generic [ref=e280]: doi 10.3389/frai.2023.1224529
+              - list [ref=e281]:
+                - listitem [ref=e282]:
+                  - strong [ref=e283]: 2,973
+                  - text: views
+                - listitem [ref=e284]:
+                  - strong [ref=e285]: "3"
+                  - text: citations
+          - article [ref=e286]:
+            - 'link "Original Research Published on 13 Jan 2023 Clinical concept recognition: Evaluation of existing systems on EHRs Juan Antonio Lossio-Ventura · Ran Sun · Sebastien Boussard · Tina Hernandez-Boussard Frontiers in Artificial Intelligence doi 10.3389/frai.2022.1051724 5,874 views 9 citations" [ref=e287] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2022.1051724/full
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - paragraph [ref=e290]: Original Research
+                  - paragraph [ref=e291]: Published on 13 Jan 2023
+                - 'heading "Clinical concept recognition: Evaluation of existing systems on EHRs" [level=2] [ref=e292]'
+                - list [ref=e293]:
+                  - listitem [ref=e294]: Juan Antonio Lossio-Ventura ·
+                  - listitem [ref=e295]: Ran Sun ·
+                  - listitem [ref=e296]: Sebastien Boussard ·
+                  - listitem [ref=e297]: Tina Hernandez-Boussard
+                - figure [ref=e299]:
+                  - 'img "Clinical concept recognition: Evaluation of existing systems on EHRs" [ref=e300]'
+                - generic [ref=e301]:
+                  - generic [ref=e302]: Frontiers in Artificial Intelligence
+                  - generic [ref=e303]: doi 10.3389/frai.2022.1051724
+              - list [ref=e304]:
+                - listitem [ref=e305]:
+                  - strong [ref=e306]: 5,874
+                  - text: views
+                - listitem [ref=e307]:
+                  - strong [ref=e308]: "9"
+                  - text: citations
+          - article [ref=e309]:
+            - 'link "Original Research Published on 12 Jan 2026 RiCoRecA: rich cooking recipe annotation schema Filippos Ventirozos · Mauricio Jacobo-Romero · Haifa Alrdahi · Sarah Clinch · Riza Batista-Navarro Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1550604 3,002 views" [ref=e310] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1550604/full
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - paragraph [ref=e313]: Original Research
+                  - paragraph [ref=e314]: Published on 12 Jan 2026
+                - 'heading "RiCoRecA: rich cooking recipe annotation schema" [level=2] [ref=e315]'
+                - list [ref=e316]:
+                  - listitem [ref=e317]: Filippos Ventirozos ·
+                  - listitem [ref=e318]: Mauricio Jacobo-Romero ·
+                  - listitem [ref=e319]: Haifa Alrdahi ·
+                  - listitem [ref=e320]: Sarah Clinch ·
+                  - listitem [ref=e321]: Riza Batista-Navarro
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Frontiers in Artificial Intelligence
+                  - generic [ref=e325]: doi 10.3389/frai.2025.1550604
+              - list [ref=e326]:
+                - listitem [ref=e327]:
+                  - strong [ref=e328]: 3,002
+                  - text: views
+          - article [ref=e329]:
+            - link "Original Research Published on 11 Apr 2022 Domain Adaptation Using Convolutional Autoencoder and Gradient Boosting for Adverse Events Prediction in the Intensive Care Unit Yuanda Zhu · Janani Venugopalan · Zhenyu Zhang · Nikhil K. Chanani · Kevin O. Maher · May D. Wang Frontiers in Artificial Intelligence doi 10.3389/frai.2022.640926 3,579 views 12 citations" [ref=e330] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2022.640926/full
+              - generic [ref=e331]:
+                - generic [ref=e332]:
+                  - paragraph [ref=e333]: Original Research
+                  - paragraph [ref=e334]: Published on 11 Apr 2022
+                - heading "Domain Adaptation Using Convolutional Autoencoder and Gradient Boosting for Adverse Events Prediction in the Intensive Care Unit" [level=2] [ref=e335]
+                - list [ref=e336]:
+                  - listitem [ref=e337]: Yuanda Zhu ·
+                  - listitem [ref=e338]: Janani Venugopalan ·
+                  - listitem [ref=e339]: Zhenyu Zhang ·
+                  - listitem [ref=e340]: Nikhil K. Chanani ·
+                  - listitem [ref=e341]: Kevin O. Maher ·
+                  - listitem [ref=e342]: May D. Wang
+                - figure [ref=e343]:
+                  - img "Domain Adaptation Using Convolutional Autoencoder and Gradient Boosting for Adverse Events Prediction in the Intensive Care Unit" [ref=e344]
+                - generic [ref=e345]:
+                  - generic [ref=e346]: Frontiers in Artificial Intelligence
+                  - generic [ref=e347]: doi 10.3389/frai.2022.640926
+              - list [ref=e348]:
+                - listitem [ref=e349]:
+                  - strong [ref=e350]: 3,579
+                  - text: views
+                - listitem [ref=e351]:
+                  - strong [ref=e352]: "12"
+                  - text: citations
+          - article [ref=e353]:
+            - 'link "Original Research Published on 19 Mar 2025 SciLinker: a large-scale text mining framework for mapping associations among biological entities Dongyu Liu · Cora Ames · Shameer Khader · Franck Rapaport Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1528562 2,949 views 1 citation" [ref=e354] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1528562/full
+              - generic [ref=e355]:
+                - generic [ref=e356]:
+                  - paragraph [ref=e357]: Original Research
+                  - paragraph [ref=e358]: Published on 19 Mar 2025
+                - 'heading "SciLinker: a large-scale text mining framework for mapping associations among biological entities" [level=2] [ref=e359]'
+                - list [ref=e360]:
+                  - listitem [ref=e361]: Dongyu Liu ·
+                  - listitem [ref=e362]: Cora Ames ·
+                  - listitem [ref=e363]: Shameer Khader ·
+                  - listitem [ref=e364]: Franck Rapaport
+                - generic [ref=e366]:
+                  - generic [ref=e367]: Frontiers in Artificial Intelligence
+                  - generic [ref=e368]: doi 10.3389/frai.2025.1528562
+              - list [ref=e369]:
+                - listitem [ref=e370]:
+                  - strong [ref=e371]: 2,949
+                  - text: views
+                - listitem [ref=e372]:
+                  - strong [ref=e373]: "1"
+                  - text: citation
+          - article [ref=e374]:
+            - link "Systematic Review Published on 05 Sep 2025 A review on knowledge and information extraction from PDF documents and storage approaches Salvador D. Atagong · Henri Tonnang · Kennedy Senagi · Mark Wamalwa · Komi M. Agboka · John Odindi Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1466092 6,320 views" [ref=e375] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1466092/full
+              - generic [ref=e376]:
+                - generic [ref=e377]:
+                  - paragraph [ref=e378]: Systematic Review
+                  - paragraph [ref=e379]: Published on 05 Sep 2025
+                - heading "A review on knowledge and information extraction from PDF documents and storage approaches" [level=2] [ref=e380]:
+                  - text: A review on knowledge and information
+                  - mark [ref=e381]: extraction
+                  - text: from PDF documents and storage approaches
+                - list [ref=e382]:
+                  - listitem [ref=e383]: Salvador D. Atagong ·
+                  - listitem [ref=e384]: Henri Tonnang ·
+                  - listitem [ref=e385]: Kennedy Senagi ·
+                  - listitem [ref=e386]: Mark Wamalwa ·
+                  - listitem [ref=e387]: Komi M. Agboka ·
+                  - listitem [ref=e388]: John Odindi
+                - generic [ref=e390]:
+                  - generic [ref=e391]: Frontiers in Artificial Intelligence
+                  - generic [ref=e392]: doi 10.3389/frai.2025.1466092
+              - list [ref=e393]:
+                - listitem [ref=e394]:
+                  - strong [ref=e395]: 6,320
+                  - text: views
+          - article [ref=e396]:
+            - link "Original Research Published on 07 Jan 2025 Grammar-constrained decoding for structured information extraction with fine-tuned generative models applied to clinical trial abstracts David M. Schmidt · Philipp Cimiano Frontiers in Artificial Intelligence doi 10.3389/frai.2024.1406857 4,516 views 1 citation" [ref=e397] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1406857/full
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - paragraph [ref=e400]: Original Research
+                  - paragraph [ref=e401]: Published on 07 Jan 2025
+                - heading "Grammar-constrained decoding for structured information extraction with fine-tuned generative models applied to clinical trial abstracts" [level=2] [ref=e402]:
+                  - text: Grammar-constrained decoding for structured information
+                  - mark [ref=e403]: extraction
+                  - text: with fine-tuned generative models applied to clinical trial abstracts
+                - list [ref=e404]:
+                  - listitem [ref=e405]: David M. Schmidt ·
+                  - listitem [ref=e406]: Philipp Cimiano
+                - generic [ref=e407]:
+                  - generic [ref=e408]: Frontiers in Artificial Intelligence
+                  - generic [ref=e409]: doi 10.3389/frai.2024.1406857
+              - list [ref=e410]:
+                - listitem [ref=e411]:
+                  - strong [ref=e412]: 4,516
+                  - text: views
+                - listitem [ref=e413]:
+                  - strong [ref=e414]: "1"
+                  - text: citation
+          - article [ref=e415]:
+            - 'link "Original Research Published on 01 Jul 2025 Contestable AI for criminal intelligence analysis: improving decision-making through semantic modeling and human oversight Falk Maoro · Michaela Geierhos Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1602998 4,500 views" [ref=e416] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1602998/full
+              - generic [ref=e417]:
+                - generic [ref=e418]:
+                  - paragraph [ref=e419]: Original Research
+                  - paragraph [ref=e420]: Published on 01 Jul 2025
+                - 'heading "Contestable AI for criminal intelligence analysis: improving decision-making through semantic modeling and human oversight" [level=2] [ref=e421]'
+                - list [ref=e422]:
+                  - listitem [ref=e423]: Falk Maoro ·
+                  - listitem [ref=e424]: Michaela Geierhos
+                - generic [ref=e426]:
+                  - generic [ref=e427]: Frontiers in Artificial Intelligence
+                  - generic [ref=e428]: doi 10.3389/frai.2025.1602998
+              - list [ref=e429]:
+                - listitem [ref=e430]:
+                  - strong [ref=e431]: 4,500
+                  - text: views
+          - article [ref=e432]:
+            - link "Methods Published on 14 Jan 2025 Clinical entity-aware domain adaptation in low resource setting for inflammatory bowel disease Sumam Francis · Fernando Crema Garcia · Kanimozhi Uma · Willem Mestdagh · Bart De Moor · Marie-Francine Moens Frontiers in Artificial Intelligence doi 10.3389/frai.2024.1450477 2,422 views 2 citations" [ref=e433] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1450477/full
+              - generic [ref=e434]:
+                - generic [ref=e435]:
+                  - paragraph [ref=e436]: Methods
+                  - paragraph [ref=e437]: Published on 14 Jan 2025
+                - heading "Clinical entity-aware domain adaptation in low resource setting for inflammatory bowel disease" [level=2] [ref=e438]
+                - list [ref=e439]:
+                  - listitem [ref=e440]: Sumam Francis ·
+                  - listitem [ref=e441]: Fernando Crema Garcia ·
+                  - listitem [ref=e442]: Kanimozhi Uma ·
+                  - listitem [ref=e443]: Willem Mestdagh ·
+                  - listitem [ref=e444]: Bart De Moor ·
+                  - listitem [ref=e445]: Marie-Francine Moens
+                - generic [ref=e447]:
+                  - generic [ref=e448]: Frontiers in Artificial Intelligence
+                  - generic [ref=e449]: doi 10.3389/frai.2024.1450477
+              - list [ref=e450]:
+                - listitem [ref=e451]:
+                  - strong [ref=e452]: 2,422
+                  - text: views
+                - listitem [ref=e453]:
+                  - strong [ref=e454]: "2"
+                  - text: citations
+          - article [ref=e455]:
+            - link "Original Research Published on 20 Nov 2025 Analysis of article screening and data extraction performance by an AI systematic literature review platform Kelsie Cassell · Abiodun Ologunowa · Majid Rastegar-Mojarad · Bianca Chun · Yi-Ling Huang · Dong Wang · Nicole Cossrow Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1662202 3,238 views" [ref=e456] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1662202/full
+              - generic [ref=e457]:
+                - generic [ref=e458]:
+                  - paragraph [ref=e459]: Original Research
+                  - paragraph [ref=e460]: Published on 20 Nov 2025
+                - heading "Analysis of article screening and data extraction performance by an AI systematic literature review platform" [level=2] [ref=e461]:
+                  - text: Analysis of article screening and data
+                  - mark [ref=e462]: extraction
+                  - text: performance by an AI systematic literature review platform
+                - list [ref=e463]:
+                  - listitem [ref=e464]: Kelsie Cassell ·
+                  - listitem [ref=e465]: Abiodun Ologunowa ·
+                  - listitem [ref=e466]: Majid Rastegar-Mojarad ·
+                  - listitem [ref=e467]: Bianca Chun ·
+                  - listitem [ref=e468]: Yi-Ling Huang ·
+                  - listitem [ref=e469]: Dong Wang ·
+                  - listitem [ref=e470]: Nicole Cossrow
+                - generic [ref=e472]:
+                  - generic [ref=e473]: Frontiers in Artificial Intelligence
+                  - generic [ref=e474]: doi 10.3389/frai.2025.1662202
+              - list [ref=e475]:
+                - listitem [ref=e476]:
+                  - strong [ref=e477]: 3,238
+                  - text: views
+          - article [ref=e478]:
+            - link "Original Research Published on 13 Jan 2026 Painting authentication using CNNs and sliding window feature extraction Juan Ruiz de Miras · José Luis Vílchez · María José Gacto · Domingo Martín Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1738444 1,260 views" [ref=e479] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1738444/full
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - paragraph [ref=e482]: Original Research
+                  - paragraph [ref=e483]: Published on 13 Jan 2026
+                - heading "Painting authentication using CNNs and sliding window feature extraction" [level=2] [ref=e484]:
+                  - text: Painting authentication using CNNs and sliding window feature
+                  - mark [ref=e485]: extraction
+                - list [ref=e486]:
+                  - listitem [ref=e487]: Juan Ruiz de Miras ·
+                  - listitem [ref=e488]: José Luis Vílchez ·
+                  - listitem [ref=e489]: María José Gacto ·
+                  - listitem [ref=e490]: Domingo Martín
+                - generic [ref=e492]:
+                  - generic [ref=e493]: Frontiers in Artificial Intelligence
+                  - generic [ref=e494]: doi 10.3389/frai.2025.1738444
+              - list [ref=e495]:
+                - listitem [ref=e496]:
+                  - strong [ref=e497]: 1,260
+                  - text: views
+          - article [ref=e498]:
+            - link "Original Research Published on 21 Jul 2021 Rule Extraction From Binary Neural Networks With Convolutional Rules for Model Validation Sophie Burkhardt · Jannis Brugger · Nicolas Wagner · Zahra Ahmadi · Kristian Kersting · Stefan Kramer Frontiers in Artificial Intelligence doi 10.3389/frai.2021.642263 7,280 views 10 citations" [ref=e499] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2021.642263/full
+              - generic [ref=e500]:
+                - generic [ref=e501]:
+                  - paragraph [ref=e502]: Original Research
+                  - paragraph [ref=e503]: Published on 21 Jul 2021
+                - heading "Rule Extraction From Binary Neural Networks With Convolutional Rules for Model Validation" [level=2] [ref=e504]:
+                  - text: Rule
+                  - mark [ref=e505]: Extraction
+                  - text: From Binary Neural Networks With Convolutional Rules for Model Validation
+                - list [ref=e506]:
+                  - listitem [ref=e507]: Sophie Burkhardt ·
+                  - listitem [ref=e508]: Jannis Brugger ·
+                  - listitem [ref=e509]: Nicolas Wagner ·
+                  - listitem [ref=e510]: Zahra Ahmadi ·
+                  - listitem [ref=e511]: Kristian Kersting ·
+                  - listitem [ref=e512]: Stefan Kramer
+                - figure [ref=e513]:
+                  - img "Rule <mark class=\"highlighted\">Extraction</mark> From Binary Neural Networks With Convolutional Rules for Model Validation" [ref=e514]
+                - generic [ref=e515]:
+                  - generic [ref=e516]: Frontiers in Artificial Intelligence
+                  - generic [ref=e517]: doi 10.3389/frai.2021.642263
+              - list [ref=e518]:
+                - listitem [ref=e519]:
+                  - strong [ref=e520]: 7,280
+                  - text: views
+                - listitem [ref=e521]:
+                  - strong [ref=e522]: "10"
+                  - text: citations
+          - article [ref=e523]:
+            - 'link "Correction Published on 13 Mar 2026 Correction: Painting authentication using CNNs and sliding window feature extraction Juan Ruiz de Miras · José Luis Vílchez · María José Gacto · Domingo Martín Frontiers in Artificial Intelligence doi 10.3389/frai.2026.1818182 117 views" [ref=e524] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1818182/full
+              - generic [ref=e525]:
+                - generic [ref=e526]:
+                  - paragraph [ref=e527]: Correction
+                  - paragraph [ref=e528]: Published on 13 Mar 2026
+                - 'heading "Correction: Painting authentication using CNNs and sliding window feature extraction" [level=2] [ref=e529]':
+                  - text: "Correction: Painting authentication using CNNs and sliding window feature"
+                  - mark [ref=e530]: extraction
+                - list [ref=e531]:
+                  - listitem [ref=e532]: Juan Ruiz de Miras ·
+                  - listitem [ref=e533]: José Luis Vílchez ·
+                  - listitem [ref=e534]: María José Gacto ·
+                  - listitem [ref=e535]: Domingo Martín
+                - generic [ref=e537]:
+                  - generic [ref=e538]: Frontiers in Artificial Intelligence
+                  - generic [ref=e539]: doi 10.3389/frai.2026.1818182
+              - list [ref=e540]:
+                - listitem [ref=e541]:
+                  - strong [ref=e542]: "117"
+                  - text: views
+          - article [ref=e543]:
+            - 'link "Original Research Published on 12 May 2025 From data extraction to analysis: a comparative study of ELISE capabilities in scientific literature Maxime Gobin · Muriel Gosnat · Seindé Toure · Lina Faik · Joel Belafa · Antoine Villedieu de Torcy · Florence Armstrong Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1587244 4,572 views 1 citation" [ref=e544] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1587244/full
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - paragraph [ref=e547]: Original Research
+                  - paragraph [ref=e548]: Published on 12 May 2025
+                - 'heading "From data extraction to analysis: a comparative study of ELISE capabilities in scientific literature" [level=2] [ref=e549]':
+                  - text: From data
+                  - mark [ref=e550]: extraction
+                  - text: "to analysis: a comparative study of ELISE capabilities in scientific literature"
+                - list [ref=e551]:
+                  - listitem [ref=e552]: Maxime Gobin ·
+                  - listitem [ref=e553]: Muriel Gosnat ·
+                  - listitem [ref=e554]: Seindé Toure ·
+                  - listitem [ref=e555]: Lina Faik ·
+                  - listitem [ref=e556]: Joel Belafa ·
+                  - listitem [ref=e557]: Antoine Villedieu de Torcy ·
+                  - listitem [ref=e558]: Florence Armstrong
+                - generic [ref=e560]:
+                  - generic [ref=e561]: Frontiers in Artificial Intelligence
+                  - generic [ref=e562]: doi 10.3389/frai.2025.1587244
+              - list [ref=e563]:
+                - listitem [ref=e564]:
+                  - strong [ref=e565]: 4,572
+                  - text: views
+                - listitem [ref=e566]:
+                  - strong [ref=e567]: "1"
+                  - text: citation
+          - article [ref=e568]:
+            - 'link "Original Research Published on 27 Jan 2026 CBAM-DenseNet with multi-feature quality filtering: advancing accuracy in small-sample iris recognition Yongheng Pang · Zishen Wang · Nan Jiang · Jia Qin · Suyuan Li Frontiers in Artificial Intelligence doi 10.3389/frai.2025.1714882 617 views" [ref=e569] [cursor=pointer]':
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1714882/full
+              - generic [ref=e570]:
+                - generic [ref=e571]:
+                  - paragraph [ref=e572]: Original Research
+                  - paragraph [ref=e573]: Published on 27 Jan 2026
+                - 'heading "CBAM-DenseNet with multi-feature quality filtering: advancing accuracy in small-sample iris recognition" [level=2] [ref=e574]'
+                - list [ref=e575]:
+                  - listitem [ref=e576]: Yongheng Pang ·
+                  - listitem [ref=e577]: Zishen Wang ·
+                  - listitem [ref=e578]: Nan Jiang ·
+                  - listitem [ref=e579]: Jia Qin ·
+                  - listitem [ref=e580]: Suyuan Li
+                - generic [ref=e582]:
+                  - generic [ref=e583]: Frontiers in Artificial Intelligence
+                  - generic [ref=e584]: doi 10.3389/frai.2025.1714882
+              - list [ref=e585]:
+                - listitem [ref=e586]:
+                  - strong [ref=e587]: "617"
+                  - text: views
+          - article [ref=e588]:
+            - link "Original Research Published on 03 Nov 2021 A Quantitative Evaluation of Global, Rule-Based Explanations of Post-Hoc, Model Agnostic Methods Giulia Vilone · Luca Longo Frontiers in Artificial Intelligence doi 10.3389/frai.2021.717899 8,255 views 36 citations" [ref=e589] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2021.717899/full
+              - generic [ref=e590]:
+                - generic [ref=e591]:
+                  - paragraph [ref=e592]: Original Research
+                  - paragraph [ref=e593]: Published on 03 Nov 2021
+                - heading "A Quantitative Evaluation of Global, Rule-Based Explanations of Post-Hoc, Model Agnostic Methods" [level=2] [ref=e594]
+                - list [ref=e595]:
+                  - listitem [ref=e596]: Giulia Vilone ·
+                  - listitem [ref=e597]: Luca Longo
+                - figure [ref=e598]:
+                  - img "A Quantitative Evaluation of Global, Rule-Based Explanations of Post-Hoc, Model Agnostic Methods" [ref=e599]
+                - generic [ref=e600]:
+                  - generic [ref=e601]: Frontiers in Artificial Intelligence
+                  - generic [ref=e602]: doi 10.3389/frai.2021.717899
+              - list [ref=e603]:
+                - listitem [ref=e604]:
+                  - strong [ref=e605]: 8,255
+                  - text: views
+                - listitem [ref=e606]:
+                  - strong [ref=e607]: "36"
+                  - text: citations
+        - generic [ref=e608]:
+          - generic [ref=e609]:
+            - generic [ref=e610]:
+              - button "Go to first page" [disabled]:
+                - img
+              - button "Previous page" [disabled]:
+                - img
+                - generic: Previous
+            - button "1" [ref=e611]
+            - button "2" [ref=e612]
+            - button "3" [ref=e613]
+            - generic [ref=e614]:
+              - button "Next page" [ref=e615]:
+                - generic [ref=e616]: Next
+                - img [ref=e617]
+              - button "Go to last page" [ref=e619]:
+                - img [ref=e620]
+          - generic [ref=e622]: 1-24 of 65 articles
+    - contentinfo [ref=e623]:
+      - generic [ref=e624]:
+        - generic [ref=e625]:
+          - list [ref=e626]:
+            - listitem [ref=e627]:
+              - button "Guidelines":
+                - generic: Guidelines
+                - text: 
+              - list [ref=e629]:
+                - listitem [ref=e630]:
+                  - link "Author guidelines" [ref=e631] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/guidelines/author-guidelines
+                - listitem [ref=e632]:
+                  - link "Services for authors" [ref=e633] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/for-authors/author-services
+                - listitem [ref=e634]:
+                  - link "Policies and publication ethics" [ref=e635] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/guidelines/policies-and-publication-ethics
+                - listitem [ref=e636]:
+                  - link "Editor guidelines" [ref=e637] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/guidelines/editor-guidelines
+                - listitem [ref=e638]:
+                  - link "Fee policy" [ref=e639] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/fee-policy
+            - listitem [ref=e640]:
+              - button "Explore":
+                - generic: Explore
+                - text: 
+              - list [ref=e642]:
+                - listitem [ref=e643]:
+                  - link "Articles" [ref=e644] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/articles
+                - listitem [ref=e645]:
+                  - link "Research Topics" [ref=e646] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/research-topics
+                - listitem [ref=e647]:
+                  - link "Journals" [ref=e648] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/journals
+                - listitem [ref=e649]:
+                  - link "How we publish" [ref=e650] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/how-we-publish
+            - listitem [ref=e651]:
+              - button "Outreach":
+                - generic: Outreach
+                - text: 
+              - list [ref=e653]:
+                - listitem [ref=e654]:
+                  - link "Frontiers Forum" [ref=e655] [cursor=pointer]:
+                    - /url: https://forum.frontiersin.org/
+                - listitem [ref=e656]:
+                  - link "Frontiers Policy Labs" [ref=e657] [cursor=pointer]:
+                    - /url: https://policylabs.frontiersin.org/
+                - listitem [ref=e658]:
+                  - link "Frontiers for Young Minds" [ref=e659] [cursor=pointer]:
+                    - /url: https://kids.frontiersin.org/
+                - listitem [ref=e660]:
+                  - link "Frontiers Planet Prize" [ref=e661] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/frontiers-planet-prize
+            - listitem [ref=e662]:
+              - button "Connect":
+                - generic: Connect
+                - text: 
+              - list [ref=e664]:
+                - listitem [ref=e665]:
+                  - link "Help center" [ref=e666] [cursor=pointer]:
+                    - /url: https://helpcenter.frontiersin.org
+                - listitem [ref=e667]:
+                  - link "Emails and alerts" [ref=e668] [cursor=pointer]:
+                    - /url: https://subscription-management.frontiersin.org/emails/preferences#block0
+                - listitem [ref=e669]:
+                  - link "Contact us" [ref=e670] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/contact
+                - listitem [ref=e671]:
+                  - link "Submit" [ref=e672] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/submission/submit
+                - listitem [ref=e673]:
+                  - link "Career opportunities" [ref=e674] [cursor=pointer]:
+                    - /url: https://careers.frontiersin.org/
+          - generic [ref=e675]:
+            - generic [ref=e676]: Follow us
+            - link "Frontiers Facebook" [ref=e678] [cursor=pointer]:
+              - /url: https://www.facebook.com/Frontiersin
+              - text: 
+            - link "Frontiers Twitter" [ref=e680] [cursor=pointer]:
+              - /url: https://twitter.com/frontiersin
+              - text: 
+            - link "Frontiers LinkedIn" [ref=e682] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/frontiers
+              - text: 
+            - link "Frontiers Instagram" [ref=e684] [cursor=pointer]:
+              - /url: https://www.instagram.com/frontiersin_
+              - text: 
+        - generic [ref=e685]:
+          - generic [ref=e686]: © 2026 Frontiers Media SA. All rights reserved.
+          - generic [ref=e687]:
+            - link "Privacy policy" [ref=e688] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/legal/privacy-policy
+            - text: "|"
+            - link "Terms and conditions" [ref=e689] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/legal/terms-and-conditions
+            - text: "|"
+            - link "Accessibility statement" [ref=e690] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/about/accessibility-statement

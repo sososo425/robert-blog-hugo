@@ -1,0 +1,19 @@
+{
+  "id": "conv-1774945047508-m56p5icoa",
+  "title": "你背后的模型是什么？是gpt吗？是gpt哪个版本？5",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774945047508,
+  "updatedAt": 1774948347066,
+  "lastResponseAt": 1774945475849,
+  "sessionId": "8eed8a80-18d1-48b7-be34-b461995c99e7",
+  "sdkSessionId": "8eed8a80-18d1-48b7-be34-b461995c99e7",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4161,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 4161,
+    "percentage": 2
+  }
+}

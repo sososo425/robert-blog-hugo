@@ -1,0 +1,618 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e59]:
+      - generic [ref=e61]:
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - button "Main" [ref=e64] [cursor=pointer]
+          - listitem [ref=e65]:
+            - button "Tasks" [ref=e66] [cursor=pointer]
+          - listitem [ref=e67]:
+            - button "Libraries" [ref=e68] [cursor=pointer]
+          - listitem [ref=e69]:
+            - button "Languages" [ref=e70] [cursor=pointer]
+          - listitem [ref=e71]:
+            - button "Licenses" [ref=e72] [cursor=pointer]
+          - listitem [ref=e73]:
+            - button "Other" [ref=e74] [cursor=pointer]
+        - generic [ref=e75]:
+          - generic [ref=e77]: Tasks
+          - generic [ref=e78]:
+            - link "Text Generation" [ref=e79] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-generation
+              - generic [ref=e80]:
+                - img [ref=e82]
+                - generic [ref=e86]: Text Generation
+            - link "Any-to-Any" [ref=e87] [cursor=pointer]:
+              - /url: /models?pipeline_tag=any-to-any
+              - generic [ref=e88]:
+                - img [ref=e90]
+                - generic [ref=e92]: Any-to-Any
+            - link "Image-Text-to-Text" [ref=e93] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-text-to-text
+              - generic [ref=e94]:
+                - img [ref=e96]
+                - generic [ref=e100]: Image-Text-to-Text
+            - link "Image-to-Text" [ref=e101] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-to-text
+              - generic [ref=e102]:
+                - img [ref=e104]
+                - generic [ref=e108]: Image-to-Text
+            - link "Image-to-Image" [ref=e109] [cursor=pointer]:
+              - /url: /models?pipeline_tag=image-to-image
+              - generic [ref=e110]:
+                - img [ref=e112]
+                - generic [ref=e115]: Image-to-Image
+            - link "Text-to-Image" [ref=e116] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-image
+              - generic [ref=e117]:
+                - img [ref=e119]
+                - generic [ref=e123]: Text-to-Image
+            - link "Text-to-Video" [ref=e124] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-video
+              - generic [ref=e125]:
+                - img [ref=e127]
+                - generic [ref=e129]: Text-to-Video
+            - link "Text-to-Speech" [ref=e130] [cursor=pointer]:
+              - /url: /models?pipeline_tag=text-to-speech
+              - generic [ref=e131]:
+                - img [ref=e133]
+                - generic [ref=e135]: Text-to-Speech
+            - button "+ 44" [ref=e136] [cursor=pointer]
+        - generic [ref=e137]:
+          - generic [ref=e139]: Parameters
+          - generic [ref=e140]:
+            - slider "< 1B 6B 12B 32B 128B > 500B < 1B > 500B" [ref=e141]: "0"
+            - slider [ref=e142]: "10"
+            - generic [ref=e143] [cursor=pointer]:
+              - generic [ref=e145]:
+                - button "< 1B" [ref=e146]
+                - button "6B" [ref=e148]
+                - button "12B" [ref=e151]
+                - button "32B" [ref=e154]
+                - button "128B" [ref=e157]
+                - button "> 500B" [ref=e160]
+              - button "< 1B" [ref=e163]:
+                - generic [ref=e165]: < 1B
+              - button "> 500B" [ref=e166]:
+                - generic [ref=e168]: "> 500B"
+        - generic [ref=e169]:
+          - generic [ref=e171]: Libraries
+          - generic [ref=e172]:
+            - link "PyTorch" [ref=e173] [cursor=pointer]:
+              - /url: /models?library=pytorch
+              - generic [ref=e174]:
+                - img [ref=e175]
+                - generic [ref=e178]: PyTorch
+            - link "TensorFlow" [ref=e179] [cursor=pointer]:
+              - /url: /models?library=tf
+              - generic [ref=e180]:
+                - img [ref=e181]
+                - generic [ref=e186]: TensorFlow
+            - link "JAX" [ref=e187] [cursor=pointer]:
+              - /url: /models?library=jax
+              - generic [ref=e188]:
+                - img [ref=e189]
+                - generic [ref=e228]: JAX
+            - link "Transformers" [ref=e229] [cursor=pointer]:
+              - /url: /models?library=transformers
+              - generic [ref=e230]:
+                - img [ref=e231]
+                - generic [ref=e242]: Transformers
+            - link "Diffusers" [ref=e243] [cursor=pointer]:
+              - /url: /models?library=diffusers
+              - generic [ref=e244]:
+                - img [ref=e245]
+                - generic [ref=e256]: Diffusers
+            - link "sentence-transformers" [ref=e257] [cursor=pointer]:
+              - /url: /models?library=sentence-transformers
+              - generic [ref=e258]:
+                - img [ref=e259]
+                - generic [ref=e270]: sentence-transformers
+            - link "Safetensors" [ref=e271] [cursor=pointer]:
+              - /url: /models?library=safetensors
+              - generic [ref=e272]:
+                - img [ref=e273]
+                - generic [ref=e275]: Safetensors
+            - link "ONNX" [ref=e276] [cursor=pointer]:
+              - /url: /models?library=onnx
+              - generic [ref=e277]:
+                - img [ref=e278]
+                - generic [ref=e288]: ONNX
+            - link "GGUF" [ref=e289] [cursor=pointer]:
+              - /url: /models?library=gguf
+              - generic [ref=e290]:
+                - img [ref=e291]
+                - generic [ref=e293]: GGUF
+            - link "Transformers.js" [ref=e294] [cursor=pointer]:
+              - /url: /models?library=transformers.js
+              - generic [ref=e295]:
+                - img [ref=e296]
+                - generic [ref=e299]: Transformers.js
+            - link "MLX" [ref=e300] [cursor=pointer]:
+              - /url: /models?library=mlx
+              - generic [ref=e301]:
+                - img [ref=e302]
+                - generic [ref=e307]: MLX
+            - button "+ 42" [ref=e308] [cursor=pointer]
+        - generic [ref=e309]:
+          - generic [ref=e311]: Apps
+          - generic [ref=e312]:
+            - link "vLLM" [ref=e313] [cursor=pointer]:
+              - /url: /models?other=vllm
+              - generic [ref=e314]:
+                - img [ref=e315]
+                - generic [ref=e320]: vLLM
+            - link "llama.cpp" [ref=e321] [cursor=pointer]:
+              - /url: /models?other=llama.cpp
+              - generic [ref=e322]:
+                - img [ref=e323]
+                - generic [ref=e325]: llama.cpp
+            - link "MLX LM" [ref=e326] [cursor=pointer]:
+              - /url: /models?other=mlx-lm
+              - generic [ref=e327]:
+                - img [ref=e328]
+                - generic [ref=e331]: MLX LM
+            - link "LM Studio" [ref=e332] [cursor=pointer]:
+              - /url: /models?other=lmstudio
+              - generic [ref=e333]:
+                - img [ref=e334]
+                - generic [ref=e340]: LM Studio
+            - link "Ollama" [ref=e341] [cursor=pointer]:
+              - /url: /models?other=ollama
+              - generic [ref=e342]:
+                - img [ref=e343]
+                - generic [ref=e349]: Ollama
+            - link "Jan" [ref=e350] [cursor=pointer]:
+              - /url: /models?other=jan
+              - generic [ref=e351]:
+                - img [ref=e352]
+                - generic [ref=e357]: Jan
+            - link "Draw Things" [ref=e358] [cursor=pointer]:
+              - /url: /models?other=drawthings
+              - generic [ref=e359]:
+                - img [ref=e360]
+                - generic [ref=e362]: Draw Things
+            - button "+ 7" [ref=e363] [cursor=pointer]
+        - generic [ref=e364]:
+          - generic [ref=e366]: Inference Providers
+          - generic [ref=e367]:
+            - link "Groq" [ref=e368] [cursor=pointer]:
+              - /url: /models?inference_provider=groq
+              - generic [ref=e369]:
+                - img [ref=e370]
+                - generic [ref=e373]: Groq
+            - link "Novita" [ref=e374] [cursor=pointer]:
+              - /url: /models?inference_provider=novita
+              - generic [ref=e375]:
+                - img [ref=e376]
+                - generic [ref=e379]: Novita
+            - link "Cerebras" [ref=e380] [cursor=pointer]:
+              - /url: /models?inference_provider=cerebras
+              - generic [ref=e381]:
+                - img [ref=e382]
+                - generic [ref=e385]: Cerebras
+            - link "SambaNova" [ref=e386] [cursor=pointer]:
+              - /url: /models?inference_provider=sambanova
+              - generic [ref=e387]:
+                - img [ref=e388]
+                - generic [ref=e392]: SambaNova
+            - link "Nscale" [ref=e393] [cursor=pointer]:
+              - /url: /models?inference_provider=nscale
+              - generic [ref=e394]:
+                - img [ref=e395]
+                - generic [ref=e400]: Nscale
+            - link "fal" [ref=e401] [cursor=pointer]:
+              - /url: /models?inference_provider=fal-ai
+              - generic [ref=e402]:
+                - img [ref=e403]
+                - generic [ref=e405]: fal
+            - link "Hyperbolic" [ref=e406] [cursor=pointer]:
+              - /url: /models?inference_provider=hyperbolic
+              - generic [ref=e407]:
+                - img [ref=e408]
+                - generic [ref=e414]: Hyperbolic
+            - link "Together AI" [ref=e415] [cursor=pointer]:
+              - /url: /models?inference_provider=together
+              - generic [ref=e416]:
+                - img [ref=e417]
+                - generic [ref=e421]: Together AI
+            - button "+ 10" [ref=e422] [cursor=pointer]
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - heading "Models" [level=1] [ref=e426]
+            - generic [ref=e428]: "22"
+          - generic [ref=e430]:
+            - img [ref=e431]
+            - searchbox "Filter by name" [ref=e435]: DeBERTa v4
+          - button "Inference Available" [ref=e439] [cursor=pointer]:
+            - img [ref=e440]
+            - text: Inference Available
+          - 'button "Sort: Most downloads" [ref=e445] [cursor=pointer]':
+            - img [ref=e446]
+            - text: "Sort: Most downloads"
+        - generic [ref=e450]:
+          - article [ref=e451]:
+            - link "RUSpam/spam_deberta_v4 Text Classification • 82.1M • Updated Sep 7, 2024 • 1.55k • • 8" [ref=e452] [cursor=pointer]:
+              - /url: /RUSpam/spam_deberta_v4
+              - generic [ref=e453]:
+                - generic "RUSpam/spam_deberta_v4" [ref=e454]:
+                  - heading "RUSpam/spam_deberta_v4" [level=4] [ref=e456]
+                - generic [ref=e457]:
+                  - img [ref=e458]
+                  - text: Text Classification
+                  - generic [ref=e473]: •
+                  - 'generic "Number of parameters in the model: 82.1M" [ref=e474]':
+                    - img [ref=e475]
+                    - text: 82.1M
+                  - generic [ref=e477]: •
+                  - generic [ref=e478]:
+                    - text: Updated
+                    - time [ref=e479]: Sep 7, 2024
+                  - generic [ref=e480]: •
+                  - img [ref=e481]
+                  - text: 1.55k
+                  - generic [ref=e483]: •
+                  - generic "Inference Providers available" [ref=e484]:
+                    - img [ref=e485]
+                  - generic [ref=e487]: •
+                  - img [ref=e488]
+                  - text: "8"
+          - article [ref=e490]:
+            - link "VuongQuoc/checkpoints_28_9_microsoft_deberta_V4 Multiple Choice • Updated Sep 28, 2023 • 423" [ref=e491] [cursor=pointer]:
+              - /url: /VuongQuoc/checkpoints_28_9_microsoft_deberta_V4
+              - generic [ref=e492]:
+                - generic "VuongQuoc/checkpoints_28_9_microsoft_deberta_V4" [ref=e493]:
+                  - heading "VuongQuoc/checkpoints_28_9_microsoft_deberta_V4" [level=4] [ref=e495]
+                - generic [ref=e496]:
+                  - img [ref=e497]
+                  - text: Multiple Choice
+                  - generic [ref=e501]: •
+                  - generic [ref=e502]:
+                    - text: Updated
+                    - time [ref=e503]: Sep 28, 2023
+                  - generic [ref=e504]: •
+                  - img [ref=e505]
+                  - text: "423"
+          - article [ref=e507]:
+            - link "PuxAI/PII_PureSpan_DeBERTa_v9_base_v4_512_50 Updated 29 days ago • 25" [ref=e508] [cursor=pointer]:
+              - /url: /PuxAI/PII_PureSpan_DeBERTa_v9_base_v4_512_50
+              - generic [ref=e509]:
+                - generic "PuxAI/PII_PureSpan_DeBERTa_v9_base_v4_512_50" [ref=e510]:
+                  - heading "PuxAI/PII_PureSpan_DeBERTa_v9_base_v4_512_50" [level=4] [ref=e512]
+                - generic [ref=e513]:
+                  - generic [ref=e514]:
+                    - text: Updated
+                    - time [ref=e515]: 29 days ago
+                  - generic [ref=e516]: •
+                  - img [ref=e517]
+                  - text: "25"
+          - article [ref=e519]:
+            - link "officeuseaitf2024/wallet_deberta_v10_v4 Updated Feb 12 • 17" [ref=e520] [cursor=pointer]:
+              - /url: /officeuseaitf2024/wallet_deberta_v10_v4
+              - generic [ref=e521]:
+                - generic "officeuseaitf2024/wallet_deberta_v10_v4" [ref=e522]:
+                  - heading "officeuseaitf2024/wallet_deberta_v10_v4" [level=4] [ref=e524]
+                - generic [ref=e525]:
+                  - generic [ref=e526]:
+                    - text: Updated
+                    - time [ref=e527]: Feb 12
+                  - generic [ref=e528]: •
+                  - img [ref=e529]
+                  - text: "17"
+          - article [ref=e531]:
+            - link "PuxAI/PII_PureSpan_DeBERTa_v8_base_v4_512_50 Updated 29 days ago • 14" [ref=e532] [cursor=pointer]:
+              - /url: /PuxAI/PII_PureSpan_DeBERTa_v8_base_v4_512_50
+              - generic [ref=e533]:
+                - generic "PuxAI/PII_PureSpan_DeBERTa_v8_base_v4_512_50" [ref=e534]:
+                  - heading "PuxAI/PII_PureSpan_DeBERTa_v8_base_v4_512_50" [level=4] [ref=e536]
+                - generic [ref=e537]:
+                  - generic [ref=e538]:
+                    - text: Updated
+                    - time [ref=e539]: 29 days ago
+                  - generic [ref=e540]: •
+                  - img [ref=e541]
+                  - text: "14"
+          - article [ref=e543]:
+            - link "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v4 Multiple Choice • Updated Oct 9, 2023 • 9" [ref=e544] [cursor=pointer]:
+              - /url: /quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v4
+              - generic [ref=e545]:
+                - generic "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v4" [ref=e546]:
+                  - heading "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v4" [level=4] [ref=e548]
+                - generic [ref=e549]:
+                  - img [ref=e550]
+                  - text: Multiple Choice
+                  - generic [ref=e554]: •
+                  - generic [ref=e555]:
+                    - text: Updated
+                    - time [ref=e556]: Oct 9, 2023
+                  - generic [ref=e557]: •
+                  - img [ref=e558]
+                  - text: "9"
+          - article [ref=e560]:
+            - link "dmasamba/deberta-v3-prompt-injection-guard-aegis-v4 Text Classification • 0.2B • Updated Nov 19, 2025 • 5" [ref=e561] [cursor=pointer]:
+              - /url: /dmasamba/deberta-v3-prompt-injection-guard-aegis-v4
+              - generic [ref=e562]:
+                - generic "dmasamba/deberta-v3-prompt-injection-guard-aegis-v4" [ref=e563]:
+                  - heading "dmasamba/deberta-v3-prompt-injection-guard-aegis-v4" [level=4] [ref=e565]
+                - generic [ref=e566]:
+                  - img [ref=e567]
+                  - text: Text Classification
+                  - generic [ref=e582]: •
+                  - 'generic "Number of parameters in the model: 0.2B" [ref=e583]':
+                    - img [ref=e584]
+                    - text: 0.2B
+                  - generic [ref=e586]: •
+                  - generic [ref=e587]:
+                    - text: Updated
+                    - time [ref=e588]: Nov 19, 2025
+                  - generic [ref=e589]: •
+                  - img [ref=e590]
+                  - text: "5"
+          - article [ref=e592]:
+            - link "dmasamba/deberta-v3-prompt-guard-mixed-v4 Text Classification • 0.2B • Updated Dec 5, 2025 • 3" [ref=e593] [cursor=pointer]:
+              - /url: /dmasamba/deberta-v3-prompt-guard-mixed-v4
+              - generic [ref=e594]:
+                - generic "dmasamba/deberta-v3-prompt-guard-mixed-v4" [ref=e595]:
+                  - heading "dmasamba/deberta-v3-prompt-guard-mixed-v4" [level=4] [ref=e597]
+                - generic [ref=e598]:
+                  - img [ref=e599]
+                  - text: Text Classification
+                  - generic [ref=e614]: •
+                  - 'generic "Number of parameters in the model: 0.2B" [ref=e615]':
+                    - img [ref=e616]
+                    - text: 0.2B
+                  - generic [ref=e618]: •
+                  - generic [ref=e619]:
+                    - text: Updated
+                    - time [ref=e620]: Dec 5, 2025
+                  - generic [ref=e621]: •
+                  - img [ref=e622]
+                  - text: "3"
+          - article [ref=e624]:
+            - link "HJOK/task2_deberta_spamMLM_v4 Feature Extraction • Updated Feb 16, 2023 • 1" [ref=e625] [cursor=pointer]:
+              - /url: /HJOK/task2_deberta_spamMLM_v4
+              - generic [ref=e626]:
+                - generic "HJOK/task2_deberta_spamMLM_v4" [ref=e627]:
+                  - heading "HJOK/task2_deberta_spamMLM_v4" [level=4] [ref=e629]
+                - generic [ref=e630]:
+                  - img [ref=e631]
+                  - text: Feature Extraction
+                  - generic [ref=e633]: •
+                  - generic [ref=e634]:
+                    - text: Updated
+                    - time [ref=e635]: Feb 16, 2023
+                  - generic [ref=e636]: •
+                  - img [ref=e637]
+                  - text: "1"
+          - article [ref=e639]:
+            - link "Yanis/deberta-v3-base-conll2003-ner-inca-la_fe-v4 Token Classification • Updated Jun 20, 2023 • 1" [ref=e640] [cursor=pointer]:
+              - /url: /Yanis/deberta-v3-base-conll2003-ner-inca-la_fe-v4
+              - generic [ref=e641]:
+                - generic "Yanis/deberta-v3-base-conll2003-ner-inca-la_fe-v4" [ref=e642]:
+                  - heading "Yanis/deberta-v3-base-conll2003-ner-inca-la_fe-v4" [level=4] [ref=e644]
+                - generic [ref=e645]:
+                  - img [ref=e646]
+                  - text: Token Classification
+                  - generic [ref=e654]: •
+                  - generic [ref=e655]:
+                    - text: Updated
+                    - time [ref=e656]: Jun 20, 2023
+                  - generic [ref=e657]: •
+                  - img [ref=e658]
+                  - text: "1"
+          - article [ref=e660]:
+            - link "nagupv/deberta-v3-large-hf-weights_v4_f0 Multiple Choice • Updated Aug 5, 2023 • 1" [ref=e661] [cursor=pointer]:
+              - /url: /nagupv/deberta-v3-large-hf-weights_v4_f0
+              - generic [ref=e662]:
+                - generic "nagupv/deberta-v3-large-hf-weights_v4_f0" [ref=e663]:
+                  - heading "nagupv/deberta-v3-large-hf-weights_v4_f0" [level=4] [ref=e665]
+                - generic [ref=e666]:
+                  - img [ref=e667]
+                  - text: Multiple Choice
+                  - generic [ref=e671]: •
+                  - generic [ref=e672]:
+                    - text: Updated
+                    - time [ref=e673]: Aug 5, 2023
+                  - generic [ref=e674]: •
+                  - img [ref=e675]
+                  - text: "1"
+          - article [ref=e677]:
+            - link "nagupv/deberta-v3-large-hf-weights_v4_f3 Multiple Choice • Updated Aug 5, 2023 • 1" [ref=e678] [cursor=pointer]:
+              - /url: /nagupv/deberta-v3-large-hf-weights_v4_f3
+              - generic [ref=e679]:
+                - generic "nagupv/deberta-v3-large-hf-weights_v4_f3" [ref=e680]:
+                  - heading "nagupv/deberta-v3-large-hf-weights_v4_f3" [level=4] [ref=e682]
+                - generic [ref=e683]:
+                  - img [ref=e684]
+                  - text: Multiple Choice
+                  - generic [ref=e688]: •
+                  - generic [ref=e689]:
+                    - text: Updated
+                    - time [ref=e690]: Aug 5, 2023
+                  - generic [ref=e691]: •
+                  - img [ref=e692]
+                  - text: "1"
+          - article [ref=e694]:
+            - link "riccorl/relik-reader-deberta-base-retriever-relik-entity-linking-aida-wikipedia-large-v4 Feature Extraction • Updated Jan 31, 2024 • 1" [ref=e695] [cursor=pointer]:
+              - /url: /riccorl/relik-reader-deberta-base-retriever-relik-entity-linking-aida-wikipedia-large-v4
+              - generic [ref=e696]:
+                - generic "riccorl/relik-reader-deberta-base-retriever-relik-entity-linking-aida-wikipedia-large-v4" [ref=e697]:
+                  - heading "riccorl/relik-reader-deberta-base-retriever-relik-entity-linking-aida-wikipedia-large-v4" [level=4] [ref=e699]
+                - generic [ref=e700]:
+                  - img [ref=e701]
+                  - text: Feature Extraction
+                  - generic [ref=e703]: •
+                  - generic [ref=e704]:
+                    - text: Updated
+                    - time [ref=e705]: Jan 31, 2024
+                  - generic [ref=e706]: •
+                  - img [ref=e707]
+                  - text: "1"
+          - article [ref=e709]:
+            - link "grace-pro/deberta_fine_tune_mnli_all_v4 Updated Jan 1, 2024" [ref=e710] [cursor=pointer]:
+              - /url: /grace-pro/deberta_fine_tune_mnli_all_v4
+              - generic [ref=e711]:
+                - generic "grace-pro/deberta_fine_tune_mnli_all_v4" [ref=e712]:
+                  - heading "grace-pro/deberta_fine_tune_mnli_all_v4" [level=4] [ref=e714]
+                - generic [ref=e716]:
+                  - text: Updated
+                  - time [ref=e717]: Jan 1, 2024
+          - article [ref=e718]:
+            - link "phqlong/deberta-v3-base-span-aste-v4 Updated Apr 3, 2024" [ref=e719] [cursor=pointer]:
+              - /url: /phqlong/deberta-v3-base-span-aste-v4
+              - generic [ref=e720]:
+                - generic "phqlong/deberta-v3-base-span-aste-v4" [ref=e721]:
+                  - heading "phqlong/deberta-v3-base-span-aste-v4" [level=4] [ref=e723]
+                - generic [ref=e725]:
+                  - text: Updated
+                  - time [ref=e726]: Apr 3, 2024
+          - article [ref=e727]:
+            - link "sergiomvazq/DeBERTaV3_model_V4 Text Classification • 0.1B • Updated Jun 11, 2024" [ref=e728] [cursor=pointer]:
+              - /url: /sergiomvazq/DeBERTaV3_model_V4
+              - generic [ref=e729]:
+                - generic "sergiomvazq/DeBERTaV3_model_V4" [ref=e730]:
+                  - heading "sergiomvazq/DeBERTaV3_model_V4" [level=4] [ref=e732]
+                - generic [ref=e733]:
+                  - img [ref=e734]
+                  - text: Text Classification
+                  - generic [ref=e749]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e750]':
+                    - img [ref=e751]
+                    - text: 0.1B
+                  - generic [ref=e753]: •
+                  - generic [ref=e754]:
+                    - text: Updated
+                    - time [ref=e755]: Jun 11, 2024
+          - article [ref=e756]:
+            - link "claudiapreda/deBerta-rqa-v4 Updated Feb 7, 2025" [ref=e757] [cursor=pointer]:
+              - /url: /claudiapreda/deBerta-rqa-v4
+              - generic [ref=e758]:
+                - generic "claudiapreda/deBerta-rqa-v4" [ref=e759]:
+                  - heading "claudiapreda/deBerta-rqa-v4" [level=4] [ref=e761]
+                - generic [ref=e763]:
+                  - text: Updated
+                  - time [ref=e764]: Feb 7, 2025
+          - article [ref=e765]:
+            - link "claudiapreda/deBerta-rqa-v4.1 Updated Feb 7, 2025" [ref=e766] [cursor=pointer]:
+              - /url: /claudiapreda/deBerta-rqa-v4.1
+              - generic [ref=e767]:
+                - generic "claudiapreda/deBerta-rqa-v4.1" [ref=e768]:
+                  - heading "claudiapreda/deBerta-rqa-v4.1" [level=4] [ref=e770]
+                - generic [ref=e772]:
+                  - text: Updated
+                  - time [ref=e773]: Feb 7, 2025
+          - article [ref=e774]:
+            - link "claudiapreda/deBerta-class-v4 Updated Feb 18, 2025" [ref=e775] [cursor=pointer]:
+              - /url: /claudiapreda/deBerta-class-v4
+              - generic [ref=e776]:
+                - generic "claudiapreda/deBerta-class-v4" [ref=e777]:
+                  - heading "claudiapreda/deBerta-class-v4" [level=4] [ref=e779]
+                - generic [ref=e781]:
+                  - text: Updated
+                  - time [ref=e782]: Feb 18, 2025
+          - article [ref=e783]:
+            - link "Pipalskill/Deberta-V4-BEST-Multi-Label 0.2B • Updated Oct 3, 2025" [ref=e784] [cursor=pointer]:
+              - /url: /Pipalskill/Deberta-V4-BEST-Multi-Label
+              - generic [ref=e785]:
+                - generic "Pipalskill/Deberta-V4-BEST-Multi-Label" [ref=e786]:
+                  - heading "Pipalskill/Deberta-V4-BEST-Multi-Label" [level=4] [ref=e788]
+                - generic [ref=e789]:
+                  - 'generic "Number of parameters in the model: 0.2B" [ref=e790]':
+                    - img [ref=e791]
+                    - text: 0.2B
+                  - generic [ref=e793]: •
+                  - generic [ref=e794]:
+                    - text: Updated
+                    - time [ref=e795]: Oct 3, 2025
+          - article [ref=e796]:
+            - link "md43/meu-bert-enem-v4-deberta Updated Nov 14, 2025" [ref=e797] [cursor=pointer]:
+              - /url: /md43/meu-bert-enem-v4-deberta
+              - generic [ref=e798]:
+                - generic "md43/meu-bert-enem-v4-deberta" [ref=e799]:
+                  - heading "md43/meu-bert-enem-v4-deberta" [level=4] [ref=e801]
+                - generic [ref=e803]:
+                  - text: Updated
+                  - time [ref=e804]: Nov 14, 2025
+          - article [ref=e805]:
+            - link "AmzurATG/deberta-ad-ner-custom-v4 Updated Dec 18, 2025" [ref=e806] [cursor=pointer]:
+              - /url: /AmzurATG/deberta-ad-ner-custom-v4
+              - generic [ref=e807]:
+                - generic "AmzurATG/deberta-ad-ner-custom-v4" [ref=e808]:
+                  - heading "AmzurATG/deberta-ad-ner-custom-v4" [level=4] [ref=e810]
+                - generic [ref=e812]:
+                  - text: Updated
+                  - time [ref=e813]: Dec 18, 2025
+  - contentinfo [ref=e814]:
+    - navigation [ref=e815]:
+      - button "System theme" [ref=e818] [cursor=pointer]:
+        - img [ref=e819]
+        - text: System theme
+      - link "TOS" [ref=e824] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e825] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e826] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e827] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e828] [cursor=pointer]:
+        - /url: /
+        - img [ref=e829]
+      - link "Models" [ref=e843] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e844] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e845] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e846] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e847] [cursor=pointer]:
+        - /url: /docs

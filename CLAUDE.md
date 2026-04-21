@@ -41,7 +41,18 @@ content/
 ├── life/                    # 人生
 ├── music/                   # 兴趣/音乐
 └── literature/              # 文学
+└── private/ # 私有笔记/设计文档（不参与构建）
+
 ```
+
+### Write/Edit file
+- 大文件用 Write 容易断,用 Edit 分段修，只改差异部分. 
+- 执行写文件任务,Write文件时,经常会失败,可以采用先创建文件，再分段追加的方式.
+
+### Important path notes
+- The `private/` directory lives under `content/` (i.e. `content/private/`), not at repo root. When referencing private notes/design docs, always use `content/private/...` as the path prefix.
+- Hugo `ignoreFiles` excludes `private/` from building, but the files are still accessible for reading/editing.
+> **路径注意**：`private/` 目录位于 `content/` 下，完整路径为 `content/private/...`，不是仓库根目录下的 `private/`。
 
 Article images go in `static/images/<slug>/` and are referenced in Markdown as `![](/images/<slug>/1.jpg)`.
 

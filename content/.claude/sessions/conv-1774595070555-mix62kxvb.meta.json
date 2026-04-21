@@ -1,0 +1,19 @@
+{
+  "id": "conv-1774595070555-mix62kxvb",
+  "title": "Clarify BERT triplet extraction",
+  "titleGenerationStatus": "success",
+  "createdAt": 1774595070555,
+  "updatedAt": 1774945018368,
+  "lastResponseAt": 1774787545183,
+  "sessionId": "921f822b-3175-436e-aa5f-66f596974fe5",
+  "sdkSessionId": "921f822b-3175-436e-aa5f-66f596974fe5",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 30933,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 30933,
+    "percentage": 15
+  }
+}

@@ -1,0 +1,370 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "Babelscape / mrebel-large like 78 Follow Babelscape 46" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /Babelscape
+          - link "Babelscape" [ref=e70] [cursor=pointer]:
+            - /url: /Babelscape
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "mrebel-large" [ref=e73] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "78" [ref=e84] [cursor=pointer]
+        - generic [ref=e86]:
+          - button "Follow Babelscape" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Follow
+            - generic [ref=e89]: Babelscape
+          - button "46" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]:
+        - link "Translation" [ref=e92] [cursor=pointer]:
+          - /url: /models?pipeline_tag=translation
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e98]: Translation
+        - link "Transformers" [ref=e99] [cursor=pointer]:
+          - /url: /models?library=transformers
+          - generic [ref=e100]:
+            - img [ref=e101]
+            - generic [ref=e112]: Transformers
+        - link "PyTorch" [ref=e113] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e114]:
+            - img [ref=e115]
+            - generic [ref=e118]: PyTorch
+        - link "Safetensors" [ref=e119] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e120]:
+            - img [ref=e121]
+            - generic [ref=e123]: Safetensors
+        - button "Babelscape/SREDFM" [ref=e125] [cursor=pointer]:
+          - generic [ref=e127]:
+            - img [ref=e128]
+            - generic [ref=e133]: Babelscape/SREDFM
+        - button "18 languages" [ref=e135] [cursor=pointer]:
+          - generic [ref=e136]:
+            - img [ref=e137]
+            - generic [ref=e139]: 18 languages
+        - link "mbart" [ref=e140] [cursor=pointer]:
+          - /url: /models?other=mbart
+          - generic [ref=e142]: mbart
+        - link "text2text-generation" [ref=e143] [cursor=pointer]:
+          - /url: /models?other=text2text-generation
+          - generic [ref=e145]: text2text-generation
+        - link "seq2seq" [ref=e146] [cursor=pointer]:
+          - /url: /models?other=seq2seq
+          - generic [ref=e148]: seq2seq
+        - link "relation-extraction" [ref=e149] [cursor=pointer]:
+          - /url: /models?other=relation-extraction
+          - generic [ref=e151]: relation-extraction
+        - 'button "arxiv: 2306.09802" [ref=e153] [cursor=pointer]':
+          - generic [ref=e155]:
+            - img [ref=e156]
+            - generic [ref=e159]: "arxiv:"
+            - generic [ref=e160]: "2306.09802"
+        - 'button "License: cc-by-nc-sa-4.0" [ref=e163] [cursor=pointer]':
+          - generic [ref=e165]:
+            - img [ref=e166]
+            - generic [ref=e168]: "License:"
+            - generic [ref=e169]: cc-by-nc-sa-4.0
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - link "Model card" [ref=e173] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large
+            - img [ref=e174]
+            - text: Model card
+          - link "Files xet" [ref=e178] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large/tree/main
+            - img [ref=e179]
+            - generic [ref=e182]: Files
+            - generic [ref=e185]:
+              - img [ref=e186]
+              - generic [ref=e189]: xet
+          - link "Community 4" [ref=e190] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large/discussions
+            - img [ref=e191]
+            - text: Community
+            - generic [ref=e194]: "4"
+        - generic [ref=e195]:
+          - button [ref=e198] [cursor=pointer]:
+            - img [ref=e199]
+          - generic [ref=e203]:
+            - button "Deploy" [ref=e205] [cursor=pointer]:
+              - img [ref=e206]
+              - text: Deploy
+              - img [ref=e209]
+            - dialog
+          - button "Use this model" [ref=e212] [cursor=pointer]:
+            - img [ref=e213]
+            - text: Use this model
+            - img [ref=e215]
+    - generic [ref=e217]:
+      - generic [ref=e219]:
+        - button [ref=e225] [cursor=pointer]:
+          - img [ref=e226]
+        - generic [ref=e228]:
+          - 'heading "REDFM: a Filtered and Multilingual Relation Extraction Dataset" [level=1] [ref=e229]':
+            - link [ref=e230] [cursor=pointer]:
+              - /url: "#redfm-a-filtered-and-multilingual-relation-extraction-dataset"
+              - img [ref=e232]
+            - generic [ref=e234]:
+              - text: RED
+              - superscript [ref=e235]: FM
+              - text: ": a Filtered and Multilingual Relation Extraction Dataset"
+          - paragraph [ref=e236]:
+            - text: This is a multilingual version of
+            - link "REBEL" [ref=e237] [cursor=pointer]:
+              - /url: https://huggingface.co/Babelscape/rebel-large
+            - text: . It can be used as a standalone multulingual Relation Extraction system, or as a pretrained system to be tuned on multilingual Relation Extraction datasets.
+          - paragraph [ref=e238]:
+            - text: mREBEL is introduced in the ACL 2023 paper
+            - 'link "RED^{FM}: a Filtered and Multilingual Relation Extraction Dataset" [ref=e239] [cursor=pointer]':
+              - /url: https://arxiv.org/abs/2306.09802
+            - text: . We present a new multilingual Relation Extraction dataset and train a multilingual version of REBEL which reframed Relation Extraction as a seq2seq task. The paper can be found
+            - link "here" [ref=e240] [cursor=pointer]:
+              - /url: https://arxiv.org/abs/2306.09802
+            - text: ". If you use the code or model, please reference this work in your paper:"
+          - generic [ref=e241]:
+            - code [ref=e243]: "@inproceedings{huguet-cabot-et-al-2023-redfm-dataset, title = \"RED$^{\\rm FM}$: a Filtered and Multilingual Relation Extraction Dataset\", author = \"Huguet Cabot, Pere-Llu{\\'\\i}s and Tedeschi, Simone and Ngonga Ngomo, Axel-Cyrille and Navigli, Roberto\", booktitle = \"Proc. of the 61st Annual Meeting of the Association for Computational Linguistics: ACL 2023\", month = jul, year = \"2023\", address = \"Toronto, Canada\", publisher = \"Association for Computational Linguistics\", url = \"https://arxiv.org/abs/2306.09802\", }"
+            - button [ref=e244] [cursor=pointer]:
+              - img [ref=e245]
+          - paragraph [ref=e249]:
+            - text: The original repository for the paper can be found
+            - link "here" [ref=e250] [cursor=pointer]:
+              - /url: https://github.com/Babelscape/rebel#REDFM
+          - paragraph [ref=e251]:
+            - text: Be aware that the inference widget at the right does not output special tokens, which are necessary to distinguish the subject, object and relation types. For a demo of mREBEL and its pre-training dataset check the
+            - link "Spaces demo" [ref=e252] [cursor=pointer]:
+              - /url: https://huggingface.co/spaces/Babelscape/mrebel-demo
+            - text: .
+          - heading "Pipeline usage" [level=2] [ref=e253]:
+            - link [ref=e254] [cursor=pointer]:
+              - /url: "#pipeline-usage"
+              - img [ref=e256]
+            - generic [ref=e258]: Pipeline usage
+          - generic [ref=e259]:
+            - code [ref=e261]: "from transformers import pipeline triplet_extractor = pipeline('translation_xx_to_yy', model='Babelscape/mrebel-large', tokenizer='Babelscape/mrebel-large') # We need to use the tokenizer manually since we need special tokens. extracted_text = triplet_extractor.tokenizer.batch_decode([triplet_extractor(\"The Red Hot Chili Peppers were formed in Los Angeles by Kiedis, Flea, guitarist Hillel Slovak and drummer Jack Irons.\", decoder_start_token_id=250058, src_lang=\"en_XX\", tgt_lang=\"<triplet>\", return_tensors=True, return_text=False)[0][\"translation_token_ids\"]]) # change en_XX for the language of the source. print(extracted_text[0]) # Function to parse the generated text and extract the triplets def extract_triplets_typed(text): triplets = [] relation = '' text = text.strip() current = 'x' subject, relation, object_, object_type, subject_type = '','','','','' for token in text.replace(\"<s>\", \"\").replace(\"<pad>\", \"\").replace(\"</s>\", \"\").replace(\"tp_XX\", \"\").replace(\"__en__\", \"\").split(): if token == \"<triplet>\" or token == \"<relation>\": current = 't' if relation != '': triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type}) relation = '' subject = '' elif token.startswith(\"<\") and token.endswith(\">\"): if current == 't' or current == 'o': current = 's' if relation != '': triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type}) object_ = '' subject_type = token[1:-1] else: current = 'o' object_type = token[1:-1] relation = '' else: if current == 't': subject += ' ' + token elif current == 's': object_ += ' ' + token elif current == 'o': relation += ' ' + token if subject != '' and relation != '' and object_ != '' and object_type != '' and subject_type != '': triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type}) return triplets extracted_triplets = extract_triplets_typed(extracted_text[0]) print(extracted_triplets)"
+            - button [ref=e262] [cursor=pointer]:
+              - img [ref=e263]
+          - heading "Model and Tokenizer using transformers" [level=2] [ref=e267]:
+            - link [ref=e268] [cursor=pointer]:
+              - /url: "#model-and-tokenizer-using-transformers"
+              - img [ref=e270]
+            - generic [ref=e272]: Model and Tokenizer using transformers
+          - generic [ref=e273]:
+            - code [ref=e275]:
+              - text: "from transformers import AutoModelForSeq2SeqLM, AutoTokenizer def extract_triplets_typed(text): triplets = [] relation = '' text = text.strip() current = 'x' subject, relation, object_, object_type, subject_type = '','','','','' for token in text.replace(\"<s>\", \"\").replace(\"<pad>\", \"\").replace(\"</s>\", \"\").replace(\"tp_XX\", \"\").replace(\"__en__\", \"\").split(): if token == \"<triplet>\" or token == \"<relation>\": current = 't' if relation != '': triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type}) relation = '' subject = '' elif token.startswith(\"<\") and token.endswith(\">\"): if current == 't' or current == 'o': current = 's' if relation != '': triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type}) object_ = '' subject_type = token[1:-1] else: current = 'o' object_type = token[1:-1] relation = '' else: if current == 't': subject += ' ' + token elif current == 's': object_ += ' ' + token elif current == 'o': relation += ' ' + token if subject != '' and relation != '' and object_ != '' and object_type != '' and subject_type != '': triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type}) return triplets # Load model and tokenizer tokenizer = AutoTokenizer.from_pretrained(\"Babelscape/mrebel-large\", src_lang=\"en_XX\", tgt_lang=\"tp_XX\") # Here we set English (\"en_XX\") as source language. To change the source language swap the first token of the input for your desired language or change to supported language. For catalan (\"ca_XX\") or greek (\"el_EL\") (not included in mBART pretraining) you need a workaround: # tokenizer._src_lang = \"ca_XX\" # tokenizer.cur_lang_code_id = tokenizer.convert_tokens_to_ids(\"ca_XX\") # tokenizer.set_src_lang_special_tokens(\"ca_XX\") model = AutoModelForSeq2SeqLM.from_pretrained(\"Babelscape/mrebel-large\") gen_kwargs = { \"max_length\": 256, \"length_penalty\": 0, \"num_beams\": 3, \"num_return_sequences\": 3, \"forced_bos_token_id\": None, } # Text to extract triplets from text = 'The Red Hot Chili Peppers were formed in Los Angeles by Kiedis, Flea, guitarist Hillel Slovak and drummer Jack Irons.' # Tokenizer text model_inputs = tokenizer(text, max_length=256, padding=True, truncation=True, return_tensors = 'pt') # Generate generated_tokens = model.generate( model_inputs[\"input_ids\"].to(model.device), attention_mask=model_inputs[\"attention_mask\"].to(model.device), decoder_start_token_id = tokenizer.convert_tokens_to_ids(\"tp_XX\"), **gen_kwargs, ) # Extract text decoded_preds = tokenizer.batch_decode(generated_tokens, skip_special_tokens=False) # Extract triplets for idx, sentence in enumerate(decoded_preds): print("
+              - generic [ref=e276]: "f'Prediction triplets sentence {idx}'"
+              - text: ) print(extract_triplets_typed(sentence))
+            - button [ref=e277] [cursor=pointer]:
+              - img [ref=e278]
+          - heading "License" [level=2] [ref=e282]:
+            - link [ref=e283] [cursor=pointer]:
+              - /url: "#license"
+              - img [ref=e285]
+            - generic [ref=e287]: License
+          - paragraph [ref=e288]:
+            - text: This model is licensed under the CC BY-SA 4.0 license. The text of the license can be found
+            - link "here" [ref=e289] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+            - text: .
+      - generic [ref=e290]:
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - term [ref=e293]: Downloads last month
+            - definition [ref=e294]: "732"
+          - img [ref=e296]
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - img [ref=e303]
+            - text: Safetensors
+            - link [ref=e305] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/safetensors
+              - img [ref=e306]
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - generic [ref=e312]: Model size
+              - generic [ref=e313]: 0.6B params
+            - generic [ref=e314]:
+              - generic [ref=e315]: Tensor type
+              - generic [ref=e316]: F32
+            - button "Files info" [ref=e318] [cursor=pointer]:
+              - img [ref=e319]
+              - paragraph [ref=e321]: Files info
+        - generic [ref=e325]:
+          - generic [ref=e327]:
+            - img [ref=e328]
+            - generic [ref=e330]: Inference Providers
+            - link "NEW" [ref=e331] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/inference-providers
+          - link "Translation" [ref=e334] [cursor=pointer]:
+            - /url: /tasks/translation
+            - generic [ref=e335]:
+              - img [ref=e336]
+              - generic [ref=e339]: Translation
+          - generic [ref=e340]:
+            - generic [ref=e341]: This model isn't deployed by any Inference Provider.
+            - link "🙋 1 Ask for provider support" [ref=e342] [cursor=pointer]:
+              - /url: /spaces/huggingface/InferenceSupport/discussions/6232
+              - generic [ref=e343]:
+                - generic [ref=e344]: 🙋
+                - generic [ref=e345]: "1"
+              - generic [ref=e346]: Ask for provider support
+        - heading "Dataset used to train Babelscape/mrebel-large" [level=2] [ref=e348]:
+          - img [ref=e349]
+          - text: Dataset used to train
+          - generic [ref=e354]: Babelscape/mrebel-large
+        - navigation [ref=e355]:
+          - article [ref=e356]:
+            - link "Babelscape/SREDFM Viewer • Updated Jun 20, 2023 • 15.9M • 725 • 14" [ref=e357] [cursor=pointer]:
+              - /url: /datasets/Babelscape/SREDFM
+              - generic [ref=e358]:
+                - generic "Babelscape/SREDFM" [ref=e359]:
+                  - img [ref=e360]
+                  - heading "Babelscape/SREDFM" [level=4] [ref=e365]
+                - generic [ref=e366]:
+                  - img [ref=e367]
+                  - text: Viewer
+                  - generic [ref=e369]: •
+                  - generic [ref=e370]:
+                    - text: Updated
+                    - time [ref=e371]: Jun 20, 2023
+                  - generic [ref=e372]: •
+                  - img [ref=e373]
+                  - generic [ref=e375]: 15.9M
+                  - generic [ref=e376]: •
+                  - img [ref=e377]
+                  - text: "725"
+                  - generic [ref=e379]: •
+                  - img [ref=e380]
+                  - text: "14"
+        - heading "Spaces using Babelscape/mrebel-large 6" [level=2] [ref=e383]:
+          - img [ref=e384]
+          - text: Spaces using
+          - generic [ref=e390]: Babelscape/mrebel-large
+          - generic [ref=e391]: "6"
+        - navigation [ref=e393]:
+          - link "Babelscape/mrebel-demo" [ref=e394] [cursor=pointer]:
+            - /url: /spaces/Babelscape/mrebel-demo
+            - generic [ref=e396]: Babelscape/mrebel-demo
+            - img [ref=e397]
+          - link "✴ DerwenAI/textgraphs" [ref=e400] [cursor=pointer]:
+            - /url: /spaces/DerwenAI/textgraphs
+            - generic [ref=e401]: ✴
+            - generic [ref=e402]: DerwenAI/textgraphs
+          - link "✴ watashitakumi/textgraphs" [ref=e403] [cursor=pointer]:
+            - /url: /spaces/watashitakumi/textgraphs
+            - generic [ref=e404]: ✴
+            - generic [ref=e405]: watashitakumi/textgraphs
+          - link "🌍 Jeffjoyce/Babelscape-mrebel-large" [ref=e406] [cursor=pointer]:
+            - /url: /spaces/Jeffjoyce/Babelscape-mrebel-large
+            - generic [ref=e407]: 🌍
+            - generic [ref=e408]: Jeffjoyce/Babelscape-mrebel-large
+          - link "📈 jonathanjordan21/mrebel-demo" [ref=e409] [cursor=pointer]:
+            - /url: /spaces/jonathanjordan21/mrebel-demo
+            - generic [ref=e410]: 📈
+            - generic [ref=e411]: jonathanjordan21/mrebel-demo
+          - link "🌖 OzoneAsai/TranslativeFeed" [ref=e412] [cursor=pointer]:
+            - /url: /spaces/OzoneAsai/TranslativeFeed
+            - generic [ref=e413]: 🌖
+            - generic [ref=e414]: OzoneAsai/TranslativeFeed
+        - heading "Paper for Babelscape/mrebel-large" [level=2] [ref=e416]:
+          - img [ref=e417]
+          - text: Paper for
+          - generic [ref=e420]: Babelscape/mrebel-large
+        - article [ref=e422]:
+          - 'link "RED^{rm FM}: a Filtered and Multilingual Relation Extraction Dataset Paper • 2306.09802 • Published Jun 16, 2023 • 4" [ref=e423] [cursor=pointer]':
+            - /url: /papers/2306.09802
+            - generic "arxiv:2306.09802" [ref=e424]:
+              - 'heading "RED^{rm FM}: a Filtered and Multilingual Relation Extraction Dataset" [level=4] [ref=e425]'
+            - generic [ref=e426]:
+              - img [ref=e427]
+              - text: Paper
+              - generic [ref=e430]: •
+              - text: "2306.09802"
+              - generic [ref=e431]: •
+              - generic [ref=e432]:
+                - text: Published
+                - time [ref=e433]: Jun 16, 2023
+              - generic [ref=e434]: •
+              - img [ref=e435]
+              - text: "4"
+  - contentinfo [ref=e437]:
+    - navigation [ref=e438]:
+      - button "System theme" [ref=e441] [cursor=pointer]:
+        - img [ref=e442]
+        - text: System theme
+      - link "TOS" [ref=e447] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e448] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e449] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e450] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e451] [cursor=pointer]:
+        - /url: /
+        - img [ref=e452]
+      - link "Models" [ref=e466] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e467] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e468] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e469] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e470] [cursor=pointer]:
+        - /url: /docs

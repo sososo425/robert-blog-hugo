@@ -1,0 +1,733 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "tasksource / ModernBERT-large-nli like 10 Follow tasksource 77" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /tasksource
+          - link "tasksource" [ref=e70] [cursor=pointer]:
+            - /url: /tasksource
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "ModernBERT-large-nli" [ref=e73] [cursor=pointer]:
+            - /url: /tasksource/ModernBERT-large-nli
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "10" [ref=e84] [cursor=pointer]
+        - generic [ref=e86]:
+          - button "Follow tasksource" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Follow
+            - generic [ref=e89]: tasksource
+          - button "77" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]:
+        - link "Zero-Shot Classification" [ref=e92] [cursor=pointer]:
+          - /url: /models?pipeline_tag=zero-shot-classification
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e107]: Zero-Shot Classification
+        - link "Transformers" [ref=e108] [cursor=pointer]:
+          - /url: /models?library=transformers
+          - generic [ref=e109]:
+            - img [ref=e110]
+            - generic [ref=e121]: Transformers
+        - link "Safetensors" [ref=e122] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e123]:
+            - img [ref=e124]
+            - generic [ref=e126]: Safetensors
+        - button "nyu-mll/glue" [ref=e128] [cursor=pointer]:
+          - generic [ref=e130]:
+            - img [ref=e131]
+            - generic [ref=e136]: nyu-mll/glue
+        - button "facebook/anli" [ref=e139] [cursor=pointer]:
+          - generic [ref=e141]:
+            - img [ref=e142]
+            - generic [ref=e147]: facebook/anli
+        - link "English" [ref=e149] [cursor=pointer]:
+          - /url: /models?language=en
+          - generic [ref=e150]:
+            - img [ref=e151]
+            - generic [ref=e153]: English
+        - link "modernbert" [ref=e154] [cursor=pointer]:
+          - /url: /models?other=modernbert
+          - generic [ref=e156]: modernbert
+        - link "text-classification" [ref=e157] [cursor=pointer]:
+          - /url: /models?other=text-classification
+          - generic [ref=e159]: text-classification
+        - link "instruct" [ref=e160] [cursor=pointer]:
+          - /url: /models?other=instruct
+          - generic [ref=e162]: instruct
+        - link "natural-language-inference" [ref=e163] [cursor=pointer]:
+          - /url: /models?other=natural-language-inference
+          - generic [ref=e165]: natural-language-inference
+        - link "nli" [ref=e166] [cursor=pointer]:
+          - /url: /models?other=nli
+          - generic [ref=e168]: nli
+        - 'button "License: apache-2.0" [ref=e170] [cursor=pointer]':
+          - generic [ref=e172]:
+            - img [ref=e173]
+            - generic [ref=e175]: "License:"
+            - generic [ref=e176]: apache-2.0
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - link "Model card" [ref=e180] [cursor=pointer]:
+            - /url: /tasksource/ModernBERT-large-nli
+            - img [ref=e181]
+            - text: Model card
+          - link "Files xet" [ref=e185] [cursor=pointer]:
+            - /url: /tasksource/ModernBERT-large-nli/tree/main
+            - img [ref=e186]
+            - generic [ref=e189]: Files
+            - generic [ref=e192]:
+              - img [ref=e193]
+              - generic [ref=e196]: xet
+          - link "Community 2" [ref=e197] [cursor=pointer]:
+            - /url: /tasksource/ModernBERT-large-nli/discussions
+            - img [ref=e198]
+            - text: Community
+            - generic [ref=e201]: "2"
+        - generic [ref=e202]:
+          - button [ref=e205] [cursor=pointer]:
+            - img [ref=e206]
+          - generic [ref=e210]:
+            - button "Deploy" [ref=e212] [cursor=pointer]:
+              - img [ref=e213]
+              - text: Deploy
+              - img [ref=e216]
+            - dialog
+          - button "Use this model" [ref=e219] [cursor=pointer]:
+            - img [ref=e220]
+            - text: Use this model
+            - img [ref=e222]
+    - generic [ref=e224]:
+      - generic [ref=e226]:
+        - button [ref=e232] [cursor=pointer]:
+          - img [ref=e233]
+        - generic [ref=e235]:
+          - heading "Model Card for Model ID" [level=1] [ref=e236]:
+            - link [ref=e237] [cursor=pointer]:
+              - /url: "#model-card-for-model-id"
+              - img [ref=e239]
+            - generic [ref=e241]: Model Card for Model ID
+          - paragraph [ref=e242]: This model is ModernBERT multi-task fine-tuned on tasksource NLI tasks, including MNLI, ANLI, SICK, WANLI, doc-nli, LingNLI, FOLIO, FOL-NLI, LogicNLI, Label-NLI and all datasets in the below table). This is the equivalent of an "instruct" version. The model was trained for 200k steps on an Nvidia A30 GPU.
+          - paragraph [ref=e243]: It is very good at reasoning tasks (better than llama 3.1 8B Instruct on ANLI and FOLIO), long context reasoning, sentiment analysis and zero-shot classification with new labels.
+          - paragraph [ref=e244]: The following table shows model test accuracy. These are the scores for the same single transformer with different classification heads on top. Further gains can be obtained by fine-tuning on a single-task, e.g. SST, but it this checkpoint is great for zero-shot classification and natural language inference (contradiction/entailment/neutral classification).
+          - table [ref=e246]:
+            - rowgroup [ref=e247]:
+              - row "test_name test_accuracy" [ref=e248]:
+                - columnheader "test_name" [ref=e249]
+                - columnheader "test_accuracy" [ref=e250]
+            - rowgroup [ref=e251]:
+              - row "glue/mnli 0.89" [ref=e252]:
+                - cell "glue/mnli" [ref=e253]
+                - cell "0.89" [ref=e254]
+              - row "glue/qnli 0.96" [ref=e255]:
+                - cell "glue/qnli" [ref=e256]
+                - cell "0.96" [ref=e257]
+              - row "glue/rte 0.91" [ref=e258]:
+                - cell "glue/rte" [ref=e259]
+                - cell "0.91" [ref=e260]
+              - row "glue/wnli 0.64" [ref=e261]:
+                - cell "glue/wnli" [ref=e262]
+                - cell "0.64" [ref=e263]
+              - row "glue/mrpc 0.81" [ref=e264]:
+                - cell "glue/mrpc" [ref=e265]
+                - cell "0.81" [ref=e266]
+              - row "glue/qqp 0.87" [ref=e267]:
+                - cell "glue/qqp" [ref=e268]
+                - cell "0.87" [ref=e269]
+              - row "glue/cola 0.87" [ref=e270]:
+                - cell "glue/cola" [ref=e271]
+                - cell "0.87" [ref=e272]
+              - row "glue/sst2 0.96" [ref=e273]:
+                - cell "glue/sst2" [ref=e274]
+                - cell "0.96" [ref=e275]
+              - row "super_glue/boolq 0.66" [ref=e276]:
+                - cell "super_glue/boolq" [ref=e277]
+                - cell "0.66" [ref=e278]
+              - row "super_glue/cb 0.86" [ref=e279]:
+                - cell "super_glue/cb" [ref=e280]
+                - cell "0.86" [ref=e281]
+              - row "super_glue/multirc 0.9" [ref=e282]:
+                - cell "super_glue/multirc" [ref=e283]
+                - cell "0.9" [ref=e284]
+              - row "super_glue/wic 0.71" [ref=e285]:
+                - cell "super_glue/wic" [ref=e286]
+                - cell "0.71" [ref=e287]
+              - row "super_glue/axg 1" [ref=e288]:
+                - cell "super_glue/axg" [ref=e289]
+                - cell "1" [ref=e290]
+              - row "anli/a1 0.72" [ref=e291]:
+                - cell "anli/a1" [ref=e292]
+                - cell "0.72" [ref=e293]
+              - row "anli/a2 0.54" [ref=e294]:
+                - cell "anli/a2" [ref=e295]
+                - cell "0.54" [ref=e296]
+              - row "anli/a3 0.55" [ref=e297]:
+                - cell "anli/a3" [ref=e298]
+                - cell "0.55" [ref=e299]
+              - row "sick/label 0.91" [ref=e300]:
+                - cell "sick/label" [ref=e301]
+                - cell "0.91" [ref=e302]
+              - row "sick/entailment_AB 0.93" [ref=e303]:
+                - cell "sick/entailment_AB" [ref=e304]
+                - cell "0.93" [ref=e305]
+              - row "snli 0.94" [ref=e306]:
+                - cell "snli" [ref=e307]
+                - cell "0.94" [ref=e308]
+              - row "scitail/snli_format 0.95" [ref=e309]:
+                - cell "scitail/snli_format" [ref=e310]
+                - cell "0.95" [ref=e311]
+              - row "hans 1" [ref=e312]:
+                - cell "hans" [ref=e313]
+                - cell "1" [ref=e314]
+              - row "WANLI 0.77" [ref=e315]:
+                - cell "WANLI" [ref=e316]
+                - cell "0.77" [ref=e317]
+              - row "recast/recast_ner 0.85" [ref=e318]:
+                - cell "recast/recast_ner" [ref=e319]
+                - cell "0.85" [ref=e320]
+              - row "recast/recast_sentiment 0.97" [ref=e321]:
+                - cell "recast/recast_sentiment" [ref=e322]
+                - cell "0.97" [ref=e323]
+              - row "recast/recast_verbnet 0.89" [ref=e324]:
+                - cell "recast/recast_verbnet" [ref=e325]
+                - cell "0.89" [ref=e326]
+              - row "recast/recast_megaveridicality 0.87" [ref=e327]:
+                - cell "recast/recast_megaveridicality" [ref=e328]
+                - cell "0.87" [ref=e329]
+              - row "recast/recast_verbcorner 0.87" [ref=e330]:
+                - cell "recast/recast_verbcorner" [ref=e331]
+                - cell "0.87" [ref=e332]
+              - row "recast/recast_kg_relations 0.9" [ref=e333]:
+                - cell "recast/recast_kg_relations" [ref=e334]
+                - cell "0.9" [ref=e335]
+              - row "recast/recast_factuality 0.95" [ref=e336]:
+                - cell "recast/recast_factuality" [ref=e337]
+                - cell "0.95" [ref=e338]
+              - row "recast/recast_puns 0.98" [ref=e339]:
+                - cell "recast/recast_puns" [ref=e340]
+                - cell "0.98" [ref=e341]
+              - row "probability_words_nli/reasoning_1hop 1" [ref=e342]:
+                - cell "probability_words_nli/reasoning_1hop" [ref=e343]
+                - cell "1" [ref=e344]
+              - row "probability_words_nli/usnli 0.79" [ref=e345]:
+                - cell "probability_words_nli/usnli" [ref=e346]
+                - cell "0.79" [ref=e347]
+              - row "probability_words_nli/reasoning_2hop 0.98" [ref=e348]:
+                - cell "probability_words_nli/reasoning_2hop" [ref=e349]
+                - cell "0.98" [ref=e350]
+              - row "nan-nli 0.85" [ref=e351]:
+                - cell "nan-nli" [ref=e352]
+                - cell "0.85" [ref=e353]
+              - row "nli_fever 0.78" [ref=e354]:
+                - cell "nli_fever" [ref=e355]
+                - cell "0.78" [ref=e356]
+              - row "breaking_nli 0.99" [ref=e357]:
+                - cell "breaking_nli" [ref=e358]
+                - cell "0.99" [ref=e359]
+              - row "conj_nli 0.72" [ref=e360]:
+                - cell "conj_nli" [ref=e361]
+                - cell "0.72" [ref=e362]
+              - row "fracas 0.79" [ref=e363]:
+                - cell "fracas" [ref=e364]
+                - cell "0.79" [ref=e365]
+              - row "dialogue_nli 0.94" [ref=e366]:
+                - cell "dialogue_nli" [ref=e367]
+                - cell "0.94" [ref=e368]
+              - row "mpe 0.75" [ref=e369]:
+                - cell "mpe" [ref=e370]
+                - cell "0.75" [ref=e371]
+              - row "dnc 0.91" [ref=e372]:
+                - cell "dnc" [ref=e373]
+                - cell "0.91" [ref=e374]
+              - row "recast_white/fnplus 0.76" [ref=e375]:
+                - cell "recast_white/fnplus" [ref=e376]
+                - cell "0.76" [ref=e377]
+              - row "recast_white/sprl 0.9" [ref=e378]:
+                - cell "recast_white/sprl" [ref=e379]
+                - cell "0.9" [ref=e380]
+              - row "recast_white/dpr 0.84" [ref=e381]:
+                - cell "recast_white/dpr" [ref=e382]
+                - cell "0.84" [ref=e383]
+              - row "add_one_rte 0.94" [ref=e384]:
+                - cell "add_one_rte" [ref=e385]
+                - cell "0.94" [ref=e386]
+              - row "paws/labeled_final 0.96" [ref=e387]:
+                - cell "paws/labeled_final" [ref=e388]
+                - cell "0.96" [ref=e389]
+              - row "pragmeval/pdtb 0.56" [ref=e390]:
+                - cell "pragmeval/pdtb" [ref=e391]
+                - cell "0.56" [ref=e392]
+              - row "lex_glue/scotus 0.58" [ref=e393]:
+                - cell "lex_glue/scotus" [ref=e394]
+                - cell "0.58" [ref=e395]
+              - row "lex_glue/ledgar 0.85" [ref=e396]:
+                - cell "lex_glue/ledgar" [ref=e397]
+                - cell "0.85" [ref=e398]
+              - row "dynasent/dynabench.dynasent.r1.all/r1 0.83" [ref=e399]:
+                - cell "dynasent/dynabench.dynasent.r1.all/r1" [ref=e400]
+                - cell "0.83" [ref=e401]
+              - row "dynasent/dynabench.dynasent.r2.all/r2 0.76" [ref=e402]:
+                - cell "dynasent/dynabench.dynasent.r2.all/r2" [ref=e403]
+                - cell "0.76" [ref=e404]
+              - row "cycic_classification 0.96" [ref=e405]:
+                - cell "cycic_classification" [ref=e406]
+                - cell "0.96" [ref=e407]
+              - row "lingnli 0.91" [ref=e408]:
+                - cell "lingnli" [ref=e409]
+                - cell "0.91" [ref=e410]
+              - row "monotonicity-entailment 0.97" [ref=e411]:
+                - cell "monotonicity-entailment" [ref=e412]
+                - cell "0.97" [ref=e413]
+              - row "scinli 0.88" [ref=e414]:
+                - cell "scinli" [ref=e415]
+                - cell "0.88" [ref=e416]
+              - row "naturallogic 0.93" [ref=e417]:
+                - cell "naturallogic" [ref=e418]
+                - cell "0.93" [ref=e419]
+              - row "dynahate 0.86" [ref=e420]:
+                - cell "dynahate" [ref=e421]
+                - cell "0.86" [ref=e422]
+              - row "syntactic-augmentation-nli 0.94" [ref=e423]:
+                - cell "syntactic-augmentation-nli" [ref=e424]
+                - cell "0.94" [ref=e425]
+              - row "autotnli 0.92" [ref=e426]:
+                - cell "autotnli" [ref=e427]
+                - cell "0.92" [ref=e428]
+              - row "defeasible-nli/atomic 0.83" [ref=e429]:
+                - cell "defeasible-nli/atomic" [ref=e430]
+                - cell "0.83" [ref=e431]
+              - row "defeasible-nli/snli 0.8" [ref=e432]:
+                - cell "defeasible-nli/snli" [ref=e433]
+                - cell "0.8" [ref=e434]
+              - row "help-nli 0.96" [ref=e435]:
+                - cell "help-nli" [ref=e436]
+                - cell "0.96" [ref=e437]
+              - row "nli-veridicality-transitivity 0.99" [ref=e438]:
+                - cell "nli-veridicality-transitivity" [ref=e439]
+                - cell "0.99" [ref=e440]
+              - row "lonli 0.99" [ref=e441]:
+                - cell "lonli" [ref=e442]
+                - cell "0.99" [ref=e443]
+              - row "dadc-limit-nli 0.79" [ref=e444]:
+                - cell "dadc-limit-nli" [ref=e445]
+                - cell "0.79" [ref=e446]
+              - row "folio 0.71" [ref=e447]:
+                - cell "folio" [ref=e448]
+                - cell "0.71" [ref=e449]
+              - row "tomi-nli 0.54" [ref=e450]:
+                - cell "tomi-nli" [ref=e451]
+                - cell "0.54" [ref=e452]
+              - row "puzzte 0.59" [ref=e453]:
+                - cell "puzzte" [ref=e454]
+                - cell "0.59" [ref=e455]
+              - row "temporal-nli 0.93" [ref=e456]:
+                - cell "temporal-nli" [ref=e457]
+                - cell "0.93" [ref=e458]
+              - row "counterfactually-augmented-snli 0.81" [ref=e459]:
+                - cell "counterfactually-augmented-snli" [ref=e460]
+                - cell "0.81" [ref=e461]
+              - row "cnli 0.9" [ref=e462]:
+                - cell "cnli" [ref=e463]
+                - cell "0.9" [ref=e464]
+              - row "boolq-natural-perturbations 0.72" [ref=e465]:
+                - cell "boolq-natural-perturbations" [ref=e466]
+                - cell "0.72" [ref=e467]
+              - row "equate 0.65" [ref=e468]:
+                - cell "equate" [ref=e469]
+                - cell "0.65" [ref=e470]
+              - row "logiqa-2.0-nli 0.58" [ref=e471]:
+                - cell "logiqa-2.0-nli" [ref=e472]
+                - cell "0.58" [ref=e473]
+              - row "mindgames 0.96" [ref=e474]:
+                - cell "mindgames" [ref=e475]
+                - cell "0.96" [ref=e476]
+              - row "ConTRoL-nli 0.66" [ref=e477]:
+                - cell "ConTRoL-nli" [ref=e478]
+                - cell "0.66" [ref=e479]
+              - row "logical-fallacy 0.38" [ref=e480]:
+                - cell "logical-fallacy" [ref=e481]
+                - cell "0.38" [ref=e482]
+              - row "cladder 0.89" [ref=e483]:
+                - cell "cladder" [ref=e484]
+                - cell "0.89" [ref=e485]
+              - row "conceptrules_v2 1" [ref=e486]:
+                - cell "conceptrules_v2" [ref=e487]
+                - cell "1" [ref=e488]
+              - row "zero-shot-label-nli 0.79" [ref=e489]:
+                - cell "zero-shot-label-nli" [ref=e490]
+                - cell "0.79" [ref=e491]
+              - row "scone 1" [ref=e492]:
+                - cell "scone" [ref=e493]
+                - cell "1" [ref=e494]
+              - row "monli 1" [ref=e495]:
+                - cell "monli" [ref=e496]
+                - cell "1" [ref=e497]
+              - row "SpaceNLI 1" [ref=e498]:
+                - cell "SpaceNLI" [ref=e499]
+                - cell "1" [ref=e500]
+              - row "propsegment/nli 0.92" [ref=e501]:
+                - cell "propsegment/nli" [ref=e502]
+                - cell "0.92" [ref=e503]
+              - row "FLD.v2/default 0.91" [ref=e504]:
+                - cell "FLD.v2/default" [ref=e505]
+                - cell "0.91" [ref=e506]
+              - row "FLD.v2/star 0.78" [ref=e507]:
+                - cell "FLD.v2/star" [ref=e508]
+                - cell "0.78" [ref=e509]
+              - row "SDOH-NLI 0.99" [ref=e510]:
+                - cell "SDOH-NLI" [ref=e511]
+                - cell "0.99" [ref=e512]
+              - row "scifact_entailment 0.87" [ref=e513]:
+                - cell "scifact_entailment" [ref=e514]
+                - cell "0.87" [ref=e515]
+              - row "feasibilityQA 0.79" [ref=e516]:
+                - cell "feasibilityQA" [ref=e517]
+                - cell "0.79" [ref=e518]
+              - row "AdjectiveScaleProbe-nli 1" [ref=e519]:
+                - cell "AdjectiveScaleProbe-nli" [ref=e520]
+                - cell "1" [ref=e521]
+              - row "resnli 1" [ref=e522]:
+                - cell "resnli" [ref=e523]
+                - cell "1" [ref=e524]
+              - row "semantic_fragments_nli 1" [ref=e525]:
+                - cell "semantic_fragments_nli" [ref=e526]
+                - cell "1" [ref=e527]
+              - row "dataset_train_nli 0.95" [ref=e528]:
+                - cell "dataset_train_nli" [ref=e529]
+                - cell "0.95" [ref=e530]
+              - row "nlgraph 0.97" [ref=e531]:
+                - cell "nlgraph" [ref=e532]
+                - cell "0.97" [ref=e533]
+              - row "ruletaker 0.99" [ref=e534]:
+                - cell "ruletaker" [ref=e535]
+                - cell "0.99" [ref=e536]
+              - row "PARARULE-Plus 1" [ref=e537]:
+                - cell "PARARULE-Plus" [ref=e538]
+                - cell "1" [ref=e539]
+              - row "logical-entailment 0.93" [ref=e540]:
+                - cell "logical-entailment" [ref=e541]
+                - cell "0.93" [ref=e542]
+              - row "nope 0.56" [ref=e543]:
+                - cell "nope" [ref=e544]
+                - cell "0.56" [ref=e545]
+              - row "LogicNLI 0.91" [ref=e546]:
+                - cell "LogicNLI" [ref=e547]
+                - cell "0.91" [ref=e548]
+              - row "contract-nli/contractnli_a/seg 0.88" [ref=e549]:
+                - cell "contract-nli/contractnli_a/seg" [ref=e550]
+                - cell "0.88" [ref=e551]
+              - row "contract-nli/contractnli_b/full 0.84" [ref=e552]:
+                - cell "contract-nli/contractnli_b/full" [ref=e553]
+                - cell "0.84" [ref=e554]
+              - row "nli4ct_semeval2024 0.72" [ref=e555]:
+                - cell "nli4ct_semeval2024" [ref=e556]
+                - cell "0.72" [ref=e557]
+              - row "biosift-nli 0.92" [ref=e558]:
+                - cell "biosift-nli" [ref=e559]
+                - cell "0.92" [ref=e560]
+              - row "SIGA-nli 0.57" [ref=e561]:
+                - cell "SIGA-nli" [ref=e562]
+                - cell "0.57" [ref=e563]
+              - row "FOL-nli 0.79" [ref=e564]:
+                - cell "FOL-nli" [ref=e565]
+                - cell "0.79" [ref=e566]
+              - row "doc-nli 0.81" [ref=e567]:
+                - cell "doc-nli" [ref=e568]
+                - cell "0.81" [ref=e569]
+              - row "mctest-nli 0.92" [ref=e570]:
+                - cell "mctest-nli" [ref=e571]
+                - cell "0.92" [ref=e572]
+              - row "natural-language-satisfiability 0.92" [ref=e573]:
+                - cell "natural-language-satisfiability" [ref=e574]
+                - cell "0.92" [ref=e575]
+              - row "idioms-nli 0.83" [ref=e576]:
+                - cell "idioms-nli" [ref=e577]
+                - cell "0.83" [ref=e578]
+              - row "lifecycle-entailment 0.79" [ref=e579]:
+                - cell "lifecycle-entailment" [ref=e580]
+                - cell "0.79" [ref=e581]
+              - row "MSciNLI 0.84" [ref=e582]:
+                - cell "MSciNLI" [ref=e583]
+                - cell "0.84" [ref=e584]
+              - row "hover-3way/nli 0.92" [ref=e585]:
+                - cell "hover-3way/nli" [ref=e586]
+                - cell "0.92" [ref=e587]
+              - row "seahorse_summarization_evaluation 0.81" [ref=e588]:
+                - cell "seahorse_summarization_evaluation" [ref=e589]
+                - cell "0.81" [ref=e590]
+              - row "missing-item-prediction/contrastive 0.88" [ref=e591]:
+                - cell "missing-item-prediction/contrastive" [ref=e592]
+                - cell "0.88" [ref=e593]
+              - row "Pol_NLI 0.93" [ref=e594]:
+                - cell "Pol_NLI" [ref=e595]
+                - cell "0.93" [ref=e596]
+              - row "synthetic-retrieval-NLI/count 0.72" [ref=e597]:
+                - cell "synthetic-retrieval-NLI/count" [ref=e598]
+                - cell "0.72" [ref=e599]
+              - row "synthetic-retrieval-NLI/position 0.9" [ref=e600]:
+                - cell "synthetic-retrieval-NLI/position" [ref=e601]
+                - cell "0.9" [ref=e602]
+              - row "synthetic-retrieval-NLI/binary 0.92" [ref=e603]:
+                - cell "synthetic-retrieval-NLI/binary" [ref=e604]
+                - cell "0.92" [ref=e605]
+              - row "babi_nli 0.98" [ref=e606]:
+                - cell "babi_nli" [ref=e607]
+                - cell "0.98" [ref=e608]
+          - heading "Usage" [level=1] [ref=e609]:
+            - link [ref=e610] [cursor=pointer]:
+              - /url: "#usage"
+              - img [ref=e612]
+            - generic [ref=e614]: Usage
+          - heading "[ZS] Zero-shot classification pipeline" [level=2] [ref=e615]:
+            - link [ref=e616] [cursor=pointer]:
+              - /url: "#zs-zero-shot-classification-pipeline"
+              - img [ref=e618]
+            - generic [ref=e620]: "[ZS] Zero-shot classification pipeline"
+          - generic [ref=e621]:
+            - code [ref=e623]: from transformers import pipeline classifier = pipeline("zero-shot-classification",model="tasksource/ModernBERT-large-nli") text = "one day I will see the world" candidate_labels = ['travel', 'cooking', 'dancing'] classifier(text, candidate_labels)
+            - button [ref=e624] [cursor=pointer]:
+              - img [ref=e625]
+          - paragraph [ref=e629]:
+            - text: NLI training data of this model includes
+            - link "label-nli" [ref=e630] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/tasksource/zero-shot-label-nli
+            - text: ", a NLI dataset specially constructed to improve this kind of zero-shot classification."
+          - heading "[NLI] Natural language inference pipeline" [level=2] [ref=e631]:
+            - link [ref=e632] [cursor=pointer]:
+              - /url: "#nli-natural-language-inference-pipeline"
+              - img [ref=e634]
+            - generic [ref=e636]: "[NLI] Natural language inference pipeline"
+          - generic [ref=e637]:
+            - code [ref=e639]: "from transformers import pipeline pipe = pipeline(\"text-classification\",model=\"tasksource/ModernBERT-large-nli\") pipe([dict(text='there is a cat', text_pair='there is a black cat')]) #list of (premise,hypothesis)"
+            - button [ref=e640] [cursor=pointer]:
+              - img [ref=e641]
+          - heading "Backbone for further fune-tuning" [level=2] [ref=e645]:
+            - link [ref=e646] [cursor=pointer]:
+              - /url: "#backbone-for-further-fune-tuning"
+              - img [ref=e648]
+            - generic [ref=e650]: Backbone for further fune-tuning
+          - paragraph [ref=e651]: This checkpoint has stronger reasoning and fine-grained abilities than the base version and can be used for further fine-tuning.
+          - heading "Citation" [level=1] [ref=e652]:
+            - link [ref=e653] [cursor=pointer]:
+              - /url: "#citation"
+              - img [ref=e655]
+            - generic [ref=e657]: Citation
+          - generic [ref=e658]:
+            - code [ref=e660]: "@inproceedings{sileo-2024-tasksource, title = \"tasksource: A Large Collection of {NLP} tasks with a Structured Dataset Preprocessing Framework\", author = \"Sileo, Damien\", booktitle = \"Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)\", month = may, year = \"2024\", address = \"Torino, Italia\", publisher = \"ELRA and ICCL\", url = \"https://aclanthology.org/2024.lrec-main.1361\", pages = \"15655--15684\", }"
+            - button [ref=e661] [cursor=pointer]:
+              - img [ref=e662]
+      - generic [ref=e666]:
+        - generic [ref=e667]:
+          - generic [ref=e668]:
+            - term [ref=e669]: Downloads last month
+            - definition [ref=e670]: 3,260
+          - img [ref=e672]
+        - generic [ref=e677]:
+          - generic [ref=e678]:
+            - img [ref=e679]
+            - text: Safetensors
+            - link [ref=e681] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/safetensors
+              - img [ref=e682]
+          - generic [ref=e686]:
+            - generic [ref=e687]:
+              - generic [ref=e688]: Model size
+              - generic [ref=e689]: 0.4B params
+            - generic [ref=e690]:
+              - generic [ref=e691]: Tensor type
+              - generic [ref=e692]: F32
+            - button "Files info" [ref=e694] [cursor=pointer]:
+              - img [ref=e695]
+              - paragraph [ref=e697]: Files info
+        - generic [ref=e701]:
+          - generic [ref=e702]:
+            - generic [ref=e703]:
+              - img [ref=e704]
+              - generic [ref=e707]: Inference Providers
+              - link "NEW" [ref=e708] [cursor=pointer]:
+                - /url: https://huggingface.co/docs/inference-providers
+            - button "HF Inference API" [ref=e711] [cursor=pointer]:
+              - generic [ref=e713]:
+                - img [ref=e714]
+                - generic [ref=e717]: HF Inference API
+          - generic [ref=e718]:
+            - link "Zero-Shot Classification" [ref=e720] [cursor=pointer]:
+              - /url: /tasks/zero-shot-classification
+              - generic [ref=e721]:
+                - img [ref=e722]
+                - generic [ref=e734]: Zero-Shot Classification
+            - generic [ref=e740] [cursor=pointer]:
+              - generic [ref=e741]: Examples
+              - img [ref=e742]
+          - generic [ref=e744]:
+            - textbox [ref=e748]:
+              - /placeholder: Text to classify...
+            - generic [ref=e751]:
+              - text: Possible class names (comma-separated)
+              - textbox "Possible class names (comma-separated)" [ref=e752]:
+                - /placeholder: Possible class names...
+            - generic [ref=e753] [cursor=pointer]:
+              - checkbox "Allow multiple true classes" [ref=e754]
+              - generic [ref=e755]: Allow multiple true classes
+            - button "Generate" [ref=e758] [cursor=pointer]
+          - generic [ref=e759]:
+            - button "View Code" [ref=e764] [cursor=pointer]:
+              - img [ref=e765]
+              - generic [ref=e769]: View Code
+            - button "Maximize" [ref=e773] [cursor=pointer]:
+              - img [ref=e774]
+              - text: Maximize
+        - heading "Model tree for tasksource/ModernBERT-large-nli" [level=2] [ref=e779]:
+          - img [ref=e780]
+          - text: Model tree for
+          - generic [ref=e783]: tasksource/ModernBERT-large-nli
+        - generic [ref=e784]:
+          - generic [ref=e785]:
+            - paragraph [ref=e786]: Base model
+            - link "answerdotai/ModernBERT-large" [ref=e788] [cursor=pointer]:
+              - /url: /answerdotai/ModernBERT-large
+          - generic [ref=e789]:
+            - img [ref=e791]
+            - generic [ref=e793]:
+              - img [ref=e794]
+              - text: Finetuned
+            - generic [ref=e801]:
+              - text: (
+              - link "259" [ref=e802] [cursor=pointer]:
+                - /url: /models?other=base_model:finetune:answerdotai/ModernBERT-large
+              - text: )
+            - generic "tasksource/ModernBERT-large-nli" [ref=e804]: this model
+          - generic [ref=e806]:
+            - img [ref=e809]
+            - generic [ref=e811]: Finetunes
+            - link "2 models" [ref=e813] [cursor=pointer]:
+              - /url: /models?other=base_model:finetune:tasksource/ModernBERT-large-nli
+        - heading "Datasets used to train tasksource/ModernBERT-large-nli" [level=2] [ref=e815]:
+          - img [ref=e816]
+          - text: Datasets used to train
+          - generic [ref=e821]: tasksource/ModernBERT-large-nli
+        - navigation [ref=e822]:
+          - article [ref=e823]:
+            - link "nyu-mll/glue Viewer • Updated Jan 30, 2024 • 1.49M • 395k • 487" [ref=e824] [cursor=pointer]:
+              - /url: /datasets/nyu-mll/glue
+              - generic [ref=e825]:
+                - generic "nyu-mll/glue" [ref=e826]:
+                  - img [ref=e827]
+                  - heading "nyu-mll/glue" [level=4] [ref=e832]
+                - generic [ref=e833]:
+                  - img [ref=e834]
+                  - text: Viewer
+                  - generic [ref=e836]: •
+                  - generic [ref=e837]:
+                    - text: Updated
+                    - time [ref=e838]: Jan 30, 2024
+                  - generic [ref=e839]: •
+                  - img [ref=e840]
+                  - generic [ref=e842]: 1.49M
+                  - generic [ref=e843]: •
+                  - img [ref=e844]
+                  - text: 395k
+                  - generic [ref=e846]: •
+                  - img [ref=e847]
+                  - text: "487"
+          - article [ref=e849]:
+            - link "facebook/anli Viewer • Updated Dec 21, 2023 • 169k • 15k • 47" [ref=e850] [cursor=pointer]:
+              - /url: /datasets/facebook/anli
+              - generic [ref=e851]:
+                - generic "facebook/anli" [ref=e852]:
+                  - img [ref=e853]
+                  - heading "facebook/anli" [level=4] [ref=e858]
+                - generic [ref=e859]:
+                  - img [ref=e860]
+                  - text: Viewer
+                  - generic [ref=e862]: •
+                  - generic [ref=e863]:
+                    - text: Updated
+                    - time [ref=e864]: Dec 21, 2023
+                  - generic [ref=e865]: •
+                  - img [ref=e866]
+                  - generic [ref=e868]: 169k
+                  - generic [ref=e869]: •
+                  - img [ref=e870]
+                  - text: 15k
+                  - generic [ref=e872]: •
+                  - img [ref=e873]
+                  - text: "47"
+  - contentinfo [ref=e875]:
+    - navigation [ref=e876]:
+      - button "System theme" [ref=e879] [cursor=pointer]:
+        - img [ref=e880]
+        - text: System theme
+      - link "TOS" [ref=e885] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e886] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e887] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e888] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e889] [cursor=pointer]:
+        - /url: /
+        - img [ref=e890]
+      - link "Models" [ref=e904] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e905] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e906] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e907] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e908] [cursor=pointer]:
+        - /url: /docs
