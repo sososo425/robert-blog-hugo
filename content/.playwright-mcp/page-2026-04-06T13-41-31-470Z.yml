@@ -1,0 +1,396 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "jackboyla / glirel-large-v0 like 22" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /jackboyla
+          - link "jackboyla" [ref=e70] [cursor=pointer]:
+            - /url: /jackboyla
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "glirel-large-v0" [ref=e73] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "22" [ref=e84] [cursor=pointer]
+      - generic [ref=e85]:
+        - link "PyTorch" [ref=e86] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e87]:
+            - img [ref=e88]
+            - generic [ref=e91]: PyTorch
+        - 'button "arxiv: 2501.03172" [ref=e93] [cursor=pointer]':
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - generic [ref=e99]: "arxiv:"
+            - generic [ref=e100]: "2501.03172"
+        - 'button "arxiv: 2311.08526" [ref=e103] [cursor=pointer]':
+          - generic [ref=e105]:
+            - img [ref=e106]
+            - generic [ref=e109]: "arxiv:"
+            - generic [ref=e110]: "2311.08526"
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - link "Model card" [ref=e114] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0
+            - img [ref=e115]
+            - text: Model card
+          - link "Files xet" [ref=e119] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0/tree/main
+            - img [ref=e120]
+            - generic [ref=e123]: Files
+            - generic [ref=e126]:
+              - img [ref=e127]
+              - generic [ref=e130]: xet
+          - link "Community 1" [ref=e131] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0/discussions
+            - img [ref=e132]
+            - text: Community
+            - generic [ref=e135]: "1"
+        - button [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e145]:
+      - generic [ref=e149]:
+        - button "main" [ref=e151] [cursor=pointer]:
+          - img [ref=e152]
+          - text: main
+          - img [ref=e154]
+        - generic [ref=e156]:
+          - link "glirel-large-v0" [ref=e157] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0/tree/main
+          - generic [ref=e158]: /
+          - generic [ref=e159]: glirel_config.json
+          - button "Copy path" [ref=e160] [cursor=pointer]:
+            - img [ref=e161]
+      - generic [ref=e166]:
+        - img "jackboyla's picture" [ref=e167]
+        - link "jackboyla" [ref=e169] [cursor=pointer]:
+          - /url: /jackboyla
+        - generic [ref=e170]: Push model using huggingface_hub.
+        - link "02e48d6" [ref=e171] [cursor=pointer]:
+          - /url: /jackboyla/glirel-large-v0/commit/02e48d6f3fa5fe88953500abc4a37a5428b77af8
+        - generic "This commit is signed and the signature is verified" [ref=e172]: verified
+        - time [ref=e173]: over 1 year ago
+      - generic [ref=e174]:
+        - link "raw" [ref=e175] [cursor=pointer]:
+          - /url: /jackboyla/glirel-large-v0/raw/main/glirel_config.json
+          - generic [ref=e176]:
+            - img [ref=e177]
+            - text: raw
+        - button "Copy download link" [ref=e182] [cursor=pointer]:
+          - img [ref=e183]
+          - generic [ref=e187]: Copy download link
+        - link "history" [ref=e188] [cursor=pointer]:
+          - /url: /jackboyla/glirel-large-v0/commits/main/glirel_config.json
+          - generic [ref=e189]:
+            - img [ref=e190]
+            - text: history
+        - link "blame" [ref=e192] [cursor=pointer]:
+          - /url: /jackboyla/glirel-large-v0/blame/main/glirel_config.json
+          - generic [ref=e193]:
+            - img [ref=e194]
+            - text: blame
+        - link "contribute" [ref=e198] [cursor=pointer]:
+          - /url: /jackboyla/glirel-large-v0/edit/main/glirel_config.json
+          - generic [ref=e199]:
+            - img [ref=e200]
+            - text: contribute
+        - link "delete" [ref=e203] [cursor=pointer]:
+          - /url: /jackboyla/glirel-large-v0/delete/main/glirel_config.json
+          - generic [ref=e204]:
+            - img [ref=e205]
+            - text: delete
+        - button "Safe" [ref=e213] [cursor=pointer]:
+          - img [ref=e214]
+          - generic [ref=e218]: Safe
+        - generic [ref=e219]:
+          - button [ref=e221] [cursor=pointer]:
+            - img [ref=e222]
+          - text: 1.58 kB
+      - table [ref=e229]:
+        - rowgroup [ref=e230]:
+          - 'row "1 {" [ref=e231]':
+            - cell "1" [ref=e232] [cursor=pointer]: "1"
+            - 'cell "{" [ref=e234]'
+          - 'row "2 \"lr_encoder\": \"1e-5\"," [ref=e235]':
+            - cell "2" [ref=e236] [cursor=pointer]: "2"
+            - 'cell "\"lr_encoder\": \"1e-5\"," [ref=e238]'
+          - 'row "3 \"lr_others\": \"1e-4\"," [ref=e239]':
+            - cell "3" [ref=e240] [cursor=pointer]: "3"
+            - 'cell "\"lr_others\": \"1e-4\"," [ref=e242]'
+          - 'row "4 \"weight_decay_encoder\": 0.01," [ref=e243]':
+            - cell "4" [ref=e244] [cursor=pointer]: "4"
+            - 'cell "\"weight_decay_encoder\": 0.01," [ref=e246]'
+          - 'row "5 \"weight_decay_other\": 0.01," [ref=e247]':
+            - cell "5" [ref=e248] [cursor=pointer]: "5"
+            - 'cell "\"weight_decay_other\": 0.01," [ref=e250]'
+          - 'row "6 \"num_steps\": 100000," [ref=e251]':
+            - cell "6" [ref=e252] [cursor=pointer]: "6"
+            - 'cell "\"num_steps\": 100000," [ref=e254]'
+          - 'row "7 \"warmup_ratio\": 0.1," [ref=e255]':
+            - cell "7" [ref=e256] [cursor=pointer]: "7"
+            - 'cell "\"warmup_ratio\": 0.1," [ref=e258]'
+          - 'row "8 \"train_batch_size\": 1," [ref=e259]':
+            - cell "8" [ref=e260] [cursor=pointer]: "8"
+            - 'cell "\"train_batch_size\": 1," [ref=e262]'
+          - 'row "9 \"eval_every\": 3000," [ref=e263]':
+            - cell "9" [ref=e264] [cursor=pointer]: "9"
+            - 'cell "\"eval_every\": 3000," [ref=e266]'
+          - 'row "10 \"gradient_accumulation\": 8," [ref=e267]':
+            - cell "10" [ref=e268] [cursor=pointer]: "10"
+            - 'cell "\"gradient_accumulation\": 8," [ref=e270]'
+          - 'row "11 \"eval_batch_size\": 32," [ref=e271]':
+            - cell "11" [ref=e272] [cursor=pointer]: "11"
+            - 'cell "\"eval_batch_size\": 32," [ref=e274]'
+          - 'row "12 \"num_layers_freeze\": null," [ref=e275]':
+            - cell "12" [ref=e276] [cursor=pointer]: "12"
+            - 'cell "\"num_layers_freeze\": null," [ref=e278]':
+              - text: "\"num_layers_freeze\":"
+              - generic [ref=e279]: "null"
+              - text: ","
+          - 'row "13 \"early_stopping_patience\": null," [ref=e280]':
+            - cell "13" [ref=e281] [cursor=pointer]: "13"
+            - 'cell "\"early_stopping_patience\": null," [ref=e283]':
+              - text: "\"early_stopping_patience\":"
+              - generic [ref=e284]: "null"
+              - text: ","
+          - 'row "14 \"early_stopping_delta\": 0.0," [ref=e285]':
+            - cell "14" [ref=e286] [cursor=pointer]: "14"
+            - 'cell "\"early_stopping_delta\": 0.0," [ref=e288]'
+          - 'row "15 \"save_at\": [" [ref=e289]':
+            - cell "15" [ref=e290] [cursor=pointer]: "15"
+            - 'cell "\"save_at\": [" [ref=e292]'
+          - row "16 200," [ref=e293]:
+            - cell "16" [ref=e294] [cursor=pointer]: "16"
+            - cell "200," [ref=e296]
+          - row "17 6000," [ref=e297]:
+            - cell "17" [ref=e298] [cursor=pointer]: "17"
+            - cell "6000," [ref=e300]
+          - row "18 12000," [ref=e301]:
+            - cell "18" [ref=e302] [cursor=pointer]: "18"
+            - cell "12000," [ref=e304]
+          - row "19 20000," [ref=e305]:
+            - cell "19" [ref=e306] [cursor=pointer]: "19"
+            - cell "20000," [ref=e308]
+          - row "20 70000" [ref=e309]:
+            - cell "20" [ref=e310] [cursor=pointer]: "20"
+            - cell "70000" [ref=e312]
+          - row "21 ]," [ref=e313]:
+            - cell "21" [ref=e314] [cursor=pointer]: "21"
+            - cell "]," [ref=e316]
+          - 'row "22 \"max_saves\": 6," [ref=e317]':
+            - cell "22" [ref=e318] [cursor=pointer]: "22"
+            - 'cell "\"max_saves\": 6," [ref=e320]'
+          - 'row "23 \"max_width\": 12," [ref=e321]':
+            - cell "23" [ref=e322] [cursor=pointer]: "23"
+            - 'cell "\"max_width\": 12," [ref=e324]'
+          - 'row "24 \"model_name\": \"microsoft/deberta-v3-large\"," [ref=e325]':
+            - cell "24" [ref=e326] [cursor=pointer]: "24"
+            - 'cell "\"model_name\": \"microsoft/deberta-v3-large\"," [ref=e328]'
+          - 'row "25 \"fine_tune\": true," [ref=e329]':
+            - cell "25" [ref=e330] [cursor=pointer]: "25"
+            - 'cell "\"fine_tune\": true," [ref=e332]':
+              - text: "\"fine_tune\":"
+              - generic [ref=e333]: "true"
+              - text: ","
+          - 'row "26 \"subtoken_pooling\": \"first\"," [ref=e334]':
+            - cell "26" [ref=e335] [cursor=pointer]: "26"
+            - 'cell "\"subtoken_pooling\": \"first\"," [ref=e337]'
+          - 'row "27 \"hidden_size\": 768," [ref=e338]':
+            - cell "27" [ref=e339] [cursor=pointer]: "27"
+            - 'cell "\"hidden_size\": 768," [ref=e341]'
+          - 'row "28 \"scorer\": \"dot\"," [ref=e342]':
+            - cell "28" [ref=e343] [cursor=pointer]: "28"
+            - 'cell "\"scorer\": \"dot\"," [ref=e345]'
+          - 'row "29 \"rel_mode\": \"marker\"," [ref=e346]':
+            - cell "29" [ref=e347] [cursor=pointer]: "29"
+            - 'cell "\"rel_mode\": \"marker\"," [ref=e349]'
+          - 'row "30 \"span_marker_mode\": \"markerv1\"," [ref=e350]':
+            - cell "30" [ref=e351] [cursor=pointer]: "30"
+            - 'cell "\"span_marker_mode\": \"markerv1\"," [ref=e353]'
+          - 'row "31 \"refine_prompt\": false," [ref=e354]':
+            - cell "31" [ref=e355] [cursor=pointer]: "31"
+            - 'cell "\"refine_prompt\": false," [ref=e357]':
+              - text: "\"refine_prompt\":"
+              - generic [ref=e358]: "false"
+              - text: ","
+          - 'row "32 \"refine_relation\": false," [ref=e359]':
+            - cell "32" [ref=e360] [cursor=pointer]: "32"
+            - 'cell "\"refine_relation\": false," [ref=e362]':
+              - text: "\"refine_relation\":"
+              - generic [ref=e363]: "false"
+              - text: ","
+          - 'row "33 \"ffn_mul\": 4," [ref=e364]':
+            - cell "33" [ref=e365] [cursor=pointer]: "33"
+            - 'cell "\"ffn_mul\": 4," [ref=e367]'
+          - 'row "34 \"dropout\": 0.4," [ref=e368]':
+            - cell "34" [ref=e369] [cursor=pointer]: "34"
+            - 'cell "\"dropout\": 0.4," [ref=e371]'
+          - 'row "35 \"scheduler\": \"cosine_with_warmup\"," [ref=e372]':
+            - cell "35" [ref=e373] [cursor=pointer]: "35"
+            - 'cell "\"scheduler\": \"cosine_with_warmup\"," [ref=e375]'
+          - 'row "36 \"loss_func\": \"binary_cross_entropy_loss\"," [ref=e376]':
+            - cell "36" [ref=e377] [cursor=pointer]: "36"
+            - 'cell "\"loss_func\": \"binary_cross_entropy_loss\"," [ref=e379]'
+          - 'row "37 \"alpha\": 0.6," [ref=e380]':
+            - cell "37" [ref=e381] [cursor=pointer]: "37"
+            - 'cell "\"alpha\": 0.6," [ref=e383]'
+          - 'row "38 \"gamma\": 3," [ref=e384]':
+            - cell "38" [ref=e385] [cursor=pointer]: "38"
+            - 'cell "\"gamma\": 3," [ref=e387]'
+          - 'row "39 \"label_embed_strategy\": \"both\"," [ref=e388]':
+            - cell "39" [ref=e389] [cursor=pointer]: "39"
+            - 'cell "\"label_embed_strategy\": \"both\"," [ref=e391]'
+          - 'row "40 \"coref_classifier\": false," [ref=e392]':
+            - cell "40" [ref=e393] [cursor=pointer]: "40"
+            - 'cell "\"coref_classifier\": false," [ref=e395]':
+              - text: "\"coref_classifier\":"
+              - generic [ref=e396]: "false"
+              - text: ","
+          - 'row "41 \"coref_loss_weight\": 10.0," [ref=e397]':
+            - cell "41" [ref=e398] [cursor=pointer]: "41"
+            - 'cell "\"coref_loss_weight\": 10.0," [ref=e400]'
+          - 'row "42 \"dataset_name\": \"zero_rel\"," [ref=e401]':
+            - cell "42" [ref=e402] [cursor=pointer]: "42"
+            - 'cell "\"dataset_name\": \"zero_rel\"," [ref=e404]'
+          - 'row "43 \"root_dir\": \"ablation_backbone\"," [ref=e405]':
+            - cell "43" [ref=e406] [cursor=pointer]: "43"
+            - 'cell "\"root_dir\": \"ablation_backbone\"," [ref=e408]'
+          - 'row "44 \"train_data\": [" [ref=e409]':
+            - cell "44" [ref=e410] [cursor=pointer]: "44"
+            - 'cell "\"train_data\": [" [ref=e412]'
+          - row "45 \"data/zero_rel_all.jsonl\"" [ref=e413]:
+            - cell "45" [ref=e414] [cursor=pointer]: "45"
+            - cell "\"data/zero_rel_all.jsonl\"" [ref=e416]
+          - row "46 ]," [ref=e417]:
+            - cell "46" [ref=e418] [cursor=pointer]: "46"
+            - cell "]," [ref=e420]
+          - 'row "47 \"prev_path\": \"none\"," [ref=e421]':
+            - cell "47" [ref=e422] [cursor=pointer]: "47"
+            - 'cell "\"prev_path\": \"none\"," [ref=e424]'
+          - 'row "48 \"size_sup\": -1," [ref=e425]':
+            - cell "48" [ref=e426] [cursor=pointer]: "48"
+            - 'cell "\"size_sup\": -1," [ref=e428]'
+          - 'row "49 \"num_train_rel_types\": 25," [ref=e429]':
+            - cell "49" [ref=e430] [cursor=pointer]: "49"
+            - 'cell "\"num_train_rel_types\": 25," [ref=e432]'
+          - 'row "50 \"num_unseen_rel_types\": 15," [ref=e433]':
+            - cell "50" [ref=e434] [cursor=pointer]: "50"
+            - 'cell "\"num_unseen_rel_types\": 15," [ref=e436]'
+          - 'row "51 \"top_k\": 1," [ref=e437]':
+            - cell "51" [ref=e438] [cursor=pointer]: "51"
+            - 'cell "\"top_k\": 1," [ref=e440]'
+          - 'row "52 \"random_drop\": true," [ref=e441]':
+            - cell "52" [ref=e442] [cursor=pointer]: "52"
+            - 'cell "\"random_drop\": true," [ref=e444]':
+              - text: "\"random_drop\":"
+              - generic [ref=e445]: "true"
+              - text: ","
+          - 'row "53 \"max_len\": 512," [ref=e446]':
+            - cell "53" [ref=e447] [cursor=pointer]: "53"
+            - 'cell "\"max_len\": 512," [ref=e449]'
+          - 'row "54 \"eval_threshold\": [" [ref=e450]':
+            - cell "54" [ref=e451] [cursor=pointer]: "54"
+            - 'cell "\"eval_threshold\": [" [ref=e453]'
+          - row "55 0.01," [ref=e454]:
+            - cell "55" [ref=e455] [cursor=pointer]: "55"
+            - cell "0.01," [ref=e457]
+          - row "56 0.1," [ref=e458]:
+            - cell "56" [ref=e459] [cursor=pointer]: "56"
+            - cell "0.1," [ref=e461]
+          - row "57 0.2," [ref=e462]:
+            - cell "57" [ref=e463] [cursor=pointer]: "57"
+            - cell "0.2," [ref=e465]
+          - row "58 0.3," [ref=e466]:
+            - cell "58" [ref=e467] [cursor=pointer]: "58"
+            - cell "0.3," [ref=e469]
+          - row "59 0.5" [ref=e470]:
+            - cell "59" [ref=e471] [cursor=pointer]: "59"
+            - cell "0.5" [ref=e473]
+          - row "60 ]," [ref=e474]:
+            - cell "60" [ref=e475] [cursor=pointer]: "60"
+            - cell "]," [ref=e477]
+          - 'row "61 \"max_entity_pair_distance\": null," [ref=e478]':
+            - cell "61" [ref=e479] [cursor=pointer]: "61"
+            - 'cell "\"max_entity_pair_distance\": null," [ref=e481]':
+              - text: "\"max_entity_pair_distance\":"
+              - generic [ref=e482]: "null"
+              - text: ","
+          - 'row "62 \"fixed_relation_types\": true," [ref=e483]':
+            - cell "62" [ref=e484] [cursor=pointer]: "62"
+            - 'cell "\"fixed_relation_types\": true," [ref=e486]':
+              - text: "\"fixed_relation_types\":"
+              - generic [ref=e487]: "true"
+              - text: ","
+          - 'row "63 \"name\": \"large\"," [ref=e488]':
+            - cell "63" [ref=e489] [cursor=pointer]: "63"
+            - 'cell "\"name\": \"large\"," [ref=e491]'
+          - 'row "64 \"log_dir\": \"logs/zero_rel/zero_rel-2024-11-02__10-23-22\"," [ref=e492]':
+            - cell "64" [ref=e493] [cursor=pointer]: "64"
+            - 'cell "\"log_dir\": \"logs/zero_rel/zero_rel-2024-11-02__10-23-22\"," [ref=e495]'
+          - 'row "65 \"eval_data\": \"data/wiki_zsl_all.jsonl\"," [ref=e496]':
+            - cell "65" [ref=e497] [cursor=pointer]: "65"
+            - 'cell "\"eval_data\": \"data/wiki_zsl_all.jsonl\"," [ref=e499]'
+          - 'row "66 \"coreference_label\": \"SELF\"," [ref=e500]':
+            - cell "66" [ref=e501] [cursor=pointer]: "66"
+            - 'cell "\"coreference_label\": \"SELF\"," [ref=e503]'
+          - 'row "67 \"entity_start_token\": \"[E]\"," [ref=e504]':
+            - cell "67" [ref=e505] [cursor=pointer]: "67"
+            - 'cell "\"entity_start_token\": \"[E]\"," [ref=e507]'
+          - 'row "68 \"entity_end_token\": \"[/E]\"" [ref=e508]':
+            - cell "68" [ref=e509] [cursor=pointer]: "68"
+            - 'cell "\"entity_end_token\": \"[/E]\"" [ref=e511]'
+          - 'row "69 }" [ref=e512]':
+            - cell "69" [ref=e513] [cursor=pointer]: "69"
+            - 'cell "}" [ref=e515]'

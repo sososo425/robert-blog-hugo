@@ -1,0 +1,335 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: "\"ModernBERT is more efficient than conventional BERT\" relation extraction Yamagishi \"ModernBERT is more efficient than conventional BERT\" relation extraction Yamagishi"
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3D%2522ModernBERT%2Bis%2Bmore%2Befficient%2Bthan%2Bconventional%2BBERT%2522%2Brelation%2Bextraction%2BYamagishi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22ModernBERT+is+more+efficient+than+conventional+BERT%22+relation+extraction+Yamagishi&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6sptpHCmXTkETm439yJHeEIFUOZaFVr14sTtJSAK41FYyI3VwMC-Pc3HY_qptI-eqE6nvE_jLimpojgVzGYtAxnkO8jWdP7EZuBo6qGpOyuJTQEXznaw&aep=1&ntc=1&sa=X&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74Q2J8OegQIDxAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "图片" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6sptpHCmXTkETm439yJHeEIFUOZaFVr14sTtJSAK41FYyI3VwMC-Pc3HY_qptI-eqE6nvE_jLimpojgVzGYtAxnkO8jWdP7EZuBo6qGpOyuJTQEXznaw&q=%22ModernBERT+is+more+efficient+than+conventional+BERT%22+relation+extraction+Yamagishi&sa=X&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74QtKgLegQIFRAB
+              - generic [ref=e89]: 图片
+          - listitem [ref=e90]:
+            - link "视频" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6sptpHCmXTkETm439yJHeEIFUOZaFVr14sTtJSAK41FYyI3VwMC-Pc3HY_qptI-eqE6nvE_jLimpojgVzGYtAxnkO8jWdP7EZuBo6qGpOyuJTQEXznaw&q=%22ModernBERT+is+more+efficient+than+conventional+BERT%22+relation+extraction+Yamagishi&sa=X&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74QtKgLegQIERAB
+              - generic [ref=e93]: 视频
+          - listitem [ref=e94]:
+            - link "购物" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6sptpHCmXTkETm439yJHeEIFUOZaFVr14sTtJSAK41FYyI3VwMC-Pc3HY_qptI-eqE6nvE_jLimpojgVzGYtAxnkO8jWdP7EZuBo6qGpOyuJTQEXznaw&q=%22ModernBERT+is+more+efficient+than+conventional+BERT%22+relation+extraction+Yamagishi&ved=1t:220175&ictx=111
+              - generic [ref=e97]: 购物
+          - listitem [ref=e98]:
+            - link "短视频" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6sptpHCmXTkETm439yJHeEIFUOZaFVr14sTtJSAK41FYyI3VwMC-Pc3HY_qptI-eqE6nvE_jLimpojgVzGYtAxnkO8jWdP7EZuBo6qGpOyuJTQEXznaw&q=%22ModernBERT+is+more+efficient+than+conventional+BERT%22+relation+extraction+Yamagishi&sa=X&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74Qs6gLegQIExAB
+              - generic [ref=e101]: 短视频
+          - listitem [ref=e102]:
+            - link "新闻" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=%22ModernBERT+is+more+efficient+than+conventional+BERT%22+relation+extraction+Yamagishi&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6sptpHCmXTkETm439yJHeEIFUOZaFVr14sTtJSAK41FYyI3VwMC-Pc3HY_qptI-eqE6nvE_jLimpojgVzGYtAxnkO8jWdP7EZuBo6qGpOyuJTQEXznaw&sa=X&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74Q0pQJegQIFBAB
+              - generic [ref=e105]: 新闻
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "ModernBERT is more efficient than conventional BERT for ... ResearchGate https://www.researchgate.net › publication" [ref=e142] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/403482963_ModernBERT_is_more_efficient_than_conventional_BERT_for_chest_CT_findings_classification_in_Japanese_radiology_reports
+                - heading "ModernBERT is more efficient than conventional BERT for ..." [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: ResearchGate
+                  - generic [ref=e152]: https://www.researchgate.net › publication
+              - generic [ref=e153]:
+                - generic [ref=e154]: ·
+                - link "翻译此页" [ref=e155] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.researchgate.net/publication/403482963_ModernBERT_is_more_efficient_than_conventional_BERT_for_chest_CT_findings_classification_in_Japanese_radiology_reports&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e156] [cursor=pointer]:
+                - img [ref=e159]
+            - generic [ref=e163]:
+              - text: ...
+              - emphasis [ref=e164]: ModernBERT is More Efficient than Conventional BERT
+              - text: "for Chest CT Findings. Classification in Japanese Radiology Reports. Authors: Yosuke"
+              - emphasis [ref=e165]: Yamagishi
+              - text: ", MD, MSc1."
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - link "An efficient and long context encoder for biomedical text arXiv https://arxiv.org › html" [ref=e174] [cursor=pointer]:
+              - /url: https://arxiv.org/html/2504.03964v1
+              - heading "An efficient and long context encoder for biomedical text" [level=3] [ref=e175]
+              - generic [ref=e180]:
+                - generic [ref=e182]: arXiv
+                - generic [ref=e184]: https://arxiv.org › html
+            - generic [ref=e185]:
+              - generic [ref=e186]: ·
+              - link "翻译此页" [ref=e187] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://arxiv.org/html/2504.03964v1&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e188] [cursor=pointer]:
+              - img [ref=e191]
+          - generic [ref=e194]:
+            - generic [ref=e195]: 2025年4月4日 —
+            - generic [ref=e196]:
+              - emphasis [ref=e197]: Modernbert is more efficient than conventional bert
+              - text: for chest ct findings classification in japanese radiology reports, 2025. URL https://arxiv.
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - heading "相关问题" [level=2] [ref=e203]
+            - button "关于这条结果的详细信息" [ref=e204] [cursor=pointer]:
+              - img [ref=e207]
+          - generic [ref=e209]:
+            - button "What is the difference between BERT and ModernBERT?" [ref=e215] [cursor=pointer]:
+              - generic [ref=e217]: What is the difference between BERT and ModernBERT?
+              - img [ref=e220]
+            - button "What is the difference between modern BERT and DeBERTa?" [ref=e229] [cursor=pointer]:
+              - generic [ref=e231]: What is the difference between modern BERT and DeBERTa?
+              - img [ref=e234]
+            - button "Is ModernBERT an embedding model?" [ref=e243] [cursor=pointer]:
+              - generic [ref=e245]: Is ModernBERT an embedding model?
+              - img [ref=e248]
+            - button "What is the new version of BERT model?" [ref=e257] [cursor=pointer]:
+              - generic [ref=e259]: What is the new version of BERT model?
+              - img [ref=e262]
+        - generic [ref=e267]:
+          - heading "Web results" [level=2] [ref=e268]
+          - generic [ref=e269]:
+            - generic [ref=e272]:
+              - link "Yosuke Yamagishi's research works | The University of ... ResearchGate https://www.researchgate.net › Yosuke-Ya..." [ref=e274] [cursor=pointer]:
+                - /url: https://www.researchgate.net/scientific-contributions/Yosuke-Yamagishi-2303486509
+                - heading "Yosuke Yamagishi's research works | The University of ..." [level=3] [ref=e275]
+                - generic [ref=e280]:
+                  - generic [ref=e282]: ResearchGate
+                  - generic [ref=e284]: https://www.researchgate.net › Yosuke-Ya...
+              - generic [ref=e285]:
+                - generic [ref=e286]: ·
+                - link "翻译此页" [ref=e287] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.researchgate.net/scientific-contributions/Yosuke-Yamagishi-2303486509&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e288] [cursor=pointer]:
+                - img [ref=e291]
+            - generic [ref=e295]:
+              - emphasis [ref=e296]: ModernBERT is More Efficient than Conventional BERT
+              - text: for Chest CT Findings Classification in Japanese Radiology Reports · Development of a Large-scale Dataset ...
+        - generic [ref=e300]:
+          - generic [ref=e303]:
+            - link "An explainable transformer framework for sentiment ... ScienceDirect.com https://www.sciencedirect.com › article › pii" [ref=e305] [cursor=pointer]:
+              - /url: https://www.sciencedirect.com/science/article/pii/S2772662226000214
+              - heading "An explainable transformer framework for sentiment ..." [level=3] [ref=e306]
+              - generic [ref=e311]:
+                - generic [ref=e313]: ScienceDirect.com
+                - generic [ref=e315]: https://www.sciencedirect.com › article › pii
+            - generic [ref=e316]:
+              - generic [ref=e317]: ·
+              - link "翻译此页" [ref=e318] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.sciencedirect.com/science/article/pii/S2772662226000214&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e319] [cursor=pointer]:
+              - img [ref=e322]
+          - generic [ref=e325]:
+            - generic [ref=e326]: 作者：S Chakraborty · 2026 —
+            - generic [ref=e327]:
+              - emphasis [ref=e328]: Yamagishi
+              - text: ", T. Kikuchi, S. Hanaoka, T. Yoshikawa, O. Abe."
+              - emphasis [ref=e329]: Modernbert is more efficient than conventional BERT
+              - text: for chest ct findings ...
+        - generic [ref=e333]:
+          - generic [ref=e336]:
+            - link "Computation and Language 2025 arXiv.org https://www.arxiv.org › list › cs.CL" [ref=e338] [cursor=pointer]:
+              - /url: https://www.arxiv.org/list/cs.CL/2025?skip=3150&show=2000
+              - heading "Computation and Language 2025" [level=3] [ref=e339]
+              - generic [ref=e344]:
+                - generic [ref=e346]: arXiv.org
+                - generic [ref=e348]: https://www.arxiv.org › list › cs.CL
+            - generic [ref=e349]:
+              - generic [ref=e350]: ·
+              - link "翻译此页" [ref=e351] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.arxiv.org/list/cs.CL/2025?skip%3D3150%26show%3D2000&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e352] [cursor=pointer]:
+              - img [ref=e355]
+          - generic [ref=e359]:
+            - text: "Title:"
+            - emphasis [ref=e360]: ModernBERT is More Efficient than Conventional BERT
+            - text: for Chest CT Findings Classification in Japanese Radiology Reports. Yosuke
+            - emphasis [ref=e361]: Yamagishi
+            - text: ", Tomohiro ..."
+        - generic [ref=e365]:
+          - generic [ref=e368]:
+            - link "Development of a Large-scale Dataset of Chest Computed ... ResearchGate https://www.researchgate.net › publication" [ref=e370] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/387321934_Development_of_a_Large-scale_Dataset_of_Chest_Computed_Tomography_Reports_in_Japanese_and_a_High-performance_Finding_Classification_Model
+              - heading "Development of a Large-scale Dataset of Chest Computed ..." [level=3] [ref=e371]
+              - generic [ref=e376]:
+                - generic [ref=e378]: ResearchGate
+                - generic [ref=e380]: https://www.researchgate.net › publication
+            - generic [ref=e381]:
+              - generic [ref=e382]: ·
+              - link "翻译此页" [ref=e383] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.researchgate.net/publication/387321934_Development_of_a_Large-scale_Dataset_of_Chest_Computed_Tomography_Reports_in_Japanese_and_a_High-performance_Finding_Classification_Model&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e384] [cursor=pointer]:
+              - img [ref=e387]
+          - generic [ref=e390]:
+            - generic [ref=e391]: 2024年12月12日 —
+            - generic [ref=e392]:
+              - emphasis [ref=e393]: ModernBERT is More Efficient than Conventional BERT
+              - text: for Chest CT Findings Classification in Japanese... March 2025. Yosuke
+              - emphasis [ref=e394]: Yamagishi
+              - text: ...
+        - generic [ref=e398]:
+          - generic [ref=e401]:
+            - link "(PDF) Development of a Large-Scale Dataset of Chest ... ResearchGate https://www.researchgate.net › publication" [ref=e403] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/395037835_Development_of_a_Large-Scale_Dataset_of_Chest_Computed_Tomography_Reports_in_Japanese_and_a_High-Performance_Finding_Classification_Model_Dataset_Development_and_Validation_Study
+              - heading "(PDF) Development of a Large-Scale Dataset of Chest ..." [level=3] [ref=e404]
+              - generic [ref=e409]:
+                - generic [ref=e411]: ResearchGate
+                - generic [ref=e413]: https://www.researchgate.net › publication
+            - generic [ref=e414]:
+              - generic [ref=e415]: ·
+              - link "翻译此页" [ref=e416] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.researchgate.net/publication/395037835_Development_of_a_Large-Scale_Dataset_of_Chest_Computed_Tomography_Reports_in_Japanese_and_a_High-Performance_Finding_Classification_Model_Dataset_Development_and_Validation_Study&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e417] [cursor=pointer]:
+              - img [ref=e420]
+          - generic [ref=e424]:
+            - emphasis [ref=e425]: ModernBERT is More Efficient than Conventional BERT
+            - text: for Chest CT Findings Classification in Japanese... March 2025. Yosuke
+            - emphasis [ref=e426]: Yamagishi
+            - text: ...
+        - generic [ref=e430]:
+          - generic [ref=e433]:
+            - link "Illustration of architecture in BERT based models. The ... ResearchGate https://www.researchgate.net › figure › Illu..." [ref=e435] [cursor=pointer]:
+              - /url: https://www.researchgate.net/figure/Illustration-of-architecture-in-BERT-based-models-The-English-subtitle-is-a-translation_fig3_362366231
+              - heading "Illustration of architecture in BERT based models. The ..." [level=3] [ref=e436]
+              - generic [ref=e441]:
+                - generic [ref=e443]: ResearchGate
+                - generic [ref=e445]: https://www.researchgate.net › figure › Illu...
+            - generic [ref=e446]:
+              - generic [ref=e447]: ·
+              - link "翻译此页" [ref=e448] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.researchgate.net/figure/Illustration-of-architecture-in-BERT-based-models-The-English-subtitle-is-a-translation_fig3_362366231&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e449] [cursor=pointer]:
+              - img [ref=e452]
+          - generic [ref=e456]:
+            - emphasis [ref=e457]: ModernBERT is More Efficient than Conventional BERT
+            - text: for Chest CT Findings Classification in Japanese Radiology Reports. Preprint. Full-text available. Mar 2025.
+        - generic [ref=e461]:
+          - generic [ref=e464]:
+            - link "The schematic view of morphological analysis and ... ResearchGate https://www.researchgate.net › figure › The..." [ref=e466] [cursor=pointer]:
+              - /url: https://www.researchgate.net/figure/The-schematic-view-of-morphological-analysis-and-wordpiece-tokenization_fig1_356072002
+              - heading "The schematic view of morphological analysis and ..." [level=3] [ref=e467]
+              - generic [ref=e472]:
+                - generic [ref=e474]: ResearchGate
+                - generic [ref=e476]: https://www.researchgate.net › figure › The...
+            - generic [ref=e477]:
+              - generic [ref=e478]: ·
+              - link "翻译此页" [ref=e479] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.researchgate.net/figure/The-schematic-view-of-morphological-analysis-and-wordpiece-tokenization_fig1_356072002&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e480] [cursor=pointer]:
+              - img [ref=e483]
+          - generic [ref=e487]:
+            - emphasis [ref=e488]: ModernBERT is More Efficient than Conventional BERT
+            - text: for Chest CT Findings Classification in Japanese Radiology Reports. Preprint. Full-text available. Mar 2025.
+        - generic [ref=e492]:
+          - generic [ref=e495]:
+            - link "Extracting Clinical Information From Japanese Radiology ... ResearchGate https://www.researchgate.net › publication" [ref=e497] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/375832212_Extracting_Clinical_Information_From_Japanese_Radiology_Reports_Using_a_2-Stage_Deep_Learning_Approach_Algorithm_Development_and_Validation
+              - heading "Extracting Clinical Information From Japanese Radiology ..." [level=3] [ref=e498]
+              - generic [ref=e503]:
+                - generic [ref=e505]: ResearchGate
+                - generic [ref=e507]: https://www.researchgate.net › publication
+            - generic [ref=e508]:
+              - generic [ref=e509]: ·
+              - link "翻译此页" [ref=e510] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.researchgate.net/publication/375832212_Extracting_Clinical_Information_From_Japanese_Radiology_Reports_Using_a_2-Stage_Deep_Learning_Approach_Algorithm_Development_and_Validation&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e511] [cursor=pointer]:
+              - img [ref=e514]
+          - generic [ref=e518]:
+            - emphasis [ref=e519]: ModernBERT is More Efficient than Conventional BERT
+            - text: for Chest CT Findings Classification in Japanese Radiology Reports. Preprint. Full-text available. Mar 2025.
+      - generic [ref=e521]:
+        - generic [ref=e526]:
+          - heading "用户还搜索了" [level=2] [ref=e528]
+          - generic [ref=e530]:
+            - link "Clinical bert" [ref=e535] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=Clinical+bert&sa=X&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74Q1QJ6BAgxEAE
+              - generic [ref=e536]:
+                - generic [ref=e541]: Clinical bert
+                - img [ref=e545]
+            - link "Bioclinicalbert" [ref=e551] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=Bioclinicalbert&sa=X&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74Q1QJ6BAgwEAE
+              - generic [ref=e552]:
+                - generic [ref=e557]: Bioclinicalbert
+                - img [ref=e561]
+        - navigation [ref=e563]:
+          - heading "网页导航" [level=1] [ref=e564]
+          - text: "1"
+          - link "Page 2" [ref=e567] [cursor=pointer]:
+            - /url: /search?q=%22ModernBERT+is+more+efficient+than+conventional+BERT%22+relation+extraction+Yamagishi&sca_esv=ef6db0e9fcb54fe8&ei=2rrTafqrD9-vqtsP8pCt8As&start=10&sa=N&sstk=Af77f_dkpxisx7ZIIJUGXdpstNf3qjRyO72edqMlqtBDdceW-e7H-Pozq9DbdQ5u9uN738735HMYQPyoFdo6-vcqV_I0s8dsrGxF7g&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74Q8tMDegQIDRAE
+            - text: "2"
+          - heading "下一页" [level=2] [ref=e569]:
+            - link "下一页" [ref=e570] [cursor=pointer]:
+              - /url: /search?q=%22ModernBERT+is+more+efficient+than+conventional+BERT%22+relation+extraction+Yamagishi&sca_esv=ef6db0e9fcb54fe8&ei=2rrTafqrD9-vqtsP8pCt8As&start=10&sa=N&sstk=Af77f_dkpxisx7ZIIJUGXdpstNf3qjRyO72edqMlqtBDdceW-e7H-Pozq9DbdQ5u9uN738735HMYQPyoFdo6-vcqV_I0s8dsrGxF7g&ved=2ahUKEwj6gJPvr9mTAxXfl2oFHXJIC74Q8NMDegQIDRAG
+              - generic [ref=e572]: 下一页
+      - navigation
+    - contentinfo [ref=e573]:
+      - heading "页脚链接" [level=1] [ref=e574]
+      - generic [ref=e578]:
+        - generic [ref=e580]:
+          - text: 新加坡
+          - generic [ref=e582]:
+            - button "新加坡 - 是根据您的 IP 地址推断出来的" [ref=e584] [cursor=pointer]:
+              - generic [ref=e585]: 新加坡
+              - generic [ref=e587]:
+                - text: "-"
+                - generic [ref=e588]: 是根据您的 IP 地址推断出来的
+            - text: "-"
+            - button "更新位置信息" [ref=e590] [cursor=pointer]: 更新位置信息
+        - generic [ref=e593]:
+          - link "帮助" [ref=e594] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e595] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e596] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e597] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

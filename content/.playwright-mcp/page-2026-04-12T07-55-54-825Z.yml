@@ -1,0 +1,674 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FHKUDS%2FLightRAG%2Ftree%2Fmain%2Flightrag%2Fkg
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=HKUDS%2FLightRAG
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "HKUDS" [ref=e70] [cursor=pointer]:
+              - /url: /HKUDS
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "LightRAG" [ref=e73] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2FHKUDS%2FLightRAG
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 4.7k" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2FHKUDS%2FLightRAG
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "4,695" [ref=e84]: 4.7k
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2FHKUDS%2FLightRAG
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "32978 users starred this repository" [ref=e90]: 33k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 182" [ref=e99] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "182" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 23" [ref=e106] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "23" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Discussions" [ref=e112] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/discussions
+                - img [ref=e113]
+                - generic [ref=e115]: Discussions
+            - listitem [ref=e116]:
+              - link "Actions" [ref=e117] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/actions
+                - img [ref=e118]
+                - generic [ref=e120]: Actions
+            - listitem [ref=e121]:
+              - link "Projects" [ref=e122] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/projects
+                - img [ref=e123]
+                - generic [ref=e125]: Projects
+            - listitem [ref=e126]:
+              - link "Security and quality 2" [ref=e127] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/security
+                - img [ref=e128]
+                - generic [ref=e130]: Security and quality
+                - generic "2" [ref=e131]
+            - listitem [ref=e132]:
+              - link "Insights" [ref=e133] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/pulse
+                - img [ref=e134]
+                - generic [ref=e136]: Insights
+      - generic [ref=e144]:
+        - generic [ref=e146]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - heading "Collapse file tree" [level=2] [ref=e152]:
+                  - button "Collapse file tree" [expanded] [ref=e153] [cursor=pointer]:
+                    - img [ref=e154]
+                - heading "Files" [level=2] [ref=e157]
+              - generic [ref=e158]:
+                - button "main branch" [ref=e160] [cursor=pointer]:
+                  - generic [ref=e161]:
+                    - generic [ref=e163]:
+                      - img [ref=e165]
+                      - generic [ref=e168]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e170] [cursor=pointer]:
+                  - img [ref=e171]
+            - generic [ref=e174]:
+              - img [ref=e176]
+              - combobox "Go to file" [ref=e178]
+            - navigation "File Tree Navigation" [ref=e184]:
+              - tree "Files" [ref=e186]:
+                - treeitem ".clinerules" [level=1] [ref=e187]:
+                  - generic [ref=e188] [cursor=pointer]:
+                    - img [ref=e190]
+                    - generic [ref=e192]:
+                      - img [ref=e196]
+                      - generic [ref=e198]: .clinerules
+                - treeitem ".github" [level=1] [ref=e199]:
+                  - generic [ref=e200] [cursor=pointer]:
+                    - img [ref=e202]
+                    - generic [ref=e204]:
+                      - img [ref=e208]
+                      - generic [ref=e210]: .github
+                - treeitem "README.assets" [level=1] [ref=e211]:
+                  - generic [ref=e212] [cursor=pointer]:
+                    - img [ref=e214]
+                    - generic [ref=e216]:
+                      - img [ref=e220]
+                      - generic [ref=e222]: README.assets
+                - treeitem "assets" [level=1] [ref=e223]:
+                  - generic [ref=e224] [cursor=pointer]:
+                    - img [ref=e226]
+                    - generic [ref=e228]:
+                      - img [ref=e232]
+                      - generic [ref=e234]: assets
+                - treeitem "docs" [level=1] [ref=e235]:
+                  - generic [ref=e236] [cursor=pointer]:
+                    - img [ref=e238]
+                    - generic [ref=e240]:
+                      - img [ref=e244]
+                      - generic [ref=e246]: docs
+                - treeitem "examples" [level=1] [ref=e247]:
+                  - generic [ref=e248] [cursor=pointer]:
+                    - img [ref=e250]
+                    - generic [ref=e252]:
+                      - img [ref=e256]
+                      - generic [ref=e258]: examples
+                - treeitem "k8s-deploy" [level=1] [ref=e259]:
+                  - generic [ref=e260] [cursor=pointer]:
+                    - img [ref=e262]
+                    - generic [ref=e264]:
+                      - img [ref=e268]
+                      - generic [ref=e270]: k8s-deploy
+                - treeitem "lightrag" [expanded] [level=1] [ref=e271]:
+                  - generic [ref=e272] [cursor=pointer]:
+                    - img [ref=e274]
+                    - generic [ref=e276]:
+                      - img [ref=e280]
+                      - generic [ref=e282]: lightrag
+                  - group "lightrag" [ref=e283]:
+                    - treeitem "api" [level=2] [ref=e284]:
+                      - generic [ref=e285] [cursor=pointer]:
+                        - img [ref=e290]
+                        - generic [ref=e292]:
+                          - img [ref=e296]
+                          - generic [ref=e298]: api
+                    - treeitem "evaluation" [level=2] [ref=e299]:
+                      - generic [ref=e300] [cursor=pointer]:
+                        - img [ref=e305]
+                        - generic [ref=e307]:
+                          - img [ref=e311]
+                          - generic [ref=e313]: evaluation
+                    - treeitem "kg" [expanded] [level=2] [ref=e314]:
+                      - generic [ref=e315] [cursor=pointer]:
+                        - img [ref=e320]
+                        - generic [ref=e322]:
+                          - img [ref=e326]
+                          - generic [ref=e328]: kg
+                      - group "kg" [ref=e329]:
+                        - treeitem "deprecated" [level=3] [ref=e330]:
+                          - generic [ref=e331] [cursor=pointer]:
+                            - img [ref=e337]
+                            - generic [ref=e339]:
+                              - img [ref=e343]
+                              - generic [ref=e345]: deprecated
+                        - treeitem "__init__.py" [level=3] [ref=e346]:
+                          - generic [ref=e352] [cursor=pointer]:
+                            - img [ref=e355]
+                            - generic [ref=e357]: __init__.py
+                        - treeitem "faiss_impl.py" [level=3] [ref=e358]:
+                          - generic [ref=e364] [cursor=pointer]:
+                            - img [ref=e367]
+                            - generic [ref=e369]: faiss_impl.py
+                        - treeitem "json_doc_status_impl.py" [level=3] [ref=e370]:
+                          - generic [ref=e376] [cursor=pointer]:
+                            - img [ref=e379]
+                            - generic [ref=e381]: json_doc_status_impl.py
+                        - treeitem "json_kv_impl.py" [level=3] [ref=e382]:
+                          - generic [ref=e388] [cursor=pointer]:
+                            - img [ref=e391]
+                            - generic [ref=e393]: json_kv_impl.py
+                        - treeitem "memgraph_impl.py" [level=3] [ref=e394]:
+                          - generic [ref=e400] [cursor=pointer]:
+                            - img [ref=e403]
+                            - generic [ref=e405]: memgraph_impl.py
+                        - treeitem "milvus_impl.py" [level=3] [ref=e406]:
+                          - generic [ref=e412] [cursor=pointer]:
+                            - img [ref=e415]
+                            - generic [ref=e417]: milvus_impl.py
+                        - treeitem "mongo_impl.py" [level=3] [ref=e418]:
+                          - generic [ref=e424] [cursor=pointer]:
+                            - img [ref=e427]
+                            - generic [ref=e429]: mongo_impl.py
+                        - treeitem "nano_vector_db_impl.py" [level=3] [ref=e430]:
+                          - generic [ref=e436] [cursor=pointer]:
+                            - img [ref=e439]
+                            - generic [ref=e441]: nano_vector_db_impl.py
+                        - treeitem "neo4j_impl.py" [level=3] [ref=e442]:
+                          - generic [ref=e448] [cursor=pointer]:
+                            - img [ref=e451]
+                            - generic [ref=e453]: neo4j_impl.py
+                        - treeitem "networkx_impl.py" [level=3] [ref=e454]:
+                          - generic [ref=e460] [cursor=pointer]:
+                            - img [ref=e463]
+                            - generic [ref=e465]: networkx_impl.py
+                        - treeitem "opensearch_impl.py" [level=3] [ref=e466]:
+                          - generic [ref=e472] [cursor=pointer]:
+                            - img [ref=e475]
+                            - generic [ref=e477]: opensearch_impl.py
+                        - treeitem "postgres_impl.py" [level=3] [ref=e478]:
+                          - generic [ref=e484] [cursor=pointer]:
+                            - img [ref=e487]
+                            - generic [ref=e489]: postgres_impl.py
+                        - treeitem "qdrant_impl.py" [level=3] [ref=e490]:
+                          - generic [ref=e496] [cursor=pointer]:
+                            - img [ref=e499]
+                            - generic [ref=e501]: qdrant_impl.py
+                        - treeitem "redis_impl.py" [level=3] [ref=e502]:
+                          - generic [ref=e508] [cursor=pointer]:
+                            - img [ref=e511]
+                            - generic [ref=e513]: redis_impl.py
+                        - treeitem "shared_storage.py" [level=3] [ref=e514]:
+                          - generic [ref=e520] [cursor=pointer]:
+                            - img [ref=e523]
+                            - generic [ref=e525]: shared_storage.py
+                    - treeitem "llm" [level=2] [ref=e526]:
+                      - generic [ref=e527] [cursor=pointer]:
+                        - img [ref=e532]
+                        - generic [ref=e534]:
+                          - img [ref=e538]
+                          - generic [ref=e540]: llm
+                    - treeitem "tools" [level=2] [ref=e541]:
+                      - generic [ref=e542] [cursor=pointer]:
+                        - img [ref=e547]
+                        - generic [ref=e549]:
+                          - img [ref=e553]
+                          - generic [ref=e555]: tools
+                    - treeitem "__init__.py" [level=2] [ref=e556]:
+                      - generic [ref=e561] [cursor=pointer]:
+                        - img [ref=e564]
+                        - generic [ref=e566]: __init__.py
+                    - treeitem "_version.py" [level=2] [ref=e567]:
+                      - generic [ref=e572] [cursor=pointer]:
+                        - img [ref=e575]
+                        - generic [ref=e577]: _version.py
+                    - treeitem "base.py" [level=2] [ref=e578]:
+                      - generic [ref=e583] [cursor=pointer]:
+                        - img [ref=e586]
+                        - generic [ref=e588]: base.py
+                    - treeitem "constants.py" [level=2] [ref=e589]:
+                      - generic [ref=e594] [cursor=pointer]:
+                        - img [ref=e597]
+                        - generic [ref=e599]: constants.py
+                    - treeitem "exceptions.py" [level=2] [ref=e600]:
+                      - generic [ref=e605] [cursor=pointer]:
+                        - img [ref=e608]
+                        - generic [ref=e610]: exceptions.py
+                    - treeitem "lightrag.py" [level=2] [ref=e611]:
+                      - generic [ref=e616] [cursor=pointer]:
+                        - img [ref=e619]
+                        - generic [ref=e621]: lightrag.py
+                    - treeitem "namespace.py" [level=2] [ref=e622]:
+                      - generic [ref=e627] [cursor=pointer]:
+                        - img [ref=e630]
+                        - generic [ref=e632]: namespace.py
+                    - treeitem "operate.py" [level=2] [ref=e633]:
+                      - generic [ref=e638] [cursor=pointer]:
+                        - img [ref=e641]
+                        - generic [ref=e643]: operate.py
+                    - treeitem "prompt.py" [level=2] [ref=e644]:
+                      - generic [ref=e649] [cursor=pointer]:
+                        - img [ref=e652]
+                        - generic [ref=e654]: prompt.py
+                    - treeitem "rerank.py" [level=2] [ref=e655]:
+                      - generic [ref=e660] [cursor=pointer]:
+                        - img [ref=e663]
+                        - generic [ref=e665]: rerank.py
+                    - treeitem "types.py" [level=2] [ref=e666]:
+                      - generic [ref=e671] [cursor=pointer]:
+                        - img [ref=e674]
+                        - generic [ref=e676]: types.py
+                    - treeitem "utils.py" [level=2] [ref=e677]:
+                      - generic [ref=e682] [cursor=pointer]:
+                        - img [ref=e685]
+                        - generic [ref=e687]: utils.py
+                    - treeitem "utils_graph.py" [level=2] [ref=e688]:
+                      - generic [ref=e693] [cursor=pointer]:
+                        - img [ref=e696]
+                        - generic [ref=e698]: utils_graph.py
+                - treeitem "lightrag_webui" [level=1] [ref=e699]:
+                  - generic [ref=e700] [cursor=pointer]:
+                    - img [ref=e702]
+                    - generic [ref=e704]:
+                      - img [ref=e708]
+                      - generic [ref=e710]: lightrag_webui
+                - treeitem "reproduce" [level=1] [ref=e711]:
+                  - generic [ref=e712] [cursor=pointer]:
+                    - img [ref=e714]
+                    - generic [ref=e716]:
+                      - img [ref=e720]
+                      - generic [ref=e722]: reproduce
+                - treeitem "scripts" [level=1] [ref=e723]:
+                  - generic [ref=e724] [cursor=pointer]:
+                    - img [ref=e726]
+                    - generic [ref=e728]:
+                      - img [ref=e732]
+                      - generic [ref=e734]: scripts
+                - treeitem "tests" [level=1] [ref=e735]:
+                  - generic [ref=e736] [cursor=pointer]:
+                    - img [ref=e738]
+                    - generic [ref=e740]:
+                      - img [ref=e744]
+                      - generic [ref=e746]: tests
+                - treeitem ".dockerignore" [level=1] [ref=e747]:
+                  - generic [ref=e749] [cursor=pointer]:
+                    - img [ref=e752]
+                    - generic [ref=e754]: .dockerignore
+                - treeitem ".gitattributes" [level=1] [ref=e755]:
+                  - generic [ref=e757] [cursor=pointer]:
+                    - img [ref=e760]
+                    - generic [ref=e762]: .gitattributes
+                - treeitem ".gitignore" [level=1] [ref=e763]:
+                  - generic [ref=e765] [cursor=pointer]:
+                    - img [ref=e768]
+                    - generic [ref=e770]: .gitignore
+                - treeitem ".pre-commit-config.yaml" [level=1] [ref=e771]:
+                  - generic [ref=e773] [cursor=pointer]:
+                    - img [ref=e776]
+                    - generic [ref=e778]: .pre-commit-config.yaml
+                - treeitem "AGENTS.md" [level=1] [ref=e779]:
+                  - generic [ref=e781] [cursor=pointer]:
+                    - img [ref=e784]
+                    - generic [ref=e786]: AGENTS.md
+                - treeitem "CLAUDE.md" [level=1] [ref=e787]:
+                  - generic [ref=e789] [cursor=pointer]:
+                    - img [ref=e792]
+                    - generic [ref=e794]: CLAUDE.md
+                - treeitem "Dockerfile" [level=1] [ref=e795]:
+                  - generic [ref=e797] [cursor=pointer]:
+                    - img [ref=e800]
+                    - generic [ref=e802]: Dockerfile
+                - treeitem "Dockerfile.lite" [level=1] [ref=e803]:
+                  - generic [ref=e805] [cursor=pointer]:
+                    - img [ref=e808]
+                    - generic [ref=e810]: Dockerfile.lite
+                - treeitem "LICENSE" [level=1] [ref=e811]:
+                  - generic [ref=e813] [cursor=pointer]:
+                    - img [ref=e816]
+                    - generic [ref=e818]: LICENSE
+                - treeitem "MANIFEST.in" [level=1] [ref=e819]:
+                  - generic [ref=e821] [cursor=pointer]:
+                    - img [ref=e824]
+                    - generic [ref=e826]: MANIFEST.in
+                - treeitem "Makefile" [level=1] [ref=e827]:
+                  - generic [ref=e829] [cursor=pointer]:
+                    - img [ref=e832]
+                    - generic [ref=e834]: Makefile
+                - treeitem "README-zh.md" [level=1] [ref=e835]:
+                  - generic [ref=e837] [cursor=pointer]:
+                    - img [ref=e840]
+                    - generic [ref=e842]: README-zh.md
+                - treeitem "README.md" [level=1] [ref=e843]:
+                  - generic [ref=e845] [cursor=pointer]:
+                    - img [ref=e848]
+                    - generic [ref=e850]: README.md
+                - treeitem "SECURITY.md" [level=1] [ref=e851]:
+                  - generic [ref=e853] [cursor=pointer]:
+                    - img [ref=e856]
+                    - generic [ref=e858]: SECURITY.md
+                - treeitem "config.ini.example" [level=1] [ref=e859]:
+                  - generic [ref=e861] [cursor=pointer]:
+                    - img [ref=e864]
+                    - generic [ref=e866]: config.ini.example
+                - treeitem "docker-build-push.sh" [level=1] [ref=e867]:
+                  - generic [ref=e869] [cursor=pointer]:
+                    - img [ref=e872]
+                    - generic [ref=e874]: docker-build-push.sh
+                - treeitem "docker-compose-full.yml" [level=1] [ref=e875]:
+                  - generic [ref=e877] [cursor=pointer]:
+                    - img [ref=e880]
+                    - generic [ref=e882]: docker-compose-full.yml
+                - treeitem "docker-compose.yml" [level=1] [ref=e883]:
+                  - generic [ref=e885] [cursor=pointer]:
+                    - img [ref=e888]
+                    - generic [ref=e890]: docker-compose.yml
+                - treeitem "env.example" [level=1] [ref=e891]:
+                  - generic [ref=e893] [cursor=pointer]:
+                    - img [ref=e896]
+                    - generic [ref=e898]: env.example
+                - treeitem "lightrag.service.example" [level=1] [ref=e899]:
+                  - generic [ref=e901] [cursor=pointer]:
+                    - img [ref=e904]
+                    - generic [ref=e906]: lightrag.service.example
+                - treeitem "pyproject.toml" [level=1] [ref=e907]:
+                  - generic [ref=e909] [cursor=pointer]:
+                    - img [ref=e912]
+                    - generic [ref=e914]: pyproject.toml
+                - treeitem "requirements-offline-llm.txt" [level=1] [ref=e915]:
+                  - generic [ref=e917] [cursor=pointer]:
+                    - img [ref=e920]
+                    - generic [ref=e922]: requirements-offline-llm.txt
+                - treeitem "requirements-offline-storage.txt" [level=1] [ref=e923]:
+                  - generic [ref=e925] [cursor=pointer]:
+                    - img [ref=e928]
+                    - generic [ref=e930]: requirements-offline-storage.txt
+                - treeitem "requirements-offline.txt" [level=1] [ref=e931]:
+                  - generic [ref=e933] [cursor=pointer]:
+                    - img [ref=e936]
+                    - generic [ref=e938]: requirements-offline.txt
+                - treeitem "setup.py" [level=1] [ref=e939]:
+                  - generic [ref=e941] [cursor=pointer]:
+                    - img [ref=e944]
+                    - generic [ref=e946]: setup.py
+                - treeitem "uv.lock" [level=1] [ref=e947]:
+                  - generic [ref=e949] [cursor=pointer]:
+                    - img [ref=e952]
+                    - generic [ref=e954]: uv.lock
+          - slider "Draggable pane splitter" [ref=e956]
+        - generic [ref=e959]:
+          - generic [ref=e963]:
+            - generic [ref=e965]:
+              - navigation "Breadcrumbs" [ref=e966]:
+                - heading "Breadcrumbs" [level=2] [ref=e967]
+                - list [ref=e968]:
+                  - listitem [ref=e969]:
+                    - link "LightRAG" [ref=e970] [cursor=pointer]:
+                      - /url: /HKUDS/LightRAG/tree/main
+                  - listitem [ref=e971]:
+                    - text: /
+                    - link "lightrag" [ref=e972] [cursor=pointer]:
+                      - /url: /HKUDS/LightRAG/tree/main/lightrag
+              - generic [ref=e973]:
+                - text: /
+                - heading "kg" [level=1] [ref=e974]
+                - text: /
+              - button "Copy path" [ref=e975] [cursor=pointer]:
+                - img [ref=e976]
+            - generic [ref=e981]:
+              - heading "Directory actions" [level=2] [ref=e982]
+              - heading "More options" [level=2] [ref=e983]
+              - button "More options" [ref=e984] [cursor=pointer]:
+                - img [ref=e985]
+          - generic [ref=e987]:
+            - generic [ref=e989]:
+              - heading "Latest commit" [level=2] [ref=e990]
+              - generic [ref=e993]:
+                - heading "History" [level=2] [ref=e994]
+                - link "History" [ref=e995] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/commits/main/lightrag/kg
+                  - generic [ref=e996]:
+                    - generic:
+                      - img
+                    - generic [ref=e997]: History
+            - generic [ref=e999]:
+              - heading "Folders and files" [level=2] [ref=e1000]
+              - table "Folders and files" [ref=e1001]:
+                - rowgroup [ref=e1002]:
+                  - row "Name Last commit message Last commit date" [ref=e1003]:
+                    - columnheader "Name" [ref=e1004]
+                    - columnheader "Last commit message" [ref=e1005]:
+                      - generic "Last commit message" [ref=e1006]
+                    - columnheader "Last commit date" [ref=e1007]:
+                      - generic "Last commit date" [ref=e1008]
+                - rowgroup [ref=e1009]:
+                  - row "parent directory Parent directory" [ref=e1010]:
+                    - cell "parent directory Parent directory" [ref=e1011]:
+                      - heading "parent directory" [level=3] [ref=e1012]
+                      - link "Parent directory" [ref=e1013] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/tree/main/lightrag
+                        - generic [ref=e1014]:
+                          - img [ref=e1015]
+                          - text: ..
+                  - row "deprecated, (Directory)" [ref=e1017]:
+                    - cell "deprecated, (Directory)" [ref=e1018]:
+                      - generic [ref=e1019]:
+                        - img [ref=e1020]
+                        - link "deprecated, (Directory)" [ref=e1025] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/lightrag/kg/deprecated
+                          - text: deprecated
+                    - cell [ref=e1026]
+                    - cell [ref=e1028]
+                  - row "__init__.py, (File)" [ref=e1031]:
+                    - cell "__init__.py, (File)" [ref=e1032]:
+                      - generic [ref=e1033]:
+                        - img [ref=e1034]
+                        - link "__init__.py, (File)" [ref=e1039] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/__init__.py
+                          - text: __init__.py
+                    - cell [ref=e1040]
+                    - cell [ref=e1042]
+                  - row "faiss_impl.py, (File)" [ref=e1045]:
+                    - cell "faiss_impl.py, (File)" [ref=e1046]:
+                      - generic [ref=e1047]:
+                        - img [ref=e1048]
+                        - link "faiss_impl.py, (File)" [ref=e1053] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/faiss_impl.py
+                          - text: faiss_impl.py
+                    - cell [ref=e1054]
+                    - cell [ref=e1056]
+                  - row "json_doc_status_impl.py, (File)" [ref=e1059]:
+                    - cell "json_doc_status_impl.py, (File)" [ref=e1060]:
+                      - generic [ref=e1061]:
+                        - img [ref=e1062]
+                        - link "json_doc_status_impl.py, (File)" [ref=e1067] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/json_doc_status_impl.py
+                          - text: json_doc_status_impl.py
+                    - cell [ref=e1068]
+                    - cell [ref=e1070]
+                  - row "json_kv_impl.py, (File)" [ref=e1073]:
+                    - cell "json_kv_impl.py, (File)" [ref=e1074]:
+                      - generic [ref=e1075]:
+                        - img [ref=e1076]
+                        - link "json_kv_impl.py, (File)" [ref=e1081] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/json_kv_impl.py
+                          - text: json_kv_impl.py
+                    - cell [ref=e1082]
+                    - cell [ref=e1084]
+                  - row "memgraph_impl.py, (File)" [ref=e1087]:
+                    - cell "memgraph_impl.py, (File)" [ref=e1088]:
+                      - generic [ref=e1089]:
+                        - img [ref=e1090]
+                        - link "memgraph_impl.py, (File)" [ref=e1095] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/memgraph_impl.py
+                          - text: memgraph_impl.py
+                    - cell [ref=e1096]
+                    - cell [ref=e1098]
+                  - row "milvus_impl.py, (File)" [ref=e1101]:
+                    - cell "milvus_impl.py, (File)" [ref=e1102]:
+                      - generic [ref=e1103]:
+                        - img [ref=e1104]
+                        - link "milvus_impl.py, (File)" [ref=e1109] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/milvus_impl.py
+                          - text: milvus_impl.py
+                    - cell [ref=e1110]
+                    - cell [ref=e1112]
+                  - row "mongo_impl.py, (File)" [ref=e1115]:
+                    - cell "mongo_impl.py, (File)" [ref=e1116]:
+                      - generic [ref=e1117]:
+                        - img [ref=e1118]
+                        - link "mongo_impl.py, (File)" [ref=e1123] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/mongo_impl.py
+                          - text: mongo_impl.py
+                    - cell [ref=e1124]
+                    - cell [ref=e1126]
+                  - row "nano_vector_db_impl.py, (File)" [ref=e1129]:
+                    - cell "nano_vector_db_impl.py, (File)" [ref=e1130]:
+                      - generic [ref=e1131]:
+                        - img [ref=e1132]
+                        - link "nano_vector_db_impl.py, (File)" [ref=e1137] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/nano_vector_db_impl.py
+                          - text: nano_vector_db_impl.py
+                    - cell [ref=e1138]
+                    - cell [ref=e1140]
+                  - row "neo4j_impl.py, (File)" [ref=e1143]:
+                    - cell "neo4j_impl.py, (File)" [ref=e1144]:
+                      - generic [ref=e1145]:
+                        - img [ref=e1146]
+                        - link "neo4j_impl.py, (File)" [ref=e1151] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/neo4j_impl.py
+                          - text: neo4j_impl.py
+                    - cell [ref=e1152]
+                    - cell [ref=e1154]
+                  - row "networkx_impl.py, (File)" [ref=e1157]:
+                    - cell "networkx_impl.py, (File)" [ref=e1158]:
+                      - generic [ref=e1159]:
+                        - img [ref=e1160]
+                        - link "networkx_impl.py, (File)" [ref=e1165] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/networkx_impl.py
+                          - text: networkx_impl.py
+                    - cell [ref=e1166]
+                    - cell [ref=e1168]
+                  - row "opensearch_impl.py, (File)" [ref=e1171]:
+                    - cell "opensearch_impl.py, (File)" [ref=e1172]:
+                      - generic [ref=e1173]:
+                        - img [ref=e1174]
+                        - link "opensearch_impl.py, (File)" [ref=e1179] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/opensearch_impl.py
+                          - text: opensearch_impl.py
+                    - cell [ref=e1180]
+                    - cell [ref=e1182]
+                  - row "postgres_impl.py, (File)" [ref=e1185]:
+                    - cell "postgres_impl.py, (File)" [ref=e1186]:
+                      - generic [ref=e1187]:
+                        - img [ref=e1188]
+                        - link "postgres_impl.py, (File)" [ref=e1193] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/postgres_impl.py
+                          - text: postgres_impl.py
+                    - cell [ref=e1194]
+                    - cell [ref=e1196]
+                  - row "qdrant_impl.py, (File)" [ref=e1199]:
+                    - cell "qdrant_impl.py, (File)" [ref=e1200]:
+                      - generic [ref=e1201]:
+                        - img [ref=e1202]
+                        - link "qdrant_impl.py, (File)" [ref=e1207] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/qdrant_impl.py
+                          - text: qdrant_impl.py
+                    - cell [ref=e1208]
+                    - cell [ref=e1210]
+                  - row "redis_impl.py, (File)" [ref=e1213]:
+                    - cell "redis_impl.py, (File)" [ref=e1214]:
+                      - generic [ref=e1215]:
+                        - img [ref=e1216]
+                        - link "redis_impl.py, (File)" [ref=e1221] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/redis_impl.py
+                          - text: redis_impl.py
+                    - cell [ref=e1222]
+                    - cell [ref=e1224]
+                  - row "shared_storage.py, (File)" [ref=e1227]:
+                    - cell "shared_storage.py, (File)" [ref=e1228]:
+                      - generic [ref=e1229]:
+                        - img [ref=e1230]
+                        - link "shared_storage.py, (File)" [ref=e1235] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag/kg/shared_storage.py
+                          - text: shared_storage.py
+                    - cell [ref=e1236]
+                    - cell [ref=e1238]
+  - alert [ref=e1244]

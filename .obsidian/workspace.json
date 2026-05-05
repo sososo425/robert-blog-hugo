@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "0ad1e6bd10a69850",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d1c42fc8df72ae9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "203d917a77497f2c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "da88140f10c7760c",
+    "type": "split",
+    "children": [
+      {
+        "id": "83ce900936c3767f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c450ade05b5dc34b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a6bc527e740baeb7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d4e7279ab1352a82",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 369.5
+  },
+  "right": {
+    "id": "2b56d76c2a16e07d",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd0f5e5c5882bc4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73f11b3b526a333c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "7706ac26956c0cde",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/obsidian-blog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "obsidian-blog 的出链列表"
+            }
+          },
+          {
+            "id": "02de3474740d505e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "37f05a912e1568ad",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "7a354d6836916aca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 580.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "203d917a77497f2c",
+  "lastOpenFiles": [
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS记忆系统方案设计(WIP).md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS记忆系统方案设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第5章-混合抽取Pipeline-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第4章-输入适配与RawBlock生成-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/第3章-数据模型详细设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计 v2.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/草稿",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory/AMS程序性记忆(语义与情景)构建系统 - 完整方案设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Agent-Memory",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/AMS 陈述性记忆构建系统 — 概要设计 v2.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/第5章-混合抽取Pipeline-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/第4章-输入适配与RawBlock生成-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/第3章-数据模型详细设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿/第5章-混合抽取Pipeline-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/第4章-输入适配与RawBlock生成-重构版.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/AMS 陈述性记忆构建系统 — 概要设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/AMS 陈述性记忆构建系统 — 概要设计 v2.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/AMS程序性记忆(语义与情景)构建系统 - 完整方案设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/AMS-语义记忆与情景记忆构建系统-完整方案设计.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/阶段一/Group3 记忆构建模块 - 原理与背景.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/草稿",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory/未命名",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/1. EventNode抽象的必要性.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode问题总结及替代方案.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/未命名.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/EventNode抽象的必要性.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode/关于EventNode抽象的必要性.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/关于EventNode抽象的必要性.md",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/记忆建模-EventNode",
+    "content/private/tech/agent-memory-infra/AMS Based Design/参考说明/未命名",
+    "static/images/Agent基础知识/9.jpg",
+    "static/images/Agent基础知识/8.jpg",
+    "static/images/Agent基础知识/7.jpg",
+    "static/images/Agent基础知识/6.jpg",
+    "static/images/Agent基础知识/5.jpg",
+    "static/images/Agent基础知识/4.jpg",
+    "static/images/Agent基础知识/3.jpg",
+    "static/images/Agent基础知识/2.jpg",
+    "static/images/Agent基础知识/12.jpg",
+    "static/images/Agent基础知识/11.jpg",
+    "static/images/Agent基础知识",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative-Memory",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Declarative Memory",
+    "content/private/tech/agent-memory-infra/AMS Based Design/Decalar"
+  ]
+}

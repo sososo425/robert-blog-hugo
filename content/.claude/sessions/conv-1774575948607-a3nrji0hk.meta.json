@@ -1,0 +1,19 @@
+{
+  "id": "conv-1774575948607-a3nrji0hk",
+  "title": "该文档空行较多，紧凑下格式。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774575948607,
+  "updatedAt": 1774578333431,
+  "lastResponseAt": 1774576125440,
+  "sessionId": "79093a79-39ac-4f4c-aac4-39435aaa975f",
+  "sdkSessionId": "79093a79-39ac-4f4c-aac4-39435aaa975f",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

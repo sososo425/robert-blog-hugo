@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775119899554-8m2yce9ee",
+  "title": "假设系统已经实现，我们”模拟构建“一个 对应这几个问题的完整模拟流程，包括：涉及到的原始数据、处理成...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775119899555,
+  "updatedAt": 1775121505237,
+  "lastResponseAt": 1775121268266,
+  "sessionId": "c6b0e463-0a75-4ef6-bef0-4836084c431f",
+  "sdkSessionId": "c6b0e463-0a75-4ef6-bef0-4836084c431f",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/Group3 记忆构建模块 - 原理与背景.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

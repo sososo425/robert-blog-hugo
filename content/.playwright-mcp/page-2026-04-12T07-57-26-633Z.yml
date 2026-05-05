@@ -1,0 +1,288 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - link "Cornell University" [ref=e7] [cursor=pointer]:
+        - /url: https://www.cornell.edu/
+        - img "Cornell University" [ref=e8]
+      - link "Learn about arXiv becoming an independent nonprofit." [ref=e10] [cursor=pointer]:
+        - /url: https://tech.cornell.edu/arxiv/
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - text: We gratefully acknowledge support from the Simons Foundation,
+          - link "member institutions" [ref=e13] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+        - link "Donate" [ref=e14] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "arxiv logo" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "arxiv logo" [ref=e18]
+        - generic [ref=e19]: ">"
+        - link "cs" [ref=e20] [cursor=pointer]:
+          - /url: /list/cs/recent
+        - generic [ref=e21]: ">"
+        - text: arXiv:2410.05779
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - textbox "Search term or terms" [ref=e26]:
+            - /placeholder: Search...
+          - paragraph [ref=e27]:
+            - link "Help" [ref=e28] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e29] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e31]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e32] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Computer Science > Information Retrieval" [level=1] [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - text: "[Submitted on 8 Oct 2024 ("
+            - link "v1" [ref=e42] [cursor=pointer]:
+              - /url: https://arxiv.org/abs/2410.05779v1
+            - text: ), last revised 28 Apr 2025 (this version, v3)]
+          - 'heading "LightRAG: Simple and Fast Retrieval-Augmented Generation" [level=1] [ref=e43]'
+          - generic [ref=e44]:
+            - link "Zirui Guo" [ref=e45] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Guo,+Z
+            - text: ","
+            - link "Lianghao Xia" [ref=e46] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Xia,+L
+            - text: ","
+            - link "Yanhua Yu" [ref=e47] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Yu,+Y
+            - text: ","
+            - link "Tu Ao" [ref=e48] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Ao,+T
+            - text: ","
+            - link "Chao Huang" [ref=e49] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Huang,+C
+          - blockquote [ref=e50]:
+            - text: "Retrieval-Augmented Generation (RAG) systems enhance large language models (LLMs) by integrating external knowledge sources, enabling more accurate and contextually relevant responses tailored to user needs. However, existing RAG systems have significant limitations, including reliance on flat data representations and inadequate contextual awareness, which can lead to fragmented answers that fail to capture complex inter-dependencies. To address these challenges, we propose LightRAG, which incorporates graph structures into text indexing and retrieval processes. This innovative framework employs a dual-level retrieval system that enhances comprehensive information retrieval from both low-level and high-level knowledge discovery. Additionally, the integration of graph structures with vector representations facilitates efficient retrieval of related entities and their relationships, significantly improving response times while maintaining contextual relevance. This capability is further enhanced by an incremental update algorithm that ensures the timely integration of new data, allowing the system to remain effective and responsive in rapidly changing data environments. Extensive experimental validation demonstrates considerable improvements in retrieval accuracy and efficiency compared to existing approaches. We have made our LightRAG open-source and available at the link:"
+            - link "this https URL" [ref=e51] [cursor=pointer]:
+              - /url: https://github.com/HKUDS/LightRAG
+          - table "Additional metadata" [ref=e53]:
+            - rowgroup [ref=e54]:
+              - 'row "Subjects: Information Retrieval (cs.IR); Artificial Intelligence (cs.AI)" [ref=e55]':
+                - cell "Subjects:" [ref=e56]
+                - cell "Information Retrieval (cs.IR); Artificial Intelligence (cs.AI)" [ref=e57]
+              - 'row "Cite as: arXiv:2410.05779 [cs.IR]" [ref=e58]':
+                - cell "Cite as:" [ref=e59]
+                - cell "arXiv:2410.05779 [cs.IR]" [ref=e60]:
+                  - generic [ref=e61]:
+                    - link "arXiv:2410.05779" [ref=e62] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2410.05779
+                    - text: "[cs.IR]"
+              - row "(or arXiv:2410.05779v3 [cs.IR] for this version)" [ref=e63]:
+                - cell [ref=e64]
+                - cell "(or arXiv:2410.05779v3 [cs.IR] for this version)" [ref=e65]:
+                  - text: (or
+                  - generic [ref=e66]:
+                    - link "arXiv:2410.05779v3" [ref=e67] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2410.05779v3
+                    - text: "[cs.IR]"
+                  - text: for this version)
+              - row "https://doi.org/10.48550/arXiv.2410.05779 Focus to learn more" [ref=e68]:
+                - cell [ref=e69]
+                - cell "https://doi.org/10.48550/arXiv.2410.05779 Focus to learn more" [ref=e70]:
+                  - link "https://doi.org/10.48550/arXiv.2410.05779" [ref=e71] [cursor=pointer]:
+                    - /url: https://doi.org/10.48550/arXiv.2410.05779
+                  - button "Focus to learn more" [ref=e73]:
+                    - generic [ref=e75]: Focus to learn more
+        - generic [ref=e76]:
+          - heading "Submission history" [level=2] [ref=e77]
+          - text: "From: Zirui Guo ["
+          - link "view email" [ref=e78] [cursor=pointer]:
+            - /url: /show-email/2808991f/2410.05779
+          - text: "]"
+          - strong [ref=e79]:
+            - link "[v1]" [ref=e80] [cursor=pointer]:
+              - /url: /abs/2410.05779v1
+          - text: Tue, 8 Oct 2024 08:00:12 UTC (1,262 KB)
+          - strong [ref=e81]:
+            - link "[v2]" [ref=e82] [cursor=pointer]:
+              - /url: /abs/2410.05779v2
+          - text: Thu, 7 Nov 2024 10:44:59 UTC (1,261 KB)
+          - strong [ref=e83]: "[v3]"
+          - text: Mon, 28 Apr 2025 17:36:27 UTC (1,259 KB)
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - heading "Access Paper:" [level=2] [ref=e86]
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - link "View PDF" [ref=e89] [cursor=pointer]:
+                - /url: /pdf/2410.05779
+            - listitem [ref=e90]:
+              - link "HTML (experimental)" [ref=e91] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3
+            - listitem [ref=e92]:
+              - link "TeX Source" [ref=e93] [cursor=pointer]:
+                - /url: /src/2410.05779
+          - link "view license" [ref=e95] [cursor=pointer]:
+            - /url: http://creativecommons.org/licenses/by-nc-sa/4.0/
+            - generic [ref=e96]: view license
+        - generic [ref=e97]:
+          - text: "Current browse context:"
+          - generic [ref=e98]: cs.IR
+          - generic [ref=e99]:
+            - link "< prev" [ref=e101] [cursor=pointer]:
+              - /url: /prevnext?id=2410.05779&function=prev&context=cs.IR
+            - text: "|"
+            - link "next >" [ref=e103] [cursor=pointer]:
+              - /url: /prevnext?id=2410.05779&function=next&context=cs.IR
+          - generic [ref=e104]:
+            - link "new" [ref=e105] [cursor=pointer]:
+              - /url: /list/cs.IR/new
+            - text: "|"
+            - link "recent" [ref=e106] [cursor=pointer]:
+              - /url: /list/cs.IR/recent
+            - text: "|"
+            - link "2024-10" [ref=e107] [cursor=pointer]:
+              - /url: /list/cs.IR/2024-10
+          - generic [ref=e108]:
+            - text: "Change to browse by:"
+            - generic [ref=e109]:
+              - link "cs" [ref=e110] [cursor=pointer]:
+                - /url: /abs/2410.05779?context=cs
+              - link "cs.AI" [ref=e111] [cursor=pointer]:
+                - /url: /abs/2410.05779?context=cs.AI
+        - generic [ref=e112]:
+          - heading "References & Citations" [level=3] [ref=e113]
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - link "NASA ADS" [ref=e116] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/arXiv:2410.05779
+            - listitem [ref=e117]:
+              - link "Google Scholar" [ref=e118] [cursor=pointer]:
+                - /url: https://scholar.google.com/scholar_lookup?arxiv_id=2410.05779
+            - listitem [ref=e119]:
+              - link "Semantic Scholar" [ref=e120] [cursor=pointer]:
+                - /url: https://api.semanticscholar.org/arXiv:2410.05779
+        - generic [ref=e122]: export BibTeX citation
+        - generic [ref=e123]:
+          - heading "Bookmark" [level=3] [ref=e125]
+          - link "BibSonomy logo" [ref=e126] [cursor=pointer]:
+            - /url: "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2410.05779&description=LightRAG: Simple and Fast Retrieval-Augmented Generation"
+            - img "BibSonomy logo" [ref=e127]
+          - link "Reddit logo" [ref=e128] [cursor=pointer]:
+            - /url: "https://reddit.com/submit?url=https://arxiv.org/abs/2410.05779&title=LightRAG: Simple and Fast Retrieval-Augmented Generation"
+            - img "Reddit logo" [ref=e129]
+      - generic [ref=e131]:
+        - generic [ref=e132] [cursor=pointer]: Bibliographic Tools
+        - generic [ref=e133]:
+          - heading "Bibliographic and Citation Tools" [level=1] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e138]:
+                - checkbox "Bibliographic Explorer Toggle"
+                - generic [ref=e140]: Bibliographic Explorer Toggle
+              - generic [ref=e141]:
+                - text: Bibliographic Explorer
+                - emphasis [ref=e142]:
+                  - text: (
+                  - link "What is the Explorer?" [ref=e143] [cursor=pointer]:
+                    - /url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+                  - text: )
+            - generic [ref=e144]:
+              - generic [ref=e146]:
+                - checkbox "Connected Papers"
+                - generic [ref=e148]: Connected Papers Toggle
+              - generic [ref=e149]:
+                - text: Connected Papers
+                - emphasis [ref=e150]:
+                  - text: (
+                  - link "What is Connected Papers?" [ref=e151] [cursor=pointer]:
+                    - /url: https://www.connectedpapers.com/about
+                  - text: )
+            - generic [ref=e152]:
+              - generic [ref=e154]:
+                - checkbox "Litmaps"
+                - generic [ref=e156]: Litmaps Toggle
+              - generic [ref=e157]:
+                - text: Litmaps
+                - emphasis [ref=e158]:
+                  - text: (
+                  - link "What is Litmaps?" [ref=e159] [cursor=pointer]:
+                    - /url: https://www.litmaps.co/
+                  - text: )
+            - generic [ref=e160]:
+              - generic [ref=e162]:
+                - checkbox "scite Smart Citations"
+                - generic [ref=e164]: scite.ai Toggle
+              - generic [ref=e165]:
+                - text: scite Smart Citations
+                - emphasis [ref=e166]:
+                  - text: (
+                  - link "What are Smart Citations?" [ref=e167] [cursor=pointer]:
+                    - /url: https://www.scite.ai/
+                  - text: )
+        - generic [ref=e171] [cursor=pointer]: Code, Data, Media
+        - generic [ref=e172] [cursor=pointer]: Demos
+        - generic [ref=e173] [cursor=pointer]: Related Papers
+        - generic [ref=e174] [cursor=pointer]: About arXivLabs
+      - generic [ref=e175]:
+        - link "Which authors of this paper are endorsers?" [ref=e176] [cursor=pointer]:
+          - /url: /auth/show-endorsers/2410.05779
+        - text: "|"
+        - link "Disable MathJax" [ref=e177] [cursor=pointer]:
+          - /url: javascript:setMathjaxCookie()
+        - text: (
+        - link "What is MathJax?" [ref=e178] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/mathjax.html
+        - text: )
+  - contentinfo [ref=e179]:
+    - navigation "Secondary" [ref=e180]:
+      - generic [ref=e182]:
+        - list [ref=e184]:
+          - listitem [ref=e185]:
+            - link "About" [ref=e186] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e187]:
+            - link "Help" [ref=e188] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - link "Contact" [ref=e193] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e194]:
+            - link "Subscribe" [ref=e196] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e198]:
+        - list [ref=e200]:
+          - listitem [ref=e201]:
+            - link "Copyright" [ref=e202] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e203]:
+            - link "Privacy Policy" [ref=e204] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - link "Web Accessibility Assistance" [ref=e208] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e209]:
+            - paragraph [ref=e210]:
+              - link "arXiv Operational Status" [ref=e211] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

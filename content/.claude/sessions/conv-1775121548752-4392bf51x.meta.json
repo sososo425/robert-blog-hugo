@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775121548752-4392bf51x",
+  "title": "文件第一章之前的内容，格式有点问题，帮忙修复一下。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775121548752,
+  "updatedAt": 1775121849761,
+  "lastResponseAt": 1775121600355,
+  "sessionId": "378ea496-a128-4155-93fd-ab25a097cdb6",
+  "sdkSessionId": "378ea496-a128-4155-93fd-ab25a097cdb6",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/Session & Trace 记忆构建应用场景 - 端到端模拟.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

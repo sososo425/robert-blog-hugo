@@ -1,0 +1,547 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FBabelscape%2Frebel%2Fblob%2Fmain%2FREADME.md
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=Babelscape%2Frebel
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "Babelscape" [ref=e70] [cursor=pointer]:
+              - /url: /Babelscape
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "rebel" [ref=e73] [cursor=pointer]:
+                - /url: /Babelscape/rebel
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2FBabelscape%2Frebel
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 74" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2FBabelscape%2Frebel
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "74" [ref=e84]
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2FBabelscape%2Frebel
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "562 users starred this repository" [ref=e90]: "562"
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /Babelscape/rebel
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 13" [ref=e99] [cursor=pointer]:
+                - /url: /Babelscape/rebel/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "13" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests" [ref=e106] [cursor=pointer]:
+                - /url: /Babelscape/rebel/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+            - listitem [ref=e110]:
+              - link "Actions" [ref=e111] [cursor=pointer]:
+                - /url: /Babelscape/rebel/actions
+                - img [ref=e112]
+                - generic [ref=e114]: Actions
+            - listitem [ref=e115]:
+              - link "Projects" [ref=e116] [cursor=pointer]:
+                - /url: /Babelscape/rebel/projects
+                - img [ref=e117]
+                - generic [ref=e119]: Projects
+            - listitem [ref=e120]:
+              - link "Security and quality" [ref=e121] [cursor=pointer]:
+                - /url: /Babelscape/rebel/security
+                - img [ref=e122]
+                - generic [ref=e124]: Security and quality
+            - listitem [ref=e125]:
+              - link "Insights" [ref=e126] [cursor=pointer]:
+                - /url: /Babelscape/rebel/pulse
+                - img [ref=e127]
+                - generic [ref=e129]: Insights
+      - generic [ref=e137]:
+        - generic [ref=e139]:
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - heading "Collapse file tree" [level=2] [ref=e145]:
+                  - button "Collapse file tree" [expanded] [ref=e146] [cursor=pointer]:
+                    - img [ref=e147]
+                - heading "Files" [level=2] [ref=e150]
+              - generic [ref=e151]:
+                - button "main branch" [ref=e153] [cursor=pointer]:
+                  - generic [ref=e154]:
+                    - generic [ref=e156]:
+                      - img [ref=e158]
+                      - generic [ref=e161]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e163] [cursor=pointer]:
+                  - img [ref=e164]
+            - generic [ref=e167]:
+              - img [ref=e169]
+              - combobox "Go to file" [ref=e171]
+            - navigation "File Tree Navigation" [ref=e177]:
+              - tree "Files" [ref=e179]:
+                - treeitem "LICENSE.md" [level=1] [ref=e180]:
+                  - generic [ref=e181] [cursor=pointer]:
+                    - img [ref=e183]
+                    - generic [ref=e185]:
+                      - img [ref=e189]
+                      - generic [ref=e191]: LICENSE.md
+                - treeitem "conf" [level=1] [ref=e192]:
+                  - generic [ref=e193] [cursor=pointer]:
+                    - img [ref=e195]
+                    - generic [ref=e197]:
+                      - img [ref=e201]
+                      - generic [ref=e203]: conf
+                - treeitem "data" [level=1] [ref=e204]:
+                  - generic [ref=e205] [cursor=pointer]:
+                    - img [ref=e207]
+                    - generic [ref=e209]:
+                      - img [ref=e213]
+                      - generic [ref=e215]: data
+                - treeitem "datasets" [level=1] [ref=e216]:
+                  - generic [ref=e217] [cursor=pointer]:
+                    - img [ref=e219]
+                    - generic [ref=e221]:
+                      - img [ref=e225]
+                      - generic [ref=e227]: datasets
+                - treeitem "docs" [level=1] [ref=e228]:
+                  - generic [ref=e229] [cursor=pointer]:
+                    - img [ref=e231]
+                    - generic [ref=e233]:
+                      - img [ref=e237]
+                      - generic [ref=e239]: docs
+                - treeitem "experiments" [level=1] [ref=e240]:
+                  - generic [ref=e241] [cursor=pointer]:
+                    - img [ref=e243]
+                    - generic [ref=e245]:
+                      - img [ref=e249]
+                      - generic [ref=e251]: experiments
+                - treeitem "src" [level=1] [ref=e252]:
+                  - generic [ref=e253] [cursor=pointer]:
+                    - img [ref=e255]
+                    - generic [ref=e257]:
+                      - img [ref=e261]
+                      - generic [ref=e263]: src
+                - treeitem "README.md" [level=1] [ref=e264]:
+                  - generic [ref=e266] [cursor=pointer]:
+                    - img [ref=e269]
+                    - generic [ref=e271]: README.md
+                - treeitem "demo.py" [level=1] [ref=e272]:
+                  - generic [ref=e274] [cursor=pointer]:
+                    - img [ref=e277]
+                    - generic [ref=e279]: demo.py
+                - treeitem "requirements.txt" [level=1] [ref=e280]:
+                  - generic [ref=e282] [cursor=pointer]:
+                    - img [ref=e285]
+                    - generic [ref=e287]: requirements.txt
+                - treeitem "setup.sh" [level=1] [ref=e288]:
+                  - generic [ref=e290] [cursor=pointer]:
+                    - img [ref=e293]
+                    - generic [ref=e295]: setup.sh
+                - treeitem "spacy_component.py" [level=1] [ref=e296]:
+                  - generic [ref=e298] [cursor=pointer]:
+                    - img [ref=e301]
+                    - generic [ref=e303]: spacy_component.py
+          - slider "Draggable pane splitter" [ref=e305]
+        - generic [ref=e308]:
+          - generic [ref=e312]:
+            - generic [ref=e314]:
+              - navigation "Breadcrumbs" [ref=e315]:
+                - heading "Breadcrumbs" [level=2] [ref=e316]
+                - list [ref=e317]:
+                  - listitem [ref=e318]:
+                    - link "rebel" [ref=e319] [cursor=pointer]:
+                      - /url: /Babelscape/rebel/tree/main
+              - generic [ref=e320]:
+                - text: /
+                - heading "README.md" [level=1] [ref=e321]
+              - button "Copy path" [ref=e322] [cursor=pointer]:
+                - img [ref=e323]
+            - button "More file actions" [ref=e329] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e332]:
+            - generic [ref=e334]:
+              - heading "Latest commit" [level=2] [ref=e335]
+              - generic [ref=e336]:
+                - generic [ref=e338]:
+                  - link "LittlePea13" [ref=e339] [cursor=pointer]:
+                    - /url: /LittlePea13
+                    - img "LittlePea13" [ref=e340]
+                  - link "commits by LittlePea13" [ref=e341] [cursor=pointer]:
+                    - /url: /Babelscape/rebel/commits?author=LittlePea13
+                    - text: LittlePea13
+                - link "Update README.md" [ref=e345] [cursor=pointer]:
+                  - /url: /Babelscape/rebel/commit/d1d20bf7441381726d423c98b09b213b472a6857
+              - generic [ref=e346]:
+                - generic [ref=e348]:
+                  - link "Commit d1d20bf" [ref=e349] [cursor=pointer]:
+                    - /url: /Babelscape/rebel/commit/d1d20bf7441381726d423c98b09b213b472a6857
+                    - text: d1d20bf
+                  - text: ·
+                  - generic "Jun 20, 2023, 4:36 PM GMT+8" [ref=e350]: Jun 20, 20233 years ago
+                - generic [ref=e351]:
+                  - heading "History" [level=2] [ref=e352]
+                  - link "History" [ref=e353] [cursor=pointer]:
+                    - /url: /Babelscape/rebel/commits/main/README.md
+                    - generic [ref=e354]:
+                      - generic:
+                        - img
+                      - generic [ref=e355]: History
+            - generic [ref=e357]:
+              - generic [ref=e359]:
+                - heading "File metadata and controls" [level=2] [ref=e360]
+                - list "File view" [ref=e362]:
+                  - listitem [ref=e363]:
+                    - button "Preview" [ref=e364] [cursor=pointer]:
+                      - generic [ref=e366]: Preview
+                  - listitem [ref=e367]:
+                    - button "Code" [ref=e368] [cursor=pointer]:
+                      - generic [ref=e370]: Code
+                  - listitem [ref=e371]:
+                    - button "Blame" [ref=e372] [cursor=pointer]:
+                      - generic [ref=e374]: Blame
+                - generic [ref=e375]:
+                  - generic [ref=e376]:
+                    - generic [ref=e377]:
+                      - link "Raw" [ref=e379] [cursor=pointer]:
+                        - /url: https://github.com/Babelscape/rebel/raw/refs/heads/main/README.md
+                        - generic [ref=e381]: Raw
+                      - button "Copy raw file" [ref=e383] [cursor=pointer]:
+                        - img [ref=e384]
+                      - button "Download raw file" [ref=e388] [cursor=pointer]:
+                        - img [ref=e389]
+                    - generic [ref=e392]:
+                      - button "You must be signed in to make or propose changes" [disabled] [ref=e394]:
+                        - img [ref=e395]
+                      - button "More edit options" [ref=e398] [cursor=pointer]:
+                        - img [ref=e399]
+                  - button "Outline" [ref=e401] [cursor=pointer]:
+                    - img [ref=e402]
+              - region "README.md" [ref=e405]:
+                - article [ref=e407]:
+                  - paragraph [ref=e408]:
+                    - link "PWC" [ref=e409] [cursor=pointer]:
+                      - /url: https://paperswithcode.com/sota/relation-extraction-on-nyt?p=rebel-relation-extraction-by-end-to-end
+                      - img "PWC" [ref=e410]
+                    - link "PWC" [ref=e411] [cursor=pointer]:
+                      - /url: https://paperswithcode.com/sota/relation-extraction-on-conll04?p=rebel-relation-extraction-by-end-to-end
+                      - img "PWC" [ref=e412]
+                    - link "PWC" [ref=e413] [cursor=pointer]:
+                      - /url: https://paperswithcode.com/sota/joint-entity-and-relation-extraction-on-3?p=rebel-relation-extraction-by-end-to-end
+                      - img "PWC" [ref=e414]
+                    - link "PWC" [ref=e415] [cursor=pointer]:
+                      - /url: https://paperswithcode.com/sota/relation-extraction-on-ade-corpus?p=rebel-relation-extraction-by-end-to-end
+                      - img "PWC" [ref=e416]
+                    - link "PWC" [ref=e417] [cursor=pointer]:
+                      - /url: https://paperswithcode.com/sota/relation-extraction-on-re-tacred?p=rebel-relation-extraction-by-end-to-end
+                      - img "PWC" [ref=e418]
+                  - paragraph [ref=e419]:
+                    - link "Hugging Face Models" [ref=e420] [cursor=pointer]:
+                      - /url: https://huggingface.co/Babelscape/rebel-large
+                      - img "Hugging Face Models" [ref=e421]
+                    - link "Hugging Face Models" [ref=e422] [cursor=pointer]:
+                      - /url: https://huggingface.co/Babelscape/mrebel-large
+                      - img "Hugging Face Models" [ref=e423]
+                    - link "Hugging Face Spaces" [ref=e424] [cursor=pointer]:
+                      - /url: https://huggingface.co/spaces/Babelscape/rebel-demo
+                      - img "Hugging Face Spaces" [ref=e425]
+                    - link [ref=e426] [cursor=pointer]:
+                      - /url: https://github.com/edobobo/p-lightning-template
+                    - 'link "plugin: spacy" [ref=e427] [cursor=pointer]':
+                      - /url: https://spacy.io/
+                      - 'img "plugin: spacy" [ref=e428]'
+                  - generic [ref=e429]:
+                    - heading "Update:" [level=2] [ref=e430]
+                    - 'link "Permalink: Update:" [ref=e431] [cursor=pointer]':
+                      - /url: "#update"
+                      - img [ref=e432]
+                  - paragraph [ref=e434]:
+                    - text: mREBEL is here. We present two new datasets for multilingual Relation Extraction and an array of mREBEL versions. Go to
+                    - link "Section" [ref=e435] [cursor=pointer]:
+                      - /url: "#REDFM"
+                    - text: .
+                  - generic [ref=e436]:
+                    - 'heading "REBEL: Relation Extraction By End-to-end Language generation" [level=1] [ref=e437]'
+                    - 'link "Permalink: REBEL: Relation Extraction By End-to-end Language generation" [ref=e438] [cursor=pointer]':
+                      - /url: "#rebel-relation-extraction-by-end-to-end-language-generation"
+                      - img [ref=e439]
+                  - paragraph [ref=e441]:
+                    - text: "This is the repository for the Findings of EMNLP 2021 paper REBEL: Relation Extraction By End-to-end Language generation. We present a new linearization approach and a reframing of Relation Extraction as a seq2seq task. The paper can be found"
+                    - link "here" [ref=e442] [cursor=pointer]:
+                      - /url: /Babelscape/rebel/blob/main/docs/EMNLP_2021_REBEL__Camera_Ready_.pdf
+                    - text: ". If you use the code, please reference this work in your paper:"
+                  - generic [ref=e443]:
+                    - code [ref=e445]: "@inproceedings{huguet-cabot-navigli-2021-rebel-relation, title = \"{REBEL}: Relation Extraction By End-to-end Language generation\", author = \"Huguet Cabot, Pere-Llu{\\'\\i}s and Navigli, Roberto\", booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2021\", month = nov, year = \"2021\", address = \"Punta Cana, Dominican Republic\", publisher = \"Association for Computational Linguistics\", url = \"https://aclanthology.org/2021.findings-emnlp.204\", pages = \"2370--2381\", abstract = \"Extracting relation triplets from raw text is a crucial task in Information Extraction, enabling multiple applications such as populating or validating knowledge bases, factchecking, and other downstream tasks. However, it usually involves multiple-step pipelines that propagate errors or are limited to a small number of relation types. To overcome these issues, we propose the use of autoregressive seq2seq models. Such models have previously been shown to perform well not only in language generation, but also in NLU tasks such as Entity Linking, thanks to their framing as seq2seq tasks. In this paper, we show how Relation Extraction can be simplified by expressing triplets as a sequence of text and we present REBEL, a seq2seq model based on BART that performs end-to-end relation extraction for more than 200 different relation types. We show our model{'}s flexibility by fine-tuning it on an array of Relation Extraction and Relation Classification benchmarks, with it attaining state-of-the-art performance in most of them.\", }"
+                    - button "Copy" [ref=e447] [cursor=pointer]:
+                      - img [ref=e448]
+                  - generic [ref=e451]:
+                    - code [ref=e453]: "Repo structure | conf # contains Hydra config files | data | model | train root.yaml # hydra root config file | data # data | datasets # datasets scripts | model # model files should be stored here | src | pl_data_modules.py # LightinigDataModule | pl_modules.py # LightningModule | train.py # main script for training the network | test.py # main script for training the network | README.md | requirements.txt | demo.py # Streamlit demo to try out the model | setup.sh # environment setup script"
+                    - button "Copy" [ref=e455] [cursor=pointer]:
+                      - img [ref=e456]
+                  - generic [ref=e459]:
+                    - heading "Initialize environment" [level=2] [ref=e460]
+                    - 'link "Permalink: Initialize environment" [ref=e461] [cursor=pointer]':
+                      - /url: "#initialize-environment"
+                      - img [ref=e462]
+                  - paragraph [ref=e464]:
+                    - text: In order to set up the python interpreter we utilize
+                    - link "conda" [ref=e465] [cursor=pointer]:
+                      - /url: https://docs.conda.io/projects/conda/en/latest/index.html
+                    - text: ", the script setup.sh creates a conda environment and install pytorch and the dependencies in \"requirements.txt\"."
+                  - generic [ref=e466]:
+                    - heading "REBEL Model and Dataset" [level=2] [ref=e467]
+                    - 'link "Permalink: REBEL Model and Dataset" [ref=e468] [cursor=pointer]':
+                      - /url: "#rebel-model-and-dataset"
+                      - img [ref=e469]
+                  - paragraph [ref=e471]: "Model and Dataset files can be downloaded here:"
+                  - paragraph [ref=e472]:
+                    - link "https://osf.io/4x3r9/?view_only=87e7af84c0564bd1b3eadff23e4b7e54" [ref=e473] [cursor=pointer]:
+                      - /url: https://osf.io/4x3r9/?view_only=87e7af84c0564bd1b3eadff23e4b7e54
+                  - paragraph [ref=e474]: "Or you can directly use the model from Huggingface repo:"
+                  - paragraph [ref=e475]:
+                    - link "https://huggingface.co/Babelscape/rebel-large" [ref=e476] [cursor=pointer]:
+                      - /url: https://huggingface.co/Babelscape/rebel-large
+                  - generic [ref=e477]:
+                    - generic [ref=e478]: "from transformers import pipeline triplet_extractor = pipeline('text2text-generation', model='Babelscape/rebel-large', tokenizer='Babelscape/rebel-large') # We need to use the tokenizer manually since we need special tokens. extracted_text = triplet_extractor.tokenizer.batch_decode([triplet_extractor(\"Punta Cana is a resort town in the municipality of Higuey, in La Altagracia Province, the eastern most province of the Dominican Republic\", return_tensors=True, return_text=False)[0][\"generated_token_ids\"]]) print(extracted_text[0]) # Function to parse the generated text and extract the triplets def extract_triplets(text): triplets = [] relation, subject, relation, object_ = '', '', '', '' text = text.strip() current = 'x' for token in text.replace(\"<s>\", \"\").replace(\"<pad>\", \"\").replace(\"</s>\", \"\").split(): if token == \"<triplet>\": current = 't' if relation != '': triplets.append({'head': subject.strip(), 'type': relation.strip(),'tail': object_.strip()}) relation = '' subject = '' elif token == \"<subj>\": current = 's' if relation != '': triplets.append({'head': subject.strip(), 'type': relation.strip(),'tail': object_.strip()}) object_ = '' elif token == \"<obj>\": current = 'o' relation = '' else: if current == 't': subject += ' ' + token elif current == 's': object_ += ' ' + token elif current == 'o': relation += ' ' + token if subject != '' and relation != '' and object_ != '': triplets.append({'head': subject.strip(), 'type': relation.strip(),'tail': object_.strip()}) return triplets extracted_triplets = extract_triplets(extracted_text[0]) print(extracted_triplets)"
+                    - button "Copy" [ref=e480] [cursor=pointer]:
+                      - img [ref=e481]
+                  - generic [ref=e484]:
+                    - 'heading "CROCODILE: automatiC RelatiOn extraCtiOn Dataset wIth nLi filtEring." [level=3] [ref=e485]'
+                    - 'link "Permalink: CROCODILE: automatiC RelatiOn extraCtiOn Dataset wIth nLi filtEring." [ref=e486] [cursor=pointer]':
+                      - /url: "#crocodile-automatic-relation-extraction-dataset-with-nli-filtering"
+                      - img [ref=e487]
+                  - paragraph [ref=e489]:
+                    - text: REBEL dataset can be recreated using our RE dataset creator
+                    - link "CROCODILE" [ref=e490] [cursor=pointer]:
+                      - /url: https://github.com/Babelscape/crocodile
+                  - generic [ref=e491]:
+                    - heading "Training and testing" [level=2] [ref=e492]
+                    - 'link "Permalink: Training and testing" [ref=e493] [cursor=pointer]':
+                      - /url: "#training-and-testing"
+                      - img [ref=e494]
+                  - paragraph [ref=e496]: "There are conf files to train and test each model. Within the src folder to train for CONLL04 for instance:"
+                  - generic [ref=e497]:
+                    - code [ref=e499]: train.py model=rebel_model data=conll04_data train=conll04_train
+                    - button "Copy" [ref=e501] [cursor=pointer]:
+                      - img [ref=e502]
+                  - paragraph [ref=e505]: "Once the model is trained, the checkpoint can be evaluated by running:"
+                  - generic [ref=e506]:
+                    - code [ref=e508]: test.py model=rebel_model data=conll04_data train=conll04_train do_predict=True checkpoint_path="path_to_checkpoint"
+                    - button "Copy" [ref=e510] [cursor=pointer]:
+                      - img [ref=e511]
+                  - paragraph [ref=e514]: src/model_saving.py can be used to convert a pytorch lightning checkpoint into the hf transformers format for model and tokenizer.
+                  - generic [ref=e515]:
+                    - heading "DEMO" [level=2] [ref=e516]
+                    - 'link "Permalink: DEMO" [ref=e517] [cursor=pointer]':
+                      - /url: "#demo"
+                      - img [ref=e518]
+                  - paragraph [ref=e520]: "We suggest running the demo to test REBEL. Once the model files are unzipped in the model folder run:"
+                  - generic [ref=e521]:
+                    - code [ref=e523]: streamlit run demo.py
+                    - button "Copy" [ref=e525] [cursor=pointer]:
+                      - img [ref=e526]
+                  - paragraph [ref=e529]: And a demo will be available in the browser. It accepts free input as well as data from the sample file in data/rebel/
+                  - generic [ref=e530]:
+                    - heading "spaCy" [level=2] [ref=e531]
+                    - 'link "Permalink: spaCy" [ref=e532] [cursor=pointer]':
+                      - /url: "#spacy"
+                      - img [ref=e533]
+                  - paragraph [ref=e535]:
+                    - text: You can also use REBEL with spaCy (>=3.0), allowing you to use our system with a seamless interface that tackles
+                    - strong [ref=e536]: full end-to-end relation extraction
+                    - text: ". To add REBEL as a custom component you will need the transformers library installed and:"
+                  - generic [ref=e537]:
+                    - generic [ref=e538]:
+                      - text: "import spacy import spacy_component nlp = spacy.load(\"en_core_web_sm\") nlp.add_pipe(\"rebel\", after=\"senter\", config={ 'device':0, # Number of the GPU, -1 if want to use CPU 'model_name':'Babelscape/rebel-large'} # Model used, will default to 'Babelscape/rebel-large' if not given ) input_sentence = \"Gràcia is a district of the city of Barcelona, Spain. It comprises the neighborhoods of Vila de Gràcia, Vallcarca i els Penitents, El Coll, La Salut and Camp d'en Grassot i Gràcia Nova. Gràcia is bordered by the districts of Eixample to the south, Sarrià-Sant Gervasi to the west and Horta-Guinardó to the east. A vibrant and diverse enclave of Catalan life, Gràcia was an independent municipality for centuries before being formally annexed by Barcelona in 1897 as a part of the city's expansion.\" doc = nlp(input_sentence) doc_list = nlp.pipe([input_sentence]) for value, rel_dict in doc._.rel.items(): print("
+                      - generic [ref=e539]:
+                        - text: f"
+                        - generic [ref=e540]: "{value}"
+                        - text: ":"
+                        - generic [ref=e541]: "{rel_dict}"
+                        - text: "\""
+                      - text: ") # (0, 8): {'relation': 'located in the administrative territorial entity', 'head_span': Gràcia, 'tail_span': Barcelona} # (0, 10): {'relation': 'country', 'head_span': Gràcia, 'tail_span': Spain} # (8, 0): {'relation': 'contains administrative territorial entity', 'head_span': Barcelona, 'tail_span': Gràcia} # (8, 10): {'relation': 'country', 'head_span': Barcelona, 'tail_span': Spain} # (17, 0): {'relation': 'located in the administrative territorial entity', 'head_span': Vila de Gràcia, 'tail_span': Gràcia} # (21, 0): {'relation': 'located in the administrative territorial entity', 'head_span': Vallcarca i els Penitents, 'tail_span': Gràcia} # (26, 0): {'relation': 'located in the administrative territorial entity', 'head_span': El Coll, 'tail_span': Gràcia} # (29, 0): {'relation': 'located in the administrative territorial entity', 'head_span': La Salut, 'tail_span': Gràcia} # (0, 46): {'relation': 'shares border with', 'head_span': Gràcia, 'tail_span': Eixample} # (0, 51): {'relation': 'shares border with', 'head_span': Gràcia, 'tail_span': Sarrià-Sant Gervasi} # (0, 59): {'relation': 'shares border with', 'head_span': Gràcia, 'tail_span': Horta-Guinardó} # (46, 0): {'relation': 'shares border with', 'head_span': Eixample, 'tail_span': Gràcia} # (46, 51): {'relation': 'shares border with', 'head_span': Eixample, 'tail_span': Sarrià-Sant Gervasi} # (51, 0): {'relation': 'shares border with', 'head_span': Sarrià-Sant Gervasi, 'tail_span': Gràcia} # (51, 46): {'relation': 'shares border with', 'head_span': Sarrià-Sant Gervasi, 'tail_span': Eixample} # (51, 59): {'relation': 'shares border with', 'head_span': Sarrià-Sant Gervasi, 'tail_span': Horta-Guinardó}"
+                    - button "Copy" [ref=e543] [cursor=pointer]:
+                      - img [ref=e544]
+                  - generic [ref=e547]:
+                    - heading "Datasets" [level=2] [ref=e548]
+                    - 'link "Permalink: Datasets" [ref=e549] [cursor=pointer]':
+                      - /url: "#datasets"
+                      - img [ref=e550]
+                  - paragraph [ref=e552]:
+                    - text: TACRED is not freely avialable but instructions on how to create Re-TACRED from it can be found
+                    - link "here" [ref=e553] [cursor=pointer]:
+                      - /url: https://github.com/gstoica27/Re-TACRED
+                    - text: .
+                  - paragraph [ref=e554]:
+                    - text: For CONLL04 and ADE one can use the script from the
+                    - link "SpERT github" [ref=e555] [cursor=pointer]:
+                      - /url: https://github.com/lavis-nlp/spert/blob/master/scripts/fetch_datasets.sh
+                    - text: .
+                  - paragraph [ref=e556]:
+                    - text: For NYT the dataset can be downloaded from
+                    - link "JointER github" [ref=e557] [cursor=pointer]:
+                      - /url: https://github.com/yubowen-ph/JointER/tree/master/dataset/NYT-multi/data
+                    - text: .
+                  - paragraph [ref=e558]:
+                    - text: Finally the DocRED for RE can be downloaded at the
+                    - link "JEREX github" [ref=e559] [cursor=pointer]:
+                      - /url: https://github.com/lavis-nlp/jerex/blob/main/scripts/fetch_datasets.sh
+                    - text: .
+                  - generic [ref=e560]:
+                    - heading "REDFM" [level=1] [ref=e561]
+                    - 'link "Permalink: REDFM" [ref=e562] [cursor=pointer]':
+                      - /url: "#redfm"
+                      - img [ref=e563]
+                  - generic [ref=e565]:
+                    - 'heading "REDFM: a Filtered and Multilingual Relation Extraction Dataset" [level=2] [ref=e566]':
+                      - text: RED
+                      - superscript [ref=e567]: FM
+                      - text: ": a Filtered and Multilingual Relation Extraction Dataset"
+                    - 'link "Permalink: RED: a Filtered and Multilingual Relation Extraction Dataset" [ref=e568] [cursor=pointer]':
+                      - /url: "#redfm-a-filtered-and-multilingual-relation-extraction-dataset"
+                      - img [ref=e569]
+                  - paragraph [ref=e571]:
+                    - link "image" [ref=e572] [cursor=pointer]:
+                      - /url: https://private-user-images.githubusercontent.com/26126169/247048274-979fb259-00e3-462b-a720-bc818079b0ce.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU0ODM3ODYsIm5iZiI6MTc3NTQ4MzQ4NiwicGF0aCI6Ii8yNjEyNjE2OS8yNDcwNDgyNzQtOTc5ZmIyNTktMDBlMy00NjJiLWE3MjAtYmM4MTgwNzliMGNlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDA2VDEzNTEyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFkODUwZWEwNjM1ZTk1ZjQ2NjVkZDQyMjEyYWYzYTA1MWFiMWVjOGE3ZTY2ZWEyYmJkYWQxOTExNmY0MjU4MGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.S2TrrF3OXuDryjrUHFt8VArd4De09ghMog4ajfErN9A
+                      - img "image" [ref=e573]
+                  - paragraph [ref=e574]:
+                    - text: This is also the repository for the ACL2023 paper RED
+                    - superscript [ref=e575]: FM
+                    - text: ": a Filtered and Multilingual Relation Extraction Dataset. We present two new resources as well as multiple multilingual versions of REBEL. The paper can be found"
+                    - link "here" [ref=e576] [cursor=pointer]:
+                      - /url: /Babelscape/rebel/blob/main/%5Bdocs/EMNLP_2021_REBEL__Camera_Ready_.pdf%5D(https:/arxiv.org/abs/2306.09802)
+                    - text: ". If you use any of these resources, please reference this work in your paper:"
+                  - generic [ref=e577]:
+                    - code [ref=e579]: "@inproceedings{huguet-cabot-et-al-2023-redfm-dataset, title = \"RED$^{\\rm FM}$: a Filtered and Multilingual Relation Extraction Dataset\", author = \"Huguet Cabot, Pere-Llu{\\'\\i}s and Tedeschi, Simone and Ngonga Ngomo, Axel-Cyrille and Navigli, Roberto\", booktitle = \"Proc. of the 61st Annual Meeting of the Association for Computational Linguistics: ACL 2023\", month = jul, year = \"2023\", address = \"Toronto, Canada\", publisher = \"Association for Computational Linguistics\", url = \"https://arxiv.org/abs/2306.09802\", }"
+                    - button "Copy" [ref=e581] [cursor=pointer]:
+                      - img [ref=e582]
+                  - generic [ref=e585]:
+                    - heading "Datasets" [level=2] [ref=e586]
+                    - 'link "Permalink: Datasets" [ref=e587] [cursor=pointer]':
+                      - /url: "#datasets-1"
+                      - img [ref=e588]
+                  - list [ref=e590]:
+                    - listitem [ref=e591]:
+                      - link "REDFM" [ref=e592] [cursor=pointer]:
+                        - /url: https://huggingface.co/datasets/Babelscape/SREDFM
+                        - text: RED
+                        - superscript [ref=e593]: FM
+                      - text: is a human-filtered Relation Extraction dataset for Arabic, Chinese, French, English, German, Italian and Spanish covering 32 relation types. You can find it
+                      - link "here" [ref=e594] [cursor=pointer]:
+                        - /url: https://huggingface.co/datasets/Babelscape/REDFM
+                      - text: .
+                    - listitem [ref=e595]:
+                      - link "SREDFM" [ref=e596] [cursor=pointer]:
+                        - /url: https://huggingface.co/datasets/Babelscape/SREDFM
+                        - text: SRED
+                        - superscript [ref=e597]: FM
+                      - text: is a machine-filtered Relation Extraction dataset for 17 different languages and covers up to 400 relation types. You can find it
+                      - link "here" [ref=e598] [cursor=pointer]:
+                        - /url: https://huggingface.co/datasets/Babelscape/SREDFM
+                      - text: . SREDFM was filtered using a Triplet Critic, which you can find
+                      - link "here" [ref=e599] [cursor=pointer]:
+                        - /url: https://huggingface.co/Babelscape/mdeberta-v3-base-triplet-critic-xnli
+                  - generic [ref=e600]:
+                    - heading "Models" [level=2] [ref=e601]
+                    - 'link "Permalink: Models" [ref=e602] [cursor=pointer]':
+                      - /url: "#models"
+                      - img [ref=e603]
+                  - list [ref=e605]:
+                    - listitem [ref=e606]:
+                      - link "mREBEL400" [ref=e607] [cursor=pointer]:
+                        - /url: https://huggingface.co/Babelscape/mrebel-large
+                        - text: mREBEL
+                        - subscript [ref=e608]: "400"
+                      - text: . This version of mREBEL is trained on 400 relation types, 17 languages using all SRED
+                      - superscript [ref=e609]: FM
+                      - text: ", including entity types. Use it as a standalone model or to bootstrap finetuning on your multilingual Relation Extraction datasets."
+                    - listitem [ref=e610]:
+                      - link "mREBEL32" [ref=e611] [cursor=pointer]:
+                        - /url: https://huggingface.co/Babelscape/mrebel-large-32
+                        - text: mREBEL
+                        - subscript [ref=e612]: "32"
+                      - text: . This version is trained on a subset of SRED
+                      - superscript [ref=e613]: FM
+                      - text: covering only the 32 relation types of RED
+                      - superscript [ref=e614]: FM
+                      - text: .
+                    - listitem [ref=e615]:
+                      - link "mREBELB400" [ref=e616] [cursor=pointer]:
+                        - /url: https://huggingface.co/Babelscape/mrebel-large
+                        - text: mREBEL
+                        - subscript [ref=e617]: B400
+                      - text: . Same as mREBEL
+                      - subscript [ref=e618]: "400"
+                      - text: but trained on top of M2M100 instead of mBART in order to provide a base version with a smaller footprint.
+                  - generic [ref=e619]:
+                    - heading "License" [level=1] [ref=e620]
+                    - 'link "Permalink: License" [ref=e621] [cursor=pointer]':
+                      - /url: "#license"
+                      - img [ref=e622]
+                  - paragraph [ref=e624]:
+                    - text: The code for REBEL and RED
+                    - superscript [ref=e625]: FM
+                    - text: is licensed under the CC BY-SA-NC 4.0 license. The text of the license can be found
+                    - link "here" [ref=e626] [cursor=pointer]:
+                      - /url: https://github.com/Babelscape/rebel/blob/master/LICENSE.md
+                    - text: .
+  - alert [ref=e630]

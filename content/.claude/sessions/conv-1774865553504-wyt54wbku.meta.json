@@ -1,0 +1,20 @@
+{
+  "id": "conv-1774865553504-wyt54wbku",
+  "title": "Map Feishu project management concepts to versi...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1774865553504,
+  "updatedAt": 1774936642100,
+  "lastResponseAt": 1774865615935,
+  "sessionId": "b88f72d6-d9d4-4ec2-8935-f5b56ca5d56d",
+  "sdkSessionId": "b88f72d6-d9d4-4ec2-8935-f5b56ca5d56d",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/AMS技术方案大纲&分工_版本3.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 33205,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 33205,
+    "percentage": 17
+  }
+}

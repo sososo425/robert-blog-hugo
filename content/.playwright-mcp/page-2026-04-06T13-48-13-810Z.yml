@@ -1,0 +1,402 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: zero-shot relation extraction NLI entailment deberta encoder 2024 2025 zero-shot relation extraction NLI entailment deberta encoder 2024 2025
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3Dzero-shot%2Brelation%2Bextraction%2BNLI%2Bentailment%2Bdeberta%2Bencoder%2B2024%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVa_kQsies-yma6YtbNlSsyxxKFSR19q-JpG5fXAsyWNNSLGairktezHOYuHHMBbnHNkRbHLG7knE6yPB8gZVApes64c46pYrywpNm_wr9_sGaMskig&aep=1&ntc=1&sa=X&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ2J8OegQIEBAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "视频" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVa_kQsies-yma6YtbNlSsyxxKFSR19q-JpG5fXAsyWNNSLGairktezHOYuHHMBbnHNkRbHLG7knE6yPB8gZVApes64c46pYrywpNm_wr9_sGaMskig&q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sa=X&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQtKgLegQIFhAB
+              - generic [ref=e89]: 视频
+          - listitem [ref=e90]:
+            - link "图片" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVa_kQsies-yma6YtbNlSsyxxKFSR19q-JpG5fXAsyWNNSLGairktezHOYuHHMBbnHNkRbHLG7knE6yPB8gZVApes64c46pYrywpNm_wr9_sGaMskig&q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sa=X&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQtKgLegQIFRAB
+              - generic [ref=e93]: 图片
+          - listitem [ref=e94]:
+            - link "购物" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVa_kQsies-yma6YtbNlSsyxxKFSR19q-JpG5fXAsyWNNSLGairktezHOYuHHMBbnHNkRbHLG7knE6yPB8gZVApes64c46pYrywpNm_wr9_sGaMskig&q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&ved=1t:220175&ictx=111
+              - generic [ref=e97]: 购物
+          - listitem [ref=e98]:
+            - link "短视频" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVa_kQsies-yma6YtbNlSsyxxKFSR19q-JpG5fXAsyWNNSLGairktezHOYuHHMBbnHNkRbHLG7knE6yPB8gZVApes64c46pYrywpNm_wr9_sGaMskig&q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sa=X&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQs6gLegQIEhAB
+              - generic [ref=e101]: 短视频
+          - listitem [ref=e102]:
+            - link "新闻" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVmuVjtSOGTq3fLDGUek6XGKo13LUUyhoDbwTfe2m14a9DiLSPl0tI4-OT464brF2r4u3fXlieGQHD9oJBlGsUVa_kQsies-yma6YtbNlSsyxxKFSR19q-JpG5fXAsyWNNSLGairktezHOYuHHMBbnHNkRbHLG7knE6yPB8gZVApes64c46pYrywpNm_wr9_sGaMskig&sa=X&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ0pQJegQIExAB
+              - generic [ref=e105]: 新闻
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - table [ref=e138]:
+          - rowgroup [ref=e139]:
+            - row "Google 学术：zero-shot relation extraction NLI entailment deberta encoder 2024 2025" [ref=e140]:
+              - cell "Google 学术：zero-shot relation extraction NLI entailment deberta encoder 2024 2025" [ref=e141]:
+                - heading "Google 学术：zero-shot relation extraction NLI entailment deberta encoder 2024 2025" [level=3] [ref=e142]:
+                  - link "Google 学术：zero-shot relation extraction NLI entailment deberta encoder 2024 2025" [ref=e143] [cursor=pointer]:
+                    - /url: https://scholar.google.com.sg/scholar?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&hl=zh-CN&as_sdt=0&as_vis=1&oi=scholart
+                    - generic [ref=e144]:
+                      - text: Google 学术：
+                      - emphasis [ref=e145]: zero-shot relation extraction NLI entailment deberta encoder 2024 2025
+            - row "Advances in pre-trained language models for domain- … - ‎K. Rostam - 被引用次数：7 … methods for the legal information extraction/entailment … - ‎Goebel - 被引用次数：36" [ref=e146]:
+              - cell "Advances in pre-trained language models for domain- … - ‎K. Rostam - 被引用次数：7 … methods for the legal information extraction/entailment … - ‎Goebel - 被引用次数：36" [ref=e147]:
+                - heading "Advances in pre-trained language models for domain- … - ‎K. Rostam - 被引用次数：7" [level=3] [ref=e148]:
+                  - link "Advances in pre-trained language models for domain- …" [ref=e149] [cursor=pointer]:
+                    - /url: https://scholar.google.com.sg/scholar_url?url=https://dl.acm.org/doi/pdf/10.1145/3763002&hl=zh-CN&sa=X&ei=m7nTaf_ROaWI6rQPi-KdoQE&scisig=ADi0EEUakS8ifDdYb41dURFEN_-X&oi=scholarr
+                  - generic [ref=e150]:
+                    - text: "-"
+                    - generic [ref=e151]: ‎K. Rostam
+                    - text: "- 被引用次数：7"
+                - heading "… methods for the legal information extraction/entailment … - ‎Goebel - 被引用次数：36" [level=3] [ref=e152]:
+                  - link "… methods for the legal information extraction/entailment …" [ref=e153] [cursor=pointer]:
+                    - /url: https://scholar.google.com.sg/scholar_url?url=https://link.springer.com/chapter/10.1007/978-981-97-3076-6_8&hl=zh-CN&sa=X&ei=m7nTaf_ROaWI6rQPi-KdoQE&scisig=ADi0EEVtcYukLCrcV9ZSIunsvwuX&oi=scholarr
+                    - generic [ref=e154]:
+                      - text: … methods for the legal
+                      - emphasis [ref=e155]: information extraction
+                      - text: /
+                      - emphasis [ref=e156]: entailment
+                      - text: …
+                  - generic [ref=e157]:
+                    - text: "-"
+                    - generic [ref=e158]: ‎Goebel
+                    - text: "- 被引用次数：36"
+        - generic [ref=e161]:
+          - heading "Web results" [level=2] [ref=e162]
+          - generic [ref=e163]:
+            - generic [ref=e166]:
+              - 'link "BTZSC: A Benchmark for Zero-Shot Text Classification ... arXiv https://arxiv.org › html" [ref=e168] [cursor=pointer]':
+                - /url: https://arxiv.org/html/2603.11991
+                - 'heading "BTZSC: A Benchmark for Zero-Shot Text Classification ..." [level=3] [ref=e169]'
+                - generic [ref=e174]:
+                  - generic [ref=e176]: arXiv
+                  - generic [ref=e178]: https://arxiv.org › html
+              - generic [ref=e179]:
+                - generic [ref=e180]: ·
+                - link "翻译此页" [ref=e181] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2603.11991
+              - button "关于这条结果的详细信息" [ref=e182] [cursor=pointer]:
+                - img [ref=e185]
+            - generic [ref=e188]:
+              - generic [ref=e189]: 2026年3月12日 —
+              - generic [ref=e190]:
+                - text: These models are trained on
+                - emphasis [ref=e191]: NLI
+                - text: datasets and perform classification by assessing the degree of
+                - emphasis [ref=e192]: entailment
+                - text: between an input text and each ...
+        - generic [ref=e196]:
+          - generic [ref=e199]:
+            - link "Zero-shot Natural Language Inference Emergent Mind https://www.emergentmind.com › topics" [ref=e201] [cursor=pointer]:
+              - /url: https://www.emergentmind.com/topics/zero-shot-natural-language-inference-nli
+              - heading "Zero-shot Natural Language Inference" [level=3] [ref=e202]
+              - generic [ref=e207]:
+                - generic [ref=e209]: Emergent Mind
+                - generic [ref=e211]: https://www.emergentmind.com › topics
+            - generic [ref=e212]:
+              - generic [ref=e213]: ·
+              - link "翻译此页" [ref=e214] [cursor=pointer]:
+                - /url: https://www.emergentmind.com/topics/zero-shot-natural-language-inference-nli
+            - button "关于这条结果的详细信息" [ref=e215] [cursor=pointer]:
+              - img [ref=e218]
+          - generic [ref=e221]:
+            - generic [ref=e222]: 2026年3月5日 —
+            - generic [ref=e223]:
+              - emphasis [ref=e224]: Zero-shot Natural Language Inference
+              - text: is a paradigm that predicts entailment, contradiction, or neutrality between premise–hypothesis pairs ...
+        - generic [ref=e228]:
+          - generic [ref=e231]:
+            - link "Coarse-Grained Hallucination Detection via NLI Fine-Tuning ACL Anthology https://aclanthology.org › 2025.sdp-1.34.pdf" [ref=e233] [cursor=pointer]:
+              - /url: https://aclanthology.org/2025.sdp-1.34.pdf
+              - heading "Coarse-Grained Hallucination Detection via NLI Fine-Tuning" [level=3] [ref=e234]
+              - generic [ref=e239]:
+                - generic [ref=e241]: ACL Anthology
+                - generic [ref=e243]: https://aclanthology.org › 2025.sdp-1.34.pdf
+            - generic [ref=e244]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e245] [cursor=pointer]:
+              - img [ref=e248]
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - generic [ref=e252]: 作者：D Galimzianova · 2025 —
+              - generic [ref=e253]:
+                - text: Our experiments demon- strate that direct fine-tuning of an
+                - emphasis [ref=e254]: NLI
+                - text: "-adapted cross-"
+                - emphasis [ref=e255]: encoder
+                - text: ", and in particular"
+                - emphasis [ref=e256]: DeBERTa
+                - text: "-V3- large, offers ..."
+            - generic [ref=e257]: 7 页
+        - generic [ref=e261]:
+          - generic [ref=e264]:
+            - link "Refreshing zero-shot classification with ModernBERT Hugging Face https://huggingface.co › blog › Ihor › refres..." [ref=e266] [cursor=pointer]:
+              - /url: https://huggingface.co/blog/Ihor/refreshing-zero-shot-classification
+              - heading "Refreshing zero-shot classification with ModernBERT" [level=3] [ref=e267]
+              - generic [ref=e272]:
+                - generic [ref=e274]: Hugging Face
+                - generic [ref=e276]: https://huggingface.co › blog › Ihor › refres...
+            - generic [ref=e277]:
+              - generic [ref=e278]: ·
+              - link "翻译此页" [ref=e279] [cursor=pointer]:
+                - /url: https://huggingface.co/blog/Ihor/refreshing-zero-shot-classification
+            - button "关于这条结果的详细信息" [ref=e280] [cursor=pointer]:
+              - img [ref=e283]
+          - generic [ref=e286]:
+            - generic [ref=e287]: 2025年2月25日 —
+            - generic [ref=e288]:
+              - text: The method works by posing the sequence to be classified as the
+              - emphasis [ref=e289]: NLI
+              - text: premise and constructing a hypothesis from each candidate label. Overall, ...
+        - generic [ref=e293]:
+          - generic [ref=e296]:
+            - link "(PDF) An Empirical Evaluation of the Zero-Shot, Few ... ResearchGate https://www.researchgate.net › publication" [ref=e298] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/382931933_An_Empirical_Evaluation_of_the_Zero-shot_Few-shot_and_Traditional_Fine-tuning_Based_Pretrained_Language_Models_for_Sentiment_Analysis_in_Software_Engineering
+              - heading "(PDF) An Empirical Evaluation of the Zero-Shot, Few ..." [level=3] [ref=e299]
+              - generic [ref=e304]:
+                - generic [ref=e306]: ResearchGate
+                - generic [ref=e308]: https://www.researchgate.net › publication
+            - generic [ref=e309]:
+              - generic [ref=e310]: ·
+              - link "翻译此页" [ref=e311] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/382931933_An_Empirical_Evaluation_of_the_Zero-shot_Few-shot_and_Traditional_Fine-tuning_Based_Pretrained_Language_Models_for_Sentiment_Analysis_in_Software_Engineering
+            - button "关于这条结果的详细信息" [ref=e312] [cursor=pointer]:
+              - img [ref=e315]
+          - generic [ref=e318]:
+            - generic [ref=e319]: 2026年3月16日 —
+            - text: Recent advances in natural language processing (NLP) have led to the development of revolutionized pretrained language models (PLMs) ...
+        - generic [ref=e323]:
+          - generic [ref=e326]:
+            - 'link "spell: spatial prompting with chain-of- thought for zero-shot ... OpenReview https://openreview.net › pdf" [ref=e328] [cursor=pointer]':
+              - /url: https://openreview.net/pdf?id=Sh88LK85AR
+              - 'heading "spell: spatial prompting with chain-of- thought for zero-shot ..." [level=3] [ref=e329]'
+              - generic [ref=e334]:
+                - generic [ref=e336]: OpenReview
+                - generic [ref=e338]: https://openreview.net › pdf
+            - generic [ref=e339]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e340] [cursor=pointer]:
+              - img [ref=e343]
+          - generic [ref=e346]:
+            - generic [ref=e347]: 作者：SA Khan · 被引用次数：2 —
+            - generic [ref=e348]:
+              - text: Here, we introduce SPELL (Spatial Prompt-. Enhanced
+              - emphasis [ref=e349]: Zero
+              - text: "-"
+              - emphasis [ref=e350]: Shot
+              - text: Learning), combining graph autoencoder (GAE)-derived spatial embeddings with chain-of-thought (CoT) ...
+        - generic [ref=e354]:
+          - generic [ref=e357]:
+            - link "Zero-Shot Entailment Learning for Ontology-Based ... ACL Anthology https://aclanthology.org › 2025.coling-main.542...." [ref=e359] [cursor=pointer]:
+              - /url: https://aclanthology.org/2025.coling-main.542.pdf
+              - heading "Zero-Shot Entailment Learning for Ontology-Based ..." [level=3] [ref=e360]
+              - generic [ref=e365]:
+                - generic [ref=e367]: ACL Anthology
+                - generic [ref=e369]: https://aclanthology.org › 2025.coling-main.542....
+            - generic [ref=e370]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e371] [cursor=pointer]:
+              - img [ref=e374]
+          - generic [ref=e376]:
+            - generic [ref=e377]:
+              - generic [ref=e378]: 作者：RF Munne · 2025 · 被引用次数：1 —
+              - generic [ref=e379]:
+                - emphasis [ref=e380]: Zero
+                - text: "-"
+                - emphasis [ref=e381]: shot
+                - text: classification is becoming popular in biomedical information
+                - emphasis [ref=e382]: extraction
+                - text: due to its abil- ity to handle limited annotated data. By ...
+            - generic [ref=e383]: 12 页
+          - generic [ref=e385]:
+            - text: 缺少字词： encoder ‎| 必须包含：
+            - link "encoder" [ref=e386] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=zero-shot+relation+extraction+NLI+entailment+deberta+%22encoder%22+2024+2025&sa=X&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ5t4CegQIORAB
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - heading "相关问题" [level=2] [ref=e392]
+            - button "关于这条结果的详细信息" [ref=e393] [cursor=pointer]:
+              - img [ref=e396]
+          - generic [ref=e398]:
+            - button "What is zero-shot classification in modernbert?" [ref=e404] [cursor=pointer]:
+              - generic [ref=e406]: What is zero-shot classification in modernbert?
+              - img [ref=e409]
+            - button "What is zero-shot classification for sentiment analysis?" [ref=e418] [cursor=pointer]:
+              - generic [ref=e420]: What is zero-shot classification for sentiment analysis?
+              - img [ref=e423]
+        - generic [ref=e428]:
+          - heading "Web results" [level=2] [ref=e429]
+          - generic [ref=e430]:
+            - generic [ref=e433]:
+              - 'link "Atomic-SNLI: Fine-Grained Natural Language Inference ... arXiv https://arxiv.org › html" [ref=e435] [cursor=pointer]':
+                - /url: https://arxiv.org/html/2601.06528v1
+                - 'heading "Atomic-SNLI: Fine-Grained Natural Language Inference ..." [level=3] [ref=e436]'
+                - generic [ref=e441]:
+                  - generic [ref=e443]: arXiv
+                  - generic [ref=e445]: https://arxiv.org › html
+              - generic [ref=e446]:
+                - generic [ref=e447]: ·
+                - link "翻译此页" [ref=e448] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2601.06528v1
+              - button "关于这条结果的详细信息" [ref=e449] [cursor=pointer]:
+                - img [ref=e452]
+            - generic [ref=e455]:
+              - generic [ref=e456]: 2026年1月10日 —
+              - generic [ref=e457]:
+                - text: Natural Language Inference (
+                - emphasis [ref=e458]: NLI
+                - text: ) has emerged as a core task for evaluating semantic understanding in NLP, requiring a system to determine the ...
+            - generic [ref=e460]:
+              - text: 缺少字词： shot ‎| 必须包含：
+              - link "shot" [ref=e461] [cursor=pointer]:
+                - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=zero-+%22shot%22+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sa=X&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ5t4CegQIQBAB
+        - generic [ref=e465]:
+          - generic [ref=e468]:
+            - 'link "FineCat-NLI: Pushing NLI Encoder Performance Hugging Face https://huggingface.co › blog › dleemiller" [ref=e470] [cursor=pointer]':
+              - /url: https://huggingface.co/blog/dleemiller/finecat-nli
+              - 'heading "FineCat-NLI: Pushing NLI Encoder Performance" [level=3] [ref=e471]'
+              - generic [ref=e476]:
+                - generic [ref=e478]: Hugging Face
+                - generic [ref=e480]: https://huggingface.co › blog › dleemiller
+            - generic [ref=e481]:
+              - generic [ref=e482]: ·
+              - link "翻译此页" [ref=e483] [cursor=pointer]:
+                - /url: https://huggingface.co/blog/dleemiller/finecat-nli
+            - button "关于这条结果的详细信息" [ref=e484] [cursor=pointer]:
+              - img [ref=e487]
+          - generic [ref=e490]:
+            - generic [ref=e491]: 2025年11月1日 —
+            - generic [ref=e492]:
+              - text: Did you know that
+              - emphasis [ref=e493]: transformer encoder architectures can be used for zero-shot tasks
+              - text: "? If you've never tried a tasksource model, you might be ..."
+          - generic [ref=e495]: 缺少字词： relation ‎extraction
+        - generic [ref=e499]:
+          - generic [ref=e502]:
+            - link "Accepted Findings Papers ACL 2025 https://2025.aclweb.org › find_papers" [ref=e504] [cursor=pointer]:
+              - /url: https://2025.aclweb.org/program/find_papers/
+              - heading "Accepted Findings Papers" [level=3] [ref=e505]
+              - generic [ref=e510]:
+                - generic [ref=e512]: ACL 2025
+                - generic [ref=e514]: https://2025.aclweb.org › find_papers
+            - generic [ref=e515]:
+              - generic [ref=e516]: ·
+              - link "翻译此页" [ref=e517] [cursor=pointer]:
+                - /url: https://2025.aclweb.org/program/find_papers/
+            - button "关于这条结果的详细信息" [ref=e518] [cursor=pointer]:
+              - img [ref=e521]
+          - generic [ref=e525]:
+            - text: Document-Level
+            - emphasis [ref=e526]: Relation Extraction
+            - text: "with Global Relations and Entity Pair ... GUIDEX: Guided Synthetic Data Generation for"
+            - emphasis [ref=e527]: Zero
+            - text: "-"
+            - emphasis [ref=e528]: Shot
+            - text: Information Extraction
+      - navigation [ref=e531]:
+        - heading "网页导航" [level=1] [ref=e532]
+        - text: "1"
+        - link "Page 2" [ref=e535] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=10&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAE
+          - text: "2"
+        - link "Page 3" [ref=e537] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=20&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAG
+          - text: "3"
+        - link "Page 4" [ref=e539] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=30&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAI
+          - text: "4"
+        - link "Page 5" [ref=e541] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=40&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAK
+          - text: "5"
+        - link "Page 6" [ref=e543] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=50&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAM
+          - text: "6"
+        - link "Page 7" [ref=e545] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=60&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAO
+          - text: "7"
+        - link "Page 8" [ref=e547] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=70&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAQ
+          - text: "8"
+        - link "Page 9" [ref=e549] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=80&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAS
+          - text: "9"
+        - link "Page 10" [ref=e551] [cursor=pointer]:
+          - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=90&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8tMDegQICRAU
+          - text: "10"
+        - heading "下一页" [level=2] [ref=e553]:
+          - link "下一页" [ref=e554] [cursor=pointer]:
+            - /url: /search?q=zero-shot+relation+extraction+NLI+entailment+deberta+encoder+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=m7nTacnWMu60qtsPo4WKyQM&start=10&sa=N&sstk=Af77f_dNNzTRJIhi8u9TKqKuSi3PROu-LGe16QnwbN3nE6L-hpO_oc4NVWFPYaBoH6t1bT_9QNgCwADpGtJ_4FY9F_9QAvt1AZBsDw&ved=2ahUKEwiJkKjXrtmTAxVummoFHaOCIjkQ8NMDegQICRAW
+            - generic [ref=e556]: 下一页
+      - navigation
+    - contentinfo [ref=e557]:
+      - heading "页脚链接" [level=1] [ref=e558]
+      - generic [ref=e562]:
+        - generic [ref=e564]:
+          - text: 新加坡
+          - generic [ref=e566]:
+            - button "新加坡 - 是根据您的 IP 地址推断出来的" [ref=e568] [cursor=pointer]:
+              - generic [ref=e569]: 新加坡
+              - generic [ref=e571]:
+                - text: "-"
+                - generic [ref=e572]: 是根据您的 IP 地址推断出来的
+            - text: "-"
+            - button "更新位置信息" [ref=e574] [cursor=pointer]: 更新位置信息
+        - generic [ref=e577]:
+          - link "帮助" [ref=e578] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e579] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e580] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e581] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

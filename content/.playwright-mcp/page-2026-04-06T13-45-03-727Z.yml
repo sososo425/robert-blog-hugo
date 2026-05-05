@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: UniRel joint entity relation extraction BERT paper UniRel joint entity relation extraction BERT paper
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3DUniRel%2Bjoint%2Bentity%2Brelation%2Bextraction%2BBERT%2Bpaper%26sei%3D27jTaZ7jE-a5qtsPlaOC2Qg&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&aep=1&ntc=1&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ2J8OegQIDxAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "图片" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&q=UniRel+joint+entity+relation+extraction+BERT+paper&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQtKgLegQIEhAB
+              - generic [ref=e89]: 图片
+          - listitem [ref=e90]:
+            - link "购物" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&q=UniRel+joint+entity+relation+extraction+BERT+paper&ved=1t:220175&ictx=111
+              - generic [ref=e93]: 购物
+          - listitem [ref=e94]:
+            - link "视频" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&q=UniRel+joint+entity+relation+extraction+BERT+paper&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQtKgLegQIExAB
+              - generic [ref=e97]: 视频
+          - listitem [ref=e98]:
+            - link "短视频" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&q=UniRel+joint+entity+relation+extraction+BERT+paper&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQs6gLegQIFRAB
+              - generic [ref=e101]: 短视频
+          - listitem [ref=e102]:
+            - link "新闻" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=UniRel+joint+entity+relation+extraction+BERT+paper&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ0pQJegQIFhAB
+              - generic [ref=e105]: 新闻
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - heading "您是不是要找： OneRel joint entity relation extraction BERT paper" [level=2] [ref=e132]:
+        - text: 您是不是要找：
+        - link "OneRel joint entity relation extraction BERT paper" [ref=e133] [cursor=pointer]:
+          - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=OneRel+joint+entity+relation+extraction+BERT+paper&spell=1&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQBSgAegQIERAB
+          - emphasis [ref=e134]: OneRel
+          - text: joint entity relation extraction BERT paper
+      - generic [ref=e138]:
+        - generic [ref=e141]:
+          - heading "Web results" [level=2] [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e146]:
+              - 'link "UniRel: Unified Representation and Interaction for Joint ... ACL Anthology https://aclanthology.org › 2022.emnlp-main.477...." [ref=e148] [cursor=pointer]':
+                - /url: https://aclanthology.org/2022.emnlp-main.477.pdf
+                - 'heading "UniRel: Unified Representation and Interaction for Joint ..." [level=3] [ref=e149]'
+                - generic [ref=e154]:
+                  - generic [ref=e156]: ACL Anthology
+                  - generic [ref=e158]: https://aclanthology.org › 2022.emnlp-main.477....
+              - generic [ref=e159]:
+                - generic:
+                  - generic: PDF
+              - button "关于这条结果的详细信息" [ref=e160] [cursor=pointer]:
+                - img [ref=e163]
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e167]: 作者：W Tang · 2022 · 被引用次数：113 —
+                - generic [ref=e168]:
+                  - text: Relational triples are extracted by modeling the
+                  - emphasis [ref=e169]: entity
+                  - text: "-"
+                  - emphasis [ref=e170]: entity
+                  - text: inter- action (blue dashed line) and
+                  - emphasis [ref=e171]: entity
+                  - text: "-"
+                  - emphasis [ref=e172]: relation
+                  - text: interaction. (red solid line) in a unified ...
+              - generic [ref=e173]: 13 页
+        - generic [ref=e177]:
+          - generic [ref=e180]:
+            - link "arXiv:2211.09039v1 [cs.CL] 16 Nov 2022 arXiv https://arxiv.org › pdf" [ref=e182] [cursor=pointer]:
+              - /url: https://arxiv.org/pdf/2211.09039
+              - heading "arXiv:2211.09039v1 [cs.CL] 16 Nov 2022" [level=3] [ref=e183]
+              - generic [ref=e188]:
+                - generic [ref=e190]: arXiv
+                - generic [ref=e192]: https://arxiv.org › pdf
+            - generic [ref=e193]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e194] [cursor=pointer]:
+              - img [ref=e197]
+          - generic [ref=e200]:
+            - generic [ref=e201]: 作者：W Tang · 2022 · 被引用次数：113 —
+            - generic [ref=e202]:
+              - text: Relational triples are extracted by modeling the
+              - emphasis [ref=e203]: entity
+              - text: "-"
+              - emphasis [ref=e204]: entity
+              - text: inter- action (blue dashed line) and
+              - emphasis [ref=e205]: entity
+              - text: "-"
+              - emphasis [ref=e206]: relation
+              - text: interaction. (red solid line) ...
+        - generic [ref=e210]:
+          - generic [ref=e213]:
+            - link "Joint Entity and Relation Extraction Model Based on Inner ... MDPI https://www.mdpi.com › ..." [ref=e215] [cursor=pointer]:
+              - /url: https://www.mdpi.com/2076-3417/14/4/1334
+              - heading "Joint Entity and Relation Extraction Model Based on Inner ..." [level=3] [ref=e216]
+              - generic [ref=e221]:
+                - generic [ref=e223]: MDPI
+                - generic [ref=e225]: https://www.mdpi.com › ...
+            - generic [ref=e226]:
+              - generic [ref=e227]: ·
+              - link "翻译此页" [ref=e228] [cursor=pointer]:
+                - /url: https://www.mdpi.com/2076-3417/14/4/1334
+            - button "关于这条结果的详细信息" [ref=e229] [cursor=pointer]:
+              - img [ref=e232]
+          - generic [ref=e235]:
+            - generic [ref=e236]: 作者：P Feng · 2024 · 被引用次数：4 —
+            - generic [ref=e237]:
+              - text: We propose a novel framework for
+              - emphasis [ref=e238]: joint entity and relation extraction
+              - text: based on a single-table filling method.
+        - generic [ref=e242]:
+          - generic [ref=e245]:
+            - 'link "UniRel: Unified Representation and Interaction for Joint ... ResearchGate https://www.researchgate.net › publication" [ref=e247] [cursor=pointer]':
+              - /url: https://www.researchgate.net/publication/365448583_UniRel_Unified_Representation_and_Interaction_for_Joint_Relational_Triple_Extraction
+              - 'heading "UniRel: Unified Representation and Interaction for Joint ..." [level=3] [ref=e248]'
+              - generic [ref=e253]:
+                - generic [ref=e255]: ResearchGate
+                - generic [ref=e257]: https://www.researchgate.net › publication
+            - generic [ref=e258]:
+              - generic [ref=e259]: ·
+              - link "翻译此页" [ref=e260] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/365448583_UniRel_Unified_Representation_and_Interaction_for_Joint_Relational_Triple_Extraction
+            - button "关于这条结果的详细信息" [ref=e261] [cursor=pointer]:
+              - img [ref=e264]
+          - generic [ref=e268]:
+            - text: In this
+            - emphasis [ref=e269]: paper
+            - text: ", we investigate the problem of"
+            - emphasis [ref=e270]: entity
+            - text: identification and
+            - emphasis [ref=e271]: relation extraction
+            - text: from encyclopedia articles, and we propose a
+            - emphasis [ref=e272]: joint
+            - text: discriminative ...
+        - generic [ref=e276]:
+          - generic [ref=e279]:
+            - 'link "URRel: Joint Entity and Relation Extraction in Chinese ... Wiley Online Library https://onlinelibrary.wiley.com › doi › exsy" [ref=e281] [cursor=pointer]':
+              - /url: https://onlinelibrary.wiley.com/doi/10.1111/exsy.70214
+              - 'heading "URRel: Joint Entity and Relation Extraction in Chinese ..." [level=3] [ref=e282]'
+              - generic [ref=e287]:
+                - generic [ref=e289]: Wiley Online Library
+                - generic [ref=e291]: https://onlinelibrary.wiley.com › doi › exsy
+            - generic [ref=e292]:
+              - generic [ref=e293]: ·
+              - link "翻译此页" [ref=e294] [cursor=pointer]:
+                - /url: https://onlinelibrary.wiley.com/doi/10.1111/exsy.70214
+            - button "关于这条结果的详细信息" [ref=e295] [cursor=pointer]:
+              - img [ref=e298]
+          - generic [ref=e301]:
+            - generic [ref=e302]: 2026年1月28日 —
+            - generic [ref=e303]:
+              - text: URRel uses a semantic fusion approach inspired by
+              - emphasis [ref=e304]: UniRel
+              - text: to merge sentences and relational descriptions into a single representation, allowing ...
+        - generic [ref=e308]:
+          - generic [ref=e311]:
+            - link "Multi-task Learning for Joint Entity and Relation Extraction ... ACM Digital Library https://dl.acm.org › doi" [ref=e313] [cursor=pointer]:
+              - /url: https://dl.acm.org/doi/10.1145/3690771.3690790
+              - heading "Multi-task Learning for Joint Entity and Relation Extraction ..." [level=3] [ref=e314]
+              - generic [ref=e319]:
+                - generic [ref=e321]: ACM Digital Library
+                - generic [ref=e323]: https://dl.acm.org › doi
+            - generic [ref=e324]:
+              - generic [ref=e325]: ·
+              - link "翻译此页" [ref=e326] [cursor=pointer]:
+                - /url: https://dl.acm.org/doi/10.1145/3690771.3690790
+            - button "关于这条结果的详细信息" [ref=e327] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e333]:
+            - generic [ref=e334]: 2025年3月5日 —
+            - generic [ref=e335]:
+              - text: This
+              - emphasis [ref=e336]: paper
+              - text: has demonstrated a multi-task learning approach that integrates NER tasks into the fine-tuning process of
+              - emphasis [ref=e337]: BERT
+              - text: for
+              - emphasis [ref=e338]: joint entity
+              - text: and ...
+        - generic [ref=e342]:
+          - generic [ref=e345]:
+            - link "Unified Representation and Interaction for Joint Relational ... ACL Anthology https://aclanthology.org › 2022.emnlp-mai..." [ref=e347] [cursor=pointer]:
+              - /url: https://aclanthology.org/2022.emnlp-main.477/
+              - heading "Unified Representation and Interaction for Joint Relational ..." [level=3] [ref=e348]
+              - generic [ref=e353]:
+                - generic [ref=e355]: ACL Anthology
+                - generic [ref=e357]: https://aclanthology.org › 2022.emnlp-mai...
+            - generic [ref=e358]:
+              - generic [ref=e359]: ·
+              - link "翻译此页" [ref=e360] [cursor=pointer]:
+                - /url: https://aclanthology.org/2022.emnlp-main.477/
+            - button "关于这条结果的详细信息" [ref=e361] [cursor=pointer]:
+              - img [ref=e364]
+          - generic [ref=e367]:
+            - generic [ref=e368]: 作者：W Tang · 2022 · 被引用次数：113 —
+            - generic [ref=e369]:
+              - text: In this
+              - emphasis [ref=e370]: paper
+              - text: ", we propose"
+              - emphasis [ref=e371]: UniRel
+              - text: to address these challenges. Specifically, we unify the representations of entities and
+              - emphasis [ref=e372]: relations
+              - text: by jointly encoding them.
+          - generic [ref=e374]:
+            - text: 缺少字词： BERT ‎| 必须包含：
+            - link "BERT" [ref=e375] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=UniRel+joint+entity+relation+extraction+%22BERT%22+paper&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ5t4CegQILBAB
+        - generic [ref=e379]:
+          - generic [ref=e382]:
+            - 'link "UniRel: Unified Representation and Interaction for Joint ... arXiv https://arxiv.org › cs" [ref=e384] [cursor=pointer]':
+              - /url: https://arxiv.org/abs/2211.09039
+              - 'heading "UniRel: Unified Representation and Interaction for Joint ..." [level=3] [ref=e385]'
+              - generic [ref=e390]:
+                - generic [ref=e392]: arXiv
+                - generic [ref=e394]: https://arxiv.org › cs
+            - generic [ref=e395]:
+              - generic [ref=e396]: ·
+              - link "翻译此页" [ref=e397] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2211.09039
+            - button "关于这条结果的详细信息" [ref=e398] [cursor=pointer]:
+              - img [ref=e401]
+          - generic [ref=e404]:
+            - generic [ref=e405]: 作者：W Tang · 2022 · 被引用次数：113 —
+            - generic [ref=e406]:
+              - text: In this
+              - emphasis [ref=e407]: paper
+              - text: ", we propose"
+              - emphasis [ref=e408]: UniRel
+              - text: to address these challenges. Specifically, we unify the representations of entities and
+              - emphasis [ref=e409]: relations
+              - text: by jointly encoding them.
+          - generic [ref=e411]:
+            - text: 缺少字词： BERT ‎| 必须包含：
+            - link "BERT" [ref=e412] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=UniRel+joint+entity+relation+extraction+%22BERT%22+paper&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ5t4CegQIMRAB
+        - generic [ref=e416]:
+          - generic [ref=e419]:
+            - 'link "wtangdev/UniRel: released code for our EMNLP22 paper: ... GitHub https://github.com › wtangdev › UniRel" [ref=e421] [cursor=pointer]':
+              - /url: https://github.com/wtangdev/UniRel
+              - 'heading "wtangdev/UniRel: released code for our EMNLP22 paper: ..." [level=3] [ref=e422]'
+              - generic [ref=e427]:
+                - generic [ref=e429]: GitHub
+                - generic [ref=e431]: https://github.com › wtangdev › UniRel
+            - generic [ref=e432]:
+              - generic [ref=e433]: ·
+              - link "翻译此页" [ref=e434] [cursor=pointer]:
+                - /url: https://github.com/wtangdev/UniRel
+            - button "关于这条结果的详细信息" [ref=e435] [cursor=pointer]:
+              - img [ref=e438]
+          - generic [ref=e442]:
+            - emphasis [ref=e443]: UniRel
+            - text: ". Released code for our EMNLP22 paper: UniRel: Unified Representation and Interaction for Joint Relational Triple Extraction. Join the Discord if there ..."
+        - generic [ref=e447]:
+          - generic [ref=e450]:
+            - link "Joint Entity and Relation Extraction with One Module in ... The Association for the Advancement of Artificial Intelligence https://ojs.aaai.org › AAAI › article › view" [ref=e452] [cursor=pointer]:
+              - /url: https://ojs.aaai.org/index.php/AAAI/article/view/21379/21128
+              - heading "Joint Entity and Relation Extraction with One Module in ..." [level=3] [ref=e453]
+              - generic [ref=e458]:
+                - generic [ref=e460]: The Association for the Advancement of Artificial Intelligence
+                - generic [ref=e462]: https://ojs.aaai.org › AAAI › article › view
+            - generic [ref=e463]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e464] [cursor=pointer]:
+              - img [ref=e467]
+          - generic [ref=e470]:
+            - generic [ref=e471]: 作者：YM Shang · 2022 · 被引用次数：264 —
+            - generic [ref=e472]:
+              - text: To address these issues, in this
+              - emphasis [ref=e473]: paper
+              - text: ", we propose a novel"
+              - emphasis [ref=e474]: joint entity
+              - text: and
+              - emphasis [ref=e475]: relation extraction
+              - text: model, named OneRel, which casts
+              - emphasis [ref=e476]: joint
+              - text: extraction as a fine ...
+          - generic [ref=e478]:
+            - text: 缺少字词： UniRel ‎| 必须包含：
+            - link "UniRel" [ref=e479] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=%22UniRel%22+joint+entity+relation+extraction+BERT+paper&sa=X&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ5t4CegQIMhAB
+      - navigation [ref=e482]:
+        - heading "网页导航" [level=1] [ref=e483]
+        - text: "1"
+        - link "Page 2" [ref=e486] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=10&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAE
+          - text: "2"
+        - link "Page 3" [ref=e488] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=20&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAG
+          - text: "3"
+        - link "Page 4" [ref=e490] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=30&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAI
+          - text: "4"
+        - link "Page 5" [ref=e492] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=40&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAK
+          - text: "5"
+        - link "Page 6" [ref=e494] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=50&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAM
+          - text: "6"
+        - link "Page 7" [ref=e496] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=60&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAO
+          - text: "7"
+        - link "Page 8" [ref=e498] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=70&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAQ
+          - text: "8"
+        - link "Page 9" [ref=e500] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=80&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAS
+          - text: "9"
+        - link "Page 10" [ref=e502] [cursor=pointer]:
+          - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=90&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8tMDegQICRAU
+          - text: "10"
+        - heading "下一页" [level=2] [ref=e504]:
+          - link "下一页" [ref=e505] [cursor=pointer]:
+            - /url: /search?q=UniRel+joint+entity+relation+extraction+BERT+paper&sca_esv=ef6db0e9fcb54fe8&ei=3LjTaduGHq66mtkPhOvYmQU&start=10&sa=N&sstk=Af77f_elvTKQCPNdYdkEOM8rf2l_dCxyyT9ccT1sO08HOFdNApUSwOoLIRkLZjhYX68CMOERm6IGviFMHu7Rr2nU1N5ZJ1GTOSRNog&ved=2ahUKEwjb5In8rdmTAxUunSYFHYQ1NlMQ8NMDegQICRAW
+            - generic [ref=e507]: 下一页
+      - navigation
+    - contentinfo [ref=e508]:
+      - heading "页脚链接" [level=1] [ref=e509]
+      - generic [ref=e513]:
+        - generic [ref=e515]:
+          - text: 新加坡
+          - generic [ref=e517]:
+            - button "新加坡 - 是根据您的 IP 地址推断出来的" [ref=e519] [cursor=pointer]:
+              - generic [ref=e520]: 新加坡
+              - generic [ref=e522]:
+                - text: "-"
+                - generic [ref=e523]: 是根据您的 IP 地址推断出来的
+            - text: "-"
+            - button "更新位置信息" [ref=e525] [cursor=pointer]: 更新位置信息
+        - generic [ref=e528]:
+          - link "帮助" [ref=e529] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e530] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e531] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e532] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

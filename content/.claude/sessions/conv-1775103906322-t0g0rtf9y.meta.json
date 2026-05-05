@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775103906322-t0g0rtf9y",
+  "title": "根据 @tech/agent-mem-papers/0-agent-memory-overview",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775103906322,
+  "updatedAt": 1775103972218,
+  "lastResponseAt": 1775103927203,
+  "sessionId": "79cbbe4d-2121-4450-9030-6ad8d055db27",
+  "sdkSessionId": "79cbbe4d-2121-4450-9030-6ad8d055db27",
+  "currentNote": "tech/agent-mem-papers/0-agent-memory-overview.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

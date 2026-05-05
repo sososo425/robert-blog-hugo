@@ -1,0 +1,2 @@
+[  236644ms] [ERROR] Connecting to 'https://raw.githubusercontent.com/HKUDS/LightRAG/refs/heads/main/lightrag/base.py' violates the following Content Security Policy directive: "default-src 'none'". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The action has been blocked. @ :1
+[  236644ms] [ERROR] Fetch API cannot load https://raw.githubusercontent.com/HKUDS/LightRAG/refs/heads/main/lightrag/base.py. Refused to connect because it violates the document's Content Security Policy. @ :1

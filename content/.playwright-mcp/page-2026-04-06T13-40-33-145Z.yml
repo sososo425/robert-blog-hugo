@@ -1,0 +1,231 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fjackboyla%2FGLiREL%2Fissues%3Fq%3DModernBERT
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fissues%2Findex&source=header-repo&source_repo=jackboyla%2FGLiREL
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "jackboyla" [ref=e70] [cursor=pointer]:
+            - /url: /jackboyla
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "GLiREL" [ref=e73] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 22" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                - img [ref=e82]
+                - text: Fork
+                - generic "22" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                - img [ref=e88]
+                - text: Star
+                - generic "263 users starred this repository" [ref=e90]: "263"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 10" [ref=e99] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "10" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 2" [ref=e106] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "2" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "Issues" [level=1] [ref=e144]
+      - generic [ref=e145]:
+        - generic [ref=e147]:
+          - form "Search Issues" [ref=e149]:
+            - generic [ref=e150]: Search Issues
+            - generic [ref=e152]:
+              - generic [ref=e154]:
+                - generic [ref=e156]: ModernBERT
+                - combobox "Search Issues" [ref=e158]: ModernBERT
+              - button "Search" [ref=e159] [cursor=pointer]:
+                - img [ref=e160]
+          - generic [ref=e162]:
+            - link "Labels" [ref=e163] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/labels
+              - generic [ref=e164]:
+                - generic:
+                  - img
+                - generic [ref=e165]: Labels
+            - link "Milestones" [ref=e166] [cursor=pointer]:
+              - /url: /jackboyla/GLiREL/milestones
+              - generic [ref=e167]:
+                - generic:
+                  - img
+                - generic [ref=e168]: Milestones
+            - link "New issue" [ref=e169] [cursor=pointer]:
+              - /url: /login?return_to=https://github.com/jackboyla/GLiREL/issues?q=ModernBERT
+              - generic [ref=e171]: New issue
+        - generic [ref=e175]:
+          - heading "Search results" [level=2] [ref=e176]
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - link "Open" [ref=e179] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e180]: Open
+              - link "Closed" [ref=e182] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e183]: Closed
+            - toolbar "Actions" [ref=e185]:
+              - generic [ref=e186]:
+                - button "Filter by author" [ref=e188] [cursor=pointer]:
+                  - generic [ref=e189]:
+                    - generic [ref=e190]: Author
+                    - generic:
+                      - img
+                - button "Filter by label" [ref=e192] [cursor=pointer]:
+                  - generic [ref=e193]:
+                    - generic [ref=e194]: Labels
+                    - generic:
+                      - img
+                - button "Filter by project" [ref=e196] [cursor=pointer]:
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: Projects
+                    - generic:
+                      - img
+                - button "Filter by milestone" [ref=e200] [cursor=pointer]:
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: Milestones
+                    - generic:
+                      - img
+                - button "Filter by assignees" [ref=e204] [cursor=pointer]:
+                  - generic [ref=e205]:
+                    - generic [ref=e206]: Assignees
+                    - generic:
+                      - img
+                - button "Sort by Newest , descending" [ref=e208] [cursor=pointer]:
+                  - generic [ref=e209]:
+                    - generic:
+                      - img
+                    - generic [ref=e210]:
+                      - generic [ref=e211]: Sort by
+                      - text: Newest
+                      - generic [ref=e212]: ", descending"
+                  - generic:
+                    - img
+          - region [ref=e214]:
+            - heading "No results" [level=3] [ref=e215]
+            - paragraph [ref=e216]: Try adjusting your search filters.
+  - contentinfo [ref=e217]:
+    - heading "Footer" [level=2] [ref=e218]
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - link "GitHub Homepage" [ref=e221] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e222]
+        - generic [ref=e224]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e225]:
+        - heading "Footer navigation" [level=3] [ref=e226]
+        - list "Footer navigation" [ref=e227]:
+          - listitem [ref=e228]:
+            - link "Terms" [ref=e229] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e230]:
+            - link "Privacy" [ref=e231] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e232]:
+            - link "Security" [ref=e233] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e234]:
+            - link "Status" [ref=e235] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e236]:
+            - link "Community" [ref=e237] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e238]:
+            - link "Docs" [ref=e239] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e240]:
+            - link "Contact" [ref=e241] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e242]:
+            - button "Manage cookies" [ref=e244] [cursor=pointer]
+          - listitem [ref=e245]:
+            - button "Do not share my personal information" [ref=e247] [cursor=pointer]

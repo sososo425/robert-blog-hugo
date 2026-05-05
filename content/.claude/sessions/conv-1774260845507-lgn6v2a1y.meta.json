@@ -1,0 +1,20 @@
+{
+  "id": "conv-1774260845507-lgn6v2a1y",
+  "title": "Estimate tokens needed for Agent Infra design docs",
+  "titleGenerationStatus": "success",
+  "createdAt": 1774260845507,
+  "updatedAt": 1774342052649,
+  "lastResponseAt": 1774261038889,
+  "sessionId": "6f919b35-f6c2-4c0b-8d3a-2e8ac1cace51",
+  "sdkSessionId": "6f919b35-f6c2-4c0b-8d3a-2e8ac1cace51",
+  "currentNote": "private/tech/agent-memory-infra/整体技术方案-版本A/00-概要设计.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 18246,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 18246,
+    "percentage": 9
+  }
+}

@@ -1,0 +1,846 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "MoritzLaurer / bge-m3-zeroshot-v2.0 like 61" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /MoritzLaurer
+          - link "MoritzLaurer" [ref=e70] [cursor=pointer]:
+            - /url: /MoritzLaurer
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "bge-m3-zeroshot-v2.0" [ref=e73] [cursor=pointer]:
+            - /url: /MoritzLaurer/bge-m3-zeroshot-v2.0
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "61" [ref=e84] [cursor=pointer]
+      - generic [ref=e85]:
+        - link "Zero-Shot Classification" [ref=e86] [cursor=pointer]:
+          - /url: /models?pipeline_tag=zero-shot-classification
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - generic [ref=e101]: Zero-Shot Classification
+        - link "Transformers" [ref=e102] [cursor=pointer]:
+          - /url: /models?library=transformers
+          - generic [ref=e103]:
+            - img [ref=e104]
+            - generic [ref=e115]: Transformers
+        - link "ONNX" [ref=e116] [cursor=pointer]:
+          - /url: /models?library=onnx
+          - generic [ref=e117]:
+            - img [ref=e118]
+            - generic [ref=e128]: ONNX
+        - link "Safetensors" [ref=e129] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e130]:
+            - img [ref=e131]
+            - generic [ref=e133]: Safetensors
+        - link "multilingual" [ref=e134] [cursor=pointer]:
+          - /url: /models?language=multilingual
+          - generic [ref=e135]:
+            - img [ref=e136]
+            - generic [ref=e138]: multilingual
+        - link "xlm-roberta" [ref=e139] [cursor=pointer]:
+          - /url: /models?other=xlm-roberta
+          - generic [ref=e141]: xlm-roberta
+        - link "text-classification" [ref=e142] [cursor=pointer]:
+          - /url: /models?other=text-classification
+          - generic [ref=e144]: text-classification
+        - 'button "arxiv: 2312.17543" [ref=e146] [cursor=pointer]':
+          - generic [ref=e148]:
+            - img [ref=e149]
+            - generic [ref=e152]: "arxiv:"
+            - generic [ref=e153]: "2312.17543"
+        - 'button "License: mit" [ref=e156] [cursor=pointer]':
+          - generic [ref=e158]:
+            - img [ref=e159]
+            - generic [ref=e161]: "License:"
+            - generic [ref=e162]: mit
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - link "Model card" [ref=e166] [cursor=pointer]:
+            - /url: /MoritzLaurer/bge-m3-zeroshot-v2.0
+            - img [ref=e167]
+            - text: Model card
+          - link "Files xet" [ref=e171] [cursor=pointer]:
+            - /url: /MoritzLaurer/bge-m3-zeroshot-v2.0/tree/main
+            - img [ref=e172]
+            - generic [ref=e175]: Files
+            - generic [ref=e178]:
+              - img [ref=e179]
+              - generic [ref=e182]: xet
+          - link "Community 11" [ref=e183] [cursor=pointer]:
+            - /url: /MoritzLaurer/bge-m3-zeroshot-v2.0/discussions
+            - img [ref=e184]
+            - text: Community
+            - generic [ref=e187]: "11"
+        - generic [ref=e188]:
+          - button [ref=e191] [cursor=pointer]:
+            - img [ref=e192]
+          - generic [ref=e196]:
+            - button "Deploy" [ref=e198] [cursor=pointer]:
+              - img [ref=e199]
+              - text: Deploy
+              - img [ref=e202]
+            - dialog
+          - button "Use this model" [ref=e205] [cursor=pointer]:
+            - img [ref=e206]
+            - text: Use this model
+            - img [ref=e208]
+    - generic [ref=e210]:
+      - generic [ref=e212]:
+        - button [ref=e218] [cursor=pointer]:
+          - img [ref=e219]
+        - generic [ref=e221]:
+          - 'heading "Model description: bge-m3-zeroshot-v2.0" [level=1] [ref=e222]':
+            - link [ref=e223] [cursor=pointer]:
+              - /url: "#model-description--bge-m3-zeroshot-v20"
+              - img [ref=e225]
+            - generic [ref=e227]: "Model description: bge-m3-zeroshot-v2.0"
+          - heading "zeroshot-v2.0 series of models" [level=2] [ref=e228]:
+            - link [ref=e229] [cursor=pointer]:
+              - /url: "#zeroshot-v20-series-of-models"
+              - img [ref=e231]
+            - generic [ref=e233]: zeroshot-v2.0 series of models
+          - paragraph [ref=e234]:
+            - text: Models in this series are designed for efficient zeroshot classification with the Hugging Face pipeline. These models can do classification without training data and run on both GPUs and CPUs. An overview of the latest zeroshot classifiers is available in my
+            - link "Zeroshot Classifier Collection" [ref=e235] [cursor=pointer]:
+              - /url: https://huggingface.co/collections/MoritzLaurer/zeroshot-classifiers-6548b4ff407bb19ff5c3ad6f
+            - text: .
+          - paragraph [ref=e236]:
+            - text: The main update of this
+            - code [ref=e237]: zeroshot-v2.0
+            - text: series of models is that several models are trained on fully commercially-friendly data for users with strict license requirements.
+          - paragraph [ref=e238]:
+            - text: "These models can do one universal classification task: determine whether a hypothesis is \"true\" or \"not true\" given a text ("
+            - code [ref=e239]: entailment
+            - text: vs.
+            - code [ref=e240]: not_entailment
+            - text: ).
+            - text: This task format is based on the Natural Language Inference task (NLI). The task is so universal that any classification task can be reformulated into this task by the Hugging Face pipeline.
+          - heading "Training data" [level=2] [ref=e241]:
+            - link [ref=e242] [cursor=pointer]:
+              - /url: "#training-data"
+              - img [ref=e244]
+            - generic [ref=e246]: Training data
+          - paragraph [ref=e247]:
+            - text: Models with a "
+            - code [ref=e248]: "-c"
+            - text: "\" in the name are trained on two types of fully commercially-friendly data:"
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - text: Synthetic data generated with
+              - link "Mixtral-8x7B-Instruct-v0.1" [ref=e251] [cursor=pointer]:
+                - /url: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1
+              - text: . I first created a list of 500+ diverse text classification tasks for 25 professions in conversations with Mistral-large. The data was manually curated. I then used this as seed data to generate several hundred thousand texts for these tasks with Mixtral-8x7B-Instruct-v0.1. The final dataset used is available in the
+              - link "synthetic_zeroshot_mixtral_v0.1" [ref=e252] [cursor=pointer]:
+                - /url: https://huggingface.co/datasets/MoritzLaurer/synthetic_zeroshot_mixtral_v0.1
+              - text: dataset in the subset
+              - code [ref=e253]: mixtral_written_text_for_tasks_v4
+              - text: . Data curation was done in multiple iterations and will be improved in future iterations.
+            - listitem [ref=e254]:
+              - text: "Two commercially-friendly NLI datasets: ("
+              - link "MNLI" [ref=e255] [cursor=pointer]:
+                - /url: https://huggingface.co/datasets/nyu-mll/multi_nli
+              - text: ","
+              - link "FEVER-NLI" [ref=e256] [cursor=pointer]:
+                - /url: https://huggingface.co/datasets/fever
+              - text: ). These datasets were added to increase generalization.
+            - listitem [ref=e257]:
+              - text: Models without a "
+              - code [ref=e258]: "-c"
+              - text: "\" in the name also included a broader mix of training data with a broader mix of licenses: ANLI, WANLI, LingNLI, and all datasets in"
+              - link "this list" [ref=e259] [cursor=pointer]:
+                - /url: https://github.com/MoritzLaurer/zeroshot-classifier/blob/7f82e4ab88d7aa82a4776f161b368cc9fa778001/v1_human_data/datasets_overview.csv
+              - text: where
+              - code [ref=e260]: used_in_v1.1==True
+              - text: .
+          - heading "How to use the models" [level=2] [ref=e261]:
+            - link [ref=e262] [cursor=pointer]:
+              - /url: "#how-to-use-the-models"
+              - img [ref=e264]
+            - generic [ref=e266]: How to use the models
+          - generic [ref=e267]:
+            - code [ref=e269]: "#!pip install transformers[sentencepiece] from transformers import pipeline text = \"Angela Merkel is a politician in Germany and leader of the CDU\" hypothesis_template = \"This text is about {}\" classes_verbalized = [\"politics\", \"economy\", \"entertainment\", \"environment\"] zeroshot_classifier = pipeline(\"zero-shot-classification\", model=\"MoritzLaurer/deberta-v3-large-zeroshot-v2.0\") # change the model identifier here output = zeroshot_classifier(text, classes_verbalized, hypothesis_template=hypothesis_template, multi_label=False) print(output)"
+            - button [ref=e270] [cursor=pointer]:
+              - img [ref=e271]
+          - paragraph [ref=e275]:
+            - code [ref=e276]: multi_label=False
+            - text: forces the model to decide on only one class.
+            - code [ref=e277]: multi_label=True
+            - text: enables the model to choose multiple classes.
+          - heading "Metrics" [level=2] [ref=e278]:
+            - link [ref=e279] [cursor=pointer]:
+              - /url: "#metrics"
+              - img [ref=e281]
+            - generic [ref=e283]: Metrics
+          - paragraph [ref=e284]:
+            - text: The models were evaluated on 28 different text classification tasks with the
+            - link "f1_macro" [ref=e285] [cursor=pointer]:
+              - /url: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
+            - text: metric. The main reference point is
+            - code [ref=e286]: facebook/bart-large-mnli
+            - text: which is, at the time of writing (03.04.24), the most used commercially-friendly 0-shot classifier.
+          - paragraph [ref=e287]:
+            - link "results_aggreg_v2.0" [ref=e288] [cursor=pointer]:
+              - /url: https://raw.githubusercontent.com/MoritzLaurer/zeroshot-classifier/main/v2_synthetic_data/results/zeroshot-v2.0-aggreg.png
+              - img "results_aggreg_v2.0" [ref=e289]
+          - table [ref=e291]:
+            - rowgroup [ref=e292]:
+              - row "facebook/bart-large-mnli roberta-base-zeroshot-v2.0-c roberta-large-zeroshot-v2.0-c deberta-v3-base-zeroshot-v2.0-c deberta-v3-base-zeroshot-v2.0 (fewshot) deberta-v3-large-zeroshot-v2.0-c deberta-v3-large-zeroshot-v2.0 (fewshot) bge-m3-zeroshot-v2.0-c bge-m3-zeroshot-v2.0 (fewshot)" [ref=e293]:
+                - columnheader [ref=e294]
+                - columnheader "facebook/bart-large-mnli" [ref=e295]
+                - columnheader "roberta-base-zeroshot-v2.0-c" [ref=e296]
+                - columnheader "roberta-large-zeroshot-v2.0-c" [ref=e297]
+                - columnheader "deberta-v3-base-zeroshot-v2.0-c" [ref=e298]
+                - columnheader "deberta-v3-base-zeroshot-v2.0 (fewshot)" [ref=e299]
+                - columnheader "deberta-v3-large-zeroshot-v2.0-c" [ref=e300]
+                - columnheader "deberta-v3-large-zeroshot-v2.0 (fewshot)" [ref=e301]
+                - columnheader "bge-m3-zeroshot-v2.0-c" [ref=e302]
+                - columnheader "bge-m3-zeroshot-v2.0 (fewshot)" [ref=e303]
+            - rowgroup [ref=e304]:
+              - row "all datasets mean 0.497 0.587 0.622 0.619 0.643 (0.834) 0.676 0.673 (0.846) 0.59 (0.803)" [ref=e305]:
+                - cell "all datasets mean" [ref=e306]
+                - cell "0.497" [ref=e307]
+                - cell "0.587" [ref=e308]
+                - cell "0.622" [ref=e309]
+                - cell "0.619" [ref=e310]
+                - cell "0.643 (0.834)" [ref=e311]
+                - cell "0.676" [ref=e312]
+                - cell "0.673 (0.846)" [ref=e313]
+                - cell "0.59" [ref=e314]
+                - cell "(0.803)" [ref=e315]
+              - row "amazonpolarity (2) 0.937 0.924 0.951 0.937 0.943 (0.961) 0.952 0.956 (0.968) 0.942 (0.951)" [ref=e316]:
+                - cell "amazonpolarity (2)" [ref=e317]
+                - cell "0.937" [ref=e318]
+                - cell "0.924" [ref=e319]
+                - cell "0.951" [ref=e320]
+                - cell "0.937" [ref=e321]
+                - cell "0.943 (0.961)" [ref=e322]
+                - cell "0.952" [ref=e323]
+                - cell "0.956 (0.968)" [ref=e324]
+                - cell "0.942" [ref=e325]
+                - cell "(0.951)" [ref=e326]
+              - row "imdb (2) 0.892 0.871 0.904 0.893 0.899 (0.936) 0.923 0.918 (0.958) 0.873 (0.917)" [ref=e327]:
+                - cell "imdb (2)" [ref=e328]
+                - cell "0.892" [ref=e329]
+                - cell "0.871" [ref=e330]
+                - cell "0.904" [ref=e331]
+                - cell "0.893" [ref=e332]
+                - cell "0.899 (0.936)" [ref=e333]
+                - cell "0.923" [ref=e334]
+                - cell "0.918 (0.958)" [ref=e335]
+                - cell "0.873" [ref=e336]
+                - cell "(0.917)" [ref=e337]
+              - row "appreviews (2) 0.934 0.913 0.937 0.938 0.945 (0.948) 0.943 0.949 (0.962) 0.932 (0.954)" [ref=e338]:
+                - cell "appreviews (2)" [ref=e339]
+                - cell "0.934" [ref=e340]
+                - cell "0.913" [ref=e341]
+                - cell "0.937" [ref=e342]
+                - cell "0.938" [ref=e343]
+                - cell "0.945 (0.948)" [ref=e344]
+                - cell "0.943" [ref=e345]
+                - cell "0.949 (0.962)" [ref=e346]
+                - cell "0.932" [ref=e347]
+                - cell "(0.954)" [ref=e348]
+              - row "yelpreviews (2) 0.948 0.953 0.977 0.979 0.975 (0.989) 0.988 0.985 (0.994) 0.973 (0.978)" [ref=e349]:
+                - cell "yelpreviews (2)" [ref=e350]
+                - cell "0.948" [ref=e351]
+                - cell "0.953" [ref=e352]
+                - cell "0.977" [ref=e353]
+                - cell "0.979" [ref=e354]
+                - cell "0.975 (0.989)" [ref=e355]
+                - cell "0.988" [ref=e356]
+                - cell "0.985 (0.994)" [ref=e357]
+                - cell "0.973" [ref=e358]
+                - cell "(0.978)" [ref=e359]
+              - row "rottentomatoes (2) 0.83 0.802 0.841 0.84 0.86 (0.902) 0.869 0.868 (0.908) 0.813 (0.866)" [ref=e360]:
+                - cell "rottentomatoes (2)" [ref=e361]
+                - cell "0.83" [ref=e362]
+                - cell "0.802" [ref=e363]
+                - cell "0.841" [ref=e364]
+                - cell "0.84" [ref=e365]
+                - cell "0.86 (0.902)" [ref=e366]
+                - cell "0.869" [ref=e367]
+                - cell "0.868 (0.908)" [ref=e368]
+                - cell "0.813" [ref=e369]
+                - cell "(0.866)" [ref=e370]
+              - row "emotiondair (6) 0.455 0.482 0.486 0.459 0.495 (0.748) 0.499 0.484 (0.688) 0.453 (0.697)" [ref=e371]:
+                - cell "emotiondair (6)" [ref=e372]
+                - cell "0.455" [ref=e373]
+                - cell "0.482" [ref=e374]
+                - cell "0.486" [ref=e375]
+                - cell "0.459" [ref=e376]
+                - cell "0.495 (0.748)" [ref=e377]
+                - cell "0.499" [ref=e378]
+                - cell "0.484 (0.688)" [ref=e379]
+                - cell "0.453" [ref=e380]
+                - cell "(0.697)" [ref=e381]
+              - row "emocontext (4) 0.497 0.555 0.63 0.59 0.592 (0.799) 0.699 0.676 (0.81) 0.61 (0.798)" [ref=e382]:
+                - cell "emocontext (4)" [ref=e383]
+                - cell "0.497" [ref=e384]
+                - cell "0.555" [ref=e385]
+                - cell "0.63" [ref=e386]
+                - cell "0.59" [ref=e387]
+                - cell "0.592 (0.799)" [ref=e388]
+                - cell "0.699" [ref=e389]
+                - cell "0.676 (0.81)" [ref=e390]
+                - cell "0.61" [ref=e391]
+                - cell "(0.798)" [ref=e392]
+              - row "empathetic (32) 0.371 0.374 0.404 0.378 0.405 (0.53) 0.447 0.478 (0.555) 0.387 (0.455)" [ref=e393]:
+                - cell "empathetic (32)" [ref=e394]
+                - cell "0.371" [ref=e395]
+                - cell "0.374" [ref=e396]
+                - cell "0.404" [ref=e397]
+                - cell "0.378" [ref=e398]
+                - cell "0.405 (0.53)" [ref=e399]
+                - cell "0.447" [ref=e400]
+                - cell "0.478 (0.555)" [ref=e401]
+                - cell "0.387" [ref=e402]
+                - cell "(0.455)" [ref=e403]
+              - row "financialphrasebank (3) 0.465 0.562 0.455 0.714 0.669 (0.906) 0.691 0.582 (0.913) 0.504 (0.895)" [ref=e404]:
+                - cell "financialphrasebank (3)" [ref=e405]
+                - cell "0.465" [ref=e406]
+                - cell "0.562" [ref=e407]
+                - cell "0.455" [ref=e408]
+                - cell "0.714" [ref=e409]
+                - cell "0.669 (0.906)" [ref=e410]
+                - cell "0.691" [ref=e411]
+                - cell "0.582 (0.913)" [ref=e412]
+                - cell "0.504" [ref=e413]
+                - cell "(0.895)" [ref=e414]
+              - row "banking77 (72) 0.312 0.124 0.29 0.421 0.446 (0.751) 0.513 0.567 (0.766) 0.387 (0.715)" [ref=e415]:
+                - cell "banking77 (72)" [ref=e416]
+                - cell "0.312" [ref=e417]
+                - cell "0.124" [ref=e418]
+                - cell "0.29" [ref=e419]
+                - cell "0.421" [ref=e420]
+                - cell "0.446 (0.751)" [ref=e421]
+                - cell "0.513" [ref=e422]
+                - cell "0.567 (0.766)" [ref=e423]
+                - cell "0.387" [ref=e424]
+                - cell "(0.715)" [ref=e425]
+              - row "massive (59) 0.43 0.428 0.543 0.512 0.52 (0.755) 0.526 0.518 (0.789) 0.414 (0.692)" [ref=e426]:
+                - cell "massive (59)" [ref=e427]
+                - cell "0.43" [ref=e428]
+                - cell "0.428" [ref=e429]
+                - cell "0.543" [ref=e430]
+                - cell "0.512" [ref=e431]
+                - cell "0.52 (0.755)" [ref=e432]
+                - cell "0.526" [ref=e433]
+                - cell "0.518 (0.789)" [ref=e434]
+                - cell "0.414" [ref=e435]
+                - cell "(0.692)" [ref=e436]
+              - row "wikitoxic_toxicaggreg (2) 0.547 0.751 0.766 0.751 0.769 (0.904) 0.741 0.787 (0.911) 0.736 (0.9)" [ref=e437]:
+                - cell "wikitoxic_toxicaggreg (2)" [ref=e438]
+                - cell "0.547" [ref=e439]
+                - cell "0.751" [ref=e440]
+                - cell "0.766" [ref=e441]
+                - cell "0.751" [ref=e442]
+                - cell "0.769 (0.904)" [ref=e443]
+                - cell "0.741" [ref=e444]
+                - cell "0.787 (0.911)" [ref=e445]
+                - cell "0.736" [ref=e446]
+                - cell "(0.9)" [ref=e447]
+              - row "wikitoxic_obscene (2) 0.713 0.817 0.854 0.853 0.869 (0.922) 0.883 0.893 (0.933) 0.783 (0.914)" [ref=e448]:
+                - cell "wikitoxic_obscene (2)" [ref=e449]
+                - cell "0.713" [ref=e450]
+                - cell "0.817" [ref=e451]
+                - cell "0.854" [ref=e452]
+                - cell "0.853" [ref=e453]
+                - cell "0.869 (0.922)" [ref=e454]
+                - cell "0.883" [ref=e455]
+                - cell "0.893 (0.933)" [ref=e456]
+                - cell "0.783" [ref=e457]
+                - cell "(0.914)" [ref=e458]
+              - row "wikitoxic_threat (2) 0.295 0.71 0.817 0.813 0.87 (0.946) 0.827 0.879 (0.952) 0.68 (0.947)" [ref=e459]:
+                - cell "wikitoxic_threat (2)" [ref=e460]
+                - cell "0.295" [ref=e461]
+                - cell "0.71" [ref=e462]
+                - cell "0.817" [ref=e463]
+                - cell "0.813" [ref=e464]
+                - cell "0.87 (0.946)" [ref=e465]
+                - cell "0.827" [ref=e466]
+                - cell "0.879 (0.952)" [ref=e467]
+                - cell "0.68" [ref=e468]
+                - cell "(0.947)" [ref=e469]
+              - row "wikitoxic_insult (2) 0.372 0.724 0.798 0.759 0.811 (0.912) 0.77 0.779 (0.924) 0.783 (0.915)" [ref=e470]:
+                - cell "wikitoxic_insult (2)" [ref=e471]
+                - cell "0.372" [ref=e472]
+                - cell "0.724" [ref=e473]
+                - cell "0.798" [ref=e474]
+                - cell "0.759" [ref=e475]
+                - cell "0.811 (0.912)" [ref=e476]
+                - cell "0.77" [ref=e477]
+                - cell "0.779 (0.924)" [ref=e478]
+                - cell "0.783" [ref=e479]
+                - cell "(0.915)" [ref=e480]
+              - row "wikitoxic_identityhate (2) 0.473 0.774 0.798 0.774 0.765 (0.938) 0.797 0.806 (0.948) 0.761 (0.931)" [ref=e481]:
+                - cell "wikitoxic_identityhate (2)" [ref=e482]
+                - cell "0.473" [ref=e483]
+                - cell "0.774" [ref=e484]
+                - cell "0.798" [ref=e485]
+                - cell "0.774" [ref=e486]
+                - cell "0.765 (0.938)" [ref=e487]
+                - cell "0.797" [ref=e488]
+                - cell "0.806 (0.948)" [ref=e489]
+                - cell "0.761" [ref=e490]
+                - cell "(0.931)" [ref=e491]
+              - row "hateoffensive (3) 0.161 0.352 0.29 0.315 0.371 (0.862) 0.47 0.461 (0.847) 0.291 (0.823)" [ref=e492]:
+                - cell "hateoffensive (3)" [ref=e493]
+                - cell "0.161" [ref=e494]
+                - cell "0.352" [ref=e495]
+                - cell "0.29" [ref=e496]
+                - cell "0.315" [ref=e497]
+                - cell "0.371 (0.862)" [ref=e498]
+                - cell "0.47" [ref=e499]
+                - cell "0.461 (0.847)" [ref=e500]
+                - cell "0.291" [ref=e501]
+                - cell "(0.823)" [ref=e502]
+              - row "hatexplain (3) 0.239 0.396 0.314 0.376 0.369 (0.765) 0.378 0.389 (0.764) 0.29 (0.729)" [ref=e503]:
+                - cell "hatexplain (3)" [ref=e504]
+                - cell "0.239" [ref=e505]
+                - cell "0.396" [ref=e506]
+                - cell "0.314" [ref=e507]
+                - cell "0.376" [ref=e508]
+                - cell "0.369 (0.765)" [ref=e509]
+                - cell "0.378" [ref=e510]
+                - cell "0.389 (0.764)" [ref=e511]
+                - cell "0.29" [ref=e512]
+                - cell "(0.729)" [ref=e513]
+              - row "biasframes_offensive (2) 0.336 0.571 0.583 0.544 0.601 (0.867) 0.644 0.656 (0.883) 0.541 (0.855)" [ref=e514]:
+                - cell "biasframes_offensive (2)" [ref=e515]
+                - cell "0.336" [ref=e516]
+                - cell "0.571" [ref=e517]
+                - cell "0.583" [ref=e518]
+                - cell "0.544" [ref=e519]
+                - cell "0.601 (0.867)" [ref=e520]
+                - cell "0.644" [ref=e521]
+                - cell "0.656 (0.883)" [ref=e522]
+                - cell "0.541" [ref=e523]
+                - cell "(0.855)" [ref=e524]
+              - row "biasframes_sex (2) 0.263 0.617 0.835 0.741 0.809 (0.922) 0.846 0.815 (0.946) 0.748 (0.905)" [ref=e525]:
+                - cell "biasframes_sex (2)" [ref=e526]
+                - cell "0.263" [ref=e527]
+                - cell "0.617" [ref=e528]
+                - cell "0.835" [ref=e529]
+                - cell "0.741" [ref=e530]
+                - cell "0.809 (0.922)" [ref=e531]
+                - cell "0.846" [ref=e532]
+                - cell "0.815 (0.946)" [ref=e533]
+                - cell "0.748" [ref=e534]
+                - cell "(0.905)" [ref=e535]
+              - row "biasframes_intent (2) 0.616 0.531 0.635 0.554 0.61 (0.881) 0.696 0.687 (0.891) 0.467 (0.868)" [ref=e536]:
+                - cell "biasframes_intent (2)" [ref=e537]
+                - cell "0.616" [ref=e538]
+                - cell "0.531" [ref=e539]
+                - cell "0.635" [ref=e540]
+                - cell "0.554" [ref=e541]
+                - cell "0.61 (0.881)" [ref=e542]
+                - cell "0.696" [ref=e543]
+                - cell "0.687 (0.891)" [ref=e544]
+                - cell "0.467" [ref=e545]
+                - cell "(0.868)" [ref=e546]
+              - row "agnews (4) 0.703 0.758 0.745 0.68 0.742 (0.898) 0.819 0.771 (0.898) 0.687 (0.892)" [ref=e547]:
+                - cell "agnews (4)" [ref=e548]
+                - cell "0.703" [ref=e549]
+                - cell "0.758" [ref=e550]
+                - cell "0.745" [ref=e551]
+                - cell "0.68" [ref=e552]
+                - cell "0.742 (0.898)" [ref=e553]
+                - cell "0.819" [ref=e554]
+                - cell "0.771 (0.898)" [ref=e555]
+                - cell "0.687" [ref=e556]
+                - cell "(0.892)" [ref=e557]
+              - row "yahootopics (10) 0.299 0.543 0.62 0.578 0.564 (0.722) 0.621 0.613 (0.738) 0.587 (0.711)" [ref=e558]:
+                - cell "yahootopics (10)" [ref=e559]
+                - cell "0.299" [ref=e560]
+                - cell "0.543" [ref=e561]
+                - cell "0.62" [ref=e562]
+                - cell "0.578" [ref=e563]
+                - cell "0.564 (0.722)" [ref=e564]
+                - cell "0.621" [ref=e565]
+                - cell "0.613 (0.738)" [ref=e566]
+                - cell "0.587" [ref=e567]
+                - cell "(0.711)" [ref=e568]
+              - row "trueteacher (2) 0.491 0.469 0.402 0.431 0.479 (0.82) 0.459 0.538 (0.846) 0.471 (0.518)" [ref=e569]:
+                - cell "trueteacher (2)" [ref=e570]
+                - cell "0.491" [ref=e571]
+                - cell "0.469" [ref=e572]
+                - cell "0.402" [ref=e573]
+                - cell "0.431" [ref=e574]
+                - cell "0.479 (0.82)" [ref=e575]
+                - cell "0.459" [ref=e576]
+                - cell "0.538 (0.846)" [ref=e577]
+                - cell "0.471" [ref=e578]
+                - cell "(0.518)" [ref=e579]
+              - row "spam (2) 0.505 0.528 0.504 0.507 0.464 (0.973) 0.74 0.597 (0.983) 0.441 (0.978)" [ref=e580]:
+                - cell "spam (2)" [ref=e581]
+                - cell "0.505" [ref=e582]
+                - cell "0.528" [ref=e583]
+                - cell "0.504" [ref=e584]
+                - cell "0.507" [ref=e585]
+                - cell "0.464 (0.973)" [ref=e586]
+                - cell "0.74" [ref=e587]
+                - cell "0.597 (0.983)" [ref=e588]
+                - cell "0.441" [ref=e589]
+                - cell "(0.978)" [ref=e590]
+              - row "wellformedquery (2) 0.407 0.333 0.333 0.335 0.491 (0.769) 0.334 0.429 (0.815) 0.361 (0.718)" [ref=e591]:
+                - cell "wellformedquery (2)" [ref=e592]
+                - cell "0.407" [ref=e593]
+                - cell "0.333" [ref=e594]
+                - cell "0.333" [ref=e595]
+                - cell "0.335" [ref=e596]
+                - cell "0.491 (0.769)" [ref=e597]
+                - cell "0.334" [ref=e598]
+                - cell "0.429 (0.815)" [ref=e599]
+                - cell "0.361" [ref=e600]
+                - cell "(0.718)" [ref=e601]
+              - row "manifesto (56) 0.084 0.102 0.182 0.17 0.187 (0.376) 0.258 0.256 (0.408) 0.147 (0.331)" [ref=e602]:
+                - cell "manifesto (56)" [ref=e603]
+                - cell "0.084" [ref=e604]
+                - cell "0.102" [ref=e605]
+                - cell "0.182" [ref=e606]
+                - cell "0.17" [ref=e607]
+                - cell "0.187 (0.376)" [ref=e608]
+                - cell "0.258" [ref=e609]
+                - cell "0.256 (0.408)" [ref=e610]
+                - cell "0.147" [ref=e611]
+                - cell "(0.331)" [ref=e612]
+              - row "capsotu (21) 0.34 0.479 0.523 0.502 0.477 (0.664) 0.603 0.502 (0.686) 0.472 (0.644)" [ref=e613]:
+                - cell "capsotu (21)" [ref=e614]
+                - cell "0.34" [ref=e615]
+                - cell "0.479" [ref=e616]
+                - cell "0.523" [ref=e617]
+                - cell "0.502" [ref=e618]
+                - cell "0.477 (0.664)" [ref=e619]
+                - cell "0.603" [ref=e620]
+                - cell "0.502 (0.686)" [ref=e621]
+                - cell "0.472" [ref=e622]
+                - cell "(0.644)" [ref=e623]
+          - paragraph [ref=e624]:
+            - text: These numbers indicate zeroshot performance, as no data from these datasets was added in the training mix. Note that models without a "
+            - code [ref=e625]: "-c"
+            - text: "\" in the title were evaluated twice: one run without any data from these 28 datasets to test pure zeroshot performance (the first number in the respective column) and the final run including up to 500 training data points per class from each of the 28 datasets (the second number in brackets in the column, \"fewshot\"). No model was trained on test data."
+          - paragraph [ref=e626]:
+            - text: "Details on the different datasets are available here:"
+            - link "https://github.com/MoritzLaurer/zeroshot-classifier/blob/main/v1_human_data/datasets_overview.csv" [ref=e627] [cursor=pointer]:
+              - /url: https://github.com/MoritzLaurer/zeroshot-classifier/blob/main/v1_human_data/datasets_overview.csv
+          - heading "When to use which model" [level=2] [ref=e628]:
+            - link [ref=e629] [cursor=pointer]:
+              - /url: "#when-to-use-which-model"
+              - img [ref=e631]
+            - generic [ref=e633]: When to use which model
+          - list [ref=e634]:
+            - listitem [ref=e635]:
+              - strong [ref=e636]: deberta-v3-zeroshot vs. roberta-zeroshot
+              - text: ": deberta-v3 performs clearly better than roberta, but it is a bit slower. roberta is directly compatible with Hugging Face's production inference TEI containers and flash attention. These containers are a good choice for production use-cases. tl;dr: For accuracy, use a deberta-v3 model. If production inference speed is a concern, you can consider a roberta model (e.g. in a TEI container and"
+              - link "HF Inference Endpoints" [ref=e637] [cursor=pointer]:
+                - /url: https://ui.endpoints.huggingface.co/catalog
+              - text: ).
+            - listitem [ref=e638]:
+              - strong [ref=e639]: commercial use-cases
+              - text: ": models with \""
+              - code [ref=e640]: "-c"
+              - text: "\" in the title are guaranteed to be trained on only commercially-friendly data. Models without a \""
+              - code [ref=e641]: "-c"
+              - text: "\" were trained on more data and perform better, but include data with non-commercial licenses. Legal opinions diverge if this training data affects the license of the trained model. For users with strict legal requirements, the models with \""
+              - code [ref=e642]: "-c"
+              - text: "\" in the title are recommended."
+            - listitem [ref=e643]:
+              - strong [ref=e644]: Multilingual/non-English use-cases
+              - text: ": use"
+              - link "bge-m3-zeroshot-v2.0" [ref=e645] [cursor=pointer]:
+                - /url: https://huggingface.co/MoritzLaurer/bge-m3-zeroshot-v2.0
+              - text: or
+              - link "bge-m3-zeroshot-v2.0-c" [ref=e646] [cursor=pointer]:
+                - /url: https://huggingface.co/MoritzLaurer/bge-m3-zeroshot-v2.0-c
+              - text: . Note that multilingual models perform worse than English-only models. You can therefore also first machine translate your texts to English with libraries like
+              - link "EasyNMT" [ref=e647] [cursor=pointer]:
+                - /url: https://github.com/UKPLab/EasyNMT
+              - text: and then apply any English-only model to the translated data. Machine translation also facilitates validation in case your team does not speak all languages in the data.
+            - listitem [ref=e648]:
+              - strong [ref=e649]: context window
+              - text: ": The"
+              - code [ref=e650]: bge-m3
+              - text: models can process up to 8192 tokens. The other models can process up to 512. Note that longer text inputs both make the mode slower and decrease performance, so if you're only working with texts of up to 400~ words / 1 page, use e.g. a deberta model for better performance.
+            - listitem [ref=e651]:
+              - text: The latest updates on new models are always available in the
+              - link "Zeroshot Classifier Collection" [ref=e652] [cursor=pointer]:
+                - /url: https://huggingface.co/collections/MoritzLaurer/zeroshot-classifiers-6548b4ff407bb19ff5c3ad6f
+              - text: .
+          - heading "Reproduction" [level=2] [ref=e653]:
+            - link [ref=e654] [cursor=pointer]:
+              - /url: "#reproduction"
+              - img [ref=e656]
+            - generic [ref=e658]: Reproduction
+          - paragraph [ref=e659]:
+            - text: Reproduction code is available in the
+            - code [ref=e660]: v2_synthetic_data
+            - text: "directory here:"
+            - link "https://github.com/MoritzLaurer/zeroshot-classifier/tree/main" [ref=e661] [cursor=pointer]:
+              - /url: https://github.com/MoritzLaurer/zeroshot-classifier/tree/main
+          - heading "Limitations and bias" [level=2] [ref=e662]:
+            - link [ref=e663] [cursor=pointer]:
+              - /url: "#limitations-and-bias"
+              - img [ref=e665]
+            - generic [ref=e667]: Limitations and bias
+          - paragraph [ref=e668]: The model can only do text classification tasks.
+          - paragraph [ref=e669]: Biases can come from the underlying foundation model, the human NLI training data and the synthetic data generated by Mixtral.
+          - heading "License" [level=2] [ref=e670]:
+            - link [ref=e671] [cursor=pointer]:
+              - /url: "#license"
+              - img [ref=e673]
+            - generic [ref=e675]: License
+          - paragraph [ref=e676]: The foundation model was published under the MIT license. The licenses of the training data vary depending on the model, see above.
+          - heading "Citation" [level=2] [ref=e677]:
+            - link [ref=e678] [cursor=pointer]:
+              - /url: "#citation"
+              - img [ref=e680]
+            - generic [ref=e682]: Citation
+          - paragraph [ref=e683]:
+            - text: This model is an extension of the research described in this
+            - link "paper" [ref=e684] [cursor=pointer]:
+              - /url: https://arxiv.org/pdf/2312.17543.pdf
+            - text: .
+          - paragraph [ref=e685]: "If you use this model academically, please cite:"
+          - generic [ref=e686]:
+            - code [ref=e688]: "@misc{laurer_building_2023, title = {Building {Efficient} {Universal} {Classifiers} with {Natural} {Language} {Inference}}, url = {http://arxiv.org/abs/2312.17543}, doi = {10.48550/arXiv.2312.17543}, abstract = {Generative Large Language Models (LLMs) have become the mainstream choice for fewshot and zeroshot learning thanks to the universality of text generation. Many users, however, do not need the broad capabilities of generative LLMs when they only want to automate a classification task. Smaller BERT-like models can also learn universal tasks, which allow them to do any text classification task without requiring fine-tuning (zeroshot classification) or to learn new tasks with only a few examples (fewshot), while being significantly more efficient than generative LLMs. This paper (1) explains how Natural Language Inference (NLI) can be used as a universal classification task that follows similar principles as instruction fine-tuning of generative LLMs, (2) provides a step-by-step guide with reusable Jupyter notebooks for building a universal classifier, and (3) shares the resulting universal classifier that is trained on 33 datasets with 389 diverse classes. Parts of the code we share has been used to train our older zeroshot classifiers that have been downloaded more than 55 million times via the Hugging Face Hub as of December 2023. Our new classifier improves zeroshot performance by 9.4\\%.}, urldate = {2024-01-05}, publisher = {arXiv}, author = {Laurer, Moritz and van Atteveldt, Wouter and Casas, Andreu and Welbers, Kasper}, month = dec, year = {2023}, note = {arXiv:2312.17543 [cs]}, keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language}, }"
+            - button [ref=e689] [cursor=pointer]:
+              - img [ref=e690]
+          - heading "Ideas for cooperation or questions?" [level=3] [ref=e694]:
+            - link [ref=e695] [cursor=pointer]:
+              - /url: "#ideas-for-cooperation-or-questions"
+              - img [ref=e697]
+            - generic [ref=e699]: Ideas for cooperation or questions?
+          - paragraph [ref=e700]:
+            - text: "If you have questions or ideas for cooperation, contact me at moritz{at}huggingface{dot}co or"
+            - link "LinkedIn" [ref=e701] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/moritz-laurer/
+          - heading "Flexible usage and \"prompting\"" [level=3] [ref=e702]:
+            - link [ref=e703] [cursor=pointer]:
+              - /url: "#flexible-usage-and-prompting"
+              - img [ref=e705]
+            - generic [ref=e707]: Flexible usage and "prompting"
+          - paragraph [ref=e708]:
+            - text: You can formulate your own hypotheses by changing the
+            - code [ref=e709]: hypothesis_template
+            - text: of the zeroshot pipeline. Similar to "prompt engineering" for LLMs, you can test different formulations of your
+            - code [ref=e710]: hypothesis_template
+            - text: and verbalized classes to improve performance.
+          - generic [ref=e711]:
+            - code [ref=e713]: "from transformers import pipeline text = \"Angela Merkel is a politician in Germany and leader of the CDU\" # formulation 1 hypothesis_template = \"This text is about {}\" classes_verbalized = [\"politics\", \"economy\", \"entertainment\", \"environment\"] # formulation 2 depending on your use-case hypothesis_template = \"The topic of this text is {}\" classes_verbalized = [\"political activities\", \"economic policy\", \"entertainment or music\", \"environmental protection\"] # test different formulations zeroshot_classifier = pipeline(\"zero-shot-classification\", model=\"MoritzLaurer/deberta-v3-large-zeroshot-v2.0\") # change the model identifier here output = zeroshot_classifier(text, classes_verbalized, hypothesis_template=hypothesis_template, multi_label=False) print(output)"
+            - button [ref=e714] [cursor=pointer]:
+              - img [ref=e715]
+      - generic [ref=e719]:
+        - generic [ref=e720]:
+          - generic [ref=e721]:
+            - term [ref=e722]: Downloads last month
+            - definition [ref=e723]: 52,058
+          - img [ref=e725]
+        - generic [ref=e730]:
+          - generic [ref=e731]:
+            - img [ref=e732]
+            - text: Safetensors
+            - link [ref=e734] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/safetensors
+              - img [ref=e735]
+          - generic [ref=e739]:
+            - generic [ref=e740]:
+              - generic [ref=e741]: Model size
+              - generic [ref=e742]: 0.6B params
+            - generic [ref=e743]:
+              - generic [ref=e744]: Tensor type
+              - generic [ref=e745]: F16
+            - button "Files info" [ref=e747] [cursor=pointer]:
+              - img [ref=e748]
+              - paragraph [ref=e750]: Files info
+        - generic [ref=e754]:
+          - generic [ref=e755]:
+            - generic [ref=e756]:
+              - img [ref=e757]
+              - generic [ref=e760]: Inference Providers
+              - link "NEW" [ref=e761] [cursor=pointer]:
+                - /url: https://huggingface.co/docs/inference-providers
+            - button "HF Inference API" [ref=e764] [cursor=pointer]:
+              - generic [ref=e766]:
+                - img [ref=e767]
+                - generic [ref=e770]: HF Inference API
+          - link "Zero-Shot Classification" [ref=e773] [cursor=pointer]:
+            - /url: /tasks/zero-shot-classification
+            - generic [ref=e774]:
+              - img [ref=e775]
+              - generic [ref=e787]: Zero-Shot Classification
+          - generic [ref=e788]:
+            - textbox [ref=e792]:
+              - /placeholder: Text to classify...
+            - generic [ref=e795]:
+              - text: Possible class names (comma-separated)
+              - textbox "Possible class names (comma-separated)" [ref=e796]:
+                - /placeholder: Possible class names...
+            - generic [ref=e797] [cursor=pointer]:
+              - checkbox "Allow multiple true classes" [ref=e798]
+              - generic [ref=e799]: Allow multiple true classes
+            - button "Generate" [ref=e802] [cursor=pointer]
+          - generic [ref=e803]:
+            - button "View Code" [ref=e808] [cursor=pointer]:
+              - img [ref=e809]
+              - generic [ref=e813]: View Code
+            - button "Maximize" [ref=e817] [cursor=pointer]:
+              - img [ref=e818]
+              - text: Maximize
+        - heading "Model tree for MoritzLaurer/bge-m3-zeroshot-v2.0" [level=2] [ref=e823]:
+          - img [ref=e824]
+          - text: Model tree for
+          - generic [ref=e827]: MoritzLaurer/bge-m3-zeroshot-v2.0
+        - generic [ref=e828]:
+          - generic [ref=e829]:
+            - paragraph [ref=e830]: Base model
+            - link "BAAI/bge-m3-retromae" [ref=e832] [cursor=pointer]:
+              - /url: /BAAI/bge-m3-retromae
+          - generic [ref=e833]:
+            - img [ref=e835]
+            - generic [ref=e837]:
+              - img [ref=e838]
+              - text: Quantized
+            - generic [ref=e845]:
+              - text: (
+              - link "1" [ref=e846] [cursor=pointer]:
+                - /url: /models?other=base_model:quantized:BAAI/bge-m3-retromae
+              - text: )
+            - generic "MoritzLaurer/bge-m3-zeroshot-v2.0" [ref=e848]: this model
+          - generic [ref=e850]:
+            - img [ref=e853]
+            - generic [ref=e855]: Finetunes
+            - link "2 models" [ref=e857] [cursor=pointer]:
+              - /url: /models?other=base_model:finetune:MoritzLaurer/bge-m3-zeroshot-v2.0
+        - heading "Space using MoritzLaurer/bge-m3-zeroshot-v2.0 1" [level=2] [ref=e859]:
+          - img [ref=e860]
+          - text: Space using
+          - generic [ref=e866]: MoritzLaurer/bge-m3-zeroshot-v2.0
+          - generic [ref=e867]: "1"
+        - navigation [ref=e869]:
+          - link "🏛️ ArthurOrg/civicpulse-nlp" [ref=e870] [cursor=pointer]:
+            - /url: /spaces/ArthurOrg/civicpulse-nlp
+            - generic [ref=e871]: 🏛️
+            - generic [ref=e872]: ArthurOrg/civicpulse-nlp
+        - heading "Collection including MoritzLaurer/bge-m3-zeroshot-v2.0" [level=2] [ref=e874]:
+          - img [ref=e875]
+          - text: Collection including
+          - generic [ref=e879]: MoritzLaurer/bge-m3-zeroshot-v2.0
+        - article [ref=e882]:
+          - link "Zeroshot Classifiers Collection These are my current best zeroshot classifiers. Some of my older models are downloaded more often, but the models in this collection are newer/better. • 12 items • Updated Jan 6, 2025 • 151" [ref=e883] [cursor=pointer]:
+            - /url: /collections/MoritzLaurer/zeroshot-classifiers
+            - generic "Zeroshot Classifiers" [ref=e884]:
+              - heading "Zeroshot Classifiers" [level=4] [ref=e885]
+              - generic [ref=e886]:
+                - img [ref=e887]
+                - text: Collection
+            - generic [ref=e891]:
+              - generic [ref=e892]: These are my current best zeroshot classifiers. Some of my older models are downloaded more often, but the models in this collection are newer/better.
+              - generic [ref=e893]: •
+              - generic [ref=e894]: 12 items
+              - generic [ref=e895]: •
+              - generic [ref=e896]:
+                - text: Updated
+                - time [ref=e897]: Jan 6, 2025
+              - generic [ref=e898]: •
+              - img [ref=e899]
+              - text: "151"
+        - heading "Paper for MoritzLaurer/bge-m3-zeroshot-v2.0" [level=2] [ref=e903]:
+          - img [ref=e904]
+          - text: Paper for
+          - generic [ref=e907]: MoritzLaurer/bge-m3-zeroshot-v2.0
+        - article [ref=e909]:
+          - link "Building Efficient Universal Classifiers with Natural Language Inference Paper • 2312.17543 • Published Dec 29, 2023 • 4" [ref=e910] [cursor=pointer]:
+            - /url: /papers/2312.17543
+            - generic "arxiv:2312.17543" [ref=e911]:
+              - heading "Building Efficient Universal Classifiers with Natural Language Inference" [level=4] [ref=e912]
+            - generic [ref=e913]:
+              - img [ref=e914]
+              - text: Paper
+              - generic [ref=e917]: •
+              - text: "2312.17543"
+              - generic [ref=e918]: •
+              - generic [ref=e919]:
+                - text: Published
+                - time [ref=e920]: Dec 29, 2023
+              - generic [ref=e921]: •
+              - img [ref=e922]
+              - text: "4"
+  - contentinfo [ref=e924]:
+    - navigation [ref=e925]:
+      - button "System theme" [ref=e928] [cursor=pointer]:
+        - img [ref=e929]
+        - text: System theme
+      - link "TOS" [ref=e934] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e935] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e936] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e937] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e938] [cursor=pointer]:
+        - /url: /
+        - img [ref=e939]
+      - link "Models" [ref=e953] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e954] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e955] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e956] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e957] [cursor=pointer]:
+        - /url: /docs

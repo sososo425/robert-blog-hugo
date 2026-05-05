@@ -1,0 +1,375 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: flan-t5 relation extraction structured output triplet knowledge graph 2024 2025 flan-t5 relation extraction structured output triplet knowledge graph 2024 2025
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3Dflan-t5%2Brelation%2Bextraction%2Bstructured%2Boutput%2Btriplet%2Bknowledge%2Bgraph%2B2024%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrlrkSDkQE0bh2n9b50yhQrnJsmUoji-UJlb2rr8VSW1sHBesfxypaKQFun2qy7iOkFhrZg-1x7BTt684msRshacLk7UkwKcywJNVPS67UG5CFOGakr1ETmUbJX9hcHn1tzhJWzkVIRsu3tprKT4O7pNXtJhi37mpByfudaMx1P_ftSSWGQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ2J8OegQIEBAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "图片" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrlrkSDkQE0bh2n9b50yhQrnJsmUoji-UJlb2rr8VSW1sHBesfxypaKQFun2qy7iOkFhrZg-1x7BTt684msRshacLk7UkwKcywJNVPS67UG5CFOGakr1ETmUbJX9hcHn1tzhJWzkVIRsu3tprKT4O7pNXtJhi37mpByfudaMx1P_ftSSWGQ&q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sa=X&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQtKgLegQIFhAB
+              - generic [ref=e89]: 图片
+          - listitem [ref=e90]:
+            - link "短视频" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrlrkSDkQE0bh2n9b50yhQrnJsmUoji-UJlb2rr8VSW1sHBesfxypaKQFun2qy7iOkFhrZg-1x7BTt684msRshacLk7UkwKcywJNVPS67UG5CFOGakr1ETmUbJX9hcHn1tzhJWzkVIRsu3tprKT4O7pNXtJhi37mpByfudaMx1P_ftSSWGQ&q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sa=X&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQs6gLegQIFRAB
+              - generic [ref=e93]: 短视频
+          - listitem [ref=e94]:
+            - link "视频" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrlrkSDkQE0bh2n9b50yhQrnJsmUoji-UJlb2rr8VSW1sHBesfxypaKQFun2qy7iOkFhrZg-1x7BTt684msRshacLk7UkwKcywJNVPS67UG5CFOGakr1ETmUbJX9hcHn1tzhJWzkVIRsu3tprKT4O7pNXtJhi37mpByfudaMx1P_ftSSWGQ&q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sa=X&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQtKgLegQIFBAB
+              - generic [ref=e97]: 视频
+          - listitem [ref=e98]:
+            - link "购物" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrlrkSDkQE0bh2n9b50yhQrnJsmUoji-UJlb2rr8VSW1sHBesfxypaKQFun2qy7iOkFhrZg-1x7BTt684msRshacLk7UkwKcywJNVPS67UG5CFOGakr1ETmUbJX9hcHn1tzhJWzkVIRsu3tprKT4O7pNXtJhi37mpByfudaMx1P_ftSSWGQ&q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&ved=1t:220175&ictx=111
+              - generic [ref=e101]: 购物
+          - listitem [ref=e102]:
+            - link "新闻" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrlrkSDkQE0bh2n9b50yhQrnJsmUoji-UJlb2rr8VSW1sHBesfxypaKQFun2qy7iOkFhrZg-1x7BTt684msRshacLk7UkwKcywJNVPS67UG5CFOGakr1ETmUbJX9hcHn1tzhJWzkVIRsu3tprKT4O7pNXtJhi37mpByfudaMx1P_ftSSWGQ&sa=X&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ0pQJegQIExAB
+              - generic [ref=e105]: 新闻
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - table [ref=e138]:
+          - rowgroup [ref=e139]:
+            - row "Google 学术：flan-t5 relation extraction structured output triplet knowledge graph 2024 2025" [ref=e140]:
+              - cell "Google 学术：flan-t5 relation extraction structured output triplet knowledge graph 2024 2025" [ref=e141]:
+                - heading "Google 学术：flan-t5 relation extraction structured output triplet knowledge graph 2024 2025" [level=3] [ref=e142]:
+                  - link "Google 学术：flan-t5 relation extraction structured output triplet knowledge graph 2024 2025" [ref=e143] [cursor=pointer]:
+                    - /url: https://scholar.google.com.sg/scholar?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&hl=zh-CN&as_sdt=0&as_vis=1&oi=scholart
+                    - generic [ref=e144]:
+                      - text: Google 学术：
+                      - emphasis [ref=e145]: flan-t5 relation extraction structured output triplet knowledge graph 2024 2025
+            - row "Large language models meet knowledge graphs for … - ‎Ma - 被引用次数：19" [ref=e146]:
+              - cell "Large language models meet knowledge graphs for … - ‎Ma - 被引用次数：19" [ref=e147]:
+                - heading "Large language models meet knowledge graphs for … - ‎Ma - 被引用次数：19" [level=3] [ref=e148]:
+                  - link "Large language models meet knowledge graphs for …" [ref=e149] [cursor=pointer]:
+                    - /url: https://scholar.google.com.sg/scholar_url?url=https://aclanthology.org/2025.emnlp-main.1249.pdf&hl=zh-CN&sa=X&ei=sbnTaabWAaCz6rQPt62kKQ&scisig=ADi0EEWuxv-amuS6jggekWfukQ-G&oi=scholarr
+                    - generic [ref=e150]:
+                      - text: Large language models meet
+                      - emphasis [ref=e151]: knowledge graphs
+                      - text: for …
+                  - generic [ref=e152]:
+                    - text: "-"
+                    - generic [ref=e153]: ‎Ma
+                    - text: "- 被引用次数：19"
+        - generic [ref=e156]:
+          - heading "Web results" [level=2] [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e161]:
+              - link "Large Language Models Meet Knowledge Graphs for ... arXiv https://arxiv.org › html" [ref=e163] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2505.20099v2
+                - heading "Large Language Models Meet Knowledge Graphs for ..." [level=3] [ref=e164]
+                - generic [ref=e169]:
+                  - generic [ref=e171]: arXiv
+                  - generic [ref=e173]: https://arxiv.org › html
+              - generic [ref=e174]:
+                - generic [ref=e175]: ·
+                - link "翻译此页" [ref=e176] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2505.20099v2
+              - button "关于这条结果的详细信息" [ref=e177] [cursor=pointer]:
+                - img [ref=e180]
+            - generic [ref=e183]:
+              - generic [ref=e184]: 2025年9月22日 —
+              - generic [ref=e185]:
+                - text: LEGO-GraphRAG (Cao et al.,
+                - emphasis [ref=e186]: "2024"
+                - text: ) decomposes the retrieval process into subgraph-
+                - emphasis [ref=e187]: extraction
+                - text: ", path-filtering, and path-refinement modules, thereby ..."
+        - generic [ref=e191]:
+          - generic [ref=e194]:
+            - link "A review of knowledge graph construction using large ... ScienceDirect.com https://www.sciencedirect.com › article › pii" [ref=e196] [cursor=pointer]:
+              - /url: https://www.sciencedirect.com/science/article/pii/S0968090X25004322
+              - heading "A review of knowledge graph construction using large ..." [level=3] [ref=e197]
+              - generic [ref=e202]:
+                - generic [ref=e204]: ScienceDirect.com
+                - generic [ref=e206]: https://www.sciencedirect.com › article › pii
+            - generic [ref=e207]:
+              - generic [ref=e208]: ·
+              - link "翻译此页" [ref=e209] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/S0968090X25004322
+            - button "关于这条结果的详细信息" [ref=e210] [cursor=pointer]:
+              - img [ref=e213]
+          - generic [ref=e216]:
+            - generic [ref=e217]: 作者：Y Ling · 2026 · 被引用次数：3 —
+            - generic [ref=e218]:
+              - text: The general process of constructing a KG from the unstructured or semi-
+              - emphasis [ref=e219]: structured
+              - text: data. It contains
+              - emphasis [ref=e220]: knowledge
+              - text: acquisition (entity recognition, entity typing, ...
+        - generic [ref=e224]:
+          - generic [ref=e227]:
+            - link "The Right Ontology Extraction Method for Your Production ... Medium · Alexander Shereshevsky 70+ 个赞 · 2个月前" [ref=e229] [cursor=pointer]:
+              - /url: https://medium.com/graph-praxis/the-extraction-debate-choosing-the-right-ontology-extraction-method-for-your-knowledge-graph-7e4e2027f944
+              - heading "The Right Ontology Extraction Method for Your Production ..." [level=3] [ref=e230]
+              - generic [ref=e235]:
+                - generic [ref=e237]: Medium · Alexander Shereshevsky
+                - generic [ref=e239]: 70+ 个赞 · 2个月前
+            - button "关于这条结果的详细信息" [ref=e240] [cursor=pointer]:
+              - img [ref=e243]
+          - generic [ref=e247]:
+            - text: "Building a knowledge graph is deceptively simple in concept:"
+            - emphasis [ref=e248]: extract entities, identify relationships, and structure them into a graph
+            - text: . But ...
+        - generic [ref=e252]:
+          - generic [ref=e255]:
+            - link "Extensive Benchmark of Small Language Models for ... Semantic Web Journal https://www.semantic-web-journal.net › exte..." [ref=e257] [cursor=pointer]:
+              - /url: https://www.semantic-web-journal.net/content/extensive-benchmark-small-language-models-datatype-properties-extraction-and-rdf-knowledge
+              - heading "Extensive Benchmark of Small Language Models for ..." [level=3] [ref=e258]
+              - generic [ref=e263]:
+                - generic [ref=e265]: Semantic Web Journal
+                - generic [ref=e267]: https://www.semantic-web-journal.net › exte...
+            - generic [ref=e268]:
+              - generic [ref=e269]: ·
+              - link "翻译此页" [ref=e270] [cursor=pointer]:
+                - /url: https://www.semantic-web-journal.net/content/extensive-benchmark-small-language-models-datatype-properties-extraction-and-rdf-knowledge
+            - button "关于这条结果的详细信息" [ref=e271] [cursor=pointer]:
+              - img [ref=e274]
+          - generic [ref=e277]:
+            - generic [ref=e278]: 2025年4月23日 —
+            - generic [ref=e279]:
+              - text: On a restricted
+              - emphasis [ref=e280]: relation extraction
+              - text: (RE) task, we challenged five encoder-decoder models including BART, T5, CodeT5,
+              - emphasis [ref=e281]: FlanT5
+              - text: and PileT5 by fine- ...
+        - generic [ref=e285]:
+          - generic [ref=e288]:
+            - link "Enhancing Complex Reasoning in Knowledge Graph ... ACL Anthology https://aclanthology.org › 2025.findings-acl.138..." [ref=e290] [cursor=pointer]:
+              - /url: https://aclanthology.org/2025.findings-acl.1387.pdf
+              - heading "Enhancing Complex Reasoning in Knowledge Graph ..." [level=3] [ref=e291]
+              - generic [ref=e296]:
+                - generic [ref=e298]: ACL Anthology
+                - generic [ref=e300]: https://aclanthology.org › 2025.findings-acl.138...
+            - generic [ref=e301]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e302] [cursor=pointer]:
+              - img [ref=e305]
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - generic [ref=e309]: 作者：H Jeong · 2025 —
+              - generic [ref=e310]:
+                - text: For the approximation of query
+                - emphasis [ref=e311]: graphs
+                - text: ", we introduce three key components: Align module, Query decomposition module, and."
+                - emphasis [ref=e312]: Relation extraction
+                - text: ...
+            - generic [ref=e313]: 19 页
+        - generic [ref=e317]:
+          - generic [ref=e320]:
+            - link "Knowledge graph-extended retrieval augmented generation ... Springer Nature Link https://link.springer.com › article" [ref=e322] [cursor=pointer]:
+              - /url: https://link.springer.com/article/10.1007/s10489-025-06885-5
+              - heading "Knowledge graph-extended retrieval augmented generation ..." [level=3] [ref=e323]
+              - generic [ref=e328]:
+                - generic [ref=e330]: Springer Nature Link
+                - generic [ref=e332]: https://link.springer.com › article
+            - generic [ref=e333]:
+              - generic [ref=e334]: ·
+              - link "翻译此页" [ref=e335] [cursor=pointer]:
+                - /url: https://link.springer.com/article/10.1007/s10489-025-06885-5
+            - button "关于这条结果的详细信息" [ref=e336] [cursor=pointer]:
+              - img [ref=e339]
+          - generic [ref=e342]:
+            - generic [ref=e343]: 作者：J Linders · 2025 · 被引用次数：32 —
+            - generic [ref=e344]:
+              - text: The resulting system integrates
+              - emphasis [ref=e345]: structured
+              - text: data from
+              - emphasis [ref=e346]: Knowledge Graphs
+              - text: in a RAG, enabling precise retrieval and complex reasoning. For example, ...
+        - generic [ref=e350]:
+          - generic [ref=e353]:
+            - link "(PDF) Fine-Tuning Large Language Models for Relation ... ResearchGate https://www.researchgate.net › publication" [ref=e355] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/394304753_Fine-Tuning_Large_Language_Models_for_Relation_Extraction_within_a_Retrieval-Augmented_Generation_Framework
+              - heading "(PDF) Fine-Tuning Large Language Models for Relation ..." [level=3] [ref=e356]
+              - generic [ref=e361]:
+                - generic [ref=e363]: ResearchGate
+                - generic [ref=e365]: https://www.researchgate.net › publication
+            - generic [ref=e366]:
+              - generic [ref=e367]: ·
+              - link "翻译此页" [ref=e368] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/394304753_Fine-Tuning_Large_Language_Models_for_Relation_Extraction_within_a_Retrieval-Augmented_Generation_Framework
+            - button "关于这条结果的详细信息" [ref=e369] [cursor=pointer]:
+              - img [ref=e372]
+          - generic [ref=e375]:
+            - generic [ref=e376]: 2025年11月3日 —
+            - generic [ref=e377]:
+              - text: Inspired by the capabilities of LLMs, we explore continual instruction fine-tuning in fewshot settings using
+              - emphasis [ref=e378]: Flan
+              - text: "-"
+              - emphasis [ref=e379]: T5
+              - text: Base (Thoppilan et al., ...
+        - generic [ref=e383]:
+          - generic [ref=e386]:
+            - link "Daily Papers Hugging Face https://huggingface.co › papers › q=knowled..." [ref=e388] [cursor=pointer]:
+              - /url: https://huggingface.co/papers?q=knowledge%20triplets
+              - heading "Daily Papers" [level=3] [ref=e389]
+              - generic [ref=e394]:
+                - generic [ref=e396]: Hugging Face
+                - generic [ref=e398]: https://huggingface.co › papers › q=knowled...
+            - generic [ref=e399]:
+              - generic [ref=e400]: ·
+              - link "翻译此页" [ref=e401] [cursor=pointer]:
+                - /url: https://huggingface.co/papers?q=knowledge%20triplets
+            - button "关于这条结果的详细信息" [ref=e402] [cursor=pointer]:
+              - img [ref=e405]
+          - generic [ref=e408]:
+            - generic [ref=e409]: 2026年3月18日 —
+            - generic [ref=e410]:
+              - emphasis [ref=e411]: Relation triple extraction
+              - text: ", which"
+              - emphasis [ref=e412]: outputs
+              - text: a set of triples from long sentences, plays a vital role in
+              - emphasis [ref=e413]: knowledge
+              - text: acquisition. Large language ...
+        - generic [ref=e417]:
+          - generic [ref=e420]:
+            - link "Knowledge Graph-extended Retrieval Augmented ... arXiv https://arxiv.org › html" [ref=e422] [cursor=pointer]:
+              - /url: https://arxiv.org/html/2504.08893v1
+              - heading "Knowledge Graph-extended Retrieval Augmented ..." [level=3] [ref=e423]
+              - generic [ref=e428]:
+                - generic [ref=e430]: arXiv
+                - generic [ref=e432]: https://arxiv.org › html
+            - generic [ref=e433]:
+              - generic [ref=e434]: ·
+              - link "翻译此页" [ref=e435] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2504.08893v1
+            - button "关于这条结果的详细信息" [ref=e436] [cursor=pointer]:
+              - img [ref=e439]
+          - generic [ref=e443]:
+            - text: Another approach expands this exploration by integrating Llama-2,
+            - emphasis [ref=e444]: Flan
+            - text: "-"
+            - emphasis [ref=e445]: T5
+            - text: ", and ChatGPT, and introducing baselines that utilize"
+            - emphasis [ref=e446]: triple
+            - text: "-form"
+            - emphasis [ref=e447]: knowledge
+            - text: and ...
+        - generic [ref=e451]:
+          - generic [ref=e454]:
+            - link "A systematic review of relation extraction task since the ... HAL https://hal.science › file › A_systematic_review_..." [ref=e456] [cursor=pointer]:
+              - /url: https://hal.science/hal-05349792v1/file/A_systematic_review_of_relation_extraction_task_since_the_emergence_of_Transformers-3.pdf
+              - heading "A systematic review of relation extraction task since the ..." [level=3] [ref=e457]
+              - generic [ref=e462]:
+                - generic [ref=e464]: HAL
+                - generic [ref=e466]: https://hal.science › file › A_systematic_review_...
+            - generic [ref=e467]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e468] [cursor=pointer]:
+              - img [ref=e471]
+          - generic [ref=e473]:
+            - generic [ref=e474]:
+              - generic [ref=e475]: 作者：C Ringwald · 2025 —
+              - generic [ref=e476]:
+                - text: This article presents a systematic review of
+                - emphasis [ref=e477]: relation extraction
+                - text: (RE) research since the advent of Transformer-based models. Using an.
+            - generic [ref=e478]: 38 页
+      - navigation [ref=e481]:
+        - heading "网页导航" [level=1] [ref=e482]
+        - text: "1"
+        - link "Page 2" [ref=e485] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=10&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAE
+          - text: "2"
+        - link "Page 3" [ref=e487] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=20&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAG
+          - text: "3"
+        - link "Page 4" [ref=e489] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=30&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAI
+          - text: "4"
+        - link "Page 5" [ref=e491] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=40&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAK
+          - text: "5"
+        - link "Page 6" [ref=e493] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=50&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAM
+          - text: "6"
+        - link "Page 7" [ref=e495] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=60&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAO
+          - text: "7"
+        - link "Page 8" [ref=e497] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=70&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAQ
+          - text: "8"
+        - link "Page 9" [ref=e499] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=80&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAS
+          - text: "9"
+        - link "Page 10" [ref=e501] [cursor=pointer]:
+          - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=90&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8tMDegQIDBAU
+          - text: "10"
+        - heading "下一页" [level=2] [ref=e503]:
+          - link "下一页" [ref=e504] [cursor=pointer]:
+            - /url: /search?q=flan-t5+relation+extraction+structured+output+triplet+knowledge+graph+2024+2025&sca_esv=ef6db0e9fcb54fe8&ei=sLnTaca0NuO4qtsP6LGRoQY&start=10&sa=N&sstk=Af77f_f1x0FlVS6tzfPtzDSv6HMKY6xgKDwnrmHIEGxO3EkKIrMC8HanfrYcPq1OAjfJyIK0b6flaDjPO6MBjq2K3eiug-8maFmEFw&ved=2ahUKEwjGzK3hrtmTAxVjnGoFHehYJGQQ8NMDegQIDBAW
+            - generic [ref=e506]: 下一页
+      - navigation
+    - contentinfo [ref=e507]:
+      - heading "页脚链接" [level=1] [ref=e508]
+      - generic [ref=e512]:
+        - generic [ref=e514]:
+          - text: 新加坡
+          - generic [ref=e516]:
+            - button "新加坡 - 是根据您的 IP 地址推断出来的" [ref=e518] [cursor=pointer]:
+              - generic [ref=e519]: 新加坡
+              - generic [ref=e521]:
+                - text: "-"
+                - generic [ref=e522]: 是根据您的 IP 地址推断出来的
+            - text: "-"
+            - button "更新位置信息" [ref=e524] [cursor=pointer]: 更新位置信息
+        - generic [ref=e527]:
+          - link "帮助" [ref=e528] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e529] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e530] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e531] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

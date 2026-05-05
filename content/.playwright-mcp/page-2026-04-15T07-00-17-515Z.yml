@@ -1,0 +1,785 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "MoritzLaurer / mDeBERTa-v3-base-xnli-multilingual-nli-2mil7 like 357" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /MoritzLaurer
+          - link "MoritzLaurer" [ref=e70] [cursor=pointer]:
+            - /url: /MoritzLaurer
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [ref=e73] [cursor=pointer]:
+            - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "357" [ref=e84] [cursor=pointer]
+      - generic [ref=e85]:
+        - link "Zero-Shot Classification" [ref=e86] [cursor=pointer]:
+          - /url: /models?pipeline_tag=zero-shot-classification
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - generic [ref=e101]: Zero-Shot Classification
+        - link "Transformers" [ref=e102] [cursor=pointer]:
+          - /url: /models?library=transformers
+          - generic [ref=e103]:
+            - img [ref=e104]
+            - generic [ref=e115]: Transformers
+        - link "PyTorch" [ref=e116] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e117]:
+            - img [ref=e118]
+            - generic [ref=e121]: PyTorch
+        - link "ONNX" [ref=e122] [cursor=pointer]:
+          - /url: /models?library=onnx
+          - generic [ref=e123]:
+            - img [ref=e124]
+            - generic [ref=e134]: ONNX
+        - link "Safetensors" [ref=e135] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e136]:
+            - img [ref=e137]
+            - generic [ref=e139]: Safetensors
+        - button "7 datasets" [ref=e140] [cursor=pointer]:
+          - generic [ref=e141]:
+            - img [ref=e142]
+            - generic [ref=e147]: 7 datasets
+        - button "27 languages" [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]:
+            - img [ref=e150]
+            - generic [ref=e152]: 27 languages
+        - link "deberta-v2" [ref=e153] [cursor=pointer]:
+          - /url: /models?other=deberta-v2
+          - generic [ref=e155]: deberta-v2
+        - link "text-classification" [ref=e156] [cursor=pointer]:
+          - /url: /models?other=text-classification
+          - generic [ref=e158]: text-classification
+        - link "nli" [ref=e159] [cursor=pointer]:
+          - /url: /models?other=nli
+          - generic [ref=e161]: nli
+        - link "Eval Results (legacy)" [ref=e162] [cursor=pointer]:
+          - /url: /models?other=model-index
+          - generic [ref=e163]:
+            - img [ref=e164]
+            - generic [ref=e168]: Eval Results (legacy)
+        - 'button "arxiv: 4 papers" [ref=e169] [cursor=pointer]':
+          - generic [ref=e170]:
+            - img [ref=e171]
+            - generic [ref=e174]: "arxiv:"
+            - generic [ref=e175]: 4 papers
+        - 'button "License: mit" [ref=e177] [cursor=pointer]':
+          - generic [ref=e179]:
+            - img [ref=e180]
+            - generic [ref=e182]: "License:"
+            - generic [ref=e183]: mit
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - link "Model card" [ref=e187] [cursor=pointer]:
+            - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+            - img [ref=e188]
+            - text: Model card
+          - link "Files xet" [ref=e192] [cursor=pointer]:
+            - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/tree/main
+            - img [ref=e193]
+            - generic [ref=e196]: Files
+            - generic [ref=e199]:
+              - img [ref=e200]
+              - generic [ref=e203]: xet
+          - link "Community 11" [ref=e204] [cursor=pointer]:
+            - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/discussions
+            - img [ref=e205]
+            - text: Community
+            - generic [ref=e208]: "11"
+        - generic [ref=e209]:
+          - button [ref=e212] [cursor=pointer]:
+            - img [ref=e213]
+          - generic [ref=e217]:
+            - button "Deploy" [ref=e219] [cursor=pointer]:
+              - img [ref=e220]
+              - text: Deploy
+              - img [ref=e223]
+            - dialog
+          - button "Use this model" [ref=e226] [cursor=pointer]:
+            - img [ref=e227]
+            - text: Use this model
+            - img [ref=e229]
+    - generic [ref=e231]:
+      - generic [ref=e233]:
+        - button [ref=e239] [cursor=pointer]:
+          - img [ref=e240]
+        - generic [ref=e242]:
+          - heading "Model card for mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [level=1] [ref=e243]:
+            - link [ref=e244] [cursor=pointer]:
+              - /url: "#model-card-for-mdeberta-v3-base-xnli-multilingual-nli-2mil7"
+              - img [ref=e246]
+            - generic [ref=e248]: Model card for mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+          - heading "Model description" [level=2] [ref=e249]:
+            - link [ref=e250] [cursor=pointer]:
+              - /url: "#model-description"
+              - img [ref=e252]
+            - generic [ref=e254]: Model description
+          - paragraph [ref=e255]:
+            - text: This multilingual model can perform natural language inference (NLI) on 100 languages and is therefore also suitable for multilingual zero-shot classification. The underlying mDeBERTa-v3-base model was pre-trained by Microsoft on the
+            - link "CC100 multilingual dataset" [ref=e256] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/cc100
+            - text: with 100 languages. The model was then fine-tuned on the
+            - link "XNLI dataset" [ref=e257] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/xnli
+            - text: and on the
+            - link "multilingual-NLI-26lang-2mil7 dataset" [ref=e258] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/MoritzLaurer/multilingual-NLI-26lang-2mil7
+            - text: . Both datasets contain more than 2.7 million hypothesis-premise pairs in 27 languages spoken by more than 4 billion people.
+          - paragraph [ref=e259]:
+            - text: As of December 2021, mDeBERTa-v3-base is the best performing multilingual base-sized transformer model introduced by Microsoft in
+            - link "this paper" [ref=e260] [cursor=pointer]:
+              - /url: https://arxiv.org/pdf/2111.09543.pdf
+            - text: .
+          - heading "How to use the model" [level=3] [ref=e261]:
+            - link [ref=e262] [cursor=pointer]:
+              - /url: "#how-to-use-the-model"
+              - img [ref=e264]
+            - generic [ref=e266]: How to use the model
+          - heading "Simple zero-shot classification pipeline" [level=4] [ref=e267]:
+            - link [ref=e268] [cursor=pointer]:
+              - /url: "#simple-zero-shot-classification-pipeline"
+              - img [ref=e270]
+            - generic [ref=e272]: Simple zero-shot classification pipeline
+          - generic [ref=e273]:
+            - code [ref=e275]: from transformers import pipeline classifier = pipeline("zero-shot-classification", model="MoritzLaurer/mDeBERTa-v3-base-mnli-xnli") sequence_to_classify = "Angela Merkel ist eine Politikerin in Deutschland und Vorsitzende der CDU" candidate_labels = ["politics", "economy", "entertainment", "environment"] output = classifier(sequence_to_classify, candidate_labels, multi_label=False) print(output)
+            - button [ref=e276] [cursor=pointer]:
+              - img [ref=e277]
+          - heading "NLI use-case" [level=4] [ref=e281]:
+            - link [ref=e282] [cursor=pointer]:
+              - /url: "#nli-use-case"
+              - img [ref=e284]
+            - generic [ref=e286]: NLI use-case
+          - generic [ref=e287]:
+            - code [ref=e289]: "from transformers import AutoTokenizer, AutoModelForSequenceClassification import torch device = torch.device(\"cuda\") if torch.cuda.is_available() else torch.device(\"cpu\") model_name = \"MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7\" tokenizer = AutoTokenizer.from_pretrained(model_name) model = AutoModelForSequenceClassification.from_pretrained(model_name) premise = \"Angela Merkel ist eine Politikerin in Deutschland und Vorsitzende der CDU\" hypothesis = \"Emmanuel Macron is the President of France\" input = tokenizer(premise, hypothesis, truncation=True, return_tensors=\"pt\") output = model(input[\"input_ids\"].to(device)) # device = \"cuda:0\" or \"cpu\" prediction = torch.softmax(output[\"logits\"][0], -1).tolist() label_names = [\"entailment\", \"neutral\", \"contradiction\"] prediction = {name: round(float(pred) * 100, 1) for pred, name in zip(prediction, label_names)} print(prediction)"
+            - button [ref=e290] [cursor=pointer]:
+              - img [ref=e291]
+          - heading "Training data" [level=3] [ref=e295]:
+            - link [ref=e296] [cursor=pointer]:
+              - /url: "#training-data"
+              - img [ref=e298]
+            - generic [ref=e300]: Training data
+          - paragraph [ref=e301]:
+            - text: This model was trained on the
+            - link "multilingual-nli-26lang-2mil7 dataset" [ref=e302] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/MoritzLaurer/multilingual-NLI-26lang-2mil7
+            - text: and the
+            - link "XNLI" [ref=e303] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/xnli
+            - text: validation dataset.
+          - paragraph [ref=e304]:
+            - text: The multilingual-nli-26lang-2mil7 dataset contains 2 730 000 NLI hypothesis-premise pairs in 26 languages spoken by more than 4 billion people. The dataset contains 105 000 text pairs per language. It is based on the English datasets
+            - link "MultiNLI" [ref=e305] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/multi_nli
+            - text: ","
+            - link "Fever-NLI" [ref=e306] [cursor=pointer]:
+              - /url: https://github.com/easonnie/combine-FEVER-NSMN/blob/master/other_resources/nli_fever.md
+            - text: ","
+            - link "ANLI" [ref=e307] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/anli
+            - text: ","
+            - link "LingNLI" [ref=e308] [cursor=pointer]:
+              - /url: https://arxiv.org/pdf/2104.07179.pdf
+            - text: and
+            - link "WANLI" [ref=e309] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/alisawuffles/WANLI
+            - text: "and was created using the latest open-source machine translation models. The languages in the dataset are: ['ar', 'bn', 'de', 'es', 'fa', 'fr', 'he', 'hi', 'id', 'it', 'ja', 'ko', 'mr', 'nl', 'pl', 'ps', 'pt', 'ru', 'sv', 'sw', 'ta', 'tr', 'uk', 'ur', 'vi', 'zh'] (see"
+            - link "ISO language codes" [ref=e310] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+            - text: . For more details, see the
+            - link "datasheet" [ref=e311] [cursor=pointer]:
+              - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/XXX
+            - text: . In addition, a sample of 105 000 text pairs was also added for English following the same sampling method as the other languages, leading to 27 languages.
+          - paragraph [ref=e312]: Moreover, for each language a random set of 10% of the hypothesis-premise pairs was added where an English hypothesis was paired with the premise in the other language (and the same for English premises and other language hypotheses). This mix of languages in the text pairs should enable users to formulate a hypothesis in English for a target text in another language.
+          - paragraph [ref=e313]:
+            - text: The
+            - link "XNLI" [ref=e314] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/xnli
+            - text: validation set consists of 2490 professionally translated texts from English to 14 other languages (37350 texts in total) (see
+            - link "this paper" [ref=e315] [cursor=pointer]:
+              - /url: https://arxiv.org/pdf/1809.05053.pdf
+            - text: ). Note that XNLI also contains a training set of 14 machine translated versions of the MultiNLI dataset for 14 languages, but this data was excluded due to quality issues with the machine translations from 2018.
+          - paragraph [ref=e316]: "Note that for evaluation purposes, three languages were excluded from the XNLI training data and only included in the test data: [\"bg\",\"el\",\"th\"]. This was done in order to test the performance of the model on languages it has not seen during NLI fine-tuning on 27 languages, but only during pre-training on 100 languages - see evaluation metrics below."
+          - paragraph [ref=e317]: The total training dataset had a size of 3 287 280 hypothesis-premise pairs.
+          - heading "Training procedure" [level=3] [ref=e318]:
+            - link [ref=e319] [cursor=pointer]:
+              - /url: "#training-procedure"
+              - img [ref=e321]
+            - generic [ref=e323]: Training procedure
+          - paragraph [ref=e324]: mDeBERTa-v3-base-mnli-xnli was trained using the Hugging Face trainer with the following hyperparameters.
+          - generic [ref=e325]:
+            - code [ref=e327]: "training_args = TrainingArguments( num_train_epochs=3, # total number of training epochs learning_rate=2e-05, per_device_train_batch_size=32, # batch size per device during training gradient_accumulation_steps=2, # to double the effective batch size for warmup_ratio=0.06, # number of warmup steps for learning rate scheduler weight_decay=0.01, # strength of weight decay fp16=False )"
+            - button [ref=e328] [cursor=pointer]:
+              - img [ref=e329]
+          - heading "Eval results" [level=3] [ref=e333]:
+            - link [ref=e334] [cursor=pointer]:
+              - /url: "#eval-results"
+              - img [ref=e336]
+            - generic [ref=e338]: Eval results
+          - paragraph [ref=e339]:
+            - text: The model was evaluated on the XNLI test set in 15 languages (5010 texts per language, 75150 in total) and the English test sets of
+            - link "MultiNLI" [ref=e340] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/multi_nli
+            - text: ","
+            - link "Fever-NLI" [ref=e341] [cursor=pointer]:
+              - /url: https://github.com/easonnie/combine-FEVER-NSMN/blob/master/other_resources/nli_fever.md
+            - text: ","
+            - link "ANLI" [ref=e342] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/anli
+            - text: ","
+            - link "LingNLI" [ref=e343] [cursor=pointer]:
+              - /url: https://arxiv.org/pdf/2104.07179.pdf
+            - text: and
+            - link "WANLI" [ref=e344] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/alisawuffles/WANLI
+            - text: . Note that multilingual NLI models are capable of classifying NLI texts without receiving NLI training data in the specific language (cross-lingual transfer). This means that the model is also able to do NLI on the other 73 languages mDeBERTa was pre-trained on, but performance is most likely lower than for those languages seen during NLI fine-tuning. The performance on the languages ["bg","el","th"] in the table below is a good indicated of this cross-lingual transfer, as these languages were not included in the training data.
+          - table [ref=e346]:
+            - rowgroup [ref=e347]:
+              - row "XNLI subsets ar bg de el en es fr hi ru sw th tr ur vi zh" [ref=e348]:
+                - columnheader "XNLI subsets" [ref=e349]
+                - columnheader "ar" [ref=e350]
+                - columnheader "bg" [ref=e351]
+                - columnheader "de" [ref=e352]
+                - columnheader "el" [ref=e353]
+                - columnheader "en" [ref=e354]
+                - columnheader "es" [ref=e355]
+                - columnheader "fr" [ref=e356]
+                - columnheader "hi" [ref=e357]
+                - columnheader "ru" [ref=e358]
+                - columnheader "sw" [ref=e359]
+                - columnheader "th" [ref=e360]
+                - columnheader "tr" [ref=e361]
+                - columnheader "ur" [ref=e362]
+                - columnheader "vi" [ref=e363]
+                - columnheader "zh" [ref=e364]
+            - rowgroup [ref=e365]:
+              - row "Accuracy 0.794 0.822 0.824 0.809 0.871 0.832 0.823 0.769 0.803 0.746 0.786 0.792 0.744 0.793 0.803" [ref=e366]:
+                - cell "Accuracy" [ref=e367]
+                - cell "0.794" [ref=e368]
+                - cell "0.822" [ref=e369]
+                - cell "0.824" [ref=e370]
+                - cell "0.809" [ref=e371]
+                - cell "0.871" [ref=e372]
+                - cell "0.832" [ref=e373]
+                - cell "0.823" [ref=e374]
+                - cell "0.769" [ref=e375]
+                - cell "0.803" [ref=e376]
+                - cell "0.746" [ref=e377]
+                - cell "0.786" [ref=e378]
+                - cell "0.792" [ref=e379]
+                - cell "0.744" [ref=e380]
+                - cell "0.793" [ref=e381]
+                - cell "0.803" [ref=e382]
+              - row "Speed (text/sec, A100-GPU) 1344.0 1355.0 1472.0 1149.0 1697.0 1446.0 1278.0 1115.0 1380.0 1463.0 1713.0 1594.0 1189.0 877.0 1887.0" [ref=e383]:
+                - cell "Speed (text/sec, A100-GPU)" [ref=e384]
+                - cell "1344.0" [ref=e385]
+                - cell "1355.0" [ref=e386]
+                - cell "1472.0" [ref=e387]
+                - cell "1149.0" [ref=e388]
+                - cell "1697.0" [ref=e389]
+                - cell "1446.0" [ref=e390]
+                - cell "1278.0" [ref=e391]
+                - cell "1115.0" [ref=e392]
+                - cell "1380.0" [ref=e393]
+                - cell "1463.0" [ref=e394]
+                - cell "1713.0" [ref=e395]
+                - cell "1594.0" [ref=e396]
+                - cell "1189.0" [ref=e397]
+                - cell "877.0" [ref=e398]
+                - cell "1887.0" [ref=e399]
+          - table [ref=e401]:
+            - rowgroup [ref=e402]:
+              - row "English Datasets mnli_test_m mnli_test_mm anli_test anli_test_r3 fever_test ling_test wanli_test" [ref=e403]:
+                - columnheader "English Datasets" [ref=e404]
+                - columnheader "mnli_test_m" [ref=e405]
+                - columnheader "mnli_test_mm" [ref=e406]
+                - columnheader "anli_test" [ref=e407]
+                - columnheader "anli_test_r3" [ref=e408]
+                - columnheader "fever_test" [ref=e409]
+                - columnheader "ling_test" [ref=e410]
+                - columnheader "wanli_test" [ref=e411]
+            - rowgroup [ref=e412]:
+              - row "Accuracy 0.857 0.856 0.537 0.497 0.761 0.788 0.732" [ref=e413]:
+                - cell "Accuracy" [ref=e414]
+                - cell "0.857" [ref=e415]
+                - cell "0.856" [ref=e416]
+                - cell "0.537" [ref=e417]
+                - cell "0.497" [ref=e418]
+                - cell "0.761" [ref=e419]
+                - cell "0.788" [ref=e420]
+                - cell "0.732" [ref=e421]
+              - row "Speed (text/sec, A100-GPU) 1000.0 1009.0 794.0 672.0 374.0 1177.0 1468.0" [ref=e422]:
+                - cell "Speed (text/sec, A100-GPU)" [ref=e423]
+                - cell "1000.0" [ref=e424]
+                - cell "1009.0" [ref=e425]
+                - cell "794.0" [ref=e426]
+                - cell "672.0" [ref=e427]
+                - cell "374.0" [ref=e428]
+                - cell "1177.0" [ref=e429]
+                - cell "1468.0" [ref=e430]
+          - paragraph [ref=e431]:
+            - text: Also note that if other multilingual models on the model hub claim performance of around 90% on languages other than English, the authors have most likely made a mistake during testing since non of the latest papers shows a multilingual average performance of more than a few points above 80% on XNLI (see
+            - link "here" [ref=e432] [cursor=pointer]:
+              - /url: https://arxiv.org/pdf/2111.09543.pdf
+            - text: or
+            - link "here" [ref=e433] [cursor=pointer]:
+              - /url: https://arxiv.org/pdf/1911.02116.pdf
+            - text: ).
+          - heading "Limitations and bias" [level=2] [ref=e434]:
+            - link [ref=e435] [cursor=pointer]:
+              - /url: "#limitations-and-bias"
+              - img [ref=e437]
+            - generic [ref=e439]: Limitations and bias
+          - paragraph [ref=e440]:
+            - text: Please consult the original DeBERTa-V3 paper and literature on different NLI datasets for potential biases. Moreover, note that the multilingual-nli-26lang-2mil7 dataset was created using machine translation, which reduces the quality of the data for a complex task like NLI. You can inspect the data via the Hugging Face
+            - link "dataset viewer" [ref=e441] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/MoritzLaurer/multilingual-NLI-26lang-2mil7
+            - text: for languages you are interested in. Note that grammatical errors introduced by machine translation are less of an issue for zero-shot classification, for which grammar is less important.
+          - heading "Citation" [level=2] [ref=e442]:
+            - link [ref=e443] [cursor=pointer]:
+              - /url: "#citation"
+              - img [ref=e445]
+            - generic [ref=e447]: Citation
+          - paragraph [ref=e448]: "If the dataset is useful for you, please cite the following article:"
+          - generic [ref=e449]:
+            - code [ref=e451]: "@article{laurer_less_2022, title = {Less {Annotating}, {More} {Classifying} – {Addressing} the {Data} {Scarcity} {Issue} of {Supervised} {Machine} {Learning} with {Deep} {Transfer} {Learning} and {BERT} - {NLI}}, url = {https://osf.io/74b8k}, language = {en-us}, urldate = {2022-07-28}, journal = {Preprint}, author = {Laurer, Moritz and Atteveldt, Wouter van and Casas, Andreu Salleras and Welbers, Kasper}, month = jun, year = {2022}, note = {Publisher: Open Science Framework}, }"
+            - button [ref=e452] [cursor=pointer]:
+              - img [ref=e453]
+          - heading "Ideas for cooperation or questions?" [level=2] [ref=e457]:
+            - link [ref=e458] [cursor=pointer]:
+              - /url: "#ideas-for-cooperation-or-questions"
+              - img [ref=e460]
+            - generic [ref=e462]: Ideas for cooperation or questions?
+          - paragraph [ref=e463]:
+            - text: For updates on new models and datasets, follow me on
+            - link "Twitter" [ref=e464] [cursor=pointer]:
+              - /url: https://twitter.com/MoritzLaurer
+            - text: ". If you have questions or ideas for cooperation, contact me at m{dot}laurer{at}vu{dot}nl or on"
+            - link "LinkedIn" [ref=e465] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/moritz-laurer/
+          - heading "Debugging and issues" [level=2] [ref=e466]:
+            - link [ref=e467] [cursor=pointer]:
+              - /url: "#debugging-and-issues"
+              - img [ref=e469]
+            - generic [ref=e471]: Debugging and issues
+          - paragraph [ref=e472]:
+            - text: "Note that DeBERTa-v3 was released in late 2021 and older versions of HF Transformers seem to have issues running the model (e.g. resulting in an issue with the tokenizer). Using Transformers==4.13 or higher might solve some issues. Note that mDeBERTa currently does not support FP16, see here:"
+            - link "https://github.com/microsoft/DeBERTa/issues/77" [ref=e473] [cursor=pointer]:
+              - /url: https://github.com/microsoft/DeBERTa/issues/77
+      - generic [ref=e474]:
+        - generic [ref=e475]:
+          - generic [ref=e476]:
+            - term [ref=e477]: Downloads last month
+            - definition [ref=e478]: 282,507
+          - img [ref=e480]
+        - generic [ref=e485]:
+          - generic [ref=e486]:
+            - img [ref=e487]
+            - text: Safetensors
+            - link [ref=e489] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/safetensors
+              - img [ref=e490]
+          - generic [ref=e494]:
+            - generic [ref=e495]:
+              - generic [ref=e496]: Model size
+              - generic [ref=e497]: 0.3B params
+            - generic [ref=e498]:
+              - generic [ref=e499]: Tensor type
+              - generic [ref=e500]:
+                - text: I64
+                - generic [ref=e501]: ·
+                - text: F16
+            - button "Files info" [ref=e503] [cursor=pointer]:
+              - img [ref=e504]
+              - paragraph [ref=e506]: Files info
+        - generic [ref=e510]:
+          - generic [ref=e511]:
+            - generic [ref=e512]:
+              - img [ref=e513]
+              - generic [ref=e516]: Inference Providers
+              - link "NEW" [ref=e517] [cursor=pointer]:
+                - /url: https://huggingface.co/docs/inference-providers
+            - button "HF Inference API" [ref=e520] [cursor=pointer]:
+              - generic [ref=e522]:
+                - img [ref=e523]
+                - generic [ref=e526]: HF Inference API
+          - link "Zero-Shot Classification" [ref=e529] [cursor=pointer]:
+            - /url: /tasks/zero-shot-classification
+            - generic [ref=e530]:
+              - img [ref=e531]
+              - generic [ref=e543]: Zero-Shot Classification
+          - generic [ref=e544]:
+            - textbox [ref=e548]:
+              - /placeholder: Text to classify...
+            - generic [ref=e551]:
+              - text: Possible class names (comma-separated)
+              - textbox "Possible class names (comma-separated)" [ref=e552]:
+                - /placeholder: Possible class names...
+            - generic [ref=e553] [cursor=pointer]:
+              - checkbox "Allow multiple true classes" [ref=e554]
+              - generic [ref=e555]: Allow multiple true classes
+            - button "Generate" [ref=e558] [cursor=pointer]
+          - generic [ref=e559]:
+            - button "View Code" [ref=e564] [cursor=pointer]:
+              - img [ref=e565]
+              - generic [ref=e569]: View Code
+            - button "Maximize" [ref=e573] [cursor=pointer]:
+              - img [ref=e574]
+              - text: Maximize
+        - heading "Model tree for MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [level=2] [ref=e579]:
+          - img [ref=e580]
+          - text: Model tree for
+          - generic [ref=e583]: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - img [ref=e589]
+            - generic [ref=e591]: Adapters
+            - link "6 models" [ref=e593] [cursor=pointer]:
+              - /url: /models?other=base_model:adapter:MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+          - generic [ref=e594]:
+            - img [ref=e597]
+            - generic [ref=e599]: Finetunes
+            - link "21 models" [ref=e601] [cursor=pointer]:
+              - /url: /models?other=base_model:finetune:MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+          - generic [ref=e602]:
+            - img [ref=e605]
+            - generic [ref=e607]: Quantizations
+            - link "1 model" [ref=e609] [cursor=pointer]:
+              - /url: /models?other=base_model:quantized:MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+        - heading "Datasets used to train MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [level=2] [ref=e611]:
+          - img [ref=e612]
+          - text: Datasets used to train
+          - generic [ref=e617]: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+        - navigation [ref=e618]:
+          - article [ref=e619]:
+            - link "facebook/xnli Viewer • Updated Jan 5, 2024 • 6.4M • 50.5k • 71" [ref=e620] [cursor=pointer]:
+              - /url: /datasets/facebook/xnli
+              - generic [ref=e621]:
+                - generic "facebook/xnli" [ref=e622]:
+                  - img [ref=e623]
+                  - heading "facebook/xnli" [level=4] [ref=e628]
+                - generic [ref=e629]:
+                  - img [ref=e630]
+                  - text: Viewer
+                  - generic [ref=e632]: •
+                  - generic [ref=e633]:
+                    - text: Updated
+                    - time [ref=e634]: Jan 5, 2024
+                  - generic [ref=e635]: •
+                  - img [ref=e636]
+                  - generic [ref=e638]: 6.4M
+                  - generic [ref=e639]: •
+                  - img [ref=e640]
+                  - text: 50.5k
+                  - generic [ref=e642]: •
+                  - img [ref=e643]
+                  - text: "71"
+          - article [ref=e645]:
+            - link "facebook/anli Viewer • Updated Dec 21, 2023 • 169k • 15k • 47" [ref=e646] [cursor=pointer]:
+              - /url: /datasets/facebook/anli
+              - generic [ref=e647]:
+                - generic "facebook/anli" [ref=e648]:
+                  - img [ref=e649]
+                  - heading "facebook/anli" [level=4] [ref=e654]
+                - generic [ref=e655]:
+                  - img [ref=e656]
+                  - text: Viewer
+                  - generic [ref=e658]: •
+                  - generic [ref=e659]:
+                    - text: Updated
+                    - time [ref=e660]: Dec 21, 2023
+                  - generic [ref=e661]: •
+                  - img [ref=e662]
+                  - generic [ref=e664]: 169k
+                  - generic [ref=e665]: •
+                  - img [ref=e666]
+                  - text: 15k
+                  - generic [ref=e668]: •
+                  - img [ref=e669]
+                  - text: "47"
+          - article [ref=e671]:
+            - link "nyu-mll/multi_nli Viewer • Updated Jan 4, 2024 • 412k • 7.56k • 109" [ref=e672] [cursor=pointer]:
+              - /url: /datasets/nyu-mll/multi_nli
+              - generic [ref=e673]:
+                - generic "nyu-mll/multi_nli" [ref=e674]:
+                  - img [ref=e675]
+                  - heading "nyu-mll/multi_nli" [level=4] [ref=e680]
+                - generic [ref=e681]:
+                  - img [ref=e682]
+                  - text: Viewer
+                  - generic [ref=e684]: •
+                  - generic [ref=e685]:
+                    - text: Updated
+                    - time [ref=e686]: Jan 4, 2024
+                  - generic [ref=e687]: •
+                  - img [ref=e688]
+                  - generic [ref=e690]: 412k
+                  - generic [ref=e691]: •
+                  - img [ref=e692]
+                  - text: 7.56k
+                  - generic [ref=e694]: •
+                  - img [ref=e695]
+                  - text: "109"
+        - heading "Spaces using MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7 37" [level=2] [ref=e698]:
+          - img [ref=e699]
+          - text: Spaces using
+          - generic [ref=e705]: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+          - generic [ref=e706]: "37"
+        - navigation [ref=e708]:
+          - link "📚 eduagarcia/multilingual-tokenizer-leaderboard" [ref=e709] [cursor=pointer]:
+            - /url: /spaces/eduagarcia/multilingual-tokenizer-leaderboard
+            - generic [ref=e710]: 📚
+            - generic [ref=e711]: eduagarcia/multilingual-tokenizer-leaderboard
+          - link "🏃 akdeniz27/turkish-zero-shot-text-classification-with-multilingual-models" [ref=e712] [cursor=pointer]:
+            - /url: /spaces/akdeniz27/turkish-zero-shot-text-classification-with-multilingual-models
+            - generic [ref=e713]: 🏃
+            - generic [ref=e714]: akdeniz27/turkish-zero-shot-text-classification-with-multilingual-models
+          - link "🏢 nahArnav/thetruthbureau" [ref=e715] [cursor=pointer]:
+            - /url: /spaces/nahArnav/thetruthbureau
+            - generic [ref=e716]: 🏢
+            - generic [ref=e717]: nahArnav/thetruthbureau
+          - link "👁 cesparzaf/icb4-leadership-star" [ref=e718] [cursor=pointer]:
+            - /url: /spaces/cesparzaf/icb4-leadership-star
+            - generic [ref=e719]: 👁
+            - generic [ref=e720]: cesparzaf/icb4-leadership-star
+          - link "📈 cnai-lab/Qpsychometric" [ref=e721] [cursor=pointer]:
+            - /url: /spaces/cnai-lab/Qpsychometric
+            - generic [ref=e722]: 📈
+            - generic [ref=e723]: cnai-lab/Qpsychometric
+          - link "📈 UserSubmission/Psychometric" [ref=e724] [cursor=pointer]:
+            - /url: /spaces/UserSubmission/Psychometric
+            - generic [ref=e725]: 📈
+            - generic [ref=e726]: UserSubmission/Psychometric
+          - link "📧 ervjn455/email-triage-openenv" [ref=e727] [cursor=pointer]:
+            - /url: /spaces/ervjn455/email-triage-openenv
+            - generic [ref=e728]: 📧
+            - generic [ref=e729]: ervjn455/email-triage-openenv
+          - link "🏃 awacke1/HEDIS.Dash.Component.Top.Clinical.Terminology.Vocabulary" [ref=e730] [cursor=pointer]:
+            - /url: /spaces/awacke1/HEDIS.Dash.Component.Top.Clinical.Terminology.Vocabulary
+            - generic [ref=e731]: 🏃
+            - generic [ref=e732]: awacke1/HEDIS.Dash.Component.Top.Clinical.Terminology.Vocabulary
+          - button "+ 29 Spaces" [ref=e733] [cursor=pointer]
+        - heading "Collection including MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [level=2] [ref=e735]:
+          - img [ref=e736]
+          - text: Collection including
+          - generic [ref=e740]: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+        - article [ref=e743]:
+          - link "Zeroshot Classifiers Collection These are my current best zeroshot classifiers. Some of my older models are downloaded more often, but the models in this collection are newer/better. • 12 items • Updated Jan 6, 2025 • 151" [ref=e744] [cursor=pointer]:
+            - /url: /collections/MoritzLaurer/zeroshot-classifiers
+            - generic "Zeroshot Classifiers" [ref=e745]:
+              - heading "Zeroshot Classifiers" [level=4] [ref=e746]
+              - generic [ref=e747]:
+                - img [ref=e748]
+                - text: Collection
+            - generic [ref=e752]:
+              - generic [ref=e753]: These are my current best zeroshot classifiers. Some of my older models are downloaded more often, but the models in this collection are newer/better.
+              - generic [ref=e754]: •
+              - generic [ref=e755]: 12 items
+              - generic [ref=e756]: •
+              - generic [ref=e757]:
+                - text: Updated
+                - time [ref=e758]: Jan 6, 2025
+              - generic [ref=e759]: •
+              - img [ref=e760]
+              - text: "151"
+        - heading "Papers for MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [level=2] [ref=e764]:
+          - img [ref=e765]
+          - text: Papers for
+          - generic [ref=e768]: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+        - generic [ref=e769]:
+          - article [ref=e770]:
+            - 'link "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing Paper • 2111.09543 • Published Nov 18, 2021 • 3" [ref=e771] [cursor=pointer]':
+              - /url: /papers/2111.09543
+              - generic "arxiv:2111.09543" [ref=e772]:
+                - 'heading "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing" [level=4] [ref=e773]'
+              - generic [ref=e774]:
+                - img [ref=e775]
+                - text: Paper
+                - generic [ref=e778]: •
+                - text: "2111.09543"
+                - generic [ref=e779]: •
+                - generic [ref=e780]:
+                  - text: Published
+                  - time [ref=e781]: Nov 18, 2021
+                - generic [ref=e782]: •
+                - img [ref=e783]
+                - text: "3"
+          - article [ref=e785]:
+            - link "Does Putting a Linguist in the Loop Improve NLU Data Collection? Paper • 2104.07179 • Published Apr 15, 2021 • 1" [ref=e786] [cursor=pointer]:
+              - /url: /papers/2104.07179
+              - generic "arxiv:2104.07179" [ref=e787]:
+                - heading "Does Putting a Linguist in the Loop Improve NLU Data Collection?" [level=4] [ref=e788]
+              - generic [ref=e789]:
+                - img [ref=e790]
+                - text: Paper
+                - generic [ref=e793]: •
+                - text: "2104.07179"
+                - generic [ref=e794]: •
+                - generic [ref=e795]:
+                  - text: Published
+                  - time [ref=e796]: Apr 15, 2021
+                - generic [ref=e797]: •
+                - img [ref=e798]
+                - text: "1"
+          - article [ref=e800]:
+            - link "Unsupervised Cross-lingual Representation Learning at Scale Paper • 1911.02116 • Published Nov 5, 2019 • 4" [ref=e801] [cursor=pointer]:
+              - /url: /papers/1911.02116
+              - generic "arxiv:1911.02116" [ref=e802]:
+                - heading "Unsupervised Cross-lingual Representation Learning at Scale" [level=4] [ref=e803]
+              - generic [ref=e804]:
+                - img [ref=e805]
+                - text: Paper
+                - generic [ref=e808]: •
+                - text: "1911.02116"
+                - generic [ref=e809]: •
+                - generic [ref=e810]:
+                  - text: Published
+                  - time [ref=e811]: Nov 5, 2019
+                - generic [ref=e812]: •
+                - img [ref=e813]
+                - text: "4"
+          - article [ref=e815]:
+            - 'link "XNLI: Evaluating Cross-lingual Sentence Representations Paper • 1809.05053 • Published Sep 13, 2018 • 1" [ref=e816] [cursor=pointer]':
+              - /url: /papers/1809.05053
+              - generic "arxiv:1809.05053" [ref=e817]:
+                - 'heading "XNLI: Evaluating Cross-lingual Sentence Representations" [level=4] [ref=e818]'
+              - generic [ref=e819]:
+                - img [ref=e820]
+                - text: Paper
+                - generic [ref=e823]: •
+                - text: "1809.05053"
+                - generic [ref=e824]: •
+                - generic [ref=e825]:
+                  - text: Published
+                  - time [ref=e826]: Sep 13, 2018
+                - generic [ref=e827]: •
+                - img [ref=e828]
+                - text: "1"
+        - generic [ref=e830]:
+          - heading "Evaluation results" [level=2] [ref=e832]:
+            - img [ref=e833]
+            - text: Evaluation results
+            - link [ref=e837] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/hub/eval-results
+              - img [ref=e838]
+          - list [ref=e842]:
+            - listitem [ref=e843]:
+              - 'generic "Natural Language Inference: accuracy on MultiNLI-matched" [ref=e844]': accuracy on MultiNLI-matched
+              - link "self-reported" [ref=e845] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - generic [ref=e847]: 0,857
+            - listitem [ref=e848]:
+              - 'generic "Natural Language Inference: accuracy on MultiNLI-mismatched" [ref=e849]': accuracy on MultiNLI-mismatched
+              - link "self-reported" [ref=e850] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - generic [ref=e852]: 0,856
+            - listitem [ref=e853]:
+              - 'generic "Natural Language Inference: accuracy on ANLI-all" [ref=e854]': accuracy on ANLI-all
+              - link "self-reported" [ref=e855] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - generic [ref=e857]: 0,537
+            - listitem [ref=e858]:
+              - 'generic "Natural Language Inference: accuracy on ANLI-r3" [ref=e859]': accuracy on ANLI-r3
+              - link "self-reported" [ref=e860] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - generic [ref=e862]: 0,497
+            - listitem [ref=e863]:
+              - 'generic "Natural Language Inference: accuracy on WANLI" [ref=e864]': accuracy on WANLI
+              - link "test set" [ref=e865] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - link "self-reported" [ref=e866] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - generic [ref=e868]: 0,732
+            - listitem [ref=e869]:
+              - 'generic "Natural Language Inference: accuracy on LingNLI" [ref=e870]': accuracy on LingNLI
+              - link "test set" [ref=e871] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - link "self-reported" [ref=e872] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - generic [ref=e874]: 0,788
+            - listitem [ref=e875]:
+              - 'generic "Natural Language Inference: accuracy on fever-nli" [ref=e876]': accuracy on fever-nli
+              - link "test set" [ref=e877] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - link "self-reported" [ref=e878] [cursor=pointer]:
+                - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md
+              - generic [ref=e880]: 0,761
+  - contentinfo [ref=e881]:
+    - navigation [ref=e882]:
+      - button "System theme" [ref=e885] [cursor=pointer]:
+        - img [ref=e886]
+        - text: System theme
+      - link "TOS" [ref=e891] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e892] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e893] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e894] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e895] [cursor=pointer]:
+        - /url: /
+        - img [ref=e896]
+      - link "Models" [ref=e910] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e911] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e912] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e913] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e914] [cursor=pointer]:
+        - /url: /docs

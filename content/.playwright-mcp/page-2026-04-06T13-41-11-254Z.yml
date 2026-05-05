@@ -1,0 +1,411 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "jackboyla / glirel-large-v0 like 22" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /jackboyla
+          - link "jackboyla" [ref=e70] [cursor=pointer]:
+            - /url: /jackboyla
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "glirel-large-v0" [ref=e73] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "22" [ref=e84] [cursor=pointer]
+      - generic [ref=e85]:
+        - link "PyTorch" [ref=e86] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e87]:
+            - img [ref=e88]
+            - generic [ref=e91]: PyTorch
+        - 'button "arxiv: 2501.03172" [ref=e93] [cursor=pointer]':
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - generic [ref=e99]: "arxiv:"
+            - generic [ref=e100]: "2501.03172"
+        - 'button "arxiv: 2311.08526" [ref=e103] [cursor=pointer]':
+          - generic [ref=e105]:
+            - img [ref=e106]
+            - generic [ref=e109]: "arxiv:"
+            - generic [ref=e110]: "2311.08526"
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - link "Model card" [ref=e114] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0
+            - img [ref=e115]
+            - text: Model card
+          - link "Files xet" [ref=e119] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0/tree/main
+            - img [ref=e120]
+            - generic [ref=e123]: Files
+            - generic [ref=e126]:
+              - img [ref=e127]
+              - generic [ref=e130]: xet
+          - link "Community 1" [ref=e131] [cursor=pointer]:
+            - /url: /jackboyla/glirel-large-v0/discussions
+            - img [ref=e132]
+            - text: Community
+            - generic [ref=e135]: "1"
+        - button [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e147]:
+          - paragraph [ref=e148]:
+            - strong [ref=e149]: "YAML Metadata Warning:"
+            - text: empty or missing yaml metadata in repo card
+          - paragraph [ref=e150]:
+            - text: Check out the
+            - link "documentation" [ref=e151] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/hub/model-cards#model-card-metadata
+            - text: for more information.
+        - generic [ref=e152]:
+          - button [ref=e158] [cursor=pointer]:
+            - img [ref=e159]
+          - generic [ref=e161]:
+            - 'heading "GLiREL : Generalist and Lightweight model for Zero-Shot Relation Extraction" [level=1] [ref=e162]':
+              - link [ref=e163] [cursor=pointer]:
+                - /url: "#glirel--generalist-and-lightweight-model-for-zero-shot-relation-extraction"
+                - img [ref=e165]
+              - generic [ref=e167]: "GLiREL : Generalist and Lightweight model for Zero-Shot Relation Extraction"
+            - paragraph [ref=e168]:
+              - text: GLiREL is a Relation Extraction model capable of classifying unseen relations given the entities within a text. This builds upon the excelent work done by Urchade Zaratiana, Nadi Tomeh, Pierre Holat, Thierry Charnois on the
+              - link "GLiNER" [ref=e169] [cursor=pointer]:
+                - /url: https://github.com/urchade/GLiNER
+              - text: library which enables efficient zero-shot Named Entity Recognition.
+            - paragraph [ref=e170]:
+              - link "Python Version" [ref=e171] [cursor=pointer]:
+                - /url: https://pypi.org/project/glirel/
+                - img "Python" [ref=e172]
+                - img "Version" [ref=e173]
+            - paragraph [ref=e174]:
+              - link "📄 GLiREL Paper" [ref=e175] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2501.03172
+              - text: •
+              - link "📄 GLiNER Paper" [ref=e176] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2311.08526
+              - text: •
+              - link "🤗 Demo" [ref=e177] [cursor=pointer]:
+                - /url: https://huggingface.co/spaces/jackboyla/GLiREL
+              - text: •
+              - link "🤗 Available models" [ref=e178] [cursor=pointer]:
+                - /url: https://huggingface.co/collections/jackboyla/glirel-6766b213a4c1fa8c4e982322
+            - separator [ref=e179]
+            - heading "Installation" [level=1] [ref=e180]:
+              - link [ref=e181] [cursor=pointer]:
+                - /url: "#installation"
+                - img [ref=e183]
+              - generic [ref=e185]: Installation
+            - generic [ref=e186]:
+              - code [ref=e188]: pip install glirel
+              - button [ref=e189] [cursor=pointer]:
+                - img [ref=e190]
+            - heading "Usage" [level=2] [ref=e194]:
+              - link [ref=e195] [cursor=pointer]:
+                - /url: "#usage"
+                - img [ref=e197]
+              - generic [ref=e199]: Usage
+            - paragraph [ref=e200]:
+              - text: Once you've downloaded the GLiREL library, you can import the
+              - code [ref=e201]: GLiREL
+              - text: class. You can then load this model using
+              - code [ref=e202]: GLiREL.from_pretrained
+              - text: and predict entities with
+              - code [ref=e203]: predict_relations
+              - text: .
+            - generic [ref=e204]:
+              - code [ref=e206]:
+                - text: "from glirel import GLiREL import spacy model = GLiREL.from_pretrained(\"jackboyla/glirel_beta\") nlp = spacy.load('en_core_web_sm') text = 'Derren Nesbitt had a history of being cast in \"Doctor Who\", having played villainous warlord Tegana in the 1964 First Doctor serial \"Marco Polo\".' doc = nlp(text) tokens = [token.text for token in doc] labels = ['country of origin', 'licensed to broadcast to', 'father', 'followed by', 'characters'] ner = [[26, 27, 'PERSON', 'Marco Polo'], [22, 23, 'Q2989412', 'First Doctor']] # 'type' is not used -- it can be any string! relations = model.predict_relations(tokens, labels, threshold=0.0, ner=ner, top_k=1) print('Number of relations:', len(relations)) sorted_data_desc = sorted(relations, key=lambda x: x['score'], reverse=True) print(\"\\nDescending Order by Score:\") for item in sorted_data_desc: print("
+                - generic [ref=e207]:
+                  - text: f"
+                  - generic [ref=e208]: "{item['head_text']}"
+                  - text: "-->"
+                  - generic [ref=e209]: "{item['label']}"
+                  - text: "-->"
+                  - generic [ref=e210]: "{item['tail_text']}"
+                  - text: "| score:"
+                  - generic [ref=e211]: "{item['score']}"
+                  - text: "\""
+                - text: )
+              - button [ref=e212] [cursor=pointer]:
+                - img [ref=e213]
+            - heading "Expected Output" [level=3] [ref=e217]:
+              - link [ref=e218] [cursor=pointer]:
+                - /url: "#expected-output"
+                - img [ref=e220]
+              - generic [ref=e222]: Expected Output
+            - generic [ref=e223]:
+              - code [ref=e225]: "Number of relations: 2 Descending Order by Score: {'head_pos': [26, 28], 'tail_pos': [22, 24], 'head_text': ['Marco', 'Polo'], 'tail_text': ['First', 'Doctor'], 'label': 'characters', 'score': 0.9923334121704102} {'head_pos': [22, 24], 'tail_pos': [26, 28], 'head_text': ['First', 'Doctor'], 'tail_text': ['Marco', 'Polo'], 'label': 'characters', 'score': 0.9915636777877808}"
+              - button [ref=e226] [cursor=pointer]:
+                - img [ref=e227]
+            - heading "Constrain labels" [level=2] [ref=e231]:
+              - link [ref=e232] [cursor=pointer]:
+                - /url: "#constrain-labels"
+                - img [ref=e234]
+              - generic [ref=e236]: Constrain labels
+            - paragraph [ref=e237]: "In practice, we usually want to define the types of entities that can exist as a head and/or tail of a relationship. This is already implemented in GLiREL:"
+            - generic [ref=e238]:
+              - code [ref=e240]: "labels = {\"glirel_labels\": { 'co-founder': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"ORG\"]}, 'no relation': {}, # head and tail can be any entity type 'country of origin': {\"allowed_head\": [\"PERSON\", \"ORG\"], \"allowed_tail\": [\"LOC\", \"GPE\"]}, 'parent': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'located in or next to body of water': {\"allowed_head\": [\"LOC\", \"GPE\", \"FAC\"], \"allowed_tail\": [\"LOC\", \"GPE\"]}, 'spouse': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'child': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'founder': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"ORG\"]}, 'founded on date': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"DATE\"]}, 'headquartered in': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"LOC\", \"GPE\", \"FAC\"]}, 'acquired by': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"ORG\", \"PERSON\"]}, 'subsidiary of': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"ORG\", \"PERSON\"]}, } }"
+              - button [ref=e241] [cursor=pointer]:
+                - img [ref=e242]
+            - heading "Usage with spaCy" [level=2] [ref=e246]:
+              - link [ref=e247] [cursor=pointer]:
+                - /url: "#usage-with-spacy"
+                - img [ref=e249]
+              - generic [ref=e251]: Usage with spaCy
+            - paragraph [ref=e252]: You can also load GliREL into a regular spaCy NLP pipeline. Here's an example using an English pipeline.
+            - generic [ref=e253]:
+              - code [ref=e255]:
+                - text: "import spacy import glirel # Load a blank spaCy model or an existing one nlp = spacy.load('en_core_web_sm') # Add the GLiREL component to the pipeline nlp.add_pipe(\"glirel\", after=\"ner\") # Now you can use the pipeline with the GLiREL component text = \"Apple Inc. was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976. The company is headquartered in Cupertino, California.\" labels = {\"glirel_labels\": { 'co-founder': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"ORG\"]}, 'country of origin': {\"allowed_head\": [\"PERSON\", \"ORG\"], \"allowed_tail\": [\"LOC\", \"GPE\"]}, 'licensed to broadcast to': {\"allowed_head\": [\"ORG\"]}, 'no relation': {}, 'parent': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'followed by': {\"allowed_head\": [\"PERSON\", \"ORG\"], \"allowed_tail\": [\"PERSON\", \"ORG\"]}, 'located in or next to body of water': {\"allowed_head\": [\"LOC\", \"GPE\", \"FAC\"], \"allowed_tail\": [\"LOC\", \"GPE\"]}, 'spouse': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'child': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"PERSON\"]}, 'founder': {\"allowed_head\": [\"PERSON\"], \"allowed_tail\": [\"ORG\"]}, 'headquartered in': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"LOC\", \"GPE\", \"FAC\"]}, 'acquired by': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"ORG\", \"PERSON\"]}, 'subsidiary of': {\"allowed_head\": [\"ORG\"], \"allowed_tail\": [\"ORG\", \"PERSON\"]}, } } # Add the labels to the pipeline at inference time docs = list( nlp.pipe([(text, labels)], as_tuples=True) ) relations = docs[0][0]._.relations print('Number of relations:', len(relations)) sorted_data_desc = sorted(relations, key=lambda x: x['score'], reverse=True) print(\"\\nDescending Order by Score:\") for item in sorted_data_desc: print("
+                - generic [ref=e256]:
+                  - text: f"
+                  - generic [ref=e257]: "{item['head_text']}"
+                  - text: "-->"
+                  - generic [ref=e258]: "{item['label']}"
+                  - text: "-->"
+                  - generic [ref=e259]: "{item['tail_text']}"
+                  - text: "| score:"
+                  - generic [ref=e260]: "{item['score']}"
+                  - text: "\""
+                - text: )
+              - button [ref=e261] [cursor=pointer]:
+                - img [ref=e262]
+            - heading "Expected Output" [level=3] [ref=e266]:
+              - link [ref=e267] [cursor=pointer]:
+                - /url: "#expected-output-1"
+                - img [ref=e269]
+              - generic [ref=e271]: Expected Output
+            - generic [ref=e272]:
+              - code [ref=e274]: "Number of relations: 5 Descending Order by Score: ['Apple', 'Inc.'] --> headquartered in --> ['California'] | score: 0.9854260683059692 ['Apple', 'Inc.'] --> headquartered in --> ['Cupertino'] | score: 0.9569844603538513 ['Steve', 'Wozniak'] --> co-founder --> ['Apple', 'Inc.'] | score: 0.09025496244430542 ['Steve', 'Jobs'] --> co-founder --> ['Apple', 'Inc.'] | score: 0.08805803954601288 ['Ronald', 'Wayne'] --> co-founder --> ['Apple', 'Inc.'] | score: 0.07996643334627151"
+              - button [ref=e275] [cursor=pointer]:
+                - img [ref=e276]
+            - heading "Example training data" [level=2] [ref=e280]:
+              - link [ref=e281] [cursor=pointer]:
+                - /url: "#example-training-data"
+                - img [ref=e283]
+              - generic [ref=e285]: Example training data
+            - paragraph [ref=e286]:
+              - text: NOTE that the entity indices are inclusive i.e
+              - code [ref=e287]: "\"Binsey\""
+              - text: is
+              - code [ref=e288]: "[7, 7]"
+              - text: . This differs from spaCy where the end index is exclusive (in this case spaCy would set the indices to
+              - code [ref=e289]: "[7, 8]"
+              - text: )
+            - paragraph [ref=e290]: "JSONL file:"
+            - generic [ref=e291]:
+              - code [ref=e293]: "{ \"ner\": [ [7, 7, \"Q4914513\", \"Binsey\"], [11, 12, \"Q19686\", \"River Thames\"] ], \"relations\": [ { \"head\": {\"mention\": \"Binsey\", \"position\": [7, 7], \"type\": \"LOC\"}, # 'type' is not used -- it can be any string! \"tail\": {\"mention\": \"River Thames\", \"position\": [11, 12], \"type\": \"Q19686\"}, \"relation_text\": \"located in or next to body of water\" } ], \"tokenized_text\": [\"The\", \"race\", \"took\", \"place\", \"between\", \"Godstow\", \"and\", \"Binsey\", \"along\", \"the\", \"Upper\", \"River\", \"Thames\", \".\"] }, { \"ner\": [ [9, 10, \"Q4386693\", \"Legislative Assembly\"], [1, 3, \"Q1848835\", \"Parliament of Victoria\"] ], \"relations\": [ { \"head\": {\"mention\": \"Legislative Assembly\", \"position\": [9, 10], \"type\": \"Q4386693\"}, \"tail\": {\"mention\": \"Parliament of Victoria\", \"position\": [1, 3], \"type\": \"Q1848835\"}, \"relation_text\": \"part of\" } ], \"tokenized_text\": [\"The\", \"Parliament\", \"of\", \"Victoria\", \"consists\", \"of\", \"the\", \"lower\", \"house\", \"Legislative\", \"Assembly\", \",\", \"the\", \"upper\", \"house\", \"Legislative\", \"Council\", \"and\", \"the\", \"Queen\", \"of\", \"Australia\", \".\"] }"
+              - button [ref=e294] [cursor=pointer]:
+                - img [ref=e295]
+            - heading "License" [level=2] [ref=e299]:
+              - link [ref=e300] [cursor=pointer]:
+                - /url: "#license"
+                - img [ref=e302]
+              - generic [ref=e304]: License
+            - paragraph [ref=e305]:
+              - link "GLiREL" [ref=e306] [cursor=pointer]:
+                - /url: https://github.com/jackboyla/GLiREL
+              - text: by
+              - link "Jack Boylan" [ref=e307] [cursor=pointer]:
+                - /url: https://github.com/jackboyla
+              - text: is licensed under
+              - link "CC BY-NC-SA 4.0" [ref=e308] [cursor=pointer]:
+                - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
+              - text: .
+            - link "CC Logo BY Logo NC Logo SA Logo" [ref=e309] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
+              - img "CC Logo" [ref=e310]
+              - img "BY Logo" [ref=e311]
+              - img "NC Logo" [ref=e312]
+              - img "SA Logo" [ref=e313]
+            - heading "Citation" [level=2] [ref=e314]:
+              - link [ref=e315] [cursor=pointer]:
+                - /url: "#citation"
+                - img [ref=e317]
+              - generic [ref=e319]: Citation
+            - paragraph [ref=e320]: "If you use code or ideas from this project, please cite:"
+            - generic [ref=e321]:
+              - code [ref=e323]: "@misc{boylan2025glirelgeneralistmodel, title={GLiREL -- Generalist Model for Zero-Shot Relation Extraction}, author={Jack Boylan and Chris Hokamp and Demian Gholipour Ghalandari}, year={2025}, eprint={2501.03172}, archivePrefix={arXiv}, primaryClass={cs.CL}, url={https://arxiv.org/abs/2501.03172}, }"
+              - button [ref=e324] [cursor=pointer]:
+                - img [ref=e325]
+      - generic [ref=e329]:
+        - generic [ref=e331]:
+          - term [ref=e332]: Downloads last month
+          - definition [ref=e333]:
+            - generic "Downloads are not tracked for this repo." [ref=e334]:
+              - paragraph [ref=e335]: "-"
+          - definition [ref=e336]:
+            - generic [ref=e337]:
+              - text: Downloads are not tracked for this model.
+              - link "How to track" [ref=e338] [cursor=pointer]:
+                - /url: https://huggingface.co/docs/hub/models-download-stats
+                - text: How to track
+                - img [ref=e339]
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - img [ref=e348]
+            - generic [ref=e350]: Inference Providers
+            - link "NEW" [ref=e351] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/inference-providers
+          - generic [ref=e352]:
+            - generic [ref=e353]: This model isn't deployed by any Inference Provider.
+            - link "🙋 Ask for provider support" [ref=e354] [cursor=pointer]:
+              - /url: /spaces/huggingface/InferenceSupport/discussions/new?title=jackboyla/glirel-large-v0&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bjackboyla%2Fglirel-large-v0%5D(%2Fjackboyla%2Fglirel-large-v0)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+              - generic [ref=e356]: 🙋
+              - generic [ref=e357]: Ask for provider support
+        - heading "Spaces using jackboyla/glirel-large-v0 3" [level=2] [ref=e359]:
+          - img [ref=e360]
+          - text: Spaces using
+          - generic [ref=e366]: jackboyla/glirel-large-v0
+          - generic [ref=e367]: "3"
+        - navigation [ref=e369]:
+          - link "jackboyla/GLiREL" [ref=e370] [cursor=pointer]:
+            - /url: /spaces/jackboyla/GLiREL
+            - generic [ref=e372]: jackboyla/GLiREL
+            - img [ref=e373]
+          - link "🚀 FilipL009/CTI-NER-website" [ref=e376] [cursor=pointer]:
+            - /url: /spaces/FilipL009/CTI-NER-website
+            - generic [ref=e377]: 🚀
+            - generic [ref=e378]: FilipL009/CTI-NER-website
+          - link "🦊 dwb2023/GLiREL" [ref=e379] [cursor=pointer]:
+            - /url: /spaces/dwb2023/GLiREL
+            - generic [ref=e380]: 🦊
+            - generic [ref=e381]: dwb2023/GLiREL
+        - heading "Collection including jackboyla/glirel-large-v0" [level=2] [ref=e383]:
+          - img [ref=e384]
+          - text: Collection including
+          - generic [ref=e388]: jackboyla/glirel-large-v0
+        - article [ref=e391]:
+          - link "GLiREL Collection 1 item • Updated Dec 21, 2024 • 3" [ref=e392] [cursor=pointer]:
+            - /url: /collections/jackboyla/glirel
+            - generic "GLiREL" [ref=e393]:
+              - heading "GLiREL" [level=4] [ref=e394]
+              - generic [ref=e395]:
+                - img [ref=e396]
+                - text: Collection
+            - generic [ref=e400]:
+              - generic [ref=e401]: 1 item
+              - generic [ref=e402]: •
+              - generic [ref=e403]:
+                - text: Updated
+                - time [ref=e404]: Dec 21, 2024
+              - generic [ref=e405]: •
+              - img [ref=e406]
+              - text: "3"
+        - heading "Papers for jackboyla/glirel-large-v0" [level=2] [ref=e409]:
+          - img [ref=e410]
+          - text: Papers for
+          - generic [ref=e413]: jackboyla/glirel-large-v0
+        - generic [ref=e414]:
+          - article [ref=e415]:
+            - link "GLiREL -- Generalist Model for Zero-Shot Relation Extraction Paper • 2501.03172 • Published Jan 6, 2025 • 1" [ref=e416] [cursor=pointer]:
+              - /url: /papers/2501.03172
+              - generic "arxiv:2501.03172" [ref=e417]:
+                - heading "GLiREL -- Generalist Model for Zero-Shot Relation Extraction" [level=4] [ref=e418]
+              - generic [ref=e419]:
+                - img [ref=e420]
+                - text: Paper
+                - generic [ref=e423]: •
+                - text: "2501.03172"
+                - generic [ref=e424]: •
+                - generic [ref=e425]:
+                  - text: Published
+                  - time [ref=e426]: Jan 6, 2025
+                - generic [ref=e427]: •
+                - img [ref=e428]
+                - text: "1"
+          - article [ref=e430]:
+            - 'link "GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer Paper • 2311.08526 • Published Nov 14, 2023 • 14" [ref=e431] [cursor=pointer]':
+              - /url: /papers/2311.08526
+              - generic "arxiv:2311.08526" [ref=e432]:
+                - 'heading "GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer" [level=4] [ref=e433]'
+              - generic [ref=e434]:
+                - img [ref=e435]
+                - text: Paper
+                - generic [ref=e438]: •
+                - text: "2311.08526"
+                - generic [ref=e439]: •
+                - generic [ref=e440]:
+                  - text: Published
+                  - time [ref=e441]: Nov 14, 2023
+                - generic [ref=e442]: •
+                - img [ref=e443]
+                - text: "14"
+  - contentinfo [ref=e445]:
+    - navigation [ref=e446]:
+      - button "System theme" [ref=e449] [cursor=pointer]:
+        - img [ref=e450]
+        - text: System theme
+      - link "TOS" [ref=e455] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e456] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e457] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e458] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e459] [cursor=pointer]:
+        - /url: /
+        - img [ref=e460]
+      - link "Models" [ref=e474] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e475] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e476] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e477] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e478] [cursor=pointer]:
+        - /url: /docs

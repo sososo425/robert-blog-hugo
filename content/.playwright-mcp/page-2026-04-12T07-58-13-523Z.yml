@@ -1,0 +1,2157 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Back to arXiv" [ref=e4] [cursor=pointer]:
+      - /url: https://arxiv.org/
+      - generic [ref=e5]: Back to arXiv
+    - banner [ref=e6]:
+      - paragraph [ref=e7]:
+        - text: This is
+        - strong [ref=e8]: experimental HTML
+        - text: to improve accessibility. We invite you to report rendering errors.
+        - generic [ref=e9]: Use Alt+Y to toggle on accessible reporting links and Alt+Shift+Y to toggle off.
+        - text: Learn more
+        - link "about this project" [ref=e10] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/accessible_HTML.html
+        - text: and
+        - link "help improve conversions" [ref=e11] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/submit_latex_best_practices.html
+        - text: .
+    - navigation [ref=e12]:
+      - link "Why HTML?" [ref=e13] [cursor=pointer]:
+        - /url: https://info.arxiv.org/about/accessible_HTML.html
+      - link "Report Issue" [ref=e14] [cursor=pointer]:
+        - /url: "#myForm"
+      - link "Back to Abstract" [ref=e15] [cursor=pointer]:
+        - /url: https://arxiv.org/abs/2410.05779v3
+      - link "Download PDF" [ref=e16] [cursor=pointer]:
+        - /url: https://arxiv.org/pdf/2410.05779v3
+      - link "Toggle dark/light mode" [ref=e17] [cursor=pointer]:
+        - /url: javascript:toggleColorScheme()
+        - generic "Switch to light mode" [ref=e18]:
+          - img [ref=e19]
+  - generic [ref=e21]:
+    - navigation "Table of Contents" [ref=e22]:
+      - generic [ref=e23] [cursor=pointer]:
+        - img
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - link "Abstract" [ref=e26] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#abstract
+            - generic [ref=e27]: Abstract
+        - listitem [ref=e28]:
+          - link "1 Introduction" [ref=e29] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#S1
+            - generic [ref=e30]:
+              - generic [ref=e31]: "1"
+              - text: Introduction
+        - listitem [ref=e32]:
+          - link "2 Retrieval-Augmented Generation" [ref=e33] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#S2
+            - generic [ref=e34]:
+              - generic [ref=e35]: "2"
+              - text: Retrieval-Augmented Generation
+        - listitem [ref=e36]:
+          - link "3 The LightRAG Architecture" [ref=e37] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#S3
+            - generic [ref=e38]:
+              - generic [ref=e39]: "3"
+              - text: The LightRAG Architecture
+        - listitem [ref=e40]:
+          - link "4 Evaluation" [ref=e41] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#S4
+            - generic [ref=e42]:
+              - generic [ref=e43]: "4"
+              - text: Evaluation
+        - listitem [ref=e44]:
+          - link "5 Related Work" [ref=e45] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#S5
+            - generic [ref=e46]:
+              - generic [ref=e47]: "5"
+              - text: Related Work
+        - listitem [ref=e48]:
+          - link "6 Conclusion" [ref=e49] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#S6
+            - generic [ref=e50]:
+              - generic [ref=e51]: "6"
+              - text: Conclusion
+        - listitem [ref=e52]:
+          - link "7 Appendix" [ref=e53] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#S7
+            - generic [ref=e54]:
+              - generic [ref=e55]: "7"
+              - text: Appendix
+        - listitem [ref=e56]:
+          - link "References" [ref=e57] [cursor=pointer]:
+            - /url: https://arxiv.org/html/2410.05779v3#bib
+            - generic [ref=e58]: References
+    - generic [ref=e59]:
+      - status "Conversion errors have been found" [ref=e60]:
+        - button "Dismiss alert" [ref=e61] [cursor=pointer]:
+          - img [ref=e63]
+        - paragraph [ref=e66]:
+          - text: HTML conversions
+          - link "sometimes display errors" [ref=e67] [cursor=pointer]:
+            - /url: https://info.dev.arxiv.org/about/accessibility_html_error_messages.html
+          - text: due to content that did not convert correctly from the source. This paper uses the following packages that are not yet supported by the HTML conversion tool. Feedback on these issues are not necessary; they are known and are being worked on.
+        - list [ref=e68]:
+          - listitem [ref=e69]: "failed: inconsolata"
+          - listitem [ref=e70]: "failed: moresize"
+          - listitem [ref=e71]: "failed: filecontents"
+        - paragraph [ref=e72]:
+          - text: "Authors: achieve the best HTML results from your LaTeX submissions by following these"
+          - link "best practices" [ref=e73] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/submit_latex_best_practices.html
+          - text: .
+      - generic [ref=e74]:
+        - 'link "License: CC BY-NC-SA 4.0" [ref=e75] [cursor=pointer]':
+          - /url: https://info.arxiv.org/help/license/index.html#licenses-available
+        - generic [ref=e76]: arXiv:2410.05779v3 [cs.IR] 28 Apr 2025
+      - article [ref=e77]:
+        - 'heading "LightRAG: Simple and Fast Retrieval-Augmented Generation" [level=1] [ref=e78]'
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - text: Zirui Guo
+            - superscript [ref=e82]: 1,2
+            - text: ", Lianghao Xia"
+            - superscript [ref=e83]: "2"
+            - text: ","
+            - generic [ref=e84]:
+              - text: Yanhua Yu
+              - superscript [ref=e85]: 1,∗
+            - text: ", Tu Ao"
+            - superscript [ref=e86]: "1"
+            - text: ","
+            - generic [ref=e87]:
+              - text: Chao Huang
+              - superscript [ref=e88]: "2"
+            - text: Beijing University of Posts and Telecommunications
+            - superscript [ref=e89]: "1"
+            - text: University of Hong Kong
+            - superscript [ref=e90]: "2"
+            - generic [ref=e91]: zrguo101@hku.hk aka_xia@foxmail.com chaohuang75@gmail.com
+          - generic [ref=e92]: Both Chao Huang and Yanhua Yu are corresponding authors.
+        - generic [ref=e93]:
+          - heading "Abstract" [level=6] [ref=e94]
+          - paragraph [ref=e95]:
+            - generic [ref=e96]:
+              - text: "Retrieval-Augmented Generation (RAG) systems enhance large language models (LLMs) by integrating external knowledge sources, enabling more accurate and contextually relevant responses tailored to user needs. However, existing RAG systems have significant limitations, including reliance on flat data representations and inadequate contextual awareness, which can lead to fragmented answers that fail to capture complex inter-dependencies. To address these challenges, we propose LightRAG, which incorporates graph structures into text indexing and retrieval processes. This innovative framework employs a dual-level retrieval system that enhances comprehensive information retrieval from both low-level and high-level knowledge discovery. Additionally, the integration of graph structures with vector representations facilitates efficient retrieval of related entities and their relationships, significantly improving response times while maintaining contextual relevance. This capability is further enhanced by an incremental update algorithm that ensures the timely integration of new data, allowing the system to remain effective and responsive in rapidly changing data environments. Extensive experimental validation demonstrates considerable improvements in retrieval accuracy and efficiency compared to existing approaches. We have made our LightRAG open-source and available at the link:"
+              - link "https://github.com/HKUDS/LightRAG" [ref=e97] [cursor=pointer]:
+                - /url: https://github.com/HKUDS/LightRAG
+              - text: .
+        - generic [ref=e98]:
+          - heading "1 Introduction" [level=2] [ref=e99]:
+            - generic [ref=e100]: "1"
+            - text: Introduction
+          - paragraph [ref=e102]:
+            - text: Retrieval-Augmented Generation (RAG) systems have been developed to enhance large language models (LLMs) by integrating external knowledge sources
+            - generic [ref=e103]:
+              - text: Sudhi et al. (
+              - link "2024" [ref=e104] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#bib.bib16
+              - text: ); Es et al. (
+              - link "2024" [ref=e105] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#bib.bib5
+              - text: ); Salemi & Zamani (
+              - link "2024" [ref=e106] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#bib.bib15
+              - text: )
+            - text: . This innovative integration allows LLMs to generate more accurate and contextually relevant responses, significantly improving their utility in real-world applications. By adapting to specific domain knowledge
+            - generic [ref=e107]:
+              - text: Tu et al. (
+              - link "2024" [ref=e108] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#bib.bib18
+              - text: )
+            - text: ", RAG systems ensure that the information provided is not only pertinent but also tailored to the user’s needs. Furthermore, they offer access to up-to-date information"
+            - generic [ref=e109]:
+              - text: Zhao et al. (
+              - link "2024" [ref=e110] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#bib.bib21
+              - text: )
+            - text: ", which is crucial in rapidly evolving fields. Chunking plays a vital role in facilitating the retrieval-augmented generation process"
+            - generic [ref=e111]:
+              - text: Lyu et al. (
+              - link "2024" [ref=e112] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#bib.bib11
+              - text: )
+            - text: . By breaking down a large external text corpus into smaller, more manageable segments, chunking significantly enhances the accuracy of information retrieval. This approach allows for more targeted similarity searches, ensuring that the retrieved content is directly relevant to user queries.
+          - paragraph [ref=e114]: However, existing RAG systems have key limitations that hinder their performance. First, many methods rely on flat data representations, restricting their ability to understand and retrieve information based on intricate relationships between entities. Second, these systems often lack the contextual awareness needed to maintain coherence across various entities and their interrelations, resulting in responses that may not fully address user queries. For example, consider a user asking, “How does the rise of electric vehicles influence urban air quality and public transportation infrastructure?” Existing RAG methods might retrieve separate documents on electric vehicles, air pollution, and public transportation challenges but struggle to synthesize this information into a cohesive response. They may fail to explain how the adoption of electric vehicles can improve air quality, which in turn could affect public transportation planning. As a result, the user may receive a fragmented answer that does not adequately capture the complex inter-dependencies among these topics.
+          - paragraph [ref=e116]:
+            - text: To address these limitations, we propose incorporating graph structures into text indexing and relevant information retrieval. Graphs are particularly effective at representing the interdependencies among different entities
+            - generic [ref=e117]:
+              - text: Rampášek et al. (
+              - link "2022" [ref=e118] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#bib.bib14
+              - text: )
+            - text: ", which enables a more nuanced understanding of relationships. The integration of graph-based knowledge structures facilitates the synthesis of information from multiple sources into coherent and contextually rich responses. Despite these advantages, developing a fast and scalable graph-empowered RAG system that efficiently handles varying query volumes is crucial. In this work, we achieve an effective and efficient RAG system by addressing three key challenges: i) Comprehensive Information Retrieval. Ensuring comprehensive information retrieval that captures the full context of inter-dependent entities from all documents; ii) Enhanced Retrieval Efficiency. Improving retrieval efficiency over the graph-based knowledge structures to significantly reduce response times; iii) Rapid Adaptation to New Data. Enabling quick adaptation to new data updates, ensuring the system remains relevant in dynamic environments."
+          - paragraph [ref=e120]: "In response to the outlined challenges, we propose LightRAG, a model that seamlessly integrates a graph-based text indexing paradigm with a dual-level retrieval framework. This innovative approach enhances the system’s capacity to capture complex inter-dependencies among entities, resulting in more coherent and contextually rich responses. LightRAG employs efficient dual-level retrieval strategies: low-level retrieval, which focuses on precise information about specific entities and their relationships, and high-level retrieval, which encompasses broader topics and themes. By combining both detailed and conceptual retrieval, LightRAG effectively accommodates a diverse range of quries, ensuring that users receive relevant and comprehensive responses tailored to their specific needs. Additionally, by integrating graph structures with vector representations, our framework facilitates efficient retrieval of related entities and relations while enhancing the comprehensiveness of results through relevant structural information from the constructed knowledge graph."
+          - paragraph [ref=e122]: "In summary, the key contributions of this work are highlighted as follows:"
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - text: •
+              - paragraph [ref=e127]: General Aspect. We emphasize the importance of developing a graph-empowered RAG system to overcome the limitations of existing methods. By integrating graph structures into text indexing, we can effectively represent complex interdependencies among entities, fostering a nuanced understanding of relationships and enabling coherent, contextually rich responses.
+            - listitem [ref=e128]:
+              - text: •
+              - paragraph [ref=e130]: Methodologies. To enable an efficient and adaptive RAG system, we propose LightRAG, which integrates a dual-level retrieval paradigm with graph-enhanced text indexing. This approach captures both low-level and high-level information for comprehensive, cost-effective retrieval. By eliminating the need to rebuild the entire index, LightRAG reduces computational costs and accelerates adaptation, while its incremental update algorithm ensures timely integration of new data, maintaining effectiveness in dynamic environments.
+            - listitem [ref=e131]:
+              - text: •
+              - paragraph [ref=e133]: Experimental Findings. Extensive experiments were conducted to evaluate the effectiveness of LightRAG in comparison to existing RAG models. These assessments focused on several key dimensions, including retrieval accuracy, model ablation, response efficiency, and adaptability to new information. The results demonstrated significant improvements over baseline methods.
+        - generic [ref=e134]:
+          - heading "2 Retrieval-Augmented Generation" [level=2] [ref=e135]:
+            - generic [ref=e136]: "2"
+            - text: Retrieval-Augmented Generation
+          - generic [ref=e137]:
+            - paragraph [ref=e138]:
+              - text: "Retrieval-Augmented Generation (RAG) integrates user queries with a collection of pertinent documents sourced from an external knowledge database, incorporating two essential elements: the Retrieval Component and the Generation Component. 1) The retrieval component is responsible for fetching relevant documents or information from the external knowledge database. It identifies and retrieves the most pertinent data based on the input query. 2) After the retrieval process, the generation component takes the retrieved information and generates coherent, contextually relevant responses. It leverages the capabilities of the language model to produce meaningful outputs. Formally, this RAG framework, denoted as"
+              - math [ref=e139]:
+                - generic [ref=e141]: ℳ
+              - text: ", can be defined as follows:"
+            - table [ref=e142]:
+              - rowgroup [ref=e143]:
+                - row "(1)" [ref=e144]:
+                  - cell [ref=e145]
+                  - cell [ref=e146]:
+                    - math [ref=e147]:
+                      - generic [ref=e149]:
+                        - generic [ref=e150]:
+                          - generic [ref=e151]: ℳ
+                          - generic [ref=e152]: =
+                          - generic [ref=e153]:
+                            - generic [ref=e154]: (
+                            - generic [ref=e155]:
+                              - generic [ref=e156]:
+                                - generic [ref=e157]: 𝒢
+                                - generic [ref=e158]: ","
+                                - generic [ref=e159]: ℛ
+                              - generic [ref=e160]: =
+                              - generic [ref=e161]:
+                                - generic [ref=e162]: (
+                                - generic [ref=e163]: φ
+                                - generic [ref=e164]: ","
+                                - generic [ref=e165]: ψ
+                                - generic [ref=e166]: )
+                            - generic [ref=e167]: )
+                        - generic [ref=e168]: ","
+                        - generic [ref=e169]:
+                          - generic [ref=e170]:
+                            - generic [ref=e171]:
+                              - generic [ref=e172]: ℳ
+                              - generic: ⁢
+                              - generic [ref=e173]:
+                                - generic [ref=e174]: (
+                                - generic [ref=e175]: q
+                                - generic [ref=e176]: ;
+                                - generic [ref=e177]: 𝒟
+                                - generic [ref=e178]: )
+                            - generic [ref=e179]: =
+                            - generic [ref=e180]:
+                              - generic [ref=e181]: 𝒢
+                              - generic: ⁢
+                              - generic [ref=e182]:
+                                - generic [ref=e183]: (
+                                - generic [ref=e184]: q
+                                - generic [ref=e185]: ","
+                                - generic [ref=e186]:
+                                  - generic [ref=e187]: ψ
+                                  - generic: ⁢
+                                  - generic [ref=e188]:
+                                    - generic [ref=e189]: (
+                                    - generic [ref=e190]: q
+                                    - generic [ref=e191]: ;
+                                    - generic [ref=e192]:
+                                      - generic [ref=e193]: 𝒟
+                                      - generic [ref=e194]: ^
+                                    - generic [ref=e195]: )
+                                - generic [ref=e196]: )
+                          - generic [ref=e197]: ","
+                          - generic [ref=e198]:
+                            - generic [ref=e199]:
+                              - generic [ref=e200]: 𝒟
+                              - generic [ref=e201]: ^
+                            - generic [ref=e202]: =
+                            - generic [ref=e203]:
+                              - generic [ref=e204]: φ
+                              - generic: ⁢
+                              - generic [ref=e205]:
+                                - generic [ref=e206]: (
+                                - generic [ref=e207]: 𝒟
+                                - generic [ref=e208]: )
+                  - cell [ref=e209]
+                  - cell "(1)" [ref=e210]:
+                    - generic [ref=e211]: (1)
+            - paragraph [ref=e212]:
+              - text: In this framework,
+              - math [ref=e213]:
+                - generic [ref=e215]: 𝒢
+              - text: and
+              - math [ref=e216]:
+                - generic [ref=e218]: ℛ
+              - text: represent the generation module and the retrieval module, respectively, while
+              - math [ref=e219]:
+                - generic [ref=e221]: q
+              - text: denotes the input query and
+              - math [ref=e222]:
+                - generic [ref=e224]: D
+              - text: refers to the external database. The retrieval module
+              - math [ref=e225]:
+                - generic [ref=e227]: ℛ
+              - text: "includes two key functionalities: i) Data Indexer"
+              - math [ref=e228]:
+                - generic [ref=e230]:
+                  - generic [ref=e231]: φ
+                  - generic: ⁢
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: (
+                    - generic [ref=e234]: ⋅
+                    - generic [ref=e235]: )
+              - text: ": which involves building a specific data structure"
+              - math [ref=e236]:
+                - generic [ref=e238]:
+                  - generic [ref=e239]: 𝒟
+                  - generic [ref=e240]: ^
+              - text: based on the external database
+              - math [ref=e241]:
+                - generic [ref=e243]: D
+              - text: . ii) Data Retriever
+              - math [ref=e244]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]: ψ
+                  - generic: ⁢
+                  - generic [ref=e248]:
+                    - generic [ref=e249]: (
+                    - generic [ref=e250]: ⋅
+                    - generic [ref=e251]: )
+              - text: ": The relevant documents are obtained by comparing the query against the indexed data, also denoted as “relevant documents”. By leveraging the information retrieved through"
+              - math [ref=e252]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: ψ
+                  - generic: ⁢
+                  - generic [ref=e256]:
+                    - generic [ref=e257]: (
+                    - generic [ref=e258]: ⋅
+                    - generic [ref=e259]: )
+              - text: along with the initial query
+              - math [ref=e260]:
+                - generic [ref=e262]: q
+              - text: ", the generative model"
+              - math [ref=e263]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]: 𝒢
+                  - generic: ⁢
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: (
+                    - generic [ref=e269]: ⋅
+                    - generic [ref=e270]: )
+              - text: efficiently produces high-quality, contextually relevant responses.
+          - generic [ref=e271]:
+            - paragraph [ref=e272]: "In this work, we target several key points essential for an efficient and effective Retrieval-Augmented Generation (RAG) system which are elaborated below:"
+            - list [ref=e273]:
+              - listitem [ref=e274]:
+                - text: •
+                - paragraph [ref=e276]:
+                  - text: "Comprehensive Information Retrieval: The indexing function"
+                  - math [ref=e277]:
+                    - generic [ref=e279]:
+                      - generic [ref=e280]: φ
+                      - generic: ⁢
+                      - generic [ref=e281]:
+                        - generic [ref=e282]: (
+                        - generic [ref=e283]: ⋅
+                        - generic [ref=e284]: )
+                  - text: must be adept at extracting global information, as this is crucial for enhancing the model’s ability to answer queries effectively.
+              - listitem [ref=e285]:
+                - text: •
+                - paragraph [ref=e287]:
+                  - text: "Efficient and Low-Cost Retrieval: The indexed data structure"
+                  - math [ref=e288]:
+                    - generic [ref=e290]:
+                      - generic [ref=e291]: 𝒟
+                      - generic [ref=e292]: ^
+                  - text: must enable rapid and cost-efficient retrieval to effectively handle a high volume of queries.
+              - listitem [ref=e293]:
+                - text: •
+                - paragraph [ref=e295]: "Fast Adaptation to Data Changes: The ability to swiftly and efficiently adjust the data structure to incorporate new information from the external knowledge base, is crucial for ensuring that the system remains current and relevant in an ever-changing information landscape."
+        - generic [ref=e296]:
+          - heading "3 The LightRAG Architecture" [level=2] [ref=e297]:
+            - generic [ref=e298]: "3"
+            - text: The LightRAG Architecture
+          - 'figure "Figure 1: Overall architecture of the proposed LightRAG framework." [ref=e299]':
+            - img "Refer to caption" [ref=e300]
+            - generic [ref=e301]:
+              - generic [ref=e302]: "Figure 1:"
+              - text: Overall architecture of the proposed LightRAG framework.
+          - generic [ref=e303]:
+            - heading "3.1 Graph-based Text Indexing" [level=3] [ref=e304]:
+              - generic [ref=e305]: "3.1"
+              - text: Graph-based Text Indexing
+            - generic [ref=e306]:
+              - paragraph [ref=e307]: "Graph-Enhanced Entity and Relationship Extraction. Our LightRAG enhances the retrieval system by segmenting documents into smaller, more manageable pieces. This strategy allows for quick identification and access to relevant information without analyzing entire documents. Next, we leverage LLMs to identify and extract various entities (e.g., names, dates, locations, and events) along with the relationships between them. The information collected through this process will be used to create a comprehensive knowledge graph that highlights the connections and insights across the entire collection of documents. We formally represent this graph generation module as follows:"
+              - table [ref=e308]:
+                - rowgroup [ref=e309]:
+                  - row "(2)" [ref=e310]:
+                    - cell [ref=e311]
+                    - cell [ref=e312]:
+                      - math [ref=e313]:
+                        - generic [ref=e315]:
+                          - generic [ref=e316]:
+                            - generic [ref=e317]:
+                              - generic [ref=e318]: 𝒟
+                              - generic [ref=e319]: ^
+                            - generic [ref=e320]: =
+                            - generic [ref=e321]:
+                              - generic [ref=e322]: (
+                              - generic [ref=e323]:
+                                - generic [ref=e324]: 𝒱
+                                - generic [ref=e325]: ^
+                              - generic [ref=e326]: ","
+                              - generic [ref=e327]:
+                                - generic [ref=e328]: ℰ
+                                - generic [ref=e329]: ^
+                              - generic [ref=e330]: )
+                            - generic [ref=e331]: =
+                            - generic [ref=e332]:
+                              - generic [ref=e333]:
+                                - generic [ref=e334]: Dedupe
+                                - generic [ref=e335]: ∘
+                                - generic [ref=e336]: Prof
+                              - generic: ⁢
+                              - generic [ref=e337]:
+                                - generic [ref=e338]: (
+                                - generic [ref=e339]: 𝒱
+                                - generic [ref=e340]: ","
+                                - generic [ref=e341]: ℰ
+                                - generic [ref=e342]: )
+                          - generic [ref=e343]: ","
+                          - generic [ref=e344]:
+                            - generic [ref=e345]:
+                              - generic [ref=e346]: 𝒱
+                              - generic [ref=e347]: ","
+                              - generic [ref=e348]: ℰ
+                            - generic [ref=e349]: =
+                            - generic [ref=e350]:
+                              - generic [ref=e351]:
+                                - generic [ref=e352]: ∪
+                                - generic [ref=e353]:
+                                  - generic [ref=e354]:
+                                    - generic [ref=e355]: 𝒟
+                                    - generic [ref=e356]: i
+                                  - generic [ref=e357]: ∈
+                                  - generic [ref=e358]: 𝒟
+                              - generic [ref=e359]:
+                                - generic [ref=e360]: Recog
+                                - generic: ⁢
+                                - generic [ref=e361]:
+                                  - generic [ref=e362]: (
+                                  - generic [ref=e363]:
+                                    - generic [ref=e364]: 𝒟
+                                    - generic [ref=e365]: i
+                                  - generic [ref=e366]: )
+                    - cell [ref=e367]
+                    - cell "(2)" [ref=e368]:
+                      - generic [ref=e369]: (2)
+              - paragraph [ref=e370]:
+                - text: where
+                - math [ref=e371]:
+                  - generic [ref=e373]:
+                    - generic [ref=e374]: 𝒟
+                    - generic [ref=e375]: ^
+                - text: represents the resulting knowledge graphs. To generate this data, we apply three main processing steps to the raw text documents
+                - math [ref=e376]:
+                  - generic [ref=e378]:
+                    - generic [ref=e379]: 𝒟
+                    - generic [ref=e380]: i
+                - text: . These steps utilize a LLM for text analysis and processing. Details about the prompt templates and specific settings for this part can be found in Appendix
+                - link "7.3.2" [ref=e381] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#S7.SS3.SSS2
+                - text: ". The functions used in our graph-based text indexing paradigm are described as:"
+            - list [ref=e383]:
+              - listitem [ref=e384]:
+                - text: •
+                - paragraph [ref=e386]:
+                  - text: Extracting Entities and Relationships.
+                  - math [ref=e387]:
+                    - generic [ref=e389]:
+                      - generic [ref=e390]: R
+                      - generic: ⁢
+                      - generic [ref=e391]:
+                        - generic [ref=e392]: (
+                        - generic [ref=e393]: ⋅
+                        - generic [ref=e394]: )
+                  - text: ": This function prompts a LLM to identify entities (nodes) and their relationships (edges) within the text data. For instance, it can extract entities like \"Cardiologists\" and \"Heart Disease,\" and relationships such as \"Cardiologists diagnose Heart Disease\" from the text: \"Cardiologists assess symptoms to identify potential heart issues.\" To improve efficiency, the raw text"
+                  - math [ref=e395]:
+                    - generic [ref=e397]: 𝒟
+                  - text: is segmented into multiple chunks
+                  - math [ref=e398]:
+                    - generic [ref=e400]:
+                      - generic [ref=e401]: 𝒟
+                      - generic [ref=e402]: i
+                  - text: .
+              - listitem [ref=e403]:
+                - text: •
+                - paragraph [ref=e405]:
+                  - text: LLM Profiling for Key-Value Pair Generation.
+                  - math [ref=e406]:
+                    - generic [ref=e408]:
+                      - generic [ref=e409]: P
+                      - generic: ⁢
+                      - generic [ref=e410]:
+                        - generic [ref=e411]: (
+                        - generic [ref=e412]: ⋅
+                        - generic [ref=e413]: )
+                  - text: ": We employ a LLM-empowered profiling function,"
+                  - math [ref=e414]:
+                    - generic [ref=e416]:
+                      - generic [ref=e417]: P
+                      - generic: ⁢
+                      - generic [ref=e418]:
+                        - generic [ref=e419]: (
+                        - generic [ref=e420]: ⋅
+                        - generic [ref=e421]: )
+                  - text: ", to generate a text key-value pair"
+                  - math [ref=e422]:
+                    - generic [ref=e424]:
+                      - generic [ref=e425]: (
+                      - generic [ref=e426]: K
+                      - generic [ref=e427]: ","
+                      - generic [ref=e428]: V
+                      - generic [ref=e429]: )
+                  - text: for each entity node in
+                  - math [ref=e430]:
+                    - generic [ref=e432]: 𝒱
+                  - text: and relation edge in
+                  - math [ref=e433]:
+                    - generic [ref=e435]: ℰ
+                  - text: . Each index key is a word or short phrase that enables efficient retrieval, while the corresponding value is a text paragraph summarizing relevant snippets from external data to aid in text generation. Entities use their names as the sole index key, whereas relations may have multiple index keys derived from LLM enhancements that include global themes from connected entities.
+              - listitem [ref=e436]:
+                - text: •
+                - paragraph [ref=e438]:
+                  - text: Deduplication to Optimize Graph Operations.
+                  - math [ref=e439]:
+                    - generic [ref=e441]:
+                      - generic [ref=e442]: D
+                      - generic: ⁢
+                      - generic [ref=e443]:
+                        - generic [ref=e444]: (
+                        - generic [ref=e445]: ⋅
+                        - generic [ref=e446]: )
+                  - text: ": Finally, we implement a deduplication function,"
+                  - math [ref=e447]:
+                    - generic [ref=e449]:
+                      - generic [ref=e450]: D
+                      - generic: ⁢
+                      - generic [ref=e451]:
+                        - generic [ref=e452]: (
+                        - generic [ref=e453]: ⋅
+                        - generic [ref=e454]: )
+                  - text: ", that identifies and merges identical entities and relations from different segments of the raw text"
+                  - math [ref=e455]:
+                    - generic [ref=e457]:
+                      - generic [ref=e458]: 𝒟
+                      - generic [ref=e459]: i
+                  - text: . This process effectively reduces the overhead associated with graph operations on
+                  - math [ref=e460]:
+                    - generic [ref=e462]:
+                      - generic [ref=e463]: 𝒟
+                      - generic [ref=e464]: ^
+                  - text: by minimizing the graph’s size, leading to more efficient data processing.
+            - paragraph [ref=e466]:
+              - text: Our LightRAG offers two advantages through its graph-based text indexing paradigm.
+              - emphasis [ref=e467]: First
+              - text: ", Comprehensive Information Understanding. The constructed graph structures enable the extraction of global information from multi-hop subgraphs, greatly enhancing LightRAG’s ability to handle complex queries that span multiple document chunks."
+              - emphasis [ref=e468]: Second
+              - text: ", Enhanced Retrieval Performance. the key-value data structures derived from the graph are optimized for rapid and precise retrieval. This provides a superior alternative to less accurate embedding matching methods"
+              - generic [ref=e469]:
+                - text: (Gao et al.,
+                - link "2023" [ref=e470] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib8
+                - text: )
+              - text: and inefficient chunk traversal techniques
+              - generic [ref=e471]:
+                - text: (Edge et al.,
+                - link "2024" [ref=e472] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib4
+                - text: )
+              - text: commonly used in existing approaches.
+            - paragraph [ref=e474]:
+              - text: Fast Adaptation to Incremental Knowledge Base. To efficiently adapt to evolving data changes while ensuring accurate and relevant responses, our LightRAG incrementally updates the knowledge base without the need for complete reprocessing of the entire external database. For a new document
+              - math [ref=e475]:
+                - generic [ref=e477]:
+                  - generic [ref=e478]: 𝒟
+                  - generic [ref=e479]: ′
+              - text: ", the incremental update algorithm processes it using the same graph-based indexing steps"
+              - math [ref=e480]:
+                - generic [ref=e482]: φ
+              - text: as before, resulting in
+              - math [ref=e483]:
+                - generic [ref=e485]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - generic [ref=e488]: 𝒟
+                      - generic [ref=e489]: ^
+                    - generic [ref=e490]: ′
+                  - generic [ref=e491]: =
+                  - generic [ref=e492]:
+                    - generic [ref=e493]: (
+                    - generic [ref=e494]:
+                      - generic [ref=e495]:
+                        - generic [ref=e496]: 𝒱
+                        - generic [ref=e497]: ^
+                      - generic [ref=e498]: ′
+                    - generic [ref=e499]: ","
+                    - generic [ref=e500]:
+                      - generic [ref=e501]:
+                        - generic [ref=e502]: ℰ
+                        - generic [ref=e503]: ^
+                      - generic [ref=e504]: ′
+                    - generic [ref=e505]: )
+              - text: . Subsequently, LightRAGcombines the new graph data with the original by taking the union of the node sets
+              - math [ref=e506]:
+                - generic [ref=e508]:
+                  - generic [ref=e509]: 𝒱
+                  - generic [ref=e510]: ^
+              - text: and
+              - math [ref=e511]:
+                - generic [ref=e513]:
+                  - generic [ref=e514]:
+                    - generic [ref=e515]: 𝒱
+                    - generic [ref=e516]: ^
+                  - generic [ref=e517]: ′
+              - text: ", as well as the edge sets"
+              - math [ref=e518]:
+                - generic [ref=e520]:
+                  - generic [ref=e521]: ℰ
+                  - generic [ref=e522]: ^
+              - text: and
+              - math [ref=e523]:
+                - generic [ref=e525]:
+                  - generic [ref=e526]:
+                    - generic [ref=e527]: ℰ
+                    - generic [ref=e528]: ^
+                  - generic [ref=e529]: ′
+              - text: .
+            - paragraph [ref=e531]: "Two key objectives guide our approach to fast adaptation for the incremental knowledge base: Seamless Integration of New Data. By applying a consistent methodology to new information, the incremental update module allows the LightRAG to integrate new external databases without disrupting the existing graph structure. This approach preserves the integrity of established connections, ensuring that historical data remains accessible while enriching the graph without conflicts or redundancies. Reducing Computational Overhead . By eliminating the need to rebuild the entire index graph, this method reduces computational overhead and facilitates the rapid assimilation of new data. Consequently, LightRAG maintains system accuracy, provides current information, and conserves resources, ensuring users receive timely updates and enhancing the overall RAG effectiveness."
+          - generic [ref=e532]:
+            - heading "3.2 Dual-level Retrieval Paradigm" [level=3] [ref=e533]:
+              - generic [ref=e534]: "3.2"
+              - text: Dual-level Retrieval Paradigm
+            - generic [ref=e535]:
+              - paragraph [ref=e536]: To retrieve relevant information from both specific document chunks and their complex inter-dependencies, our LightRAG proposes generating query keys at both detailed and abstract levels.
+              - list [ref=e537]:
+                - listitem [ref=e538]:
+                  - text: •
+                  - paragraph [ref=e540]: Specific Queries. These queries are detail-oriented and typically reference specific entities within the graph, requiring precise retrieval of information associated with particular nodes or edges. For example, a specific query might be, “Who wrote ’Pride and Prejudice’?”
+                - listitem [ref=e541]:
+                  - text: •
+                  - paragraph [ref=e543]: Abstract Queries. In contrast, abstract queries are more conceptual, encompassing broader topics, summaries, or overarching themes that are not directly tied to specific entities. An example of an abstract query is, “How does artificial intelligence influence modern education?”
+            - generic [ref=e544]:
+              - paragraph [ref=e545]: To accommodate diverse query types, the LightRAG employs two distinct retrieval strategies within the dual-level retrieval paradigm. This ensures that both specific and abstract inquiries are addressed effectively, allowing the system to deliver relevant responses tailored to user needs.
+              - list [ref=e546]:
+                - listitem [ref=e547]:
+                  - text: •
+                  - paragraph [ref=e549]: Low-Level Retrieval. This level is primarily focused on retrieving specific entities along with their associated attributes or relationships. Queries at this level are detail-oriented and aim to extract precise information about particular nodes or edges within the graph.
+                - listitem [ref=e550]:
+                  - text: •
+                  - paragraph [ref=e552]: High-Level Retrieval. This level addresses broader topics and overarching themes. Queries at this level aggregate information across multiple related entities and relationships, providing insights into higher-level concepts and summaries rather than specific details.
+            - paragraph [ref=e554]: Integrating Graph and Vectors for Efficient Retrieval. By combining graph structures with vector representations, the model gains a deeper insight into the interrelationships among entities. This synergy enables the retrieval algorithm to effectively utilize both local and global keywords, streamlining the search process and improving the relevance of results.
+            - list [ref=e556]:
+              - listitem [ref=e557]:
+                - text: •
+                - paragraph [ref=e559]:
+                  - text: (i) Query Keyword Extraction. For a given query
+                  - math [ref=e560]:
+                    - generic [ref=e562]: q
+                  - text: ", the retrieval algorithm of LightRAG begins by extracting both local query keywords"
+                  - math [ref=e563]:
+                    - generic [ref=e565]:
+                      - generic [ref=e566]: k
+                      - generic [ref=e567]:
+                        - generic [ref=e568]: (
+                        - generic [ref=e569]: l
+                        - generic [ref=e570]: )
+                  - text: and global query keywords
+                  - math [ref=e571]:
+                    - generic [ref=e573]:
+                      - generic [ref=e574]: k
+                      - generic [ref=e575]:
+                        - generic [ref=e576]: (
+                        - generic [ref=e577]: g
+                        - generic [ref=e578]: )
+                  - text: .
+              - listitem [ref=e579]:
+                - text: •
+                - paragraph [ref=e581]: (ii) Keyword Matching. The algorithm uses an efficient vector database to match local query keywords with candidate entities and global query keywords with relations linked to global keys.
+              - listitem [ref=e582]:
+                - text: •
+                - paragraph [ref=e584]:
+                  - text: (iii) Incorporating High-Order Relatedness. To enhance the query with higher-order relatedness, LightRAGfurther gathers neighboring nodes within the local subgraphs of the retrieved graph elements. This process involves the set
+                  - math [ref=e585]:
+                    - generic [ref=e587]:
+                      - generic [ref=e588]: "{"
+                      - generic [ref=e589]:
+                        - generic [ref=e590]: v
+                        - generic [ref=e591]: i
+                      - generic [ref=e592]: "|"
+                      - generic [ref=e593]:
+                        - generic [ref=e594]:
+                          - generic [ref=e595]: v
+                          - generic [ref=e596]: i
+                        - generic [ref=e597]: ∈
+                        - generic [ref=e598]:
+                          - generic [ref=e599]: 𝒱
+                          - generic [ref=e600]: ∧
+                          - generic [ref=e601]:
+                            - generic [ref=e602]: (
+                            - generic [ref=e603]:
+                              - generic [ref=e604]:
+                                - generic [ref=e605]: v
+                                - generic [ref=e606]: i
+                              - generic [ref=e607]: ∈
+                              - generic [ref=e608]:
+                                - generic [ref=e609]:
+                                  - generic [ref=e610]: 𝒩
+                                  - generic [ref=e611]: v
+                                - generic [ref=e612]: ∨
+                                - generic [ref=e613]:
+                                  - generic [ref=e614]: v
+                                  - generic [ref=e615]: i
+                              - generic [ref=e616]: ∈
+                              - generic [ref=e617]:
+                                - generic [ref=e618]: 𝒩
+                                - generic [ref=e619]: e
+                            - generic [ref=e620]: )
+                      - generic [ref=e621]: "}"
+                  - text: ", where"
+                  - math [ref=e622]:
+                    - generic [ref=e624]:
+                      - generic [ref=e625]: 𝒩
+                      - generic [ref=e626]: v
+                  - text: and
+                  - math [ref=e627]:
+                    - generic [ref=e629]:
+                      - generic [ref=e630]: 𝒩
+                      - generic [ref=e631]: e
+                  - text: represent the one-hop neighboring nodes of the retrieved nodes
+                  - math [ref=e632]:
+                    - generic [ref=e634]: v
+                  - text: and edges
+                  - math [ref=e635]:
+                    - generic [ref=e637]: e
+                  - text: ", respectively."
+            - paragraph [ref=e639]: This dual-level retrieval paradigm not only facilitates efficient retrieval of related entities and relations through keyword matching, but also enhances the comprehensiveness of results by integrating relevant structural information from the constructed knowledge graph.
+          - generic [ref=e640]:
+            - heading "3.3 Retrieval-Augmented Answer Generation" [level=3] [ref=e641]:
+              - generic [ref=e642]: "3.3"
+              - text: Retrieval-Augmented Answer Generation
+            - paragraph [ref=e644]:
+              - text: Utilization of Retrieved Information. Utilizing the retrieved information
+              - math [ref=e645]:
+                - generic [ref=e647]:
+                  - generic [ref=e648]: ψ
+                  - generic: ⁢
+                  - generic [ref=e649]:
+                    - generic [ref=e650]: (
+                    - generic [ref=e651]: q
+                    - generic [ref=e652]: ;
+                    - generic [ref=e653]:
+                      - generic [ref=e654]: 𝒟
+                      - generic [ref=e655]: ^
+                    - generic [ref=e656]: )
+              - text: ", our LightRAG employs a general-purpose LLM to generate answers based on the collected data. This data comprises concatenated values"
+              - math [ref=e657]:
+                - generic [ref=e659]: V
+              - text: from relevant entities and relations, produced by the profiling function
+              - math [ref=e660]:
+                - generic [ref=e662]:
+                  - generic [ref=e663]: P
+                  - generic: ⁢
+                  - generic [ref=e664]:
+                    - generic [ref=e665]: (
+                    - generic [ref=e666]: ⋅
+                    - generic [ref=e667]: )
+              - text: . It includes names, descriptions of entities and relations, and excerpts from the original text.
+            - paragraph [ref=e669]:
+              - text: Context Integration and Answer Generation. By unifying the query with this multi-source text, the LLM generates informative answers tailored to the user’s needs, ensuring alignment with the query’s intent. This approach streamlines the answer generation process by integrating both context and query into the LLM model, as illustrated in detailed examples (Appendix
+              - link "7.2" [ref=e670] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S7.SS2
+              - text: ).
+          - generic [ref=e671]:
+            - heading "3.4 Complexity Analysis of the LightRAG Framework" [level=3] [ref=e672]:
+              - generic [ref=e673]: "3.4"
+              - text: Complexity Analysis of the LightRAG Framework
+            - paragraph [ref=e675]:
+              - text: In this section, we analyze the complexity of our proposed LightRAG framework, which can be divided into two main parts. The first part is the graph-based Index phase. During this phase, we use the large language model (LLM) to extract entities and relationships from each chunk of text. As a result, the LLM needs to be called
+              - math [ref=e676]:
+                - generic [ref=e678]:
+                  - generic [ref=e679]: total tokens
+                  - generic [ref=e680]: chunk size
+              - text: times. Importantly, there is no additional overhead involved in this process, making our approach highly efficient in managing updates to new text.
+            - paragraph [ref=e682]:
+              - text: The second part of the process involves the graph-based retrieval phase. For each query, we first utilize the large language model (LLM) to generate relevant keywords. Similar to current Retrieval-Augmented Generation (RAG) systems
+              - generic [ref=e683]:
+                - text: Gao et al. (
+                - link "2023" [ref=e684] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib8
+                - text: ;
+                - link "2022" [ref=e685] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib7
+                - text: ); Chan et al. (
+                - link "2024" [ref=e686] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib2
+                - text: )
+              - text: ", our retrieval mechanism relies on vector-based search. However, instead of retrieving chunks as in conventional RAG, we concentrate on retrieving entities and relationships. This approach markedly reduces retrieval overhead compared to the community-based traversal method used in GraphRAG."
+        - generic [ref=e687]:
+          - heading "4 Evaluation" [level=2] [ref=e688]:
+            - generic [ref=e689]: "4"
+            - text: Evaluation
+          - paragraph [ref=e691]:
+            - text: "We conduct empirical evaluations on benchmark data to assess the effectiveness of the proposed LightRAG framework by addressing the following research questions:"
+            - math [ref=e692]:
+              - generic [ref=e694]: ∙
+            - text: "(RQ1): How does LightRAG compare to existing RAG baseline methods in terms of generation performance?"
+            - math [ref=e695]:
+              - generic [ref=e697]: ∙
+            - text: "(RQ2): How do dual-level retrieval and graph-based indexing enhance the generation quality of LightRAG?"
+            - math [ref=e698]:
+              - generic [ref=e700]: ∙
+            - text: "(RQ3): What specific advantages does LightRAG demonstrate through case examples in various scenarios?"
+            - math [ref=e701]:
+              - generic [ref=e703]: ∙
+            - text: "(RQ4): What are the costs associated with LightRAG, as well as its adaptability to data changes?"
+          - generic [ref=e704]:
+            - heading "4.1 Experimental Settings" [level=3] [ref=e705]:
+              - generic [ref=e706]: "4.1"
+              - text: Experimental Settings
+            - generic [ref=e707]:
+              - paragraph [ref=e708]:
+                - text: Evaluation Datasets. To conduct a comprehensive analysis of LightRAG, we selected four datasets from the UltraDomain benchmark
+                - generic [ref=e709]:
+                  - text: (Qian et al.,
+                  - link "2024" [ref=e710] [cursor=pointer]:
+                    - /url: https://arxiv.org/html/2410.05779v3#bib.bib12
+                  - text: )
+                - text: . The UltraDomain data is sourced from 428 college textbooks and encompasses 18 distinct domains, including agriculture, social sciences, and humanities. From these, we chose the Agriculture, CS, Legal, and Mix datasets. Each dataset contains between 600,000 and 5,000,000 tokens, with detailed information provided in Table
+                - link "4" [ref=e711] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#S7.T4
+                - text: ". Below is a specific introduction to the four domains utilized in our experiments:"
+              - list [ref=e712]:
+                - listitem [ref=e713]:
+                  - text: •
+                  - paragraph [ref=e715]: "Agriculture: This domain focuses on agricultural practices, covering a range of topics including beekeeping, hive management, crop production, and disease prevention."
+                - listitem [ref=e716]:
+                  - text: •
+                  - paragraph [ref=e718]: "CS: This domain focuses on computer science and encompasses key areas of data science and software engineering. It particularly highlights machine learning and big data processing, featuring content on recommendation systems, classification algorithms, and real-time analytics using Spark."
+                - listitem [ref=e719]:
+                  - text: •
+                  - paragraph [ref=e721]: "Legal: This domain centers on corporate legal practices, addressing corporate restructuring, legal agreements, regulatory compliance, and governance, with a focus on the legal and financial sectors."
+                - listitem [ref=e722]:
+                  - text: •
+                  - paragraph [ref=e724]: "Mixed: This domain presents a rich variety of literary, biographical, and philosophical texts, spanning a broad spectrum of disciplines, including cultural, historical, and philosophical studies."
+            - paragraph [ref=e726]:
+              - text: Question Generation. To evaluate the effectiveness of RAG systems for high-level sensemaking tasks, we consolidate all text content from each dataset as context and adopt the generation method outlined in
+              - generic [ref=e727]:
+                - text: Edge et al. (
+                - link "2024" [ref=e728] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib4
+                - text: )
+              - text: . Specifically, we instruct an LLM to generate five RAG users, along with five tasks for each user. Each generated user is accompanied by a textual description detailing their expertise and traits that motivate their question-raising activities. Each user task is also described, emphasizing one of the user’s potential intentions when interacting with RAG systems. For each user-task combination, the LLM generates five questions that require an understanding of the entire corpus. In total, this process results in 125 questions for each dataset.
+            - generic [ref=e729]:
+              - paragraph [ref=e730]: "Baselines. LightRAG is compared against the following state-of-the-art methods across all datasets:"
+              - list [ref=e731]:
+                - listitem [ref=e732]:
+                  - text: •
+                  - paragraph [ref=e734]:
+                    - text: Naive RAG
+                    - generic [ref=e735]:
+                      - text: (Gao et al.,
+                      - link "2023" [ref=e736] [cursor=pointer]:
+                        - /url: https://arxiv.org/html/2410.05779v3#bib.bib8
+                      - text: )
+                    - text: ": This model serves as a standard baseline in existing RAG systems. It segments raw texts into chunks and stores them in a vector database using text embeddings. For queries, Naive RAG generates vectorized representations to directly retrieve text chunks based on the highest similarity in their representations, ensuring efficient and straightforward matching."
+                - listitem [ref=e737]:
+                  - text: •
+                  - paragraph [ref=e739]:
+                    - text: RQ-RAG
+                    - generic [ref=e740]:
+                      - text: (Chan et al.,
+                      - link "2024" [ref=e741] [cursor=pointer]:
+                        - /url: https://arxiv.org/html/2410.05779v3#bib.bib2
+                      - text: )
+                    - text: ": This approach leverages the LLM to decompose the input query into multiple sub-queries. These sub-queries are designed to enhance search accuracy by utilizing explicit techniques such as rewriting, decomposition, and disambiguation."
+                - listitem [ref=e742]:
+                  - text: •
+                  - paragraph [ref=e744]:
+                    - text: HyDE
+                    - generic [ref=e745]:
+                      - text: (Gao et al.,
+                      - link "2022" [ref=e746] [cursor=pointer]:
+                        - /url: https://arxiv.org/html/2410.05779v3#bib.bib7
+                      - text: )
+                    - text: ": This method utilizes the LLM to generate a hypothetical document based on the input query. This generated document is then employed to retrieve relevant text chunks, which are subsequently used to formulate the final answer."
+                - listitem [ref=e747]:
+                  - text: •
+                  - paragraph [ref=e749]:
+                    - text: GraphRAG
+                    - generic [ref=e750]:
+                      - text: (Edge et al.,
+                      - link "2024" [ref=e751] [cursor=pointer]:
+                        - /url: https://arxiv.org/html/2410.05779v3#bib.bib4
+                      - text: )
+                    - text: ": This is a graph-enhanced RAG system that utilizes an LLM to extract entities and relationships from the text, representing them as nodes and edges. It generates corresponding descriptions for these elements, aggregates nodes into communities, and produces a community report to capture global information. When handling high-level queries, GraphRAG retrieves more comprehensive information by traversing these communities."
+            - paragraph [ref=e753]:
+              - text: Implementation and Evaluation Details. In our experiments, we utilize the
+              - link "nano vector database" [ref=e754] [cursor=pointer]:
+                - /url: https://github.com/gusye1234/nano-vectordb
+              - text: for vector data management and access. For all LLM-based operations in LightRAG, we default to using GPT-4o-mini. To ensure consistency, the chunk size is set to 1200 across all datasets. Additionally, the gleaning parameter is fixed at 1 for both GraphRAG and LightRAG.
+            - paragraph [ref=e756]:
+              - text: Defining ground truth for many RAG queries, particularly those involving complex high-level semantics, poses significant challenges. To address this, we build on existing work
+              - generic [ref=e757]:
+                - text: (Edge et al.,
+                - link "2024" [ref=e758] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib4
+                - text: )
+              - text: and adopt an LLM-based multi-dimensional comparison method. We employ a robust LLM, specifically GPT-4o-mini, to rank each baseline against our LightRAG. The evaluation prompt we used is detailed in Appendix
+              - link "7.3.4" [ref=e759] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S7.SS3.SSS4
+              - text: ". In total, we utilize four evaluation dimensions, including:"
+            - paragraph [ref=e761]: "i) Comprehensiveness: How thoroughly does the answer address all aspects and details of the question? ii) Diversity: How varied and rich is the answer in offering different perspectives and insights related to the question? iii) Empowerment: How effectively does the answer enable the reader to understand the topic and make informed judgments? iv) Overall: This dimension assesses the cumulative performance across the three preceding criteria to identify the best overall answer."
+            - paragraph [ref=e763]: The LLM directly compares two answers for each dimension and selects the superior response for each criterion. After identifying the winning answer for the three dimensions, the LLM combines the results to determine the overall better answer. To ensure a fair evaluation and mitigate the potential bias that could arise from the order in which the answers are presented in the prompt, we alternate the placement of each answer. We calculate win rates accordingly, ultimately leading to the final results.
+          - generic [ref=e764]:
+            - heading "4.2 Comparison of LightRAG with Existing RAG Methods (RQ1)" [level=3] [ref=e765]:
+              - generic [ref=e766]: "4.2"
+              - text: Comparison of LightRAG with Existing RAG Methods (RQ1)
+            - paragraph [ref=e768]:
+              - text: We compare LightRAG against each baseline across various evaluation dimensions and datasets. The results are presented in Table
+              - link "1" [ref=e769] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S4.T1
+              - text: ". Based on these findings, we draw the following conclusions:"
+            - 'figure "Table 1: Win rates (%) of baselines v.s. LightRAG across four datasets and four evaluation dimensions." [ref=e770]':
+              - generic [ref=e771]:
+                - generic [ref=e772]: "Table 1:"
+                - text: Win rates (%) of baselines v.s. LightRAG across four datasets and four evaluation dimensions.
+              - table [ref=e775]:
+                - rowgroup [ref=e776]:
+                  - row "Agriculture CS Legal Mix" [ref=e777]:
+                    - columnheader [ref=e778]
+                    - columnheader "Agriculture" [ref=e779]
+                    - columnheader "CS" [ref=e780]
+                    - columnheader "Legal" [ref=e781]
+                    - columnheader "Mix" [ref=e782]
+                  - row "NaiveRAG LightRAG NaiveRAG LightRAG NaiveRAG LightRAG NaiveRAG LightRAG" [ref=e783]:
+                    - columnheader [ref=e784]
+                    - columnheader "NaiveRAG" [ref=e785]
+                    - columnheader "LightRAG" [ref=e786]
+                    - columnheader "NaiveRAG" [ref=e787]
+                    - columnheader "LightRAG" [ref=e788]
+                    - columnheader "NaiveRAG" [ref=e789]
+                    - columnheader "LightRAG" [ref=e790]
+                    - columnheader "NaiveRAG" [ref=e791]
+                    - columnheader "LightRAG" [ref=e792]
+                - rowgroup [ref=e793]:
+                  - row "Comprehensiveness 32.4% 67.6% 38.4% 61.6% 16.4% 83.6% 38.8% 61.2%" [ref=e794]:
+                    - rowheader "Comprehensiveness" [ref=e795]
+                    - cell "32.4%" [ref=e796]
+                    - cell "67.6%" [ref=e797]:
+                      - generic [ref=e798]: 67.6%
+                    - cell "38.4%" [ref=e799]
+                    - cell "61.6%" [ref=e800]:
+                      - generic [ref=e801]: 61.6%
+                    - cell "16.4%" [ref=e802]
+                    - cell "83.6%" [ref=e803]:
+                      - generic [ref=e804]: 83.6%
+                    - cell "38.8%" [ref=e805]
+                    - cell "61.2%" [ref=e806]:
+                      - generic [ref=e807]: 61.2%
+                  - row "Diversity 23.6% 76.4% 38.0% 62.0% 13.6% 86.4% 32.4% 67.6%" [ref=e808]:
+                    - rowheader "Diversity" [ref=e809]
+                    - cell "23.6%" [ref=e810]
+                    - cell "76.4%" [ref=e811]:
+                      - generic [ref=e812]: 76.4%
+                    - cell "38.0%" [ref=e813]
+                    - cell "62.0%" [ref=e814]:
+                      - generic [ref=e815]: 62.0%
+                    - cell "13.6%" [ref=e816]
+                    - cell "86.4%" [ref=e817]:
+                      - generic [ref=e818]: 86.4%
+                    - cell "32.4%" [ref=e819]
+                    - cell "67.6%" [ref=e820]:
+                      - generic [ref=e821]: 67.6%
+                  - row "Empowerment 32.4% 67.6% 38.8% 61.2% 16.4% 83.6% 42.8% 57.2%" [ref=e822]:
+                    - rowheader "Empowerment" [ref=e823]
+                    - cell "32.4%" [ref=e824]
+                    - cell "67.6%" [ref=e825]:
+                      - generic [ref=e826]: 67.6%
+                    - cell "38.8%" [ref=e827]
+                    - cell "61.2%" [ref=e828]:
+                      - generic [ref=e829]: 61.2%
+                    - cell "16.4%" [ref=e830]
+                    - cell "83.6%" [ref=e831]:
+                      - generic [ref=e832]: 83.6%
+                    - cell "42.8%" [ref=e833]
+                    - cell "57.2%" [ref=e834]:
+                      - generic [ref=e835]: 57.2%
+                  - row "Overall 32.4% 67.6% 38.8% 61.2% 15.2% 84.8% 40.0% 60.0%" [ref=e836]:
+                    - rowheader "Overall" [ref=e837]
+                    - cell "32.4%" [ref=e838]
+                    - cell "67.6%" [ref=e839]:
+                      - generic [ref=e840]: 67.6%
+                    - cell "38.8%" [ref=e841]
+                    - cell "61.2%" [ref=e842]:
+                      - generic [ref=e843]: 61.2%
+                    - cell "15.2%" [ref=e844]
+                    - cell "84.8%" [ref=e845]:
+                      - generic [ref=e846]: 84.8%
+                    - cell "40.0%" [ref=e847]
+                    - cell "60.0%" [ref=e848]:
+                      - generic [ref=e849]: 60.0%
+                  - row "RQ-RAG LightRAG RQ-RAG LightRAG RQ-RAG LightRAG RQ-RAG LightRAG" [ref=e850]:
+                    - rowheader [ref=e851]
+                    - cell "RQ-RAG" [ref=e852]
+                    - cell "LightRAG" [ref=e853]
+                    - cell "RQ-RAG" [ref=e854]
+                    - cell "LightRAG" [ref=e855]
+                    - cell "RQ-RAG" [ref=e856]
+                    - cell "LightRAG" [ref=e857]
+                    - cell "RQ-RAG" [ref=e858]
+                    - cell "LightRAG" [ref=e859]
+                  - row "Comprehensiveness 31.6% 68.4% 38.8% 61.2% 15.2% 84.8% 39.2% 60.8%" [ref=e860]:
+                    - rowheader "Comprehensiveness" [ref=e861]
+                    - cell "31.6%" [ref=e862]
+                    - cell "68.4%" [ref=e863]:
+                      - generic [ref=e864]: 68.4%
+                    - cell "38.8%" [ref=e865]
+                    - cell "61.2%" [ref=e866]:
+                      - generic [ref=e867]: 61.2%
+                    - cell "15.2%" [ref=e868]
+                    - cell "84.8%" [ref=e869]:
+                      - generic [ref=e870]: 84.8%
+                    - cell "39.2%" [ref=e871]
+                    - cell "60.8%" [ref=e872]:
+                      - generic [ref=e873]: 60.8%
+                  - row "Diversity 29.2% 70.8% 39.2% 60.8% 11.6% 88.4% 30.8% 69.2%" [ref=e874]:
+                    - rowheader "Diversity" [ref=e875]
+                    - cell "29.2%" [ref=e876]
+                    - cell "70.8%" [ref=e877]:
+                      - generic [ref=e878]: 70.8%
+                    - cell "39.2%" [ref=e879]
+                    - cell "60.8%" [ref=e880]:
+                      - generic [ref=e881]: 60.8%
+                    - cell "11.6%" [ref=e882]
+                    - cell "88.4%" [ref=e883]:
+                      - generic [ref=e884]: 88.4%
+                    - cell "30.8%" [ref=e885]
+                    - cell "69.2%" [ref=e886]:
+                      - generic [ref=e887]: 69.2%
+                  - row "Empowerment 31.6% 68.4% 36.4% 63.6% 15.2% 84.8% 42.4% 57.6%" [ref=e888]:
+                    - rowheader "Empowerment" [ref=e889]
+                    - cell "31.6%" [ref=e890]
+                    - cell "68.4%" [ref=e891]:
+                      - generic [ref=e892]: 68.4%
+                    - cell "36.4%" [ref=e893]
+                    - cell "63.6%" [ref=e894]:
+                      - generic [ref=e895]: 63.6%
+                    - cell "15.2%" [ref=e896]
+                    - cell "84.8%" [ref=e897]:
+                      - generic [ref=e898]: 84.8%
+                    - cell "42.4%" [ref=e899]
+                    - cell "57.6%" [ref=e900]:
+                      - generic [ref=e901]: 57.6%
+                  - row "Overall 32.4% 67.6% 38.0% 62.0% 14.4% 85.6% 40.0% 60.0%" [ref=e902]:
+                    - rowheader "Overall" [ref=e903]
+                    - cell "32.4%" [ref=e904]
+                    - cell "67.6%" [ref=e905]:
+                      - generic [ref=e906]: 67.6%
+                    - cell "38.0%" [ref=e907]
+                    - cell "62.0%" [ref=e908]:
+                      - generic [ref=e909]: 62.0%
+                    - cell "14.4%" [ref=e910]
+                    - cell "85.6%" [ref=e911]:
+                      - generic [ref=e912]: 85.6%
+                    - cell "40.0%" [ref=e913]
+                    - cell "60.0%" [ref=e914]:
+                      - generic [ref=e915]: 60.0%
+                  - row "HyDE LightRAG HyDE LightRAG HyDE LightRAG HyDE LightRAG" [ref=e916]:
+                    - rowheader [ref=e917]
+                    - cell "HyDE" [ref=e918]
+                    - cell "LightRAG" [ref=e919]
+                    - cell "HyDE" [ref=e920]
+                    - cell "LightRAG" [ref=e921]
+                    - cell "HyDE" [ref=e922]
+                    - cell "LightRAG" [ref=e923]
+                    - cell "HyDE" [ref=e924]
+                    - cell "LightRAG" [ref=e925]
+                  - row "Comprehensiveness 26.0% 74.0% 41.6% 58.4% 26.8% 73.2% 40.4% 59.6%" [ref=e926]:
+                    - rowheader "Comprehensiveness" [ref=e927]
+                    - cell "26.0%" [ref=e928]
+                    - cell "74.0%" [ref=e929]:
+                      - generic [ref=e930]: 74.0%
+                    - cell "41.6%" [ref=e931]
+                    - cell "58.4%" [ref=e932]:
+                      - generic [ref=e933]: 58.4%
+                    - cell "26.8%" [ref=e934]
+                    - cell "73.2%" [ref=e935]:
+                      - generic [ref=e936]: 73.2%
+                    - cell "40.4%" [ref=e937]
+                    - cell "59.6%" [ref=e938]:
+                      - generic [ref=e939]: 59.6%
+                  - row "Diversity 24.0% 76.0% 38.8% 61.2% 20.0% 80.0% 32.4% 67.6%" [ref=e940]:
+                    - rowheader "Diversity" [ref=e941]
+                    - cell "24.0%" [ref=e942]
+                    - cell "76.0%" [ref=e943]:
+                      - generic [ref=e944]: 76.0%
+                    - cell "38.8%" [ref=e945]
+                    - cell "61.2%" [ref=e946]:
+                      - generic [ref=e947]: 61.2%
+                    - cell "20.0%" [ref=e948]
+                    - cell "80.0%" [ref=e949]:
+                      - generic [ref=e950]: 80.0%
+                    - cell "32.4%" [ref=e951]
+                    - cell "67.6%" [ref=e952]:
+                      - generic [ref=e953]: 67.6%
+                  - row "Empowerment 25.2% 74.8% 40.8% 59.2% 26.0% 74.0% 46.0% 54.0%" [ref=e954]:
+                    - rowheader "Empowerment" [ref=e955]
+                    - cell "25.2%" [ref=e956]
+                    - cell "74.8%" [ref=e957]:
+                      - generic [ref=e958]: 74.8%
+                    - cell "40.8%" [ref=e959]
+                    - cell "59.2%" [ref=e960]:
+                      - generic [ref=e961]: 59.2%
+                    - cell "26.0%" [ref=e962]
+                    - cell "74.0%" [ref=e963]:
+                      - generic [ref=e964]: 74.0%
+                    - cell "46.0%" [ref=e965]
+                    - cell "54.0%" [ref=e966]:
+                      - generic [ref=e967]: 54.0%
+                  - row "Overall 24.8% 75.2% 41.6% 58.4% 26.4% 73.6% 42.4% 57.6%" [ref=e968]:
+                    - rowheader "Overall" [ref=e969]
+                    - cell "24.8%" [ref=e970]
+                    - cell "75.2%" [ref=e971]:
+                      - generic [ref=e972]: 75.2%
+                    - cell "41.6%" [ref=e973]
+                    - cell "58.4%" [ref=e974]:
+                      - generic [ref=e975]: 58.4%
+                    - cell "26.4%" [ref=e976]
+                    - cell "73.6%" [ref=e977]:
+                      - generic [ref=e978]: 73.6%
+                    - cell "42.4%" [ref=e979]
+                    - cell "57.6%" [ref=e980]:
+                      - generic [ref=e981]: 57.6%
+                  - row "GraphRAG LightRAG GraphRAG LightRAG GraphRAG LightRAG GraphRAG LightRAG" [ref=e982]:
+                    - rowheader [ref=e983]
+                    - cell "GraphRAG" [ref=e984]
+                    - cell "LightRAG" [ref=e985]
+                    - cell "GraphRAG" [ref=e986]
+                    - cell "LightRAG" [ref=e987]
+                    - cell "GraphRAG" [ref=e988]
+                    - cell "LightRAG" [ref=e989]
+                    - cell "GraphRAG" [ref=e990]
+                    - cell "LightRAG" [ref=e991]
+                  - row "Comprehensiveness 45.6% 54.4% 48.4% 51.6% 48.4% 51.6% 50.4% 49.6%" [ref=e992]:
+                    - rowheader "Comprehensiveness" [ref=e993]
+                    - cell "45.6%" [ref=e994]
+                    - cell "54.4%" [ref=e995]:
+                      - generic [ref=e996]: 54.4%
+                    - cell "48.4%" [ref=e997]
+                    - cell "51.6%" [ref=e998]:
+                      - generic [ref=e999]: 51.6%
+                    - cell "48.4%" [ref=e1000]
+                    - cell "51.6%" [ref=e1001]:
+                      - generic [ref=e1002]: 51.6%
+                    - cell "50.4%" [ref=e1003]:
+                      - generic [ref=e1004]: 50.4%
+                    - cell "49.6%" [ref=e1005]
+                  - row "Diversity 22.8% 77.2% 40.8% 59.2% 26.4% 73.6% 36.0% 64.0%" [ref=e1006]:
+                    - rowheader "Diversity" [ref=e1007]
+                    - cell "22.8%" [ref=e1008]
+                    - cell "77.2%" [ref=e1009]:
+                      - generic [ref=e1010]: 77.2%
+                    - cell "40.8%" [ref=e1011]
+                    - cell "59.2%" [ref=e1012]:
+                      - generic [ref=e1013]: 59.2%
+                    - cell "26.4%" [ref=e1014]
+                    - cell "73.6%" [ref=e1015]:
+                      - generic [ref=e1016]: 73.6%
+                    - cell "36.0%" [ref=e1017]
+                    - cell "64.0%" [ref=e1018]:
+                      - generic [ref=e1019]: 64.0%
+                  - row "Empowerment 41.2% 58.8% 45.2% 54.8% 43.6% 56.4% 50.8% 49.2%" [ref=e1020]:
+                    - rowheader "Empowerment" [ref=e1021]
+                    - cell "41.2%" [ref=e1022]
+                    - cell "58.8%" [ref=e1023]:
+                      - generic [ref=e1024]: 58.8%
+                    - cell "45.2%" [ref=e1025]
+                    - cell "54.8%" [ref=e1026]:
+                      - generic [ref=e1027]: 54.8%
+                    - cell "43.6%" [ref=e1028]
+                    - cell "56.4%" [ref=e1029]:
+                      - generic [ref=e1030]: 56.4%
+                    - cell "50.8%" [ref=e1031]:
+                      - generic [ref=e1032]: 50.8%
+                    - cell "49.2%" [ref=e1033]
+                  - row "Overall 45.2% 54.8% 48.0% 52.0% 47.2% 52.8% 50.4% 49.6%" [ref=e1034]:
+                    - rowheader "Overall" [ref=e1035]
+                    - cell "45.2%" [ref=e1036]
+                    - cell "54.8%" [ref=e1037]:
+                      - generic [ref=e1038]: 54.8%
+                    - cell "48.0%" [ref=e1039]
+                    - cell "52.0%" [ref=e1040]:
+                      - generic [ref=e1041]: 52.0%
+                    - cell "47.2%" [ref=e1042]
+                    - cell "52.8%" [ref=e1043]:
+                      - generic [ref=e1044]: 52.8%
+                    - cell "50.4%" [ref=e1045]:
+                      - generic [ref=e1046]: 50.4%
+                    - cell "49.6%" [ref=e1047]
+            - paragraph [ref=e1049]: The Superiority of Graph-enhanced RAG Systems in Large-Scale Corpora When handling large token counts and complex queries that require a thorough understanding of the dataset’s context, graph-based RAG systems like LightRAG and GraphRAG consistently outperform purely chunk-based retrieval methods such as NaiveRAG, HyDE, and RQRAG. This performance gap becomes particularly pronounced as the dataset size increases. For instance, in the largest dataset (Legal), the disparity widens significantly, with baseline methods achieving only about 20% win rates compared to the dominance of LightRAG. This trend underscores the advantages of graph-enhanced RAG systems in capturing complex semantic dependencies within large-scale corpora, facilitating a more comprehensive understanding of knowledge and leading to improved generalization performance.
+            - paragraph [ref=e1051]: "Enhancing Response Diversity with LightRAG: Compared to various baselines, LightRAG demonstrates a significant advantage in the Diversity metric, particularly within the larger Legal dataset. Its consistent lead in this area underscores LightRAG’s effectiveness in generating a wider range of responses, especially in scenarios where diverse content is essential. We attribute this advantage to LightRAG’s dual-level retrieval paradigm, which facilitates comprehensive information retrieval from both low-level and high-level dimensions. This approach effectively leverages graph-based text indexing to consistently capture the full context in response to queries."
+            - paragraph [ref=e1053]: "LightRAG’s Superiority over GraphRAG: While both LightRAG and GraphRAG use graph-based retrieval mechanisms, LightRAG consistently outperforms GraphRAG, particularly in larger datasets with complex language contexts. In the Agriculture, CS, and Legal datasets—each containing millions of tokens—LightRAG shows a clear advantage, significantly surpassing GraphRAG and highlighting its strength in comprehensive information understanding within diverse environments. Enhanced Response Variety: By integrating low-level retrieval of specific entities with high-level retrieval of broader topics, LightRAG boosts response diversity. This dual-level mechanism effectively addresses both detailed and abstract queries, ensuring a thorough grasp of information. Complex Query Handling: This approach is especially valuable in scenarios requiring diverse perspectives. By accessing both specific details and overarching themes, LightRAG adeptly responds to complex queries involving interconnected topics, providing contextually relevant answers."
+          - generic [ref=e1054]:
+            - heading "4.3 Ablation Studies (RQ2)" [level=3] [ref=e1055]:
+              - generic [ref=e1056]: "4.3"
+              - text: Ablation Studies (RQ2)
+            - 'figure "Table 2: Performance of ablated versions of LightRAG, using NaiveRAG as reference." [ref=e1057]':
+              - generic [ref=e1058]:
+                - generic [ref=e1059]: "Table 2:"
+                - text: Performance of ablated versions of LightRAG, using NaiveRAG as reference.
+              - table [ref=e1062]:
+                - rowgroup [ref=e1063]:
+                  - row "Agriculture CS Legal Mix" [ref=e1064]:
+                    - columnheader [ref=e1065]
+                    - columnheader "Agriculture" [ref=e1066]
+                    - columnheader "CS" [ref=e1067]
+                    - columnheader "Legal" [ref=e1068]
+                    - columnheader "Mix" [ref=e1069]
+                  - row "NaiveRAG LightRAG NaiveRAG LightRAG NaiveRAG LightRAG NaiveRAG LightRAG" [ref=e1070]:
+                    - columnheader [ref=e1071]
+                    - columnheader "NaiveRAG" [ref=e1072]
+                    - columnheader "LightRAG" [ref=e1073]
+                    - columnheader "NaiveRAG" [ref=e1074]
+                    - columnheader "LightRAG" [ref=e1075]
+                    - columnheader "NaiveRAG" [ref=e1076]
+                    - columnheader "LightRAG" [ref=e1077]
+                    - columnheader "NaiveRAG" [ref=e1078]
+                    - columnheader "LightRAG" [ref=e1079]
+                - rowgroup [ref=e1080]:
+                  - row "Comprehensiveness 32.4% 67.6% 38.4% 61.6% 16.4% 83.6% 38.8% 61.2%" [ref=e1081]:
+                    - rowheader "Comprehensiveness" [ref=e1082]
+                    - cell "32.4%" [ref=e1083]
+                    - cell "67.6%" [ref=e1084]:
+                      - generic [ref=e1085]: 67.6%
+                    - cell "38.4%" [ref=e1086]
+                    - cell "61.6%" [ref=e1087]:
+                      - generic [ref=e1088]: 61.6%
+                    - cell "16.4%" [ref=e1089]
+                    - cell "83.6%" [ref=e1090]:
+                      - generic [ref=e1091]: 83.6%
+                    - cell "38.8%" [ref=e1092]
+                    - cell "61.2%" [ref=e1093]:
+                      - generic [ref=e1094]: 61.2%
+                  - row "Diversity 23.6% 76.4% 38.0% 62.0% 13.6% 86.4% 32.4% 67.6%" [ref=e1095]:
+                    - rowheader "Diversity" [ref=e1096]
+                    - cell "23.6%" [ref=e1097]
+                    - cell "76.4%" [ref=e1098]:
+                      - generic [ref=e1099]: 76.4%
+                    - cell "38.0%" [ref=e1100]
+                    - cell "62.0%" [ref=e1101]:
+                      - generic [ref=e1102]: 62.0%
+                    - cell "13.6%" [ref=e1103]
+                    - cell "86.4%" [ref=e1104]:
+                      - generic [ref=e1105]: 86.4%
+                    - cell "32.4%" [ref=e1106]
+                    - cell "67.6%" [ref=e1107]:
+                      - generic [ref=e1108]: 67.6%
+                  - row "Empowerment 32.4% 67.6% 38.8% 61.2% 16.4% 83.6% 42.8% 57.2%" [ref=e1109]:
+                    - rowheader "Empowerment" [ref=e1110]
+                    - cell "32.4%" [ref=e1111]
+                    - cell "67.6%" [ref=e1112]:
+                      - generic [ref=e1113]: 67.6%
+                    - cell "38.8%" [ref=e1114]
+                    - cell "61.2%" [ref=e1115]:
+                      - generic [ref=e1116]: 61.2%
+                    - cell "16.4%" [ref=e1117]
+                    - cell "83.6%" [ref=e1118]:
+                      - generic [ref=e1119]: 83.6%
+                    - cell "42.8%" [ref=e1120]
+                    - cell "57.2%" [ref=e1121]:
+                      - generic [ref=e1122]: 57.2%
+                  - row "Overall 32.4% 67.6% 38.8% 61.2% 15.2% 84.8% 40.0% 60.0%" [ref=e1123]:
+                    - rowheader "Overall" [ref=e1124]
+                    - cell "32.4%" [ref=e1125]
+                    - cell "67.6%" [ref=e1126]:
+                      - generic [ref=e1127]: 67.6%
+                    - cell "38.8%" [ref=e1128]
+                    - cell "61.2%" [ref=e1129]:
+                      - generic [ref=e1130]: 61.2%
+                    - cell "15.2%" [ref=e1131]
+                    - cell "84.8%" [ref=e1132]:
+                      - generic [ref=e1133]: 84.8%
+                    - cell "40.0%" [ref=e1134]
+                    - cell "60.0%" [ref=e1135]:
+                      - generic [ref=e1136]: 60.0%
+                  - row "NaiveRAG -High NaiveRAG -High NaiveRAG -High NaiveRAG -High" [ref=e1137]:
+                    - rowheader [ref=e1138]
+                    - cell "NaiveRAG" [ref=e1139]
+                    - cell "-High" [ref=e1140]
+                    - cell "NaiveRAG" [ref=e1141]
+                    - cell "-High" [ref=e1142]
+                    - cell "NaiveRAG" [ref=e1143]
+                    - cell "-High" [ref=e1144]
+                    - cell "NaiveRAG" [ref=e1145]
+                    - cell "-High" [ref=e1146]
+                  - row "Comprehensiveness 34.8% 65.2% 42.8% 57.2% 23.6% 76.4% 40.4% 59.6%" [ref=e1147]:
+                    - rowheader "Comprehensiveness" [ref=e1148]
+                    - cell "34.8%" [ref=e1149]
+                    - cell "65.2%" [ref=e1150]:
+                      - generic [ref=e1151]: 65.2%
+                    - cell "42.8%" [ref=e1152]
+                    - cell "57.2%" [ref=e1153]:
+                      - generic [ref=e1154]: 57.2%
+                    - cell "23.6%" [ref=e1155]
+                    - cell "76.4%" [ref=e1156]:
+                      - generic [ref=e1157]: 76.4%
+                    - cell "40.4%" [ref=e1158]
+                    - cell "59.6%" [ref=e1159]:
+                      - generic [ref=e1160]: 59.6%
+                  - row "Diversity 27.2% 72.8% 36.8% 63.2% 16.8% 83.2% 36.0% 64.0%" [ref=e1161]:
+                    - rowheader "Diversity" [ref=e1162]
+                    - cell "27.2%" [ref=e1163]
+                    - cell "72.8%" [ref=e1164]:
+                      - generic [ref=e1165]: 72.8%
+                    - cell "36.8%" [ref=e1166]
+                    - cell "63.2%" [ref=e1167]:
+                      - generic [ref=e1168]: 63.2%
+                    - cell "16.8%" [ref=e1169]
+                    - cell "83.2%" [ref=e1170]:
+                      - generic [ref=e1171]: 83.2%
+                    - cell "36.0%" [ref=e1172]
+                    - cell "64.0%" [ref=e1173]:
+                      - generic [ref=e1174]: 64.0%
+                  - row "Empowerment 36.0% 64.0% 42.4% 57.6% 22.8% 77.2% 47.6% 52.4%" [ref=e1175]:
+                    - rowheader "Empowerment" [ref=e1176]
+                    - cell "36.0%" [ref=e1177]
+                    - cell "64.0%" [ref=e1178]:
+                      - generic [ref=e1179]: 64.0%
+                    - cell "42.4%" [ref=e1180]
+                    - cell "57.6%" [ref=e1181]:
+                      - generic [ref=e1182]: 57.6%
+                    - cell "22.8%" [ref=e1183]
+                    - cell "77.2%" [ref=e1184]:
+                      - generic [ref=e1185]: 77.2%
+                    - cell "47.6%" [ref=e1186]
+                    - cell "52.4%" [ref=e1187]:
+                      - generic [ref=e1188]: 52.4%
+                  - row "Overall 35.2% 64.8% 44.0% 56.0% 22.0% 78.0% 42.4% 57.6%" [ref=e1189]:
+                    - rowheader "Overall" [ref=e1190]
+                    - cell "35.2%" [ref=e1191]
+                    - cell "64.8%" [ref=e1192]:
+                      - generic [ref=e1193]: 64.8%
+                    - cell "44.0%" [ref=e1194]
+                    - cell "56.0%" [ref=e1195]:
+                      - generic [ref=e1196]: 56.0%
+                    - cell "22.0%" [ref=e1197]
+                    - cell "78.0%" [ref=e1198]:
+                      - generic [ref=e1199]: 78.0%
+                    - cell "42.4%" [ref=e1200]
+                    - cell "57.6%" [ref=e1201]:
+                      - generic [ref=e1202]: 57.6%
+                  - row "NaiveRAG -Low NaiveRAG -Low NaiveRAG -Low NaiveRAG -Low" [ref=e1203]:
+                    - rowheader [ref=e1204]
+                    - cell "NaiveRAG" [ref=e1205]
+                    - cell "-Low" [ref=e1206]
+                    - cell "NaiveRAG" [ref=e1207]
+                    - cell "-Low" [ref=e1208]
+                    - cell "NaiveRAG" [ref=e1209]
+                    - cell "-Low" [ref=e1210]
+                    - cell "NaiveRAG" [ref=e1211]
+                    - cell "-Low" [ref=e1212]
+                  - row "Comprehensiveness 36.0% 64.0% 43.2% 56.8% 19.2% 80.8% 36.0% 64.0%" [ref=e1213]:
+                    - rowheader "Comprehensiveness" [ref=e1214]
+                    - cell "36.0%" [ref=e1215]
+                    - cell "64.0%" [ref=e1216]:
+                      - generic [ref=e1217]: 64.0%
+                    - cell "43.2%" [ref=e1218]
+                    - cell "56.8%" [ref=e1219]:
+                      - generic [ref=e1220]: 56.8%
+                    - cell "19.2%" [ref=e1221]
+                    - cell "80.8%" [ref=e1222]:
+                      - generic [ref=e1223]: 80.8%
+                    - cell "36.0%" [ref=e1224]
+                    - cell "64.0%" [ref=e1225]:
+                      - generic [ref=e1226]: 64.0%
+                  - row "Diversity 28.0% 72.0% 39.6% 60.4% 13.6% 86.4% 33.2% 66.8%" [ref=e1227]:
+                    - rowheader "Diversity" [ref=e1228]
+                    - cell "28.0%" [ref=e1229]
+                    - cell "72.0%" [ref=e1230]:
+                      - generic [ref=e1231]: 72.0%
+                    - cell "39.6%" [ref=e1232]
+                    - cell "60.4%" [ref=e1233]:
+                      - generic [ref=e1234]: 60.4%
+                    - cell "13.6%" [ref=e1235]
+                    - cell "86.4%" [ref=e1236]:
+                      - generic [ref=e1237]: 86.4%
+                    - cell "33.2%" [ref=e1238]
+                    - cell "66.8%" [ref=e1239]:
+                      - generic [ref=e1240]: 66.8%
+                  - row "Empowerment 34.8% 65.2% 42.8% 57.2% 16.4% 83.6% 35.2% 64.8%" [ref=e1241]:
+                    - rowheader "Empowerment" [ref=e1242]
+                    - cell "34.8%" [ref=e1243]
+                    - cell "65.2%" [ref=e1244]:
+                      - generic [ref=e1245]: 65.2%
+                    - cell "42.8%" [ref=e1246]
+                    - cell "57.2%" [ref=e1247]:
+                      - generic [ref=e1248]: 57.2%
+                    - cell "16.4%" [ref=e1249]
+                    - cell "83.6%" [ref=e1250]:
+                      - generic [ref=e1251]: 83.6%
+                    - cell "35.2%" [ref=e1252]
+                    - cell "64.8%" [ref=e1253]:
+                      - generic [ref=e1254]: 64.8%
+                  - row "Overall 34.8% 65.2% 43.6% 56.4% 18.8% 81.2% 35.2% 64.8%" [ref=e1255]:
+                    - rowheader "Overall" [ref=e1256]
+                    - cell "34.8%" [ref=e1257]
+                    - cell "65.2%" [ref=e1258]:
+                      - generic [ref=e1259]: 65.2%
+                    - cell "43.6%" [ref=e1260]
+                    - cell "56.4%" [ref=e1261]:
+                      - generic [ref=e1262]: 56.4%
+                    - cell "18.8%" [ref=e1263]
+                    - cell "81.2%" [ref=e1264]:
+                      - generic [ref=e1265]: 81.2%
+                    - cell "35.2%" [ref=e1266]
+                    - cell "64.8%" [ref=e1267]:
+                      - generic [ref=e1268]: 64.8%
+                  - row "NaiveRAG -Origin NaiveRAG -Origin NaiveRAG -Origin NaiveRAG -Origin" [ref=e1269]:
+                    - rowheader [ref=e1270]
+                    - cell "NaiveRAG" [ref=e1271]
+                    - cell "-Origin" [ref=e1272]
+                    - cell "NaiveRAG" [ref=e1273]
+                    - cell "-Origin" [ref=e1274]
+                    - cell "NaiveRAG" [ref=e1275]
+                    - cell "-Origin" [ref=e1276]
+                    - cell "NaiveRAG" [ref=e1277]
+                    - cell "-Origin" [ref=e1278]
+                  - row "Comprehensiveness 24.8% 75.2% 39.2% 60.8% 16.4% 83.6% 44.4% 55.6%" [ref=e1279]:
+                    - rowheader "Comprehensiveness" [ref=e1280]
+                    - cell "24.8%" [ref=e1281]
+                    - cell "75.2%" [ref=e1282]:
+                      - generic [ref=e1283]: 75.2%
+                    - cell "39.2%" [ref=e1284]
+                    - cell "60.8%" [ref=e1285]:
+                      - generic [ref=e1286]: 60.8%
+                    - cell "16.4%" [ref=e1287]
+                    - cell "83.6%" [ref=e1288]:
+                      - generic [ref=e1289]: 83.6%
+                    - cell "44.4%" [ref=e1290]
+                    - cell "55.6%" [ref=e1291]:
+                      - generic [ref=e1292]: 55.6%
+                  - row "Diversity 26.4% 73.6% 44.8% 55.2% 14.4% 85.6% 25.6% 74.4%" [ref=e1293]:
+                    - rowheader "Diversity" [ref=e1294]
+                    - cell "26.4%" [ref=e1295]
+                    - cell "73.6%" [ref=e1296]:
+                      - generic [ref=e1297]: 73.6%
+                    - cell "44.8%" [ref=e1298]
+                    - cell "55.2%" [ref=e1299]:
+                      - generic [ref=e1300]: 55.2%
+                    - cell "14.4%" [ref=e1301]
+                    - cell "85.6%" [ref=e1302]:
+                      - generic [ref=e1303]: 85.6%
+                    - cell "25.6%" [ref=e1304]
+                    - cell "74.4%" [ref=e1305]:
+                      - generic [ref=e1306]: 74.4%
+                  - row "Empowerment 32.0% 68.0% 43.2% 56.8% 17.2% 82.8% 45.2% 54.8%" [ref=e1307]:
+                    - rowheader "Empowerment" [ref=e1308]
+                    - cell "32.0%" [ref=e1309]
+                    - cell "68.0%" [ref=e1310]:
+                      - generic [ref=e1311]: 68.0%
+                    - cell "43.2%" [ref=e1312]
+                    - cell "56.8%" [ref=e1313]:
+                      - generic [ref=e1314]: 56.8%
+                    - cell "17.2%" [ref=e1315]
+                    - cell "82.8%" [ref=e1316]:
+                      - generic [ref=e1317]: 82.8%
+                    - cell "45.2%" [ref=e1318]
+                    - cell "54.8%" [ref=e1319]:
+                      - generic [ref=e1320]: 54.8%
+                  - row "Overall 25.6% 74.4% 39.2% 60.8% 15.6% 84.4% 44.4% 55.6%" [ref=e1321]:
+                    - rowheader "Overall" [ref=e1322]
+                    - cell "25.6%" [ref=e1323]
+                    - cell "74.4%" [ref=e1324]:
+                      - generic [ref=e1325]: 74.4%
+                    - cell "39.2%" [ref=e1326]
+                    - cell "60.8%" [ref=e1327]:
+                      - generic [ref=e1328]: 60.8%
+                    - cell "15.6%" [ref=e1329]
+                    - cell "84.4%" [ref=e1330]:
+                      - generic [ref=e1331]: 84.4%
+                    - cell "44.4%" [ref=e1332]
+                    - cell "55.6%" [ref=e1333]:
+                      - generic [ref=e1334]: 55.6%
+            - paragraph [ref=e1336]:
+              - text: We also conduct ablation studies to evaluate the impact of our dual-level retrieval paradigm and the effectiveness of our graph-based text indexing in LightRAG. The results are presented in Table
+              - link "2" [ref=e1337] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S4.T2
+              - text: .
+            - paragraph [ref=e1339]: "Effectiveness of Dual-level Retrieval Paradigm. We begin by analyzing the effects of low-level and high-level retrieval paradigms. We compare two ablated models—each omitting one module—against LightRAG across four datasets. Here are our key observations for the different variants:"
+            - list [ref=e1341]:
+              - listitem [ref=e1342]:
+                - text: •
+                - paragraph [ref=e1344]: "Low-level-only Retrieval: The -High variant removes high-order retrieval, leading to a significant performance decline across nearly all datasets and metrics. This drop is mainly due to its emphasis on the specific information, which focuses excessively on entities and their immediate neighbors. While this approach enables deeper exploration of directly related entities, it struggles to gather information for complex queries that demand comprehensive insights."
+              - listitem [ref=e1345]:
+                - text: •
+                - paragraph [ref=e1347]: "High-level-only Retrieval: The -Low variant prioritizes capturing a broader range of content by leveraging entity-wise relationships rather than focusing on specific entities. This approach offers a significant advantage in comprehensiveness, allowing it to gather more extensive and varied information. However, the trade-off is a reduced depth in examining specific entities, which can limit its ability to provide highly detailed insights. Consequently, this high-level-only retrieval method may struggle with tasks that require precise, detailed answers."
+              - listitem [ref=e1348]:
+                - text: •
+                - paragraph [ref=e1350]: "Hybrid Mode: The hybrid mode, or the full version of LightRAG, combines the strengths of both low-level and high-level retrieval methods. It retrieves a broader set of relationships while simultaneously conducting an in-depth exploration of specific entities. This dual-level approach ensures both breadth in the retrieval process and depth in the analysis, providing a comprehensive view of the data. As a result, LightRAG achieves balanced performance across multiple dimensions."
+            - paragraph [ref=e1352]: Semantic Graph Excels in RAG. We eliminated the use of original text in our retrieval process. Surprisingly, the resulting variant, -Origin, does not exhibit significant performance declines across all four datasets. In some cases, this variant even shows improvements (e.g. in Agriculture and Mix). We attribute this phenomenon to the effective extraction of key information during the graph-based indexing process, which provides sufficient context for answering queries. Additionally, the original text often contains irrelevant information that can introduce noise in the response.
+          - generic [ref=e1353]:
+            - heading "4.4 Case Study (RQ3)" [level=3] [ref=e1354]:
+              - generic [ref=e1355]: "4.4"
+              - text: Case Study (RQ3)
+            - paragraph [ref=e1357]:
+              - text: To provide a clear comparison between baseline methods and our LightRAG, we present specific case examples in Table
+              - link "3" [ref=e1358] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S4.T3
+              - text: ", which includes responses to a machine learning question from both the competitive baseline, GraphRAG, and our LightRAG framework. In this instance, LightRAG outperforms in all evaluation dimensions assessed by the LLM judge, including comprehensiveness, diversity, empowerment, and overall quality. Our key observations are as follows:"
+            - paragraph [ref=e1360]: i) Comprehensiveness. Notably, LightRAG covers a broader range of machine learning metrics, showcasing its comprehensiveness and ability to effectively discover relevant information. This highlights the strength of our graph-based indexing paradigm, which excels in precise entity and relation extraction as well as LLM profiling. ii) Both Diversity and Empowerment. Furthermore, LightRAG not only offers a more diverse array of information but also delivers more empowering content. This success is due to LightRAG’s hierarchical retrieval paradigm, which combines in-depth explorations of related entities through low-level retrieval to enhance empowerment with broader explorations via high-level retrieval to improve answer diversity. Together, these approaches capture a comprehensive global perspective of the knowledge domain, contributing to better RAG performance.
+            - 'figure "Table 3: Case Study: Comparison Between LightRAG and the Baseline Method GraphRAG." [ref=e1361]':
+              - generic [ref=e1362]:
+                - generic [ref=e1363]: "Table 3:"
+                - text: "Case Study: Comparison Between LightRAG and the Baseline Method GraphRAG."
+              - table [ref=e1366]:
+                - rowgroup [ref=e1367]:
+                  - row "Query Which methods can normalize the feature values for effective machine learning?" [ref=e1368]:
+                    - columnheader "Query" [ref=e1369]
+                    - columnheader "Which methods can normalize the feature values for effective machine learning?" [ref=e1370]:
+                      - generic [ref=e1372]: Which methods can normalize the feature values for effective machine learning?
+                - rowgroup [ref=e1373]:
+                  - row [ref=e1374]:
+                    - rowheader "GraphRAG" [ref=e1375]
+                    - cell [ref=e1376]:
+                      - generic [ref=e1378]: "Key Metrics for Evaluating Movie Recommendation Systems: Evaluating the effectiveness of movie recommendation systems is crucial for ensuring user satisfaction and improving the overall performance of these systems. Several metrics are widely recognized for their ability to provide insights into how well a recommendation system performs. Below are the most informative metrics: 1. Precision […] 2. Recall […] 3. F1 Score […] 4. Mean Average Precision (MAP) […] 5. Root Mean Squared Error (RMSE) […] 6. User Satisfaction Metrics […] Conclusion: In summary, metrics such as precision, recall, F1 score, MAP, RMSE, and user satisfaction are critical for evaluating the performance of movie recommendation systems. Each metric provides unique insights that can help developers and researchers refine their algorithms and enhance user experiences. By focusing on these metrics, stakeholders can ensure that their recommendation systems effectively meet user preferences and expectations."
+                  - row [ref=e1379]:
+                    - rowheader "LightRAG" [ref=e1380]
+                    - 'cell "Key Metrics for Evaluating Movie Recommendation Systems: Evaluating movie recommendation systems involves multiple metrics that assess the effectiveness and accuracy of the recommendations provided to users. Below are some of the most informative metrics commonly used in this context, derived from the data and concepts surrounding recommendation systems. 1. Mean Average Precision at K (MAPK) […] 2. Precision and Recall […] 3. Root Mean Squared Error (RMSE) and Mean Squared Error (MSE) […] 4. Area Under the Curve (AUC) […] 5. F-Measure […] 6. User Engagement Metrics […] Conclusion: A comprehensive evaluation of movie recommendation systems employs a range of metrics that capture both the accuracy of the recommendations and user satisfaction. By effectively leveraging these metrics, system designers can optimize recommendation engines to deliver more personalized and relevant experiences." [ref=e1381]':
+                      - generic [ref=e1383]: "Key Metrics for Evaluating Movie Recommendation Systems: Evaluating movie recommendation systems involves multiple metrics that assess the effectiveness and accuracy of the recommendations provided to users. Below are some of the most informative metrics commonly used in this context, derived from the data and concepts surrounding recommendation systems. 1. Mean Average Precision at K (MAPK) […] 2. Precision and Recall […] 3. Root Mean Squared Error (RMSE) and Mean Squared Error (MSE) […] 4. Area Under the Curve (AUC) […] 5. F-Measure […] 6. User Engagement Metrics […] Conclusion: A comprehensive evaluation of movie recommendation systems employs a range of metrics that capture both the accuracy of the recommendations and user satisfaction. By effectively leveraging these metrics, system designers can optimize recommendation engines to deliver more personalized and relevant experiences."
+                  - row [ref=e1384]:
+                    - rowheader "LLM Decision" [ref=e1385]
+                    - cell [ref=e1386]:
+                      - generic [ref=e1387]:
+                        - generic [ref=e1388]: "Comprehensiveness: \"Winner\": \"Answer 2 (LightRAG)\","
+                        - generic [ref=e1389]: "\"Explanation\": \"Answer 2 provides a broader array of metrics including MAPK, AUC, and user engagement metrics alongside precision, recall, RMSE, and F-Measure. This gives a fuller view of how recommendation systems can be evaluated. Answer 1, while detailed, is more focused on traditional metrics and lacks the inclusion of engagement metrics which are crucial for understanding user interaction.\""
+                        - generic [ref=e1390]: "Diversity: \"Winner\": \"Answer 2 (LightRAG)\","
+                        - generic [ref=e1391]: "\"Explanation\": \"Answer 2 not only covers a wide variety of metrics but also includes nuanced explanations of how some metrics interrelate and differ from one another, like the inclusion of both RMSE and MSE, as well as the details behind AUC. In contrast, Answer 1 sticks primarily to standard metrics without much exploration of potential nuances.\""
+                        - generic [ref=e1392]: "Empowerment: \"Winner\": \"Answer 2 (LightRAG)\","
+                        - generic [ref=e1393]: "\"Explanation\": \"Answer 2 empowers the reader more effectively by detailing how each metric functions and its importance in evaluating recommendation systems. By providing context such as the trade-offs between precision and recall and emphasizing user engagement metrics, it enables readers to make more informed judgments and understand the implications of different metrics. Answer 1 is more straightforward but lacks the depth of insight regarding why these metrics matter.\""
+                        - generic [ref=e1394]: "Overall Winner: \"Winner\": \"Answer 2 (LightRAG)\","
+                        - generic [ref=e1395]: "\"Explanation\": \"While Answer 1 is more direct and systematic, Answer 2 excels in comprehensiveness, diversity, and empowerment. It provides a richer exploration of the topic, including insights into user engagement and nuanced differences between metrics. This depth and breadth make it more informative for readers seeking to thoroughly understand the evaluation of movie recommendation systems.\""
+          - generic [ref=e1396]:
+            - heading "4.5 Model Cost and Adaptability Analysis (RQ4)" [level=3] [ref=e1397]:
+              - generic [ref=e1398]: "4.5"
+              - text: Model Cost and Adaptability Analysis (RQ4)
+            - 'figure "Figure 2: Comparison of Cost in Terms of Tokens and API Calls for GraphRAG and LightRAG on the Legal Dataset." [ref=e1399]':
+              - generic [ref=e1400]:
+                - generic [ref=e1401]: "Figure 2:"
+                - text: Comparison of Cost in Terms of Tokens and API Calls for GraphRAG and LightRAG on the Legal Dataset.
+              - table [ref=e1402]:
+                - rowgroup [ref=e1403]:
+                  - row "Phase Retrieval Phase Incremental Text Update" [ref=e1404]:
+                    - cell "Phase" [ref=e1405]
+                    - cell "Retrieval Phase" [ref=e1406]
+                    - cell "Incremental Text Update" [ref=e1407]
+                  - row "Model GraphRAG Ours GraphRAG Ours" [ref=e1408]:
+                    - cell "Model" [ref=e1409]
+                    - cell "GraphRAG" [ref=e1410]
+                    - cell "Ours" [ref=e1411]
+                    - cell "GraphRAG" [ref=e1412]
+                    - cell "Ours" [ref=e1413]
+                  - row "Tokens" [ref=e1414]:
+                    - cell "Tokens" [ref=e1415]
+                    - cell [ref=e1416]:
+                      - math [ref=e1418]:
+                        - generic [ref=e1420]:
+                          - generic [ref=e1421]:
+                            - generic [ref=e1422]: "610"
+                            - generic [ref=e1423]: ×
+                            - generic [ref=e1424]: "1"
+                          - generic [ref=e1425]: ","
+                          - generic [ref=e1426]: "000"
+                    - cell [ref=e1427]:
+                      - math [ref=e1429]:
+                        - generic [ref=e1431]:
+                          - generic [ref=e1432]: <
+                          - generic [ref=e1433]: "100"
+                    - cell [ref=e1434]:
+                      - math [ref=e1435]:
+                        - generic [ref=e1437]:
+                          - generic [ref=e1438]: "1"
+                          - generic [ref=e1439]: ","
+                          - generic [ref=e1440]:
+                            - generic [ref=e1441]: "399"
+                            - generic [ref=e1442]: ×
+                            - generic [ref=e1443]: "2"
+                            - generic [ref=e1444]: ×
+                            - generic [ref=e1445]: "5"
+                          - generic [ref=e1446]: ","
+                          - generic [ref=e1447]: "000"
+                    - cell [ref=e1448]:
+                      - math [ref=e1450]:
+                        - generic [ref=e1452]:
+                          - generic [ref=e1453]: T
+                          - generic [ref=e1454]: extract
+                  - row [ref=e1455]:
+                    - cell [ref=e1456]:
+                      - math [ref=e1457]:
+                        - generic [ref=e1459]:
+                          - generic [ref=e1460]: +
+                          - generic [ref=e1461]:
+                            - generic [ref=e1462]: T
+                            - generic [ref=e1463]: extract
+                  - row "API 1" [ref=e1464]:
+                    - cell "API" [ref=e1465]
+                    - cell [ref=e1466]:
+                      - math [ref=e1468]:
+                        - generic [ref=e1470]:
+                          - generic [ref=e1471]:
+                            - generic [ref=e1472]:
+                              - generic [ref=e1473]: "610"
+                              - generic [ref=e1474]: ×
+                              - generic [ref=e1475]: "1"
+                            - generic [ref=e1476]: ","
+                            - generic [ref=e1477]: "000"
+                          - generic [ref=e1478]:
+                            - generic [ref=e1479]: C
+                            - generic [ref=e1480]: max
+                    - cell "1" [ref=e1481]
+                    - cell [ref=e1482]:
+                      - math [ref=e1484]:
+                        - generic [ref=e1486]:
+                          - generic [ref=e1487]: "1"
+                          - generic [ref=e1488]: ","
+                          - generic [ref=e1489]:
+                            - generic [ref=e1490]:
+                              - generic [ref=e1491]: "399"
+                              - generic [ref=e1492]: ×
+                              - generic [ref=e1493]: "2"
+                            - generic [ref=e1494]: +
+                            - generic [ref=e1495]:
+                              - generic [ref=e1496]: C
+                              - generic [ref=e1497]: extract
+                    - cell [ref=e1498]:
+                      - math [ref=e1500]:
+                        - generic [ref=e1502]:
+                          - generic [ref=e1503]: C
+                          - generic [ref=e1504]: extract
+                  - row "Calls" [ref=e1505]:
+                    - cell "Calls" [ref=e1506]
+            - paragraph [ref=e1508]:
+              - text: We compare the cost of our LightRAG with that of the top-performing baseline, GraphRAG, from two key perspectives. First, we examine the number of tokens and API calls during the indexing and retrieval processes. Second, we analyze these metrics in relation to handling data changes in dynamic environments. The results of this evaluation on the legal dataset are presented in Table
+              - link "2" [ref=e1509] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S4.F2
+              - text: . In this context,
+              - math [ref=e1510]:
+                - generic [ref=e1512]:
+                  - generic [ref=e1513]: T
+                  - generic [ref=e1514]: extract
+              - text: represents the token overhead for entity and relationship extraction,
+              - math [ref=e1515]:
+                - generic [ref=e1517]:
+                  - generic [ref=e1518]: C
+                  - generic [ref=e1519]: max
+              - text: denotes the maximum number of tokens allowed per API call, and
+              - math [ref=e1520]:
+                - generic [ref=e1522]:
+                  - generic [ref=e1523]: C
+                  - generic [ref=e1524]: extract
+              - text: indicates the number of API calls required for extraction.
+            - paragraph [ref=e1526]:
+              - text: In the retrieval phase, GraphRAG generates 1,399 communities, with 610 level-2 communities actively utilized for retrieval in this experiment. Each community report averages 1,000 tokens, resulting in a total token consumption of 610,000 tokens (610 communities
+              - math [ref=e1527]:
+                - generic [ref=e1529]: ×
+              - text: 1,000 tokens per community). Additionally, GraphRAG’s requirement to traverse each community individually leads to hundreds of API calls, significantly increasing retrieval overhead. In contrast, LightRAG optimizes this process by using fewer than 100 tokens for keyword generation and retrieval, requiring only a single API call for the entire process. This efficiency is achieved through our retrieval mechanism, which seamlessly integrates graph structures and vectorized representations for information retrieval, thereby eliminating the need to process large volumes of information upfront.
+            - paragraph [ref=e1531]: In the incremental data update phase, designed to address changes in dynamic real-world scenarios, both models exhibit similar overhead for entity and relationship extraction. However, GraphRAG shows significant inefficiency in managing newly added data. When a new dataset of the same size as the legal dataset is introduced, GraphRAG must dismantle its existing community structure to incorporate new entities and relationships, followed by complete regeneration. This process incurs a substantial token cost of approximately 5,000 tokens per community report. Given 1,399 communities, GraphRAG would require around 1,399 × 2 × 5,000 tokens to reconstruct both the original and new community reports—an exorbitant expense that underscores its inefficiency. In contrast, LightRAG seamlessly integrates newly extracted entities and relationships into the existing graph without the need for full reconstruction. This approach results in significantly lower overhead during incremental updates, demonstrating its superior efficiency and cost-effectiveness.
+        - generic [ref=e1532]:
+          - heading "5 Related Work" [level=2] [ref=e1533]:
+            - generic [ref=e1534]: "5"
+            - text: Related Work
+          - generic [ref=e1535]:
+            - heading "5.1 Retrieval-Augmented Generation with LLMs" [level=3] [ref=e1536]:
+              - generic [ref=e1537]: "5.1"
+              - text: Retrieval-Augmented Generation with LLMs
+            - paragraph [ref=e1539]:
+              - text: Retrieval-Augmented Generation (RAG) systems enhance LLM inputs by retrieving relevant information from external sources, grounding responses in factual, domain-specific knowledge
+              - generic [ref=e1540]:
+                - text: Ram et al. (
+                - link "2023" [ref=e1541] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib13
+                - text: ); Fan et al. (
+                - link "2024" [ref=e1542] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib6
+                - text: )
+              - text: . Current RAG approaches
+              - generic [ref=e1543]:
+                - text: Gao et al. (
+                - link "2022" [ref=e1544] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib7
+                - text: ;
+                - link "2023" [ref=e1545] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib8
+                - text: ); Chan et al. (
+                - link "2024" [ref=e1546] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib2
+                - text: ); Yu et al. (
+                - link "2024" [ref=e1547] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib20
+                - text: )
+              - text: typically embed queries in a vector space to find the nearest context vectors. However, many of these methods rely on fragmented text chunks and only retrieve the top-k contexts, limiting their ability to capture comprehensive global information needed for effective responses.
+            - paragraph [ref=e1549]:
+              - text: Although recent studies
+              - generic [ref=e1550]:
+                - text: Edge et al. (
+                - link "2024" [ref=e1551] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib4
+                - text: )
+              - text: have explored using graph structures for knowledge representation, two key limitations persist. First, these approaches often lack the capability for dynamic updates and expansions of the knowledge graph, making it difficult to incorporate new information effectively. In contrast, our proposed model, LightRAG, addresses these challenges by enabling the RAG system to quickly adapt to new information, ensuring the model’s timeliness and accuracy. Additionally, existing methods often rely on brute-force searches for each generated community, which are inefficient for large-scale queries. Our LightRAG framework overcomes this limitation by facilitating rapid retrieval of relevant information from the graph through our proposed dual-level retrieval paradigm, significantly enhancing both retrieval efficiency and response speed.
+          - generic [ref=e1552]:
+            - heading "5.2 Large Language Model for Graphs" [level=3] [ref=e1553]:
+              - generic [ref=e1554]: "5.2"
+              - text: Large Language Model for Graphs
+            - paragraph [ref=e1556]:
+              - text: "Graphs are a powerful framework for representing complex relationships and find applications in numerous fields. As Large Language Models (LLMs) continue to evolve, researchers have increasingly focused on enhancing their capability to interpret graph-structured data. This body of work can be divided into three primary categories: i) GNNs as Prefix where Graph Neural Networks (GNNs) are utilized as the initial processing layer for graph data, generating structure-aware tokens that LLMs can use during inference. Notable examples include GraphGPT"
+              - generic [ref=e1557]:
+                - text: Tang et al. (
+                - link "2024" [ref=e1558] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib17
+                - text: )
+              - text: and LLaGA
+              - generic [ref=e1559]:
+                - text: Chen et al. (
+                - link "2024" [ref=e1560] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib3
+                - text: )
+              - text: . ii) LLMs as Prefix involves LLMs processing graph data enriched with textual information to produce node embeddings or labels, ultimately refining the training process for GNNs, as demonstrated in systems like GALM
+              - generic [ref=e1561]:
+                - text: Xie et al. (
+                - link "2023" [ref=e1562] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib19
+                - text: )
+              - text: and OFA
+              - generic [ref=e1563]:
+                - text: Liu et al. (
+                - link "2024" [ref=e1564] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib10
+                - text: )
+              - text: . iii) LLMs-Graphs Integration focuses on achieving a seamless interaction between LLMs and graph data, employing techniques such as fusion training and GNN alignment, and developing LLM-based agents capable of engaging with graph information directly
+              - generic [ref=e1565]:
+                - text: Li et al. (
+                - link "2023" [ref=e1566] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib9
+                - text: ); Brannon et al. (
+                - link "2023" [ref=e1567] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#bib.bib1
+                - text: )
+              - text: .
+        - generic [ref=e1568]:
+          - heading "6 Conclusion" [level=2] [ref=e1569]:
+            - generic [ref=e1570]: "6"
+            - text: Conclusion
+          - paragraph [ref=e1572]: This work introduces an advancement in Retrieval-Augmented Generation (RAG) through the integration of a graph-based indexing approach that enhances both efficiency and comprehension in information retrieval. LightRAG utilizes a comprehensive knowledge graph to facilitate rapid and relevant document retrieval, enabling a deeper understanding of complex queries. Its dual-level retrieval paradigm allows for the extraction of both specific and abstract information, catering to diverse user needs. Furthermore, LightRAG’s seamless incremental update capability ensures that the system remains current and responsive to new information, thereby maintaining its effectiveness over time. Overall, LightRAG excels in both efficiency and effectiveness, significantly improving the speed and quality of information retrieval and generation while reducing costs for LLM inference.
+        - generic [ref=e1573]:
+          - heading "References" [level=2] [ref=e1574]
+          - list [ref=e1575]:
+            - listitem [ref=e1576]:
+              - generic [ref=e1577]:
+                - text: Brannon et al. (2023)
+                - button "Back to the article" [ref=e1578] [cursor=pointer]: ↑
+              - generic [ref=e1579]: William Brannon, Suyash Fulay, Hang Jiang, Wonjune Kang, Brandon Roy, Jad Kabbara, and Deb Roy.
+              - generic [ref=e1580]: "Congrat: Self-supervised contrastive pretraining for joint graph and text embeddings."
+              - generic [ref=e1581]:
+                - emphasis [ref=e1582]: arXiv preprint arXiv:2305.14321
+                - text: ", 2023."
+            - listitem [ref=e1583]:
+              - generic [ref=e1584]:
+                - text: Chan et al. (2024)
+                - button "Back to the article" [ref=e1585] [cursor=pointer]: ↑
+              - generic [ref=e1586]: Chi-Min Chan, Chunpu Xu, Ruibin Yuan, Hongyin Luo, Wei Xue, Yike Guo, and Jie Fu.
+              - generic [ref=e1587]: "Rq-rag: Learning to refine queries for retrieval augmented generation."
+              - generic [ref=e1588]:
+                - emphasis [ref=e1589]: arXiv preprint arXiv:2404.00610
+                - text: ", 2024."
+            - listitem [ref=e1590]:
+              - generic [ref=e1591]:
+                - text: Chen et al. (2024)
+                - button "Back to the article" [ref=e1592] [cursor=pointer]: ↑
+              - generic [ref=e1593]: Runjin Chen, Tong Zhao, AJAY KUMAR JAISWAL, Neil Shah, and Zhangyang Wang.
+              - generic [ref=e1594]: "Llaga: Large language and graph assistant."
+              - generic [ref=e1595]:
+                - text: In
+                - emphasis [ref=e1596]: International Conference on Machine Learning (ICML)
+                - text: ", 2024."
+            - listitem [ref=e1597]:
+              - generic [ref=e1598]:
+                - text: Edge et al. (2024)
+                - button "Back to the article" [ref=e1599] [cursor=pointer]: ↑
+              - generic [ref=e1600]: Darren Edge, Ha Trinh, Newman Cheng, Joshua Bradley, Alex Chao, Apurva Mody, Steven Truitt, and Jonathan Larson.
+              - generic [ref=e1601]: "From local to global: A graph rag approach to query-focused summarization."
+              - generic [ref=e1602]:
+                - emphasis [ref=e1603]: arXiv preprint arXiv:2404.16130
+                - text: ", 2024."
+            - listitem [ref=e1604]:
+              - generic [ref=e1605]:
+                - text: Es et al. (2024)
+                - button "Back to the article" [ref=e1606] [cursor=pointer]: ↑
+              - generic [ref=e1607]: Shahul Es, Jithin James, Luis Espinosa Anke, and Steven Schockaert.
+              - generic [ref=e1608]: "Ragas: Automated evaluation of retrieval augmented generation."
+              - generic [ref=e1609]:
+                - text: In
+                - emphasis [ref=e1610]: International Conference of the European Chapter of the Association for Computational Linguistics (EACL)
+                - text: ", pp. 150–158, 2024."
+            - listitem [ref=e1611]:
+              - generic [ref=e1612]:
+                - text: Fan et al. (2024)
+                - button "Back to the article" [ref=e1613] [cursor=pointer]: ↑
+              - generic [ref=e1614]: Wenqi Fan, Yujuan Ding, Liangbo Ning, Shijie Wang, Hengyun Li, Dawei Yin, Tat-Seng Chua, and Qing Li.
+              - generic [ref=e1615]: "A survey on rag meeting llms: Towards retrieval-augmented large language models."
+              - generic [ref=e1616]:
+                - text: In
+                - emphasis [ref=e1617]: International Conference on Knowledge Discovery and Data Mining (KDD)
+                - text: ", pp. 6491–6501, 2024."
+            - listitem [ref=e1618]:
+              - generic [ref=e1619]:
+                - text: Gao et al. (2022)
+                - button "Back to the article" [ref=e1620] [cursor=pointer]: ↑
+              - generic [ref=e1621]: Luyu Gao, Xueguang Ma, Jimmy Lin, and Jamie Callan.
+              - generic [ref=e1622]: Precise zero-shot dense retrieval without relevance labels.
+              - generic [ref=e1623]:
+                - emphasis [ref=e1624]: arXiv preprint arXiv:2212.10496
+                - text: ", 2022."
+            - listitem [ref=e1625]:
+              - generic [ref=e1626]:
+                - text: Gao et al. (2023)
+                - button "Back to the article" [ref=e1627] [cursor=pointer]: ↑
+              - generic [ref=e1628]: Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, and Haofen Wang.
+              - generic [ref=e1629]: "Retrieval-augmented generation for large language models: A survey."
+              - generic [ref=e1630]:
+                - emphasis [ref=e1631]: arXiv preprint arXiv:2312.10997
+                - text: ", 2023."
+            - listitem [ref=e1632]:
+              - generic [ref=e1633]:
+                - text: Li et al. (2023)
+                - button "Back to the article" [ref=e1634] [cursor=pointer]: ↑
+              - generic [ref=e1635]: Yichuan Li, Kaize Ding, and Kyumin Lee.
+              - generic [ref=e1636]: "Grenade: Graph-centric language model for self-supervised representation learning on text-attributed graphs."
+              - generic [ref=e1637]:
+                - text: In
+                - emphasis [ref=e1638]: International Conference on Empirical Methods in Natural Language Processing (EMNLP)
+                - text: ", pp. 2745–2757, 2023."
+            - listitem [ref=e1639]:
+              - generic [ref=e1640]:
+                - text: Liu et al. (2024)
+                - button "Back to the article" [ref=e1641] [cursor=pointer]: ↑
+              - generic [ref=e1642]: Hao Liu, Jiarui Feng, Lecheng Kong, Ningyue Liang, Dacheng Tao, Yixin Chen, and Muhan Zhang.
+              - generic [ref=e1643]: "One for all: Towards training one graph model for all classification tasks."
+              - generic [ref=e1644]:
+                - text: In
+                - emphasis [ref=e1645]: International Conference on Learning Representations (ICLR)
+                - text: ", 2024."
+            - listitem [ref=e1646]:
+              - generic [ref=e1647]:
+                - text: Lyu et al. (2024)
+                - button "Back to the article" [ref=e1648] [cursor=pointer]: ↑
+              - generic [ref=e1649]: Yuanjie Lyu, Zhiyu Li, Simin Niu, Feiyu Xiong, Bo Tang, Wenjin Wang, Hao Wu, Huanyong Liu, Tong Xu, and Enhong Chen.
+              - generic [ref=e1650]: "Crud-rag: A comprehensive chinese benchmark for retrieval-augmented generation of large language models."
+              - generic [ref=e1651]:
+                - emphasis [ref=e1652]: arXiv preprint arXiv:2401.17043
+                - text: ", 2024."
+            - listitem [ref=e1653]:
+              - generic [ref=e1654]:
+                - text: Qian et al. (2024)
+                - button "Back to the article" [ref=e1655] [cursor=pointer]: ↑
+              - generic [ref=e1656]: Hongjin Qian, Peitian Zhang, Zheng Liu, Kelong Mao, and Zhicheng Dou.
+              - generic [ref=e1657]: "Memorag: Moving towards next-gen rag via memory-inspired knowledge discovery, 2024."
+              - generic [ref=e1658]:
+                - text: URL
+                - link "https://arxiv.org/abs/2409.05591" [ref=e1659] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2409.05591
+                - text: .
+            - listitem [ref=e1660]:
+              - generic [ref=e1661]:
+                - text: Ram et al. (2023)
+                - button "Back to the article" [ref=e1662] [cursor=pointer]: ↑
+              - generic [ref=e1663]: Ori Ram, Yoav Levine, Itay Dalmedigos, Dor Muhlgay, Amnon Shashua, Kevin Leyton-Brown, and Yoav Shoham.
+              - generic [ref=e1664]: In-context retrieval-augmented language models.
+              - generic [ref=e1665]:
+                - emphasis [ref=e1666]: Transactions of the Association for Computational Linguistics (TACL)
+                - text: ", 11:1316–1331, 2023."
+            - listitem [ref=e1667]:
+              - generic [ref=e1668]:
+                - text: Rampášek et al. (2022)
+                - button "Back to the article" [ref=e1669] [cursor=pointer]: ↑
+              - generic [ref=e1670]: Ladislav Rampášek, Michael Galkin, Vijay Prakash Dwivedi, Anh Tuan Luu, Guy Wolf, and Dominique Beaini.
+              - generic [ref=e1671]: Recipe for a general, powerful, scalable graph transformer.
+              - generic [ref=e1672]:
+                - emphasis [ref=e1673]: International Conference on Neural Information Processing Systems (NeurIPS)
+                - text: ", 35:14501–14515, 2022."
+            - listitem [ref=e1674]:
+              - generic [ref=e1675]:
+                - text: Salemi & Zamani (2024)
+                - button "Back to the article" [ref=e1676] [cursor=pointer]: ↑
+              - generic [ref=e1677]: Alireza Salemi and Hamed Zamani.
+              - generic [ref=e1678]: Evaluating retrieval quality in retrieval-augmented generation.
+              - generic [ref=e1679]:
+                - text: In
+                - emphasis [ref=e1680]: ACM International Conference on Research and Development in Information Retrieval (SIGIR)
+                - text: ", pp. 2395–2400, 2024."
+            - listitem [ref=e1681]:
+              - generic [ref=e1682]:
+                - text: Sudhi et al. (2024)
+                - button "Back to the article" [ref=e1683] [cursor=pointer]: ↑
+              - generic [ref=e1684]: Viju Sudhi, Sinchana Ramakanth Bhat, Max Rudat, and Roman Teucher.
+              - generic [ref=e1685]: "Rag-ex: A generic framework for explaining retrieval augmented generation."
+              - generic [ref=e1686]:
+                - text: In
+                - emphasis [ref=e1687]: ACM International Conference on Research and Development in Information Retrieval (SIGIR)
+                - text: ", pp. 2776–2780, 2024."
+            - listitem [ref=e1688]:
+              - generic [ref=e1689]:
+                - text: Tang et al. (2024)
+                - button "Back to the article" [ref=e1690] [cursor=pointer]: ↑
+              - generic [ref=e1691]: Jiabin Tang, Yuhao Yang, Wei Wei, Lei Shi, Lixin Su, Suqi Cheng, Dawei Yin, and Chao Huang.
+              - generic [ref=e1692]: "Graphgpt: Graph instruction tuning for large language models."
+              - generic [ref=e1693]:
+                - text: In
+                - emphasis [ref=e1694]: ACM International Conference on Research and Development in Information Retrieval (SIGIR)
+                - text: ", pp. 491–500, 2024."
+            - listitem [ref=e1695]:
+              - generic [ref=e1696]:
+                - text: Tu et al. (2024)
+                - button "Back to the article" [ref=e1697] [cursor=pointer]: ↑
+              - generic [ref=e1698]: Shangqing Tu, Yuanchun Wang, Jifan Yu, Yuyang Xie, Yaran Shi, Xiaozhi Wang, Jing Zhang, Lei Hou, and Juanzi Li.
+              - generic [ref=e1699]: "R-eval: A unified toolkit for evaluating domain knowledge of retrieval augmented large language models."
+              - generic [ref=e1700]:
+                - text: In
+                - emphasis [ref=e1701]: International Conference on Knowledge Discovery and Data Mining (KDD)
+                - text: ", pp. 5813–5824, 2024."
+            - listitem [ref=e1702]:
+              - generic [ref=e1703]:
+                - text: Xie et al. (2023)
+                - button "Back to the article" [ref=e1704] [cursor=pointer]: ↑
+              - generic [ref=e1705]: Han Xie, Da Zheng, Jun Ma, Houyu Zhang, Vassilis N Ioannidis, Xiang Song, Qing Ping, Sheng Wang, Carl Yang, Yi Xu, et al.
+              - generic [ref=e1706]: Graph-aware language model pre-training on a large graph corpus can help multiple graph applications.
+              - generic [ref=e1707]:
+                - text: In
+                - emphasis [ref=e1708]: International Conference on Knowledge Discovery and Data Mining (KDD)
+                - text: ", pp. 5270–5281, 2023."
+            - listitem [ref=e1709]:
+              - generic [ref=e1710]:
+                - text: Yu et al. (2024)
+                - button "Back to the article" [ref=e1711] [cursor=pointer]: ↑
+              - generic [ref=e1712]: Yue Yu, Wei Ping, Zihan Liu, Boxin Wang, Jiaxuan You, Chao Zhang, Mohammad Shoeybi, and Bryan Catanzaro.
+              - generic [ref=e1713]: "Rankrag: Unifying context ranking with retrieval-augmented generation in llms."
+              - generic [ref=e1714]:
+                - emphasis [ref=e1715]: arXiv preprint arXiv:2407.02485
+                - text: ", 2024."
+            - listitem [ref=e1716]:
+              - generic [ref=e1717]:
+                - text: Zhao et al. (2024)
+                - button "Back to the article" [ref=e1718] [cursor=pointer]: ↑
+              - generic [ref=e1719]: Penghao Zhao, Hailin Zhang, Qinhan Yu, Zhengren Wang, Yunteng Geng, Fangcheng Fu, Ling Yang, Wentao Zhang, and Bin Cui.
+              - generic [ref=e1720]: "Retrieval-augmented generation for ai-generated content: A survey."
+              - generic [ref=e1721]:
+                - emphasis [ref=e1722]: arXiv preprint arXiv:2402.19473
+                - text: ", 2024."
+        - generic [ref=e1723]:
+          - heading "7 Appendix" [level=2] [ref=e1724]:
+            - generic [ref=e1725]: "7"
+            - text: Appendix
+          - paragraph [ref=e1727]: In this section, we elaborate on the methodologies and experimental settings used in the LightRAG framework. It describes the specific steps for extracting entities and relationships from documents, detailing how large language models (LLMs) are utilized for this purpose. The section also specifies the prompt templates and configurations used in LLM operations, ensuring clarity in the experimental setup. Additionally, it outlines the evaluation criteria and dimensions used to assess the performance of LightRAG against baselines from various dimensions.
+          - generic [ref=e1728]:
+            - heading "7.1 Experimental Data Details" [level=3] [ref=e1729]:
+              - generic [ref=e1730]: "7.1"
+              - text: Experimental Data Details
+            - 'figure "Table 4: Statistical information of the datasets." [ref=e1731]':
+              - generic [ref=e1732]:
+                - generic [ref=e1733]: "Table 4:"
+                - text: Statistical information of the datasets.
+              - table [ref=e1734]:
+                - rowgroup [ref=e1735]:
+                  - row "Statistics Agriculture CS Legal Mix" [ref=e1736]:
+                    - columnheader "Statistics" [ref=e1737]
+                    - columnheader "Agriculture" [ref=e1738]
+                    - columnheader "CS" [ref=e1739]
+                    - columnheader "Legal" [ref=e1740]
+                    - columnheader "Mix" [ref=e1741]
+                - rowgroup [ref=e1742]:
+                  - row "Total Documents 12 10 94 61" [ref=e1743]:
+                    - rowheader "Total Documents" [ref=e1744]
+                    - cell "12" [ref=e1745]
+                    - cell "10" [ref=e1746]
+                    - cell "94" [ref=e1747]
+                    - cell "61" [ref=e1748]
+                  - row "Total Tokens 2,017,886 2,306,535 5,081,069 619,009" [ref=e1749]:
+                    - rowheader "Total Tokens" [ref=e1750]
+                    - cell "2,017,886" [ref=e1751]
+                    - cell "2,306,535" [ref=e1752]
+                    - cell "5,081,069" [ref=e1753]
+                    - cell "619,009" [ref=e1754]
+            - paragraph [ref=e1756]:
+              - text: Table
+              - link "4" [ref=e1757] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S7.T4
+              - text: "presents statistical information for four datasets: Agriculture, CS, Legal, and Mix. The Agriculture dataset consists of 12 documents totaling 2,017,886 tokens, while the CS dataset contains 10 documents with 2,306,535 tokens. The Legal dataset is the largest, comprising 94 documents and 5,081,069 tokens. Lastly, the Mix dataset includes 61 documents with a total of 619,009 tokens."
+          - generic [ref=e1758]:
+            - heading "7.2 Case Example of Retrieval-Augmented Generation in LightRAG." [level=3] [ref=e1759]:
+              - generic [ref=e1760]: "7.2"
+              - text: Case Example of Retrieval-Augmented Generation in LightRAG.
+            - 'figure "Figure 3: A retrieval and generation example." [ref=e1761]':
+              - img "Refer to caption" [ref=e1762]
+              - generic [ref=e1763]:
+                - generic [ref=e1764]: "Figure 3:"
+                - text: A retrieval and generation example.
+            - paragraph [ref=e1766]:
+              - text: In Figure
+              - link "3" [ref=e1767] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S7.F3
+              - text: ", we illustrate the retrieve-and-generate process. When presented with the query, “What metrics are most informative for evaluating movie recommendation systems?”, the LLM first extracts both low-level and high-level keywords. These keywords guide the dual-level retrieval process on the generated knowledge graph, targeting relevant entities and relationships. The retrieved information is organized into three components: entities, relationships, and corresponding text chunks. This structured data is then fed into the LLM, enabling it to generate a comprehensive answer to the query."
+          - generic [ref=e1768]:
+            - heading "7.3 Overview of the Prompts Used in LightRAG" [level=3] [ref=e1769]:
+              - generic [ref=e1770]: "7.3"
+              - text: Overview of the Prompts Used in LightRAG
+            - generic [ref=e1771]:
+              - heading "7.3.1 Prompts for Graph Generation" [level=4] [ref=e1772]:
+                - generic [ref=e1773]: 7.3.1
+                - text: Prompts for Graph Generation
+              - 'figure "Figure 4: Prompts for Graph Generation" [ref=e1774]':
+                - img "Refer to caption" [ref=e1775]
+                - generic [ref=e1776]:
+                  - generic [ref=e1777]: "Figure 4:"
+                  - text: Prompts for Graph Generation
+              - paragraph [ref=e1779]:
+                - text: The graph construction prompt outlined in Figure
+                - link "4" [ref=e1780] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#S7.F4
+                - text: is designed to extract and structure entity-relationship information from a text document based on specified entity types. The process begins by identifying entities and categorizing them into types such as organization, person, location, and event. It then provides detailed descriptions of their attributes and activities. Next, the prompt identifies relationships between these entities, offering explanations, assigning strength scores, and summarizing the relationships using high-level keywords.
+            - generic [ref=e1781]:
+              - heading "7.3.2 Prompts for Query Generation" [level=4] [ref=e1782]:
+                - generic [ref=e1783]: 7.3.2
+                - text: Prompts for Query Generation
+              - 'figure "Figure 5: Prompts for Query Generation" [ref=e1784]':
+                - img "Refer to caption" [ref=e1785]
+                - generic [ref=e1786]:
+                  - generic [ref=e1787]: "Figure 5:"
+                  - text: Prompts for Query Generation
+              - paragraph [ref=e1789]:
+                - text: In Figure
+                - link "5" [ref=e1790] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#S7.F5
+                - text: ", the query generation prompt outlines a framework for identifying potential user roles (e.g., data scientist, finance analyst, and product manager) and their objectives for generating queries based on a specified dataset description. The prompt explains how to define five distinct users who would benefit from interacting with the dataset. For each user, it specifies five key tasks they would perform while working with the dataset. Additionally, for each (user, task) combination, five high-level questions are posed to ensure a thorough understanding of the dataset."
+            - generic [ref=e1791]:
+              - heading "7.3.3 Prompts for Keyword Extraction" [level=4] [ref=e1792]:
+                - generic [ref=e1793]: 7.3.3
+                - text: Prompts for Keyword Extraction
+              - 'figure "Figure 6: Prompts for Keyword Extraction" [ref=e1794]':
+                - img "Refer to caption" [ref=e1795]
+                - generic [ref=e1796]:
+                  - generic [ref=e1797]: "Figure 6:"
+                  - text: Prompts for Keyword Extraction
+              - paragraph [ref=e1799]:
+                - text: In Figure
+                - link "6" [ref=e1800] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#S7.F6
+                - text: ", the prompt describes a method for extracting keywords from a user’s query, distinguishing between high-level and low-level keywords. High-level keywords represent broad concepts or themes, while low-level keywords focus on specific entities and details. The extracted keywords are returned in JSON format, organized into two fields: “high_level_keywords” for overarching ideas and “low_level_keywords” for specific details."
+            - generic [ref=e1801]:
+              - heading "7.3.4 Prompts for RAG Evaluation" [level=4] [ref=e1802]:
+                - generic [ref=e1803]: 7.3.4
+                - text: Prompts for RAG Evaluation
+              - 'figure "Figure 7: Prompts for RAG Evaluation" [ref=e1804]':
+                - img "Refer to caption" [ref=e1805]
+                - generic [ref=e1806]:
+                  - generic [ref=e1807]: "Figure 7:"
+                  - text: Prompts for RAG Evaluation
+              - paragraph [ref=e1809]:
+                - text: The evaluation prompt is illustrated in Figure
+                - link "7" [ref=e1810] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2410.05779v3#S7.F7
+                - text: ". It introduces a comprehensive evaluation framework for comparing two answers to the same question based on three key criteria: Comprehensiveness, Diversity, and Empowerment. Its purpose is to guide the LLM through the process of selecting the better answer for each criterion, followed by an overall assessment. For each of the three criteria, the LLM must identify which answer performs better and provide a rationale for its choice. Ultimately, an overall winner is determined based on performance across all three dimensions, accompanied by a detailed summary that justifies the decision. The evaluation is structured in JSON format, ensuring clarity and consistency, and facilitating a systematic comparison between the two answers."
+          - generic [ref=e1811]:
+            - 'heading "7.4 Case Study: Comparison Between LightRAG and the Baseline NaiveRAG." [level=3] [ref=e1812]':
+              - generic [ref=e1813]: "7.4"
+              - text: "Case Study: Comparison Between LightRAG and the Baseline NaiveRAG."
+            - 'figure "Table 5: Case Study: Comparison Between LightRAG and the Baseline NaiveRAG." [ref=e1814]':
+              - generic [ref=e1815]:
+                - generic [ref=e1816]: "Table 5:"
+                - text: "Case Study: Comparison Between LightRAG and the Baseline NaiveRAG."
+              - table [ref=e1819]:
+                - rowgroup [ref=e1820]:
+                  - row "Query How do indigenous perspectives on ownership and collaboration influence corporate mergers in countries like Canada and Australia?" [ref=e1821]:
+                    - columnheader "Query" [ref=e1822]
+                    - columnheader "How do indigenous perspectives on ownership and collaboration influence corporate mergers in countries like Canada and Australia?" [ref=e1823]:
+                      - generic [ref=e1825]: How do indigenous perspectives on ownership and collaboration influence corporate mergers in countries like Canada and Australia?
+                - rowgroup [ref=e1826]:
+                  - row "NaiveRAG Indigenous perspectives on ownership and collaboration play a significant role in shaping corporate mergers in countries like Canada and Australia, particularly where resources and land rights intersect with Indigenous sovereignty and cultural values. These perspectives emphasize community engagement, respect for traditional land use, and a collaborative approach to resource management, influencing corporate strategies and outcomes. … Both nations illustrate that prioritizing Indigenous perspectives leads to more sustainable and equitable outcomes. Acknowledging Indigenous rights and fostering collaborative relationships can reduce conflicts and enhance corporate reputations. Ultimately, integrating Indigenous perspectives is a pathway to better business practices and community relations." [ref=e1827]:
+                    - rowheader "NaiveRAG" [ref=e1828]
+                    - cell "Indigenous perspectives on ownership and collaboration play a significant role in shaping corporate mergers in countries like Canada and Australia, particularly where resources and land rights intersect with Indigenous sovereignty and cultural values. These perspectives emphasize community engagement, respect for traditional land use, and a collaborative approach to resource management, influencing corporate strategies and outcomes. … Both nations illustrate that prioritizing Indigenous perspectives leads to more sustainable and equitable outcomes. Acknowledging Indigenous rights and fostering collaborative relationships can reduce conflicts and enhance corporate reputations. Ultimately, integrating Indigenous perspectives is a pathway to better business practices and community relations." [ref=e1829]:
+                      - generic [ref=e1830]:
+                        - generic [ref=e1831]: Indigenous perspectives on ownership and collaboration play a significant role in shaping corporate mergers in countries like Canada and Australia, particularly where resources and land rights intersect with Indigenous sovereignty and cultural values. These perspectives emphasize community engagement, respect for traditional land use, and a collaborative approach to resource management, influencing corporate strategies and outcomes.
+                        - generic [ref=e1832]: …
+                        - generic [ref=e1833]: Both nations illustrate that prioritizing Indigenous perspectives leads to more sustainable and equitable outcomes. Acknowledging Indigenous rights and fostering collaborative relationships can reduce conflicts and enhance corporate reputations. Ultimately, integrating Indigenous perspectives is a pathway to better business practices and community relations.
+                  - row "LightRAG Indigenous Perspectives on Ownership and Collaboration in Corporate Mergers Indigenous perspectives significantly influence corporate mergers in countries like Canada and Australia. These views emphasize communal rights to land and resources, spiritual connections to the environment, and the importance of collaboration over competition. Cultural Significance of Land Ownership […] The Role of Collaboration […] Legal and Regulatory Frameworks […] Conclusion Indigenous perspectives shape corporate mergers by emphasizing communal ownership and collaborative partnerships. Corporations must adopt respectful, inclusive practices that honor Indigenous cultural values and rights, paving the way for sustainable, mutually beneficial outcomes." [ref=e1834]:
+                    - rowheader "LightRAG" [ref=e1835]
+                    - cell "Indigenous Perspectives on Ownership and Collaboration in Corporate Mergers Indigenous perspectives significantly influence corporate mergers in countries like Canada and Australia. These views emphasize communal rights to land and resources, spiritual connections to the environment, and the importance of collaboration over competition. Cultural Significance of Land Ownership […] The Role of Collaboration […] Legal and Regulatory Frameworks […] Conclusion Indigenous perspectives shape corporate mergers by emphasizing communal ownership and collaborative partnerships. Corporations must adopt respectful, inclusive practices that honor Indigenous cultural values and rights, paving the way for sustainable, mutually beneficial outcomes." [ref=e1836]:
+                      - generic [ref=e1837]:
+                        - generic [ref=e1838]: Indigenous Perspectives on Ownership and Collaboration in Corporate Mergers
+                        - generic [ref=e1839]: Indigenous perspectives significantly influence corporate mergers in countries like Canada and Australia. These views emphasize communal rights to land and resources, spiritual connections to the environment, and the importance of collaboration over competition.
+                        - generic [ref=e1840]: Cultural Significance of Land Ownership […]
+                        - generic [ref=e1841]: The Role of Collaboration […]
+                        - generic [ref=e1842]: Legal and Regulatory Frameworks […]
+                        - generic [ref=e1843]: Conclusion
+                        - generic [ref=e1844]: Indigenous perspectives shape corporate mergers by emphasizing communal ownership and collaborative partnerships. Corporations must adopt respectful, inclusive practices that honor Indigenous cultural values and rights, paving the way for sustainable, mutually beneficial outcomes.
+                  - row [ref=e1845]:
+                    - rowheader "LLM Decision" [ref=e1846]
+                    - cell [ref=e1847]:
+                      - generic [ref=e1848]:
+                        - generic [ref=e1849]: "Comprehensiveness: \"Winner\": \"Answer 2 (LightRAG)\","
+                        - generic [ref=e1850]: "\"Explanation\": \"Answer 2 provides a thorough exploration of the indigenous perspectives by discussing cultural significance, collaboration, and legal frameworks, including specific examples and detailed insights. In contrast, Answer 1, while informative, lacks the same depth in analyzing the various dimensions of the indigenous perspectives on ownership and collaboration.\""
+                        - generic [ref=e1851]: "Diversity: \"Winner\": \"Answer 2 (LightRAG)\","
+                        - generic [ref=e1852]: "\"Explanation\": \"Answer 2 presents a wider array of perspectives, focusing on the communal aspect of land ownership, spiritual connections, and practical examples of collaboration. It covers more ground by contrasting Indigenous views with Western notions, whereas Answer 1 primarily focuses on corporate strategies and outcomes with limited perspective.\""
+                        - generic [ref=e1853]: "Empowerment: \"Winner\": \"Answer 2 (LightRAG)\","
+                        - generic [ref=e1854]: "\"Explanation\": \"Answer 2 equips the reader with nuanced understanding and actionable insights by highlighting the importance of collaboration and the legal frameworks involved. It empowers corporations by illustrating how adopting an inclusive approach can facilitate better outcomes. Answer 1, while practical, does not emphasize the moral or ethical implications as strongly.\""
+                        - generic [ref=e1855]: "Overall Winner: \"Winner\": \"Answer 2 (LightRAG)\","
+                        - generic [ref=e1856]: "\"Explanation\": \"Answer 2 excels overall due to its comprehensive exploration, diversity of perspectives, and empowerment of the reader with actionable insights about indigenous perspectives and collaboration in corporate mergers. Although Answer 1 is more direct, the depth and breadth of Answer 2 make it the stronger response.\""
+            - paragraph [ref=e1858]:
+              - text: To further illustrate LightRAG’s superiority over baseline models in terms of comprehensiveness, empowerment, and diversity, we present a case study comparing LightRAG and NaiveRAG in Table
+              - link "5" [ref=e1859] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2410.05779v3#S7.T5
+              - text: . This study addresses a question regarding indigenous perspectives in the context of corporate mergers. Notably, LightRAG offers a more in-depth exploration of key themes related to indigenous perspectives, such as cultural significance, collaboration, and legal frameworks, supported by specific and illustrative examples. In contrast, while NaiveRAG provides informative responses, it lacks the depth needed to thoroughly examine the various dimensions of indigenous ownership and collaboration. The dual-level retrieval process employed by LightRAG enables a more comprehensive investigation of specific entities and their interrelationships, facilitating extensive searches that effectively capture overarching themes and complexities within the topic.
+  - button "Report Issue" [ref=e1860] [cursor=pointer]
+  - button "Report Issue for Selection" [ref=e1861] [cursor=pointer]
+  - generic [ref=e1863]:
+    - text: Generated by
+    - link "L A T E xml [LOGO]" [ref=e1864] [cursor=pointer]:
+      - /url: https://math.nist.gov/~BMiller/LaTeXML/
+      - generic [ref=e1865]: L A T E
+      - text: xml
+      - img "[LOGO]" [ref=e1866]
+  - contentinfo [ref=e1867]:
+    - generic [ref=e1868]:
+      - heading "Instructions for reporting errors" [level=2] [ref=e1869]
+      - paragraph [ref=e1870]: "We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the methods listed below:"
+      - list [ref=e1871]:
+        - listitem [ref=e1872]: Click the "Report Issue" button.
+        - listitem [ref=e1873]:
+          - text: Open a report feedback form via keyboard, use "
+          - strong [ref=e1874]: Ctrl + ?
+          - text: "\"."
+        - listitem [ref=e1875]: Make a text selection and click the "Report Issue for Selection" button near your cursor.
+        - listitem [ref=e1876]: You can use Alt+Y to toggle on and Alt+Shift+Y to toggle off accessible reporting links at each section.
+      - paragraph [ref=e1877]:
+        - text: Our team has already identified
+        - link "the following issues" [ref=e1878] [cursor=pointer]:
+          - /url: https://github.com/arXiv/html_feedback/issues
+        - text: . We appreciate your time reviewing and reporting rendering errors we may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability should not be a barrier to accessing research. Thank you for your continued support in championing open access for all.
+      - paragraph [ref=e1879]:
+        - text: Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a
+        - link "list of packages that need conversion" [ref=e1880] [cursor=pointer]:
+          - /url: https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML
+        - text: ", and welcome"
+        - link "developer contributions" [ref=e1881] [cursor=pointer]:
+          - /url: https://github.com/brucemiller/LaTeXML/issues
+        - text: .
+  - text: beta

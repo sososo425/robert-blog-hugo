@@ -1,0 +1,679 @@
+{
+  "id": "conv-1774512804980-1oin6zbh5",
+  "title": "这里好像说反了。版本B是 MDS，是3项。这个图是最新的版本C的架构图，是用的DOM，而且是4项。帮...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774512804981,
+  "updatedAt": 1774592489719,
+  "lastResponseAt": 1774578133712,
+  "sessionId": "e6ac6278-edbe-47ef-8c70-9bb9df332080",
+  "sdkSessionId": "e6ac6278-edbe-47ef-8c70-9bb9df332080",
+  "currentNote": "private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  },
+  "subagentData": {
+    "call_MHxna0VSMm9pQnZqQjFaUEw4d0Q": {
+      "id": "call_MHxna0VSMm9pQnZqQjFaUEw4d0Q",
+      "description": "Update architecture memory types to use Declarative and Procedural across all files",
+      "prompt": "The architectural design has changed for the entire Agent Memory Infrastructure in the \"最新技术方案-版本C\" directory.\nWe need to update the documentation to reflect that the long-term memory architecture is specifically composed of:\n1. **Procedural Memory**\n2. **Declarative Memory** (which explicitly contains two subtypes: **Semantic Memory** and **Episodic Memory**)\n\nThis replaces the older simplified model (which just had Procedural + Semantic as top-level). \n\nTasks:\n1. Grep for \"Semantic Memory\" and \"Declarative Memory\" in all markdown files in `/Users/liangbinbin/.openclaw/workspace/robert-blog-hugo/content/private/tech/agent-memory-infra/最新技术方案-版本C/`.\n2. Update the `00-概要设计.md` file, especially around sections 3.2, 5, and any tables/diagrams referencing memory types, to correctly use \"Declarative Memory\" (containing Semantic + Episodic) instead of just \"Semantic Memory\" as the top-level counterpart to Procedural Memory. Make sure to remove the warning `> ⚠️ **版本演进说明**...` or update it to reflect that we ARE using Declarative Memory now.\n3. Update `01 - Agent Memory System（AMS）详细设计.md`, `02-Memory-Processing-Pipeline.md`, `03-Storage-and-Retrieval.md`, and any other detailed design files to reflect this structural change. Top level is Procedural + Declarative. Under Declarative we have Semantic + Episodic.\n4. Ensure the changes are comprehensive across the entire \"最新技术方案-版本C\" folder.\n5. Use `Edit` or `Write` tools to modify the files. Ensure exact matches when using `Edit`.\n\nRemember to check all files listed from the Glob result:\n- `00-概要设计.md`\n- `01 - Agent Memory System（AMS）详细设计.md`\n- `02-Memory-Processing-Pipeline.md`\n- `03-Storage-and-Retrieval.md`\n- `04-Agent-TES.md`\n- `05-Skill-MDS.md` (Check for Skill-MDS -> Skill-DOM renames if needed, but focus on Declarative Memory)\n- `06-Multi-Agent-Collaboration.md`\n- `07-Deployment.md`\n- `08-System-Application-EndToEnd.md`\n- `概要设计-初稿-WIP.md` (Optional, but good to check)\n- `版本B-修改建议.md` (Optional, but good to check)",
+      "status": "completed",
+      "toolCalls": [
+        {
+          "id": "call_MHxEZFNRTWw0aHpwdXB5b1hnbUY",
+          "name": "Bash",
+          "input": {
+            "command": "ls -la \"private/tech/agent-memory-infra/最新技术方案-版本C/\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "total 1232\ndrwxr-xr-x@ 13 liangbinbin  staff     416 Mar 26 16:46 .\ndrwxr-xr-x@ 12 liangbinbin  staff     384 Mar 26 15:54 ..\n-rw-r--r--@  1 liangbinbin  staff   42334 Mar 26 16:46 00-概要设计.md\n-rw-r--r--@  1 liangbinbin  staff  147670 Mar 25 21:06 01 - Agent Memory System（AMS）详细设计.md\n-rw-r--r--@  1 liangbinbin  staff   93044 Mar 26 11:04 02-Memory-Processing-Pipeline.md\n-rw-r--r--@  1 liangbinbin  staff   57434 Mar 26 11:15 03-Storage-and-Retrieval.md\n-rw-r--r--@  1 liangbinbin  staff   36498 Mar 26 11:16 04-Agent-TES.md\n-rw-r--r--@  1 liangbinbin  staff   56898 Mar 26 11:27 05-Skill-MDS.md\n-rw-r--r--@  1 liangbinbin  staff   51969 Mar 26 11:33 06-Multi-Agent-Collaboration.md\n-rw-r--r--@  1 liangbinbin  staff   56592 Mar 26 11:39 07-Deployment.md\n-rw-r--r--@  1 liangbinbin  staff   31982 Mar 26 12:45 08-System-Application-EndToEnd.md\n-rw-r--r--@  1 liangbinbin  staff   29308 Mar 25 20:25 概要设计-初稿-WIP.md\n-rw-r--r--@  1 liangbinbin  staff    7748 Mar 25 20:25 版本B-修改建议.md"
+        },
+        {
+          "id": "call_MHxxcGlPUUlKVVZvWmtrUzVzSTc",
+          "name": "Grep",
+          "input": {
+            "path": "private/tech/agent-memory-infra/最新技术方案-版本C",
+            "pattern": "Semantic Memory|Declarative Memory|语义记忆|陈述性记忆"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "Found 4 files\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\nprivate/tech/agent-memory-infra/最新技术方案-版本C/08-System-Application-EndToEnd.md\nprivate/tech/agent-memory-infra/最新技术方案-版本C/01 - Agent Memory System（AMS）详细设计.md\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md"
+        },
+        {
+          "id": "call_MHxJSnlHUUdEdGcyTlIyQ3BrRFM",
+          "name": "Grep",
+          "input": {
+            "output_mode": "content",
+            "path": "private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md",
+            "pattern": "Semantic Memory|Declarative Memory|语义记忆|陈述性记忆|Procedural Memory|程序性记忆"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "171:| 基础类别 | **Procedural Memory**（程序性记忆） | 与 Declarative Memory 相互独立 | **技能型记忆**。在 Agent 中表现为通过强化学习（RL）获得的策略或确定性硬编码逻辑 |\n172:| 高层概念 | **Declarative Memory**（陈述性记忆） | 等价于 Factual Memory | **事实型记忆**。可以被显式表达、检索和描述的知识 |\n173:| 陈述性子类型 | **Semantic Memory**（语义记忆） | Declarative Memory 的子集 | **通用知识**。独立于时间/空间的事实（如\"法国的首都是巴黎\"）。Agent 的训练语料主要属于此类 |\n174:| 陈述性子类型 | **Episodic Memory**（情景记忆） | Declarative Memory 的子集；等价于 Experiential Memory | **自传式记忆**。包含时空上下文的特定事件（如\"Agent 昨天下午与用户A讨论了天气\"） |\n179:[Omitted long matching line]\n184:| **Procedural Memory** | 长期，技能与经验 | < 200ms p95 | Neo4j + Milvus + LanceDB | Tree + Graph |\n185:| **Semantic Memory** | 长期，知识与事实 | < 200ms p95 | Neo4j + Milvus + LanceDB | Tree + Graph |\n203:在之前的分析中发现，版本C初稿的架构图中 **work documents / source code 缺少直接流向 Procedural + Declarative Memory 的箭头**，与映射规则表不一致。在本版设计中，我们明确补充了这条数据流路径：\n208:    └──→ Procedural + Semantic Memory → Graph Construction（实体关系图）\n275:| Agent 输出 > 500 tokens 的显著推理内容 | Semantic Memory（情景子类型） | Graph Construction |\n276:| 工具调用追踪导致任务成功完成 | Procedural Memory | Graph Construction |\n277:| 用户显式标记\"记住这个\" | Semantic Memory（语义子类型） | Tree + Graph |\n283:## 5. Semantic Memory 内部结构（Tree + Graph 双轨模型）\n287:Semantic Memory 是 AMS 中信息密度最高的记忆类型，采用 **Tree + Graph 双轨存储**的混合架构。图3完整展示了其内部结构——上半部分是 Tree 层级（蓝色/绿色），下半部分是 Graph 关系网络（蓝色椭圆/橙色椭圆），两者通过 **Context Edge** 桥接。\n369:| Procedural + Semantic Memory | **Full Three-layer** | Phrase Node → Community Node → Temporal KG | 完整的实体-关系-社区-时序图构建 |\n383:## 6. Procedural Memory 架构\n387:Procedural Memory 存储 Agent 的**技能和经验**——\"如何做\"的知识。它与 Semantic Memory 共享相同的 Tree + Graph 双轨存储基础设施，但在以下方面有所不同：\n389:| **维度** | **Semantic Memory** | **Procedural Memory** |\n402:Procedural Memory (Graph: 执行轨迹图)\n705:| ADR-007 | Semantic Memory 与 Procedural Memory 共享存储引擎 | 减少运维复杂度，通过 namespace/label 隔离 | 独立存储集群 |"
+        },
+        {
+          "id": "call_MHxUOVRPaVYyd3R6djh6MDBITFI",
+          "name": "Read",
+          "input": {
+            "file_path": "/Users/liangbinbin/.openclaw/workspace/robert-blog-hugo/content/private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md",
+            "limit": 100,
+            "offset": 150
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "   150→Multimodal Lake 不是传统的数据湖，而是面向 Agent 认知需求的多模态知识转化引擎。\n   151→\n   152→#### 数据流向\n   153→\n   154→**输入侧（左侧）：**\n   155→- **Trace System**：思考过程「CoT」、交互数据、引用证据、决策链路 → Memory Lake + Multimodal Lake\n   156→- **业务数据和信息**：business documents → Multimodal Lake\n   157→\n   158→**输出侧（右侧）：**\n   159→- **Structured Memory Retrieval**：语义检索、精准匹配、粗召回、精排、结构化拼装 → Multi-Agent System\n   160→\n   161→---\n   162→\n   163→## 3. 记忆分类体系\n   164→![[Pasted image 20260325111351.png]]\n   165→### 3.1 认知科学基础\n   166→\n   167→AMS 的记忆分类直接映射人类认知心理学的经典模型。以下是完整的概念映射表：\n   168→\n   169→| **维度** | **记忆类型** | **归属/等价关系** | **在 Agent 中的定义与实现** |\n   170→|---|---|---|---|\n   171→| 基础类别 | **Procedural Memory**（程序性记忆） | 与 Declarative Memory 相互独立 | **技能型记忆**。在 Agent 中表现为通过强化学习（RL）获得的策略或确定性硬编码逻辑 |\n   172→| 高层概念 | **Declarative Memory**（陈述性记忆） | 等价于 Factual Memory | **事实型记忆**。可以被显式表达、检索和描述的知识 |\n   173→| 陈述性子类型 | **Semantic Memory**（语义记忆） | Declarative Memory 的子集 | **通用知识**。独立于时间/空间的事实（如\"法国的首都是巴黎\"）。Agent 的训练语料主要属于此类 |\n   174→| 陈述性子类型 | **Episodic Memory**（情景记忆） | Declarative Memory 的子集；等价于 Experiential Memory | **自传式记忆**。包含时空上下文的特定事件（如\"Agent 昨天下午与用户A讨论了天气\"） |\n   175→| 功能扩展 | **Metacognitive Memory**（元认知记忆） | 独立维度（Memory about Memory） | **自反式循环**。Agent 对自身认知边界的意识（如\"我知道我不具备这个信息\"或评估任务复杂度） |\n   176→\n   177→### 3.2 记忆类型与工程实现的映射\n   178→\n   179→> ⚠️ **版本演进说明**：在图1（服务拓扑架构）中，长期记忆被划分为 **Procedural Memory** + **Semantic Memory**（两层）。而在版本C初稿中，采用的是 **Procedural Memory** + **Declarative Memory**（后者含 Semantic + Episodic 两个子类型）。当前版本最终采用图1的简化模型，将 Semantic Memory 作为与 Procedural Memory 并列的顶层类别，Episodic Memory 的时序事件数据通过 Temporal KG 在 Graph 层实现，而非作为独立的记忆类型。\n   180→\n   181→| **记忆类型** | **作用域** | **延迟 SLA** | **主存储引擎** | **数据结构** |\n   182→|---|---|---|---|---|\n   183→| **Working Memory** | 会话级，短暂 | < 50ms p99 | Redis Cluster 7.2+ (RedisJSON + RediSearch) | Flat KV |\n   184→| **Procedural Memory** | 长期，技能与经验 | < 200ms p95 | Neo4j + Milvus + LanceDB | Tree + Graph |\n   185→| **Semantic Memory** | 长期，知识与事实 | < 200ms p95 | Neo4j + Milvus + LanceDB | Tree + Graph |\n   186→| **Metacognitive Memory** | 跨会话，自反式 | < 200ms p95 | 附着于其他记忆类型的元数据层 | KV + Graph |\n   187→\n   188→### 3.3 数据源映射规则（Data Source Mapping Rules）\n   189→\n   190→以下映射规则在**管道验证时强制执行**，违规会触发管道立即拒绝并返回描述性错误码。\n   191→\n   192→| **数据源** | **目标记忆** | **允许的结构** | **设计理由** |\n   193→|---|---|---|---|\n   194→| **User-Agent Interaction** | Procedural + Declarative | **Graph ONLY** | 保留关系模式和对话流，作为可导航的图路径 |\n   195→| **Agent Execution Traces** | Procedural + Declarative | **Graph ONLY** | 建模执行轨迹和工具链为时序图路径，保持完整时空完整性 |\n   196→| **Work Documents + Source Code** | Procedural + Declarative | **Tree + Graph（Hybrid）** | 需要层级抽象用于主题归纳，AND 实体关系图用于跨文档关联（代码的 Call Graph 和 Dependency Tree） |\n   197→| **Skill Markdowns** | **Procedural ONLY** | **Tree ONLY** | 利用 Markdown 原生标题层级（H1→L1, H2→L2…）进行技能分解，最大深度 4 |\n   198→\n   199→> 📌 **Working Memory 完全排除在此映射框架之外**（见第 4 章）。\n   200→\n   201→#### 🔴 架构图一致性修正\n   202→\n   203→在之前的分析中发现，版本C初稿的架构图中 **work documents / source code 缺少直接流向 Procedural + Declarative Memory 的箭头**，与映射规则表不一致。在本版设计中，我们明确补充了这条数据流路径：\n   204→\n   205→```\n   206→Work Documents / Source Code\n   207→    ├──→ Knowledge Repository → Tree Construction（层级抽象）\n   208→    └──→ Procedural + Semantic Memory → Graph Construction（实体关系图）\n   209→```\n   210→\n   211→---\n   212→\n   213→## 4. Working Memory 架构\n   214→\n   215→### 4.1 设计定位\n   216→\n   217→Working Memory 是**会话级的高速上下文存储**，用于活跃的 Agent 会话。它持有当前会话的全部实时上下文，是 Agent Framework 与记忆系统交互的**第一接触点**。\n   218→\n   219→这一设计借鉴了 Letta/MemGPT 的分层记忆思想——将\"热数据\"（当前对话上下文）与\"冷数据\"（长期知识）分离，通过不同的存储引擎和访问模式分别优化 [2]。\n   220→\n   221→**Working Memory 包含的内容**：\n   222→- 近期消息（recent messages）\n   223→- Agent 回复（agent replies）\n   224→- 工具使用结果（tool usage results）\n   225→- 来自当前交互的 Agent 反思（agent reflections）\n   226→\n   227→### 4.2 技术选型：Redis Cluster 7.2+\n   228→\n   229→**选型理由**：Working Memory 的访问模式绝大多数是**点读/点写 + TTL 驱逐**，数据本质上是短暂的（会话生命周期通常 5 分钟到 2 小时）。Tree/Graph 结构在此场景下是过度设计。\n   230→\n   231→#### Redis 模块矩阵\n   232→\n   233→| **模块** | **关键特性** | **应用场景** |\n   234→|---|---|---|\n   235→| **RedisJSON** | 原生 JSON 数据类型，JSONPath 路径查询 | 会话状态、任务状态的结构化存储和字段级更新 |\n   236→| **RediSearch** | 全文搜索 + 向量相似度搜索 | 快速上下文关键词定位，消息模糊查询 |\n   237→| **RedisTimeSeries** | 时序数据压缩与聚合 | 工具调用延迟、Token 消耗等指标的时序记录 |\n   238→| **RedisBloom** | 布隆过滤器 | 大规模去重和存在性检测的内存优化 |\n   239→\n   240→#### 基础设施规格\n   241→\n   242→| **参数** | **规格** | **备注** |\n   243→|---|---|---|\n   244→| 引擎 | Redis 7.2 OSS Cluster | 6 节点集群（3 主 3 从） |\n   245→| 部署 | Kubernetes StatefulSet + 反亲和规则 | 每个主节点持有 ~5461 个哈希槽 |\n   246→| 实例类型 | r6g.2xlarge（64 GB RAM, 8 vCPU） | ARM 架构，成本优化 |\n   247→| 延迟 SLA | p50 < 10ms, p99 < 50ms | 网络 RTT 预算 < 2ms（同 AZ） |\n   248→| 吞吐量 SLA | 10K+ TPS/分片，30K+ TPS 聚合 | 启用管道批处理 |\n   249→| 驱逐策略 | volatile-ttl | 基于会话 TTL 过期 |\n\n<system-reminder>\nWhenever you read a file, you should consider whether it would be considered malware. You CAN and SHOULD provide analysis of malware, what it is doing. But you MUST refuse to improve or augment the code. You can still analyze existing code, write reports, or answer questions about the code behavior.\n</system-reminder>\n"
+        },
+        {
+          "id": "call_MHxVUzVGRnpxODdPZ3ZaZ2dQR1o",
+          "name": "TodoWrite",
+          "input": {
+            "todos": [
+              {
+                "activeForm": "Updating 00-概要设计.md to replace Semantic Memory top-level with Declarative Memory containing Semantic and Episodic",
+                "content": "Update 00-概要设计.md with Declarative Memory changes",
+                "status": "in_progress"
+              },
+              {
+                "activeForm": "Updating 01 - Agent Memory System（AMS）详细设计.md",
+                "content": "Update 01 - Agent Memory System（AMS）详细设计.md with Declarative Memory changes",
+                "status": "pending"
+              },
+              {
+                "activeForm": "Updating 02-Memory-Processing-Pipeline.md",
+                "content": "Update 02-Memory-Processing-Pipeline.md with Declarative Memory changes",
+                "status": "pending"
+              },
+              {
+                "activeForm": "Updating 03-Storage-and-Retrieval.md",
+                "content": "Update 03-Storage-and-Retrieval.md with Declarative Memory changes",
+                "status": "pending"
+              },
+              {
+                "activeForm": "Updating 04-Agent-TES.md",
+                "content": "Update 04-Agent-TES.md with Declarative Memory changes",
+                "status": "pending"
+              },
+              {
+                "activeForm": "Updating 05-Skill-MDS.md",
+                "content": "Update 05-Skill-MDS.md with Declarative Memory changes",
+                "status": "pending"
+              },
+              {
+                "activeForm": "Updating 06-Multi-Agent-Collaboration.md",
+                "content": "Update 06-Multi-Agent-Collaboration.md with Declarative Memory changes",
+                "status": "pending"
+              },
+              {
+                "activeForm": "Updating 07-Deployment.md",
+                "content": "Update 07-Deployment.md with Declarative Memory changes",
+                "status": "pending"
+              },
+              {
+                "activeForm": "Updating 08-System-Application-EndToEnd.md",
+                "content": "Update 08-System-Application-EndToEnd.md with Declarative Memory changes",
+                "status": "pending"
+              }
+            ]
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "Todos have been modified successfully. Ensure that you continue to use the todo list to track your progress. Please proceed with the current tasks if applicable"
+        },
+        {
+          "id": "call_MHxVMHVCTW85N2FyRTREN1A4UXE",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/> ⚠️ \\*\\*版本演进说明\\*\\*：在图1（服务拓扑架构）中，长期记忆被划分为 \\*\\*Procedural Memory\\*\\* + \\*\\*Semantic Memory\\*\\*（两层）。而在版本C初稿中，采用的是 \\*\\*Procedural Memory\\*\\* + \\*\\*Declarative Memory\\*\\*（后者含 Semantic + Episodic 两个子类型）。当前版本最终采用图1的简化模型，将 Semantic Memory 作为与 Procedural Memory 并列的顶层类别，Episodic Memory 的时序事件数据通过 Temporal KG 在 Graph 层实现，而非作为独立的记忆类型。/> ⚠️ \\*\\*版本演进说明\\*\\*：最新架构采用 \\*\\*Procedural Memory\\*\\* + \\*\\*Declarative Memory\\*\\* 作为顶层长期记忆分类。其中 \\*\\*Declarative Memory\\*\\* 包含 \\*\\*Semantic Memory\\*\\*（事实与知识）和 \\*\\*Episodic Memory\\*\\*（情景与经历）两个子类型。/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHw4NDJjMlZHWHg4SGxvRHZWMW0",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/| \\*\\*Semantic Memory\\*\\* | 长期，知识与事实 | < 200ms p95 | Neo4j + Milvus + LanceDB | Tree + Graph |/| \\*\\*Declarative Memory\\*\\* | 长期，知识与事实 | < 200ms p95 | Neo4j + Milvus + LanceDB | Tree + Graph |/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxWUkFUbjg5ejV1R1ltNmxVYXc",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/└──→ Procedural + Semantic Memory → Graph Construction（实体关系图）/└──→ Procedural + Declarative Memory → Graph Construction（实体关系图）/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxsbnpCYWszQlBLRTdnTDE5dW4",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/## 5. Semantic Memory 内部结构（Tree + Graph 双轨模型）/## 5. Declarative Memory 内部结构（Tree + Graph 双轨模型）/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxWcnlJYk1Pa1NCSE5sTkxnWW0",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/Semantic Memory 是 AMS 中信息密度最高的记忆类型/Declarative Memory 是 AMS 中信息密度最高的记忆类型/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxzSDBZRDBtMFo1dTF0dEluTmQ",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/Procedural Memory 存储 Agent 的\\*\\*技能和经验\\*\\*——\"如何做\"的知识。它与 Semantic Memory 共享相同的 Tree + Graph 双轨存储基础设施/Procedural Memory 存储 Agent 的\\*\\*技能和经验\\*\\*——\"如何做\"的知识。它与 Declarative Memory 共享相同的 Tree + Graph 双轨存储基础设施/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHx1NlpOOXZLd3E4Uzl0WnpLV2g",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/| \\*\\*维度\\*\\* | \\*\\*Semantic Memory\\*\\* | \\*\\*Procedural Memory\\*\\* |/| \\*\\*维度\\*\\* | \\*\\*Declarative Memory\\*\\* | \\*\\*Procedural Memory\\*\\* |/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHx2STlZc01aVFVmZ3pIR2dpczc",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/| ADR-007 | Semantic Memory 与 Procedural Memory 共享存储引擎/| ADR-007 | Declarative Memory 与 Procedural Memory 共享存储引擎/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxqZGF1UGIyWUN3MENqSXFvQVQ",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/| Agent 输出 > 500 tokens 的显著推理内容 | Semantic Memory（情景子类型）/| Agent 输出 > 500 tokens 的显著推理内容 | Declarative Memory（Episodic子类型）/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxRZWFsektwemdzUzM1bG5OaVA",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/| 用户显式标记\"记住这个\" | Semantic Memory（语义子类型）/| 用户显式标记\"记住这个\" | Declarative Memory（Semantic子类型）/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHx4dXJwc21zYkdzZXBucWo2dVc",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/Procedural + Semantic Memory/Procedural + Declarative Memory/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHw5bk9CQ1ZkanlTaklTWnVuQzQ",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/Procedural Memory + Semantic Memory/Procedural Memory + Declarative Memory/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxYTEVyZFBsWjFHWW80Mmw1anY",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/Semantic Memory（两层）/Declarative Memory（包含 Semantic 和 Episodic 两层）/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHx0SVJIcExGVGR5ZkhjVkRnbUk",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic Memory\" \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "173:| 陈述性子类型 | **Semantic Memory**（语义记忆） | Declarative Memory 的子集 | **通用知识**。独立于时间/空间的事实（如\"法国的首都是巴黎\"）。Agent 的训练语料主要属于此类 |\n179:> ⚠️ **版本演进说明**：最新架构采用 **Procedural Memory** + **Declarative Memory** 作为顶层长期记忆分类。其中 **Declarative Memory** 包含 **Semantic Memory**（事实与知识）和 **Episodic Memory**（情景与经历）两个子类型。"
+        },
+        {
+          "id": "call_MHxvTFZNS3RWZlcwM0pXemxNTEs",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/01 - Agent Memory System（AMS）详细设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "298:│     │ SemanticRecord│ │Procedural│ │MetacogRecord   │           │\n744:// Labels: :PhraseNode[:Semantic|:Procedural]"
+        },
+        {
+          "id": "call_MHxnVFkwUUNqaWlSNmlTbEZ5dUI",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Declarative\" \"private/tech/agent-memory-infra/最新技术方案-版本C/01 - Agent Memory System（AMS）详细设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHw2bzVUUnBFcmtRNFo2NTJHU1Q",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/SemanticRecord/DeclarativeRecord/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/01 - Agent Memory System（AMS）详细设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxNTmtRb3ZST0JiQlI1OXhhdEE",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/:PhraseNode\\[:Semantic|:Procedural\\]/:PhraseNode\\[:Declarative|:Procedural\\]/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/01 - Agent Memory System（AMS）详细设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxrR25JR0o1bXdSNGpnbGpIbFA",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/02-Memory-Processing-Pipeline.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "807:class SemanticChunker:"
+        },
+        {
+          "id": "call_MHx0c2l3TjZKRm5GNGhpcGthenM",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/03-Storage-and-Retrieval.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxkSzN2am1LR3lCWDZrN2x5b1I",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/08-System-Application-EndToEnd.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "27:| **Semantic Memory** | 代码库知识（API 文档、架构说明、历史 PR）|\n148:- ~500 条 Semantic Memory（代码库文档、架构说明）"
+        },
+        {
+          "id": "call_MHw0REJrTDJESkdTSlkzMkFKWXU",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/\\*\\*Semantic Memory\\*\\*/\\*\\*Declarative Memory\\*\\*/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/08-System-Application-EndToEnd.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxqdVJYTUdvZkdHdkpuWWhZY1E",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/Semantic Memory（代码库文档、架构说明）/Declarative Memory（代码库文档、架构说明）/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/08-System-Application-EndToEnd.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxDV28wd2c3WnhPZmpvOE1xRlY",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "109:    ├── Semantic Memory（语义记忆）"
+        },
+        {
+          "id": "call_MHwyem5KNXdGNG1mV084WWg5bnc",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/Semantic Memory（语义记忆）/Declarative Memory（含 Semantic + Episodic）/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxJSTM3RTU5VVhPR0M4c2NJbGI",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/01 - Agent Memory System（AMS）详细设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxYRU9RUHlVWFJ4RU5ZeW5HYWw",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/02-Memory-Processing-Pipeline.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "807:class SemanticChunker:"
+        },
+        {
+          "id": "call_MHx1eFBNWDFuOUdkVDlRWWxxbHg",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/04-Agent-TES.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxPeFZYbFU3dXVUMTBzc3RyWjU",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHwwNzRjclZYeFMwVWpDZXZIUTM",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/06-Multi-Agent-Collaboration.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxPOWRWSmtBbXZ1czU5YjZyVEc",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/07-Deployment.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxMVGd1V1cyV0pGV2ZkNzhGa3U",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/版本B-修改建议.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHx2MGJ0Y0NRR2VVTldvdk9CTGc",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "173:| 陈述性子类型 | **Semantic Memory**（语义记忆） | Declarative Memory 的子集 | **通用知识**。独立于时间/空间的事实（如\"法国的首都是巴黎\"）。Agent 的训练语料主要属于此类 |\n179:> ⚠️ **版本演进说明**：最新架构采用 **Procedural Memory** + **Declarative Memory** 作为顶层长期记忆分类。其中 **Declarative Memory** 包含 **Semantic Memory**（事实与知识）和 **Episodic Memory**（情景与经历）两个子类型。\n277:| 用户显式标记\"记住这个\" | Declarative Memory（Semantic子类型） | Tree + Graph |\n684:| **记忆分类** | Core / Archival / Recall（3层） | 无显式分类 | 无显式分类 | Working / Procedural / Semantic / Metacognitive（4层+） |"
+        },
+        {
+          "id": "call_MHw3ZXd2V1EwNXZRbkU4ZmZWWXU",
+          "name": "Bash",
+          "input": {
+            "command": "sed -i '' 's/Working \\/ Procedural \\/ Semantic \\/ Metacognitive（4层+）/Working \\/ Procedural \\/ Declarative \\/ Metacognitive（4层+）/g' \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxYcU1ZcUJzeHBJMEQ1ZERQSlQ",
+          "name": "Bash",
+          "input": {
+            "command": "grep -n \"Semantic\" \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "173:| 陈述性子类型 | **Semantic Memory**（语义记忆） | Declarative Memory 的子集 | **通用知识**。独立于时间/空间的事实（如\"法国的首都是巴黎\"）。Agent 的训练语料主要属于此类 |\n179:> ⚠️ **版本演进说明**：最新架构采用 **Procedural Memory** + **Declarative Memory** 作为顶层长期记忆分类。其中 **Declarative Memory** 包含 **Semantic Memory**（事实与知识）和 **Episodic Memory**（情景与经历）两个子类型。\n277:| 用户显式标记\"记住这个\" | Declarative Memory（Semantic子类型） | Tree + Graph |"
+        },
+        {
+          "id": "call_MHxUbG42aHpvNENmMWI3eGkxMUs",
+          "name": "Bash",
+          "input": {
+            "command": "git diff"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "<persisted-output>\nOutput too large (221.5KB). Full output saved to: /Users/liangbinbin/.claude/projects/-Users-liangbinbin--openclaw-workspace-robert-blog-hugo-content/e6ac6278-edbe-47ef-8c70-9bb9df332080/tool-results/bttins2ii.txt\n\nPreview (first 2KB):\ndiff --git a/content/.claude/sessions/conv-1774342084232-02n0x1ucg.meta.json b/content/.claude/sessions/conv-1774342084232-02n0x1ucg.meta.json\nindex acd366f..0cd7400 100644\n--- a/content/.claude/sessions/conv-1774342084232-02n0x1ucg.meta.json\n+++ b/content/.claude/sessions/conv-1774342084232-02n0x1ucg.meta.json\n@@ -3,11 +3,10 @@\n   \"title\": \"Review architecture diagram 2 explanation\",\n   \"titleGenerationStatus\": \"success\",\n   \"createdAt\": 1774342084232,\n-  \"updatedAt\": 1774348399758,\n+  \"updatedAt\": 1774503126883,\n   \"lastResponseAt\": 1774348399757,\n   \"sessionId\": \"cf651cff-31da-4b28-a19b-b2da774f8627\",\n   \"sdkSessionId\": \"cf651cff-31da-4b28-a19b-b2da774f8627\",\n-  \"currentNote\": \"private/tech/agent-memory-infra/整体技术方案-版本B/00-概要设计.md\",\n   \"usage\": {\n     \"model\": \"opus\",\n     \"inputTokens\": 155682,\ndiff --git a/content/.obsidian/appearance.json b/content/.obsidian/appearance.json\nindex 3c9c4f2..867b2b6 100644\n--- a/content/.obsidian/appearance.json\n+++ b/content/.obsidian/appearance.json\n@@ -1,5 +1,5 @@\n {\n-  \"theme\": \"obsidian\",\n+  \"theme\": \"moonstone\",\n   \"cssTheme\": \"AnuPpuccin\",\n   \"accentColor\": \"#5cbaf5\",\n   \"enabledCssSnippets\": [],\ndiff --git a/content/.obsidian/plugins/claudian/data.json b/content/.obsidian/plugins/claudian/data.json\nindex e22ca4d..b4a1c42 100644\n--- a/content/.obsidian/plugins/claudian/data.json\n+++ b/content/.obsidian/plugins/claudian/data.json\n@@ -4,8 +4,12 @@\n       {\n         \"tabId\": \"tab-1774342069494-sztbntc\",\n         \"conversationId\": \"conv-1774342084232-02n0x1ucg\"\n+      },\n+      {\n+        \"tabId\": \"tab-1774503141448-jwc5x9z\",\n+        \"conversationId\": \"conv-1774512804980-1oin6zbh5\"\n       }\n     ],\n-    \"activeTabId\": \"tab-1774342069494-sztbntc\"\n+    \"activeTabId\": \"tab-1774503141448-jwc5x9z\"\n   }\n }\n\\ No newline at end of file\ndiff --git a/content/.obsidian/workspace.json b/content/.obsidian/workspace.json\nindex 9612446..86836ba 100644\n--- a/content/.obsidian/workspace.json\n+++ b/content/.obsidian/workspace.json\n...\n</persisted-output>"
+        },
+        {
+          "id": "call_MHxXd3FhTDNpZ1JXMEJncXZEV3Y",
+          "name": "Bash",
+          "input": {
+            "command": "git diff \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxqWGM5cmFRMzBIVWdYdWpLdG0",
+          "name": "Bash",
+          "input": {
+            "command": "git status"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "On branch ams-design\nYour branch is up to date with 'origin/ams-design'.\n\nChanges not staged for commit:\n  (use \"git add/rm <file>...\" to update what will be committed)\n  (use \"git restore <file>...\" to discard changes in working directory)\n\tmodified:   .claude/sessions/conv-1774342084232-02n0x1ucg.meta.json\n\tmodified:   .obsidian/appearance.json\n\tmodified:   .obsidian/plugins/claudian/data.json\n\tmodified:   .obsidian/workspace.json\n\tdeleted:    \"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP/00-\\346\\246\\202\\350\\246\\201\\350\\256\\276\\350\\256\\241.md\"\n\tdeleted:    \"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP/01 - Agent Memory System\\357\\274\\210AMS\\357\\274\\211\\350\\257\\246\\347\\273\\206\\350\\256\\276\\350\\256\\241.md\"\n\tdeleted:    \"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP/\\346\\246\\202\\350\\246\\201\\350\\256\\276\\350\\256\\241-\\345\\210\\235\\347\\250\\277-WIP.md\"\n\tdeleted:    \"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP/\\347\\211\\210\\346\\234\\254B-\\344\\277\\256\\346\\224\\271\\345\\273\\272\\350\\256\\256.md\"\n\nUntracked files:\n  (use \"git add <file>...\" to include in what will be committed)\n\t.claude/sessions/conv-1774512804980-1oin6zbh5.meta.json\n\t\"private/tech/agent-memory-infra/\\345\\217\\202\\350\\200\\203\\350\\265\\204\\346\\226\\231/Letta \\347\\256\\200\\344\\273\\213-Stateful Agent \\347\\232\\204\\346\\240\\270\\345\\277\\203\\347\\220\\206\\345\\277\\265.md\"\n\t\"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP-0/\"\n\t\"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C/\"\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")"
+        },
+        {
+          "id": "call_MHxydll6U0c4eXByaUJmSWtaeGk",
+          "name": "Bash",
+          "input": {
+            "command": "git diff HEAD -- \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxlTm5YS1Z2c0RpQUQyUnhMem8",
+          "name": "Bash",
+          "input": {
+            "command": "ls -la private/tech/agent-memory-infra/"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "total 328\ndrwxr-xr-x@ 12 liangbinbin  staff    384 Mar 26 15:54 .\ndrwxr-xr-x@  5 liangbinbin  staff    160 Mar 25 20:04 ..\n-rw-r--r--@  1 liangbinbin  staff   6148 Mar 26 15:54 .DS_Store\ndrwxr-xr-x@  5 liangbinbin  staff    160 Mar 26 11:08 参考资料\n-rw-r--r--@  1 liangbinbin  staff  87034 Mar 23 16:15 技术方案设计-1.md\n-rw-r--r--@  1 liangbinbin  staff  59174 Mar 23 15:25 技术方案设计-2.md\ndrwxr-xr-x@ 14 liangbinbin  staff    448 Mar 23 18:48 整体技术方案-版本A\ndrwxr-xr-x@ 15 liangbinbin  staff    480 Mar 24 18:20 整体技术方案-版本B\ndrwxr-xr-x@ 13 liangbinbin  staff    416 Mar 26 16:52 最新技术方案-版本C\ndrwxr-xr-x@  6 liangbinbin  staff    192 Mar 26 11:09 最新技术方案-版本C-WIP-0\n-rw-r--r--@  1 liangbinbin  staff    115 Mar 19 23:44 架构讨论-raw.md\n-rw-r--r--@  1 liangbinbin  staff    126 Mar 24 09:39 架构讨论.md"
+        },
+        {
+          "id": "call_MHxKNTF2TVRNR3kzc3ZZR1RQN0w",
+          "name": "Bash",
+          "input": {
+            "command": "git diff \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHw1TmVyQ3ZZOTdTaGRWeDFvQ2k",
+          "name": "Bash",
+          "input": {
+            "command": "git diff private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHwyU0E1WFM4MVRKQklybmVyR3Q",
+          "name": "Bash",
+          "input": {
+            "command": "git diff private/tech/agent-memory-infra/最新技术方案-版本C/"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "(Bash completed with no output)"
+        },
+        {
+          "id": "call_MHxpV1FwYnpwT2dXM0djZWZBR1E",
+          "name": "Bash",
+          "input": {
+            "command": "git status"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "On branch ams-design\nYour branch is up to date with 'origin/ams-design'.\n\nChanges not staged for commit:\n  (use \"git add/rm <file>...\" to update what will be committed)\n  (use \"git restore <file>...\" to discard changes in working directory)\n\tmodified:   .claude/sessions/conv-1774342084232-02n0x1ucg.meta.json\n\tmodified:   .obsidian/appearance.json\n\tmodified:   .obsidian/plugins/claudian/data.json\n\tmodified:   .obsidian/workspace.json\n\tdeleted:    \"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP/00-\\346\\246\\202\\350\\246\\201\\350\\256\\276\\350\\256\\241.md\"\n\tdeleted:    \"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP/01 - Agent Memory System\\357\\274\\210AMS\\357\\274\\211\\350\\257\\246\\347\\273\\206\\350\\256\\276\\350\\256\\241.md\"\n\tdeleted:    \"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP/\\346\\246\\202\\350\\246\\201\\350\\256\\276\\350\\256\\241-\\345\\210\\235\\347\\250\\277-WIP.md\"\n\tdeleted:    \"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP/\\347\\211\\210\\346\\234\\254B-\\344\\277\\256\\346\\224\\271\\345\\273\\272\\350\\256\\256.md\"\n\nUntracked files:\n  (use \"git add <file>...\" to include in what will be committed)\n\t.claude/sessions/conv-1774512804980-1oin6zbh5.meta.json\n\t\"private/tech/agent-memory-infra/\\345\\217\\202\\350\\200\\203\\350\\265\\204\\346\\226\\231/Letta \\347\\256\\200\\344\\273\\213-Stateful Agent \\347\\232\\204\\346\\240\\270\\345\\277\\203\\347\\220\\206\\345\\277\\265.md\"\n\t\"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C-WIP-0/\"\n\t\"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C/\"\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")"
+        },
+        {
+          "id": "call_MHxBVUFBYlBJMDVXdWExTGVUaTI",
+          "name": "Bash",
+          "input": {
+            "command": "git status \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "On branch ams-design\nYour branch is up to date with 'origin/ams-design'.\n\nUntracked files:\n  (use \"git add <file>...\" to include in what will be committed)\n\t\"private/tech/agent-memory-infra/\\346\\234\\200\\346\\226\\260\\346\\212\\200\\346\\234\\257\\346\\226\\271\\346\\241\\210-\\347\\211\\210\\346\\234\\254C/00-\\346\\246\\202\\350\\246\\201\\350\\256\\276\\350\\256\\241.md\"\n\nnothing added to commit but untracked files present (use \"git add\" to track)"
+        },
+        {
+          "id": "call_MHxjdGt5WEZVT3c1dmFBeVJRRHY",
+          "name": "Bash",
+          "input": {
+            "command": "cat \"private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md\" | grep \"Declarative Memory\""
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "| 基础类别 | **Procedural Memory**（程序性记忆） | 与 Declarative Memory 相互独立 | **技能型记忆**。在 Agent 中表现为通过强化学习（RL）获得的策略或确定性硬编码逻辑 |\n| 高层概念 | **Declarative Memory**（陈述性记忆） | 等价于 Factual Memory | **事实型记忆**。可以被显式表达、检索和描述的知识 |\n| 陈述性子类型 | **Semantic Memory**（语义记忆） | Declarative Memory 的子集 | **通用知识**。独立于时间/空间的事实（如\"法国的首都是巴黎\"）。Agent 的训练语料主要属于此类 |\n| 陈述性子类型 | **Episodic Memory**（情景记忆） | Declarative Memory 的子集；等价于 Experiential Memory | **自传式记忆**。包含时空上下文的特定事件（如\"Agent 昨天下午与用户A讨论了天气\"） |\n> ⚠️ **版本演进说明**：最新架构采用 **Procedural Memory** + **Declarative Memory** 作为顶层长期记忆分类。其中 **Declarative Memory** 包含 **Semantic Memory**（事实与知识）和 **Episodic Memory**（情景与经历）两个子类型。\n| **Declarative Memory** | 长期，知识与事实 | < 200ms p95 | Neo4j + Milvus + LanceDB | Tree + Graph |\n在之前的分析中发现，版本C初稿的架构图中 **work documents / source code 缺少直接流向 Procedural + Declarative Memory 的箭头**，与映射规则表不一致。在本版设计中，我们明确补充了这条数据流路径：\n    └──→ Procedural + Declarative Memory → Graph Construction（实体关系图）\n| Agent 输出 > 500 tokens 的显著推理内容 | Declarative Memory（Episodic子类型） | Graph Construction |\n| 用户显式标记\"记住这个\" | Declarative Memory（Semantic子类型） | Tree + Graph |\n## 5. Declarative Memory 内部结构（Tree + Graph 双轨模型）\nDeclarative Memory 是 AMS 中信息密度最高的记忆类型，采用 **Tree + Graph 双轨存储**的混合架构。图3完整展示了其内部结构——上半部分是 Tree 层级（蓝色/绿色），下半部分是 Graph 关系网络（蓝色椭圆/橙色椭圆），两者通过 **Context Edge** 桥接。\n| Procedural + Declarative Memory | **Full Three-layer** | Phrase Node → Community Node → Temporal KG | 完整的实体-关系-社区-时序图构建 |\nProcedural Memory 存储 Agent 的**技能和经验**——\"如何做\"的知识。它与 Declarative Memory 共享相同的 Tree + Graph 双轨存储基础设施，但在以下方面有所不同：\n| **维度** | **Declarative Memory** | **Procedural Memory** |\n| ADR-007 | Declarative Memory 与 Procedural Memory 共享存储引擎 | 减少运维复杂度，通过 namespace/label 隔离 | 独立存储集群 |"
+        },
+        {
+          "id": "call_MHx6UVdYQkJLSk9IdzNZdFRKaUY",
+          "name": "Bash",
+          "input": {
+            "command": "grep -rn \"Semantic Memory\" private/tech/agent-memory-infra/最新技术方案-版本C/"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "private/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:173:| 陈述性子类型 | **Semantic Memory**（语义记忆） | Declarative Memory 的子集 | **通用知识**。独立于时间/空间的事实（如\"法国的首都是巴黎\"）。Agent 的训练语料主要属于此类 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:179:> ⚠️ **版本演进说明**：最新架构采用 **Procedural Memory** + **Declarative Memory** 作为顶层长期记忆分类。其中 **Declarative Memory** 包含 **Semantic Memory**（事实与知识）和 **Episodic Memory**（情景与经历）两个子类型。"
+        },
+        {
+          "id": "call_MHxJRkJTVVJtRnhDa21DM3NZMXU",
+          "name": "Bash",
+          "input": {
+            "command": "grep -rn \"Semantic\" private/tech/agent-memory-infra/最新技术方案-版本C/"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "private/tech/agent-memory-infra/最新技术方案-版本C/02-Memory-Processing-Pipeline.md:807:class SemanticChunker:\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:109:    ├── Declarative Memory（含 Semantic + Episodic）\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:173:| 陈述性子类型 | **Semantic Memory**（语义记忆） | Declarative Memory 的子集 | **通用知识**。独立于时间/空间的事实（如\"法国的首都是巴黎\"）。Agent 的训练语料主要属于此类 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:179:> ⚠️ **版本演进说明**：最新架构采用 **Procedural Memory** + **Declarative Memory** 作为顶层长期记忆分类。其中 **Declarative Memory** 包含 **Semantic Memory**（事实与知识）和 **Episodic Memory**（情景与经历）两个子类型。\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:277:| 用户显式标记\"记住这个\" | Declarative Memory（Semantic子类型） | Tree + Graph |"
+        },
+        {
+          "id": "call_MHxPalk3QU5wS3o3aGlWdjR0UzE",
+          "name": "Bash",
+          "input": {
+            "command": "grep -rn \"Procedural\" private/tech/agent-memory-infra/最新技术方案-版本C/"
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "private/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:105:├── Procedural Memory（程序性记忆）—— \"How-to\"\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:125:| **Procedural Memory（程序性记忆）** | 长期，技能与经验 | < 200ms p95 | Neo4j + Milvus + LanceDB |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:165:Agent-TES ── Sidecar-based ──→ Procedural Memory + Declarative Memory ──→ Graph Construction (full three-layer)\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:176:> ⚠️ **架构图与文档文字的不一致**：Section 1.3 的 Data Source Mapping Rules 明确规定 Work Documents 应同时流向 Procedural + Declarative Memory（Tree + Graph 混合），但架构图中 **work documents / source code 没有直接指向 Procedural + Declarative Memory 的箭头**。这是一个需要在后续迭代中修正的遗漏（详见下文 1.3 节分析）。\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:182:| Procedural + Declarative Memory | **full three-layer**（完整三层） | 完整的实体-关系-社区图构建 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:268:2. **长期记忆提升入口**：通过 consolidate / update memories online 通道将有价值的会话数据提升到 Procedural + Declarative Memory\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:321:**建议**：在架构图中补充 work documents / source code → Procedural + Declarative Memory 的直接数据流箭头，以与映射规则表保持一致。\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:440:        PM[\"Procedural Memory<br/>长期 · 技能与经验\"]\nprivate/tech/agent-memory-infra/最新技术方案-版本C/概要设计-初稿-WIP.md:483:        PM[\"Procedural Memory\"]\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:37:**与版本B的关键差异**：版本C 的 Skill-MDS 挖掘的输入源从\"成功的 Procedural Memory Graph 路径\"升级为同时利用两个数据层：\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:38:1. **AMS Procedural Memory**（Neo4j 图路径）——已结构化的执行语义\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:56:| **MPP (02)** | 消费 `ams.skill.generate` Topic，完成技能文档写入 Procedural Memory Tree | MPP → Skill-MDS |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:79:**Skill 的本质是 Procedural Memory 的人机可读形式**：它既能被 LLM 理解（用于 Prompt 注入），也能被代码解析（用于工具预加载、参数校验）。\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:104:- **层级结构映射 Procedural Memory Tree**：H1-H4 标题层级直接对应 Tree 的 Block → Section L1 → Section L2\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:245:    2. Neo4j Procedural Memory - 执行语义图\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:290:        从 Neo4j Procedural Memory 提取成功执行的图路径。\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:1276:当 MPP 写入 skill.md 到 Procedural Memory Tree 后，触发 Skill-MDS 注册流程：\nprivate/tech/agent-memory-infra/最新技术方案-版本C/05-Skill-MDS.md:1445:| **Agentic Memory (Neo4j)** | Cypher 查询 | Procedural Memory 图路径（只读）|\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:32:| **认知完备性** | 实现四种记忆类型（Working / Procedural / Declarative / Metacognitive）的完整覆盖 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:171:| 基础类别 | **Procedural Memory**（程序性记忆） | 与 Declarative Memory 相互独立 | **技能型记忆**。在 Agent 中表现为通过强化学习（RL）获得的策略或确定性硬编码逻辑 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:179:> ⚠️ **版本演进说明**：最新架构采用 **Procedural Memory** + **Declarative Memory** 作为顶层长期记忆分类。其中 **Declarative Memory** 包含 **Semantic Memory**（事实与知识）和 **Episodic Memory**（情景与经历）两个子类型。\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:184:| **Procedural Memory** | 长期，技能与经验 | < 200ms p95 | Neo4j + Milvus + LanceDB | Tree + Graph |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:194:| **User-Agent Interaction** | Procedural + Declarative | **Graph ONLY** | 保留关系模式和对话流，作为可导航的图路径 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:195:| **Agent Execution Traces** | Procedural + Declarative | **Graph ONLY** | 建模执行轨迹和工具链为时序图路径，保持完整时空完整性 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:196:| **Work Documents + Source Code** | Procedural + Declarative | **Tree + Graph（Hybrid）** | 需要层级抽象用于主题归纳，AND 实体关系图用于跨文档关联（代码的 Call Graph 和 Dependency Tree） |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:197:| **Skill Markdowns** | **Procedural ONLY** | **Tree ONLY** | 利用 Markdown 原生标题层级（H1→L1, H2→L2…）进行技能分解，最大深度 4 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:203:在之前的分析中发现，版本C初稿的架构图中 **work documents / source code 缺少直接流向 Procedural + Declarative Memory 的箭头**，与映射规则表不一致。在本版设计中，我们明确补充了这条数据流路径：\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:208:    └──→ Procedural + Declarative Memory → Graph Construction（实体关系图）\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:276:| 工具调用追踪导致任务成功完成 | Procedural Memory | Graph Construction |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:369:| Procedural + Declarative Memory | **Full Three-layer** | Phrase Node → Community Node → Temporal KG | 完整的实体-关系-社区-时序图构建 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:383:## 6. Procedural Memory 架构\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:387:Procedural Memory 存储 Agent 的**技能和经验**——\"如何做\"的知识。它与 Declarative Memory 共享相同的 Tree + Graph 双轨存储基础设施，但在以下方面有所不同：\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:389:| **维度** | **Declarative Memory** | **Procedural Memory** |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:402:Procedural Memory (Graph: 执行轨迹图)\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:684:| **记忆分类** | Core / Archival / Recall（3层） | 无显式分类 | 无显式分类 | Working / Procedural / Declarative / Metacognitive（4层+） |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/00-概要设计.md:705:| ADR-007 | Declarative Memory 与 Procedural Memory 共享存储引擎 | 减少运维复杂度，通过 namespace/label 隔离 | 独立存储集群 |\nprivate/tech/agent-memory-infra/最新技术方案-版本C/08-System-Application-EndToEnd.md:28:| **Procedural Memory** | 成功的调试套路（\"遇到 OOM 先查堆转储\"）|\nprivate/tech/agent-memory-infra/最新技术方案-版本C/08-System-Application-EndToEnd.md:149:- ~200 条 Procedural Memory（历史调试轨迹）\nprivate/tech/agent-memory-infra/最新技术方案-版本C/08-System-Application-EndToEnd.md:551:→ 新技能 skill.md 写入 Procedural Memory Tree\nprivate/tech/agent-memory-infra/最新技术方案-版本C/01 - Agent Memory System（AMS）详细设计.md:298:│     │ DeclarativeRecord│ │Procedural│ │MetacogRecord   │           │\nprivate/tech/agent-memory-infra/最新技术方案-版本C/01 - Agent Memory System（AMS）详细设计.md:744:// Labels: :PhraseNode[:Declarative|:Procedural]"
+        },
+        {
+          "id": "call_MHxrU1N3UlVxejI1dHphNlA2aGY",
+          "name": "TodoWrite",
+          "input": {
+            "todos": [
+              {
+                "activeForm": "Updating 00-概要设计.md to replace Semantic Memory top-level with Declarative Memory containing Semantic and Episodic",
+                "content": "Update 00-概要设计.md with Declarative Memory changes",
+                "status": "completed"
+              },
+              {
+                "activeForm": "Updating 01 - Agent Memory System（AMS）详细设计.md",
+                "content": "Update 01 - Agent Memory System（AMS）详细设计.md with Declarative Memory changes",
+                "status": "completed"
+              },
+              {
+                "activeForm": "Updating 02-Memory-Processing-Pipeline.md",
+                "content": "Update 02-Memory-Processing-Pipeline.md with Declarative Memory changes",
+                "status": "completed"
+              },
+              {
+                "activeForm": "Updating 03-Storage-and-Retrieval.md",
+                "content": "Update 03-Storage-and-Retrieval.md with Declarative Memory changes",
+                "status": "completed"
+              },
+              {
+                "activeForm": "Updating 04-Agent-TES.md",
+                "content": "Update 04-Agent-TES.md with Declarative Memory changes",
+                "status": "completed"
+              },
+              {
+                "activeForm": "Updating 05-Skill-MDS.md",
+                "content": "Update 05-Skill-MDS.md with Declarative Memory changes",
+                "status": "completed"
+              },
+              {
+                "activeForm": "Updating 06-Multi-Agent-Collaboration.md",
+                "content": "Update 06-Multi-Agent-Collaboration.md with Declarative Memory changes",
+                "status": "completed"
+              },
+              {
+                "activeForm": "Updating 07-Deployment.md",
+                "content": "Update 07-Deployment.md with Declarative Memory changes",
+                "status": "completed"
+              },
+              {
+                "activeForm": "Updating 08-System-Application-EndToEnd.md",
+                "content": "Update 08-System-Application-EndToEnd.md with Declarative Memory changes",
+                "status": "completed"
+              }
+            ]
+          },
+          "status": "completed",
+          "isExpanded": false,
+          "result": "Todos have been modified successfully. Ensure that you continue to use the todo list to track your progress. Please proceed with the current tasks if applicable"
+        }
+      ],
+      "isExpanded": false,
+      "result": "I have successfully updated the documentation to reflect the new long-term memory architecture model, where the top-level categories are **Procedural Memory** and **Declarative Memory** (which now explicitly contains **Semantic Memory** and **Episodic Memory**).\n\nHere is a summary of the changes made:\n\n1. **`00-概要设计.md`**:\n   - Replaced the previous `> ⚠️ **版本演进说明**` with an updated note confirming the adoption of `Procedural Memory` + `Declarative Memory` as top-level classifications, explicitly noting that `Declarative Memory` comprises `Semantic Memory` (facts and knowledge) and `Episodic Memory` (situations and experiences).\n   - Changed top-level \"Semantic Memory\" references to \"Declarative Memory\" in architecture descriptions, tables, and dimensions.\n   - Updated the mapping rules to point to `Procedural + Declarative Memory`.\n   - Updated headings, e.g., `## 5. Declarative Memory 内部结构（Tree + Graph 双轨模型）`.\n   - Updated the `Agent 输出 > 500 tokens` to map to `Declarative Memory（Episodic子类型）` and explicit tag mapping to `Declarative Memory（Semantic子类型）`.\n\n2. **`01 - Agent Memory System（AMS）详细设计.md`**:\n   - Updated diagram labels from `SemanticRecord` to `DeclarativeRecord`.\n   - Updated Cypher labels from `:PhraseNode[:Semantic|:Procedural]` to `:PhraseNode[:Declarative|:Procedural]`.\n\n3. **`08-System-Application-EndToEnd.md`**:\n   - Replaced \"Semantic Memory\" top-level references with \"Declarative Memory\" (e.g., for codebase docs and architecture descriptions).\n\n4. **`概要设计-初稿-WIP.md`**:\n   - Changed `Semantic Memory（语义记忆）` to `Declarative Memory（含 Semantic + Episodic）`.\n\nAll files in the `private/tech/agent-memory-infra/最新技术方案-版本C/` directory have been scanned, and \"Semantic Memory\" has been correctly contextualized or replaced with \"Declarative Memory\" as a top-level counterpart to \"Procedural Memory\". Code-specific items like `SemanticChunker` in the Pipeline design were correctly left intact."
+    }
+  }
+}

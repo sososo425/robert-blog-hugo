@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775103974244-rssxgbcvg",
+  "title": "根据 @tech/agent-mem-papers/0-agent-memory-overview",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775103974244,
+  "updatedAt": 1775119030561,
+  "lastResponseAt": 1775118689058,
+  "sessionId": "32ac93d3-921f-4a0d-bf6b-9d7763d41595",
+  "sdkSessionId": "32ac93d3-921f-4a0d-bf6b-9d7763d41595",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/Group3-记忆构建模块-详细方案设计-评审版.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

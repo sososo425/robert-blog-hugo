@@ -1,0 +1,1019 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "Hugging Face's logo" [ref=e8]
+            - generic [ref=e9]: Hugging Face
+          - generic [ref=e10]:
+            - textbox "Search models, datasets, users..." [ref=e11]
+            - img [ref=e12]
+        - navigation "Main" [ref=e14]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Models" [ref=e17] [cursor=pointer]:
+                - /url: /models
+                - img [ref=e18]
+                - text: Models
+            - listitem [ref=e22]:
+              - link "Datasets" [ref=e23] [cursor=pointer]:
+                - /url: /datasets
+                - img [ref=e24]
+                - text: Datasets
+            - listitem [ref=e29]:
+              - link "Spaces" [ref=e30] [cursor=pointer]:
+                - /url: /spaces
+                - img [ref=e31]
+                - text: Spaces
+            - listitem [ref=e35]:
+              - link "Docs" [ref=e36] [cursor=pointer]:
+                - /url: /docs
+                - img [ref=e37]
+                - text: Docs
+            - listitem [ref=e41]:
+              - link "Pricing" [ref=e42] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e43]:
+              - button [ref=e45] [cursor=pointer]:
+                - img [ref=e46]
+            - listitem [ref=e51]:
+              - separator [ref=e52]
+            - listitem [ref=e53]:
+              - link "Log In" [ref=e54] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=e55]:
+              - link "Sign Up" [ref=e56] [cursor=pointer]:
+                - /url: /join
+    - main [ref=e57]:
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - button "Main" [ref=e64] [cursor=pointer]
+            - listitem [ref=e65]:
+              - button "Tasks" [ref=e66] [cursor=pointer]
+            - listitem [ref=e67]:
+              - button "Libraries" [ref=e68] [cursor=pointer]
+            - listitem [ref=e69]:
+              - button "Languages" [ref=e70] [cursor=pointer]
+            - listitem [ref=e71]:
+              - button "Licenses" [ref=e72] [cursor=pointer]
+            - listitem [ref=e73]:
+              - button "Other 1" [ref=e74] [cursor=pointer]:
+                - text: Other
+                - generic [ref=e75]: "1"
+          - generic [ref=e76]:
+            - generic [ref=e78]: Apps
+            - generic [ref=e80]:
+              - link "llama.cpp" [ref=e81] [cursor=pointer]:
+                - /url: /models?other=llama.cpp
+                - generic [ref=e82]:
+                  - img [ref=e83]
+                  - generic [ref=e85]: llama.cpp
+              - link "LM Studio" [ref=e86] [cursor=pointer]:
+                - /url: /models?other=lmstudio
+                - generic [ref=e87]:
+                  - img [ref=e88]
+                  - generic [ref=e94]: LM Studio
+              - link "Jan" [ref=e95] [cursor=pointer]:
+                - /url: /models?other=jan
+                - generic [ref=e96]:
+                  - img [ref=e97]
+                  - generic [ref=e102]: Jan
+              - link "Draw Things" [ref=e103] [cursor=pointer]:
+                - /url: /models?other=drawthings
+                - generic [ref=e104]:
+                  - img [ref=e105]
+                  - generic [ref=e107]: Draw Things
+              - link "DiffusionBee" [ref=e108] [cursor=pointer]:
+                - /url: /models?other=diffusionbee
+                - generic [ref=e109]:
+                  - img [ref=e110]
+                  - generic [ref=e217]: DiffusionBee
+              - link "JoyFusion" [ref=e218] [cursor=pointer]:
+                - /url: /models?other=joyfusion
+                - generic [ref=e219]:
+                  - img [ref=e220]
+                  - generic [ref=e225]: JoyFusion
+              - link "vLLM" [ref=e226] [cursor=pointer]:
+                - /url: /models?other=vllm
+                - generic [ref=e227]:
+                  - img [ref=e228]
+                  - generic [ref=e233]: vLLM
+              - link "Ollama" [ref=e234] [cursor=pointer]:
+                - /url: /models?other=ollama
+                - generic [ref=e235]:
+                  - img [ref=e236]
+                  - generic [ref=e242]: Ollama
+              - link "MLX LM" [ref=e243] [cursor=pointer]:
+                - /url: /models?other=mlx-lm
+                - generic [ref=e244]:
+                  - img [ref=e245]
+                  - generic [ref=e248]: MLX LM
+              - link "Docker Model Runner" [ref=e249] [cursor=pointer]:
+                - /url: /models?other=docker-model-runner
+                - generic [ref=e250]:
+                  - img [ref=e251]
+                  - generic [ref=e253]: Docker Model Runner
+              - link "Lemonade" [ref=e254] [cursor=pointer]:
+                - /url: /models?other=lemonade
+                - generic [ref=e255]:
+                  - img [ref=e256]
+                  - generic [ref=e265]: Lemonade
+              - link "SGLang" [ref=e266] [cursor=pointer]:
+                - /url: /models?other=sglang
+                - generic [ref=e267]:
+                  - img [ref=e268]
+                  - generic [ref=e273]: SGLang
+              - link "Unsloth" [ref=e274] [cursor=pointer]:
+                - /url: /models?other=unsloth
+                - generic [ref=e275]:
+                  - img [ref=e276]
+                  - generic [ref=e281]: Unsloth
+              - link "Pi" [ref=e282] [cursor=pointer]:
+                - /url: /models?other=pi
+                - generic [ref=e283]:
+                  - img [ref=e284]
+                  - generic [ref=e287]: Pi
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - generic [ref=e290]: Inference Providers
+              - button "Select all" [ref=e291] [cursor=pointer]
+            - generic [ref=e293]:
+              - link "Groq" [ref=e294] [cursor=pointer]:
+                - /url: /models?inference_provider=groq
+                - generic [ref=e295]:
+                  - img [ref=e296]
+                  - generic [ref=e299]: Groq
+              - link "Novita" [ref=e300] [cursor=pointer]:
+                - /url: /models?inference_provider=novita
+                - generic [ref=e301]:
+                  - img [ref=e302]
+                  - generic [ref=e305]: Novita
+              - link "Cerebras" [ref=e306] [cursor=pointer]:
+                - /url: /models?inference_provider=cerebras
+                - generic [ref=e307]:
+                  - img [ref=e308]
+                  - generic [ref=e311]: Cerebras
+              - link "SambaNova" [ref=e312] [cursor=pointer]:
+                - /url: /models?inference_provider=sambanova
+                - generic [ref=e313]:
+                  - img [ref=e314]
+                  - generic [ref=e318]: SambaNova
+              - link "Nscale" [ref=e319] [cursor=pointer]:
+                - /url: /models?inference_provider=nscale
+                - generic [ref=e320]:
+                  - img [ref=e321]
+                  - generic [ref=e326]: Nscale
+              - link "fal" [ref=e327] [cursor=pointer]:
+                - /url: /models?inference_provider=fal-ai
+                - generic [ref=e328]:
+                  - img [ref=e329]
+                  - generic [ref=e331]: fal
+              - link "Hyperbolic" [ref=e332] [cursor=pointer]:
+                - /url: /models?inference_provider=hyperbolic
+                - generic [ref=e333]:
+                  - img [ref=e334]
+                  - generic [ref=e340]: Hyperbolic
+              - link "Together AI" [ref=e341] [cursor=pointer]:
+                - /url: /models?inference_provider=together
+                - generic [ref=e342]:
+                  - img [ref=e343]
+                  - generic [ref=e348]: Together AI
+              - link "Fireworks" [ref=e349] [cursor=pointer]:
+                - /url: /models?inference_provider=fireworks-ai
+                - generic [ref=e350]:
+                  - img [ref=e351]
+                  - generic [ref=e354]: Fireworks
+              - link "Featherless AI" [ref=e355] [cursor=pointer]:
+                - /url: /models?inference_provider=featherless-ai
+                - generic [ref=e356]:
+                  - img [ref=e357]:
+                    - img [ref=e358]
+                  - generic [ref=e361]: Featherless AI
+              - link "Zai" [ref=e362] [cursor=pointer]:
+                - /url: /models?inference_provider=zai-org
+                - generic [ref=e363]:
+                  - img [ref=e364]
+                  - generic [ref=e371]: Zai
+              - link "Replicate" [ref=e372] [cursor=pointer]:
+                - /url: /models?inference_provider=replicate
+                - generic [ref=e373]:
+                  - img [ref=e374]
+                  - generic [ref=e377]: Replicate
+              - link "Cohere" [ref=e378] [cursor=pointer]:
+                - /url: /models?inference_provider=cohere
+                - generic [ref=e379]:
+                  - img [ref=e380]
+                  - generic [ref=e384]: Cohere
+              - link "Scaleway" [ref=e385] [cursor=pointer]:
+                - /url: /models?inference_provider=scaleway
+                - generic [ref=e386]:
+                  - img [ref=e387]
+                  - generic [ref=e391]: Scaleway
+              - link "Public AI" [ref=e392] [cursor=pointer]:
+                - /url: /models?inference_provider=publicai
+                - generic [ref=e393]:
+                  - img [ref=e394]
+                  - generic [ref=e397]: Public AI
+              - link "OVHcloud AI Endpoints" [ref=e398] [cursor=pointer]:
+                - /url: /models?inference_provider=ovhcloud
+                - generic [ref=e399]:
+                  - img [ref=e400]
+                  - generic [ref=e403]: OVHcloud AI Endpoints
+              - link "HF Inference API" [ref=e404] [cursor=pointer]:
+                - /url: /models?inference_provider=hf-inference
+                - generic [ref=e405]:
+                  - img [ref=e406]
+                  - generic [ref=e409]: HF Inference API
+              - link "WaveSpeed" [ref=e410] [cursor=pointer]:
+                - /url: /models?inference_provider=wavespeed
+                - generic [ref=e411]:
+                  - img [ref=e412]
+                  - generic [ref=e418]: WaveSpeed
+          - generic [ref=e419]:
+            - generic [ref=e420]:
+              - generic [ref=e421]: Misc
+              - button "Reset Misc" [ref=e422] [cursor=pointer]:
+                - img [ref=e423]
+                - text: Reset Misc
+            - generic [ref=e426]:
+              - link "relation-extraction" [ref=e427] [cursor=pointer]:
+                - /url: /models?other=relation-extraction
+                - generic [ref=e428]:
+                  - generic [ref=e429]: relation-extraction
+                  - img [ref=e430]
+              - link "Inference Endpoints" [ref=e432] [cursor=pointer]:
+                - /url: /models?other=endpoints_compatible
+                - generic [ref=e433]:
+                  - img [ref=e434]
+                  - generic [ref=e437]: Inference Endpoints
+              - link "text-generation-inference" [ref=e438] [cursor=pointer]:
+                - /url: /models?other=text-generation-inference
+                - generic [ref=e439]:
+                  - img [ref=e440]
+                  - generic [ref=e445]: text-generation-inference
+              - link "Eval Results (legacy)" [ref=e446] [cursor=pointer]:
+                - /url: /models?other=model-index
+                - generic [ref=e447]:
+                  - img [ref=e448]
+                  - generic [ref=e452]: Eval Results (legacy)
+              - link "text-embeddings-inference" [ref=e453] [cursor=pointer]:
+                - /url: /models?other=text-embeddings-inference
+                - generic [ref=e454]:
+                  - img [ref=e455]
+                  - generic [ref=e460]: text-embeddings-inference
+              - link "4-bit precision" [ref=e461] [cursor=pointer]:
+                - /url: /models?other=4-bit
+                - generic [ref=e462]:
+                  - img [ref=e463]
+                  - generic [ref=e465]: 4-bit precision
+              - link "Merge" [ref=e466] [cursor=pointer]:
+                - /url: /models?other=merge
+                - generic [ref=e467]:
+                  - img [ref=e468]
+                  - generic [ref=e470]: Merge
+              - link "custom_code" [ref=e471] [cursor=pointer]:
+                - /url: /models?other=custom_code
+                - generic [ref=e473]: custom_code
+              - link "8-bit precision" [ref=e474] [cursor=pointer]:
+                - /url: /models?other=8-bit
+                - generic [ref=e475]:
+                  - img [ref=e476]
+                  - generic [ref=e478]: 8-bit precision
+              - link "Mixture of Experts" [ref=e479] [cursor=pointer]:
+                - /url: /models?other=moe
+                - generic [ref=e480]:
+                  - img [ref=e481]
+                  - generic [ref=e483]: Mixture of Experts
+              - link "Carbon Emissions" [ref=e484] [cursor=pointer]:
+                - /url: /models?other=co2_eq_emissions
+                - generic [ref=e485]:
+                  - img [ref=e486]
+                  - generic [ref=e488]: Carbon Emissions
+              - link "Eval Results" [ref=e489] [cursor=pointer]:
+                - /url: /models?other=eval-results
+                - generic [ref=e490]:
+                  - img [ref=e491]
+                  - generic [ref=e495]: Eval Results
+        - generic [ref=e496]:
+          - generic [ref=e497]:
+            - generic [ref=e498]:
+              - heading "Models" [level=1] [ref=e499]
+              - generic [ref=e501]: "55"
+            - generic [ref=e503]:
+              - img [ref=e504]
+              - searchbox "Filter by name" [ref=e508]
+            - button "Inference Available" [ref=e512] [cursor=pointer]:
+              - img [ref=e513]
+              - text: Inference Available
+            - 'button "Sort: Most downloads" [ref=e518] [cursor=pointer]':
+              - img [ref=e519]
+              - text: "Sort: Most downloads"
+          - generic [ref=e523]:
+            - article [ref=e524]:
+              - link "Babelscape/rebel-large 0.4B • Updated Jun 20, 2023 • 33.5k • 235" [ref=e525] [cursor=pointer]:
+                - /url: /Babelscape/rebel-large
+                - generic [ref=e526]:
+                  - generic "Babelscape/rebel-large" [ref=e527]:
+                    - heading "Babelscape/rebel-large" [level=4] [ref=e529]
+                  - generic [ref=e530]:
+                    - 'generic "Number of parameters in the model: 0.4B" [ref=e531]':
+                      - img [ref=e532]
+                      - text: 0.4B
+                    - generic [ref=e534]: •
+                    - generic [ref=e535]:
+                      - text: Updated
+                      - time [ref=e536]: Jun 20, 2023
+                    - generic [ref=e537]: •
+                    - img [ref=e538]
+                    - text: 33.5k
+                    - generic [ref=e540]: •
+                    - img [ref=e541]
+                    - text: "235"
+            - article [ref=e543]:
+              - link "oneryalcin/gliner2-relation-verifier Text Classification • Updated Dec 29, 2025 • 2.03k • 2" [ref=e544] [cursor=pointer]:
+                - /url: /oneryalcin/gliner2-relation-verifier
+                - generic [ref=e545]:
+                  - generic "oneryalcin/gliner2-relation-verifier" [ref=e546]:
+                    - heading "oneryalcin/gliner2-relation-verifier" [level=4] [ref=e548]
+                  - generic [ref=e549]:
+                    - img [ref=e550]
+                    - text: Text Classification
+                    - generic [ref=e565]: •
+                    - generic [ref=e566]:
+                      - text: Updated
+                      - time [ref=e567]: Dec 29, 2025
+                    - generic [ref=e568]: •
+                    - img [ref=e569]
+                    - text: 2.03k
+                    - generic [ref=e571]: •
+                    - img [ref=e572]
+                    - text: "2"
+            - article [ref=e574]:
+              - link "Babelscape/mrebel-large Translation • 0.6B • Updated Jun 20, 2023 • 732 • 78" [ref=e575] [cursor=pointer]:
+                - /url: /Babelscape/mrebel-large
+                - generic [ref=e576]:
+                  - generic "Babelscape/mrebel-large" [ref=e577]:
+                    - heading "Babelscape/mrebel-large" [level=4] [ref=e579]
+                  - generic [ref=e580]:
+                    - img [ref=e581]
+                    - text: Translation
+                    - generic [ref=e584]: •
+                    - 'generic "Number of parameters in the model: 0.6B" [ref=e585]':
+                      - img [ref=e586]
+                      - text: 0.6B
+                    - generic [ref=e588]: •
+                    - generic [ref=e589]:
+                      - text: Updated
+                      - time [ref=e590]: Jun 20, 2023
+                    - generic [ref=e591]: •
+                    - img [ref=e592]
+                    - text: "732"
+                    - generic [ref=e594]: •
+                    - img [ref=e595]
+                    - text: "78"
+            - article [ref=e597]:
+              - link "mradermacher/RexDrug-base-GGUF 8B • Updated 26 days ago • 651 • 1" [ref=e598] [cursor=pointer]:
+                - /url: /mradermacher/RexDrug-base-GGUF
+                - generic [ref=e599]:
+                  - generic "mradermacher/RexDrug-base-GGUF" [ref=e600]:
+                    - heading "mradermacher/RexDrug-base-GGUF" [level=4] [ref=e602]
+                  - generic [ref=e603]:
+                    - 'generic "Number of parameters in the model: 8B" [ref=e604]':
+                      - img [ref=e605]
+                      - text: 8B
+                    - generic [ref=e607]: •
+                    - generic [ref=e608]:
+                      - text: Updated
+                      - time [ref=e609]: 26 days ago
+                    - generic [ref=e610]: •
+                    - img [ref=e611]
+                    - text: "651"
+                    - generic [ref=e613]: •
+                    - img [ref=e614]
+                    - text: "1"
+            - article [ref=e616]:
+              - link "Babelscape/mrebel-large-32 Translation • 0.6B • Updated Jun 23, 2023 • 527 • 8" [ref=e617] [cursor=pointer]:
+                - /url: /Babelscape/mrebel-large-32
+                - generic [ref=e618]:
+                  - generic "Babelscape/mrebel-large-32" [ref=e619]:
+                    - heading "Babelscape/mrebel-large-32" [level=4] [ref=e621]
+                  - generic [ref=e622]:
+                    - img [ref=e623]
+                    - text: Translation
+                    - generic [ref=e626]: •
+                    - 'generic "Number of parameters in the model: 0.6B" [ref=e627]':
+                      - img [ref=e628]
+                      - text: 0.6B
+                    - generic [ref=e630]: •
+                    - generic [ref=e631]:
+                      - text: Updated
+                      - time [ref=e632]: Jun 23, 2023
+                    - generic [ref=e633]: •
+                    - img [ref=e634]
+                    - text: "527"
+                    - generic [ref=e636]: •
+                    - img [ref=e637]
+                    - text: "8"
+            - article [ref=e639]:
+              - link "SandyVeliz/acervo-extractor-v2 Text Generation • 9B • Updated 4 days ago • 403" [ref=e640] [cursor=pointer]:
+                - /url: /SandyVeliz/acervo-extractor-v2
+                - generic [ref=e641]:
+                  - generic "SandyVeliz/acervo-extractor-v2" [ref=e642]:
+                    - heading "SandyVeliz/acervo-extractor-v2" [level=4] [ref=e644]
+                  - generic [ref=e645]:
+                    - img [ref=e646]
+                    - text: Text Generation
+                    - generic [ref=e650]: •
+                    - 'generic "Number of parameters in the model: 9B" [ref=e651]':
+                      - img [ref=e652]
+                      - text: 9B
+                    - generic [ref=e654]: •
+                    - generic [ref=e655]:
+                      - text: Updated
+                      - time [ref=e656]: 4 days ago
+                    - generic [ref=e657]: •
+                    - img [ref=e658]
+                    - text: "403"
+            - article [ref=e660]:
+              - link "ibm-research/knowgl-large 0.4B • Updated Dec 28, 2023 • 194 • 86" [ref=e661] [cursor=pointer]:
+                - /url: /ibm-research/knowgl-large
+                - generic [ref=e662]:
+                  - generic "ibm-research/knowgl-large" [ref=e663]:
+                    - heading "ibm-research/knowgl-large" [level=4] [ref=e665]
+                  - generic [ref=e666]:
+                    - 'generic "Number of parameters in the model: 0.4B" [ref=e667]':
+                      - img [ref=e668]
+                      - text: 0.4B
+                    - generic [ref=e670]: •
+                    - generic [ref=e671]:
+                      - text: Updated
+                      - time [ref=e672]: Dec 28, 2023
+                    - generic [ref=e673]: •
+                    - img [ref=e674]
+                    - text: "194"
+                    - generic [ref=e676]: •
+                    - img [ref=e677]
+                    - text: "86"
+            - article [ref=e679]:
+              - link "knowledgator/gliner-relex-large-v0.5 Token Classification • Updated 18 days ago • 190 • 21" [ref=e680] [cursor=pointer]:
+                - /url: /knowledgator/gliner-relex-large-v0.5
+                - generic [ref=e681]:
+                  - generic "knowledgator/gliner-relex-large-v0.5" [ref=e682]:
+                    - heading "knowledgator/gliner-relex-large-v0.5" [level=4] [ref=e684]
+                  - generic [ref=e685]:
+                    - img [ref=e686]
+                    - text: Token Classification
+                    - generic [ref=e694]: •
+                    - generic [ref=e695]:
+                      - text: Updated
+                      - time [ref=e696]: 18 days ago
+                    - generic [ref=e697]: •
+                    - img [ref=e698]
+                    - text: "190"
+                    - generic [ref=e700]: •
+                    - img [ref=e701]
+                    - text: "21"
+            - article [ref=e703]:
+              - link "knowledgator/gliner-relex-large-v1.0 Token Classification • Updated 15 days ago • 164 • 2" [ref=e704] [cursor=pointer]:
+                - /url: /knowledgator/gliner-relex-large-v1.0
+                - generic [ref=e705]:
+                  - generic "knowledgator/gliner-relex-large-v1.0" [ref=e706]:
+                    - heading "knowledgator/gliner-relex-large-v1.0" [level=4] [ref=e708]
+                  - generic [ref=e709]:
+                    - img [ref=e710]
+                    - text: Token Classification
+                    - generic [ref=e718]: •
+                    - generic [ref=e719]:
+                      - text: Updated
+                      - time [ref=e720]: 15 days ago
+                    - generic [ref=e721]: •
+                    - img [ref=e722]
+                    - text: "164"
+                    - generic [ref=e724]: •
+                    - img [ref=e725]
+                    - text: "2"
+            - article [ref=e727]:
+              - link "Babelscape/mrebel-base Translation • 0.5B • Updated Jun 23, 2023 • 162 • 8" [ref=e728] [cursor=pointer]:
+                - /url: /Babelscape/mrebel-base
+                - generic [ref=e729]:
+                  - generic "Babelscape/mrebel-base" [ref=e730]:
+                    - heading "Babelscape/mrebel-base" [level=4] [ref=e732]
+                  - generic [ref=e733]:
+                    - img [ref=e734]
+                    - text: Translation
+                    - generic [ref=e737]: •
+                    - 'generic "Number of parameters in the model: 0.5B" [ref=e738]':
+                      - img [ref=e739]
+                      - text: 0.5B
+                    - generic [ref=e741]: •
+                    - generic [ref=e742]:
+                      - text: Updated
+                      - time [ref=e743]: Jun 23, 2023
+                    - generic [ref=e744]: •
+                    - img [ref=e745]
+                    - text: "162"
+                    - generic [ref=e747]: •
+                    - img [ref=e748]
+                    - text: "8"
+            - article [ref=e750]:
+              - link "FinaPolat/phi4_adaptableIE_v2 Text Generation • 15B • Updated Feb 6 • 104" [ref=e751] [cursor=pointer]:
+                - /url: /FinaPolat/phi4_adaptableIE_v2
+                - generic [ref=e752]:
+                  - generic "FinaPolat/phi4_adaptableIE_v2" [ref=e753]:
+                    - heading "FinaPolat/phi4_adaptableIE_v2" [level=4] [ref=e755]
+                  - generic [ref=e756]:
+                    - img [ref=e757]
+                    - text: Text Generation
+                    - generic [ref=e761]: •
+                    - 'generic "Number of parameters in the model: 15B" [ref=e762]':
+                      - img [ref=e763]
+                      - text: 15B
+                    - generic [ref=e765]: •
+                    - generic [ref=e766]:
+                      - text: Updated
+                      - time [ref=e767]: Feb 6
+                    - generic [ref=e768]: •
+                    - img [ref=e769]
+                    - text: "104"
+            - article [ref=e771]:
+              - link "DUTIR-BioNLP/RexDrug-base Text Generation • 8B • Updated 26 days ago • 72 • 1" [ref=e772] [cursor=pointer]:
+                - /url: /DUTIR-BioNLP/RexDrug-base
+                - generic [ref=e773]:
+                  - generic "DUTIR-BioNLP/RexDrug-base" [ref=e774]:
+                    - heading "DUTIR-BioNLP/RexDrug-base" [level=4] [ref=e776]
+                  - generic [ref=e777]:
+                    - img [ref=e778]
+                    - text: Text Generation
+                    - generic [ref=e782]: •
+                    - 'generic "Number of parameters in the model: 8B" [ref=e783]':
+                      - img [ref=e784]
+                      - text: 8B
+                    - generic [ref=e786]: •
+                    - generic [ref=e787]:
+                      - text: Updated
+                      - time [ref=e788]: 26 days ago
+                    - generic [ref=e789]: •
+                    - img [ref=e790]
+                    - text: "72"
+                    - generic [ref=e792]: •
+                    - img [ref=e793]
+                    - text: "1"
+            - article [ref=e795]:
+              - link "SandyVeliz/acervo-extractor-qwen3.5-9b Text Generation • 9B • Updated 4 days ago • 72" [ref=e796] [cursor=pointer]:
+                - /url: /SandyVeliz/acervo-extractor-qwen3.5-9b
+                - generic [ref=e797]:
+                  - generic "SandyVeliz/acervo-extractor-qwen3.5-9b" [ref=e798]:
+                    - heading "SandyVeliz/acervo-extractor-qwen3.5-9b" [level=4] [ref=e800]
+                  - generic [ref=e801]:
+                    - img [ref=e802]
+                    - text: Text Generation
+                    - generic [ref=e806]: •
+                    - 'generic "Number of parameters in the model: 9B" [ref=e807]':
+                      - img [ref=e808]
+                      - text: 9B
+                    - generic [ref=e810]: •
+                    - generic [ref=e811]:
+                      - text: Updated
+                      - time [ref=e812]: 4 days ago
+                    - generic [ref=e813]: •
+                    - img [ref=e814]
+                    - text: "72"
+            - article [ref=e816]:
+              - link "DUTIR-BioNLP/RexDrug-adapter Text Generation • Updated 26 days ago • 55" [ref=e817] [cursor=pointer]:
+                - /url: /DUTIR-BioNLP/RexDrug-adapter
+                - generic [ref=e818]:
+                  - generic "DUTIR-BioNLP/RexDrug-adapter" [ref=e819]:
+                    - heading "DUTIR-BioNLP/RexDrug-adapter" [level=4] [ref=e821]
+                  - generic [ref=e822]:
+                    - img [ref=e823]
+                    - text: Text Generation
+                    - generic [ref=e827]: •
+                    - generic [ref=e828]:
+                      - text: Updated
+                      - time [ref=e829]: 26 days ago
+                    - generic [ref=e830]: •
+                    - img [ref=e831]
+                    - text: "55"
+            - article [ref=e833]:
+              - link "konsman/rebel-quantum-mixed Text Generation • 0.4B • Updated Jan 29 • 54 • 1" [ref=e834] [cursor=pointer]:
+                - /url: /konsman/rebel-quantum-mixed
+                - generic [ref=e835]:
+                  - generic "konsman/rebel-quantum-mixed" [ref=e836]:
+                    - heading "konsman/rebel-quantum-mixed" [level=4] [ref=e838]
+                  - generic [ref=e839]:
+                    - img [ref=e840]
+                    - text: Text Generation
+                    - generic [ref=e844]: •
+                    - 'generic "Number of parameters in the model: 0.4B" [ref=e845]':
+                      - img [ref=e846]
+                      - text: 0.4B
+                    - generic [ref=e848]: •
+                    - generic [ref=e849]:
+                      - text: Updated
+                      - time [ref=e850]: Jan 29
+                    - generic [ref=e851]: •
+                    - img [ref=e852]
+                    - text: "54"
+                    - generic [ref=e854]: •
+                    - img [ref=e855]
+                    - text: "1"
+            - article [ref=e857]:
+              - link "knowledgator/gliner-relex-multi-v1.0 Token Classification • Updated 20 days ago • 47 • 1" [ref=e858] [cursor=pointer]:
+                - /url: /knowledgator/gliner-relex-multi-v1.0
+                - generic [ref=e859]:
+                  - generic "knowledgator/gliner-relex-multi-v1.0" [ref=e860]:
+                    - heading "knowledgator/gliner-relex-multi-v1.0" [level=4] [ref=e862]
+                  - generic [ref=e863]:
+                    - img [ref=e864]
+                    - text: Token Classification
+                    - generic [ref=e872]: •
+                    - generic [ref=e873]:
+                      - text: Updated
+                      - time [ref=e874]: 20 days ago
+                    - generic [ref=e875]: •
+                    - img [ref=e876]
+                    - text: "47"
+                    - generic [ref=e878]: •
+                    - img [ref=e879]
+                    - text: "1"
+            - article [ref=e881]:
+              - link "lokahq/Trinity-Mini-DrugProt-Think Text Generation • Updated Feb 23 • 32 • 5" [ref=e882] [cursor=pointer]:
+                - /url: /lokahq/Trinity-Mini-DrugProt-Think
+                - generic [ref=e883]:
+                  - generic "lokahq/Trinity-Mini-DrugProt-Think" [ref=e884]:
+                    - heading "lokahq/Trinity-Mini-DrugProt-Think" [level=4] [ref=e886]
+                  - generic [ref=e887]:
+                    - img [ref=e888]
+                    - text: Text Generation
+                    - generic [ref=e892]: •
+                    - generic [ref=e893]:
+                      - text: Updated
+                      - time [ref=e894]: Feb 23
+                    - generic [ref=e895]: •
+                    - img [ref=e896]
+                    - text: "32"
+                    - generic [ref=e898]: •
+                    - img [ref=e899]
+                    - text: "5"
+            - article [ref=e901]:
+              - link "knowledgator/gliner-relex-base-v1.0 Token Classification • Updated 20 days ago • 31" [ref=e902] [cursor=pointer]:
+                - /url: /knowledgator/gliner-relex-base-v1.0
+                - generic [ref=e903]:
+                  - generic "knowledgator/gliner-relex-base-v1.0" [ref=e904]:
+                    - heading "knowledgator/gliner-relex-base-v1.0" [level=4] [ref=e906]
+                  - generic [ref=e907]:
+                    - img [ref=e908]
+                    - text: Token Classification
+                    - generic [ref=e916]: •
+                    - generic [ref=e917]:
+                      - text: Updated
+                      - time [ref=e918]: 20 days ago
+                    - generic [ref=e919]: •
+                    - img [ref=e920]
+                    - text: "31"
+            - article [ref=e922]:
+              - link "memyprokotow/rut5-REBEL-base Updated Jun 8, 2022 • 17 • 3" [ref=e923] [cursor=pointer]:
+                - /url: /memyprokotow/rut5-REBEL-base
+                - generic [ref=e924]:
+                  - generic "memyprokotow/rut5-REBEL-base" [ref=e925]:
+                    - heading "memyprokotow/rut5-REBEL-base" [level=4] [ref=e927]
+                  - generic [ref=e928]:
+                    - generic [ref=e929]:
+                      - text: Updated
+                      - time [ref=e930]: Jun 8, 2022
+                    - generic [ref=e931]: •
+                    - img [ref=e932]
+                    - text: "17"
+                    - generic [ref=e934]: •
+                    - img [ref=e935]
+                    - text: "3"
+            - article [ref=e937]:
+              - link "PaDaS-Lab/privacy-policy-relation-extraction Text Classification • 0.1B • Updated Jul 8, 2024 • 14 • 3" [ref=e938] [cursor=pointer]:
+                - /url: /PaDaS-Lab/privacy-policy-relation-extraction
+                - generic [ref=e939]:
+                  - generic "PaDaS-Lab/privacy-policy-relation-extraction" [ref=e940]:
+                    - heading "PaDaS-Lab/privacy-policy-relation-extraction" [level=4] [ref=e942]
+                  - generic [ref=e943]:
+                    - img [ref=e944]
+                    - text: Text Classification
+                    - generic [ref=e959]: •
+                    - 'generic "Number of parameters in the model: 0.1B" [ref=e960]':
+                      - img [ref=e961]
+                      - text: 0.1B
+                    - generic [ref=e963]: •
+                    - generic [ref=e964]:
+                      - text: Updated
+                      - time [ref=e965]: Jul 8, 2024
+                    - generic [ref=e966]: •
+                    - img [ref=e967]
+                    - text: "14"
+                    - generic [ref=e969]: •
+                    - img [ref=e970]
+                    - text: "3"
+            - article [ref=e972]:
+              - link "DReAMy-lib/t5-base-DreamBank-Generation-Act-Char 0.2B • Updated Oct 21, 2024 • 12 • 1" [ref=e973] [cursor=pointer]:
+                - /url: /DReAMy-lib/t5-base-DreamBank-Generation-Act-Char
+                - generic [ref=e974]:
+                  - generic "DReAMy-lib/t5-base-DreamBank-Generation-Act-Char" [ref=e975]:
+                    - heading "DReAMy-lib/t5-base-DreamBank-Generation-Act-Char" [level=4] [ref=e977]
+                  - generic [ref=e978]:
+                    - 'generic "Number of parameters in the model: 0.2B" [ref=e979]':
+                      - img [ref=e980]
+                      - text: 0.2B
+                    - generic [ref=e982]: •
+                    - generic [ref=e983]:
+                      - text: Updated
+                      - time [ref=e984]: Oct 21, 2024
+                    - generic [ref=e985]: •
+                    - img [ref=e986]
+                    - text: "12"
+                    - generic [ref=e988]: •
+                    - img [ref=e989]
+                    - text: "1"
+            - article [ref=e991]:
+              - link "rasoultilburg/SocioCausaNet Token Classification • 0.1B • Updated Nov 26, 2025 • 11" [ref=e992] [cursor=pointer]:
+                - /url: /rasoultilburg/SocioCausaNet
+                - generic [ref=e993]:
+                  - generic "rasoultilburg/SocioCausaNet" [ref=e994]:
+                    - heading "rasoultilburg/SocioCausaNet" [level=4] [ref=e996]
+                  - generic [ref=e997]:
+                    - img [ref=e998]
+                    - text: Token Classification
+                    - generic [ref=e1006]: •
+                    - 'generic "Number of parameters in the model: 0.1B" [ref=e1007]':
+                      - img [ref=e1008]
+                      - text: 0.1B
+                    - generic [ref=e1010]: •
+                    - generic [ref=e1011]:
+                      - text: Updated
+                      - time [ref=e1012]: Nov 26, 2025
+                    - generic [ref=e1013]: •
+                    - img [ref=e1014]
+                    - text: "11"
+            - article [ref=e1016]:
+              - link "U4RASD/AREEj 0.6B • Updated Jan 16 • 7 • 1" [ref=e1017] [cursor=pointer]:
+                - /url: /U4RASD/AREEj
+                - generic [ref=e1018]:
+                  - generic "U4RASD/AREEj" [ref=e1019]:
+                    - heading "U4RASD/AREEj" [level=4] [ref=e1021]
+                  - generic [ref=e1022]:
+                    - 'generic "Number of parameters in the model: 0.6B" [ref=e1023]':
+                      - img [ref=e1024]
+                      - text: 0.6B
+                    - generic [ref=e1026]: •
+                    - generic [ref=e1027]:
+                      - text: Updated
+                      - time [ref=e1028]: Jan 16
+                    - generic [ref=e1029]: •
+                    - img [ref=e1030]
+                    - text: "7"
+                    - generic [ref=e1032]: •
+                    - img [ref=e1033]
+                    - text: "1"
+            - article [ref=e1035]:
+              - link "LemkinAI/roberta-joint-ner-re Token Classification • Updated Jun 24, 2025 • 7 • 2" [ref=e1036] [cursor=pointer]:
+                - /url: /LemkinAI/roberta-joint-ner-re
+                - generic [ref=e1037]:
+                  - generic "LemkinAI/roberta-joint-ner-re" [ref=e1038]:
+                    - heading "LemkinAI/roberta-joint-ner-re" [level=4] [ref=e1040]
+                  - generic [ref=e1041]:
+                    - img [ref=e1042]
+                    - text: Token Classification
+                    - generic [ref=e1050]: •
+                    - generic [ref=e1051]:
+                      - text: Updated
+                      - time [ref=e1052]: Jun 24, 2025
+                    - generic [ref=e1053]: •
+                    - img [ref=e1054]
+                    - text: "7"
+                    - generic [ref=e1056]: •
+                    - img [ref=e1057]
+                    - text: "2"
+            - article [ref=e1059]:
+              - link "selfms/persian_roberta_opt_tokenizer Fill-Mask • 0.1B • Updated Nov 4, 2025 • 6 • 1" [ref=e1060] [cursor=pointer]:
+                - /url: /selfms/persian_roberta_opt_tokenizer
+                - generic [ref=e1061]:
+                  - generic "selfms/persian_roberta_opt_tokenizer" [ref=e1062]:
+                    - heading "selfms/persian_roberta_opt_tokenizer" [level=4] [ref=e1064]
+                  - generic [ref=e1065]:
+                    - img [ref=e1066]
+                    - text: Fill-Mask
+                    - generic [ref=e1070]: •
+                    - 'generic "Number of parameters in the model: 0.1B" [ref=e1071]':
+                      - img [ref=e1072]
+                      - text: 0.1B
+                    - generic [ref=e1074]: •
+                    - generic [ref=e1075]:
+                      - text: Updated
+                      - time [ref=e1076]: Nov 4, 2025
+                    - generic [ref=e1077]: •
+                    - img [ref=e1078]
+                    - text: "6"
+                    - generic [ref=e1080]: •
+                    - img [ref=e1081]
+                    - text: "1"
+            - article [ref=e1083]:
+              - link "pkhare/qwen3-8b-biomedical Text Generation • Updated Dec 22, 2025 • 5" [ref=e1084] [cursor=pointer]:
+                - /url: /pkhare/qwen3-8b-biomedical
+                - generic [ref=e1085]:
+                  - generic "pkhare/qwen3-8b-biomedical" [ref=e1086]:
+                    - heading "pkhare/qwen3-8b-biomedical" [level=4] [ref=e1088]
+                  - generic [ref=e1089]:
+                    - img [ref=e1090]
+                    - text: Text Generation
+                    - generic [ref=e1094]: •
+                    - generic [ref=e1095]:
+                      - text: Updated
+                      - time [ref=e1096]: Dec 22, 2025
+                    - generic [ref=e1097]: •
+                    - img [ref=e1098]
+                    - text: "5"
+            - article [ref=e1100]:
+              - link "mizuno-group/ccbert-B-pretrained Text Classification • 0.1B • Updated Jan 8 • 5" [ref=e1101] [cursor=pointer]:
+                - /url: /mizuno-group/ccbert-B-pretrained
+                - generic [ref=e1102]:
+                  - generic "mizuno-group/ccbert-B-pretrained" [ref=e1103]:
+                    - heading "mizuno-group/ccbert-B-pretrained" [level=4] [ref=e1105]
+                  - generic [ref=e1106]:
+                    - img [ref=e1107]
+                    - text: Text Classification
+                    - generic [ref=e1122]: •
+                    - 'generic "Number of parameters in the model: 0.1B" [ref=e1123]':
+                      - img [ref=e1124]
+                      - text: 0.1B
+                    - generic [ref=e1126]: •
+                    - generic [ref=e1127]:
+                      - text: Updated
+                      - time [ref=e1128]: Jan 8
+                    - generic [ref=e1129]: •
+                    - img [ref=e1130]
+                    - text: "5"
+            - article [ref=e1132]:
+              - link "grsilva/pt_rebel Updated Oct 27, 2023 • 4" [ref=e1133] [cursor=pointer]:
+                - /url: /grsilva/pt_rebel
+                - generic [ref=e1134]:
+                  - generic "grsilva/pt_rebel" [ref=e1135]:
+                    - heading "grsilva/pt_rebel" [level=4] [ref=e1137]
+                  - generic [ref=e1138]:
+                    - generic [ref=e1139]:
+                      - text: Updated
+                      - time [ref=e1140]: Oct 27, 2023
+                    - generic [ref=e1141]: •
+                    - img [ref=e1142]
+                    - text: "4"
+            - article [ref=e1144]:
+              - link "ethanthoma/rebel-large 0.4B • Updated Feb 1, 2025 • 3" [ref=e1145] [cursor=pointer]:
+                - /url: /ethanthoma/rebel-large
+                - generic [ref=e1146]:
+                  - generic "ethanthoma/rebel-large" [ref=e1147]:
+                    - heading "ethanthoma/rebel-large" [level=4] [ref=e1149]
+                  - generic [ref=e1150]:
+                    - 'generic "Number of parameters in the model: 0.4B" [ref=e1151]':
+                      - img [ref=e1152]
+                      - text: 0.4B
+                    - generic [ref=e1154]: •
+                    - generic [ref=e1155]:
+                      - text: Updated
+                      - time [ref=e1156]: Feb 1, 2025
+                    - generic [ref=e1157]: •
+                    - img [ref=e1158]
+                    - text: "3"
+            - article [ref=e1160]:
+              - link "RaguTeam/BertRE Text Classification • 0.2B • Updated Oct 19, 2025 • 3 • 2" [ref=e1161] [cursor=pointer]:
+                - /url: /RaguTeam/BertRE
+                - generic [ref=e1162]:
+                  - generic "RaguTeam/BertRE" [ref=e1163]:
+                    - heading "RaguTeam/BertRE" [level=4] [ref=e1165]
+                  - generic [ref=e1166]:
+                    - img [ref=e1167]
+                    - text: Text Classification
+                    - generic [ref=e1182]: •
+                    - 'generic "Number of parameters in the model: 0.2B" [ref=e1183]':
+                      - img [ref=e1184]
+                      - text: 0.2B
+                    - generic [ref=e1186]: •
+                    - generic [ref=e1187]:
+                      - text: Updated
+                      - time [ref=e1188]: Oct 19, 2025
+                    - generic [ref=e1189]: •
+                    - img [ref=e1190]
+                    - text: "3"
+                    - generic [ref=e1192]: •
+                    - img [ref=e1193]
+                    - text: "2"
+          - navigation [ref=e1195]:
+            - list [ref=e1196]:
+              - listitem [ref=e1197]:
+                - link "Previous":
+                  - /url: ""
+                  - img
+                  - text: Previous
+              - listitem [ref=e1198]:
+                - link "1" [ref=e1199] [cursor=pointer]:
+                  - /url: "?other=relation-extraction&p=0&sort=downloads"
+              - listitem [ref=e1200]:
+                - link "2" [ref=e1201] [cursor=pointer]:
+                  - /url: "?other=relation-extraction&p=1&sort=downloads"
+              - listitem [ref=e1202]:
+                - link "Next" [ref=e1203] [cursor=pointer]:
+                  - /url: "?other=relation-extraction&p=1&sort=downloads"
+                  - text: Next
+                  - img [ref=e1204]
+    - contentinfo [ref=e1206]:
+      - navigation [ref=e1207]:
+        - button "System theme" [ref=e1210] [cursor=pointer]:
+          - img [ref=e1211]
+          - text: System theme
+        - link "TOS" [ref=e1216] [cursor=pointer]:
+          - /url: /terms-of-service
+        - link "Privacy" [ref=e1217] [cursor=pointer]:
+          - /url: /privacy
+        - link "About" [ref=e1218] [cursor=pointer]:
+          - /url: /huggingface
+        - link "Careers" [ref=e1219] [cursor=pointer]:
+          - /url: https://apply.workable.com/huggingface/
+        - link "Hugging Face" [ref=e1220] [cursor=pointer]:
+          - /url: /
+          - img [ref=e1221]
+        - link "Models" [ref=e1235] [cursor=pointer]:
+          - /url: /models
+        - link "Datasets" [ref=e1236] [cursor=pointer]:
+          - /url: /datasets
+        - link "Spaces" [ref=e1237] [cursor=pointer]:
+          - /url: /spaces
+        - link "Pricing" [ref=e1238] [cursor=pointer]:
+          - /url: /pricing
+        - link "Docs" [ref=e1239] [cursor=pointer]:
+          - /url: /docs
+  - generic [ref=e1243]:
+    - generic [ref=e1244]:
+      - heading "Run 15,000+ Models Instantly" [level=2] [ref=e1245]:
+        - img [ref=e1246]
+        - text: Run 15,000+ Models Instantly
+      - paragraph [ref=e1249]:
+        - text: Filter models and display only those with inference enabled via Inference Providers (
+        - link "Learn more" [ref=e1250] [cursor=pointer]:
+          - /url: /docs/inference-providers
+        - text: ).
+    - list [ref=e1251]:
+      - listitem [ref=e1252]:
+        - img [ref=e1253]
+        - generic [ref=e1256]: Groq
+      - listitem [ref=e1257]:
+        - img [ref=e1258]
+        - generic [ref=e1261]: Novita
+      - listitem [ref=e1262]:
+        - img [ref=e1263]
+        - generic [ref=e1266]: Cerebras
+      - listitem [ref=e1267]:
+        - img [ref=e1268]
+        - generic [ref=e1272]: SambaNova
+      - listitem [ref=e1273]:
+        - img [ref=e1274]
+        - generic [ref=e1279]: Nscale
+      - listitem [ref=e1280]:
+        - img [ref=e1281]
+        - generic [ref=e1283]: fal
+      - listitem [ref=e1284]:
+        - img [ref=e1285]
+        - generic [ref=e1291]: Hyperbolic
+      - listitem [ref=e1292]:
+        - img [ref=e1293]
+        - generic [ref=e1298]: Together AI
+      - listitem [ref=e1299]:
+        - img [ref=e1300]
+        - generic [ref=e1303]: Fireworks
+      - listitem [ref=e1304]:
+        - img [ref=e1305]:
+          - img [ref=e1306]
+        - generic [ref=e1309]: Featherless AI
+      - listitem [ref=e1310]:
+        - img [ref=e1311]
+        - generic [ref=e1318]: Zai
+      - listitem [ref=e1319]:
+        - img [ref=e1320]
+        - generic [ref=e1323]: Replicate
+      - listitem [ref=e1324]:
+        - img [ref=e1325]
+        - generic [ref=e1329]: Cohere
+      - listitem [ref=e1330]:
+        - img [ref=e1331]
+        - generic [ref=e1335]: Scaleway
+      - listitem [ref=e1336]:
+        - img [ref=e1337]
+        - generic [ref=e1340]: Public AI
+      - listitem [ref=e1341]:
+        - img [ref=e1342]
+        - generic [ref=e1345]: Baseten
+      - listitem [ref=e1346]:
+        - img [ref=e1347]
+        - generic [ref=e1351]: Black Forest Labs
+      - listitem [ref=e1352]:
+        - generic [ref=e1353]: +7 others
+    - generic [ref=e1354]:
+      - button "Browse available models" [ref=e1355] [cursor=pointer]
+      - button "Dismiss" [ref=e1356] [cursor=pointer]

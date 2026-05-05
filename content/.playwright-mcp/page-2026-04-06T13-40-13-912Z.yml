@@ -1,0 +1,2191 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fjackboyla%2FGLiREL%2Fblob%2Fmain%2Fglirel%2Fmodules%2Ftransformer_embeddings.py
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=jackboyla%2FGLiREL
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "jackboyla" [ref=e70] [cursor=pointer]:
+              - /url: /jackboyla
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "GLiREL" [ref=e73] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 22" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "22" [ref=e84]
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fjackboyla%2FGLiREL
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "263 users starred this repository" [ref=e90]: "263"
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 10" [ref=e99] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "10" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 2" [ref=e106] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "2" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Actions" [ref=e112] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/actions
+                - img [ref=e113]
+                - generic [ref=e115]: Actions
+            - listitem [ref=e116]:
+              - link "Projects" [ref=e117] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/projects
+                - img [ref=e118]
+                - generic [ref=e120]: Projects
+            - listitem [ref=e121]:
+              - link "Security and quality" [ref=e122] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/security
+                - img [ref=e123]
+                - generic [ref=e125]: Security and quality
+            - listitem [ref=e126]:
+              - link "Insights" [ref=e127] [cursor=pointer]:
+                - /url: /jackboyla/GLiREL/pulse
+                - img [ref=e128]
+                - generic [ref=e130]: Insights
+      - generic [ref=e138]:
+        - generic [ref=e140]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - heading "Collapse file tree" [level=2] [ref=e146]:
+                  - button "Collapse file tree" [expanded] [ref=e147] [cursor=pointer]:
+                    - img [ref=e148]
+                - heading "Files" [level=2] [ref=e151]
+              - generic [ref=e152]:
+                - button "main branch" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155]:
+                    - generic [ref=e157]:
+                      - img [ref=e159]
+                      - generic [ref=e162]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e164] [cursor=pointer]:
+                  - img [ref=e165]
+            - generic [ref=e168]:
+              - img [ref=e170]
+              - combobox "Go to file" [ref=e172]
+            - navigation "File Tree Navigation" [ref=e178]:
+              - tree "Files" [ref=e180]:
+                - treeitem "configs" [level=1] [ref=e181]:
+                  - generic [ref=e182] [cursor=pointer]:
+                    - img [ref=e184]
+                    - generic [ref=e186]:
+                      - img [ref=e190]
+                      - generic [ref=e192]: configs
+                - treeitem "data" [level=1] [ref=e193]:
+                  - generic [ref=e194] [cursor=pointer]:
+                    - img [ref=e196]
+                    - generic [ref=e198]:
+                      - img [ref=e202]
+                      - generic [ref=e204]: data
+                - treeitem "examples" [level=1] [ref=e205]:
+                  - generic [ref=e206] [cursor=pointer]:
+                    - img [ref=e208]
+                    - generic [ref=e210]:
+                      - img [ref=e214]
+                      - generic [ref=e216]: examples
+                - treeitem "glirel" [expanded] [level=1] [ref=e217]:
+                  - generic [ref=e218] [cursor=pointer]:
+                    - img [ref=e220]
+                    - generic [ref=e222]:
+                      - img [ref=e226]
+                      - generic [ref=e228]: glirel
+                  - group "glirel" [ref=e229]:
+                    - treeitem "modules" [expanded] [level=2] [ref=e230]:
+                      - generic [ref=e231] [cursor=pointer]:
+                        - img [ref=e236]
+                        - generic [ref=e238]:
+                          - img [ref=e242]
+                          - generic [ref=e244]: modules
+                      - group "modules" [ref=e245]:
+                        - treeitem "___init__.py" [level=3] [ref=e246]:
+                          - generic [ref=e252] [cursor=pointer]:
+                            - img [ref=e255]
+                            - generic [ref=e257]: ___init__.py
+                        - treeitem "base.py" [level=3] [ref=e258]:
+                          - generic [ref=e264] [cursor=pointer]:
+                            - img [ref=e267]
+                            - generic [ref=e269]: base.py
+                        - treeitem "custom_tokenizers.py" [level=3] [ref=e270]:
+                          - generic [ref=e276] [cursor=pointer]:
+                            - img [ref=e279]
+                            - generic [ref=e281]: custom_tokenizers.py
+                        - treeitem "data_proc.py" [level=3] [ref=e282]:
+                          - generic [ref=e288] [cursor=pointer]:
+                            - img [ref=e291]
+                            - generic [ref=e293]: data_proc.py
+                        - treeitem "evaluator.py" [level=3] [ref=e294]:
+                          - generic [ref=e300] [cursor=pointer]:
+                            - img [ref=e303]
+                            - generic [ref=e305]: evaluator.py
+                        - treeitem "layers.py" [level=3] [ref=e306]:
+                          - generic [ref=e312] [cursor=pointer]:
+                            - img [ref=e315]
+                            - generic [ref=e317]: layers.py
+                        - treeitem "loss_functions.py" [level=3] [ref=e318]:
+                          - generic [ref=e324] [cursor=pointer]:
+                            - img [ref=e327]
+                            - generic [ref=e329]: loss_functions.py
+                        - treeitem "rel_rep.py" [level=3] [ref=e330]:
+                          - generic [ref=e336] [cursor=pointer]:
+                            - img [ref=e339]
+                            - generic [ref=e341]: rel_rep.py
+                        - treeitem "run_evaluation.py" [level=3] [ref=e342]:
+                          - generic [ref=e348] [cursor=pointer]:
+                            - img [ref=e351]
+                            - generic [ref=e353]: run_evaluation.py
+                        - treeitem "span_rep.py" [level=3] [ref=e354]:
+                          - generic [ref=e360] [cursor=pointer]:
+                            - img [ref=e363]
+                            - generic [ref=e365]: span_rep.py
+                        - treeitem "test_rel_rep.py" [level=3] [ref=e366]:
+                          - generic [ref=e372] [cursor=pointer]:
+                            - img [ref=e375]
+                            - generic [ref=e377]: test_rel_rep.py
+                        - treeitem "test_token_rep.py" [level=3] [ref=e378]:
+                          - generic [ref=e384] [cursor=pointer]:
+                            - img [ref=e387]
+                            - generic [ref=e389]: test_token_rep.py
+                        - treeitem "test_transformer_embeddings.py" [level=3] [ref=e390]:
+                          - generic [ref=e396] [cursor=pointer]:
+                            - img [ref=e399]
+                            - generic [ref=e401]: test_transformer_embeddings.py
+                        - treeitem "token_rep.py" [level=3] [ref=e402]:
+                          - generic [ref=e408] [cursor=pointer]:
+                            - img [ref=e411]
+                            - generic [ref=e413]: token_rep.py
+                        - treeitem "transformer_embeddings.py" [level=3] [ref=e414]:
+                          - generic [ref=e420] [cursor=pointer]:
+                            - img [ref=e423]
+                            - generic [ref=e425]: transformer_embeddings.py
+                        - treeitem "utils.py" [level=3] [ref=e426]:
+                          - generic [ref=e432] [cursor=pointer]:
+                            - img [ref=e435]
+                            - generic [ref=e437]: utils.py
+                    - treeitem "__init__.py" [level=2] [ref=e438]:
+                      - generic [ref=e443] [cursor=pointer]:
+                        - img [ref=e446]
+                        - generic [ref=e448]: __init__.py
+                    - treeitem "model.py" [level=2] [ref=e449]:
+                      - generic [ref=e454] [cursor=pointer]:
+                        - img [ref=e457]
+                        - generic [ref=e459]: model.py
+                    - treeitem "spacy_integration.py" [level=2] [ref=e460]:
+                      - generic [ref=e465] [cursor=pointer]:
+                        - img [ref=e468]
+                        - generic [ref=e470]: spacy_integration.py
+                    - treeitem "test_model.py" [level=2] [ref=e471]:
+                      - generic [ref=e476] [cursor=pointer]:
+                        - img [ref=e479]
+                        - generic [ref=e481]: test_model.py
+                    - treeitem "test_spacy_integration.py" [level=2] [ref=e482]:
+                      - generic [ref=e487] [cursor=pointer]:
+                        - img [ref=e490]
+                        - generic [ref=e492]: test_spacy_integration.py
+                - treeitem ".gitignore" [level=1] [ref=e493]:
+                  - generic [ref=e495] [cursor=pointer]:
+                    - img [ref=e498]
+                    - generic [ref=e500]: .gitignore
+                - treeitem "Makefile" [level=1] [ref=e501]:
+                  - generic [ref=e503] [cursor=pointer]:
+                    - img [ref=e506]
+                    - generic [ref=e508]: Makefile
+                - treeitem "README.md" [level=1] [ref=e509]:
+                  - generic [ref=e511] [cursor=pointer]:
+                    - img [ref=e514]
+                    - generic [ref=e516]: README.md
+                - treeitem "RELEASE.md" [level=1] [ref=e517]:
+                  - generic [ref=e519] [cursor=pointer]:
+                    - img [ref=e522]
+                    - generic [ref=e524]: RELEASE.md
+                - treeitem "demo.jpg" [level=1] [ref=e525]:
+                  - generic [ref=e527] [cursor=pointer]:
+                    - img [ref=e530]
+                    - generic [ref=e532]: demo.jpg
+                - treeitem "eval.py" [level=1] [ref=e533]:
+                  - generic [ref=e535] [cursor=pointer]:
+                    - img [ref=e538]
+                    - generic [ref=e540]: eval.py
+                - treeitem "eval_with_gpt.py" [level=1] [ref=e541]:
+                  - generic [ref=e543] [cursor=pointer]:
+                    - img [ref=e546]
+                    - generic [ref=e548]: eval_with_gpt.py
+                - treeitem "image.png" [level=1] [ref=e549]:
+                  - generic [ref=e551] [cursor=pointer]:
+                    - img [ref=e554]
+                    - generic [ref=e556]: image.png
+                - treeitem "pyproject.toml" [level=1] [ref=e557]:
+                  - generic [ref=e559] [cursor=pointer]:
+                    - img [ref=e562]
+                    - generic [ref=e564]: pyproject.toml
+                - treeitem "quickstart.py" [level=1] [ref=e565]:
+                  - generic [ref=e567] [cursor=pointer]:
+                    - img [ref=e570]
+                    - generic [ref=e572]: quickstart.py
+                - treeitem "quickstart_demo.ipynb" [level=1] [ref=e573]:
+                  - generic [ref=e575] [cursor=pointer]:
+                    - img [ref=e578]
+                    - generic [ref=e580]: quickstart_demo.ipynb
+                - treeitem "quickstart_demo_spacy.ipynb" [level=1] [ref=e581]:
+                  - generic [ref=e583] [cursor=pointer]:
+                    - img [ref=e586]
+                    - generic [ref=e588]: quickstart_demo_spacy.ipynb
+                - treeitem "requirements-dev.txt" [level=1] [ref=e589]:
+                  - generic [ref=e591] [cursor=pointer]:
+                    - img [ref=e594]
+                    - generic [ref=e596]: requirements-dev.txt
+                - treeitem "requirements.txt" [level=1] [ref=e597]:
+                  - generic [ref=e599] [cursor=pointer]:
+                    - img [ref=e602]
+                    - generic [ref=e604]: requirements.txt
+                - treeitem "train.py" [level=1] [ref=e605]:
+                  - generic [ref=e607] [cursor=pointer]:
+                    - img [ref=e610]
+                    - generic [ref=e612]: train.py
+                - treeitem "visualise.ipynb" [level=1] [ref=e613]:
+                  - generic [ref=e615] [cursor=pointer]:
+                    - img [ref=e618]
+                    - generic [ref=e620]: visualise.ipynb
+          - slider "Draggable pane splitter" [ref=e622]
+        - generic [ref=e625]:
+          - generic [ref=e629]:
+            - generic [ref=e631]:
+              - navigation "Breadcrumbs" [ref=e632]:
+                - heading "Breadcrumbs" [level=2] [ref=e633]
+                - list [ref=e634]:
+                  - listitem [ref=e635]:
+                    - link "GLiREL" [ref=e636] [cursor=pointer]:
+                      - /url: /jackboyla/GLiREL/tree/main
+                  - listitem [ref=e637]:
+                    - text: /
+                    - link "glirel" [ref=e638] [cursor=pointer]:
+                      - /url: /jackboyla/GLiREL/tree/main/glirel
+                  - listitem [ref=e639]:
+                    - text: /
+                    - link "modules" [ref=e640] [cursor=pointer]:
+                      - /url: /jackboyla/GLiREL/tree/main/glirel/modules
+              - generic [ref=e641]:
+                - text: /
+                - heading "transformer_embeddings.py" [level=1] [ref=e642]
+              - button "Copy path" [ref=e643] [cursor=pointer]:
+                - img [ref=e644]
+            - button "More file actions" [ref=e650] [cursor=pointer]:
+              - img [ref=e651]
+          - generic [ref=e653]:
+            - generic [ref=e655]:
+              - heading "Latest commit" [level=2] [ref=e656]
+              - generic [ref=e659]:
+                - heading "History" [level=2] [ref=e660]
+                - link "History" [ref=e661] [cursor=pointer]:
+                  - /url: /jackboyla/GLiREL/commits/main/glirel/modules/transformer_embeddings.py
+                  - generic [ref=e662]:
+                    - generic:
+                      - img
+                    - generic [ref=e663]: History
+            - generic [ref=e665]:
+              - generic [ref=e667]:
+                - heading "File metadata and controls" [level=2] [ref=e668]
+                - list "File view" [ref=e670]:
+                  - listitem [ref=e671]:
+                    - button "Code" [ref=e672] [cursor=pointer]:
+                      - generic [ref=e674]: Code
+                  - listitem [ref=e675]:
+                    - button "Blame" [ref=e676] [cursor=pointer]:
+                      - generic [ref=e678]: Blame
+                - generic [ref=e679]:
+                  - generic [ref=e680]:
+                    - generic [ref=e681]:
+                      - link "Raw" [ref=e683] [cursor=pointer]:
+                        - /url: https://github.com/jackboyla/GLiREL/raw/refs/heads/main/glirel/modules/transformer_embeddings.py
+                        - generic [ref=e685]: Raw
+                      - button "Copy raw file" [ref=e687] [cursor=pointer]:
+                        - img [ref=e688]
+                      - button "Download raw file" [ref=e692] [cursor=pointer]:
+                        - img [ref=e693]
+                    - generic [ref=e696]:
+                      - button "You must be signed in to make or propose changes" [disabled] [ref=e698]:
+                        - img [ref=e699]
+                      - button "More edit options" [ref=e702] [cursor=pointer]:
+                        - img [ref=e703]
+                  - button "Open symbols panel" [ref=e705] [cursor=pointer]:
+                    - img [ref=e706]
+              - region "transformer_embeddings.py" [ref=e709]:
+                - generic [ref=e713]:
+                  - textbox "file content" [ref=e716]: "import torch import torch.nn as nn from transformers import AutoTokenizer, AutoModel def fill_masked_elements(all_token_embeddings, hidden_states, mask, word_ids, lengths): \"\"\" For 'first' or 'last' subtoken pooling: copy out exactly the subtoken embeddings that match the mask + are valid word_ids, and place them in the correct positions. \"\"\" batch_size = all_token_embeddings.size(0) for i in range(batch_size): keep = hidden_states[i][mask[i] & (word_ids[i] >= 0)] replaced = insert_missing_embeddings(keep, word_ids[i], lengths[i]) all_token_embeddings[i, : lengths[i], :] = replaced return all_token_embeddings def insert_missing_embeddings(token_embeddings, word_ids_i, length_i): \"\"\" If some token indices [0..length_i-1] never appeared in 'token_embeddings', insert zero-vectors at those positions. \"\"\" if token_embeddings.size(0) == 0: # No subtokens found at all, so fill with zeros return torch.zeros( int(length_i), token_embeddings.size(-1), device=token_embeddings.device, dtype=token_embeddings.dtype ) elif token_embeddings.size(0) < length_i: # Potentially insert zero-vectors for any missing token positions for idx in range(int(length_i)): if not (word_ids_i == idx).any(): zero_vec = torch.zeros_like(token_embeddings[:1]) token_embeddings = torch.cat( (token_embeddings[:idx], zero_vec, token_embeddings[idx:]), dim=0 ) return token_embeddings def fill_mean_token_embeddings(all_token_embeddings, hidden_states, word_ids, token_lengths): \"\"\" For 'mean' subtoken pooling: sum all subtoken embeddings for each token ID and divide by the subtoken count. \"\"\" _, max_tokens, emb_dim = all_token_embeddings.shape # mask to ignore special tokens (CLS, SEP, or None) mask = (word_ids >= 0) # sum embeddings for each (batch, token_id) all_token_embeddings.scatter_add_( dim=1, index=word_ids.clamp(min=0).unsqueeze(-1).expand(-1, -1, emb_dim), src=hidden_states * mask.unsqueeze(-1).float(), ) # count how many subtokens contributed per token subtoken_counts = torch.zeros_like(all_token_embeddings[:, :, 0]) subtoken_counts.scatter_add_( 1, word_ids.clamp(min=0), mask.float() ) # average all_token_embeddings = torch.where( subtoken_counts.unsqueeze(-1) > 0, all_token_embeddings / subtoken_counts.unsqueeze(-1), torch.zeros_like(all_token_embeddings), ) # zero out positions beyond the actual token length max_len = max_tokens idx_range = torch.arange(max_len, device=token_lengths.device).unsqueeze(0) valid_mask = (idx_range < token_lengths.unsqueeze(1)) all_token_embeddings = all_token_embeddings * valid_mask.unsqueeze(-1) return all_token_embeddings class TransformerWordEmbeddings(nn.Module): \"\"\" A drop-in replacement for flair's `TransformerWordEmbeddings`: \"\"\" def __init__(self, model_name: str, fine_tune: bool, subtoken_pooling: str, allow_long_sentences: bool = True): \"\"\" :param model_name: Hugging Face model ID or path :param fine_tune: Whether to keep the model parameters trainable :param subtoken_pooling: 'first', 'last', 'mean', or 'first_last' :param allow_long_sentences: Whether to truncate long sentences \"\"\" super().__init__() self.name = f\"TransformerWordEmbeddings({model_name})\" self.model_name = model_name self.fine_tune = fine_tune self.subtoken_pooling = subtoken_pooling self.allow_long_sentences = allow_long_sentences # Load model and tokenizer self.tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True) self.model = AutoModel.from_pretrained(model_name) # Freeze or unfreeze if not fine_tune: for p in self.model.parameters(): p.requires_grad = False # If we do 'first_last', dimension doubles hidden_size = self.model.config.hidden_size if subtoken_pooling == \"first_last\": self._embedding_length = hidden_size * 2 else: self._embedding_length = hidden_size @property def embedding_length(self) -> int: return self._embedding_length def embed(self, sentences): \"\"\" Expects a list of \"sentence-like\" objects. Each \"sentence\" must have a `.tokens` list. Each \"token\" must have: - a .text attribute - a .set_embedding(name, vector) method \"\"\" if not sentences: return # Prepare input: list of list-of-strings batch_of_lists = [] for s in sentences: # s.tokens is a list of tokens, each with .text batch_of_lists.append([t.text for t in s.tokens]) # Tokenize encoding = self.tokenizer( batch_of_lists, is_split_into_words=True, return_tensors='pt', padding=True, truncation=not self.allow_long_sentences ) device = next(self.model.parameters()).device input_ids = encoding['input_ids'].to(device) attention_mask = encoding['attention_mask'].to(device) # Forward pass outputs = self.model(input_ids, attention_mask=attention_mask, return_dict=True) # shape = [batch_size, seq_len, hidden_dim] last_hidden = outputs.last_hidden_state batch_size, seq_len, hidden_dim = last_hidden.shape # Build a word_ids tensor word_ids_batch = [] for i in range(batch_size): w_ids = encoding.word_ids(batch_index=i) if w_ids is None: w_ids = [None]*seq_len word_ids_batch.append(w_ids) # Build a [batch_size, seq_len] tensor of token IDs, or -100 if None word_ids_tensor = torch.full((batch_size, seq_len), -100, dtype=torch.long, device=device) for i in range(batch_size): for j, w_id in enumerate(word_ids_batch[i]): if w_id is not None: word_ids_tensor[i, j] = w_id # Figure out how many subtoken-aligned tokens each sample has token_lengths = [] for i in range(batch_size): token_count = len(sentences[i].tokens) token_lengths.append(token_count) token_lengths_tensor = torch.tensor(token_lengths, device=device, dtype=torch.long) # Prepare final [batch_size, max_token_count, embedding_dim] max_token_count = max(token_lengths) embed_dim = self.embedding_length all_token_embeddings = torch.zeros( (batch_size, max_token_count, embed_dim), device=device, dtype=last_hidden.dtype ) # Subtoken pooling - mirror flair https://github.com/flairNLP/flair/blob/master/flair/embeddings/transformer.py#L1490 true_tensor = torch.ones((batch_size, 1), dtype=torch.bool, device=device) if self.subtoken_pooling == \"first\": # 'first' subtoken => mask out the beginning of each word gain_mask = (word_ids_tensor[:, 1:] != word_ids_tensor[:, :-1]) # first position is always True first_mask = torch.cat([true_tensor, gain_mask], dim=1) fill_masked_elements(all_token_embeddings, last_hidden, first_mask, word_ids_tensor, token_lengths_tensor) elif self.subtoken_pooling == \"last\": # 'last' subtoken => mask out the boundary at the next subtoken gain_mask = (word_ids_tensor[:, 1:] != word_ids_tensor[:, :-1]) last_mask = torch.cat([gain_mask, true_tensor], dim=1) fill_masked_elements(all_token_embeddings, last_hidden, last_mask, word_ids_tensor, token_lengths_tensor) elif self.subtoken_pooling == \"first_last\": gain_mask = word_ids_tensor[:, 1:] != word_ids_tensor[:, :-1] first_mask = torch.cat([true_tensor, gain_mask], dim=1) last_mask = torch.cat([gain_mask, true_tensor], dim=1) # Fill the first half all_token_embeddings[:, :, :hidden_dim] = fill_masked_elements( all_token_embeddings[:, :, :hidden_dim], last_hidden, first_mask, word_ids_tensor, token_lengths_tensor ) # Fill the second half all_token_embeddings[:, :, hidden_dim:] = fill_masked_elements( all_token_embeddings[:, :, hidden_dim:], last_hidden, last_mask, word_ids_tensor, token_lengths_tensor ) elif self.subtoken_pooling == \"mean\": fill_mean_token_embeddings(all_token_embeddings, last_hidden, word_ids_tensor, token_lengths_tensor) else: raise ValueError(f\"Unknown subtoken_pooling={self.subtoken_pooling}\") # Now store each token's embedding # For each sample i for i, sentence in enumerate(sentences): length_i = token_lengths[i] # slice out the relevant portion embs_i = all_token_embeddings[i, :length_i] # shape [length_i, embed_dim] # set embedding on each token for token_idx, token in enumerate(sentence.tokens): token.set_embedding(self.name, embs_i[token_idx]) def __str__(self): return self.name"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e717]:
+                          - generic [ref=e718] [cursor=pointer]: "1"
+                          - generic [ref=e719] [cursor=pointer]: "2"
+                          - generic [ref=e720] [cursor=pointer]: "3"
+                          - generic [ref=e721] [cursor=pointer]: "4"
+                          - generic [ref=e722] [cursor=pointer]: "5"
+                          - generic [ref=e723] [cursor=pointer]:
+                            - text: "6"
+                            - button [ref=e724]:
+                              - img [ref=e725]
+                          - generic [ref=e727] [cursor=pointer]: "7"
+                          - generic [ref=e728] [cursor=pointer]: "8"
+                          - generic [ref=e729] [cursor=pointer]: "9"
+                          - generic [ref=e730] [cursor=pointer]: "10"
+                          - generic [ref=e731] [cursor=pointer]: "11"
+                          - generic [ref=e732] [cursor=pointer]: "12"
+                          - generic [ref=e733] [cursor=pointer]: "13"
+                          - generic [ref=e734] [cursor=pointer]: "14"
+                          - generic [ref=e735] [cursor=pointer]: "15"
+                          - generic [ref=e736] [cursor=pointer]: "16"
+                          - generic [ref=e737] [cursor=pointer]: "17"
+                          - generic [ref=e738] [cursor=pointer]: "18"
+                          - generic [ref=e739] [cursor=pointer]:
+                            - text: "19"
+                            - button [ref=e740]:
+                              - img [ref=e741]
+                          - generic [ref=e743] [cursor=pointer]: "20"
+                          - generic [ref=e744] [cursor=pointer]: "21"
+                          - generic [ref=e745] [cursor=pointer]: "22"
+                          - generic [ref=e746] [cursor=pointer]: "23"
+                          - generic [ref=e747] [cursor=pointer]: "24"
+                          - generic [ref=e748] [cursor=pointer]: "25"
+                          - generic [ref=e749] [cursor=pointer]: "26"
+                          - generic [ref=e750] [cursor=pointer]: "27"
+                          - generic [ref=e751] [cursor=pointer]: "28"
+                          - generic [ref=e752] [cursor=pointer]: "29"
+                          - generic [ref=e753] [cursor=pointer]: "30"
+                          - generic [ref=e754] [cursor=pointer]: "31"
+                          - generic [ref=e755] [cursor=pointer]: "32"
+                          - generic [ref=e756] [cursor=pointer]: "33"
+                          - generic [ref=e757] [cursor=pointer]: "34"
+                          - generic [ref=e758] [cursor=pointer]: "35"
+                          - generic [ref=e759] [cursor=pointer]: "36"
+                          - generic [ref=e760] [cursor=pointer]: "37"
+                          - generic [ref=e761] [cursor=pointer]: "38"
+                          - generic [ref=e762] [cursor=pointer]: "39"
+                          - generic [ref=e763] [cursor=pointer]: "40"
+                          - generic [ref=e764] [cursor=pointer]: "41"
+                          - generic [ref=e765] [cursor=pointer]: "42"
+                          - generic [ref=e766] [cursor=pointer]: "43"
+                          - generic [ref=e767] [cursor=pointer]:
+                            - text: "44"
+                            - button [ref=e768]:
+                              - img [ref=e769]
+                          - generic [ref=e771] [cursor=pointer]: "45"
+                          - generic [ref=e772] [cursor=pointer]: "46"
+                          - generic [ref=e773] [cursor=pointer]: "47"
+                          - generic [ref=e774] [cursor=pointer]: "48"
+                          - generic [ref=e775] [cursor=pointer]: "49"
+                          - generic [ref=e776] [cursor=pointer]: "50"
+                          - generic [ref=e777] [cursor=pointer]: "51"
+                          - generic [ref=e778] [cursor=pointer]: "52"
+                          - generic [ref=e779] [cursor=pointer]: "53"
+                          - generic [ref=e780] [cursor=pointer]: "54"
+                          - generic [ref=e781] [cursor=pointer]: "55"
+                          - generic [ref=e782] [cursor=pointer]: "56"
+                          - generic [ref=e783] [cursor=pointer]: "57"
+                          - generic [ref=e784] [cursor=pointer]: "58"
+                          - generic [ref=e785] [cursor=pointer]: "59"
+                          - generic [ref=e786] [cursor=pointer]: "60"
+                          - generic [ref=e787] [cursor=pointer]: "61"
+                          - generic [ref=e788] [cursor=pointer]: "62"
+                          - generic [ref=e789] [cursor=pointer]: "63"
+                          - generic [ref=e790] [cursor=pointer]: "64"
+                          - generic [ref=e791] [cursor=pointer]: "65"
+                          - generic [ref=e792] [cursor=pointer]: "66"
+                          - generic [ref=e793] [cursor=pointer]: "67"
+                          - generic [ref=e794] [cursor=pointer]: "68"
+                          - generic [ref=e795] [cursor=pointer]: "69"
+                          - generic [ref=e796] [cursor=pointer]: "70"
+                          - generic [ref=e797] [cursor=pointer]: "71"
+                          - generic [ref=e798] [cursor=pointer]: "72"
+                          - generic [ref=e799] [cursor=pointer]: "73"
+                          - generic [ref=e800] [cursor=pointer]: "74"
+                          - generic [ref=e801] [cursor=pointer]: "75"
+                          - generic [ref=e802] [cursor=pointer]: "76"
+                          - generic [ref=e803] [cursor=pointer]: "77"
+                          - generic [ref=e804] [cursor=pointer]: "78"
+                          - generic [ref=e805] [cursor=pointer]: "79"
+                          - generic [ref=e806] [cursor=pointer]: "80"
+                          - generic [ref=e807] [cursor=pointer]: "81"
+                          - generic [ref=e808] [cursor=pointer]: "82"
+                          - generic [ref=e809] [cursor=pointer]: "83"
+                          - generic [ref=e810] [cursor=pointer]:
+                            - text: "84"
+                            - button [ref=e811]:
+                              - img [ref=e812]
+                          - generic [ref=e814] [cursor=pointer]: "85"
+                          - generic [ref=e815] [cursor=pointer]: "86"
+                          - generic [ref=e816] [cursor=pointer]: "87"
+                          - generic [ref=e817] [cursor=pointer]:
+                            - text: "88"
+                            - button [ref=e818]:
+                              - img [ref=e819]
+                          - generic [ref=e821] [cursor=pointer]: "89"
+                          - generic [ref=e822] [cursor=pointer]: "90"
+                          - generic [ref=e823] [cursor=pointer]: "91"
+                          - generic [ref=e824] [cursor=pointer]: "92"
+                          - generic [ref=e825] [cursor=pointer]: "93"
+                          - generic [ref=e826] [cursor=pointer]: "94"
+                          - generic [ref=e827] [cursor=pointer]: "95"
+                          - generic [ref=e828] [cursor=pointer]: "96"
+                          - generic [ref=e829] [cursor=pointer]: "97"
+                          - generic [ref=e830] [cursor=pointer]: "98"
+                          - generic [ref=e831] [cursor=pointer]: "99"
+                          - generic [ref=e832] [cursor=pointer]: "100"
+                          - generic [ref=e833] [cursor=pointer]: "101"
+                          - generic [ref=e834] [cursor=pointer]: "102"
+                          - generic [ref=e835] [cursor=pointer]: "103"
+                          - generic [ref=e836] [cursor=pointer]: "104"
+                          - generic [ref=e837] [cursor=pointer]: "105"
+                          - generic [ref=e838] [cursor=pointer]: "106"
+                          - generic [ref=e839] [cursor=pointer]: "107"
+                          - generic [ref=e840] [cursor=pointer]: "108"
+                          - generic [ref=e841] [cursor=pointer]: "109"
+                          - generic [ref=e842] [cursor=pointer]: "110"
+                          - generic [ref=e843] [cursor=pointer]: "111"
+                          - generic [ref=e844] [cursor=pointer]: "112"
+                          - generic [ref=e845] [cursor=pointer]: "113"
+                          - generic [ref=e846] [cursor=pointer]: "114"
+                          - generic [ref=e847] [cursor=pointer]: "115"
+                          - generic [ref=e848] [cursor=pointer]: "116"
+                          - generic [ref=e849] [cursor=pointer]: "117"
+                          - generic [ref=e850] [cursor=pointer]: "118"
+                          - generic [ref=e851] [cursor=pointer]: "119"
+                          - generic [ref=e852] [cursor=pointer]: "120"
+                          - generic [ref=e853] [cursor=pointer]: "121"
+                          - generic [ref=e854] [cursor=pointer]:
+                            - text: "122"
+                            - button [ref=e855]:
+                              - img [ref=e856]
+                          - generic [ref=e858] [cursor=pointer]: "123"
+                          - generic [ref=e859] [cursor=pointer]: "124"
+                          - generic [ref=e860] [cursor=pointer]: "125"
+                          - generic [ref=e861] [cursor=pointer]: "126"
+                          - generic [ref=e862] [cursor=pointer]: "127"
+                          - generic [ref=e863] [cursor=pointer]: "128"
+                          - generic [ref=e864] [cursor=pointer]: "129"
+                          - generic [ref=e865] [cursor=pointer]: "130"
+                          - generic [ref=e866] [cursor=pointer]: "131"
+                          - generic [ref=e867] [cursor=pointer]: "132"
+                          - generic [ref=e868] [cursor=pointer]: "133"
+                          - generic [ref=e869] [cursor=pointer]: "134"
+                          - generic [ref=e870] [cursor=pointer]: "135"
+                          - generic [ref=e871] [cursor=pointer]: "136"
+                          - generic [ref=e872] [cursor=pointer]: "137"
+                          - generic [ref=e873] [cursor=pointer]: "138"
+                          - generic [ref=e874] [cursor=pointer]: "139"
+                          - generic [ref=e875] [cursor=pointer]: "140"
+                          - generic [ref=e876] [cursor=pointer]: "141"
+                          - generic [ref=e877] [cursor=pointer]: "142"
+                          - generic [ref=e878] [cursor=pointer]: "168"
+                          - generic [ref=e879] [cursor=pointer]: "169"
+                          - generic [ref=e880] [cursor=pointer]: "170"
+                          - generic [ref=e881] [cursor=pointer]: "171"
+                          - generic [ref=e882] [cursor=pointer]: "172"
+                          - generic [ref=e883] [cursor=pointer]: "173"
+                          - generic [ref=e884] [cursor=pointer]: "174"
+                          - generic [ref=e885] [cursor=pointer]: "175"
+                          - generic [ref=e886] [cursor=pointer]: "176"
+                          - generic [ref=e887] [cursor=pointer]: "177"
+                          - generic [ref=e888] [cursor=pointer]: "178"
+                          - generic [ref=e889] [cursor=pointer]: "179"
+                          - generic [ref=e890] [cursor=pointer]: "180"
+                          - generic [ref=e891] [cursor=pointer]: "181"
+                          - generic [ref=e892] [cursor=pointer]: "182"
+                          - generic [ref=e893] [cursor=pointer]: "183"
+                          - generic [ref=e894] [cursor=pointer]: "184"
+                          - generic [ref=e895] [cursor=pointer]: "185"
+                          - generic [ref=e896] [cursor=pointer]: "186"
+                          - generic [ref=e897] [cursor=pointer]: "187"
+                          - generic [ref=e898] [cursor=pointer]: "188"
+                          - generic [ref=e899] [cursor=pointer]: "189"
+                          - generic [ref=e900] [cursor=pointer]: "190"
+                          - generic [ref=e901] [cursor=pointer]: "191"
+                          - generic [ref=e902] [cursor=pointer]: "192"
+                          - generic [ref=e903] [cursor=pointer]: "193"
+                          - generic [ref=e904] [cursor=pointer]: "194"
+                          - generic [ref=e905] [cursor=pointer]: "195"
+                          - generic [ref=e906] [cursor=pointer]: "196"
+                          - generic [ref=e907] [cursor=pointer]: "197"
+                          - generic [ref=e908] [cursor=pointer]: "198"
+                          - generic [ref=e909] [cursor=pointer]: "199"
+                          - generic [ref=e910] [cursor=pointer]: "200"
+                          - generic [ref=e911] [cursor=pointer]: "201"
+                          - generic [ref=e912] [cursor=pointer]: "202"
+                          - generic [ref=e913] [cursor=pointer]: "203"
+                          - generic [ref=e914] [cursor=pointer]: "204"
+                          - generic [ref=e915] [cursor=pointer]: "205"
+                          - generic [ref=e916] [cursor=pointer]: "206"
+                          - generic [ref=e917] [cursor=pointer]: "207"
+                          - generic [ref=e918] [cursor=pointer]: "208"
+                          - generic [ref=e919] [cursor=pointer]: "209"
+                          - generic [ref=e920] [cursor=pointer]: "210"
+                          - generic [ref=e921] [cursor=pointer]: "211"
+                          - generic [ref=e922] [cursor=pointer]: "212"
+                          - generic [ref=e923] [cursor=pointer]: "213"
+                          - generic [ref=e924] [cursor=pointer]: "214"
+                          - generic [ref=e925] [cursor=pointer]: "215"
+                          - generic [ref=e926] [cursor=pointer]: "216"
+                          - generic [ref=e927] [cursor=pointer]: "217"
+                          - generic [ref=e928] [cursor=pointer]: "218"
+                          - generic [ref=e929] [cursor=pointer]: "219"
+                          - generic [ref=e930] [cursor=pointer]: "220"
+                          - generic [ref=e931] [cursor=pointer]: "221"
+                          - generic [ref=e932] [cursor=pointer]: "222"
+                          - generic [ref=e933] [cursor=pointer]: "223"
+                          - generic [ref=e934] [cursor=pointer]: "224"
+                          - generic [ref=e935] [cursor=pointer]: "225"
+                          - generic [ref=e936] [cursor=pointer]: "226"
+                          - generic [ref=e937] [cursor=pointer]: "227"
+                          - generic [ref=e938] [cursor=pointer]: "228"
+                          - generic [ref=e939] [cursor=pointer]: "229"
+                          - generic [ref=e940] [cursor=pointer]: "230"
+                          - generic [ref=e941] [cursor=pointer]: "231"
+                          - generic [ref=e942] [cursor=pointer]: "232"
+                          - generic [ref=e943] [cursor=pointer]: "233"
+                          - generic [ref=e944] [cursor=pointer]: "234"
+                          - generic [ref=e945] [cursor=pointer]: "235"
+                          - generic [ref=e946] [cursor=pointer]: "236"
+                          - generic [ref=e947] [cursor=pointer]: "237"
+                          - generic [ref=e948] [cursor=pointer]: "238"
+                          - generic [ref=e949] [cursor=pointer]: "239"
+                          - generic [ref=e950] [cursor=pointer]: "240"
+                          - generic [ref=e951] [cursor=pointer]: "241"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: import
+                                - generic: torch
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: import
+                                - generic: torch
+                                - text: .
+                                - generic: nn
+                                - generic: as
+                                - generic: nn
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: transformers
+                                - generic: import
+                                - generic: AutoTokenizer
+                                - text: ","
+                                - generic: AutoModel
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: fill_masked_elements
+                                - text: (
+                                - generic: all_token_embeddings
+                                - text: ","
+                                - generic: hidden_states
+                                - text: ","
+                                - generic: mask
+                                - text: ","
+                                - generic: word_ids
+                                - text: ","
+                                - generic: lengths
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "For 'first' or 'last' subtoken pooling: copy out exactly the subtoken embeddings"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: that match the mask + are valid word_ids, and place them in the correct positions.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: batch_size
+                                - generic: =
+                                - generic: all_token_embeddings
+                                - text: .
+                                - generic: size
+                                - text: (
+                                - generic: "0"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: i
+                                - generic: in
+                                - generic: range
+                                - text: (
+                                - generic: batch_size
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: keep
+                                - generic: =
+                                - generic: hidden_states
+                                - text: "["
+                                - generic: i
+                                - text: "]["
+                                - generic: mask
+                                - text: "["
+                                - generic: i
+                                - text: "]"
+                                - generic: "&"
+                                - text: (
+                                - generic: word_ids
+                                - text: "["
+                                - generic: i
+                                - text: "]"
+                                - generic: ">="
+                                - generic: "0"
+                                - text: )]
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: replaced
+                                - generic: =
+                                - generic: insert_missing_embeddings
+                                - text: (
+                                - generic: keep
+                                - text: ","
+                                - generic: word_ids
+                                - text: "["
+                                - generic: i
+                                - text: "],"
+                                - generic: lengths
+                                - text: "["
+                                - generic: i
+                                - text: "])"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - text: "["
+                                - generic: i
+                                - text: ", :"
+                                - generic: lengths
+                                - text: "["
+                                - generic: i
+                                - text: "], :]"
+                                - generic: =
+                                - generic: replaced
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: all_token_embeddings
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: insert_missing_embeddings
+                                - text: (
+                                - generic: token_embeddings
+                                - text: ","
+                                - generic: word_ids_i
+                                - text: ","
+                                - generic: length_i
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: If some token indices [0..length_i-1] never appeared in 'token_embeddings',
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: insert zero-vectors at those positions.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: token_embeddings
+                                - text: .
+                                - generic: size
+                                - text: (
+                                - generic: "0"
+                                - text: )
+                                - generic: ==
+                                - generic: "0"
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# No subtokens found at all, so fill with zeros"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: torch
+                                - text: .
+                                - generic: zeros
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: int
+                                - text: (
+                                - generic: length_i
+                                - text: ),
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_embeddings
+                                - text: .
+                                - generic: size
+                                - text: (
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ),
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: device
+                                - generic: =
+                                - generic: token_embeddings
+                                - text: .
+                                - generic: device
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dtype
+                                - generic: =
+                                - generic: token_embeddings
+                                - text: .
+                                - generic: dtype
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: elif
+                                - generic: token_embeddings
+                                - text: .
+                                - generic: size
+                                - text: (
+                                - generic: "0"
+                                - text: )
+                                - generic: <
+                                - generic: length_i
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Potentially insert zero-vectors for any missing token positions"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: idx
+                                - generic: in
+                                - generic: range
+                                - text: (
+                                - generic: int
+                                - text: (
+                                - generic: length_i
+                                - text: ")):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: not
+                                - text: (
+                                - generic: word_ids_i
+                                - generic: ==
+                                - generic: idx
+                                - text: ).
+                                - generic: any
+                                - text: "():"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: zero_vec
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: zeros_like
+                                - text: (
+                                - generic: token_embeddings
+                                - text: "[:"
+                                - generic: "1"
+                                - text: "])"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_embeddings
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: cat
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: (
+                                - generic: token_embeddings
+                                - text: "[:"
+                                - generic: idx
+                                - text: "],"
+                                - generic: zero_vec
+                                - text: ","
+                                - generic: token_embeddings
+                                - text: "["
+                                - generic: idx
+                                - text: :]),
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dim
+                                - generic: =
+                                - generic: "0"
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: token_embeddings
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: fill_mean_token_embeddings
+                                - text: (
+                                - generic: all_token_embeddings
+                                - text: ","
+                                - generic: hidden_states
+                                - text: ","
+                                - generic: word_ids
+                                - text: ","
+                                - generic: token_lengths
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "For 'mean' subtoken pooling: sum all subtoken embeddings for each token ID"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: and divide by the subtoken count.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: _
+                                - text: ","
+                                - generic: max_tokens
+                                - text: ","
+                                - generic: emb_dim
+                                - generic: =
+                                - generic: all_token_embeddings
+                                - text: .
+                                - generic: shape
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# mask to ignore special tokens (CLS, SEP, or None)"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: mask
+                                - generic: =
+                                - text: (
+                                - generic: word_ids
+                                - generic: ">="
+                                - generic: "0"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# sum embeddings for each (batch, token_id)"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - text: .
+                                - generic: scatter_add_
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dim
+                                - generic: =
+                                - generic: "1"
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: index
+                                - generic: =
+                                - generic: word_ids
+                                - text: .
+                                - generic: clamp
+                                - text: (
+                                - generic: min
+                                - generic: =
+                                - generic: "0"
+                                - text: ).
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ).
+                                - generic: expand
+                                - text: (
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ","
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ","
+                                - generic: emb_dim
+                                - text: ),
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: src
+                                - generic: =
+                                - generic: hidden_states
+                                - generic: "*"
+                                - generic: mask
+                                - text: .
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ).
+                                - generic: float
+                                - text: (),
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# count how many subtokens contributed per token"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: subtoken_counts
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: zeros_like
+                                - text: (
+                                - generic: all_token_embeddings
+                                - text: "[:, :,"
+                                - generic: "0"
+                                - text: "])"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: subtoken_counts
+                                - text: .
+                                - generic: scatter_add_
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "1"
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: word_ids
+                                - text: .
+                                - generic: clamp
+                                - text: (
+                                - generic: min
+                                - generic: =
+                                - generic: "0"
+                                - text: ),
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: mask
+                                - text: .
+                                - generic: float
+                                - text: ()
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# average"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: where
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: subtoken_counts
+                                - text: .
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "-"
+                                - generic: "1"
+                                - text: )
+                                - generic: ">"
+                                - generic: "0"
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - generic: /
+                                - generic: subtoken_counts
+                                - text: .
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ),
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: torch
+                                - text: .
+                                - generic: zeros_like
+                                - text: (
+                                - generic: all_token_embeddings
+                                - text: ),
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# zero out positions beyond the actual token length"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: max_len
+                                - generic: =
+                                - generic: max_tokens
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: idx_range
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: arange
+                                - text: (
+                                - generic: max_len
+                                - text: ","
+                                - generic: device
+                                - generic: =
+                                - generic: token_lengths
+                                - text: .
+                                - generic: device
+                                - text: ).
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "0"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: valid_mask
+                                - generic: =
+                                - text: (
+                                - generic: idx_range
+                                - generic: <
+                                - generic: token_lengths
+                                - text: .
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "1"
+                                - text: ))
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - generic: =
+                                - generic: all_token_embeddings
+                                - generic: "*"
+                                - generic: valid_mask
+                                - text: .
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "-"
+                                - generic: "1"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: all_token_embeddings
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: class
+                                - generic: TransformerWordEmbeddings
+                                - text: (
+                                - generic: nn
+                                - text: .
+                                - generic: Module
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "A drop-in replacement for flair's `TransformerWordEmbeddings`:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: __init__
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: model_name
+                                - text: ":"
+                                - generic: str
+                                - text: ","
+                                - generic: fine_tune
+                                - text: ":"
+                                - generic: bool
+                                - text: ","
+                                - generic: subtoken_pooling
+                                - text: ":"
+                                - generic: str
+                                - text: ","
+                                - generic: allow_long_sentences
+                                - text: ":"
+                                - generic: bool
+                                - generic: =
+                                - generic: "True"
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ":param model_name: Hugging Face model ID or path"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ":param fine_tune: Whether to keep the model parameters trainable"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ":param subtoken_pooling: 'first', 'last', 'mean', or 'first_last'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ":param allow_long_sentences: Whether to truncate long sentences"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: super
+                                - text: ().
+                                - generic: __init__
+                                - text: ()
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: name
+                                - generic: =
+                                - generic:
+                                  - text: f"TransformerWordEmbeddings(
+                                  - generic:
+                                    - generic: "{"
+                                    - generic: model_name
+                                    - generic: "}"
+                                  - text: )"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: model_name
+                                - generic: =
+                                - generic: model_name
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: fine_tune
+                                - generic: =
+                                - generic: fine_tune
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: subtoken_pooling
+                                - generic: =
+                                - generic: subtoken_pooling
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: allow_long_sentences
+                                - generic: =
+                                - generic: allow_long_sentences
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Load model and tokenizer"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: tokenizer
+                                - generic: =
+                                - generic: AutoTokenizer
+                                - text: .
+                                - generic: from_pretrained
+                                - text: (
+                                - generic: model_name
+                                - text: ","
+                                - generic: use_fast
+                                - generic: =
+                                - generic: "True"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: model
+                                - generic: =
+                                - generic: AutoModel
+                                - text: .
+                                - generic: from_pretrained
+                                - text: (
+                                - generic: model_name
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Freeze or unfreeze"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: not
+                                - generic: fine_tune
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: p
+                                - generic: in
+                                - generic: self
+                                - text: .
+                                - generic: model
+                                - text: .
+                                - generic: parameters
+                                - text: "():"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: p
+                                - text: .
+                                - generic: requires_grad
+                                - generic: =
+                                - generic: "False"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# If we do 'first_last', dimension doubles"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: hidden_size
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: model
+                                - text: .
+                                - generic: config
+                                - text: .
+                                - generic: hidden_size
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: subtoken_pooling
+                                - generic: ==
+                                - generic: "\"first_last\""
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: _embedding_length
+                                - generic: =
+                                - generic: hidden_size
+                                - generic: "*"
+                                - generic: "2"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: _embedding_length
+                                - generic: =
+                                - generic: hidden_size
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: "@"
+                                  - generic: property
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: embedding_length
+                                - text: (
+                                - generic: self
+                                - text: )
+                                - generic: "->"
+                                - generic: int
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: self
+                                - text: .
+                                - generic: _embedding_length
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: embed
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: sentences
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Expects a list of "sentence-like" objects.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Each \"sentence\" must have a `.tokens` list."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Each \"token\" must have:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "- a .text attribute"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "- a .set_embedding(name, vector) method"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: not
+                                - generic: sentences
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Prepare input: list of list-of-strings"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: batch_of_lists
+                                - generic: =
+                                - text: "[]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: s
+                                - generic: in
+                                - generic: sentences
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# s.tokens is a list of tokens, each with .text"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: batch_of_lists
+                                - text: .
+                                - generic: append
+                                - text: ([
+                                - generic: t
+                                - text: .
+                                - generic: text
+                                - generic: for
+                                - generic: t
+                                - generic: in
+                                - generic: s
+                                - text: .
+                                - generic: tokens
+                                - text: "])"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Tokenize"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: encoding
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: tokenizer
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: batch_of_lists
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: is_split_into_words
+                                - generic: =
+                                - generic: "True"
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: j
+                                - text: ","
+                                - generic: w_id
+                                - generic: in
+                                - generic: enumerate
+                                - text: (
+                                - generic: word_ids_batch
+                                - text: "["
+                                - generic: i
+                                - text: "]):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: w_id
+                                - generic:
+                                  - generic: is
+                                  - generic: not
+                                - generic: None
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: word_ids_tensor
+                                - text: "["
+                                - generic: i
+                                - text: ","
+                                - generic: j
+                                - text: "]"
+                                - generic: =
+                                - generic: w_id
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Figure out how many subtoken-aligned tokens each sample has"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_lengths
+                                - generic: =
+                                - text: "[]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: i
+                                - generic: in
+                                - generic: range
+                                - text: (
+                                - generic: batch_size
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_count
+                                - generic: =
+                                - generic: len
+                                - text: (
+                                - generic: sentences
+                                - text: "["
+                                - generic: i
+                                - text: "]."
+                                - generic: tokens
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_lengths
+                                - text: .
+                                - generic: append
+                                - text: (
+                                - generic: token_count
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_lengths_tensor
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: tensor
+                                - text: (
+                                - generic: token_lengths
+                                - text: ","
+                                - generic: device
+                                - generic: =
+                                - generic: device
+                                - text: ","
+                                - generic: dtype
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: long
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Prepare final [batch_size, max_token_count, embedding_dim]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: max_token_count
+                                - generic: =
+                                - generic: max
+                                - text: (
+                                - generic: token_lengths
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: embed_dim
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: embedding_length
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: zeros
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: (
+                                - generic: batch_size
+                                - text: ","
+                                - generic: max_token_count
+                                - text: ","
+                                - generic: embed_dim
+                                - text: ),
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: device
+                                - generic: =
+                                - generic: device
+                                - text: ","
+                                - generic: dtype
+                                - generic: =
+                                - generic: last_hidden
+                                - text: .
+                                - generic: dtype
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Subtoken pooling - mirror flair https://github.com/flairNLP/flair/blob/master/flair/embeddings/transformer.py#L1490"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: true_tensor
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: ones
+                                - text: ((
+                                - generic: batch_size
+                                - text: ","
+                                - generic: "1"
+                                - text: ),
+                                - generic: dtype
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: bool
+                                - text: ","
+                                - generic: device
+                                - generic: =
+                                - generic: device
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: self
+                                - text: .
+                                - generic: subtoken_pooling
+                                - generic: ==
+                                - generic: "\"first\""
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# 'first' subtoken => mask out the beginning of each word"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: gain_mask
+                                - generic: =
+                                - text: (
+                                - generic: word_ids_tensor
+                                - text: "[:,"
+                                - generic: "1"
+                                - text: :]
+                                - generic: "!="
+                                - generic: word_ids_tensor
+                                - text: "[:, :"
+                                - generic: "-"
+                                - generic: "1"
+                                - text: "])"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# first position is always True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: first_mask
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: cat
+                                - text: ([
+                                - generic: true_tensor
+                                - text: ","
+                                - generic: gain_mask
+                                - text: "],"
+                                - generic: dim
+                                - generic: =
+                                - generic: "1"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: fill_masked_elements
+                                - text: (
+                                - generic: all_token_embeddings
+                                - text: ","
+                                - generic: last_hidden
+                                - text: ","
+                                - generic: first_mask
+                                - text: ","
+                                - generic: word_ids_tensor
+                                - text: ","
+                                - generic: token_lengths_tensor
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: elif
+                                - generic: self
+                                - text: .
+                                - generic: subtoken_pooling
+                                - generic: ==
+                                - generic: "\"last\""
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# 'last' subtoken => mask out the boundary at the next subtoken"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: gain_mask
+                                - generic: =
+                                - text: (
+                                - generic: word_ids_tensor
+                                - text: "[:,"
+                                - generic: "1"
+                                - text: :]
+                                - generic: "!="
+                                - generic: word_ids_tensor
+                                - text: "[:, :"
+                                - generic: "-"
+                                - generic: "1"
+                                - text: "])"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: last_mask
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: cat
+                                - text: ([
+                                - generic: gain_mask
+                                - text: ","
+                                - generic: true_tensor
+                                - text: "],"
+                                - generic: dim
+                                - generic: =
+                                - generic: "1"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: fill_masked_elements
+                                - text: (
+                                - generic: all_token_embeddings
+                                - text: ","
+                                - generic: last_hidden
+                                - text: ","
+                                - generic: last_mask
+                                - text: ","
+                                - generic: word_ids_tensor
+                                - text: ","
+                                - generic: token_lengths_tensor
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: elif
+                                - generic: self
+                                - text: .
+                                - generic: subtoken_pooling
+                                - generic: ==
+                                - generic: "\"first_last\""
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: gain_mask
+                                - generic: =
+                                - generic: word_ids_tensor
+                                - text: "[:,"
+                                - generic: "1"
+                                - text: :]
+                                - generic: "!="
+                                - generic: word_ids_tensor
+                                - text: "[:, :"
+                                - generic: "-"
+                                - generic: "1"
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: first_mask
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: cat
+                                - text: ([
+                                - generic: true_tensor
+                                - text: ","
+                                - generic: gain_mask
+                                - text: "],"
+                                - generic: dim
+                                - generic: =
+                                - generic: "1"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: last_mask
+                                - generic: =
+                                - generic: torch
+                                - text: .
+                                - generic: cat
+                                - text: ([
+                                - generic: gain_mask
+                                - text: ","
+                                - generic: true_tensor
+                                - text: "],"
+                                - generic: dim
+                                - generic: =
+                                - generic: "1"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Fill the first half"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - text: "[:, :, :"
+                                - generic: hidden_dim
+                                - text: "]"
+                                - generic: =
+                                - generic: fill_masked_elements
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - text: "[:, :, :"
+                                - generic: hidden_dim
+                                - text: "],"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: last_hidden
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: first_mask
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: word_ids_tensor
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_lengths_tensor
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Fill the second half"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - text: "[:, :,"
+                                - generic: hidden_dim
+                                - text: :]
+                                - generic: =
+                                - generic: fill_masked_elements
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: all_token_embeddings
+                                - text: "[:, :,"
+                                - generic: hidden_dim
+                                - text: :],
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: last_hidden
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: last_mask
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: word_ids_tensor
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_lengths_tensor
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: elif
+                                - generic: self
+                                - text: .
+                                - generic: subtoken_pooling
+                                - generic: ==
+                                - generic: "\"mean\""
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: fill_mean_token_embeddings
+                                - text: (
+                                - generic: all_token_embeddings
+                                - text: ","
+                                - generic: last_hidden
+                                - text: ","
+                                - generic: word_ids_tensor
+                                - text: ","
+                                - generic: token_lengths_tensor
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: raise
+                                - generic: ValueError
+                                - text: (
+                                - generic:
+                                  - text: f"Unknown subtoken_pooling=
+                                  - generic:
+                                    - generic: "{"
+                                    - generic: self
+                                    - text: .
+                                    - generic: subtoken_pooling
+                                    - generic: "}"
+                                  - text: "\""
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Now store each token's embedding"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# For each sample i"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: i
+                                - text: ","
+                                - generic: sentence
+                                - generic: in
+                                - generic: enumerate
+                                - text: (
+                                - generic: sentences
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: length_i
+                                - generic: =
+                                - generic: token_lengths
+                                - text: "["
+                                - generic: i
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# slice out the relevant portion"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: embs_i
+                                - generic: =
+                                - generic: all_token_embeddings
+                                - text: "["
+                                - generic: i
+                                - text: ", :"
+                                - generic: length_i
+                                - text: "]"
+                                - generic: "# shape [length_i, embed_dim]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# set embedding on each token"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: for
+                                - generic: token_idx
+                                - text: ","
+                                - generic: token
+                                - generic: in
+                                - generic: enumerate
+                                - text: (
+                                - generic: sentence
+                                - text: .
+                                - generic: tokens
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token
+                                - text: .
+                                - generic: set_embedding
+                                - text: (
+                                - generic: self
+                                - text: .
+                                - generic: name
+                                - text: ","
+                                - generic: embs_i
+                                - text: "["
+                                - generic: token_idx
+                                - text: "])"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: __str__
+                                - text: (
+                                - generic: self
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: self
+                                - text: .
+                                - generic: name
+  - alert [ref=e957]

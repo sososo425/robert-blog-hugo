@@ -1,0 +1,1829 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FHKUDS%2FLightRAG
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=HKUDS%2FLightRAG
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "HKUDS" [ref=e70] [cursor=pointer]:
+            - /url: /HKUDS
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "LightRAG" [ref=e73] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FHKUDS%2FLightRAG
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 4.7k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FHKUDS%2FLightRAG
+                - img [ref=e82]
+                - text: Fork
+                - generic "4,695" [ref=e84]: 4.7k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FHKUDS%2FLightRAG
+                - img [ref=e88]
+                - text: Star
+                - generic "32979 users starred this repository" [ref=e90]: 33k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 182" [ref=e99] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "182" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 23" [ref=e106] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "23" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/discussions
+              - img [ref=e113]
+              - generic [ref=e115]: Discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Projects" [ref=e122] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/projects
+              - img [ref=e123]
+              - generic [ref=e125]: Projects
+          - listitem [ref=e126]:
+            - link "Security and quality 2" [ref=e127] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+              - generic "2" [ref=e131]
+          - listitem [ref=e132]:
+            - link "Insights" [ref=e133] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/pulse
+              - img [ref=e134]
+              - generic [ref=e136]: Insights
+    - generic [ref=e149]:
+      - heading "HKUDS/LightRAG" [level=1] [ref=e151]
+      - generic [ref=e152]:
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - button "main branch" [ref=e159] [cursor=pointer]:
+                - generic [ref=e160]:
+                  - generic [ref=e162]:
+                    - img [ref=e164]
+                    - generic [ref=e167]: main
+                  - generic:
+                    - img
+              - generic [ref=e168]:
+                - link "3 Branches" [ref=e169] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/branches
+                  - generic [ref=e170]:
+                    - generic:
+                      - img
+                    - generic [ref=e172]:
+                      - strong [ref=e173]: "3"
+                      - text: Branches
+                - link "83 Tags" [ref=e174] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/tags
+                  - generic [ref=e175]:
+                    - generic:
+                      - img
+                    - generic [ref=e177]:
+                      - strong [ref=e178]: "83"
+                      - text: Tags
+            - generic [ref=e179]:
+              - generic [ref=e183]:
+                - img [ref=e185]
+                - combobox "Go to file" [ref=e187]
+              - button "Code" [ref=e188] [cursor=pointer]:
+                - generic [ref=e189]:
+                  - generic:
+                    - img
+                  - generic [ref=e190]: Code
+                  - generic:
+                    - img
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - heading "Folders and files" [level=2] [ref=e193]
+              - table "Folders and files" [ref=e194]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e195]:
+                  - 'row "Latest commit danielaskdd commits by danielaskdd 📝 docs(core): remove deprecated ids parameter documentation Open commit details success Commit e5daded · Apr 11, 202620 hours ago History 6,935 Commits" [ref=e196]':
+                    - 'cell "Latest commit danielaskdd commits by danielaskdd 📝 docs(core): remove deprecated ids parameter documentation Open commit details success Commit e5daded · Apr 11, 202620 hours ago History 6,935 Commits" [ref=e197]':
+                      - generic [ref=e198]:
+                        - heading "Latest commit" [level=2] [ref=e199]
+                        - generic [ref=e200]:
+                          - generic [ref=e202]:
+                            - link "danielaskdd" [ref=e203] [cursor=pointer]:
+                              - /url: /danielaskdd
+                              - img "danielaskdd" [ref=e204]
+                            - link "commits by danielaskdd" [ref=e205] [cursor=pointer]:
+                              - /url: /HKUDS/LightRAG/commits?author=danielaskdd
+                              - text: danielaskdd
+                          - generic [ref=e206]:
+                            - 'link "📝 docs(core): remove deprecated ids parameter documentation" [ref=e209] [cursor=pointer]':
+                              - /url: /HKUDS/LightRAG/commit/e5dadedf9fdab83d3c19b7fa0821b663bb567639
+                            - button "Open commit details" [ref=e210] [cursor=pointer]:
+                              - img [ref=e211]
+                            - button "success" [ref=e213] [cursor=pointer]:
+                              - img [ref=e214]
+                        - generic [ref=e216]:
+                          - generic [ref=e218]:
+                            - link "Commit e5daded" [ref=e219] [cursor=pointer]:
+                              - /url: /HKUDS/LightRAG/commit/e5dadedf9fdab83d3c19b7fa0821b663bb567639
+                              - text: e5daded
+                            - text: ·
+                            - generic "Apr 11, 2026, 7:37 PM GMT+8" [ref=e220]: Apr 11, 202620 hours ago
+                          - generic [ref=e221]:
+                            - heading "History" [level=2] [ref=e222]
+                            - link "6,935 Commits" [ref=e223] [cursor=pointer]:
+                              - /url: /HKUDS/LightRAG/commits/main/
+                              - generic [ref=e224]:
+                                - generic:
+                                  - img
+                                - generic [ref=e225]: 6,935 Commits
+                  - row ".clinerules, (Directory) Add testing workflow guidelines to basic development rules Nov 18, 20255 months ago" [ref=e226]:
+                    - cell ".clinerules, (Directory)" [ref=e227]:
+                      - generic [ref=e228]:
+                        - img [ref=e229]
+                        - link ".clinerules, (Directory)" [ref=e234] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/.clinerules
+                          - text: .clinerules
+                    - cell "Add testing workflow guidelines to basic development rules" [ref=e235]:
+                      - link "Add testing workflow guidelines to basic development rules" [ref=e238] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/a11912ffa5e28eb65e3c15a23774e054de3c961c
+                    - cell "Nov 18, 20255 months ago" [ref=e239]:
+                      - generic [ref=e240]: Nov 18, 20255 months ago
+                  - 'row ".github, (Directory) chore(deps): bump actions/github-script in the github-actions group Mar 30, 20262 weeks ago" [ref=e241]':
+                    - cell ".github, (Directory)" [ref=e242]:
+                      - generic [ref=e243]:
+                        - img [ref=e244]
+                        - link ".github, (Directory)" [ref=e249] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/.github
+                          - text: .github
+                    - 'cell "chore(deps): bump actions/github-script in the github-actions group" [ref=e250]':
+                      - 'link "chore(deps): bump actions/github-script in the github-actions group" [ref=e253] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/8e0160da5f6889caec8abd47b1725e53fe9125ee
+                    - cell "Mar 30, 20262 weeks ago" [ref=e254]:
+                      - generic [ref=e255]: Mar 30, 20262 weeks ago
+                  - row "README.assets, (Directory) Add chinese version of README Mar 25, 2025last year" [ref=e256]:
+                    - cell "README.assets, (Directory)" [ref=e257]:
+                      - generic [ref=e258]:
+                        - img [ref=e259]
+                        - link "README.assets, (Directory)" [ref=e264] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/README.assets
+                          - text: README.assets
+                    - cell "Add chinese version of README" [ref=e265]:
+                      - link "Add chinese version of README" [ref=e268] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/6441d906826aa1bd87522a3b0755fc46ce46c13c
+                    - cell "Mar 25, 2025last year" [ref=e269]:
+                      - generic [ref=e270]: Mar 25, 2025last year
+                  - row "assets, (Directory) Add litewrite link Jan 15, 20263 months ago" [ref=e271]:
+                    - cell "assets, (Directory)" [ref=e272]:
+                      - generic [ref=e273]:
+                        - img [ref=e274]
+                        - link "assets, (Directory)" [ref=e279] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/assets
+                          - text: assets
+                    - cell "Add litewrite link" [ref=e280]:
+                      - link "Add litewrite link" [ref=e283] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/176f20a109635206441b7fd5f19468b2fae0bc5e
+                    - cell "Jan 15, 20263 months ago" [ref=e284]:
+                      - generic [ref=e285]: Jan 15, 20263 months ago
+                  - 'row "docs, (Directory) 📝 docs(core): remove deprecated ids parameter documentation Apr 11, 202620 hours ago" [ref=e286]':
+                    - cell "docs, (Directory)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "docs, (Directory)" [ref=e294] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/docs
+                          - text: docs
+                    - 'cell "📝 docs(core): remove deprecated ids parameter documentation" [ref=e295]':
+                      - 'link "📝 docs(core): remove deprecated ids parameter documentation" [ref=e298] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/e5dadedf9fdab83d3c19b7fa0821b663bb567639
+                    - cell "Apr 11, 202620 hours ago" [ref=e299]:
+                      - generic [ref=e300]: Apr 11, 202620 hours ago
+                  - 'row "examples, (Directory) examples: tighten speaker transitions per Codex review Apr 7, 2026last week" [ref=e301]':
+                    - cell "examples, (Directory)" [ref=e302]:
+                      - generic [ref=e303]:
+                        - img [ref=e304]
+                        - link "examples, (Directory)" [ref=e309] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/examples
+                          - text: examples
+                    - 'cell "examples: tighten speaker transitions per Codex review" [ref=e310]':
+                      - 'link "examples: tighten speaker transitions per Codex review" [ref=e313] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/03525d1bcad0fbf22e1d372cac396159acddefac
+                    - cell "Apr 7, 2026last week" [ref=e314]:
+                      - generic [ref=e315]: Apr 7, 2026last week
+                  - row "k8s-deploy, (Directory) Refactor Helm template to handle optional envFrom values safely Oct 10, 20256 months ago" [ref=e316]:
+                    - cell "k8s-deploy, (Directory)" [ref=e317]:
+                      - generic [ref=e318]:
+                        - img [ref=e319]
+                        - link "k8s-deploy, (Directory)" [ref=e324] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/k8s-deploy
+                          - text: k8s-deploy
+                    - cell "Refactor Helm template to handle optional envFrom values safely" [ref=e325]:
+                      - link "Refactor Helm template to handle optional envFrom values safely" [ref=e328] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/648d7bb175cebfeed4c636922fdee43df37bd483
+                    - cell "Oct 10, 20256 months ago" [ref=e329]:
+                      - generic [ref=e330]: Oct 10, 20256 months ago
+                  - row "lightrag, (Directory) Fix linting Apr 11, 2026yesterday" [ref=e331]:
+                    - cell "lightrag, (Directory)" [ref=e332]:
+                      - generic [ref=e333]:
+                        - img [ref=e334]
+                        - link "lightrag, (Directory)" [ref=e339] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/lightrag
+                          - text: lightrag
+                    - cell "Fix linting" [ref=e340]:
+                      - link "Fix linting" [ref=e343] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/64cb60cd6c0269ccec12e6ad119084bc5848d0c6
+                    - cell "Apr 11, 2026yesterday" [ref=e344]:
+                      - generic [ref=e345]: Apr 11, 2026yesterday
+                  - 'row "lightrag_webui, (Directory) Merge pull request #2922 from HKUDS/dependabot/bun/lightrag_webui/sty… Apr 11, 20262 days ago" [ref=e346]':
+                    - cell "lightrag_webui, (Directory)" [ref=e347]:
+                      - generic [ref=e348]:
+                        - img [ref=e349]
+                        - link "lightrag_webui, (Directory)" [ref=e354] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/lightrag_webui
+                          - text: lightrag_webui
+                    - 'cell "Merge pull request #2922 from HKUDS/dependabot/bun/lightrag_webui/sty…" [ref=e355]':
+                      - generic [ref=e357]:
+                        - link "Merge pull request" [ref=e358] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/commit/fb73e41bb1afa2ecce13ba2c3faf5dc11e2866b7
+                        - link "#2922" [ref=e359] [cursor=pointer]:
+                          - /url: https://github.com/HKUDS/LightRAG/pull/2922
+                        - link "from HKUDS/dependabot/bun/lightrag_webui/sty…" [ref=e360] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/commit/fb73e41bb1afa2ecce13ba2c3faf5dc11e2866b7
+                    - cell "Apr 11, 20262 days ago" [ref=e361]:
+                      - generic [ref=e362]: Apr 11, 20262 days ago
+                  - row "reproduce, (Directory) Remove manual initialize_pipeline_status() calls across codebase Nov 17, 20255 months ago" [ref=e363]:
+                    - cell "reproduce, (Directory)" [ref=e364]:
+                      - generic [ref=e365]:
+                        - img [ref=e366]
+                        - link "reproduce, (Directory)" [ref=e371] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/reproduce
+                          - text: reproduce
+                    - cell "Remove manual initialize_pipeline_status() calls across codebase" [ref=e372]:
+                      - link "Remove manual initialize_pipeline_status() calls across codebase" [ref=e375] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/cdd53ee8751cbb60b76fda14da3fab343bef2178
+                    - cell "Nov 17, 20255 months ago" [ref=e376]:
+                      - generic [ref=e377]: Nov 17, 20255 months ago
+                  - 'row "scripts, (Directory) ✨ feat(setup): add mongot volume support for MongoDB Atlas Local Apr 11, 202620 hours ago" [ref=e378]':
+                    - cell "scripts, (Directory)" [ref=e379]:
+                      - generic [ref=e380]:
+                        - img [ref=e381]
+                        - link "scripts, (Directory)" [ref=e386] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/scripts
+                          - text: scripts
+                    - 'cell "✨ feat(setup): add mongot volume support for MongoDB Atlas Local" [ref=e387]':
+                      - 'link "✨ feat(setup): add mongot volume support for MongoDB Atlas Local" [ref=e390] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/b6c8a0346fb16a17530615c7879dfed3c42d4f73
+                    - cell "Apr 11, 202620 hours ago" [ref=e391]:
+                      - generic [ref=e392]: Apr 11, 202620 hours ago
+                  - row "tests, (Directory) Fix linting Apr 11, 202620 hours ago" [ref=e393]:
+                    - cell "tests, (Directory)" [ref=e394]:
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - link "tests, (Directory)" [ref=e401] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/tree/main/tests
+                          - text: tests
+                    - cell "Fix linting" [ref=e402]:
+                      - link "Fix linting" [ref=e405] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/5734b37d6fa4f1b672e43d619cc63b441c481666
+                    - cell "Apr 11, 202620 hours ago" [ref=e406]:
+                      - generic [ref=e407]: Apr 11, 202620 hours ago
+                  - row ".dockerignore, (File) Add offline Docker build support with embedded models and cache Oct 15, 20256 months ago" [ref=e408]:
+                    - cell ".dockerignore, (File)" [ref=e409]:
+                      - generic [ref=e410]:
+                        - img [ref=e411]
+                        - link ".dockerignore, (File)" [ref=e416] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/.dockerignore
+                          - text: .dockerignore
+                    - cell "Add offline Docker build support with embedded models and cache" [ref=e417]:
+                      - link "Add offline Docker build support with embedded models and cache" [ref=e420] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/6d1ae404780e642ed57a7b027b61bea779d592de
+                    - cell "Oct 15, 20256 months ago" [ref=e421]:
+                      - generic [ref=e422]: Oct 15, 20256 months ago
+                  - row ".gitattributes, (File) Update .gitattributes for webui files Mar 20, 2025last year" [ref=e423]:
+                    - cell ".gitattributes, (File)" [ref=e424]:
+                      - generic [ref=e425]:
+                        - img [ref=e426]
+                        - link ".gitattributes, (File)" [ref=e431] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - cell "Update .gitattributes for webui files" [ref=e432]:
+                      - link "Update .gitattributes for webui files" [ref=e435] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/4fbe39fd8a343c058651d84d1626c4f74db4cd7b
+                    - cell "Mar 20, 2025last year" [ref=e436]:
+                      - generic [ref=e437]: Mar 20, 2025last year
+                  - row ".gitignore, (File) Merge branch 'main' into add-ag2-multiagent-example Apr 7, 20265 days ago" [ref=e438]:
+                    - cell ".gitignore, (File)" [ref=e439]:
+                      - generic [ref=e440]:
+                        - img [ref=e441]
+                        - link ".gitignore, (File)" [ref=e446] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Merge branch 'main' into add-ag2-multiagent-example" [ref=e447]:
+                      - link "Merge branch 'main' into add-ag2-multiagent-example" [ref=e450] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/37730a5bc6afec08357a070b09037e90eba26171
+                    - cell "Apr 7, 20265 days ago" [ref=e451]:
+                      - generic [ref=e452]: Apr 7, 20265 days ago
+                  - row ".pre-commit-config.yaml, (File) Exclude lightrag/api/webui from pre-commit hooks. Mar 11, 2025last year" [ref=e453]:
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e454]:
+                      - generic [ref=e455]:
+                        - img [ref=e456]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e461] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - cell "Exclude lightrag/api/webui from pre-commit hooks." [ref=e462]:
+                      - link "Exclude lightrag/api/webui from pre-commit hooks." [ref=e465] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/af359f83fc5049c9e9795a63fddcf9ceb0a4c006
+                    - cell "Mar 11, 2025last year" [ref=e466]:
+                      - generic [ref=e467]: Mar 11, 2025last year
+                  - 'row "AGENTS.md, (File) docs: deprecate config.ini in documentation Apr 7, 20265 days ago" [ref=e468]':
+                    - cell "AGENTS.md, (File)" [ref=e469]:
+                      - generic [ref=e470]:
+                        - img [ref=e471]
+                        - link "AGENTS.md, (File)" [ref=e476] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/AGENTS.md
+                          - text: AGENTS.md
+                    - 'cell "docs: deprecate config.ini in documentation" [ref=e477]':
+                      - 'link "docs: deprecate config.ini in documentation" [ref=e480] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/50ce642f19991b6e8bd2612f3909c6686f44ce83
+                    - cell "Apr 7, 20265 days ago" [ref=e481]:
+                      - generic [ref=e482]: Apr 7, 20265 days ago
+                  - 'row "CLAUDE.md, (File) 📝 docs(AGENTS,CLAUDE): update front-end workflow documentation Apr 4, 2026last week" [ref=e483]':
+                    - cell "CLAUDE.md, (File)" [ref=e484]:
+                      - generic [ref=e485]:
+                        - img [ref=e486]
+                        - link "CLAUDE.md, (File)" [ref=e491] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/CLAUDE.md
+                          - text: CLAUDE.md
+                    - 'cell "📝 docs(AGENTS,CLAUDE): update front-end workflow documentation" [ref=e492]':
+                      - 'link "📝 docs(AGENTS,CLAUDE): update front-end workflow documentation" [ref=e495] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/ff969f8a4e30bc9be3c9dfe27de321c73ce525a2
+                    - cell "Apr 4, 2026last week" [ref=e496]:
+                      - generic [ref=e497]: Apr 4, 2026last week
+                  - 'row "Dockerfile, (File) 📦 build(docker): use native build platform for frontend stage Mar 20, 20263 weeks ago" [ref=e498]':
+                    - cell "Dockerfile, (File)" [ref=e499]:
+                      - generic [ref=e500]:
+                        - img [ref=e501]
+                        - link "Dockerfile, (File)" [ref=e506] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/Dockerfile
+                          - text: Dockerfile
+                    - 'cell "📦 build(docker): use native build platform for frontend stage" [ref=e507]':
+                      - 'link "📦 build(docker): use native build platform for frontend stage" [ref=e510] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/c11dd0709db134e164f2c372f3976433c3bb614f
+                    - cell "Mar 20, 20263 weeks ago" [ref=e511]:
+                      - generic [ref=e512]: Mar 20, 20263 weeks ago
+                  - 'row "Dockerfile.lite, (File) 📦 build(docker): use native build platform for frontend stage Mar 20, 20263 weeks ago" [ref=e513]':
+                    - cell "Dockerfile.lite, (File)" [ref=e514]:
+                      - generic [ref=e515]:
+                        - img [ref=e516]
+                        - link "Dockerfile.lite, (File)" [ref=e521] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/Dockerfile.lite
+                          - text: Dockerfile.lite
+                    - 'cell "📦 build(docker): use native build platform for frontend stage" [ref=e522]':
+                      - 'link "📦 build(docker): use native build platform for frontend stage" [ref=e525] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/c11dd0709db134e164f2c372f3976433c3bb614f
+                    - cell "Mar 20, 20263 weeks ago" [ref=e526]:
+                      - generic [ref=e527]: Mar 20, 20263 weeks ago
+                  - row "LICENSE, (File) Update LICENSE Apr 16, 2025last year" [ref=e528]:
+                    - cell "LICENSE, (File)" [ref=e529]:
+                      - generic [ref=e530]:
+                        - img [ref=e531]
+                        - link "LICENSE, (File)" [ref=e536] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Update LICENSE" [ref=e537]:
+                      - link "Update LICENSE" [ref=e540] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/6b047fa71b89274eb75bf8ff4be07874dc8fd4b7
+                    - cell "Apr 16, 2025last year" [ref=e541]:
+                      - generic [ref=e542]: Apr 16, 2025last year
+                  - row "MANIFEST.in, (File) Include static files in package distribution Oct 30, 20256 months ago" [ref=e543]:
+                    - cell "MANIFEST.in, (File)" [ref=e544]:
+                      - generic [ref=e545]:
+                        - img [ref=e546]
+                        - link "MANIFEST.in, (File)" [ref=e551] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/MANIFEST.in
+                          - text: MANIFEST.in
+                    - cell "Include static files in package distribution" [ref=e552]:
+                      - link "Include static files in package distribution" [ref=e555] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/16d3d82a0e9fad28d638c62548f5895024e10ca8
+                    - cell "Oct 30, 20256 months ago" [ref=e556]:
+                      - generic [ref=e557]: Oct 30, 20256 months ago
+                  - 'row "Makefile, (File) 🔧 chore(makefile): add offline extra dependency to dev target Apr 2, 2026last week" [ref=e558]':
+                    - cell "Makefile, (File)" [ref=e559]:
+                      - generic [ref=e560]:
+                        - img [ref=e561]
+                        - link "Makefile, (File)" [ref=e566] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/Makefile
+                          - text: Makefile
+                    - 'cell "🔧 chore(makefile): add offline extra dependency to dev target" [ref=e567]':
+                      - 'link "🔧 chore(makefile): add offline extra dependency to dev target" [ref=e570] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/4c3194de47a21e66543a1919c15971578ddc9a34
+                    - cell "Apr 2, 2026last week" [ref=e571]:
+                      - generic [ref=e572]: Apr 2, 2026last week
+                  - row "README-zh.md, (File) Adds a note about upcoming RAG-Anything multimodal processing integra… Apr 5, 2026last week" [ref=e573]:
+                    - cell "README-zh.md, (File)" [ref=e574]:
+                      - generic [ref=e575]:
+                        - img [ref=e576]
+                        - link "README-zh.md, (File)" [ref=e581] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/README-zh.md
+                          - text: README-zh.md
+                    - cell "Adds a note about upcoming RAG-Anything multimodal processing integra…" [ref=e582]:
+                      - link "Adds a note about upcoming RAG-Anything multimodal processing integra…" [ref=e585] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/828d1c0130848381a5dc109c77eba0d0040f51db
+                    - cell "Apr 5, 2026last week" [ref=e586]:
+                      - generic [ref=e587]: Apr 5, 2026last week
+                  - row "README.md, (File) Adds a note about upcoming RAG-Anything multimodal processing integra… Apr 5, 2026last week" [ref=e588]:
+                    - cell "README.md, (File)" [ref=e589]:
+                      - generic [ref=e590]:
+                        - img [ref=e591]
+                        - link "README.md, (File)" [ref=e596] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/README.md
+                          - text: README.md
+                    - cell "Adds a note about upcoming RAG-Anything multimodal processing integra…" [ref=e597]:
+                      - link "Adds a note about upcoming RAG-Anything multimodal processing integra…" [ref=e600] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/828d1c0130848381a5dc109c77eba0d0040f51db
+                    - cell "Apr 5, 2026last week" [ref=e601]:
+                      - generic [ref=e602]: Apr 5, 2026last week
+                  - row "SECURITY.md, (File) Fix linting May 12, 202511 months ago" [ref=e603]:
+                    - cell "SECURITY.md, (File)" [ref=e604]:
+                      - generic [ref=e605]:
+                        - img [ref=e606]
+                        - link "SECURITY.md, (File)" [ref=e611] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/SECURITY.md
+                          - text: SECURITY.md
+                    - cell "Fix linting" [ref=e612]:
+                      - link "Fix linting" [ref=e615] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/911bbd17a4bc86bb0acddefaeb9b26b2a55c70f7
+                    - cell "May 12, 202511 months ago" [ref=e616]:
+                      - generic [ref=e617]: May 12, 202511 months ago
+                  - 'row "config.ini.example, (File) docs: deprecate config.ini in documentation Apr 7, 20265 days ago" [ref=e618]':
+                    - cell "config.ini.example, (File)" [ref=e619]:
+                      - generic [ref=e620]:
+                        - img [ref=e621]
+                        - link "config.ini.example, (File)" [ref=e626] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/config.ini.example
+                          - text: config.ini.example
+                    - 'cell "docs: deprecate config.ini in documentation" [ref=e627]':
+                      - 'link "docs: deprecate config.ini in documentation" [ref=e630] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/50ce642f19991b6e8bd2612f3909c6686f44ce83
+                    - cell "Apr 7, 20265 days ago" [ref=e631]:
+                      - generic [ref=e632]: Apr 7, 20265 days ago
+                  - row "docker-build-push.sh, (File) Improve Docker build workflow with automated multi-arch script and docs Oct 16, 20256 months ago" [ref=e633]:
+                    - cell "docker-build-push.sh, (File)" [ref=e634]:
+                      - generic [ref=e635]:
+                        - img [ref=e636]
+                        - link "docker-build-push.sh, (File)" [ref=e641] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/docker-build-push.sh
+                          - text: docker-build-push.sh
+                    - cell "Improve Docker build workflow with automated multi-arch script and docs" [ref=e642]:
+                      - link "Improve Docker build workflow with automated multi-arch script and docs" [ref=e645] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/0e0b4a94dce0a0b501fb9468fee60e742e918eaf
+                    - cell "Oct 16, 20256 months ago" [ref=e646]:
+                      - generic [ref=e647]: Oct 16, 20256 months ago
+                  - 'row "docker-compose-full.yml, (File) 📝 docs(makefile): update make env references to make base Mar 17, 2026last month" [ref=e648]':
+                    - cell "docker-compose-full.yml, (File)" [ref=e649]:
+                      - generic [ref=e650]:
+                        - img [ref=e651]
+                        - link "docker-compose-full.yml, (File)" [ref=e656] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/docker-compose-full.yml
+                          - text: docker-compose-full.yml
+                    - 'cell "📝 docs(makefile): update make env references to make base" [ref=e657]':
+                      - 'link "📝 docs(makefile): update make env references to make base" [ref=e660] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/6aea7ae9ed94c401bc10903c2c615d0df95103ec
+                        - text: "📝 docs(makefile): update"
+                        - code [ref=e661]: make env
+                        - text: references to
+                        - code [ref=e662]: make base
+                    - cell "Mar 17, 2026last month" [ref=e663]:
+                      - generic [ref=e664]: Mar 17, 2026last month
+                  - 'row "docker-compose.yml, (File) refactor: improve Docker restart policy and compose healthcheck config Mar 13, 2026last month" [ref=e665]':
+                    - cell "docker-compose.yml, (File)" [ref=e666]:
+                      - generic [ref=e667]:
+                        - img [ref=e668]
+                        - link "docker-compose.yml, (File)" [ref=e673] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/docker-compose.yml
+                          - text: docker-compose.yml
+                    - 'cell "refactor: improve Docker restart policy and compose healthcheck config" [ref=e674]':
+                      - 'link "refactor: improve Docker restart policy and compose healthcheck config" [ref=e677] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/c9979f98e2a4a7dae34b8197eab54b64b6789d08
+                    - cell "Mar 13, 2026last month" [ref=e678]:
+                      - generic [ref=e679]: Mar 13, 2026last month
+                  - 'row "env.example, (File) 🔧 chore(env): update postgres max connections default value Mar 30, 20262 weeks ago" [ref=e680]':
+                    - cell "env.example, (File)" [ref=e681]:
+                      - generic [ref=e682]:
+                        - img [ref=e683]
+                        - link "env.example, (File)" [ref=e688] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/env.example
+                          - text: env.example
+                    - 'cell "🔧 chore(env): update postgres max connections default value" [ref=e689]':
+                      - 'link "🔧 chore(env): update postgres max connections default value" [ref=e692] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/3ed6e12ea1aff58b3ee3311b5eb4f399c79faf00
+                    - cell "Mar 30, 20262 weeks ago" [ref=e693]:
+                      - generic [ref=e694]: Mar 30, 20262 weeks ago
+                  - row "lightrag.service.example, (File) Refactor systemd service config to use environment variables Oct 29, 20256 months ago" [ref=e695]:
+                    - cell "lightrag.service.example, (File)" [ref=e696]:
+                      - generic [ref=e697]:
+                        - img [ref=e698]
+                        - link "lightrag.service.example, (File)" [ref=e703] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/lightrag.service.example
+                          - text: lightrag.service.example
+                    - cell "Refactor systemd service config to use environment variables" [ref=e704]:
+                      - link "Refactor systemd service config to use environment variables" [ref=e707] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/0fa2fc9cabafbb07b6410e794d59d01e65747805
+                    - cell "Oct 29, 20256 months ago" [ref=e708]:
+                      - generic [ref=e709]: Oct 29, 20256 months ago
+                  - 'row "pyproject.toml, (File) Refac: Centralizes version management in dedicated module Mar 26, 20262 weeks ago" [ref=e710]':
+                    - cell "pyproject.toml, (File)" [ref=e711]:
+                      - generic [ref=e712]:
+                        - img [ref=e713]
+                        - link "pyproject.toml, (File)" [ref=e718] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "Refac: Centralizes version management in dedicated module" [ref=e719]':
+                      - 'link "Refac: Centralizes version management in dedicated module" [ref=e722] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/8a39a1de184e5e6546fec56cea443e01591f4060
+                    - cell "Mar 26, 20262 weeks ago" [ref=e723]:
+                      - generic [ref=e724]: Mar 26, 20262 weeks ago
+                  - row "requirements-offline-llm.txt, (File) Bump llama-index to 0.14.0 for OpenAI 2.x compatibility Dec 26, 20254 months ago" [ref=e725]:
+                    - cell "requirements-offline-llm.txt, (File)" [ref=e726]:
+                      - generic [ref=e727]:
+                        - img [ref=e728]
+                        - link "requirements-offline-llm.txt, (File)" [ref=e733] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/requirements-offline-llm.txt
+                          - text: requirements-offline-llm.txt
+                    - cell "Bump llama-index to 0.14.0 for OpenAI 2.x compatibility" [ref=e734]:
+                      - link "Bump llama-index to 0.14.0 for OpenAI 2.x compatibility" [ref=e737] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/5f7a0256000419d329e064753f1611f6ab934d1c
+                    - cell "Dec 26, 20254 months ago" [ref=e738]:
+                      - generic [ref=e739]: Dec 26, 20254 months ago
+                  - row "requirements-offline-storage.txt, (File) Fix linting Mar 21, 20263 weeks ago" [ref=e740]:
+                    - cell "requirements-offline-storage.txt, (File)" [ref=e741]:
+                      - generic [ref=e742]:
+                        - img [ref=e743]
+                        - link "requirements-offline-storage.txt, (File)" [ref=e748] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/requirements-offline-storage.txt
+                          - text: requirements-offline-storage.txt
+                    - cell "Fix linting" [ref=e749]:
+                      - link "Fix linting" [ref=e752] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/01bb87a9a00d306501602e371c7700505560d775
+                    - cell "Mar 21, 20263 weeks ago" [ref=e753]:
+                      - generic [ref=e754]: Mar 21, 20263 weeks ago
+                  - 'row "requirements-offline.txt, (File) 🛡️ Sentinel: Fix linting and formatting in password hashing implement… Mar 21, 20263 weeks ago" [ref=e755]':
+                    - cell "requirements-offline.txt, (File)" [ref=e756]:
+                      - generic [ref=e757]:
+                        - img [ref=e758]
+                        - link "requirements-offline.txt, (File)" [ref=e763] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/requirements-offline.txt
+                          - text: requirements-offline.txt
+                    - 'cell "🛡️ Sentinel: Fix linting and formatting in password hashing implement…" [ref=e764]':
+                      - 'link "🛡️ Sentinel: Fix linting and formatting in password hashing implement…" [ref=e767] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/454fcebfcca9b6e9a8c9cbde0295ba7dd44f3af6
+                    - cell "Mar 21, 20263 weeks ago" [ref=e768]:
+                      - generic [ref=e769]: Mar 21, 20263 weeks ago
+                  - row "setup.py, (File) Refactor setup.py to utilize pyproject.toml for project installat… Jul 5, 20259 months ago" [ref=e770]:
+                    - cell "setup.py, (File)" [ref=e771]:
+                      - generic [ref=e772]:
+                        - img [ref=e773]
+                        - link "setup.py, (File)" [ref=e778] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/setup.py
+                          - text: setup.py
+                    - cell "Refactor setup.py to utilize pyproject.toml for project installat…" [ref=e779]:
+                      - link "Refactor setup.py to utilize pyproject.toml for project installat…" [ref=e782] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/commit/2e2b9f3b4831bbb4f45b063f3a807cf523c98dc0
+                        - text: Refactor
+                        - code [ref=e783]: setup.py
+                        - text: to utilize
+                        - code [ref=e784]: pyproject.toml
+                        - text: for project installat…
+                    - cell "Jul 5, 20259 months ago" [ref=e785]:
+                      - generic [ref=e786]: Jul 5, 20259 months ago
+                  - 'row "uv.lock, (File) refactor(opensearch): replace get() with mget() for not-found handling Mar 14, 2026last month" [ref=e787]':
+                    - cell "uv.lock, (File)" [ref=e788]:
+                      - generic [ref=e789]:
+                        - img [ref=e790]
+                        - link "uv.lock, (File)" [ref=e795] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/uv.lock
+                          - text: uv.lock
+                    - 'cell "refactor(opensearch): replace get() with mget() for not-found handling" [ref=e796]':
+                      - 'link "refactor(opensearch): replace get() with mget() for not-found handling" [ref=e799] [cursor=pointer]':
+                        - /url: /HKUDS/LightRAG/commit/016d4192affeccddbcf85c03cce19ffdc00bdbb2
+                    - cell "Mar 14, 2026last month" [ref=e800]:
+                      - generic [ref=e801]: Mar 14, 2026last month
+            - generic [ref=e803]:
+              - generic [ref=e804]:
+                - heading "Repository files navigation" [level=2] [ref=e805]
+                - navigation "Repository files" [ref=e806]:
+                  - list [ref=e807]:
+                    - listitem [ref=e808]:
+                      - link "README" [ref=e809] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e811]
+                        - generic [ref=e813]: README
+                    - listitem [ref=e814]:
+                      - link "Contributing" [ref=e815] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e817]
+                        - generic [ref=e819]: Contributing
+                    - listitem [ref=e820]:
+                      - link "MIT license" [ref=e821] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e823]
+                        - generic [ref=e825]: MIT license
+                    - listitem [ref=e826]:
+                      - link "Security" [ref=e827] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e829]
+                        - generic [ref=e831]: Security
+                - button "Outline" [ref=e832] [cursor=pointer]:
+                  - img [ref=e833]
+              - article [ref=e836]:
+                - generic [ref=e837]:
+                  - link "LightRAG Logo" [ref=e839] [cursor=pointer]:
+                    - /url: /HKUDS/LightRAG/blob/main/assets/logo.png
+                    - img "LightRAG Logo" [ref=e840]
+                  - generic [ref=e841]:
+                    - 'heading "🚀 LightRAG: Simple and Fast Retrieval-Augmented Generation" [level=1] [ref=e842]'
+                    - 'link "Permalink: 🚀 LightRAG: Simple and Fast Retrieval-Augmented Generation" [ref=e843] [cursor=pointer]':
+                      - /url: "#-lightrag-simple-and-fast-retrieval-augmented-generation"
+                      - img [ref=e844]
+                  - link "HKUDS%2FLightRAG | Trendshift" [ref=e847] [cursor=pointer]:
+                    - /url: https://trendshift.io/repositories/13043
+                    - img "HKUDS%2FLightRAG | Trendshift" [ref=e848]
+                  - generic [ref=e850]:
+                    - paragraph [ref=e851]:
+                      - link [ref=e852] [cursor=pointer]:
+                        - /url: https://github.com/HKUDS/LightRAG
+                        - img [ref=e853]
+                      - link [ref=e854] [cursor=pointer]:
+                        - /url: https://arxiv.org/abs/2410.05779
+                        - img [ref=e855]
+                      - link [ref=e856] [cursor=pointer]:
+                        - /url: https://github.com/HKUDS/LightRAG/stargazers
+                        - img [ref=e857]
+                    - paragraph [ref=e858]:
+                      - link [ref=e859] [cursor=pointer]:
+                        - /url: https://camo.githubusercontent.com/21597bf364600b5cd1ff1c924de84c2b16d9b5ab0be13b18ccc4a70f7c2b7e77/68747470733a2f2f696d672e736869656c64732e696f2f62616467652ff09f908d507974686f6e2d332e31302d3465636463343f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465266c6162656c436f6c6f723d316131613265
+                        - img [ref=e860]
+                      - link [ref=e861] [cursor=pointer]:
+                        - /url: https://pypi.org/project/lightrag-hku/
+                        - img [ref=e862]
+                    - paragraph [ref=e863]:
+                      - link [ref=e864] [cursor=pointer]:
+                        - /url: https://discord.gg/yF2MmDJyGJ
+                        - img [ref=e865]
+                      - link [ref=e866] [cursor=pointer]:
+                        - /url: https://github.com/HKUDS/LightRAG/issues/285
+                        - img [ref=e867]
+                    - paragraph [ref=e868]:
+                      - link [ref=e869] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/blob/main/README-zh.md
+                        - img [ref=e870]
+                      - link [ref=e871] [cursor=pointer]:
+                        - /url: /HKUDS/LightRAG/blob/main/README.md
+                        - img [ref=e872]
+                    - paragraph [ref=e873]:
+                      - link [ref=e874] [cursor=pointer]:
+                        - /url: https://pepy.tech/projects/lightrag-hku
+                        - img [ref=e875]
+                - link [ref=e878] [cursor=pointer]:
+                  - /url: https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif
+                  - img [ref=e879]
+                - link "LightRAG Diagram" [ref=e881] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/blob/main/README.assets/b2aaf634151b4706892693ffb43d9093.png
+                  - img "LightRAG Diagram" [ref=e882]
+                - separator [ref=e883]
+                - table [ref=e886]:
+                  - rowgroup [ref=e887]:
+                    - row "LiteWrite" [ref=e888]:
+                      - cell "LiteWrite" [ref=e889]:
+                        - link "LiteWrite" [ref=e890] [cursor=pointer]:
+                          - /url: /HKUDS/LightRAG/blob/main/assets/LiteWrite.png
+                          - img "LiteWrite" [ref=e891]
+                      - cell [ref=e892]:
+                        - link [ref=e893] [cursor=pointer]:
+                          - /url: https://litewrite.ai
+                          - img [ref=e894]
+                - separator [ref=e895]
+                - generic [ref=e896]:
+                  - heading "🎉 News" [level=2] [ref=e897]
+                  - 'link "Permalink: 🎉 News" [ref=e898] [cursor=pointer]':
+                    - /url: "#-news"
+                    - img [ref=e899]
+                - list [ref=e901]:
+                  - listitem [ref=e902]:
+                    - text: "[2026.03]🎯[New Feature]: Integrated"
+                    - strong [ref=e903]: OpenSearch
+                    - text: as a unified storage backend, providing comprehensive support for all four LightRAG storage.
+                  - listitem [ref=e904]: "[2026.03]🎯[New Feature]: Introduced a setup wizard. Support for local deployment of embedding, reranking, and storage backends via Docker."
+                  - listitem [ref=e905]:
+                    - text: "[2025.11]🎯[New Feature]: Integrated"
+                    - strong [ref=e906]: RAGAS for Evaluation
+                    - text: and
+                    - strong [ref=e907]: Langfuse for Tracing
+                    - text: . Updated the API to return retrieved contexts alongside query results to support context precision metrics.
+                  - listitem [ref=e908]:
+                    - text: "[2025.10]🎯[Scalability Enhancement]: Eliminated processing bottlenecks to support"
+                    - strong [ref=e909]: Large-Scale Datasets Efficiently
+                    - text: .
+                  - listitem [ref=e910]:
+                    - text: "[2025.09]🎯[New Feature] Enhances knowledge graph extraction accuracy for"
+                    - strong [ref=e911]: Open-Sourced LLMs
+                    - text: such as Qwen3-30B-A3B.
+                  - listitem [ref=e912]:
+                    - text: "[2025.08]🎯[New Feature]"
+                    - strong [ref=e913]: Reranker
+                    - text: is now supported, significantly boosting performance for mixed queries (set as default query mode).
+                  - listitem [ref=e914]:
+                    - text: "[2025.08]🎯[New Feature] Added"
+                    - strong [ref=e915]: Document Deletion
+                    - text: with automatic KG regeneration to ensure optimal query performance.
+                  - listitem [ref=e916]:
+                    - text: "[2025.06]🎯[New Release] Our team has released"
+                    - link "RAG-Anything" [ref=e917] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/RAG-Anything
+                    - text: — an
+                    - strong [ref=e918]: All-in-One Multimodal RAG
+                    - text: system for seamless processing of text, images, tables, and equations.
+                  - listitem [ref=e919]:
+                    - text: "[2025.06]🎯[New Feature] LightRAG now supports comprehensive multimodal data handling through"
+                    - link "RAG-Anything" [ref=e920] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/RAG-Anything
+                    - text: integration, enabling seamless document parsing and RAG capabilities across diverse formats including PDFs, images, Office documents, tables, and formulas. Please refer to the new
+                    - link "multimodal section" [ref=e921] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/LightRAG/?tab=readme-ov-file#multimodal-document-processing-rag-anything-integration
+                    - text: for details.
+                  - listitem [ref=e922]: "[2025.03]🎯[New Feature] LightRAG now supports citation functionality, enabling proper source attribution and enhanced document traceability."
+                  - listitem [ref=e923]: "[2025.02]🎯[New Feature] You can now use MongoDB as an all-in-one storage solution for unified data management."
+                  - listitem [ref=e924]:
+                    - text: "[2025.02]🎯[New Release] Our team has released"
+                    - link "VideoRAG" [ref=e925] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/VideoRAG
+                    - text: "-a RAG system for understanding extremely long-context videos"
+                  - listitem [ref=e926]:
+                    - text: "[2025.01]🎯[New Release] Our team has released"
+                    - link "MiniRAG" [ref=e927] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/MiniRAG
+                    - text: making RAG simpler with small models.
+                  - listitem [ref=e928]: "[2025.01]🎯You can now use PostgreSQL as an all-in-one storage solution for data management."
+                  - listitem [ref=e929]:
+                    - text: "[2024.11]🎯[New Resource] A comprehensive guide to LightRAG is now available on"
+                    - link "LearnOpenCV" [ref=e930] [cursor=pointer]:
+                      - /url: https://learnopencv.com/lightrag
+                    - text: . — explore in-depth tutorials and best practices. Many thanks to the blog author for this excellent contribution!
+                  - listitem [ref=e931]: "[2024.11]🎯[New Feature] Introducing the LightRAG WebUI — an interface that allows you to insert, query, and visualize LightRAG knowledge through an intuitive web-based dashboard."
+                  - listitem [ref=e932]:
+                    - text: "[2024.11]🎯[New Feature] You can now"
+                    - link "use Neo4J for Storage" [ref=e933] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/LightRAG?tab=readme-ov-file#using-neo4j-for-storage
+                    - text: "-enabling graph database support."
+                  - listitem [ref=e934]:
+                    - text: "[2024.10]🎯[New Feature] We've added a link to a"
+                    - link "LightRAG Introduction Video" [ref=e935] [cursor=pointer]:
+                      - /url: https://youtu.be/oageL-1I0GE
+                    - text: . — a walkthrough of LightRAG's capabilities. Thanks to the author for this excellent contribution!
+                  - listitem [ref=e936]:
+                    - text: "[2024.10]🎯[New Channel] We have created a"
+                    - link "Discord channel" [ref=e937] [cursor=pointer]:
+                      - /url: https://discord.gg/yF2MmDJyGJ
+                    - text: "!💬 Welcome to join our community for sharing, discussions, and collaboration! 🎉🎉"
+                - group [ref=e938]:
+                  - generic "Algorithm Flowchart" [ref=e939] [cursor=pointer]
+                - generic [ref=e940]:
+                  - heading "Installation" [level=2] [ref=e941]
+                  - 'link "Permalink: Installation" [ref=e942] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e943]
+                - paragraph [ref=e945]:
+                  - strong [ref=e946]: 💡 Using uv for Package Management
+                  - text: ": This project uses"
+                  - link "uv" [ref=e947] [cursor=pointer]:
+                    - /url: https://docs.astral.sh/uv/
+                  - text: "for fast and reliable Python package management. Install uv first:"
+                  - code [ref=e948]: curl -LsSf https://astral.sh/uv/install.sh | sh
+                  - text: (Unix/macOS) or
+                  - code [ref=e949]: powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+                  - text: (Windows)
+                - blockquote [ref=e950]:
+                  - paragraph [ref=e951]:
+                    - strong [ref=e952]: Note
+                    - text: ": You can also use pip if you prefer, but uv is recommended for better performance and more reliable dependency management."
+                  - paragraph [ref=e953]:
+                    - strong [ref=e954]: 📦 Offline Deployment
+                    - text: ": For offline or air-gapped environments, see the"
+                    - link "Offline Deployment Guide" [ref=e955] [cursor=pointer]:
+                      - /url: /HKUDS/LightRAG/blob/main/docs/OfflineDeployment.md
+                    - text: for instructions on pre-installing all dependencies and cache files.
+                - generic [ref=e956]:
+                  - heading "Install LightRAG Server" [level=3] [ref=e957]
+                  - 'link "Permalink: Install LightRAG Server" [ref=e958] [cursor=pointer]':
+                    - /url: "#install-lightrag-server"
+                    - img [ref=e959]
+                - paragraph [ref=e961]: The LightRAG Server is designed to provide Web UI and API support. The Web UI facilitates document indexing, knowledge graph exploration, and a simple RAG query interface. LightRAG Server also provide an Ollama compatible interfaces, aiming to emulate LightRAG as an Ollama chat model. This allows AI chat bot, such as Open WebUI, to access LightRAG easily.
+                - list [ref=e962]:
+                  - listitem [ref=e963]: Install from PyPI
+                - generic [ref=e964]:
+                  - generic [ref=e965]:
+                    - generic [ref=e966]: "### Install LightRAG Server as tool using uv (recommended)"
+                    - text: uv tool install
+                    - generic [ref=e967]: "\"lightrag-hku[api]\""
+                    - generic [ref=e968]: "### Or using pip"
+                    - generic [ref=e969]: "# python -m venv .venv"
+                    - generic [ref=e970]: "# source .venv/bin/activate # Windows: .venv\\Scripts\\activate"
+                    - generic [ref=e971]: "# pip install \"lightrag-hku[api]\""
+                    - generic [ref=e972]: "### Build front-end artifacts"
+                    - text: cd lightrag_webui bun install --frozen-lockfile bun run build cd ..
+                    - generic [ref=e973]: "# Setup env file"
+                    - generic [ref=e974]: "# Obtain the env.example file by downloading it from the GitHub repository root"
+                    - generic [ref=e975]: "# or by copying it from a local source checkout."
+                    - text: cp env.example .env
+                    - generic [ref=e976]: "# Update the .env with your LLM and embedding configurations"
+                    - generic [ref=e977]: "# Launch the server"
+                    - text: lightrag-server
+                  - button "Copy" [ref=e979] [cursor=pointer]:
+                    - img [ref=e980]
+                - list [ref=e983]:
+                  - listitem [ref=e984]: Installation from Source
+                - generic [ref=e985]:
+                  - generic [ref=e986]:
+                    - text: git clone https://github.com/HKUDS/LightRAG.git cd LightRAG
+                    - generic [ref=e987]: "# Bootstrap the development environment (recommended)"
+                    - text: make dev source .venv/bin/activate
+                    - generic [ref=e988]: "# Activate the virtual environment (Linux/macOS)"
+                    - generic [ref=e989]: "# Or on Windows: .venv\\Scripts\\activate"
+                    - generic [ref=e990]: "# make dev installs the test toolchain plus the full offline stack"
+                    - generic [ref=e991]: "# (API, storage backends, and provider integrations), then builds the frontend."
+                    - generic [ref=e992]: "# Run make env-base or copy env.example to .env before starting the server."
+                    - generic [ref=e993]: "# Equivalent manual steps with uv"
+                    - generic [ref=e994]: "# Note: uv sync automatically creates a virtual environment in .venv/"
+                    - text: uv sync --extra test --extra offline source .venv/bin/activate
+                    - generic [ref=e995]: "# Activate the virtual environment (Linux/macOS)"
+                    - generic [ref=e996]: "# Or on Windows: .venv\\Scripts\\activate"
+                    - generic [ref=e997]: "### Or using pip with virtual environment"
+                    - generic [ref=e998]: "# python -m venv .venv"
+                    - generic [ref=e999]: "# source .venv/bin/activate # Windows: .venv\\Scripts\\activate"
+                    - generic [ref=e1000]: "# pip install -e \".[test,offline]\""
+                    - generic [ref=e1001]: "# Build front-end artifacts"
+                    - text: cd lightrag_webui bun install --frozen-lockfile bun run build cd ..
+                    - generic [ref=e1002]: "# setup env file"
+                    - text: make env-base
+                    - generic [ref=e1003]: "# Or: cp env.example .env and update it manually"
+                    - generic [ref=e1004]: "# Launch API-WebUI server"
+                    - text: lightrag-server
+                  - button "Copy" [ref=e1006] [cursor=pointer]:
+                    - img [ref=e1007]
+                - list [ref=e1010]:
+                  - listitem [ref=e1011]: Launching the LightRAG Server with Docker Compose
+                - generic [ref=e1012]:
+                  - generic [ref=e1013]:
+                    - text: git clone https://github.com/HKUDS/LightRAG.git cd LightRAG cp env.example .env
+                    - generic [ref=e1014]: "# Update the .env with your LLM and embedding configurations"
+                    - generic [ref=e1015]: "# modify LLM and Embedding settings in .env"
+                    - text: docker compose up
+                  - button "Copy" [ref=e1017] [cursor=pointer]:
+                    - img [ref=e1018]
+                - blockquote [ref=e1021]:
+                  - paragraph [ref=e1022]:
+                    - text: "Historical versions of LightRAG docker images can be found here:"
+                    - link "LightRAG Docker Images" [ref=e1023] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/LightRAG/pkgs/container/lightrag
+                - generic [ref=e1024]:
+                  - heading "Create .env File With Setup Tool" [level=3] [ref=e1025]
+                  - 'link "Permalink: Create .env File With Setup Tool" [ref=e1026] [cursor=pointer]':
+                    - /url: "#create-env-file-with-setup-tool"
+                    - img [ref=e1027]
+                - paragraph [ref=e1029]:
+                  - text: Instead of editing
+                  - code [ref=e1030]: env.example
+                  - text: by hand, use the interactive setup wizard to generate a configured
+                  - code [ref=e1031]: .env
+                  - text: and, when needed,
+                  - code [ref=e1032]: docker-compose.final.yml
+                  - text: ":"
+                - generic [ref=e1033]:
+                  - generic [ref=e1034]:
+                    - text: make env-base
+                    - generic [ref=e1035]: "# Required first step: LLM, embedding, reranker"
+                    - text: make env-storage
+                    - generic [ref=e1036]: "# Optional: storage backends and database services"
+                    - text: make env-server
+                    - generic [ref=e1037]: "# Optional: server port, auth, and SSL"
+                    - text: make env-base-rewrite
+                    - generic [ref=e1038]: "# Optional: force-regenerate wizard-managed compose services"
+                    - text: make env-storage-rewrite
+                    - generic [ref=e1039]: "# Optional: force-regenerate wizard-managed compose services"
+                    - text: make env-security-check
+                    - generic [ref=e1040]: "# Optional: audit the current .env for security risks"
+                  - button "Copy" [ref=e1042] [cursor=pointer]:
+                    - img [ref=e1043]
+                - paragraph [ref=e1046]:
+                  - text: For full description of every target see
+                  - link "docs/InteractiveSetup.md" [ref=e1047] [cursor=pointer]:
+                    - /url: /HKUDS/LightRAG/blob/main/docs/InteractiveSetup.md
+                  - text: . The setup wizards update configuration only; run
+                  - code [ref=e1048]: make env-security-check
+                  - text: separately to audit the current
+                  - code [ref=e1049]: .env
+                  - text: for security risks before deployment. By default, rerunning the setup preserves unchanged wizard-managed compose service blocks; use a
+                  - code [ref=e1050]: "*-rewrite"
+                  - text: target only when you need to rebuild those managed blocks from the bundled templates.
+                - generic [ref=e1051]:
+                  - heading "Install LightRAG Core" [level=3] [ref=e1052]
+                  - 'link "Permalink: Install LightRAG Core" [ref=e1053] [cursor=pointer]':
+                    - /url: "#install--lightrag-core"
+                    - img [ref=e1054]
+                - list [ref=e1056]:
+                  - listitem [ref=e1057]: Install from source (Recommended)
+                - generic [ref=e1058]:
+                  - generic [ref=e1059]:
+                    - text: cd LightRAG
+                    - generic [ref=e1060]: "# Note: uv sync automatically creates a virtual environment in .venv/"
+                    - text: uv sync source .venv/bin/activate
+                    - generic [ref=e1061]: "# Activate the virtual environment (Linux/macOS)"
+                    - generic [ref=e1062]: "# Or on Windows: .venv\\Scripts\\activate"
+                    - generic [ref=e1063]: "# Or: pip install -e ."
+                  - button "Copy" [ref=e1065] [cursor=pointer]:
+                    - img [ref=e1066]
+                - list [ref=e1069]:
+                  - listitem [ref=e1070]: Install from PyPI
+                - generic [ref=e1071]:
+                  - generic [ref=e1072]:
+                    - text: uv pip install lightrag-hku
+                    - generic [ref=e1073]: "# Or: pip install lightrag-hku"
+                  - button "Copy" [ref=e1075] [cursor=pointer]:
+                    - img [ref=e1076]
+                - generic [ref=e1079]:
+                  - heading "Quick Start" [level=2] [ref=e1080]
+                  - 'link "Permalink: Quick Start" [ref=e1081] [cursor=pointer]':
+                    - /url: "#quick-start"
+                    - img [ref=e1082]
+                - generic [ref=e1084]:
+                  - heading "LLM and Technology Stack Requirements for LightRAG" [level=3] [ref=e1085]
+                  - 'link "Permalink: LLM and Technology Stack Requirements for LightRAG" [ref=e1086] [cursor=pointer]':
+                    - /url: "#llm-and-technology-stack-requirements-for-lightrag"
+                    - img [ref=e1087]
+                - paragraph [ref=e1089]: LightRAG's demands on the capabilities of Large Language Models (LLMs) are significantly higher than those of traditional RAG, as it requires the LLM to perform entity-relationship extraction tasks from documents. Configuring appropriate Embedding and Reranker models is also crucial for improving query performance.
+                - list [ref=e1090]:
+                  - listitem [ref=e1091]:
+                    - strong [ref=e1092]: LLM Selection
+                    - text: ":"
+                    - list [ref=e1093]:
+                      - listitem [ref=e1094]: It is recommended to use an LLM with at least 32 billion parameters.
+                      - listitem [ref=e1095]: The context length should be at least 32KB, with 64KB being recommended.
+                      - listitem [ref=e1096]: It is not recommended to choose reasoning models during the document indexing stage.
+                      - listitem [ref=e1097]: During the query stage, it is recommended to choose models with stronger capabilities than those used in the indexing stage to achieve better query results.
+                  - listitem [ref=e1098]:
+                    - strong [ref=e1099]: Embedding Model
+                    - text: ":"
+                    - list [ref=e1100]:
+                      - listitem [ref=e1101]: A high-performance Embedding model is essential for RAG.
+                      - listitem [ref=e1102]:
+                        - text: "We recommend using mainstream multilingual Embedding models, such as:"
+                        - code [ref=e1103]: BAAI/bge-m3
+                        - text: and
+                        - code [ref=e1104]: text-embedding-3-large
+                        - text: .
+                      - listitem [ref=e1105]:
+                        - strong [ref=e1106]: Important Note
+                        - text: ": The Embedding model must be determined before document indexing, and the same model must be used during the document query phase. For certain storage solutions (e.g., PostgreSQL), the vector dimension must be defined upon initial table creation. Therefore, when changing embedding models, it is necessary to delete the existing vector-related tables and allow LightRAG to recreate them with the new dimensions."
+                  - listitem [ref=e1107]:
+                    - strong [ref=e1108]: Reranker Model Configuration
+                    - text: ":"
+                    - list [ref=e1109]:
+                      - listitem [ref=e1110]: Configuring a Reranker model can significantly enhance LightRAG's retrieval performance.
+                      - listitem [ref=e1111]: When a Reranker model is enabled, it is recommended to set the "mix mode" as the default query mode.
+                      - listitem [ref=e1112]:
+                        - text: "We recommend using mainstream Reranker models, such as:"
+                        - code [ref=e1113]: BAAI/bge-reranker-v2-m3
+                        - text: or models provided by services like Jina.
+                - generic [ref=e1114]:
+                  - heading "Quick Start for LightRAG Server" [level=3] [ref=e1115]
+                  - 'link "Permalink: Quick Start for LightRAG Server" [ref=e1116] [cursor=pointer]':
+                    - /url: "#quick-start-for-lightrag-server"
+                    - img [ref=e1117]
+                - paragraph [ref=e1119]:
+                  - text: The LightRAG Server is designed to provide Web UI and API support. The LightRAG Server offers a comprehensive knowledge graph visualization feature. It supports various gravity layouts, node queries, subgraph filtering, and more. For more information about LightRAG Server, please refer to
+                  - link "LightRAG Server" [ref=e1120] [cursor=pointer]:
+                    - /url: /HKUDS/LightRAG/blob/main/docs/LightRAG-API-Server.md
+                  - text: .
+                - paragraph [ref=e1121]:
+                  - link "iShot_2025-03-23_12.40.08" [ref=e1122] [cursor=pointer]:
+                    - /url: /HKUDS/LightRAG/blob/main/README.assets/iShot_2025-03-23_12.40.08.png
+                    - img "iShot_2025-03-23_12.40.08" [ref=e1123]
+                - generic [ref=e1124]:
+                  - heading "Quick Start for LightRAG core" [level=3] [ref=e1125]
+                  - 'link "Permalink: Quick Start for LightRAG core" [ref=e1126] [cursor=pointer]':
+                    - /url: "#quick-start-for-lightrag-core"
+                    - img [ref=e1127]
+                - paragraph [ref=e1129]:
+                  - text: To get started with LightRAG core, refer to the sample codes available in the
+                  - code [ref=e1130]: examples
+                  - text: folder. Additionally, a
+                  - link "video demo" [ref=e1131] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=g21royNJ4fw
+                  - text: "demonstration is provided to guide you through the local setup process. If you already possess an OpenAI API key, you can run the demo right away:"
+                - generic [ref=e1132]:
+                  - generic [ref=e1133]:
+                    - generic [ref=e1134]: "### you should run the demo code with project folder"
+                    - text: cd LightRAG
+                    - generic [ref=e1135]: "### provide your API-KEY for OpenAI"
+                    - text: export OPENAI_API_KEY=
+                    - generic [ref=e1136]: "\"sk-...your_opeai_key...\""
+                    - generic [ref=e1137]: "### download the demo document of \"A Christmas Carol\" by Charles Dickens"
+                    - text: curl https://raw.githubusercontent.com/gusye1234/nano-graphrag/main/tests/mock_data.txt > ./book.txt
+                    - generic [ref=e1138]: "### run the demo code"
+                    - text: python examples/lightrag_openai_demo.py
+                  - button "Copy" [ref=e1140] [cursor=pointer]:
+                    - img [ref=e1141]
+                - paragraph [ref=e1144]:
+                  - text: For a streaming response implementation example, please see
+                  - code [ref=e1145]: examples/lightrag_openai_compatible_demo.py
+                  - text: . Prior to execution, ensure you modify the sample code's LLM and embedding configurations accordingly.
+                - paragraph [ref=e1146]:
+                  - strong [ref=e1147]: Note 1
+                  - text: ": When running the demo program, please be aware that different test scripts may use different embedding models. If you switch to a different embedding model, you must clear the data directory ("
+                  - code [ref=e1148]: ./dickens
+                  - text: ); otherwise, the program may encounter errors. If you wish to retain the LLM cache, you can preserve the
+                  - code [ref=e1149]: kv_store_llm_response_cache.json
+                  - text: file while clearing the data directory.
+                - paragraph [ref=e1150]:
+                  - strong [ref=e1151]: Note 2
+                  - text: ": Only"
+                  - code [ref=e1152]: lightrag_openai_demo.py
+                  - text: and
+                  - code [ref=e1153]: lightrag_openai_compatible_demo.py
+                  - text: are officially supported sample codes. Other sample files are community contributions that haven't undergone full testing and optimization.
+                - generic [ref=e1154]:
+                  - heading "Programming with LightRAG Core" [level=2] [ref=e1155]
+                  - 'link "Permalink: Programming with LightRAG Core" [ref=e1156] [cursor=pointer]':
+                    - /url: "#programming-with-lightrag-core"
+                    - img [ref=e1157]
+                - paragraph [ref=e1159]:
+                  - text: For the complete Core API reference — including init parameters,
+                  - code [ref=e1160]: QueryParam
+                  - text: ", LLM/embedding provider examples (OpenAI, Ollama, Azure, Gemini, HuggingFace, LlamaIndex), reranker injection, insert operations, entity/relation management, and delete/merge — see"
+                  - strong [ref=e1161]:
+                    - link "docs/ProgramingWithCore.md" [ref=e1162] [cursor=pointer]:
+                      - /url: /HKUDS/LightRAG/blob/main/docs/ProgramingWithCore.md
+                  - text: .
+                - blockquote [ref=e1163]:
+                  - paragraph [ref=e1164]:
+                    - generic [ref=e1165]: ⚠️
+                    - strong [ref=e1166]: If you would like to integrate LightRAG into your project, we recommend utilizing the REST API provided by the LightRAG Server
+                    - text: . LightRAG Core is typically intended for embedded applications or for researchers who wish to conduct studies and evaluations.
+                - generic [ref=e1167]:
+                  - heading "Advanced Features" [level=3] [ref=e1168]
+                  - 'link "Permalink: Advanced Features" [ref=e1169] [cursor=pointer]':
+                    - /url: "#advanced-features"
+                    - img [ref=e1170]
+                - paragraph [ref=e1172]:
+                  - text: LightRAG provides additional capabilities including token usage tracking, knowledge graph data export, LLM cache management, Langfuse observability integration, and RAGAS-based evaluation. See
+                  - strong [ref=e1173]:
+                    - link "docs/AdvancedFeatures.md" [ref=e1174] [cursor=pointer]:
+                      - /url: /HKUDS/LightRAG/blob/main/docs/AdvancedFeatures.md
+                  - text: .
+                - generic [ref=e1175]:
+                  - heading "Multimodal Document Processing (RAG-Anything Integration)" [level=3] [ref=e1176]
+                  - 'link "Permalink: Multimodal Document Processing (RAG-Anything Integration)" [ref=e1177] [cursor=pointer]':
+                    - /url: "#multimodal-document-processing-rag-anything-integration"
+                    - img [ref=e1178]
+                - paragraph [ref=e1180]:
+                  - text: LightRAG integrates with
+                  - link "RAG-Anything" [ref=e1181] [cursor=pointer]:
+                    - /url: https://github.com/HKUDS/RAG-Anything
+                  - text: for end-to-end multimodal RAG across PDFs, Office documents, images, tables, and formulas. For setup and usage examples, see
+                  - strong [ref=e1182]:
+                    - link "docs/AdvancedFeatures.md" [ref=e1183] [cursor=pointer]:
+                      - /url: /HKUDS/LightRAG/blob/main/docs/AdvancedFeatures.md
+                  - text: .
+                - blockquote [ref=e1184]:
+                  - paragraph [ref=e1185]: LightRAG Server will soon integrate RAG-Anything’s multimodal processing capabilities into its file processing pipeline. Stay tuned.
+                - generic [ref=e1186]:
+                  - heading "Replicating Findings in the Papper" [level=2] [ref=e1187]
+                  - 'link "Permalink: Replicating Findings in the Papper" [ref=e1188] [cursor=pointer]':
+                    - /url: "#replicating-findings-in-the-papper"
+                    - img [ref=e1189]
+                - paragraph [ref=e1191]:
+                  - text: LightRAG consistently outperforms NaiveRAG, RQ-RAG, HyDE, and GraphRAG across agriculture, computer science, legal, and mixed domains. For the full evaluation methodology, prompts, and reproduce steps, see
+                  - strong [ref=e1192]:
+                    - link "docs/Reproduce.md" [ref=e1193] [cursor=pointer]:
+                      - /url: /HKUDS/LightRAG/blob/main/docs/Reproduce.md
+                  - text: .
+                - paragraph [ref=e1194]:
+                  - strong [ref=e1195]: Overall Performance Table
+                - table [ref=e1197]:
+                  - rowgroup [ref=e1198]:
+                    - row "Agriculture CS Legal Mix" [ref=e1199]:
+                      - columnheader [ref=e1200]
+                      - columnheader "Agriculture" [ref=e1201]:
+                        - strong [ref=e1202]: Agriculture
+                      - columnheader [ref=e1203]
+                      - columnheader "CS" [ref=e1204]:
+                        - strong [ref=e1205]: CS
+                      - columnheader [ref=e1206]
+                      - columnheader "Legal" [ref=e1207]:
+                        - strong [ref=e1208]: Legal
+                      - columnheader [ref=e1209]
+                      - columnheader "Mix" [ref=e1210]:
+                        - strong [ref=e1211]: Mix
+                      - columnheader [ref=e1212]
+                  - rowgroup [ref=e1213]:
+                    - row "NaiveRAG LightRAG NaiveRAG LightRAG NaiveRAG LightRAG NaiveRAG LightRAG" [ref=e1214]:
+                      - cell [ref=e1215]
+                      - cell "NaiveRAG" [ref=e1216]
+                      - cell "LightRAG" [ref=e1217]:
+                        - strong [ref=e1218]: LightRAG
+                      - cell "NaiveRAG" [ref=e1219]
+                      - cell "LightRAG" [ref=e1220]:
+                        - strong [ref=e1221]: LightRAG
+                      - cell "NaiveRAG" [ref=e1222]
+                      - cell "LightRAG" [ref=e1223]:
+                        - strong [ref=e1224]: LightRAG
+                      - cell "NaiveRAG" [ref=e1225]
+                      - cell "LightRAG" [ref=e1226]:
+                        - strong [ref=e1227]: LightRAG
+                    - row "Comprehensiveness 32.4% 67.6% 38.4% 61.6% 16.4% 83.6% 38.8% 61.2%" [ref=e1228]:
+                      - cell "Comprehensiveness" [ref=e1229]:
+                        - strong [ref=e1230]: Comprehensiveness
+                      - cell "32.4%" [ref=e1231]
+                      - cell "67.6%" [ref=e1232]:
+                        - strong [ref=e1233]: 67.6%
+                      - cell "38.4%" [ref=e1234]
+                      - cell "61.6%" [ref=e1235]:
+                        - strong [ref=e1236]: 61.6%
+                      - cell "16.4%" [ref=e1237]
+                      - cell "83.6%" [ref=e1238]:
+                        - strong [ref=e1239]: 83.6%
+                      - cell "38.8%" [ref=e1240]
+                      - cell "61.2%" [ref=e1241]:
+                        - strong [ref=e1242]: 61.2%
+                    - row "Diversity 23.6% 76.4% 38.0% 62.0% 13.6% 86.4% 32.4% 67.6%" [ref=e1243]:
+                      - cell "Diversity" [ref=e1244]:
+                        - strong [ref=e1245]: Diversity
+                      - cell "23.6%" [ref=e1246]
+                      - cell "76.4%" [ref=e1247]:
+                        - strong [ref=e1248]: 76.4%
+                      - cell "38.0%" [ref=e1249]
+                      - cell "62.0%" [ref=e1250]:
+                        - strong [ref=e1251]: 62.0%
+                      - cell "13.6%" [ref=e1252]
+                      - cell "86.4%" [ref=e1253]:
+                        - strong [ref=e1254]: 86.4%
+                      - cell "32.4%" [ref=e1255]
+                      - cell "67.6%" [ref=e1256]:
+                        - strong [ref=e1257]: 67.6%
+                    - row "Empowerment 32.4% 67.6% 38.8% 61.2% 16.4% 83.6% 42.8% 57.2%" [ref=e1258]:
+                      - cell "Empowerment" [ref=e1259]:
+                        - strong [ref=e1260]: Empowerment
+                      - cell "32.4%" [ref=e1261]
+                      - cell "67.6%" [ref=e1262]:
+                        - strong [ref=e1263]: 67.6%
+                      - cell "38.8%" [ref=e1264]
+                      - cell "61.2%" [ref=e1265]:
+                        - strong [ref=e1266]: 61.2%
+                      - cell "16.4%" [ref=e1267]
+                      - cell "83.6%" [ref=e1268]:
+                        - strong [ref=e1269]: 83.6%
+                      - cell "42.8%" [ref=e1270]
+                      - cell "57.2%" [ref=e1271]:
+                        - strong [ref=e1272]: 57.2%
+                    - row "Overall 32.4% 67.6% 38.8% 61.2% 15.2% 84.8% 40.0% 60.0%" [ref=e1273]:
+                      - cell "Overall" [ref=e1274]:
+                        - strong [ref=e1275]: Overall
+                      - cell "32.4%" [ref=e1276]
+                      - cell "67.6%" [ref=e1277]:
+                        - strong [ref=e1278]: 67.6%
+                      - cell "38.8%" [ref=e1279]
+                      - cell "61.2%" [ref=e1280]:
+                        - strong [ref=e1281]: 61.2%
+                      - cell "15.2%" [ref=e1282]
+                      - cell "84.8%" [ref=e1283]:
+                        - strong [ref=e1284]: 84.8%
+                      - cell "40.0%" [ref=e1285]
+                      - cell "60.0%" [ref=e1286]:
+                        - strong [ref=e1287]: 60.0%
+                    - row "RQ-RAG LightRAG RQ-RAG LightRAG RQ-RAG LightRAG RQ-RAG LightRAG" [ref=e1288]:
+                      - cell [ref=e1289]
+                      - cell "RQ-RAG" [ref=e1290]
+                      - cell "LightRAG" [ref=e1291]:
+                        - strong [ref=e1292]: LightRAG
+                      - cell "RQ-RAG" [ref=e1293]
+                      - cell "LightRAG" [ref=e1294]:
+                        - strong [ref=e1295]: LightRAG
+                      - cell "RQ-RAG" [ref=e1296]
+                      - cell "LightRAG" [ref=e1297]:
+                        - strong [ref=e1298]: LightRAG
+                      - cell "RQ-RAG" [ref=e1299]
+                      - cell "LightRAG" [ref=e1300]:
+                        - strong [ref=e1301]: LightRAG
+                    - row "Comprehensiveness 31.6% 68.4% 38.8% 61.2% 15.2% 84.8% 39.2% 60.8%" [ref=e1302]:
+                      - cell "Comprehensiveness" [ref=e1303]:
+                        - strong [ref=e1304]: Comprehensiveness
+                      - cell "31.6%" [ref=e1305]
+                      - cell "68.4%" [ref=e1306]:
+                        - strong [ref=e1307]: 68.4%
+                      - cell "38.8%" [ref=e1308]
+                      - cell "61.2%" [ref=e1309]:
+                        - strong [ref=e1310]: 61.2%
+                      - cell "15.2%" [ref=e1311]
+                      - cell "84.8%" [ref=e1312]:
+                        - strong [ref=e1313]: 84.8%
+                      - cell "39.2%" [ref=e1314]
+                      - cell "60.8%" [ref=e1315]:
+                        - strong [ref=e1316]: 60.8%
+                    - row "Diversity 29.2% 70.8% 39.2% 60.8% 11.6% 88.4% 30.8% 69.2%" [ref=e1317]:
+                      - cell "Diversity" [ref=e1318]:
+                        - strong [ref=e1319]: Diversity
+                      - cell "29.2%" [ref=e1320]
+                      - cell "70.8%" [ref=e1321]:
+                        - strong [ref=e1322]: 70.8%
+                      - cell "39.2%" [ref=e1323]
+                      - cell "60.8%" [ref=e1324]:
+                        - strong [ref=e1325]: 60.8%
+                      - cell "11.6%" [ref=e1326]
+                      - cell "88.4%" [ref=e1327]:
+                        - strong [ref=e1328]: 88.4%
+                      - cell "30.8%" [ref=e1329]
+                      - cell "69.2%" [ref=e1330]:
+                        - strong [ref=e1331]: 69.2%
+                    - row "Empowerment 31.6% 68.4% 36.4% 63.6% 15.2% 84.8% 42.4% 57.6%" [ref=e1332]:
+                      - cell "Empowerment" [ref=e1333]:
+                        - strong [ref=e1334]: Empowerment
+                      - cell "31.6%" [ref=e1335]
+                      - cell "68.4%" [ref=e1336]:
+                        - strong [ref=e1337]: 68.4%
+                      - cell "36.4%" [ref=e1338]
+                      - cell "63.6%" [ref=e1339]:
+                        - strong [ref=e1340]: 63.6%
+                      - cell "15.2%" [ref=e1341]
+                      - cell "84.8%" [ref=e1342]:
+                        - strong [ref=e1343]: 84.8%
+                      - cell "42.4%" [ref=e1344]
+                      - cell "57.6%" [ref=e1345]:
+                        - strong [ref=e1346]: 57.6%
+                    - row "Overall 32.4% 67.6% 38.0% 62.0% 14.4% 85.6% 40.0% 60.0%" [ref=e1347]:
+                      - cell "Overall" [ref=e1348]:
+                        - strong [ref=e1349]: Overall
+                      - cell "32.4%" [ref=e1350]
+                      - cell "67.6%" [ref=e1351]:
+                        - strong [ref=e1352]: 67.6%
+                      - cell "38.0%" [ref=e1353]
+                      - cell "62.0%" [ref=e1354]:
+                        - strong [ref=e1355]: 62.0%
+                      - cell "14.4%" [ref=e1356]
+                      - cell "85.6%" [ref=e1357]:
+                        - strong [ref=e1358]: 85.6%
+                      - cell "40.0%" [ref=e1359]
+                      - cell "60.0%" [ref=e1360]:
+                        - strong [ref=e1361]: 60.0%
+                    - row "HyDE LightRAG HyDE LightRAG HyDE LightRAG HyDE LightRAG" [ref=e1362]:
+                      - cell [ref=e1363]
+                      - cell "HyDE" [ref=e1364]
+                      - cell "LightRAG" [ref=e1365]:
+                        - strong [ref=e1366]: LightRAG
+                      - cell "HyDE" [ref=e1367]
+                      - cell "LightRAG" [ref=e1368]:
+                        - strong [ref=e1369]: LightRAG
+                      - cell "HyDE" [ref=e1370]
+                      - cell "LightRAG" [ref=e1371]:
+                        - strong [ref=e1372]: LightRAG
+                      - cell "HyDE" [ref=e1373]
+                      - cell "LightRAG" [ref=e1374]:
+                        - strong [ref=e1375]: LightRAG
+                    - row "Comprehensiveness 26.0% 74.0% 41.6% 58.4% 26.8% 73.2% 40.4% 59.6%" [ref=e1376]:
+                      - cell "Comprehensiveness" [ref=e1377]:
+                        - strong [ref=e1378]: Comprehensiveness
+                      - cell "26.0%" [ref=e1379]
+                      - cell "74.0%" [ref=e1380]:
+                        - strong [ref=e1381]: 74.0%
+                      - cell "41.6%" [ref=e1382]
+                      - cell "58.4%" [ref=e1383]:
+                        - strong [ref=e1384]: 58.4%
+                      - cell "26.8%" [ref=e1385]
+                      - cell "73.2%" [ref=e1386]:
+                        - strong [ref=e1387]: 73.2%
+                      - cell "40.4%" [ref=e1388]
+                      - cell "59.6%" [ref=e1389]:
+                        - strong [ref=e1390]: 59.6%
+                    - row "Diversity 24.0% 76.0% 38.8% 61.2% 20.0% 80.0% 32.4% 67.6%" [ref=e1391]:
+                      - cell "Diversity" [ref=e1392]:
+                        - strong [ref=e1393]: Diversity
+                      - cell "24.0%" [ref=e1394]
+                      - cell "76.0%" [ref=e1395]:
+                        - strong [ref=e1396]: 76.0%
+                      - cell "38.8%" [ref=e1397]
+                      - cell "61.2%" [ref=e1398]:
+                        - strong [ref=e1399]: 61.2%
+                      - cell "20.0%" [ref=e1400]
+                      - cell "80.0%" [ref=e1401]:
+                        - strong [ref=e1402]: 80.0%
+                      - cell "32.4%" [ref=e1403]
+                      - cell "67.6%" [ref=e1404]:
+                        - strong [ref=e1405]: 67.6%
+                    - row "Empowerment 25.2% 74.8% 40.8% 59.2% 26.0% 74.0% 46.0% 54.0%" [ref=e1406]:
+                      - cell "Empowerment" [ref=e1407]:
+                        - strong [ref=e1408]: Empowerment
+                      - cell "25.2%" [ref=e1409]
+                      - cell "74.8%" [ref=e1410]:
+                        - strong [ref=e1411]: 74.8%
+                      - cell "40.8%" [ref=e1412]
+                      - cell "59.2%" [ref=e1413]:
+                        - strong [ref=e1414]: 59.2%
+                      - cell "26.0%" [ref=e1415]
+                      - cell "74.0%" [ref=e1416]:
+                        - strong [ref=e1417]: 74.0%
+                      - cell "46.0%" [ref=e1418]
+                      - cell "54.0%" [ref=e1419]:
+                        - strong [ref=e1420]: 54.0%
+                    - row "Overall 24.8% 75.2% 41.6% 58.4% 26.4% 73.6% 42.4% 57.6%" [ref=e1421]:
+                      - cell "Overall" [ref=e1422]:
+                        - strong [ref=e1423]: Overall
+                      - cell "24.8%" [ref=e1424]
+                      - cell "75.2%" [ref=e1425]:
+                        - strong [ref=e1426]: 75.2%
+                      - cell "41.6%" [ref=e1427]
+                      - cell "58.4%" [ref=e1428]:
+                        - strong [ref=e1429]: 58.4%
+                      - cell "26.4%" [ref=e1430]
+                      - cell "73.6%" [ref=e1431]:
+                        - strong [ref=e1432]: 73.6%
+                      - cell "42.4%" [ref=e1433]
+                      - cell "57.6%" [ref=e1434]:
+                        - strong [ref=e1435]: 57.6%
+                    - row "GraphRAG LightRAG GraphRAG LightRAG GraphRAG LightRAG GraphRAG LightRAG" [ref=e1436]:
+                      - cell [ref=e1437]
+                      - cell "GraphRAG" [ref=e1438]
+                      - cell "LightRAG" [ref=e1439]:
+                        - strong [ref=e1440]: LightRAG
+                      - cell "GraphRAG" [ref=e1441]
+                      - cell "LightRAG" [ref=e1442]:
+                        - strong [ref=e1443]: LightRAG
+                      - cell "GraphRAG" [ref=e1444]
+                      - cell "LightRAG" [ref=e1445]:
+                        - strong [ref=e1446]: LightRAG
+                      - cell "GraphRAG" [ref=e1447]
+                      - cell "LightRAG" [ref=e1448]:
+                        - strong [ref=e1449]: LightRAG
+                    - row "Comprehensiveness 45.6% 54.4% 48.4% 51.6% 48.4% 51.6% 50.4% 49.6%" [ref=e1450]:
+                      - cell "Comprehensiveness" [ref=e1451]:
+                        - strong [ref=e1452]: Comprehensiveness
+                      - cell "45.6%" [ref=e1453]
+                      - cell "54.4%" [ref=e1454]:
+                        - strong [ref=e1455]: 54.4%
+                      - cell "48.4%" [ref=e1456]
+                      - cell "51.6%" [ref=e1457]:
+                        - strong [ref=e1458]: 51.6%
+                      - cell "48.4%" [ref=e1459]
+                      - cell "51.6%" [ref=e1460]:
+                        - strong [ref=e1461]: 51.6%
+                      - cell "50.4%" [ref=e1462]:
+                        - strong [ref=e1463]: 50.4%
+                      - cell "49.6%" [ref=e1464]
+                    - row "Diversity 22.8% 77.2% 40.8% 59.2% 26.4% 73.6% 36.0% 64.0%" [ref=e1465]:
+                      - cell "Diversity" [ref=e1466]:
+                        - strong [ref=e1467]: Diversity
+                      - cell "22.8%" [ref=e1468]
+                      - cell "77.2%" [ref=e1469]:
+                        - strong [ref=e1470]: 77.2%
+                      - cell "40.8%" [ref=e1471]
+                      - cell "59.2%" [ref=e1472]:
+                        - strong [ref=e1473]: 59.2%
+                      - cell "26.4%" [ref=e1474]
+                      - cell "73.6%" [ref=e1475]:
+                        - strong [ref=e1476]: 73.6%
+                      - cell "36.0%" [ref=e1477]
+                      - cell "64.0%" [ref=e1478]:
+                        - strong [ref=e1479]: 64.0%
+                    - row "Empowerment 41.2% 58.8% 45.2% 54.8% 43.6% 56.4% 50.8% 49.2%" [ref=e1480]:
+                      - cell "Empowerment" [ref=e1481]:
+                        - strong [ref=e1482]: Empowerment
+                      - cell "41.2%" [ref=e1483]
+                      - cell "58.8%" [ref=e1484]:
+                        - strong [ref=e1485]: 58.8%
+                      - cell "45.2%" [ref=e1486]
+                      - cell "54.8%" [ref=e1487]:
+                        - strong [ref=e1488]: 54.8%
+                      - cell "43.6%" [ref=e1489]
+                      - cell "56.4%" [ref=e1490]:
+                        - strong [ref=e1491]: 56.4%
+                      - cell "50.8%" [ref=e1492]:
+                        - strong [ref=e1493]: 50.8%
+                      - cell "49.2%" [ref=e1494]
+                    - row "Overall 45.2% 54.8% 48.0% 52.0% 47.2% 52.8% 50.4% 49.6%" [ref=e1495]:
+                      - cell "Overall" [ref=e1496]:
+                        - strong [ref=e1497]: Overall
+                      - cell "45.2%" [ref=e1498]
+                      - cell "54.8%" [ref=e1499]:
+                        - strong [ref=e1500]: 54.8%
+                      - cell "48.0%" [ref=e1501]
+                      - cell "52.0%" [ref=e1502]:
+                        - strong [ref=e1503]: 52.0%
+                      - cell "47.2%" [ref=e1504]
+                      - cell "52.8%" [ref=e1505]:
+                        - strong [ref=e1506]: 52.8%
+                      - cell "50.4%" [ref=e1507]:
+                        - strong [ref=e1508]: 50.4%
+                      - cell "49.6%" [ref=e1509]
+                - generic [ref=e1510]:
+                  - heading "🔗 Related Projects" [level=2] [ref=e1511]
+                  - 'link "Permalink: 🔗 Related Projects" [ref=e1512] [cursor=pointer]':
+                    - /url: "#-related-projects"
+                    - img [ref=e1513]
+                - paragraph [ref=e1515]:
+                  - emphasis [ref=e1516]: Ecosystem & Extensions
+                - table [ref=e1519]:
+                  - rowgroup [ref=e1520]:
+                    - row "📸 RAG-Anything Multimodal RAG 🎥 VideoRAG Extreme Long-Context Video RAG ✨ MiniRAG Extremely Simple RAG" [ref=e1521]:
+                      - cell "📸 RAG-Anything Multimodal RAG" [ref=e1522]:
+                        - link "📸 RAG-Anything Multimodal RAG" [ref=e1523] [cursor=pointer]:
+                          - /url: https://github.com/HKUDS/RAG-Anything
+                          - generic [ref=e1524]: 📸
+                          - text: RAG-Anything
+                          - subscript [ref=e1525]: Multimodal RAG
+                      - cell "🎥 VideoRAG Extreme Long-Context Video RAG" [ref=e1526]:
+                        - link "🎥 VideoRAG Extreme Long-Context Video RAG" [ref=e1527] [cursor=pointer]:
+                          - /url: https://github.com/HKUDS/VideoRAG
+                          - generic [ref=e1528]: 🎥
+                          - text: VideoRAG
+                          - subscript [ref=e1529]: Extreme Long-Context Video RAG
+                      - cell "✨ MiniRAG Extremely Simple RAG" [ref=e1530]:
+                        - link "✨ MiniRAG Extremely Simple RAG" [ref=e1531] [cursor=pointer]:
+                          - /url: https://github.com/HKUDS/MiniRAG
+                          - generic [ref=e1532]: ✨
+                          - text: MiniRAG
+                          - subscript [ref=e1533]: Extremely Simple RAG
+                - separator [ref=e1534]
+                - generic [ref=e1535]:
+                  - heading "⭐ Star History" [level=2] [ref=e1536]
+                  - 'link "Permalink: ⭐ Star History" [ref=e1537] [cursor=pointer]':
+                    - /url: "#-star-history"
+                    - img [ref=e1538]
+                - paragraph [ref=e1540]:
+                  - link "Star History Chart" [ref=e1541] [cursor=pointer]:
+                    - /url: https://star-history.com/#HKUDS/LightRAG&Date
+                    - img "Star History Chart" [ref=e1542]
+                - generic [ref=e1543]:
+                  - heading "🤝 Contribution" [level=2] [ref=e1544]
+                  - 'link "Permalink: 🤝 Contribution" [ref=e1545] [cursor=pointer]':
+                    - /url: "#-contribution"
+                    - img [ref=e1546]
+                - generic [ref=e1548]:
+                  - text: We welcome contributions of all kinds — bug fixes, new features, documentation improvements, and more.
+                  - text: Please read our
+                  - link "Contributing Guide" [ref=e1549] [cursor=pointer]:
+                    - /url: /HKUDS/LightRAG/blob/main/.github/CONTRIBUTING.md
+                    - strong [ref=e1550]: Contributing Guide
+                  - text: before submitting a pull request.
+                - generic [ref=e1551]: We thank all our contributors for their valuable contributions.
+                - link [ref=e1553] [cursor=pointer]:
+                  - /url: https://github.com/HKUDS/LightRAG/graphs/contributors
+                  - img [ref=e1554]
+                - generic [ref=e1555]:
+                  - heading "📖 Citation" [level=2] [ref=e1556]
+                  - 'link "Permalink: 📖 Citation" [ref=e1557] [cursor=pointer]':
+                    - /url: "#-citation"
+                    - img [ref=e1558]
+                - generic [ref=e1560]:
+                  - generic [ref=e1561]:
+                    - generic [ref=e1562]: "@article{guo2024lightrag,"
+                    - generic [ref=e1563]: "title={LightRAG: Simple and Fast Retrieval-Augmented Generation},"
+                    - generic [ref=e1564]: "author={Zirui Guo and Lianghao Xia and Yanhua Yu and Tu Ao and Chao Huang},"
+                    - generic [ref=e1565]: "year={2024},"
+                    - generic [ref=e1566]: "eprint={2410.05779},"
+                    - generic [ref=e1567]: "archivePrefix={arXiv},"
+                    - generic [ref=e1568]: "primaryClass={cs.IR}"
+                    - text: "}"
+                  - button "Copy" [ref=e1570] [cursor=pointer]:
+                    - img [ref=e1571]
+                - separator [ref=e1574]
+                - generic [ref=e1575]:
+                  - link [ref=e1578] [cursor=pointer]:
+                    - /url: https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif
+                    - img [ref=e1579]
+                  - generic [ref=e1580]:
+                    - link [ref=e1581] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/LightRAG
+                      - img [ref=e1582]
+                    - link [ref=e1583] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/LightRAG/issues
+                      - img [ref=e1584]
+                    - link [ref=e1585] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/LightRAG/discussions
+                      - img [ref=e1586]
+                - generic [ref=e1589]: ⭐ Thank you for visiting LightRAG! ⭐
+        - generic [ref=e1593]:
+          - generic [ref=e1596]:
+            - heading "About" [level=2] [ref=e1597]
+            - paragraph [ref=e1598]: "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
+            - generic [ref=e1599]:
+              - img [ref=e1600]
+              - link "arxiv.org/abs/2410.05779" [ref=e1603] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2410.05779
+            - heading "Topics" [level=3] [ref=e1604]
+            - generic [ref=e1606]:
+              - link "knowledge-graph" [ref=e1607] [cursor=pointer]:
+                - /url: /topics/knowledge-graph
+              - link "gpt" [ref=e1608] [cursor=pointer]:
+                - /url: /topics/gpt
+              - link "rag" [ref=e1609] [cursor=pointer]:
+                - /url: /topics/rag
+              - link "gpt-4" [ref=e1610] [cursor=pointer]:
+                - /url: /topics/gpt-4
+              - link "large-language-models" [ref=e1611] [cursor=pointer]:
+                - /url: /topics/large-language-models
+              - link "llm" [ref=e1612] [cursor=pointer]:
+                - /url: /topics/llm
+              - link "genai" [ref=e1613] [cursor=pointer]:
+                - /url: /topics/genai
+              - link "retrieval-augmented-generation" [ref=e1614] [cursor=pointer]:
+                - /url: /topics/retrieval-augmented-generation
+              - link "graphrag" [ref=e1615] [cursor=pointer]:
+                - /url: /topics/graphrag
+            - heading "Resources" [level=3] [ref=e1616]
+            - link "Readme" [ref=e1618] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1619]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1621]
+            - link "MIT license" [ref=e1623] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e1624]
+              - text: MIT license
+            - heading "Contributing" [level=3] [ref=e1626]
+            - link "Contributing" [ref=e1628] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1629]
+              - text: Contributing
+            - heading "Security policy" [level=3] [ref=e1631]
+            - link "Security policy" [ref=e1633] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e1634]
+              - text: Security policy
+            - link "Activity" [ref=e1637] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/activity
+              - img [ref=e1638]
+              - text: Activity
+            - link "Custom properties" [ref=e1641] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/custom-properties
+              - img [ref=e1642]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1644]
+            - link "33k stars" [ref=e1646] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/stargazers
+              - img [ref=e1647]
+              - strong [ref=e1649]: 33k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1650]
+            - link "198 watching" [ref=e1652] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/watchers
+              - img [ref=e1653]
+              - strong [ref=e1655]: "198"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1656]
+            - link "4.7k forks" [ref=e1658] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/forks
+              - img [ref=e1659]
+              - strong [ref=e1661]: 4.7k
+              - text: forks
+            - link "Report repository" [ref=e1663] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FHKUDS%2FLightRAG&report=HKUDS+%28user%29
+          - generic [ref=e1665]:
+            - heading "Releases 68" [level=2] [ref=e1666]:
+              - link "Releases 68" [ref=e1667] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/releases
+                - text: Releases
+                - generic "68" [ref=e1668]
+            - link "v1.4.13 Latest Apr 2, 2026last week" [ref=e1669] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/releases/tag/v1.4.13
+              - img [ref=e1670]
+              - generic [ref=e1672]:
+                - generic [ref=e1673]:
+                  - generic [ref=e1674]: v1.4.13
+                  - 'generic "Label: Latest" [ref=e1675]': Latest
+                - generic [ref=e1676]: Apr 2, 2026last week
+            - link "+ 67 releases" [ref=e1678] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/releases
+          - generic [ref=e1680]:
+            - heading "Packages 1" [level=2] [ref=e1681]:
+              - link "Packages 1" [ref=e1682] [cursor=pointer]:
+                - /url: /orgs/HKUDS/packages?repo_name=LightRAG
+                - text: Packages
+                - generic "1" [ref=e1683]
+            - list [ref=e1684]:
+              - listitem [ref=e1685]:
+                - img [ref=e1687]
+                - link "lightrag" [ref=e1689] [cursor=pointer]:
+                  - /url: /orgs/HKUDS/packages/container/package/lightrag
+          - generic [ref=e1691]:
+            - heading "Contributors 239" [level=2] [ref=e1692]:
+              - link "Contributors 239" [ref=e1693] [cursor=pointer]:
+                - /url: /HKUDS/LightRAG/graphs/contributors
+                - text: Contributors
+                - generic "239" [ref=e1694]
+            - list [ref=e1695]:
+              - listitem [ref=e1696]:
+                - link "@danielaskdd" [ref=e1697] [cursor=pointer]:
+                  - /url: https://github.com/danielaskdd
+                  - img "@danielaskdd" [ref=e1698]
+              - listitem [ref=e1699]:
+                - link "@LarFii" [ref=e1700] [cursor=pointer]:
+                  - /url: https://github.com/LarFii
+                  - img "@LarFii" [ref=e1701]
+              - listitem [ref=e1702]:
+                - link "@ParisNeo" [ref=e1703] [cursor=pointer]:
+                  - /url: https://github.com/ParisNeo
+                  - img "@ParisNeo" [ref=e1704]
+              - listitem [ref=e1705]:
+                - link "@YanSte" [ref=e1706] [cursor=pointer]:
+                  - /url: https://github.com/YanSte
+                  - img "@YanSte" [ref=e1707]
+              - listitem [ref=e1708]:
+                - link "@ArnoChenFx" [ref=e1709] [cursor=pointer]:
+                  - /url: https://github.com/ArnoChenFx
+                  - img "@ArnoChenFx" [ref=e1710]
+              - listitem [ref=e1711]:
+                - link "@dependabot[bot]" [ref=e1712] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1713]
+              - listitem [ref=e1714]:
+                - link "@jin38324" [ref=e1715] [cursor=pointer]:
+                  - /url: https://github.com/jin38324
+                  - img "@jin38324" [ref=e1716]
+              - listitem [ref=e1717]:
+                - link "@lightrag" [ref=e1718] [cursor=pointer]:
+                  - /url: https://github.com/lightrag
+                  - img "@lightrag" [ref=e1719]
+              - listitem [ref=e1720]:
+                - link "@BukeLy" [ref=e1721] [cursor=pointer]:
+                  - /url: https://github.com/BukeLy
+                  - img "@BukeLy" [ref=e1722]
+              - listitem [ref=e1723]:
+                - link "@magicyuan876" [ref=e1724] [cursor=pointer]:
+                  - /url: https://github.com/magicyuan876
+                  - img "@magicyuan876" [ref=e1725]
+              - listitem [ref=e1726]:
+                - link "@choizhang" [ref=e1727] [cursor=pointer]:
+                  - /url: https://github.com/choizhang
+                  - img "@choizhang" [ref=e1728]
+              - listitem [ref=e1729]:
+                - link "@wiltshirek" [ref=e1730] [cursor=pointer]:
+                  - /url: https://github.com/wiltshirek
+                  - img "@wiltshirek" [ref=e1731]
+              - listitem [ref=e1732]:
+                - link "@alazarchuk" [ref=e1733] [cursor=pointer]:
+                  - /url: https://github.com/alazarchuk
+                  - img "@alazarchuk" [ref=e1734]
+              - listitem [ref=e1735]:
+                - link "@claude" [ref=e1736] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e1737]
+            - link "+ 225 contributors" [ref=e1739] [cursor=pointer]:
+              - /url: /HKUDS/LightRAG/graphs/contributors
+          - generic [ref=e1741]:
+            - heading "Languages" [level=2] [ref=e1742]
+            - list [ref=e1752]:
+              - listitem [ref=e1753]:
+                - link "Python 80.8%" [ref=e1754] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/search?l=python
+                  - img [ref=e1755]
+                  - generic [ref=e1757]: Python
+                  - generic [ref=e1758]: 80.8%
+              - listitem [ref=e1759]:
+                - link "TypeScript 13.3%" [ref=e1760] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/search?l=typescript
+                  - img [ref=e1761]
+                  - generic [ref=e1763]: TypeScript
+                  - generic [ref=e1764]: 13.3%
+              - listitem [ref=e1765]:
+                - link "Shell 5.4%" [ref=e1766] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/search?l=shell
+                  - img [ref=e1767]
+                  - generic [ref=e1769]: Shell
+                  - generic [ref=e1770]: 5.4%
+              - listitem [ref=e1771]:
+                - link "JavaScript 0.2%" [ref=e1772] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/search?l=javascript
+                  - img [ref=e1773]
+                  - generic [ref=e1775]: JavaScript
+                  - generic [ref=e1776]: 0.2%
+              - listitem [ref=e1777]:
+                - link "CSS 0.1%" [ref=e1778] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/search?l=css
+                  - img [ref=e1779]
+                  - generic [ref=e1781]: CSS
+                  - generic [ref=e1782]: 0.1%
+              - listitem [ref=e1783]:
+                - link "Makefile 0.1%" [ref=e1784] [cursor=pointer]:
+                  - /url: /HKUDS/LightRAG/search?l=makefile
+                  - img [ref=e1785]
+                  - generic [ref=e1787]: Makefile
+                  - generic [ref=e1788]: 0.1%
+              - listitem [ref=e1789]:
+                - generic [ref=e1790]:
+                  - img [ref=e1791]
+                  - generic [ref=e1793]: Other
+                  - generic [ref=e1794]: 0.1%
+  - contentinfo [ref=e1796]:
+    - heading "Footer" [level=2] [ref=e1797]
+    - generic [ref=e1798]:
+      - generic [ref=e1799]:
+        - link "GitHub Homepage" [ref=e1800] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1801]
+        - generic [ref=e1803]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1804]:
+        - heading "Footer navigation" [level=3] [ref=e1805]
+        - list "Footer navigation" [ref=e1806]:
+          - listitem [ref=e1807]:
+            - link "Terms" [ref=e1808] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1809]:
+            - link "Privacy" [ref=e1810] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1811]:
+            - link "Security" [ref=e1812] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1813]:
+            - link "Status" [ref=e1814] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1815]:
+            - link "Community" [ref=e1816] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1817]:
+            - link "Docs" [ref=e1818] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1819]:
+            - link "Contact" [ref=e1820] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1821]:
+            - button "Manage cookies" [ref=e1823] [cursor=pointer]
+          - listitem [ref=e1824]:
+            - button "Do not share my personal information" [ref=e1826] [cursor=pointer]

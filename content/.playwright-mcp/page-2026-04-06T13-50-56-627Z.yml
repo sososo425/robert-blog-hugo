@@ -1,0 +1,416 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "Babelscape / mrebel-large like 78 Follow Babelscape 46" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /Babelscape
+          - link "Babelscape" [ref=e70] [cursor=pointer]:
+            - /url: /Babelscape
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "mrebel-large" [ref=e73] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "78" [ref=e84] [cursor=pointer]
+        - generic [ref=e86]:
+          - button "Follow Babelscape" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Follow
+            - generic [ref=e89]: Babelscape
+          - button "46" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]:
+        - link "Translation" [ref=e92] [cursor=pointer]:
+          - /url: /models?pipeline_tag=translation
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e98]: Translation
+        - link "Transformers" [ref=e99] [cursor=pointer]:
+          - /url: /models?library=transformers
+          - generic [ref=e100]:
+            - img [ref=e101]
+            - generic [ref=e112]: Transformers
+        - link "PyTorch" [ref=e113] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e114]:
+            - img [ref=e115]
+            - generic [ref=e118]: PyTorch
+        - link "Safetensors" [ref=e119] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e120]:
+            - img [ref=e121]
+            - generic [ref=e123]: Safetensors
+        - button "Babelscape/SREDFM" [ref=e125] [cursor=pointer]:
+          - generic [ref=e127]:
+            - img [ref=e128]
+            - generic [ref=e133]: Babelscape/SREDFM
+        - button "18 languages" [ref=e135] [cursor=pointer]:
+          - generic [ref=e136]:
+            - img [ref=e137]
+            - generic [ref=e139]: 18 languages
+        - link "mbart" [ref=e140] [cursor=pointer]:
+          - /url: /models?other=mbart
+          - generic [ref=e142]: mbart
+        - link "text2text-generation" [ref=e143] [cursor=pointer]:
+          - /url: /models?other=text2text-generation
+          - generic [ref=e145]: text2text-generation
+        - link "seq2seq" [ref=e146] [cursor=pointer]:
+          - /url: /models?other=seq2seq
+          - generic [ref=e148]: seq2seq
+        - link "relation-extraction" [ref=e149] [cursor=pointer]:
+          - /url: /models?other=relation-extraction
+          - generic [ref=e151]: relation-extraction
+        - 'button "arxiv: 2306.09802" [ref=e153] [cursor=pointer]':
+          - generic [ref=e155]:
+            - img [ref=e156]
+            - generic [ref=e159]: "arxiv:"
+            - generic [ref=e160]: "2306.09802"
+        - 'button "License: cc-by-nc-sa-4.0" [ref=e163] [cursor=pointer]':
+          - generic [ref=e165]:
+            - img [ref=e166]
+            - generic [ref=e168]: "License:"
+            - generic [ref=e169]: cc-by-nc-sa-4.0
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - link "Model card" [ref=e173] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large
+            - img [ref=e174]
+            - text: Model card
+          - link "Files xet" [ref=e178] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large/tree/main
+            - img [ref=e179]
+            - generic [ref=e182]: Files
+            - generic [ref=e185]:
+              - img [ref=e186]
+              - generic [ref=e189]: xet
+          - link "Community 4" [ref=e190] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large/discussions
+            - img [ref=e191]
+            - text: Community
+            - generic [ref=e194]: "4"
+        - generic [ref=e195]:
+          - button [ref=e198] [cursor=pointer]:
+            - img [ref=e199]
+          - generic [ref=e203]:
+            - button "Deploy" [ref=e205] [cursor=pointer]:
+              - img [ref=e206]
+              - text: Deploy
+              - img [ref=e209]
+            - dialog
+          - button "Use this model" [ref=e212] [cursor=pointer]:
+            - img [ref=e213]
+            - text: Use this model
+            - img [ref=e215]
+    - generic [ref=e218]:
+      - generic [ref=e222]:
+        - button "main" [ref=e224] [cursor=pointer]:
+          - img [ref=e225]
+          - text: main
+          - img [ref=e227]
+        - generic [ref=e229]:
+          - link "mrebel-large" [ref=e230] [cursor=pointer]:
+            - /url: /Babelscape/mrebel-large/tree/main
+          - generic [ref=e231]: /
+          - generic [ref=e232]: config.json
+          - button "Copy path" [ref=e233] [cursor=pointer]:
+            - img [ref=e234]
+      - generic [ref=e239]:
+        - img "PereLluis13's picture" [ref=e240]
+        - link "PereLluis13" [ref=e242] [cursor=pointer]:
+          - /url: /PereLluis13
+        - link "add model" [ref=e244] [cursor=pointer]:
+          - /url: /Babelscape/mrebel-large/commit/ffca624097ca12eff56f43b4746d94a433067fe9
+        - link "ffca624" [ref=e245] [cursor=pointer]:
+          - /url: /Babelscape/mrebel-large/commit/ffca624097ca12eff56f43b4746d94a433067fe9
+        - time [ref=e246]: almost 3 years ago
+      - generic [ref=e247]:
+        - link "raw" [ref=e248] [cursor=pointer]:
+          - /url: /Babelscape/mrebel-large/raw/main/config.json
+          - generic [ref=e249]:
+            - img [ref=e250]
+            - text: raw
+        - button "Copy download link" [ref=e255] [cursor=pointer]:
+          - img [ref=e256]
+          - generic [ref=e260]: Copy download link
+        - link "history" [ref=e261] [cursor=pointer]:
+          - /url: /Babelscape/mrebel-large/commits/main/config.json
+          - generic [ref=e262]:
+            - img [ref=e263]
+            - text: history
+        - link "blame" [ref=e265] [cursor=pointer]:
+          - /url: /Babelscape/mrebel-large/blame/main/config.json
+          - generic [ref=e266]:
+            - img [ref=e267]
+            - text: blame
+        - link "contribute" [ref=e271] [cursor=pointer]:
+          - /url: /Babelscape/mrebel-large/edit/main/config.json
+          - generic [ref=e272]:
+            - img [ref=e273]
+            - text: contribute
+        - link "delete" [ref=e276] [cursor=pointer]:
+          - /url: /Babelscape/mrebel-large/delete/main/config.json
+          - generic [ref=e277]:
+            - img [ref=e278]
+            - text: delete
+        - button [ref=e286] [cursor=pointer]:
+          - img [ref=e287]
+        - generic [ref=e290]:
+          - button [ref=e292] [cursor=pointer]:
+            - img [ref=e293]
+          - text: 1.42 kB
+      - table [ref=e300]:
+        - rowgroup [ref=e301]:
+          - 'row "1 {" [ref=e302]':
+            - cell "1" [ref=e303] [cursor=pointer]: "1"
+            - 'cell "{" [ref=e305]'
+          - 'row "2 \"_name_or_path\": \"/home/huguetcabot/mrebel/rebel/model/mrebel-large-typed-1000184\"," [ref=e306]':
+            - cell "2" [ref=e307] [cursor=pointer]: "2"
+            - 'cell "\"_name_or_path\": \"/home/huguetcabot/mrebel/rebel/model/mrebel-large-typed-1000184\"," [ref=e309]'
+          - 'row "3 \"_num_labels\": 3," [ref=e310]':
+            - cell "3" [ref=e311] [cursor=pointer]: "3"
+            - 'cell "\"_num_labels\": 3," [ref=e313]'
+          - 'row "4 \"activation_dropout\": 0.0," [ref=e314]':
+            - cell "4" [ref=e315] [cursor=pointer]: "4"
+            - 'cell "\"activation_dropout\": 0.0," [ref=e317]'
+          - 'row "5 \"activation_function\": \"gelu\"," [ref=e318]':
+            - cell "5" [ref=e319] [cursor=pointer]: "5"
+            - 'cell "\"activation_function\": \"gelu\"," [ref=e321]'
+          - 'row "6 \"add_bias_logits\": false," [ref=e322]':
+            - cell "6" [ref=e323] [cursor=pointer]: "6"
+            - 'cell "\"add_bias_logits\": false," [ref=e325]':
+              - text: "\"add_bias_logits\":"
+              - generic [ref=e326]: "false"
+              - text: ","
+          - 'row "7 \"add_final_layer_norm\": true," [ref=e327]':
+            - cell "7" [ref=e328] [cursor=pointer]: "7"
+            - 'cell "\"add_final_layer_norm\": true," [ref=e330]':
+              - text: "\"add_final_layer_norm\":"
+              - generic [ref=e331]: "true"
+              - text: ","
+          - 'row "8 \"architectures\": [" [ref=e332]':
+            - cell "8" [ref=e333] [cursor=pointer]: "8"
+            - 'cell "\"architectures\": [" [ref=e335]'
+          - row "9 \"MBartForConditionalGeneration\"" [ref=e336]:
+            - cell "9" [ref=e337] [cursor=pointer]: "9"
+            - cell "\"MBartForConditionalGeneration\"" [ref=e339]
+          - row "10 ]," [ref=e340]:
+            - cell "10" [ref=e341] [cursor=pointer]: "10"
+            - cell "]," [ref=e343]
+          - 'row "11 \"attention_dropout\": 0.0," [ref=e344]':
+            - cell "11" [ref=e345] [cursor=pointer]: "11"
+            - 'cell "\"attention_dropout\": 0.0," [ref=e347]'
+          - 'row "12 \"bos_token_id\": 0," [ref=e348]':
+            - cell "12" [ref=e349] [cursor=pointer]: "12"
+            - 'cell "\"bos_token_id\": 0," [ref=e351]'
+          - 'row "13 \"classif_dropout\": 0.0," [ref=e352]':
+            - cell "13" [ref=e353] [cursor=pointer]: "13"
+            - 'cell "\"classif_dropout\": 0.0," [ref=e355]'
+          - 'row "14 \"classifier_dropout\": 0.0," [ref=e356]':
+            - cell "14" [ref=e357] [cursor=pointer]: "14"
+            - 'cell "\"classifier_dropout\": 0.0," [ref=e359]'
+          - 'row "15 \"d_model\": 1024," [ref=e360]':
+            - cell "15" [ref=e361] [cursor=pointer]: "15"
+            - 'cell "\"d_model\": 1024," [ref=e363]'
+          - 'row "16 \"decoder_attention_heads\": 16," [ref=e364]':
+            - cell "16" [ref=e365] [cursor=pointer]: "16"
+            - 'cell "\"decoder_attention_heads\": 16," [ref=e367]'
+          - 'row "17 \"decoder_ffn_dim\": 4096," [ref=e368]':
+            - cell "17" [ref=e369] [cursor=pointer]: "17"
+            - 'cell "\"decoder_ffn_dim\": 4096," [ref=e371]'
+          - 'row "18 \"decoder_layerdrop\": 0.0," [ref=e372]':
+            - cell "18" [ref=e373] [cursor=pointer]: "18"
+            - 'cell "\"decoder_layerdrop\": 0.0," [ref=e375]'
+          - 'row "19 \"decoder_layers\": 12," [ref=e376]':
+            - cell "19" [ref=e377] [cursor=pointer]: "19"
+            - 'cell "\"decoder_layers\": 12," [ref=e379]'
+          - 'row "20 \"decoder_start_token_id\": 0," [ref=e380]':
+            - cell "20" [ref=e381] [cursor=pointer]: "20"
+            - 'cell "\"decoder_start_token_id\": 0," [ref=e383]'
+          - 'row "21 \"dropout\": 0.1," [ref=e384]':
+            - cell "21" [ref=e385] [cursor=pointer]: "21"
+            - 'cell "\"dropout\": 0.1," [ref=e387]'
+          - 'row "22 \"encoder_attention_heads\": 16," [ref=e388]':
+            - cell "22" [ref=e389] [cursor=pointer]: "22"
+            - 'cell "\"encoder_attention_heads\": 16," [ref=e391]'
+          - 'row "23 \"encoder_ffn_dim\": 4096," [ref=e392]':
+            - cell "23" [ref=e393] [cursor=pointer]: "23"
+            - 'cell "\"encoder_ffn_dim\": 4096," [ref=e395]'
+          - 'row "24 \"encoder_layerdrop\": 0.0," [ref=e396]':
+            - cell "24" [ref=e397] [cursor=pointer]: "24"
+            - 'cell "\"encoder_layerdrop\": 0.0," [ref=e399]'
+          - 'row "25 \"encoder_layers\": 12," [ref=e400]':
+            - cell "25" [ref=e401] [cursor=pointer]: "25"
+            - 'cell "\"encoder_layers\": 12," [ref=e403]'
+          - 'row "26 \"eos_token_id\": 2," [ref=e404]':
+            - cell "26" [ref=e405] [cursor=pointer]: "26"
+            - 'cell "\"eos_token_id\": 2," [ref=e407]'
+          - 'row "27 \"forced_eos_token_id\": 2," [ref=e408]':
+            - cell "27" [ref=e409] [cursor=pointer]: "27"
+            - 'cell "\"forced_eos_token_id\": 2," [ref=e411]'
+          - 'row "28 \"gradient_checkpointing\": false," [ref=e412]':
+            - cell "28" [ref=e413] [cursor=pointer]: "28"
+            - 'cell "\"gradient_checkpointing\": false," [ref=e415]':
+              - text: "\"gradient_checkpointing\":"
+              - generic [ref=e416]: "false"
+              - text: ","
+          - 'row "29 \"id2label\": {" [ref=e417]':
+            - cell "29" [ref=e418] [cursor=pointer]: "29"
+            - 'cell "\"id2label\": {" [ref=e420]'
+          - 'row "30 \"0\": \"LABEL_0\"," [ref=e421]':
+            - cell "30" [ref=e422] [cursor=pointer]: "30"
+            - 'cell "\"0\": \"LABEL_0\"," [ref=e424]'
+          - 'row "31 \"1\": \"LABEL_1\"," [ref=e425]':
+            - cell "31" [ref=e426] [cursor=pointer]: "31"
+            - 'cell "\"1\": \"LABEL_1\"," [ref=e428]'
+          - 'row "32 \"2\": \"LABEL_2\"" [ref=e429]':
+            - cell "32" [ref=e430] [cursor=pointer]: "32"
+            - 'cell "\"2\": \"LABEL_2\"" [ref=e432]'
+          - 'row "33 }," [ref=e433]':
+            - cell "33" [ref=e434] [cursor=pointer]: "33"
+            - 'cell "}," [ref=e436]'
+          - 'row "34 \"init_std\": 0.02," [ref=e437]':
+            - cell "34" [ref=e438] [cursor=pointer]: "34"
+            - 'cell "\"init_std\": 0.02," [ref=e440]'
+          - 'row "35 \"is_encoder_decoder\": true," [ref=e441]':
+            - cell "35" [ref=e442] [cursor=pointer]: "35"
+            - 'cell "\"is_encoder_decoder\": true," [ref=e444]':
+              - text: "\"is_encoder_decoder\":"
+              - generic [ref=e445]: "true"
+              - text: ","
+          - 'row "36 \"label2id\": {" [ref=e446]':
+            - cell "36" [ref=e447] [cursor=pointer]: "36"
+            - 'cell "\"label2id\": {" [ref=e449]'
+          - 'row "37 \"LABEL_0\": 0," [ref=e450]':
+            - cell "37" [ref=e451] [cursor=pointer]: "37"
+            - 'cell "\"LABEL_0\": 0," [ref=e453]'
+          - 'row "38 \"LABEL_1\": 1," [ref=e454]':
+            - cell "38" [ref=e455] [cursor=pointer]: "38"
+            - 'cell "\"LABEL_1\": 1," [ref=e457]'
+          - 'row "39 \"LABEL_2\": 2" [ref=e458]':
+            - cell "39" [ref=e459] [cursor=pointer]: "39"
+            - 'cell "\"LABEL_2\": 2" [ref=e461]'
+          - 'row "40 }," [ref=e462]':
+            - cell "40" [ref=e463] [cursor=pointer]: "40"
+            - 'cell "}," [ref=e465]'
+          - 'row "41 \"max_length\": 200," [ref=e466]':
+            - cell "41" [ref=e467] [cursor=pointer]: "41"
+            - 'cell "\"max_length\": 200," [ref=e469]'
+          - 'row "42 \"max_position_embeddings\": 1024," [ref=e470]':
+            - cell "42" [ref=e471] [cursor=pointer]: "42"
+            - 'cell "\"max_position_embeddings\": 1024," [ref=e473]'
+          - 'row "43 \"model_type\": \"mbart\"," [ref=e474]':
+            - cell "43" [ref=e475] [cursor=pointer]: "43"
+            - 'cell "\"model_type\": \"mbart\"," [ref=e477]'
+          - 'row "44 \"normalize_before\": true," [ref=e478]':
+            - cell "44" [ref=e479] [cursor=pointer]: "44"
+            - 'cell "\"normalize_before\": true," [ref=e481]':
+              - text: "\"normalize_before\":"
+              - generic [ref=e482]: "true"
+              - text: ","
+          - 'row "45 \"normalize_embedding\": true," [ref=e483]':
+            - cell "45" [ref=e484] [cursor=pointer]: "45"
+            - 'cell "\"normalize_embedding\": true," [ref=e486]':
+              - text: "\"normalize_embedding\":"
+              - generic [ref=e487]: "true"
+              - text: ","
+          - 'row "46 \"num_beams\": 5," [ref=e488]':
+            - cell "46" [ref=e489] [cursor=pointer]: "46"
+            - 'cell "\"num_beams\": 5," [ref=e491]'
+          - 'row "47 \"num_hidden_layers\": 12," [ref=e492]':
+            - cell "47" [ref=e493] [cursor=pointer]: "47"
+            - 'cell "\"num_hidden_layers\": 12," [ref=e495]'
+          - 'row "48 \"output_past\": true," [ref=e496]':
+            - cell "48" [ref=e497] [cursor=pointer]: "48"
+            - 'cell "\"output_past\": true," [ref=e499]':
+              - text: "\"output_past\":"
+              - generic [ref=e500]: "true"
+              - text: ","
+          - 'row "49 \"pad_token_id\": 1," [ref=e501]':
+            - cell "49" [ref=e502] [cursor=pointer]: "49"
+            - 'cell "\"pad_token_id\": 1," [ref=e504]'
+          - 'row "50 \"scale_embedding\": true," [ref=e505]':
+            - cell "50" [ref=e506] [cursor=pointer]: "50"
+            - 'cell "\"scale_embedding\": true," [ref=e508]':
+              - text: "\"scale_embedding\":"
+              - generic [ref=e509]: "true"
+              - text: ","
+          - 'row "51 \"static_position_embeddings\": false," [ref=e510]':
+            - cell "51" [ref=e511] [cursor=pointer]: "51"
+            - 'cell "\"static_position_embeddings\": false," [ref=e513]':
+              - text: "\"static_position_embeddings\":"
+              - generic [ref=e514]: "false"
+              - text: ","
+          - 'row "52 \"tokenizer_class\": \"MBart50Tokenizer\"," [ref=e515]':
+            - cell "52" [ref=e516] [cursor=pointer]: "52"
+            - 'cell "\"tokenizer_class\": \"MBart50Tokenizer\"," [ref=e518]'
+          - 'row "53 \"torch_dtype\": \"float32\"," [ref=e519]':
+            - cell "53" [ref=e520] [cursor=pointer]: "53"
+            - 'cell "\"torch_dtype\": \"float32\"," [ref=e522]'
+          - 'row "54 \"transformers_version\": \"4.19.2\"," [ref=e523]':
+            - cell "54" [ref=e524] [cursor=pointer]: "54"
+            - 'cell "\"transformers_version\": \"4.19.2\"," [ref=e526]'
+          - 'row "55 \"use_cache\": true," [ref=e527]':
+            - cell "55" [ref=e528] [cursor=pointer]: "55"
+            - 'cell "\"use_cache\": true," [ref=e530]':
+              - text: "\"use_cache\":"
+              - generic [ref=e531]: "true"
+              - text: ","
+          - 'row "56 \"vocab_size\": 250071" [ref=e532]':
+            - cell "56" [ref=e533] [cursor=pointer]: "56"
+            - 'cell "\"vocab_size\": 250071" [ref=e535]'
+          - 'row "57 }" [ref=e536]':
+            - cell "57" [ref=e537] [cursor=pointer]: "57"
+            - 'cell "}" [ref=e539]'
+          - row "58" [ref=e540]:
+            - cell "58" [ref=e541] [cursor=pointer]: "58"
+            - cell [ref=e543]

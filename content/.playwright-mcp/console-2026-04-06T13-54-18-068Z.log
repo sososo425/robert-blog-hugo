@@ -1,0 +1,18 @@
+[    5058ms] [WARNING] Warning: fragment with name ComponentCarousel already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT+relation+extraction+Sultangaziyeva:4
+[    5059ms] [WARNING] Warning: fragment with name CardA already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT+relation+extraction+Sultangaziyeva:4
+[    5059ms] [WARNING] Warning: fragment with name CardB already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT+relation+extraction+Sultangaziyeva:4
+[    6595ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged:0
+[    6597ms] [WARNING] User API error:  Request failed with status code 401 @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT+relation+extraction+Sultangaziyeva:4
+[    7731ms] [LOG] the environment name is : www.frontiersin.org @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT+relation+extraction+Sultangaziyeva:4
+[   10320ms] Error: Unhandled Promise Rejection: Condition not matched in 5000 milliseconds
+    at https://www.frontiersin.org/journal-pages-2022/_nuxt/03ff85d.js:2:177095
+[   11445ms] [LOG] data: {"pixel_id":"o0l2c","gtmTagId":222,"gtmEventId":106} @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT+relation+extraction+Sultangaziyeva:4
+[   11446ms] [LOG] data: {"pixel_id":"od8ec","gtmTagId":321,"gtmEventId":106} @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT+relation+extraction+Sultangaziyeva:4
+[   12953ms] [LOG] UET GTM listening for consent updates @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT+relation+extraction+Sultangaziyeva:4
+[   15770ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.frontiersin.org/journals/artificial-intelligence/articles?query=ModernBERT%20relation%20extraction%20Sultangaziyeva:0

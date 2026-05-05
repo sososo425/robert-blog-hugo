@@ -1,0 +1,1 @@
+[   10429ms] [ERROR] Blocked script execution in 'https://huggingface.co/knowledgator/gliner-relex-multi-v1.0/raw/main/gliner_config.json' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. @ https://huggingface.co/knowledgator/gliner-relex-multi-v1.0/raw/main/gliner_config.json:0

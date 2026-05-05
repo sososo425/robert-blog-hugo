@@ -1,0 +1,20 @@
+{
+  "id": "conv-1776303806233-hwav4z4ah",
+  "title": "帮忙把这个文档的格式修复一下。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776303806233,
+  "updatedAt": 1776304819851,
+  "lastResponseAt": 1776304663461,
+  "sessionId": "b2b0c2d3-8ccd-4f6e-a0f3-cd49ca8d828c",
+  "sdkSessionId": "b2b0c2d3-8ccd-4f6e-a0f3-cd49ca8d828c",
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/参考材料/Agent 记忆系统深度调研对比（完整版）.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

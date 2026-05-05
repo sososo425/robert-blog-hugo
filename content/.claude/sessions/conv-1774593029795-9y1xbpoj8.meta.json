@@ -1,0 +1,20 @@
+{
+  "id": "conv-1774593029795-9y1xbpoj8",
+  "title": "Architect AMS memory architecture and team plan",
+  "titleGenerationStatus": "success",
+  "createdAt": 1774593029795,
+  "updatedAt": 1774781576697,
+  "lastResponseAt": 1774593240785,
+  "sessionId": "64a3957c-1aa2-4d9d-9735-fbf0bf94ae52",
+  "sdkSessionId": "64a3957c-1aa2-4d9d-9735-fbf0bf94ae52",
+  "currentNote": "assets/Pasted image 20260325111351.png",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 8,
+    "cacheCreationInputTokens": 9430,
+    "cacheReadInputTokens": 33245,
+    "contextWindow": 200000,
+    "contextTokens": 42683,
+    "percentage": 21
+  }
+}

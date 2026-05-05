@@ -1,0 +1,348 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "IDEA-CCNL / Erlangshen-Roberta-330M-NLI like 8 Follow Fengshenbang-LM 317" [level=1] [ref=e61]:
+        - generic [ref=e62]:
+          - link [ref=e66] [cursor=pointer]:
+            - /url: /IDEA-CCNL
+          - link "IDEA-CCNL" [ref=e70] [cursor=pointer]:
+            - /url: /IDEA-CCNL
+          - generic [ref=e71]: /
+        - generic [ref=e72]:
+          - link "Erlangshen-Roberta-330M-NLI" [ref=e73] [cursor=pointer]:
+            - /url: /IDEA-CCNL/Erlangshen-Roberta-330M-NLI
+          - button "Copy model name to clipboard" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+        - generic [ref=e79]:
+          - button "like" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: like
+          - button "8" [ref=e84] [cursor=pointer]
+        - generic [ref=e86]:
+          - button "Follow Fengshenbang-LM" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Follow
+            - generic [ref=e89]: Fengshenbang-LM
+          - button "317" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]:
+        - link "Text Classification" [ref=e92] [cursor=pointer]:
+          - /url: /models?pipeline_tag=text-classification
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e110]: Text Classification
+        - link "Transformers" [ref=e111] [cursor=pointer]:
+          - /url: /models?library=transformers
+          - generic [ref=e112]:
+            - img [ref=e113]
+            - generic [ref=e124]: Transformers
+        - link "PyTorch" [ref=e125] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e126]:
+            - img [ref=e127]
+            - generic [ref=e130]: PyTorch
+        - link "Chinese" [ref=e131] [cursor=pointer]:
+          - /url: /models?language=zh
+          - generic [ref=e132]:
+            - img [ref=e133]
+            - generic [ref=e135]: Chinese
+        - link "bert" [ref=e136] [cursor=pointer]:
+          - /url: /models?other=bert
+          - generic [ref=e138]: bert
+        - link "roberta" [ref=e139] [cursor=pointer]:
+          - /url: /models?other=roberta
+          - generic [ref=e141]: roberta
+        - link "NLU" [ref=e142] [cursor=pointer]:
+          - /url: /models?other=NLU
+          - generic [ref=e144]: NLU
+        - link "NLI" [ref=e145] [cursor=pointer]:
+          - /url: /models?other=NLI
+          - generic [ref=e147]: NLI
+        - link "Chinese" [ref=e148] [cursor=pointer]:
+          - /url: /models?other=Chinese
+          - generic [ref=e150]: Chinese
+        - 'button "arxiv: 2209.02970" [ref=e152] [cursor=pointer]':
+          - generic [ref=e154]:
+            - img [ref=e155]
+            - generic [ref=e158]: "arxiv:"
+            - generic [ref=e159]: "2209.02970"
+        - 'button "License: apache-2.0" [ref=e162] [cursor=pointer]':
+          - generic [ref=e164]:
+            - img [ref=e165]
+            - generic [ref=e167]: "License:"
+            - generic [ref=e168]: apache-2.0
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - link "Model card" [ref=e172] [cursor=pointer]:
+            - /url: /IDEA-CCNL/Erlangshen-Roberta-330M-NLI
+            - img [ref=e173]
+            - text: Model card
+          - link "Files xet" [ref=e177] [cursor=pointer]:
+            - /url: /IDEA-CCNL/Erlangshen-Roberta-330M-NLI/tree/main
+            - img [ref=e178]
+            - generic [ref=e181]: Files
+            - generic [ref=e184]:
+              - img [ref=e185]
+              - generic [ref=e188]: xet
+          - link "Community 1" [ref=e189] [cursor=pointer]:
+            - /url: /IDEA-CCNL/Erlangshen-Roberta-330M-NLI/discussions
+            - img [ref=e190]
+            - text: Community
+            - generic [ref=e193]: "1"
+        - generic [ref=e194]:
+          - button [ref=e197] [cursor=pointer]:
+            - img [ref=e198]
+          - generic [ref=e202]:
+            - button "Deploy" [ref=e204] [cursor=pointer]:
+              - img [ref=e205]
+              - text: Deploy
+              - img [ref=e208]
+            - dialog
+          - button "Use this model" [ref=e211] [cursor=pointer]:
+            - img [ref=e212]
+            - text: Use this model
+            - img [ref=e214]
+    - generic [ref=e216]:
+      - generic [ref=e218]:
+        - button [ref=e224] [cursor=pointer]:
+          - img [ref=e225]
+        - generic [ref=e227]:
+          - heading "Erlangshen-Roberta-330M-NLI" [level=1] [ref=e228]:
+            - link [ref=e229] [cursor=pointer]:
+              - /url: "#erlangshen-roberta-330m-nli"
+              - img [ref=e231]
+            - generic [ref=e233]: Erlangshen-Roberta-330M-NLI
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - text: "Main Page:"
+              - link "Fengshenbang" [ref=e236] [cursor=pointer]:
+                - /url: https://fengshenbang-lm.com/
+            - listitem [ref=e237]:
+              - text: "Github:"
+              - link "Fengshenbang-LM" [ref=e238] [cursor=pointer]:
+                - /url: https://github.com/IDEA-CCNL/Fengshenbang-LM
+          - heading "简介 Brief Introduction" [level=2] [ref=e239]:
+            - link [ref=e240] [cursor=pointer]:
+              - /url: "#简介-brief-introduction"
+              - img [ref=e242]
+            - generic [ref=e244]: 简介 Brief Introduction
+          - paragraph [ref=e245]: 中文的RoBERTa-wwm-ext-large在数个推理任务微调后的版本
+          - paragraph [ref=e246]: This is the fine-tuned version of the Chinese RoBERTa-wwm-ext-large model on several NLI datasets.
+          - heading "模型分类 Model Taxonomy" [level=2] [ref=e247]:
+            - link [ref=e248] [cursor=pointer]:
+              - /url: "#模型分类-model-taxonomy"
+              - img [ref=e250]
+            - generic [ref=e252]: 模型分类 Model Taxonomy
+          - table [ref=e254]:
+            - rowgroup [ref=e255]:
+              - row "需求 Demand 任务 Task 系列 Series 模型 Model 参数 Parameter 额外 Extra" [ref=e256]:
+                - columnheader "需求 Demand" [ref=e257]
+                - columnheader "任务 Task" [ref=e258]
+                - columnheader "系列 Series" [ref=e259]
+                - columnheader "模型 Model" [ref=e260]
+                - columnheader "参数 Parameter" [ref=e261]
+                - columnheader "额外 Extra" [ref=e262]
+            - rowgroup [ref=e263]:
+              - row "通用 General 自然语言理解 NLU 二郎神 Erlangshen Roberta 330M 中文-自然语言推断 Chinese-NLI" [ref=e264]:
+                - cell "通用 General" [ref=e265]
+                - cell "自然语言理解 NLU" [ref=e266]
+                - cell "二郎神 Erlangshen" [ref=e267]
+                - cell "Roberta" [ref=e268]
+                - cell "330M" [ref=e269]
+                - cell "中文-自然语言推断 Chinese-NLI" [ref=e270]
+          - heading "模型信息 Model Information" [level=2] [ref=e271]:
+            - link [ref=e272] [cursor=pointer]:
+              - /url: "#模型信息-model-information"
+              - img [ref=e274]
+            - generic [ref=e276]: 模型信息 Model Information
+          - paragraph [ref=e277]:
+            - text: 基于
+            - link "chinese-roberta-wwm-ext-large" [ref=e278] [cursor=pointer]:
+              - /url: https://huggingface.co/hfl/chinese-roberta-wwm-ext-large
+            - text: ，我们在收集的4个中文领域的NLI（自然语言推理）数据集，总计1014787个样本上微调了一个NLI版本。
+          - paragraph [ref=e279]:
+            - text: Based on
+            - link "chinese-roberta-wwm-ext-large" [ref=e280] [cursor=pointer]:
+              - /url: https://huggingface.co/hfl/chinese-roberta-wwm-ext-large
+            - text: ", we fine-tuned an NLI version on 4 Chinese Natural Language Inference (NLI) datasets, with totaling 1,014,787 samples."
+          - heading "下游效果 Performance" [level=3] [ref=e281]:
+            - link [ref=e282] [cursor=pointer]:
+              - /url: "#下游效果-performance"
+              - img [ref=e284]
+            - generic [ref=e286]: 下游效果 Performance
+          - table [ref=e288]:
+            - rowgroup [ref=e289]:
+              - row "模型 Model cmnli ocnli snli" [ref=e290]:
+                - columnheader "模型 Model" [ref=e291]
+                - columnheader "cmnli" [ref=e292]
+                - columnheader "ocnli" [ref=e293]
+                - columnheader "snli" [ref=e294]
+            - rowgroup [ref=e295]:
+              - row "Erlangshen-Roberta-110M-NLI 80.83 78.56 88.01" [ref=e296]:
+                - cell "Erlangshen-Roberta-110M-NLI" [ref=e297]
+                - cell "80.83" [ref=e298]
+                - cell "78.56" [ref=e299]
+                - cell "88.01" [ref=e300]
+              - row "Erlangshen-Roberta-330M-NLI 82.25 79.82 88" [ref=e301]:
+                - cell "Erlangshen-Roberta-330M-NLI" [ref=e302]
+                - cell "82.25" [ref=e303]
+                - cell "79.82" [ref=e304]
+                - cell "88" [ref=e305]
+              - row "Erlangshen-MegatronBert-1.3B-NLI 84.52 84.17 88.67" [ref=e306]:
+                - cell "Erlangshen-MegatronBert-1.3B-NLI" [ref=e307]
+                - cell "84.52" [ref=e308]
+                - cell "84.17" [ref=e309]
+                - cell "88.67" [ref=e310]
+          - heading "使用 Usage" [level=2] [ref=e311]:
+            - link [ref=e312] [cursor=pointer]:
+              - /url: "#使用-usage"
+              - img [ref=e314]
+            - generic [ref=e316]: 使用 Usage
+          - generic [ref=e317]:
+            - code [ref=e319]: from transformers import BertForSequenceClassification from transformers import BertTokenizer import torch tokenizer=BertTokenizer.from_pretrained('IDEA-CCNL/Erlangshen-Roberta-330M-NLI') model=BertForSequenceClassification.from_pretrained('IDEA-CCNL/Erlangshen-Roberta-330M-NLI') texta='今天的饭不好吃' textb='今天心情不好' output=model(torch.tensor([tokenizer.encode(texta,textb)])) print(torch.nn.functional.softmax(output.logits,dim=-1))
+            - button [ref=e320] [cursor=pointer]:
+              - img [ref=e321]
+          - heading "引用 Citation" [level=2] [ref=e325]:
+            - link [ref=e326] [cursor=pointer]:
+              - /url: "#引用-citation"
+              - img [ref=e328]
+            - generic [ref=e330]: 引用 Citation
+          - paragraph [ref=e331]:
+            - text: 如果您在您的工作中使用了我们的模型，可以引用我们的
+            - link "论文" [ref=e332] [cursor=pointer]:
+              - /url: https://arxiv.org/abs/2209.02970
+            - text: ：
+          - paragraph [ref=e333]:
+            - text: If you are using the resource for your work, please cite the our
+            - link "paper" [ref=e334] [cursor=pointer]:
+              - /url: https://arxiv.org/abs/2209.02970
+            - text: ":"
+          - generic [ref=e335]:
+            - code [ref=e337]: "@article{fengshenbang, author = {Jiaxing Zhang and Ruyi Gan and Junjie Wang and Yuxiang Zhang and Lin Zhang and Ping Yang and Xinyu Gao and Ziwei Wu and Xiaoqun Dong and Junqing He and Jianheng Zhuo and Qi Yang and Yongfeng Huang and Xiayu Li and Yanghan Wu and Junyu Lu and Xinyu Zhu and Weifeng Chen and Ting Han and Kunhao Pan and Rui Wang and Hao Wang and Xiaojun Wu and Zhongshen Zeng and Chongpei Chen}, title = {Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence}, journal = {CoRR}, volume = {abs/2209.02970}, year = {2022} }"
+            - button [ref=e338] [cursor=pointer]:
+              - img [ref=e339]
+          - paragraph [ref=e343]:
+            - text: 也可以引用我们的
+            - link "网站" [ref=e344] [cursor=pointer]:
+              - /url: https://github.com/IDEA-CCNL/Fengshenbang-LM/
+            - text: ":"
+          - paragraph [ref=e345]:
+            - text: You can also cite our
+            - link "website" [ref=e346] [cursor=pointer]:
+              - /url: https://github.com/IDEA-CCNL/Fengshenbang-LM/
+            - text: ":"
+          - generic [ref=e347]:
+            - code [ref=e349]: "@misc{Fengshenbang-LM, title={Fengshenbang-LM}, author={IDEA-CCNL}, year={2021}, howpublished={\\url{https://github.com/IDEA-CCNL/Fengshenbang-LM}}, }"
+            - button [ref=e350] [cursor=pointer]:
+              - img [ref=e351]
+      - generic [ref=e355]:
+        - generic [ref=e356]:
+          - generic [ref=e357]:
+            - term [ref=e358]: Downloads last month
+            - definition [ref=e359]: "490"
+          - img [ref=e361]
+        - generic [ref=e367]:
+          - generic [ref=e369]:
+            - img [ref=e370]
+            - generic [ref=e372]: Inference Providers
+            - link "NEW" [ref=e373] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/inference-providers
+          - link "Text Classification" [ref=e376] [cursor=pointer]:
+            - /url: /tasks/text-classification
+            - generic [ref=e377]:
+              - img [ref=e378]
+              - generic [ref=e393]: Text Classification
+          - generic [ref=e394]:
+            - generic [ref=e395]: This model isn't deployed by any Inference Provider.
+            - link "🙋 Ask for provider support" [ref=e396] [cursor=pointer]:
+              - /url: /spaces/huggingface/InferenceSupport/discussions/new?title=IDEA-CCNL/Erlangshen-Roberta-330M-NLI&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5BIDEA-CCNL%2FErlangshen-Roberta-330M-NLI%5D(%2FIDEA-CCNL%2FErlangshen-Roberta-330M-NLI)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+              - generic [ref=e398]: 🙋
+              - generic [ref=e399]: Ask for provider support
+        - heading "Paper for IDEA-CCNL/Erlangshen-Roberta-330M-NLI" [level=2] [ref=e401]:
+          - img [ref=e402]
+          - text: Paper for
+          - generic [ref=e405]: IDEA-CCNL/Erlangshen-Roberta-330M-NLI
+        - article [ref=e407]:
+          - 'link "Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence Paper • 2209.02970 • Published Sep 7, 2022" [ref=e408] [cursor=pointer]':
+            - /url: /papers/2209.02970
+            - generic "arxiv:2209.02970" [ref=e409]:
+              - 'heading "Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence" [level=4] [ref=e410]'
+            - generic [ref=e411]:
+              - img [ref=e412]
+              - text: Paper
+              - generic [ref=e415]: •
+              - text: "2209.02970"
+              - generic [ref=e416]: •
+              - generic [ref=e417]:
+                - text: Published
+                - time [ref=e418]: Sep 7, 2022
+  - contentinfo [ref=e419]:
+    - navigation [ref=e420]:
+      - button "System theme" [ref=e423] [cursor=pointer]:
+        - img [ref=e424]
+        - text: System theme
+      - link "TOS" [ref=e429] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e430] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e431] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e432] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e433] [cursor=pointer]:
+        - /url: /
+        - img [ref=e434]
+      - link "Models" [ref=e448] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e449] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e450] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e451] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e452] [cursor=pointer]:
+        - /url: /docs

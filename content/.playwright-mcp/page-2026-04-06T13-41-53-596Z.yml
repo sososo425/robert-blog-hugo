@@ -1,0 +1,936 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - link "Knowledgator Engineering" [ref=e62] [cursor=pointer]:
+          - /url: /knowledgator
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - link "Knowledgator Engineering" [ref=e65] [cursor=pointer]:
+              - /url: /knowledgator
+              - heading "Knowledgator Engineering" [level=1] [ref=e66]
+            - generic [ref=e67]:
+              - link "Team" [ref=e68] [cursor=pointer]:
+                - /url: /enterprise
+                - generic [ref=e69]: Team
+              - generic [ref=e71]: company
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - img [ref=e75]
+              - link "https://knowledgator.com/" [ref=e78] [cursor=pointer]:
+                - /url: https://knowledgator.com/
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - img [ref=e81]
+                - link "knowledgator" [ref=e83] [cursor=pointer]:
+                  - /url: https://twitter.com/knowledgator
+              - generic [ref=e84]:
+                - img [ref=e85]
+                - link "Knowledgator" [ref=e87] [cursor=pointer]:
+                  - /url: https://github.com/Knowledgator
+      - generic [ref=e89]:
+        - link "Activity Feed" [ref=e90] [cursor=pointer]:
+          - /url: /organizations/knowledgator/activity/all
+        - link "Request to join this org" [ref=e91] [cursor=pointer]:
+          - /url: /login?next=%2Fknowledgator
+          - img [ref=e92]
+          - text: Request to join this org
+        - button "Follow 276" [ref=e99] [cursor=pointer]:
+          - generic [ref=e100]: Follow
+          - generic "Show Knowledgator Engineering's followers" [ref=e101]: "276"
+    - generic [ref=e107]:
+      - generic [ref=e108]:
+        - heading "AI & ML interests" [level=3] [ref=e109]:
+          - img [ref=e110]
+          - text: AI & ML interests
+        - paragraph [ref=e117]: Text classification, relations extraction, NER, computational biology
+        - heading "Recent Activity" [level=3] [ref=e118]:
+          - img [ref=e119]
+          - text: Recent Activity
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - link [ref=e129] [cursor=pointer]:
+                - /url: /alexandrlukashov
+                - img [ref=e132]
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - link "alexandrlukashov" [ref=e141] [cursor=pointer]:
+                    - /url: /alexandrlukashov
+                  - generic [ref=e142]: updated a model
+                  - generic [ref=e143]: about 12 hours ago
+                - link "knowledgator/retrico-lm-gemma4-grpo-2b" [ref=e144] [cursor=pointer]:
+                  - /url: /knowledgator/retrico-lm-gemma4-grpo-2b
+            - generic [ref=e145]:
+              - link [ref=e149] [cursor=pointer]:
+                - /url: /alexandrlukashov
+                - img [ref=e152]
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - link "alexandrlukashov" [ref=e161] [cursor=pointer]:
+                    - /url: /alexandrlukashov
+                  - generic [ref=e162]: published a model
+                  - generic [ref=e163]: about 14 hours ago
+                - link "knowledgator/retrico-lm-gemma4-grpo-2b" [ref=e164] [cursor=pointer]:
+                  - /url: /knowledgator/retrico-lm-gemma4-grpo-2b
+            - generic [ref=e165]:
+              - link [ref=e169] [cursor=pointer]:
+                - /url: /alexandrlukashov
+                - img [ref=e172]
+              - generic [ref=e178]:
+                - generic [ref=e179]:
+                  - link "alexandrlukashov" [ref=e182] [cursor=pointer]:
+                    - /url: /alexandrlukashov
+                  - generic [ref=e183]: published a dataset
+                  - generic [ref=e184]: 1 day ago
+                - link "knowledgator/text2json-training-data" [ref=e185] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/text2json-training-data
+          - link "View all activity" [ref=e186] [cursor=pointer]:
+            - /url: /organizations/knowledgator/activity/all
+        - generic [ref=e187]:
+          - heading "Papers" [level=3] [ref=e188]:
+            - generic [ref=e189]:
+              - img [ref=e190]
+              - generic [ref=e193]: Papers
+          - generic [ref=e194]:
+            - 'link "The Million-Label NER: Breaking Scale Barriers with GLiNER bi-encoder" [ref=e195] [cursor=pointer]':
+              - /url: /papers/2602.18487
+              - paragraph [ref=e198]: "The Million-Label NER: Breaking Scale Barriers with GLiNER bi-encoder"
+            - 'link "GLiClass: Generalist Lightweight Model for Sequence Classification Tasks" [ref=e199] [cursor=pointer]':
+              - /url: /papers/2508.07662
+              - paragraph [ref=e202]: "GLiClass: Generalist Lightweight Model for Sequence Classification Tasks"
+          - link "View all Papers" [ref=e203] [cursor=pointer]:
+            - /url: /knowledgator/papers
+        - heading "Team members 6" [level=3] [ref=e204]:
+          - img [ref=e205]
+          - button "Team members 6" [ref=e210] [cursor=pointer]
+        - navigation [ref=e211]:
+          - link "Stepanov's profile picture" [ref=e212] [cursor=pointer]:
+            - /url: /Ihor
+            - img "Stepanov's profile picture" [ref=e213]
+          - link "Mykyta Yaroshenko's profile picture" [ref=e214] [cursor=pointer]:
+            - /url: /MVYaroshenko
+            - img "Mykyta Yaroshenko's profile picture" [ref=e215]
+          - link "Mykhailo Shtopko's profile picture" [ref=e216] [cursor=pointer]:
+            - /url: /BioMike
+            - img "Mykhailo Shtopko's profile picture" [ref=e217]
+          - link "Dmytro's profile picture" [ref=e218] [cursor=pointer]:
+            - /url: /werent4
+            - img "Dmytro's profile picture" [ref=e219]
+          - link "Oleksandr Lukashov's profile picture" [ref=e220] [cursor=pointer]:
+            - /url: /alexandrlukashov
+            - img "Oleksandr Lukashov's profile picture" [ref=e221]
+          - link "Kostiantyn Klochko's profile picture" [ref=e222] [cursor=pointer]:
+            - /url: /kklochko-k10r
+            - img "Kostiantyn Klochko's profile picture" [ref=e223]
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - img [ref=e229]
+              - text: Organization Card
+            - generic [ref=e233]:
+              - link "Community" [ref=e234] [cursor=pointer]:
+                - /url: /spaces/knowledgator/README/discussions
+                - img [ref=e235]
+                - text: Community
+              - link "About org cards" [ref=e238] [cursor=pointer]:
+                - /url: /docs/hub/organizations-cards
+                - img [ref=e239]
+                - text: About org cards
+          - generic [ref=e243]:
+            - paragraph [ref=e244]:
+              - strong [ref=e245]: Knowledgator
+              - text: is an open-source ML research company focused on advancing the information extraction field.
+              - strong [ref=e246]: "Research:"
+              - text: reinventing encoder architecture to build efficient open-source information extraction models.
+            - heading "Feedback" [level=3] [ref=e247]
+            - paragraph [ref=e248]:
+              - text: We value your input! Share your feedback and suggestions to help us improve our models.
+              - text: Fill out the feedback
+              - link "form" [ref=e249] [cursor=pointer]:
+                - /url: https://forms.gle/5CPFFuLzNWznjcpL7
+            - heading "Join Our Discord" [level=3] [ref=e250]
+            - paragraph [ref=e251]:
+              - text: Connect with our community on Discord for news, support, and discussion about our models.
+              - text: Join
+              - link "Discord" [ref=e252] [cursor=pointer]:
+                - /url: https://discord.gg/dkyeAgs9DG
+        - generic [ref=e253]:
+          - heading "Collections 21" [level=3] [ref=e254]:
+            - generic [ref=e255]:
+              - link "Collections 21" [ref=e256] [cursor=pointer]:
+                - /url: /knowledgator/collections
+                - img [ref=e257]
+                - generic [ref=e261]: Collections
+                - generic [ref=e262]: "21"
+              - button [ref=e263] [cursor=pointer]:
+                - img [ref=e264]
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - article [ref=e270]:
+                - link "GLiNER-relex Zero-shot joint NER and relation extraction models" [ref=e271] [cursor=pointer]:
+                  - /url: /collections/knowledgator/gliner-relex
+                  - generic [ref=e272]: GLiNER-relex
+                  - generic [ref=e273]: Zero-shot joint NER and relation extraction models
+                  - img [ref=e275]
+                - list [ref=e277]:
+                  - listitem [ref=e278]:
+                    - article [ref=e279]:
+                      - link "knowledgator/gliner-relex-large-v0.5 Token Classification • Updated 18 days ago • 190 • 21" [ref=e280] [cursor=pointer]:
+                        - /url: /knowledgator/gliner-relex-large-v0.5
+                        - generic [ref=e281]:
+                          - generic "knowledgator/gliner-relex-large-v0.5" [ref=e282]:
+                            - heading "knowledgator/gliner-relex-large-v0.5" [level=4] [ref=e284]
+                          - generic [ref=e285]:
+                            - img [ref=e286]
+                            - text: Token Classification
+                            - generic [ref=e294]: •
+                            - generic [ref=e295]:
+                              - text: Updated
+                              - time [ref=e296]: 18 days ago
+                            - generic [ref=e297]: •
+                            - img [ref=e298]
+                            - text: "190"
+                            - generic [ref=e300]: •
+                            - img [ref=e301]
+                            - text: "21"
+                  - listitem [ref=e303]:
+                    - article [ref=e304]:
+                      - link "knowledgator/gliner-relex-large-v1.0 Token Classification • Updated 15 days ago • 164 • 2" [ref=e305] [cursor=pointer]:
+                        - /url: /knowledgator/gliner-relex-large-v1.0
+                        - generic [ref=e306]:
+                          - generic "knowledgator/gliner-relex-large-v1.0" [ref=e307]:
+                            - heading "knowledgator/gliner-relex-large-v1.0" [level=4] [ref=e309]
+                          - generic [ref=e310]:
+                            - img [ref=e311]
+                            - text: Token Classification
+                            - generic [ref=e319]: •
+                            - generic [ref=e320]:
+                              - text: Updated
+                              - time [ref=e321]: 15 days ago
+                            - generic [ref=e322]: •
+                            - img [ref=e323]
+                            - text: "164"
+                            - generic [ref=e325]: •
+                            - img [ref=e326]
+                            - text: "2"
+                  - listitem [ref=e328]:
+                    - article [ref=e329]:
+                      - link "knowledgator/gliner-relex-base-v1.0 Token Classification • Updated 20 days ago • 31" [ref=e330] [cursor=pointer]:
+                        - /url: /knowledgator/gliner-relex-base-v1.0
+                        - generic [ref=e331]:
+                          - generic "knowledgator/gliner-relex-base-v1.0" [ref=e332]:
+                            - heading "knowledgator/gliner-relex-base-v1.0" [level=4] [ref=e334]
+                          - generic [ref=e335]:
+                            - img [ref=e336]
+                            - text: Token Classification
+                            - generic [ref=e344]: •
+                            - generic [ref=e345]:
+                              - text: Updated
+                              - time [ref=e346]: 20 days ago
+                            - generic [ref=e347]: •
+                            - img [ref=e348]
+                            - text: "31"
+                  - listitem [ref=e350]:
+                    - article [ref=e351]:
+                      - link "knowledgator/gliner-relex-multi-v1.0 Token Classification • Updated 20 days ago • 47 • 1" [ref=e352] [cursor=pointer]:
+                        - /url: /knowledgator/gliner-relex-multi-v1.0
+                        - generic [ref=e353]:
+                          - generic "knowledgator/gliner-relex-multi-v1.0" [ref=e354]:
+                            - heading "knowledgator/gliner-relex-multi-v1.0" [level=4] [ref=e356]
+                          - generic [ref=e357]:
+                            - img [ref=e358]
+                            - text: Token Classification
+                            - generic [ref=e366]: •
+                            - generic [ref=e367]:
+                              - text: Updated
+                              - time [ref=e368]: 20 days ago
+                            - generic [ref=e369]: •
+                            - img [ref=e370]
+                            - text: "47"
+                            - generic [ref=e372]: •
+                            - img [ref=e373]
+                            - text: "1"
+              - article [ref=e377]:
+                - link "GLiClass-Instruct Multi-task efficient zero-shot sequence classification models" [ref=e378] [cursor=pointer]:
+                  - /url: /collections/knowledgator/gliclass-instruct
+                  - generic [ref=e379]: GLiClass-Instruct
+                  - generic [ref=e380]: Multi-task efficient zero-shot sequence classification models
+                  - img [ref=e382]
+                - list [ref=e384]:
+                  - listitem [ref=e385]:
+                    - article [ref=e386]:
+                      - link "knowledgator/gliclass-instruct-large-v1.0 Text Classification • 0.4B • Updated Feb 17 • 6.34k • 40" [ref=e387] [cursor=pointer]:
+                        - /url: /knowledgator/gliclass-instruct-large-v1.0
+                        - generic [ref=e388]:
+                          - generic "knowledgator/gliclass-instruct-large-v1.0" [ref=e389]:
+                            - heading "knowledgator/gliclass-instruct-large-v1.0" [level=4] [ref=e391]
+                          - generic [ref=e392]:
+                            - img [ref=e393]
+                            - text: Text Classification
+                            - generic [ref=e408]: •
+                            - 'generic "Number of parameters in the model: 0.4B" [ref=e409]':
+                              - img [ref=e410]
+                              - text: 0.4B
+                            - generic [ref=e412]: •
+                            - generic:
+                              - text: Updated
+                              - time [ref=e413]: Feb 17
+                            - generic [ref=e414]: •
+                            - img [ref=e415]
+                            - text: 6.34k
+                            - generic [ref=e417]: •
+                            - img [ref=e418]
+                            - text: "40"
+                  - listitem [ref=e420]:
+                    - article [ref=e421]:
+                      - link "knowledgator/gliclass-instruct-base-v1.0 Text Classification • 0.2B • Updated Feb 17 • 144 • 3" [ref=e422] [cursor=pointer]:
+                        - /url: /knowledgator/gliclass-instruct-base-v1.0
+                        - generic [ref=e423]:
+                          - generic "knowledgator/gliclass-instruct-base-v1.0" [ref=e424]:
+                            - heading "knowledgator/gliclass-instruct-base-v1.0" [level=4] [ref=e426]
+                          - generic [ref=e427]:
+                            - img [ref=e428]
+                            - text: Text Classification
+                            - generic [ref=e443]: •
+                            - 'generic "Number of parameters in the model: 0.2B" [ref=e444]':
+                              - img [ref=e445]
+                              - text: 0.2B
+                            - generic [ref=e447]: •
+                            - generic:
+                              - text: Updated
+                              - time [ref=e448]: Feb 17
+                            - generic [ref=e449]: •
+                            - img [ref=e450]
+                            - text: "144"
+                            - generic [ref=e452]: •
+                            - img [ref=e453]
+                            - text: "3"
+                  - listitem [ref=e455]:
+                    - article [ref=e456]:
+                      - link "knowledgator/gliclass-instruct-edge-v1.0 Text Classification • 32.7M • Updated Feb 17 • 986 • 5" [ref=e457] [cursor=pointer]:
+                        - /url: /knowledgator/gliclass-instruct-edge-v1.0
+                        - generic [ref=e458]:
+                          - generic "knowledgator/gliclass-instruct-edge-v1.0" [ref=e459]:
+                            - heading "knowledgator/gliclass-instruct-edge-v1.0" [level=4] [ref=e461]
+                          - generic [ref=e462]:
+                            - img [ref=e463]
+                            - text: Text Classification
+                            - generic [ref=e478]: •
+                            - 'generic "Number of parameters in the model: 32.7M" [ref=e479]':
+                              - img [ref=e480]
+                              - text: 32.7M
+                            - generic [ref=e482]: •
+                            - generic:
+                              - text: Updated
+                              - time [ref=e483]: Feb 17
+                            - generic [ref=e484]: •
+                            - img [ref=e485]
+                            - text: "986"
+                            - generic [ref=e487]: •
+                            - img [ref=e488]
+                            - text: "5"
+            - link "View 21 collections" [ref=e493] [cursor=pointer]:
+              - /url: /knowledgator/collections
+              - img [ref=e494]
+              - text: View 21 collections
+        - generic [ref=e497]:
+          - 'heading "spaces 8 Sort: Recently updated" [level=3] [ref=e498]':
+            - link "spaces 8" [ref=e499] [cursor=pointer]:
+              - /url: /knowledgator/spaces
+              - img [ref=e500]
+              - generic [ref=e506]: spaces
+              - generic [ref=e507]: "8"
+            - generic [ref=e508]:
+              - button "Filter spaces by name" [ref=e509] [cursor=pointer]:
+                - img [ref=e510]
+              - 'button "Sort: Recently updated" [ref=e513] [cursor=pointer]':
+                - img [ref=e514]
+                - text: "Sort: Recently updated"
+          - generic [ref=e517]:
+            - generic [ref=e518]:
+              - article [ref=e519]:
+                - link "Running 13 knowledgator Feb 17" [ref=e520] [cursor=pointer]:
+                  - /url: /spaces/knowledgator/GLiClass_SandBox
+                  - generic [ref=e522]:
+                    - generic [ref=e525]: Running
+                    - generic [ref=e527]:
+                      - img [ref=e528]
+                      - generic [ref=e530]: "13"
+                  - main [ref=e531]:
+                    - generic [ref=e532]:
+                      - generic [ref=e534]:
+                        - heading "GLiClass SandBox" [level=4] [ref=e535]
+                        - generic [ref=e536]: 🌖
+                      - paragraph [ref=e537]: Classify text with zero-shot classification
+                  - generic [ref=e538]:
+                    - button "knowledgator" [ref=e539]: knowledgator
+                    - time [ref=e541]: Feb 17
+              - article [ref=e542]:
+                - link "Running Featured 86 knowledgator Dec 22, 2025" [ref=e543] [cursor=pointer]:
+                  - /url: /spaces/knowledgator/GLiNER_HandyLab
+                  - generic [ref=e545]:
+                    - generic [ref=e548]: Running
+                    - generic [ref=e549]:
+                      - generic [ref=e550]:
+                        - img [ref=e551]
+                        - generic [ref=e554]: Featured
+                      - generic [ref=e555]:
+                        - img [ref=e556]
+                        - generic [ref=e558]: "86"
+                  - main [ref=e559]:
+                    - generic [ref=e560]:
+                      - generic [ref=e562]:
+                        - heading "GLiNER HandyLab" [level=4] [ref=e563]
+                        - generic [ref=e564]: ⚡
+                      - paragraph [ref=e565]: Run NER, QA, summarization, and more on your text
+                  - generic [ref=e566]:
+                    - button "knowledgator" [ref=e567]: knowledgator
+                    - time [ref=e569]: Dec 22, 2025
+              - article [ref=e570]:
+                - link "Sleeping knowledgator May 9, 2025" [ref=e571] [cursor=pointer]:
+                  - /url: /spaces/knowledgator/GLiClassReranker
+                  - generic [ref=e576]:
+                    - img [ref=e577]
+                    - text: Sleeping
+                  - main [ref=e579]:
+                    - generic [ref=e580]:
+                      - generic [ref=e582]:
+                        - heading "GLiClassReranker" [level=4] [ref=e583]
+                        - generic [ref=e584]: 🚀
+                      - paragraph [ref=e585]: GLiClass for Reranking Sentence Pairs
+                  - generic [ref=e586]:
+                    - button "knowledgator" [ref=e587]: knowledgator
+                    - time [ref=e589]: May 9, 2025
+              - article [ref=e590]:
+                - link "Sleeping knowledgator Jun 12, 2024" [ref=e591] [cursor=pointer]:
+                  - /url: /spaces/knowledgator/SemanticChemist
+                  - generic [ref=e596]:
+                    - img [ref=e597]
+                    - text: Sleeping
+                  - main [ref=e599]:
+                    - generic [ref=e600]:
+                      - generic [ref=e602]:
+                        - heading "SemanticChemist" [level=4] [ref=e603]
+                        - generic [ref=e604]: 🏢
+                      - paragraph [ref=e605]: Search for chemical compounds by name or code
+                  - generic [ref=e606]:
+                    - button "knowledgator" [ref=e607]: knowledgator
+                    - time [ref=e609]: Jun 12, 2024
+              - article [ref=e610]:
+                - link "Paused 3 knowledgator Jun 6, 2024" [ref=e611] [cursor=pointer]:
+                  - /url: /spaces/knowledgator/UTC_HandyLab
+                  - generic [ref=e613]:
+                    - generic [ref=e616]:
+                      - img [ref=e617]
+                      - text: Paused
+                    - generic [ref=e620]:
+                      - img [ref=e621]
+                      - generic [ref=e623]: "3"
+                  - main [ref=e624]:
+                    - generic [ref=e625]:
+                      - generic [ref=e627]:
+                        - heading "UTC HandyLab" [level=4] [ref=e628]
+                        - generic [ref=e629]: 📚
+                      - paragraph
+                  - generic [ref=e630]:
+                    - button "knowledgator" [ref=e631]: knowledgator
+                    - time [ref=e633]: Jun 6, 2024
+            - link "View 8 Spaces" [ref=e637] [cursor=pointer]:
+              - /url: /knowledgator/spaces
+              - img [ref=e638]
+              - text: View 8 Spaces
+        - generic [ref=e641]:
+          - 'heading "models 118 Sort: Recently updated" [level=3] [ref=e642]':
+            - link "models 118" [ref=e643] [cursor=pointer]:
+              - /url: /knowledgator/models
+              - img [ref=e644]
+              - generic [ref=e648]: models
+              - generic [ref=e649]: "118"
+            - generic [ref=e650]:
+              - button "Filter models by name" [ref=e651] [cursor=pointer]:
+                - img [ref=e652]
+              - 'button "Sort: Recently updated" [ref=e655] [cursor=pointer]':
+                - img [ref=e656]
+                - text: "Sort: Recently updated"
+          - generic [ref=e659]:
+            - generic [ref=e660]:
+              - article [ref=e661]:
+                - link "knowledgator/retrico-lm-gemma4-grpo-2b Text Generation • Updated about 6 hours ago • 19" [ref=e662] [cursor=pointer]:
+                  - /url: /knowledgator/retrico-lm-gemma4-grpo-2b
+                  - generic [ref=e663]:
+                    - generic "knowledgator/retrico-lm-gemma4-grpo-2b" [ref=e664]:
+                      - heading "knowledgator/retrico-lm-gemma4-grpo-2b" [level=4] [ref=e666]
+                    - generic [ref=e667]:
+                      - img [ref=e668]
+                      - text: Text Generation
+                      - generic [ref=e672]: •
+                      - generic [ref=e673]:
+                        - text: Updated
+                        - time [ref=e674]: about 6 hours ago
+                      - generic [ref=e675]: •
+                      - img [ref=e676]
+                      - text: "19"
+              - article [ref=e678]:
+                - link "knowledgator/retrico-lm-2b-sft-gemma 5B • Updated 2 days ago • 88" [ref=e679] [cursor=pointer]:
+                  - /url: /knowledgator/retrico-lm-2b-sft-gemma
+                  - generic [ref=e680]:
+                    - generic "knowledgator/retrico-lm-2b-sft-gemma" [ref=e681]:
+                      - heading "knowledgator/retrico-lm-2b-sft-gemma" [level=4] [ref=e683]
+                    - generic [ref=e684]:
+                      - 'generic "Number of parameters in the model: 5B" [ref=e685]':
+                        - img [ref=e686]
+                        - text: 5B
+                      - generic [ref=e688]: •
+                      - generic [ref=e689]:
+                        - text: Updated
+                        - time [ref=e690]: 2 days ago
+                      - generic [ref=e691]: •
+                      - img [ref=e692]
+                      - text: "88"
+              - article [ref=e694]:
+                - link "knowledgator/gliner-pii-edge-v1.0 Token Classification • Updated 11 days ago • 752 • 10" [ref=e695] [cursor=pointer]:
+                  - /url: /knowledgator/gliner-pii-edge-v1.0
+                  - generic [ref=e696]:
+                    - generic "knowledgator/gliner-pii-edge-v1.0" [ref=e697]:
+                      - heading "knowledgator/gliner-pii-edge-v1.0" [level=4] [ref=e699]
+                    - generic [ref=e700]:
+                      - img [ref=e701]
+                      - text: Token Classification
+                      - generic [ref=e709]: •
+                      - generic [ref=e710]:
+                        - text: Updated
+                        - time [ref=e711]: 11 days ago
+                      - generic [ref=e712]: •
+                      - img [ref=e713]
+                      - text: "752"
+                      - generic [ref=e715]: •
+                      - img [ref=e716]
+                      - text: "10"
+              - article [ref=e718]:
+                - link "knowledgator/gliner-relex-large-v1.0 Token Classification • Updated 15 days ago • 164 • 2" [ref=e719] [cursor=pointer]:
+                  - /url: /knowledgator/gliner-relex-large-v1.0
+                  - generic [ref=e720]:
+                    - generic "knowledgator/gliner-relex-large-v1.0" [ref=e721]:
+                      - heading "knowledgator/gliner-relex-large-v1.0" [level=4] [ref=e723]
+                    - generic [ref=e724]:
+                      - img [ref=e725]
+                      - text: Token Classification
+                      - generic [ref=e733]: •
+                      - generic [ref=e734]:
+                        - text: Updated
+                        - time [ref=e735]: 15 days ago
+                      - generic [ref=e736]: •
+                      - img [ref=e737]
+                      - text: "164"
+                      - generic [ref=e739]: •
+                      - img [ref=e740]
+                      - text: "2"
+              - article [ref=e742]:
+                - link "knowledgator/gliner-relex-large-v0.5 Token Classification • Updated 18 days ago • 190 • 21" [ref=e743] [cursor=pointer]:
+                  - /url: /knowledgator/gliner-relex-large-v0.5
+                  - generic [ref=e744]:
+                    - generic "knowledgator/gliner-relex-large-v0.5" [ref=e745]:
+                      - heading "knowledgator/gliner-relex-large-v0.5" [level=4] [ref=e747]
+                    - generic [ref=e748]:
+                      - img [ref=e749]
+                      - text: Token Classification
+                      - generic [ref=e757]: •
+                      - generic [ref=e758]:
+                        - text: Updated
+                        - time [ref=e759]: 18 days ago
+                      - generic [ref=e760]: •
+                      - img [ref=e761]
+                      - text: "190"
+                      - generic [ref=e763]: •
+                      - img [ref=e764]
+                      - text: "21"
+              - article [ref=e766]:
+                - link "knowledgator/t5gemma-2-text-encoder-270m 0.3B • Updated 18 days ago • 40" [ref=e767] [cursor=pointer]:
+                  - /url: /knowledgator/t5gemma-2-text-encoder-270m
+                  - generic [ref=e768]:
+                    - generic "knowledgator/t5gemma-2-text-encoder-270m" [ref=e769]:
+                      - heading "knowledgator/t5gemma-2-text-encoder-270m" [level=4] [ref=e771]
+                    - generic [ref=e772]:
+                      - 'generic "Number of parameters in the model: 0.3B" [ref=e773]':
+                        - img [ref=e774]
+                        - text: 0.3B
+                      - generic [ref=e776]: •
+                      - generic [ref=e777]:
+                        - text: Updated
+                        - time [ref=e778]: 18 days ago
+                      - generic [ref=e779]: •
+                      - img [ref=e780]
+                      - text: "40"
+              - article [ref=e782]:
+                - link "knowledgator/gliner-relex-multi-v1.0 Token Classification • Updated 20 days ago • 47 • 1" [ref=e783] [cursor=pointer]:
+                  - /url: /knowledgator/gliner-relex-multi-v1.0
+                  - generic [ref=e784]:
+                    - generic "knowledgator/gliner-relex-multi-v1.0" [ref=e785]:
+                      - heading "knowledgator/gliner-relex-multi-v1.0" [level=4] [ref=e787]
+                    - generic [ref=e788]:
+                      - img [ref=e789]
+                      - text: Token Classification
+                      - generic [ref=e797]: •
+                      - generic [ref=e798]:
+                        - text: Updated
+                        - time [ref=e799]: 20 days ago
+                      - generic [ref=e800]: •
+                      - img [ref=e801]
+                      - text: "47"
+                      - generic [ref=e803]: •
+                      - img [ref=e804]
+                      - text: "1"
+              - article [ref=e806]:
+                - link "knowledgator/gliner-relex-base-v1.0 Token Classification • Updated 20 days ago • 31" [ref=e807] [cursor=pointer]:
+                  - /url: /knowledgator/gliner-relex-base-v1.0
+                  - generic [ref=e808]:
+                    - generic "knowledgator/gliner-relex-base-v1.0" [ref=e809]:
+                      - heading "knowledgator/gliner-relex-base-v1.0" [level=4] [ref=e811]
+                    - generic [ref=e812]:
+                      - img [ref=e813]
+                      - text: Token Classification
+                      - generic [ref=e821]: •
+                      - generic [ref=e822]:
+                        - text: Updated
+                        - time [ref=e823]: 20 days ago
+                      - generic [ref=e824]: •
+                      - img [ref=e825]
+                      - text: "31"
+              - article [ref=e827]:
+                - link "knowledgator/gliner-bi-large-v2.0 Token Classification • Updated Feb 24 • 120 • 16" [ref=e828] [cursor=pointer]:
+                  - /url: /knowledgator/gliner-bi-large-v2.0
+                  - generic [ref=e829]:
+                    - generic "knowledgator/gliner-bi-large-v2.0" [ref=e830]:
+                      - heading "knowledgator/gliner-bi-large-v2.0" [level=4] [ref=e832]
+                    - generic [ref=e833]:
+                      - img [ref=e834]
+                      - text: Token Classification
+                      - generic [ref=e842]: •
+                      - generic [ref=e843]:
+                        - text: Updated
+                        - time [ref=e844]: Feb 24
+                      - generic [ref=e845]: •
+                      - img [ref=e846]
+                      - text: "120"
+                      - generic [ref=e848]: •
+                      - img [ref=e849]
+                      - text: "16"
+              - article [ref=e851]:
+                - link "knowledgator/gliner-bi-base-v2.0 Token Classification • Updated Feb 24 • 184 • 5" [ref=e852] [cursor=pointer]:
+                  - /url: /knowledgator/gliner-bi-base-v2.0
+                  - generic [ref=e853]:
+                    - generic "knowledgator/gliner-bi-base-v2.0" [ref=e854]:
+                      - heading "knowledgator/gliner-bi-base-v2.0" [level=4] [ref=e856]
+                    - generic [ref=e857]:
+                      - img [ref=e858]
+                      - text: Token Classification
+                      - generic [ref=e866]: •
+                      - generic [ref=e867]:
+                        - text: Updated
+                        - time [ref=e868]: Feb 24
+                      - generic [ref=e869]: •
+                      - img [ref=e870]
+                      - text: "184"
+                      - generic [ref=e872]: •
+                      - img [ref=e873]
+                      - text: "5"
+            - link "View 118 models" [ref=e878] [cursor=pointer]:
+              - /url: /knowledgator/models
+              - img [ref=e879]
+              - text: View 118 models
+        - generic [ref=e882]:
+          - 'heading "datasets 14 Sort: Recently updated" [level=3] [ref=e883]':
+            - link "datasets 14" [ref=e884] [cursor=pointer]:
+              - /url: /knowledgator/datasets
+              - img [ref=e885]
+              - generic [ref=e890]: datasets
+              - generic [ref=e891]: "14"
+            - generic [ref=e892]:
+              - button "Filter datasets by name" [ref=e893] [cursor=pointer]:
+                - img [ref=e894]
+              - 'button "Sort: Recently updated" [ref=e897] [cursor=pointer]':
+                - img [ref=e898]
+                - text: "Sort: Recently updated"
+          - generic [ref=e901]:
+            - generic [ref=e902]:
+              - article [ref=e903]:
+                - link "knowledgator/text2json-training-data Preview • Updated 3 days ago • 169" [ref=e904] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/text2json-training-data
+                  - generic [ref=e905]:
+                    - generic "knowledgator/text2json-training-data" [ref=e906]:
+                      - img [ref=e907]
+                      - heading "knowledgator/text2json-training-data" [level=4] [ref=e912]
+                    - generic [ref=e913]:
+                      - img [ref=e914]
+                      - text: Preview
+                      - generic [ref=e917]: •
+                      - generic [ref=e918]:
+                        - text: Updated
+                        - time [ref=e919]: 3 days ago
+                      - generic [ref=e920]: •
+                      - img [ref=e921]
+                      - text: "169"
+              - article [ref=e923]:
+                - link "knowledgator/gliclass-v3-logic-dataset Viewer • Updated Aug 12, 2025 • 7.78k • 63 • 8" [ref=e924] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/gliclass-v3-logic-dataset
+                  - generic [ref=e925]:
+                    - generic "knowledgator/gliclass-v3-logic-dataset" [ref=e926]:
+                      - img [ref=e927]
+                      - heading "knowledgator/gliclass-v3-logic-dataset" [level=4] [ref=e932]
+                    - generic [ref=e933]:
+                      - img [ref=e934]
+                      - text: Viewer
+                      - generic [ref=e936]: •
+                      - generic [ref=e937]:
+                        - text: Updated
+                        - time [ref=e938]: Aug 12, 2025
+                      - generic [ref=e939]: •
+                      - img [ref=e940]
+                      - generic [ref=e942]: 7.78k
+                      - generic [ref=e943]: •
+                      - img [ref=e944]
+                      - text: "63"
+                      - generic [ref=e946]: •
+                      - img [ref=e947]
+                      - text: "8"
+              - article [ref=e949]:
+                - link "knowledgator/gliner-multilingual-synthetic Updated Jun 4, 2025 • 55 • 4" [ref=e950] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/gliner-multilingual-synthetic
+                  - generic [ref=e951]:
+                    - generic "knowledgator/gliner-multilingual-synthetic" [ref=e952]:
+                      - img [ref=e953]
+                      - heading "knowledgator/gliner-multilingual-synthetic" [level=4] [ref=e958]
+                    - generic [ref=e959]:
+                      - generic [ref=e960]:
+                        - text: Updated
+                        - time [ref=e961]: Jun 4, 2025
+                      - generic [ref=e962]: •
+                      - img [ref=e963]
+                      - text: "55"
+                      - generic [ref=e965]: •
+                      - img [ref=e966]
+                      - text: "4"
+              - article [ref=e968]:
+                - link "knowledgator/events_classification_biotech Updated Mar 26, 2025 • 183 • 15" [ref=e969] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/events_classification_biotech
+                  - generic [ref=e970]:
+                    - generic "knowledgator/events_classification_biotech" [ref=e971]:
+                      - img [ref=e972]
+                      - heading "knowledgator/events_classification_biotech" [level=4] [ref=e977]
+                    - generic [ref=e978]:
+                      - generic [ref=e979]:
+                        - text: Updated
+                        - time [ref=e980]: Mar 26, 2025
+                      - generic [ref=e981]: •
+                      - img [ref=e982]
+                      - text: "183"
+                      - generic [ref=e984]: •
+                      - img [ref=e985]
+                      - text: "15"
+              - article [ref=e987]:
+                - link "knowledgator/gliclass-v2.0-RAC Viewer • Updated Feb 18, 2025 • 612k • 9 • 2" [ref=e988] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/gliclass-v2.0-RAC
+                  - generic [ref=e989]:
+                    - generic "knowledgator/gliclass-v2.0-RAC" [ref=e990]:
+                      - img [ref=e991]
+                      - heading "knowledgator/gliclass-v2.0-RAC" [level=4] [ref=e996]
+                    - generic [ref=e997]:
+                      - img [ref=e998]
+                      - text: Viewer
+                      - generic [ref=e1000]: •
+                      - generic [ref=e1001]:
+                        - text: Updated
+                        - time [ref=e1002]: Feb 18, 2025
+                      - generic [ref=e1003]: •
+                      - img [ref=e1004]
+                      - generic [ref=e1006]: 612k
+                      - generic [ref=e1007]: •
+                      - img [ref=e1008]
+                      - text: "9"
+                      - generic [ref=e1010]: •
+                      - img [ref=e1011]
+                      - text: "2"
+              - article [ref=e1013]:
+                - link "knowledgator/gliclass-v2.0 Viewer • Updated Feb 18, 2025 • 1.2M • 63 • 1" [ref=e1014] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/gliclass-v2.0
+                  - generic [ref=e1015]:
+                    - generic "knowledgator/gliclass-v2.0" [ref=e1016]:
+                      - img [ref=e1017]
+                      - heading "knowledgator/gliclass-v2.0" [level=4] [ref=e1022]
+                    - generic [ref=e1023]:
+                      - img [ref=e1024]
+                      - text: Viewer
+                      - generic [ref=e1026]: •
+                      - generic [ref=e1027]:
+                        - text: Updated
+                        - time [ref=e1028]: Feb 18, 2025
+                      - generic [ref=e1029]: •
+                      - img [ref=e1030]
+                      - generic [ref=e1032]: 1.2M
+                      - generic [ref=e1033]: •
+                      - img [ref=e1034]
+                      - text: "63"
+                      - generic [ref=e1036]: •
+                      - img [ref=e1037]
+                      - text: "1"
+              - article [ref=e1039]:
+                - link "knowledgator/gliclass-v1.0 Preview • Updated Dec 29, 2024 • 4 • 3" [ref=e1040] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/gliclass-v1.0
+                  - generic [ref=e1041]:
+                    - generic "knowledgator/gliclass-v1.0" [ref=e1042]:
+                      - img [ref=e1043]
+                      - heading "knowledgator/gliclass-v1.0" [level=4] [ref=e1048]
+                    - generic [ref=e1049]:
+                      - img [ref=e1050]
+                      - text: Preview
+                      - generic [ref=e1053]: •
+                      - generic [ref=e1054]:
+                        - text: Updated
+                        - time [ref=e1055]: Dec 29, 2024
+                      - generic [ref=e1056]: •
+                      - img [ref=e1057]
+                      - text: "4"
+                      - generic [ref=e1059]: •
+                      - img [ref=e1060]
+                      - text: "3"
+              - article [ref=e1062]:
+                - link "knowledgator/PubMedAbstractsNER Updated Oct 10, 2024 • 10 • 2" [ref=e1063] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/PubMedAbstractsNER
+                  - generic [ref=e1064]:
+                    - generic "knowledgator/PubMedAbstractsNER" [ref=e1065]:
+                      - img [ref=e1066]
+                      - heading "knowledgator/PubMedAbstractsNER" [level=4] [ref=e1071]
+                    - generic [ref=e1072]:
+                      - generic [ref=e1073]:
+                        - text: Updated
+                        - time [ref=e1074]: Oct 10, 2024
+                      - generic [ref=e1075]: •
+                      - img [ref=e1076]
+                      - text: "10"
+                      - generic [ref=e1078]: •
+                      - img [ref=e1079]
+                      - text: "2"
+              - article [ref=e1081]:
+                - link "knowledgator/bio-NER-relations Viewer • Updated Oct 10, 2024 • 11.1k • 4 • 3" [ref=e1082] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/bio-NER-relations
+                  - generic [ref=e1083]:
+                    - generic "knowledgator/bio-NER-relations" [ref=e1084]:
+                      - img [ref=e1085]
+                      - heading "knowledgator/bio-NER-relations" [level=4] [ref=e1090]
+                    - generic [ref=e1091]:
+                      - img [ref=e1092]
+                      - text: Viewer
+                      - generic [ref=e1094]: •
+                      - generic [ref=e1095]:
+                        - text: Updated
+                        - time [ref=e1096]: Oct 10, 2024
+                      - generic [ref=e1097]: •
+                      - img [ref=e1098]
+                      - generic [ref=e1100]: 11.1k
+                      - generic [ref=e1101]: •
+                      - img [ref=e1102]
+                      - text: "4"
+                      - generic [ref=e1104]: •
+                      - img [ref=e1105]
+                      - text: "3"
+              - article [ref=e1107]:
+                - link "knowledgator/PubmedQA Viewer • Updated Sep 23, 2024 • 1k • 37 • 2" [ref=e1108] [cursor=pointer]:
+                  - /url: /datasets/knowledgator/PubmedQA
+                  - generic [ref=e1109]:
+                    - generic "knowledgator/PubmedQA" [ref=e1110]:
+                      - img [ref=e1111]
+                      - heading "knowledgator/PubmedQA" [level=4] [ref=e1116]
+                    - generic [ref=e1117]:
+                      - img [ref=e1118]
+                      - text: Viewer
+                      - generic [ref=e1120]: •
+                      - generic [ref=e1121]:
+                        - text: Updated
+                        - time [ref=e1122]: Sep 23, 2024
+                      - generic [ref=e1123]: •
+                      - img [ref=e1124]
+                      - generic [ref=e1126]: 1k
+                      - generic [ref=e1127]: •
+                      - img [ref=e1128]
+                      - text: "37"
+                      - generic [ref=e1130]: •
+                      - img [ref=e1131]
+                      - text: "2"
+            - link "View 14 datasets" [ref=e1136] [cursor=pointer]:
+              - /url: /knowledgator/datasets
+              - img [ref=e1137]
+              - text: View 14 datasets
+  - contentinfo [ref=e1140]:
+    - navigation [ref=e1141]:
+      - button "System theme" [ref=e1144] [cursor=pointer]:
+        - img [ref=e1145]
+        - text: System theme
+      - link "TOS" [ref=e1150] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e1151] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e1152] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e1153] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e1154] [cursor=pointer]:
+        - /url: /
+        - img [ref=e1155]
+      - link "Models" [ref=e1169] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e1170] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e1171] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e1172] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e1173] [cursor=pointer]:
+        - /url: /docs

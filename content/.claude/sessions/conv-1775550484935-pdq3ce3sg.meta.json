@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775550484935-pdq3ce3sg",
+  "title": "总结一下文档内容，要有条理，有逻辑，有层次。解析下里面的关键概念。Encoder-Decoder， ...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775550484935,
+  "updatedAt": 1775652354104,
+  "lastResponseAt": 1775638457952,
+  "sessionId": "e12f45ce-fb81-463c-a2b2-f4dc9c5301bb",
+  "sdkSessionId": "e12f45ce-fb81-463c-a2b2-f4dc9c5301bb",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

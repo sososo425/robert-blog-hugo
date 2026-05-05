@@ -1,0 +1,19 @@
+{
+  "id": "conv-1776674131080-5jiobru7g",
+  "title": "@private/tech/agent-memory-infra/ 这个目录下的子目录及文档比较多，...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776674131080,
+  "updatedAt": 1776674251771,
+  "lastResponseAt": 1776674251771,
+  "sessionId": "ec2466e8-5c2e-4e54-9300-faa20225039e",
+  "sdkSessionId": "ec2466e8-5c2e-4e54-9300-faa20225039e",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

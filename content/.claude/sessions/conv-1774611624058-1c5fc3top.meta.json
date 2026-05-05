@@ -1,0 +1,19 @@
+{
+  "id": "conv-1774611624058-1c5fc3top",
+  "title": "Explain cross-storage ID mapping",
+  "titleGenerationStatus": "success",
+  "createdAt": 1774611624059,
+  "updatedAt": 1774781476233,
+  "lastResponseAt": 1774780567693,
+  "sessionId": null,
+  "currentNote": "private/tech/agent-memory-infra/AMS Based Design/AMS技术方案大纲&分工.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 2794,
+    "cacheReadInputTokens": 29079,
+    "contextWindow": 200000,
+    "contextTokens": 31874,
+    "percentage": 16
+  }
+}

@@ -1,0 +1,2002 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Furchade%2FGLiNER%2Fblob%2Fmain%2Fgliner%2Fmodeling%2Fencoder.py
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=urchade%2FGLiNER
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "urchade" [ref=e70] [cursor=pointer]:
+              - /url: /urchade
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "GLiNER" [ref=e73] [cursor=pointer]:
+                - /url: /urchade/GLiNER
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Furchade%2FGLiNER
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 259" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Furchade%2FGLiNER
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "259" [ref=e84]
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Furchade%2FGLiNER
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "3031 users starred this repository" [ref=e90]: 3k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /urchade/GLiNER
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 86" [ref=e99] [cursor=pointer]:
+                - /url: /urchade/GLiNER/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "86" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 5" [ref=e106] [cursor=pointer]:
+                - /url: /urchade/GLiNER/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "5" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Discussions" [ref=e112] [cursor=pointer]:
+                - /url: /urchade/GLiNER/discussions
+                - img [ref=e113]
+                - generic [ref=e115]: Discussions
+            - listitem [ref=e116]:
+              - link "Actions" [ref=e117] [cursor=pointer]:
+                - /url: /urchade/GLiNER/actions
+                - img [ref=e118]
+                - generic [ref=e120]: Actions
+            - listitem [ref=e121]:
+              - link "Projects" [ref=e122] [cursor=pointer]:
+                - /url: /urchade/GLiNER/projects
+                - img [ref=e123]
+                - generic [ref=e125]: Projects
+            - listitem [ref=e126]:
+              - link "Security and quality" [ref=e127] [cursor=pointer]:
+                - /url: /urchade/GLiNER/security
+                - img [ref=e128]
+                - generic [ref=e130]: Security and quality
+            - listitem [ref=e131]:
+              - link "Insights" [ref=e132] [cursor=pointer]:
+                - /url: /urchade/GLiNER/pulse
+                - img [ref=e133]
+                - generic [ref=e135]: Insights
+      - generic [ref=e143]:
+        - generic [ref=e145]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - heading "Collapse file tree" [level=2] [ref=e151]:
+                  - button "Collapse file tree" [expanded] [ref=e152] [cursor=pointer]:
+                    - img [ref=e153]
+                - heading "Files" [level=2] [ref=e156]
+              - generic [ref=e157]:
+                - button "main branch" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]:
+                    - generic [ref=e162]:
+                      - img [ref=e164]
+                      - generic [ref=e167]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e169] [cursor=pointer]:
+                  - img [ref=e170]
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - combobox "Go to file" [ref=e177]
+            - navigation "File Tree Navigation" [ref=e183]:
+              - tree "Files" [ref=e185]:
+                - treeitem ".github" [level=1] [ref=e186]:
+                  - generic [ref=e187] [cursor=pointer]:
+                    - img [ref=e189]
+                    - generic [ref=e191]:
+                      - img [ref=e195]
+                      - generic [ref=e197]: .github
+                - treeitem "assets" [level=1] [ref=e198]:
+                  - generic [ref=e199] [cursor=pointer]:
+                    - img [ref=e201]
+                    - generic [ref=e203]:
+                      - img [ref=e207]
+                      - generic [ref=e209]: assets
+                - treeitem "benchmarks" [level=1] [ref=e210]:
+                  - generic [ref=e211] [cursor=pointer]:
+                    - img [ref=e213]
+                    - generic [ref=e215]:
+                      - img [ref=e219]
+                      - generic [ref=e221]: benchmarks
+                - treeitem "configs" [level=1] [ref=e222]:
+                  - generic [ref=e223] [cursor=pointer]:
+                    - img [ref=e225]
+                    - generic [ref=e227]:
+                      - img [ref=e231]
+                      - generic [ref=e233]: configs
+                - treeitem "data" [level=1] [ref=e234]:
+                  - generic [ref=e235] [cursor=pointer]:
+                    - img [ref=e237]
+                    - generic [ref=e239]:
+                      - img [ref=e243]
+                      - generic [ref=e245]: data
+                - treeitem "docs" [level=1] [ref=e246]:
+                  - generic [ref=e247] [cursor=pointer]:
+                    - img [ref=e249]
+                    - generic [ref=e251]:
+                      - img [ref=e255]
+                      - generic [ref=e257]: docs
+                - treeitem "examples" [level=1] [ref=e258]:
+                  - generic [ref=e259] [cursor=pointer]:
+                    - img [ref=e261]
+                    - generic [ref=e263]:
+                      - img [ref=e267]
+                      - generic [ref=e269]: examples
+                - treeitem "gliner" [expanded] [level=1] [ref=e270]:
+                  - generic [ref=e271] [cursor=pointer]:
+                    - img [ref=e273]
+                    - generic [ref=e275]:
+                      - img [ref=e279]
+                      - generic [ref=e281]: gliner
+                  - group "gliner" [ref=e282]:
+                    - treeitem "data_processing" [level=2] [ref=e283]:
+                      - generic [ref=e284] [cursor=pointer]:
+                        - img [ref=e289]
+                        - generic [ref=e291]:
+                          - img [ref=e295]
+                          - generic [ref=e297]: data_processing
+                    - treeitem "decoding" [level=2] [ref=e298]:
+                      - generic [ref=e299] [cursor=pointer]:
+                        - img [ref=e304]
+                        - generic [ref=e306]:
+                          - img [ref=e310]
+                          - generic [ref=e312]: decoding
+                    - treeitem "evaluation" [level=2] [ref=e313]:
+                      - generic [ref=e314] [cursor=pointer]:
+                        - img [ref=e319]
+                        - generic [ref=e321]:
+                          - img [ref=e325]
+                          - generic [ref=e327]: evaluation
+                    - treeitem "modeling" [expanded] [level=2] [ref=e328]:
+                      - generic [ref=e329] [cursor=pointer]:
+                        - img [ref=e334]
+                        - generic [ref=e336]:
+                          - img [ref=e340]
+                          - generic [ref=e342]: modeling
+                      - group "modeling" [ref=e343]:
+                        - treeitem "multitask" [level=3] [ref=e344]:
+                          - generic [ref=e345] [cursor=pointer]:
+                            - img [ref=e351]
+                            - generic [ref=e353]:
+                              - img [ref=e357]
+                              - generic [ref=e359]: multitask
+                        - treeitem "__init__.py" [level=3] [ref=e360]:
+                          - generic [ref=e366] [cursor=pointer]:
+                            - img [ref=e369]
+                            - generic [ref=e371]: __init__.py
+                        - treeitem "base.py" [level=3] [ref=e372]:
+                          - generic [ref=e378] [cursor=pointer]:
+                            - img [ref=e381]
+                            - generic [ref=e383]: base.py
+                        - treeitem "decoder.py" [level=3] [ref=e384]:
+                          - generic [ref=e390] [cursor=pointer]:
+                            - img [ref=e393]
+                            - generic [ref=e395]: decoder.py
+                        - treeitem "encoder.py" [level=3] [ref=e396]:
+                          - generic [ref=e402] [cursor=pointer]:
+                            - img [ref=e405]
+                            - generic [ref=e407]: encoder.py
+                        - treeitem "layers.py" [level=3] [ref=e408]:
+                          - generic [ref=e414] [cursor=pointer]:
+                            - img [ref=e417]
+                            - generic [ref=e419]: layers.py
+                        - treeitem "loss_functions.py" [level=3] [ref=e420]:
+                          - generic [ref=e426] [cursor=pointer]:
+                            - img [ref=e429]
+                            - generic [ref=e431]: loss_functions.py
+                        - treeitem "outputs.py" [level=3] [ref=e432]:
+                          - generic [ref=e438] [cursor=pointer]:
+                            - img [ref=e441]
+                            - generic [ref=e443]: outputs.py
+                        - treeitem "scorers.py" [level=3] [ref=e444]:
+                          - generic [ref=e450] [cursor=pointer]:
+                            - img [ref=e453]
+                            - generic [ref=e455]: scorers.py
+                        - treeitem "span_rep.py" [level=3] [ref=e456]:
+                          - generic [ref=e462] [cursor=pointer]:
+                            - img [ref=e465]
+                            - generic [ref=e467]: span_rep.py
+                        - treeitem "utils.py" [level=3] [ref=e468]:
+                          - generic [ref=e474] [cursor=pointer]:
+                            - img [ref=e477]
+                            - generic [ref=e479]: utils.py
+                    - treeitem "multitask" [level=2] [ref=e480]:
+                      - generic [ref=e481] [cursor=pointer]:
+                        - img [ref=e486]
+                        - generic [ref=e488]:
+                          - img [ref=e492]
+                          - generic [ref=e494]: multitask
+                    - treeitem "onnx" [level=2] [ref=e495]:
+                      - generic [ref=e496] [cursor=pointer]:
+                        - img [ref=e501]
+                        - generic [ref=e503]:
+                          - img [ref=e507]
+                          - generic [ref=e509]: onnx
+                    - treeitem "training" [level=2] [ref=e510]:
+                      - generic [ref=e511] [cursor=pointer]:
+                        - img [ref=e516]
+                        - generic [ref=e518]:
+                          - img [ref=e522]
+                          - generic [ref=e524]: training
+                    - treeitem "__init__.py" [level=2] [ref=e525]:
+                      - generic [ref=e530] [cursor=pointer]:
+                        - img [ref=e533]
+                        - generic [ref=e535]: __init__.py
+                    - treeitem "config.py" [level=2] [ref=e536]:
+                      - generic [ref=e541] [cursor=pointer]:
+                        - img [ref=e544]
+                        - generic [ref=e546]: config.py
+                    - treeitem "infer_packing.py" [level=2] [ref=e547]:
+                      - generic [ref=e552] [cursor=pointer]:
+                        - img [ref=e555]
+                        - generic [ref=e557]: infer_packing.py
+                    - treeitem "model.py" [level=2] [ref=e558]:
+                      - generic [ref=e563] [cursor=pointer]:
+                        - img [ref=e566]
+                        - generic [ref=e568]: model.py
+                    - treeitem "utils.py" [level=2] [ref=e569]:
+                      - generic [ref=e574] [cursor=pointer]:
+                        - img [ref=e577]
+                        - generic [ref=e579]: utils.py
+                - treeitem "logo" [level=1] [ref=e580]:
+                  - generic [ref=e581] [cursor=pointer]:
+                    - img [ref=e583]
+                    - generic [ref=e585]:
+                      - img [ref=e589]
+                      - generic [ref=e591]: logo
+                - treeitem "scripts" [level=1] [ref=e592]:
+                  - generic [ref=e593] [cursor=pointer]:
+                    - img [ref=e595]
+                    - generic [ref=e597]:
+                      - img [ref=e601]
+                      - generic [ref=e603]: scripts
+                - treeitem "tests" [level=1] [ref=e604]:
+                  - generic [ref=e605] [cursor=pointer]:
+                    - img [ref=e607]
+                    - generic [ref=e609]:
+                      - img [ref=e613]
+                      - generic [ref=e615]: tests
+                - treeitem ".gitignore" [level=1] [ref=e616]:
+                  - generic [ref=e618] [cursor=pointer]:
+                    - img [ref=e621]
+                    - generic [ref=e623]: .gitignore
+                - treeitem "LICENSE" [level=1] [ref=e624]:
+                  - generic [ref=e626] [cursor=pointer]:
+                    - img [ref=e629]
+                    - generic [ref=e631]: LICENSE
+                - treeitem "README.md" [level=1] [ref=e632]:
+                  - generic [ref=e634] [cursor=pointer]:
+                    - img [ref=e637]
+                    - generic [ref=e639]: README.md
+                - treeitem "RELEASE.md" [level=1] [ref=e640]:
+                  - generic [ref=e642] [cursor=pointer]:
+                    - img [ref=e645]
+                    - generic [ref=e647]: RELEASE.md
+                - treeitem "demo.py" [level=1] [ref=e648]:
+                  - generic [ref=e650] [cursor=pointer]:
+                    - img [ref=e653]
+                    - generic [ref=e655]: demo.py
+                - treeitem "eval.py" [level=1] [ref=e656]:
+                  - generic [ref=e658] [cursor=pointer]:
+                    - img [ref=e661]
+                    - generic [ref=e663]: eval.py
+                - treeitem "pyproject.toml" [level=1] [ref=e664]:
+                  - generic [ref=e666] [cursor=pointer]:
+                    - img [ref=e669]
+                    - generic [ref=e671]: pyproject.toml
+                - treeitem "requirements.txt" [level=1] [ref=e672]:
+                  - generic [ref=e674] [cursor=pointer]:
+                    - img [ref=e677]
+                    - generic [ref=e679]: requirements.txt
+                - treeitem "train.py" [level=1] [ref=e680]:
+                  - generic [ref=e682] [cursor=pointer]:
+                    - img [ref=e685]
+                    - generic [ref=e687]: train.py
+          - slider "Draggable pane splitter" [ref=e689]
+        - generic [ref=e692]:
+          - generic [ref=e696]:
+            - generic [ref=e698]:
+              - navigation "Breadcrumbs" [ref=e699]:
+                - heading "Breadcrumbs" [level=2] [ref=e700]
+                - list [ref=e701]:
+                  - listitem [ref=e702]:
+                    - link "GLiNER" [ref=e703] [cursor=pointer]:
+                      - /url: /urchade/GLiNER/tree/main
+                  - listitem [ref=e704]:
+                    - text: /
+                    - link "gliner" [ref=e705] [cursor=pointer]:
+                      - /url: /urchade/GLiNER/tree/main/gliner
+                  - listitem [ref=e706]:
+                    - text: /
+                    - link "modeling" [ref=e707] [cursor=pointer]:
+                      - /url: /urchade/GLiNER/tree/main/gliner/modeling
+              - generic [ref=e708]:
+                - text: /
+                - heading "encoder.py" [level=1] [ref=e709]
+              - button "Copy path" [ref=e710] [cursor=pointer]:
+                - img [ref=e711]
+            - button "More file actions" [ref=e717] [cursor=pointer]:
+              - img [ref=e718]
+          - generic [ref=e720]:
+            - generic [ref=e722]:
+              - heading "Latest commit" [level=2] [ref=e723]
+              - generic [ref=e726]:
+                - heading "History" [level=2] [ref=e727]
+                - link "History" [ref=e728] [cursor=pointer]:
+                  - /url: /urchade/GLiNER/commits/main/gliner/modeling/encoder.py
+                  - generic [ref=e729]:
+                    - generic:
+                      - img
+                    - generic [ref=e730]: History
+            - generic [ref=e732]:
+              - generic [ref=e734]:
+                - heading "File metadata and controls" [level=2] [ref=e735]
+                - list "File view" [ref=e737]:
+                  - listitem [ref=e738]:
+                    - button "Code" [ref=e739] [cursor=pointer]:
+                      - generic [ref=e741]: Code
+                  - listitem [ref=e742]:
+                    - button "Blame" [ref=e743] [cursor=pointer]:
+                      - generic [ref=e745]: Blame
+                - generic [ref=e746]:
+                  - generic [ref=e747]:
+                    - generic [ref=e748]:
+                      - link "Raw" [ref=e750] [cursor=pointer]:
+                        - /url: https://github.com/urchade/GLiNER/raw/refs/heads/main/gliner/modeling/encoder.py
+                        - generic [ref=e752]: Raw
+                      - button "Copy raw file" [ref=e754] [cursor=pointer]:
+                        - img [ref=e755]
+                      - button "Download raw file" [ref=e759] [cursor=pointer]:
+                        - img [ref=e760]
+                    - generic [ref=e763]:
+                      - button "You must be signed in to make or propose changes" [disabled] [ref=e765]:
+                        - img [ref=e766]
+                      - button "More edit options" [ref=e769] [cursor=pointer]:
+                        - img [ref=e770]
+                  - button "Open symbols panel" [ref=e772] [cursor=pointer]:
+                    - img [ref=e773]
+              - region "encoder.py" [ref=e776]:
+                - generic [ref=e780]:
+                  - textbox "file content" [ref=e783]: "import warnings from typing import Any, Dict, List, Tuple, Union, Optional from pathlib import Path import os import torch from torch import nn from transformers import AutoModel, AutoConfig from transformers.modeling_outputs import BaseModelOutput from ..utils import MissedPackageException, is_module_available from .layers import LayersFuser from ..infer_packing import InferencePackingConfig, unpack_spans, pack_requests # Check for optional dependencies IS_LLM2VEC = is_module_available(\"llm2vec\") IS_PEFT = is_module_available(\"peft\") IS_TURBOT5 = is_module_available(\"turbot5\") IS_FLASHDEBERTA = is_module_available(\"flashdeberta\") if IS_LLM2VEC: from llm2vec.models import GemmaBiModel, LlamaBiModel, Qwen2BiModel, MistralBiModel DECODER_MODEL_MAPPING = { \"MistralConfig\": MistralBiModel, \"LlamaConfig\": LlamaBiModel, \"GemmaConfig\": GemmaBiModel, \"Qwen2Config\": Qwen2BiModel, } else: DECODER_MODEL_MAPPING = {} if IS_TURBOT5: from turbot5.model.modeling import T5EncoderModel as FlashT5EncoderModel from transformers import T5EncoderModel if IS_FLASHDEBERTA: from flashdeberta import FlashDebertaV2Model from transformers import DebertaV2Model if IS_PEFT: from peft import LoraConfig, get_peft_model class Transformer(nn.Module): \"\"\"Flexible transformer wrapper supporting multiple architectures and configurations. This class provides a unified interface for various transformer models including encoder-only (BERT, DeBERTa), encoder-decoder (T5), and decoder-only models (LLaMA, Mistral) with bidirectional adaptations. It handles model initialization, adapter loading, and specialized forward passes for different architectures. Attributes: model: The underlying transformer model instance. layers_fuser: Optional layer fusion module when config.fuse_layers is True. config: Configuration object containing model hyperparameters. \"\"\" def __init__( self, model_name: str, config: Any, from_pretrained: bool = False, labels_encoder: bool = False, cache_dir: Optional[Union[str, Path]] = None, ) -> None: \"\"\"Initializes the transformer wrapper. Args: model_name: Name or path of the pretrained model to load. config: Configuration object containing model hyperparameters. Must have attributes like `encoder_config`, `labels_encoder_config`, `vocab_size`, `_attn_implementation`, and `fuse_layers`. from_pretrained: If True, loads pretrained weights. If False, initializes from config only. Defaults to False. labels_encoder: If True, initializes as a labels encoder using `config.labels_encoder_config`. Defaults to False. cache_dir: Optional directory for caching downloaded models. Defaults to None. Raises: MissedPackageException: If required packages (llm2vec, peft) are not installed when needed for specific model types. \"\"\" super().__init__() if labels_encoder: encoder_config = config.labels_encoder_config else: encoder_config = config.encoder_config if encoder_config is None: encoder_config = AutoConfig.from_pretrained(model_name, cache_dir=cache_dir) if config.vocab_size != -1: encoder_config.vocab_size = config.vocab_size if config._attn_implementation is not None and not labels_encoder: encoder_config._attn_implementation = config._attn_implementation config_name = encoder_config.__class__.__name__ kwargs = {} if config_name in DECODER_MODEL_MAPPING: if not IS_LLM2VEC: raise MissedPackageException( f\"The llm2vec package must be installed to use this decoder model: {config_name}\" ) else: ModelClass = DECODER_MODEL_MAPPING[config_name] custom = True elif config_name in {'T5Config', 'MT5Config'}: custom=True turbot5_type = os.environ.get(\"TURBOT5_ATTN_TYPE\", \"basic\") if turbot5_type and IS_TURBOT5: ModelClass = FlashT5EncoderModel kwargs = {'attention_type': turbot5_type} config.encoder_config.attention_type=turbot5_type else: ModelClass = T5EncoderModel elif config_name in {'DebertaV2Config'}: custom = True if os.environ.get(\"USE_FLASHDEBERTA\", \"\") and IS_FLASHDEBERTA: print('Using FlashDeberta backend.') ModelClass = FlashDebertaV2Model else: ModelClass = DebertaV2Model else: custom = False ModelClass = AutoModel if from_pretrained: self.model = ModelClass.from_pretrained(model_name, **kwargs, trust_remote_code=True) elif not custom: self.model = ModelClass.from_config(encoder_config, trust_remote_code=True) else: self.model = ModelClass(encoder_config, **kwargs) adapter_config_file = Path(model_name) / \"adapter_config.json\" if adapter_config_file.exists(): if not IS_PEFT: warnings.warn( \"Adapter configs were detected, if you want to apply them you need to install peft package.\", stacklevel=2, ) else: adapter_config = LoraConfig.from_pretrained(model_name) self.model = get_peft_model(self.model, adapter_config) if config.fuse_layers: self.layers_fuser = LayersFuser(encoder_config.num_hidden_layers, encoder_config.hidden_size) if labels_encoder: config.labels_encoder_config = encoder_config else: config.encoder_config = encoder_config self.config = config def forward(self, *args: Any, **kwargs: Any) -> torch.Tensor: \"\"\"Forward pass through the transformer model. Handles different attention mask configurations and model architectures, including support for pair attention masks for packed sequences. Args: *args: Variable positional arguments passed to the model. **kwargs: Variable keyword arguments. Special arguments include: - pair_attention_mask: Optional pairwise attention mask of shape (batch_size, seq_len, seq_len) for packed sequences. - attention_mask: Standard attention mask of shape (batch_size, seq_len). - input_ids: Input token IDs of shape (batch_size, seq_len). - Other model-specific arguments. Returns: Encoded representations of shape (batch_size, seq_len, hidden_size). If config.fuse_layers is True, returns fused layer outputs, otherwise returns the last hidden state. \"\"\" pair_attention_mask = kwargs.pop(\"pair_attention_mask\", None) base_attention_mask = kwargs.pop(\"attention_mask\", None) # Extract input_ids if present args = list(args) input_ids = kwargs.pop(\"input_ids\", None) if input_ids is None and args: input_ids = args[0] args = args[1:] args = tuple(args) # Set default kwargs kwargs.setdefault(\"output_attentions\", False) kwargs.setdefault(\"return_dict\", True) # Handle output_hidden_states based on fuse_layers config if self.config.fuse_layers: kwargs[\"output_hidden_states\"] = True else: kwargs.setdefault(\"output_hidden_states\", False) if pair_attention_mask is not None: mask_info = self._prepare_pair_attention_masks( pair_attention_mask, base_attention_mask, input_ids, kwargs.get(\"inputs_embeds\"), ) model_kwargs = dict(kwargs) model_name = self.model.__class__.__name__ if model_name in {\"DebertaV2Model\", \"DebertaModel\"}: output = self._forward_deberta( input_ids=input_ids, model_kwargs=model_kwargs, mask_info=mask_info, ) elif model_name == \"ModernBertModel\": output = self._forward_modernbert( input_ids=input_ids, model_kwargs=model_kwargs, mask_info=mask_info, ) elif model_name in {\"T5EncoderModel\", \"MT5EncoderModel\", \"T5Model\"}: output = self._forward_t5( input_ids=input_ids, model_kwargs=model_kwargs, mask_info=mask_info, ) else: model_kwargs.pop(\"packing_config\", None) model_kwargs[\"attention_mask\"] = mask_info[\"extended_mask\"] output = self.model(*args, **model_kwargs) else: if base_attention_mask is not None: kwargs[\"attention_mask\"] = base_attention_mask output = self.model(input_ids, *args, **kwargs) # Common logic for both paths if self.config.fuse_layers: encoder_layer = self.layers_fuser(output.hidden_states) else: encoder_layer = output[0] return encoder_layer def _get_model_dtype(self) -> torch.dtype: \"\"\"Gets the data type of the model parameters. Returns: The dtype of the model's parameters, or torch.float32 if no parameters exist. \"\"\" try: return next(self.model.parameters()).dtype except StopIteration: return torch.float32 def _prepare_pair_attention_masks( self, pair_attention_mask: torch.Tensor, attention_mask: Optional[torch.Tensor], input_ids: Optional[torch.Tensor], inputs_embeds: Optional[torch.Tensor], ) -> Dict[str, torch.Tensor]: \"\"\"Prepares attention masks for packed sequence processing. Converts pair attention masks (which specify token-to-token visibility) into various mask formats required by different transformer architectures. Ensures diagonal elements are attended to and inactive tokens are properly masked. Args: pair_attention_mask: Pairwise attention mask of shape (batch_size, seq_len, seq_len) where 1 indicates attention is allowed. attention_mask: Optional standard attention mask of shape (batch_size, seq_len). input_ids: Optional input token IDs for device detection. inputs_embeds: Optional input embeddings for device detection. Returns: Dictionary containing: - token_mask: Per-token mask of shape (batch_size, seq_len). - token_mask_bool: Boolean version of token_mask. - extended_mask: 4D attention mask of shape (batch_size, 1, seq_len, seq_len) with -inf for masked positions. - block_mask: Boolean 3D mask of shape (batch_size, seq_len, seq_len). \"\"\" device = pair_attention_mask.device if input_ids is not None: device = input_ids.device elif inputs_embeds is not None: device = inputs_embeds.device pair_mask_bool = pair_attention_mask.to(device=device, dtype=torch.bool) token_mask_bool = pair_mask_bool.any(dim=-1) if attention_mask is not None: token_mask_bool = token_mask_bool & attention_mask.to(device=device, dtype=torch.bool) seq_len = pair_mask_bool.size(-1) if seq_len: identity = torch.eye(seq_len, device=device, dtype=torch.bool).unsqueeze(0) token_diag = token_mask_bool.unsqueeze(-1) pair_mask_bool = pair_mask_bool | (identity & token_diag) active = token_mask_bool.unsqueeze(-1) & token_mask_bool.unsqueeze(-2) pair_mask_bool = pair_mask_bool & active if attention_mask is not None: token_mask = token_mask_bool.to(attention_mask.dtype) else: token_mask = token_mask_bool.to(dtype=torch.float32) mask_dtype = self._get_model_dtype() neg_inf = torch.finfo(mask_dtype).min extended_mask = ( torch.zeros(pair_mask_bool.shape, dtype=mask_dtype, device=device) .masked_fill(~pair_mask_bool, neg_inf) .unsqueeze(1) ) inactive = ~token_mask_bool if inactive.any(): extended_mask = extended_mask.masked_fill( inactive.unsqueeze(1).unsqueeze(-1), torch.tensor(0.0, dtype=mask_dtype, device=device), ) return { \"token_mask\": token_mask, \"token_mask_bool\": token_mask_bool, \"extended_mask\": extended_mask, \"block_mask\": pair_mask_bool, } def _forward_deberta( self, input_ids: Optional[torch.Tensor], model_kwargs: Dict[str, Any], mask_info: Dict[str, torch.Tensor], ) -> BaseModelOutput: \"\"\"Forward pass through DeBERTa models with packed attention support. Handles the specific requirements of DeBERTa architecture including embeddings, relative position encodings, and optional enhanced mask tuning (z_steps). Args: input_ids: Input token IDs of shape (batch_size, seq_len), or None if inputs_embeds is provided. model_kwargs: Dictionary of model-specific keyword arguments including inputs_embeds, token_type_ids, position_ids, output_attentions, output_hidden_states, and return_dict. mask_info: Dictionary containing prepared attention masks from _prepare_pair_attention_masks. Returns: BaseModelOutput containing: - last_hidden_state: Final layer output of shape (batch_size, seq_len, hidden_size). - hidden_states: Tuple of all layer outputs if requested. - attentions: Tuple of attention weights if requested. Raises: ValueError: If neither or both input_ids and inputs_embeds are provided. \"\"\" inputs_embeds = model_kwargs.pop(\"inputs_embeds\", None) token_type_ids = model_kwargs.pop(\"token_type_ids\", None) position_ids = model_kwargs.pop(\"position_ids\", None) output_attentions = model_kwargs.pop(\"output_attentions\") produce_hidden = model_kwargs.pop(\"output_hidden_states\") return_dict = model_kwargs.pop(\"return_dict\") if input_ids is None and inputs_embeds is None: raise ValueError(\"Either input_ids or inputs_embeds must be provided for packed attention\") if input_ids is not None and inputs_embeds is not None: raise ValueError(\"Cannot supply both input_ids and inputs_embeds\") if token_type_ids is None: ref = inputs_embeds if inputs_embeds is not None else input_ids shape = ref.size()[:-1] if inputs_embeds is not None else ref.size() token_type_ids = torch.zeros(shape, dtype=torch.long, device=ref.device) embedding_output = self.model.embeddings( input_ids=input_ids, token_type_ids=token_type_ids, position_ids=position_ids, mask=mask_info[\"token_mask\"], inputs_embeds=inputs_embeds, ) encoder_outputs = self.model.encoder( embedding_output, mask_info[\"block_mask\"], output_hidden_states=True, output_attentions=output_attentions, return_dict=True, ) encoded_layers = list(encoder_outputs.hidden_states) if getattr(self.model, \"z_steps\", 0) > 1: hidden_states = encoded_layers[-2] layers = [self.model.encoder.layer[-1] for _ in range(self.model.z_steps)] query_states = encoded_layers[-1] rel_embeddings = self.model.encoder.get_rel_embedding() attention_mask = self.model.encoder.get_attention_mask(mask_info[\"block_mask\"]) rel_pos = self.model.encoder.get_rel_pos(embedding_output) for layer in layers[1:]: query_states = layer( hidden_states, attention_mask, output_attentions=False, query_states=query_states, relative_pos=rel_pos, rel_embeddings=rel_embeddings, ) encoded_layers.append(query_states) sequence_output = encoded_layers[-1] hidden_states_tuple = tuple(encoded_layers) if produce_hidden else None attentions = encoder_outputs.attentions if output_attentions else None if not return_dict: result = (sequence_output,) if hidden_states_tuple is not None: result += (hidden_states_tuple,) if attentions is not None: result += (attentions,) return result return BaseModelOutput( last_hidden_state=sequence_output, hidden_states=hidden_states_tuple, attentions=attentions, ) def _forward_modernbert( self, input_ids: Optional[torch.Tensor], model_kwargs: Dict[str, Any], mask_info: Dict[str, torch.Tensor], ) -> BaseModelOutput: \"\"\"Forward pass through ModernBERT models with packed attention support. Handles ModernBERT-specific features including global and sliding window attention patterns, and temporarily switches to eager attention mode when using packed attention masks. Args: input_ids: Input token IDs of shape (batch_size, seq_len), or None if inputs_embeds is provided. model_kwargs: Dictionary of model-specific keyword arguments including inputs_embeds, position_ids, indices, cu_seqlens, max_seqlen, batch_size, seq_len, output_attentions, output_hidden_states, return_dict. mask_info: Dictionary containing prepared attention masks from _prepare_pair_attention_masks. Returns: BaseModelOutput containing: - last_hidden_state: Final layer output of shape (batch_size, seq_len, hidden_size). - hidden_states: Tuple of all layer outputs if requested. - attentions: Tuple of attention weights if requested. Raises: ValueError: If both or neither input_ids and inputs_embeds are provided. \"\"\" inputs_embeds = model_kwargs.pop(\"inputs_embeds\", None) position_ids = model_kwargs.pop(\"position_ids\", None) cu_seqlens = model_kwargs.pop(\"cu_seqlens\", None) max_seqlen = model_kwargs.pop(\"max_seqlen\", None) batch_size = model_kwargs.pop(\"batch_size\", None) seq_len = model_kwargs.pop(\"seq_len\", None) output_attentions = model_kwargs.pop(\"output_attentions\") output_hidden_states = model_kwargs.pop(\"output_hidden_states\") return_dict = model_kwargs.pop(\"return_dict\") if (input_ids is None) == (inputs_embeds is None): raise ValueError(\"ModernBERT requires exactly one of input_ids or inputs_embeds\") token_mask_bool = mask_info[\"token_mask_bool\"].to(torch.bool) if batch_size is None or seq_len is None: ref = inputs_embeds if inputs_embeds is not None else input_ids batch_size, seq_len = ref.shape[:2] device = input_ids.device if input_ids is not None else inputs_embeds.device if position_ids is None: position_ids = torch.arange(seq_len, device=device).unsqueeze(0) base_attention_mask = token_mask_bool original_impl = self.model.config._attn_implementation if original_impl == \"flash_attention_2\": self.model.config._attn_implementation = \"eager\" self.model._maybe_set_compile() global_attention_mask, sliding_window_mask = self.model._update_attention_mask( base_attention_mask, output_attentions=output_attentions, ) block = mask_info[\"block_mask\"].unsqueeze(1) neg_inf = torch.finfo(global_attention_mask.dtype).min global_attention_mask = global_attention_mask.masked_fill(~block, neg_inf) sliding_window_mask = sliding_window_mask.masked_fill(~block, neg_inf) hidden_states = self.model.embeddings(input_ids=input_ids, inputs_embeds=inputs_embeds) all_hidden_states = () if output_hidden_states else None all_self_attentions = () if output_attentions else None for encoder_layer in self.model.layers: if output_hidden_states: all_hidden_states = (*all_hidden_states, hidden_states) layer_outputs = encoder_layer( hidden_states, attention_mask=global_attention_mask, sliding_window_mask=sliding_window_mask, position_ids=position_ids, cu_seqlens=cu_seqlens, max_seqlen=max_seqlen, output_attentions=output_attentions, ) hidden_states = layer_outputs[0] if output_attentions and len(layer_outputs) > 1: all_self_attentions = (*all_self_attentions, layer_outputs[1]) if output_hidden_states: all_hidden_states = (*all_hidden_states, hidden_states) hidden_states = self.model.final_norm(hidden_states) if original_impl == \"flash_attention_2\": self.model.config._attn_implementation = original_impl if not return_dict: return tuple(v for v in [hidden_states, all_hidden_states, all_self_attentions] if v is not None) return BaseModelOutput( last_hidden_state=hidden_states, hidden_states=all_hidden_states, attentions=all_self_attentions, ) def _forward_t5( self, input_ids: Optional[torch.Tensor], model_kwargs: Dict[str, Any], mask_info: Dict[str, torch.Tensor], ) -> BaseModelOutput: \"\"\"Forward pass through T5 encoder models with packed attention support. Handles T5/MT5-specific architecture requirements including relative position bias and proper attention mask formatting for the encoder stack. Args: input_ids: Input token IDs of shape (batch_size, seq_len), or None if inputs_embeds is provided. model_kwargs: Dictionary of model-specific keyword arguments including input_ids (can override parameter), inputs_embeds, head_mask, past_key_values, use_cache, output_attentions, output_hidden_states, return_dict, cache_position. mask_info: Dictionary containing prepared attention masks from _prepare_pair_attention_masks. Returns: BaseModelOutput containing: - last_hidden_state: Final layer output of shape (batch_size, seq_len, hidden_size). - hidden_states: Tuple of all layer outputs if requested. - attentions: Tuple of attention weights if requested. Raises: ValueError: If neither input_ids nor inputs_embeds is provided, or if unsupported kwargs are passed. \"\"\" stack = self.model.encoder kw_input_ids = model_kwargs.pop(\"input_ids\", None) if input_ids is None or kw_input_ids is not None: input_ids = kw_input_ids inputs_embeds = model_kwargs.pop(\"inputs_embeds\", None) head_mask = model_kwargs.pop(\"head_mask\", None) past_key_values = model_kwargs.pop(\"past_key_values\", None) use_cache = model_kwargs.pop(\"use_cache\", stack.config.use_cache) output_attentions = model_kwargs.pop(\"output_attentions\") output_hidden_states = model_kwargs.pop(\"output_hidden_states\") return_dict = model_kwargs.pop(\"return_dict\") cache_position = model_kwargs.pop(\"cache_position\", None) if model_kwargs: raise ValueError(f\"Unsupported kwargs for T5 forward: {list(model_kwargs.keys())}\") if inputs_embeds is None: if input_ids is None: raise ValueError(\"Either input_ids or inputs_embeds must be provided\") inputs_embeds = stack.embed_tokens(input_ids) input_shape = input_ids.size() else: input_shape = inputs_embeds.size()[:-1] seq_length = input_shape[1] device = inputs_embeds.device if cache_position is None: cache_position = torch.arange(seq_length, device=device) block_mask = mask_info[\"block_mask\"].to(device=device, dtype=torch.bool) dtype = inputs_embeds.dtype neg_inf = torch.finfo(dtype).min causal_mask = torch.zeros(block_mask.shape, dtype=dtype, device=device) causal_mask = causal_mask.masked_fill(~block_mask, neg_inf).unsqueeze(1) head_mask = stack.get_head_mask(head_mask, stack.config.num_layers) hidden_states = stack.dropout(inputs_embeds) all_hidden_states = () if output_hidden_states else None all_attentions = () if output_attentions else None position_bias = None for idx, layer_module in enumerate(stack.block): if output_hidden_states: all_hidden_states = ( *all_hidden_states, hidden_states, ) layer_head_mask = head_mask[idx] if head_mask is not None else None layer_outputs = layer_module( hidden_states, attention_mask=causal_mask, position_bias=position_bias, encoder_hidden_states=None, encoder_attention_mask=None, encoder_decoder_position_bias=None, layer_head_mask=layer_head_mask, cross_attn_layer_head_mask=None, past_key_values=None if not use_cache else past_key_values, use_cache=False, output_attentions=output_attentions, return_dict=True, cache_position=cache_position, ) hidden_states = layer_outputs[0] position_bias = layer_outputs[1] if output_attentions: all_attentions = ( *all_attentions, layer_outputs[2], ) hidden_states = stack.final_layer_norm(hidden_states) hidden_states = stack.dropout(hidden_states) if output_hidden_states: all_hidden_states = (*all_hidden_states, hidden_states) if not return_dict: result = (hidden_states,) if output_hidden_states: result += (all_hidden_states,) if output_attentions: result += (all_attentions,) return result return BaseModelOutput( last_hidden_state=hidden_states, hidden_states=all_hidden_states, attentions=all_attentions, ) class Encoder(nn.Module): \"\"\"Standard encoder module wrapping a transformer model with optional projection. This class provides a high-level interface for encoding text sequences, including support for inference-time packing to improve throughput. It handles embedding extraction and optional projection to a different hidden size. Attributes: bert_layer: The underlying Transformer instance. projection: Optional linear projection layer when config.hidden_size differs from the model's native hidden size. \"\"\" def __init__( self, config: Any, from_pretrained: bool = False, cache_dir: Optional[Union[str, Path]] = None ) -> None: \"\"\"Initializes the encoder. Args: config: Configuration object containing model hyperparameters including `model_name`, `hidden_size`, and transformer-specific settings. from_pretrained: If True, loads pretrained weights for the transformer. Defaults to False. cache_dir: Optional directory for caching downloaded models. Defaults to None. \"\"\" super().__init__() self.bert_layer = Transformer(config.model_name, config, from_pretrained, cache_dir=cache_dir) bert_hidden_size = self.bert_layer.model.config.hidden_size if config.hidden_size != bert_hidden_size: self.projection = nn.Linear(bert_hidden_size, config.hidden_size) def resize_token_embeddings(self, new_num_tokens: int, pad_to_multiple_of: Optional[int] = None) -> nn.Embedding: \"\"\"Resizes token embeddings to accommodate new vocabulary size. Args: new_num_tokens: New vocabulary size. pad_to_multiple_of: Optional value to pad vocabulary size to a multiple. Defaults to None. Returns: The resized embedding layer. \"\"\" return self.bert_layer.model.resize_token_embeddings(new_num_tokens, pad_to_multiple_of) def get_input_embeddings(self) -> nn.Embedding: \"\"\"Gets the input embedding layer. Returns: The model's input embedding layer. \"\"\" return self.bert_layer.model.get_input_embeddings() def encode_text( self, input_ids: torch.Tensor, attention_mask: torch.Tensor, *args: Any, **kwargs: Any ) -> torch.Tensor: \"\"\"Encodes input text sequences into contextualized embeddings. Supports inference-time packing to batch multiple variable-length sequences efficiently when packing_config is provided and not in training mode. Args: input_ids: Input token IDs of shape (batch_size, seq_len). attention_mask: Attention mask of shape (batch_size, seq_len) where 1 indicates valid tokens and 0 indicates padding. *args: Additional positional arguments passed to the transformer. **kwargs: Additional keyword arguments including: - packing_config: Optional InferencePackingConfig for efficient batching. - pair_attention_mask: Optional pairwise attention mask for packed sequences. Returns: Token embeddings of shape (batch_size, seq_len, hidden_size). \"\"\" packing_config: Optional[InferencePackingConfig] = kwargs.pop(\"packing_config\", None) pair_attention_mask = kwargs.pop(\"pair_attention_mask\", None) if ( packing_config is not None and not self.training and isinstance(input_ids, torch.Tensor) and isinstance(attention_mask, torch.Tensor) and input_ids.dim() == 2 ): token_embeddings = self._encode_with_packing( input_ids, attention_mask, packing_config, pair_attention_mask, *args, **kwargs, ) else: bert_kwargs = dict(kwargs) if attention_mask is not None: bert_kwargs[\"attention_mask\"] = attention_mask if pair_attention_mask is not None: bert_kwargs[\"pair_attention_mask\"] = pair_attention_mask token_embeddings = self.bert_layer( input_ids=input_ids, **bert_kwargs, ) if hasattr(self, \"projection\"): token_embeddings = self.projection(token_embeddings) return token_embeddings def _encode_with_packing( self, input_ids: torch.Tensor, attention_mask: torch.Tensor, packing_config: InferencePackingConfig, pair_attention_mask: Optional[torch.Tensor], *args: Any, **kwargs: Any, ) -> torch.Tensor: \"\"\"Encodes sequences using inference-time packing for efficiency. Packs multiple variable-length sequences into fewer, more efficient batches to maximize GPU utilization during inference. Short sequences are combined into single packed sequences. Args: input_ids: Input token IDs of shape (batch_size, seq_len). attention_mask: Attention mask of shape (batch_size, seq_len). packing_config: Configuration for packing behavior. pair_attention_mask: Optional pairwise attention mask. *args: Additional positional arguments. **kwargs: Additional keyword arguments. Returns: Token embeddings of shape (batch_size, seq_len, hidden_size) with proper unpacking to restore original batch structure. \"\"\" lengths = attention_mask.sum(dim=-1, dtype=torch.int64).tolist() seq_len = int(input_ids.size(1)) if not lengths or all(int(ln) == seq_len for ln in lengths): bert_kwargs = dict(kwargs) bert_kwargs[\"attention_mask\"] = attention_mask if pair_attention_mask is not None: bert_kwargs[\"pair_attention_mask\"] = pair_attention_mask return self.bert_layer(input_ids=input_ids, **bert_kwargs) requests = [] for row, length in zip(input_ids, lengths): if length <= 0: requests.append({\"input_ids\": []}) else: requests.append({\"input_ids\": row[:length].tolist()}) pad_token_id = self.bert_layer.model.config.pad_token_id if pad_token_id is None: pad_token_id = 0 packed = pack_requests(requests, packing_config, pad_token_id) device = input_ids.device packed_ids = packed.input_ids.to(device=device) packed_mask = packed.pair_attention_mask.to(device=device) packed_fallback = packed.attention_mask.to(device=device) attn_to_use = packed_mask if packed_mask.numel() else packed_fallback bert_kwargs = dict(kwargs) if packed_mask.numel(): bert_kwargs[\"attention_mask\"] = packed_fallback bert_kwargs[\"pair_attention_mask\"] = packed_mask else: bert_kwargs[\"attention_mask\"] = attn_to_use token_embeddings = self.bert_layer( input_ids=packed_ids, **bert_kwargs, ) unpacked: List[torch.Tensor] = unpack_spans(token_embeddings, packed) hidden_size = token_embeddings.size(-1) batch, seq = input_ids.size() output = token_embeddings.new_zeros(batch, seq, hidden_size) for idx, target in enumerate(unpacked): tgt_len = int(target.size(0)) if tgt_len == 0: continue output[idx, :tgt_len] = target return output def forward(self, *args: Any, **kwargs: Any) -> torch.Tensor: \"\"\"Forward pass through the encoder. Args: *args: Positional arguments passed to encode_text. **kwargs: Keyword arguments passed to encode_text. Returns: Token embeddings of shape (batch_size, seq_len, hidden_size). \"\"\" token_embeddings = self.encode_text(*args, **kwargs) return token_embeddings class BiEncoder(Encoder): \"\"\"Bi-encoder architecture with separate encoders for text and labels. This encoder processes text sequences and label sequences through potentially different transformer models, producing aligned representations for both. The label representations are mean-pooled to create fixed-size embeddings. Attributes: bert_layer: Inherited text encoder from Encoder. projection: Inherited optional projection from Encoder. labels_encoder: Separate Transformer instance for encoding labels. labels_projection: Optional projection for label embeddings when label encoder hidden size differs from config.hidden_size. \"\"\" def __init__( self, config: Any, from_pretrained: bool = False, cache_dir: Optional[Union[str, Path]] = None ) -> None: \"\"\"Initializes the bi-encoder. Args: config: Configuration object containing model hyperparameters including `labels_encoder` (model name for label encoder) and `hidden_size`. from_pretrained: If True, loads pretrained weights for both encoders. Defaults to False. cache_dir: Optional directory for caching downloaded models. Defaults to None. \"\"\" super().__init__(config, from_pretrained) if config.labels_encoder is not None: self.labels_encoder = Transformer(config.labels_encoder, config, from_pretrained, True, cache_dir=cache_dir) le_hidden_size = self.labels_encoder.model.config.hidden_size if config.hidden_size != le_hidden_size: self.labels_projection = nn.Linear(le_hidden_size, config.hidden_size) def mean_pooling(self, token_embeddings: torch.Tensor, attention_mask: torch.Tensor) -> torch.Tensor: \"\"\"Applies mean pooling over token embeddings using attention mask. Computes the average of token embeddings weighted by the attention mask, ignoring padded positions. Args: token_embeddings: Token-level embeddings of shape (batch_size, seq_len, hidden_size). attention_mask: Binary mask of shape (batch_size, seq_len) where 1 indicates valid tokens and 0 indicates padding. Returns: Pooled embeddings of shape (batch_size, hidden_size). \"\"\" input_mask_expanded = attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float() return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(input_mask_expanded.sum(1), min=1e-9) def encode_labels( self, input_ids: torch.Tensor, attention_mask: torch.Tensor, *args: Any, **kwargs: Any ) -> torch.Tensor: \"\"\"Encodes label sequences into fixed-size embeddings. Processes labels through the dedicated labels encoder and applies mean pooling to produce sentence-level representations. Args: input_ids: Label token IDs of shape (batch_size, seq_len). attention_mask: Attention mask of shape (batch_size, seq_len). *args: Additional positional arguments. **kwargs: Additional keyword arguments (packing_config and pair_attention_mask are removed as they're not supported for labels). Returns: Pooled label embeddings of shape (batch_size, hidden_size). \"\"\" label_kwargs = dict(kwargs) label_kwargs.pop(\"packing_config\", None) label_kwargs.pop(\"pair_attention_mask\", None) label_kwargs[\"attention_mask\"] = attention_mask labels_embeddings = self.labels_encoder(input_ids, *args, **label_kwargs) if hasattr(self, \"labels_projection\"): labels_embeddings = self.labels_projection(labels_embeddings) labels_embeddings = self.mean_pooling(labels_embeddings, attention_mask) return labels_embeddings def forward( self, input_ids: torch.Tensor, attention_mask: torch.Tensor, labels_input_ids: Optional[torch.Tensor] = None, labels_attention_mask: Optional[torch.Tensor] = None, *args: Any, **kwargs: Any, ) -> Tuple[torch.Tensor, torch.Tensor]: \"\"\"Forward pass through the bi-encoder. Encodes both text sequences (token-level) and label sequences (pooled) to produce aligned representations. Args: input_ids: Text token IDs of shape (batch_size, seq_len). attention_mask: Text attention mask of shape (batch_size, seq_len). labels_input_ids: Label token IDs of shape (batch_size, label_seq_len). labels_attention_mask: Label attention mask of shape (batch_size, label_seq_len). *args: Additional positional arguments. **kwargs: Additional keyword arguments. Returns: A tuple containing: - token_embeddings: Text embeddings of shape (batch_size, seq_len, hidden_size). - labels_embeddings: Pooled label embeddings of shape (batch_size, hidden_size). \"\"\" token_embeddings = self.encode_text(input_ids, attention_mask, *args, **kwargs) labels_embeddings = self.encode_labels(labels_input_ids, labels_attention_mask, *args, **kwargs) return token_embeddings, labels_embeddings"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e784]:
+                          - generic [ref=e785] [cursor=pointer]: "1"
+                          - generic [ref=e786] [cursor=pointer]: "2"
+                          - generic [ref=e787] [cursor=pointer]: "3"
+                          - generic [ref=e788] [cursor=pointer]: "4"
+                          - generic [ref=e789] [cursor=pointer]: "5"
+                          - generic [ref=e790] [cursor=pointer]: "6"
+                          - generic [ref=e791] [cursor=pointer]: "7"
+                          - generic [ref=e792] [cursor=pointer]: "8"
+                          - generic [ref=e793] [cursor=pointer]: "9"
+                          - generic [ref=e794] [cursor=pointer]: "10"
+                          - generic [ref=e795] [cursor=pointer]: "11"
+                          - generic [ref=e796] [cursor=pointer]: "12"
+                          - generic [ref=e797] [cursor=pointer]: "13"
+                          - generic [ref=e798] [cursor=pointer]: "14"
+                          - generic [ref=e799] [cursor=pointer]: "15"
+                          - generic [ref=e800] [cursor=pointer]: "16"
+                          - generic [ref=e801] [cursor=pointer]: "17"
+                          - generic [ref=e802] [cursor=pointer]: "18"
+                          - generic [ref=e803] [cursor=pointer]: "19"
+                          - generic [ref=e804] [cursor=pointer]: "20"
+                          - generic [ref=e805] [cursor=pointer]: "21"
+                          - generic [ref=e806] [cursor=pointer]: "22"
+                          - generic [ref=e807] [cursor=pointer]: "23"
+                          - generic [ref=e808] [cursor=pointer]: "24"
+                          - generic [ref=e809] [cursor=pointer]: "25"
+                          - generic [ref=e810] [cursor=pointer]: "26"
+                          - generic [ref=e811] [cursor=pointer]: "27"
+                          - generic [ref=e812] [cursor=pointer]: "28"
+                          - generic [ref=e813] [cursor=pointer]: "29"
+                          - generic [ref=e814] [cursor=pointer]: "30"
+                          - generic [ref=e815] [cursor=pointer]: "31"
+                          - generic [ref=e816] [cursor=pointer]: "32"
+                          - generic [ref=e817] [cursor=pointer]: "33"
+                          - generic [ref=e818] [cursor=pointer]: "34"
+                          - generic [ref=e819] [cursor=pointer]: "35"
+                          - generic [ref=e820] [cursor=pointer]: "36"
+                          - generic [ref=e821] [cursor=pointer]: "37"
+                          - generic [ref=e822] [cursor=pointer]: "38"
+                          - generic [ref=e823] [cursor=pointer]: "39"
+                          - generic [ref=e824] [cursor=pointer]: "40"
+                          - generic [ref=e825] [cursor=pointer]: "41"
+                          - generic [ref=e826] [cursor=pointer]: "42"
+                          - generic [ref=e827] [cursor=pointer]: "43"
+                          - generic [ref=e828] [cursor=pointer]:
+                            - text: "44"
+                            - button [ref=e829]:
+                              - img [ref=e830]
+                          - generic [ref=e832] [cursor=pointer]: "45"
+                          - generic [ref=e833] [cursor=pointer]: "46"
+                          - generic [ref=e834] [cursor=pointer]: "47"
+                          - generic [ref=e835] [cursor=pointer]: "48"
+                          - generic [ref=e836] [cursor=pointer]: "49"
+                          - generic [ref=e837] [cursor=pointer]: "50"
+                          - generic [ref=e838] [cursor=pointer]: "51"
+                          - generic [ref=e839] [cursor=pointer]: "52"
+                          - generic [ref=e840] [cursor=pointer]: "53"
+                          - generic [ref=e841] [cursor=pointer]: "54"
+                          - generic [ref=e842] [cursor=pointer]: "55"
+                          - generic [ref=e843] [cursor=pointer]: "56"
+                          - generic [ref=e844] [cursor=pointer]: "57"
+                          - generic [ref=e845] [cursor=pointer]:
+                            - text: "58"
+                            - button [ref=e846]:
+                              - img [ref=e847]
+                          - generic [ref=e849] [cursor=pointer]: "59"
+                          - generic [ref=e850] [cursor=pointer]: "60"
+                          - generic [ref=e851] [cursor=pointer]: "61"
+                          - generic [ref=e852] [cursor=pointer]: "62"
+                          - generic [ref=e853] [cursor=pointer]: "63"
+                          - generic [ref=e854] [cursor=pointer]: "64"
+                          - generic [ref=e855] [cursor=pointer]: "65"
+                          - generic [ref=e856] [cursor=pointer]: "66"
+                          - generic [ref=e857] [cursor=pointer]: "67"
+                          - generic [ref=e858] [cursor=pointer]: "68"
+                          - generic [ref=e859] [cursor=pointer]: "69"
+                          - generic [ref=e860] [cursor=pointer]: "70"
+                          - generic [ref=e861] [cursor=pointer]: "71"
+                          - generic [ref=e862] [cursor=pointer]: "72"
+                          - generic [ref=e863] [cursor=pointer]: "73"
+                          - generic [ref=e864] [cursor=pointer]: "74"
+                          - generic [ref=e865] [cursor=pointer]: "75"
+                          - generic [ref=e866] [cursor=pointer]: "76"
+                          - generic [ref=e867] [cursor=pointer]: "77"
+                          - generic [ref=e868] [cursor=pointer]: "78"
+                          - generic [ref=e869] [cursor=pointer]: "79"
+                          - generic [ref=e870] [cursor=pointer]: "80"
+                          - generic [ref=e871] [cursor=pointer]: "81"
+                          - generic [ref=e872] [cursor=pointer]: "82"
+                          - generic [ref=e873] [cursor=pointer]: "83"
+                          - generic [ref=e874] [cursor=pointer]: "84"
+                          - generic [ref=e875] [cursor=pointer]: "85"
+                          - generic [ref=e876] [cursor=pointer]: "86"
+                          - generic [ref=e877] [cursor=pointer]: "87"
+                          - generic [ref=e878] [cursor=pointer]: "88"
+                          - generic [ref=e879] [cursor=pointer]: "89"
+                          - generic [ref=e880] [cursor=pointer]: "90"
+                          - generic [ref=e881] [cursor=pointer]: "91"
+                          - generic [ref=e882] [cursor=pointer]: "92"
+                          - generic [ref=e883] [cursor=pointer]: "93"
+                          - generic [ref=e884] [cursor=pointer]: "94"
+                          - generic [ref=e885] [cursor=pointer]: "95"
+                          - generic [ref=e886] [cursor=pointer]: "96"
+                          - generic [ref=e887] [cursor=pointer]: "97"
+                          - generic [ref=e888] [cursor=pointer]: "98"
+                          - generic [ref=e889] [cursor=pointer]: "99"
+                          - generic [ref=e890] [cursor=pointer]: "100"
+                          - generic [ref=e891] [cursor=pointer]: "101"
+                          - generic [ref=e892] [cursor=pointer]: "102"
+                          - generic [ref=e893] [cursor=pointer]: "103"
+                          - generic [ref=e894] [cursor=pointer]: "104"
+                          - generic [ref=e895] [cursor=pointer]: "105"
+                          - generic [ref=e896] [cursor=pointer]: "106"
+                          - generic [ref=e897] [cursor=pointer]: "107"
+                          - generic [ref=e898] [cursor=pointer]: "108"
+                          - generic [ref=e899] [cursor=pointer]: "109"
+                          - generic [ref=e900] [cursor=pointer]: "110"
+                          - generic [ref=e901] [cursor=pointer]: "111"
+                          - generic [ref=e902] [cursor=pointer]: "112"
+                          - generic [ref=e903] [cursor=pointer]: "113"
+                          - generic [ref=e904] [cursor=pointer]: "114"
+                          - generic [ref=e905] [cursor=pointer]: "115"
+                          - generic [ref=e906] [cursor=pointer]: "116"
+                          - generic [ref=e907] [cursor=pointer]: "117"
+                          - generic [ref=e908] [cursor=pointer]: "118"
+                          - generic [ref=e909] [cursor=pointer]: "119"
+                          - generic [ref=e910] [cursor=pointer]: "120"
+                          - generic [ref=e911] [cursor=pointer]: "121"
+                          - generic [ref=e912] [cursor=pointer]: "122"
+                          - generic [ref=e913] [cursor=pointer]: "123"
+                          - generic [ref=e914] [cursor=pointer]: "124"
+                          - generic [ref=e915] [cursor=pointer]: "125"
+                          - generic [ref=e916] [cursor=pointer]: "126"
+                          - generic [ref=e917] [cursor=pointer]: "127"
+                          - generic [ref=e918] [cursor=pointer]: "128"
+                          - generic [ref=e919] [cursor=pointer]: "129"
+                          - generic [ref=e920] [cursor=pointer]: "130"
+                          - generic [ref=e921] [cursor=pointer]: "131"
+                          - generic [ref=e922] [cursor=pointer]: "132"
+                          - generic [ref=e923] [cursor=pointer]: "133"
+                          - generic [ref=e924] [cursor=pointer]: "134"
+                          - generic [ref=e925] [cursor=pointer]: "135"
+                          - generic [ref=e926] [cursor=pointer]: "136"
+                          - generic [ref=e927] [cursor=pointer]: "137"
+                          - generic [ref=e928] [cursor=pointer]: "138"
+                          - generic [ref=e929] [cursor=pointer]: "139"
+                          - generic [ref=e930] [cursor=pointer]: "140"
+                          - generic [ref=e931] [cursor=pointer]: "141"
+                          - generic [ref=e932] [cursor=pointer]: "142"
+                          - generic [ref=e933] [cursor=pointer]: "910"
+                          - generic [ref=e934] [cursor=pointer]: "911"
+                          - generic [ref=e935] [cursor=pointer]: "912"
+                          - generic [ref=e936] [cursor=pointer]: "913"
+                          - generic [ref=e937] [cursor=pointer]: "914"
+                          - generic [ref=e938] [cursor=pointer]: "915"
+                          - generic [ref=e939] [cursor=pointer]: "916"
+                          - generic [ref=e940] [cursor=pointer]: "917"
+                          - generic [ref=e941] [cursor=pointer]: "918"
+                          - generic [ref=e942] [cursor=pointer]: "919"
+                          - generic [ref=e943] [cursor=pointer]: "920"
+                          - generic [ref=e944] [cursor=pointer]: "921"
+                          - generic [ref=e945] [cursor=pointer]: "922"
+                          - generic [ref=e946] [cursor=pointer]: "923"
+                          - generic [ref=e947] [cursor=pointer]: "924"
+                          - generic [ref=e948] [cursor=pointer]:
+                            - text: "925"
+                            - button [ref=e949]:
+                              - img [ref=e950]
+                          - generic [ref=e952] [cursor=pointer]: "926"
+                          - generic [ref=e953] [cursor=pointer]: "927"
+                          - generic [ref=e954] [cursor=pointer]: "928"
+                          - generic [ref=e955] [cursor=pointer]: "929"
+                          - generic [ref=e956] [cursor=pointer]: "930"
+                          - generic [ref=e957] [cursor=pointer]: "931"
+                          - generic [ref=e958] [cursor=pointer]: "932"
+                          - generic [ref=e959] [cursor=pointer]: "933"
+                          - generic [ref=e960] [cursor=pointer]: "934"
+                          - generic [ref=e961] [cursor=pointer]: "935"
+                          - generic [ref=e962] [cursor=pointer]: "936"
+                          - generic [ref=e963] [cursor=pointer]: "937"
+                          - generic [ref=e964] [cursor=pointer]: "938"
+                          - generic [ref=e965] [cursor=pointer]: "939"
+                          - generic [ref=e966] [cursor=pointer]: "940"
+                          - generic [ref=e967] [cursor=pointer]: "941"
+                          - generic [ref=e968] [cursor=pointer]: "942"
+                          - generic [ref=e969] [cursor=pointer]: "943"
+                          - generic [ref=e970] [cursor=pointer]: "944"
+                          - generic [ref=e971] [cursor=pointer]: "945"
+                          - generic [ref=e972] [cursor=pointer]: "946"
+                          - generic [ref=e973] [cursor=pointer]: "947"
+                          - generic [ref=e974] [cursor=pointer]: "948"
+                          - generic [ref=e975] [cursor=pointer]: "949"
+                          - generic [ref=e976] [cursor=pointer]: "950"
+                          - generic [ref=e977] [cursor=pointer]: "951"
+                          - generic [ref=e978] [cursor=pointer]: "952"
+                          - generic [ref=e979] [cursor=pointer]:
+                            - text: "953"
+                            - button [ref=e980]:
+                              - img [ref=e981]
+                          - generic [ref=e983] [cursor=pointer]: "954"
+                          - generic [ref=e984] [cursor=pointer]: "955"
+                          - generic [ref=e985] [cursor=pointer]: "956"
+                          - generic [ref=e986] [cursor=pointer]: "957"
+                          - generic [ref=e987] [cursor=pointer]: "958"
+                          - generic [ref=e988] [cursor=pointer]: "959"
+                          - generic [ref=e989] [cursor=pointer]: "960"
+                          - generic [ref=e990] [cursor=pointer]: "961"
+                          - generic [ref=e991] [cursor=pointer]: "962"
+                          - generic [ref=e992] [cursor=pointer]: "963"
+                          - generic [ref=e993] [cursor=pointer]: "964"
+                          - generic [ref=e994] [cursor=pointer]: "965"
+                          - generic [ref=e995] [cursor=pointer]: "966"
+                          - generic [ref=e996] [cursor=pointer]: "967"
+                          - generic [ref=e997] [cursor=pointer]: "968"
+                          - generic [ref=e998] [cursor=pointer]: "969"
+                          - generic [ref=e999] [cursor=pointer]: "970"
+                          - generic [ref=e1000] [cursor=pointer]: "971"
+                          - generic [ref=e1001] [cursor=pointer]: "972"
+                          - generic [ref=e1002] [cursor=pointer]: "973"
+                          - generic [ref=e1003] [cursor=pointer]: "974"
+                          - generic [ref=e1004] [cursor=pointer]: "975"
+                          - generic [ref=e1005] [cursor=pointer]: "976"
+                          - generic [ref=e1006] [cursor=pointer]: "977"
+                          - generic [ref=e1007] [cursor=pointer]: "978"
+                          - generic [ref=e1008] [cursor=pointer]: "979"
+                          - generic [ref=e1009] [cursor=pointer]: "980"
+                          - generic [ref=e1010] [cursor=pointer]: "981"
+                          - generic [ref=e1011] [cursor=pointer]: "982"
+                          - generic [ref=e1012] [cursor=pointer]: "983"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: import
+                                - generic: warnings
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: typing
+                                - generic: import
+                                - generic: Any
+                                - text: ","
+                                - generic: Dict
+                                - text: ","
+                                - generic: List
+                                - text: ","
+                                - generic: Tuple
+                                - text: ","
+                                - generic: Union
+                                - text: ","
+                                - generic: Optional
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: pathlib
+                                - generic: import
+                                - generic: Path
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: import
+                                - generic: os
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: import
+                                - generic: torch
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: torch
+                                - generic: import
+                                - generic: nn
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: transformers
+                                - generic: import
+                                - generic: AutoModel
+                                - text: ","
+                                - generic: AutoConfig
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: transformers
+                                - text: .
+                                - generic: modeling_outputs
+                                - generic: import
+                                - generic: BaseModelOutput
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - text: ..
+                                - generic: utils
+                                - generic: import
+                                - generic: MissedPackageException
+                                - text: ","
+                                - generic: is_module_available
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - text: .
+                                - generic: layers
+                                - generic: import
+                                - generic: LayersFuser
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - text: ..
+                                - generic: infer_packing
+                                - generic: import
+                                - generic: InferencePackingConfig
+                                - text: ","
+                                - generic: unpack_spans
+                                - text: ","
+                                - generic: pack_requests
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "# Check for optional dependencies"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: IS_LLM2VEC
+                                - generic: =
+                                - generic: is_module_available
+                                - text: (
+                                - generic: "\"llm2vec\""
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: IS_PEFT
+                                - generic: =
+                                - generic: is_module_available
+                                - text: (
+                                - generic: "\"peft\""
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: IS_TURBOT5
+                                - generic: =
+                                - generic: is_module_available
+                                - text: (
+                                - generic: "\"turbot5\""
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: IS_FLASHDEBERTA
+                                - generic: =
+                                - generic: is_module_available
+                                - text: (
+                                - generic: "\"flashdeberta\""
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: IS_LLM2VEC
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: llm2vec
+                                - text: .
+                                - generic: models
+                                - generic: import
+                                - generic: GemmaBiModel
+                                - text: ","
+                                - generic: LlamaBiModel
+                                - text: ","
+                                - generic: Qwen2BiModel
+                                - text: ","
+                                - generic: MistralBiModel
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: DECODER_MODEL_MAPPING
+                                - generic: =
+                                - text: "{"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"MistralConfig\""
+                                - text: ":"
+                                - generic: MistralBiModel
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"LlamaConfig\""
+                                - text: ":"
+                                - generic: LlamaBiModel
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"GemmaConfig\""
+                                - text: ":"
+                                - generic: GemmaBiModel
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"Qwen2Config\""
+                                - text: ":"
+                                - generic: Qwen2BiModel
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: "}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: DECODER_MODEL_MAPPING
+                                - generic: =
+                                - text: "{}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: IS_TURBOT5
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: turbot5
+                                - text: .
+                                - generic: model
+                                - text: .
+                                - generic: modeling
+                                - generic: import
+                                - generic: T5EncoderModel
+                                - generic: as
+                                - generic: FlashT5EncoderModel
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: transformers
+                                - generic: import
+                                - generic: T5EncoderModel
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: IS_FLASHDEBERTA
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: flashdeberta
+                                - generic: import
+                                - generic: FlashDebertaV2Model
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: transformers
+                                - generic: import
+                                - generic: DebertaV2Model
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: IS_PEFT
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from
+                                - generic: peft
+                                - generic: import
+                                - generic: LoraConfig
+                                - text: ","
+                                - generic: get_peft_model
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: class
+                                - generic: Transformer
+                                - text: (
+                                - generic: nn
+                                - text: .
+                                - generic: Module
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\"Flexible transformer wrapper supporting multiple architectures and configurations."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: This class provides a unified interface for various transformer models including
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: encoder-only (BERT, DeBERTa), encoder-decoder (T5), and decoder-only models
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: (LLaMA, Mistral) with bidirectional adaptations. It handles model initialization,
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: adapter loading, and specialized forward passes for different architectures.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Attributes:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "model: The underlying transformer model instance."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "layers_fuser: Optional layer fusion module when config.fuse_layers is True."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "config: Configuration object containing model hyperparameters."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: __init__
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: model_name
+                                - text: ":"
+                                - generic: str
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: config
+                                - text: ":"
+                                - generic: Any
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from_pretrained
+                                - text: ":"
+                                - generic: bool
+                                - generic: =
+                                - generic: "False"
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: labels_encoder
+                                - text: ":"
+                                - generic: bool
+                                - generic: =
+                                - generic: "False"
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: cache_dir
+                                - text: ":"
+                                - generic: Optional
+                                - text: "["
+                                - generic: Union
+                                - text: "["
+                                - generic: str
+                                - text: ","
+                                - generic: Path
+                                - text: "]]"
+                                - generic: =
+                                - generic: None
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: )
+                                - generic: "->"
+                                - generic: None
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\"Initializes the transformer wrapper."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Args:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "model_name: Name or path of the pretrained model to load."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "config: Configuration object containing model hyperparameters. Must have"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "attributes like `encoder_config`, `labels_encoder_config`, `vocab_size`,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "`_attn_implementation`, and `fuse_layers`."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "from_pretrained: If True, loads pretrained weights. If False, initializes"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: from config only. Defaults to False.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "labels_encoder: If True, initializes as a labels encoder using"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "`config.labels_encoder_config`. Defaults to False."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "cache_dir: Optional directory for caching downloaded models. Defaults to None."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Raises:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "MissedPackageException: If required packages (llm2vec, peft) are not installed"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: when needed for specific model types.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: super
+                                - text: ().
+                                - generic: __init__
+                                - text: ()
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: labels_encoder
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: encoder_config
+                                - generic: =
+                                - generic: config
+                                - text: .
+                                - generic: labels_encoder_config
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: encoder_config
+                                - generic: =
+                                - generic: config
+                                - text: .
+                                - generic: encoder_config
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: encoder_config
+                                - generic: is
+                                - generic: None
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: encoder_config
+                                - generic: =
+                                - generic: AutoConfig
+                                - text: .
+                                - generic: from_pretrained
+                                - text: (
+                                - generic: model_name
+                                - text: ","
+                                - generic: cache_dir
+                                - generic: =
+                                - generic: cache_dir
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: config
+                                - text: .
+                                - generic: vocab_size
+                                - generic: "!="
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: encoder_config
+                                - text: .
+                                - generic: vocab_size
+                                - generic: =
+                                - generic: config
+                                - text: .
+                                - generic: vocab_size
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: config
+                                - text: .
+                                - generic: _attn_implementation
+                                - generic:
+                                  - generic: is
+                                  - generic: not
+                                - generic: None
+                                - generic: and
+                                - generic: not
+                                - generic: labels_encoder
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: encoder_config
+                                - text: .
+                                - generic: _attn_implementation
+                                - generic: =
+                                - generic: config
+                                - text: .
+                                - generic: _attn_implementation
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: config_name
+                                - generic: =
+                                - generic: encoder_config
+                                - text: .
+                                - generic: __class__
+                                - text: .
+                                - generic: __name__
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: kwargs
+                                - generic: =
+                                - text: "{}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: config_name
+                                - generic: in
+                                - generic: DECODER_MODEL_MAPPING
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: not
+                                - generic: IS_LLM2VEC
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: raise
+                                - generic: MissedPackageException
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: "f\"The llm2vec package must be installed to use this decoder model:"
+                                  - generic:
+                                    - generic: "{"
+                                    - generic: config_name
+                                    - generic: "}"
+                                  - text: "\""
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ModelClass
+                                - generic: =
+                                - generic: DECODER_MODEL_MAPPING
+                                - text: "["
+                                - generic: config_name
+                                - text: "]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: custom
+                                - generic: =
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: elif
+                                - generic: config_name
+                                - generic: in
+                                - text: "{"
+                                - generic: "'T5Config'"
+                                - text: ","
+                                - generic: "'MT5Config'"
+                                - text: "}:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: custom
+                                - generic: =
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: turbot5_type
+                                - generic: =
+                                - generic: os
+                                - text: .
+                                - generic: environ
+                                - text: .
+                                - generic: get
+                                - text: (
+                                - generic: "\"TURBOT5_ATTN_TYPE\""
+                                - text: ","
+                                - generic: "\"basic\""
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: turbot5_type
+                                - generic: and
+                                - generic: IS_TURBOT5
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ModelClass
+                                - generic: =
+                                - generic: FlashT5EncoderModel
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: kwargs
+                                - generic: =
+                                - text: "{"
+                                - generic: "'attention_type'"
+                                - text: ":"
+                                - generic: turbot5_type
+                                - text: "}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: config
+                                - text: .
+                                - generic: encoder_config
+                                - text: .
+                                - generic: attention_type
+                                - generic: =
+                                - generic: turbot5_type
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ModelClass
+                                - generic: =
+                                - generic: T5EncoderModel
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: elif
+                                - generic: config_name
+                                - generic: in
+                                - text: "{"
+                                - generic: "'DebertaV2Config'"
+                                - text: "}:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: custom
+                                - generic: =
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: os
+                                - text: .
+                                - generic: environ
+                                - text: .
+                                - generic: get
+                                - text: (
+                                - generic: "\"USE_FLASHDEBERTA\""
+                                - text: ","
+                                - generic: "\"\""
+                                - text: )
+                                - generic: and
+                                - generic: IS_FLASHDEBERTA
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: print
+                                - text: (
+                                - generic: "'Using FlashDeberta backend.'"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ModelClass
+                                - generic: =
+                                - generic: FlashDebertaV2Model
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ModelClass
+                                - generic: =
+                                - generic: DebertaV2Model
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: custom
+                                - generic: =
+                                - generic: "False"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ModelClass
+                                - generic: =
+                                - generic: AutoModel
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: from_pretrained
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: model
+                                - generic: =
+                                - generic: ModelClass
+                                - text: .
+                                - generic: from_pretrained
+                                - text: (
+                                - generic: model_name
+                                - text: ","
+                                - generic: "**"
+                                - generic: kwargs
+                                - text: ","
+                                - generic: trust_remote_code
+                                - generic: =
+                                - generic: "True"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: elif
+                                - generic: not
+                                - generic: custom
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: model
+                                - generic: =
+                                - generic: ModelClass
+                                - text: .
+                                - generic: from_config
+                                - text: (
+                                - generic: encoder_config
+                                - text: ","
+                                - generic: trust_remote_code
+                                - generic: =
+                                - generic: "True"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: else
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: .
+                                - generic: model
+                                - generic: =
+                                - generic: ModelClass
+                                - text: (
+                                - generic: encoder_config
+                                - text: ","
+                                - generic: "**"
+                                - generic: kwargs
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: adapter_config_file
+                                - generic: =
+                                - generic: Path
+                                - text: (
+                                - generic: model_name
+                                - text: )
+                                - generic: /
+                                - generic: "\"adapter_config.json\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: adapter_config_file
+                                - text: .
+                                - generic: exists
+                                - text: "():"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: not
+                                - generic: IS_PEFT
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: warnings
+                                - text: .
+                                - generic: warn
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"Adapter configs were detected, if you want to apply them you need to install peft package.\""
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: stacklevel
+                                - generic: =
+                                - generic: "2"
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Computes the average of token embeddings weighted by the attention mask,
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: ignoring padded positions.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Args:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "token_embeddings: Token-level embeddings of shape (batch_size, seq_len, hidden_size)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "attention_mask: Binary mask of shape (batch_size, seq_len) where 1 indicates"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: valid tokens and 0 indicates padding.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Returns:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Pooled embeddings of shape (batch_size, hidden_size).
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: input_mask_expanded
+                                - generic: =
+                                - generic: attention_mask
+                                - text: .
+                                - generic: unsqueeze
+                                - text: (
+                                - generic: "-"
+                                - generic: "1"
+                                - text: ).
+                                - generic: expand
+                                - text: (
+                                - generic: token_embeddings
+                                - text: .
+                                - generic: size
+                                - text: ()).
+                                - generic: float
+                                - text: ()
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: torch
+                                - text: .
+                                - generic: sum
+                                - text: (
+                                - generic: token_embeddings
+                                - generic: "*"
+                                - generic: input_mask_expanded
+                                - text: ","
+                                - generic: "1"
+                                - text: )
+                                - generic: /
+                                - generic: torch
+                                - text: .
+                                - generic: clamp
+                                - text: (
+                                - generic: input_mask_expanded
+                                - text: .
+                                - generic: sum
+                                - text: (
+                                - generic: "1"
+                                - text: ),
+                                - generic: min
+                                - generic: =
+                                - generic: "1e-9"
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: encode_labels
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: ","
+                                - generic: input_ids
+                                - text: ":"
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: ","
+                                - generic: attention_mask
+                                - text: ":"
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: ","
+                                - generic: "*"
+                                - generic: args
+                                - text: ":"
+                                - generic: Any
+                                - text: ","
+                                - generic: "**"
+                                - generic: kwargs
+                                - text: ":"
+                                - generic: Any
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: )
+                                - generic: "->"
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\"Encodes label sequences into fixed-size embeddings."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Processes labels through the dedicated labels encoder and applies mean pooling
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: to produce sentence-level representations.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Args:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "input_ids: Label token IDs of shape (batch_size, seq_len)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "attention_mask: Attention mask of shape (batch_size, seq_len)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "*args: Additional positional arguments."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "**kwargs: Additional keyword arguments (packing_config and pair_attention_mask"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: are removed as they're not supported for labels).
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Returns:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Pooled label embeddings of shape (batch_size, hidden_size).
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: label_kwargs
+                                - generic: =
+                                - generic: dict
+                                - text: (
+                                - generic: kwargs
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: label_kwargs
+                                - text: .
+                                - generic: pop
+                                - text: (
+                                - generic: "\"packing_config\""
+                                - text: ","
+                                - generic: None
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: label_kwargs
+                                - text: .
+                                - generic: pop
+                                - text: (
+                                - generic: "\"pair_attention_mask\""
+                                - text: ","
+                                - generic: None
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: label_kwargs
+                                - text: "["
+                                - generic: "\"attention_mask\""
+                                - text: "]"
+                                - generic: =
+                                - generic: attention_mask
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: labels_embeddings
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: labels_encoder
+                                - text: (
+                                - generic: input_ids
+                                - text: ","
+                                - generic: "*"
+                                - generic: args
+                                - text: ","
+                                - generic: "**"
+                                - generic: label_kwargs
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: if
+                                - generic: hasattr
+                                - text: (
+                                - generic: self
+                                - text: ","
+                                - generic: "\"labels_projection\""
+                                - text: "):"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: labels_embeddings
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: labels_projection
+                                - text: (
+                                - generic: labels_embeddings
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: labels_embeddings
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: mean_pooling
+                                - text: (
+                                - generic: labels_embeddings
+                                - text: ","
+                                - generic: attention_mask
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: labels_embeddings
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: def
+                                - generic: forward
+                                - text: (
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: self
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: input_ids
+                                - text: ":"
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: attention_mask
+                                - text: ":"
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: labels_input_ids
+                                - text: ":"
+                                - generic: Optional
+                                - text: "["
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: "]"
+                                - generic: =
+                                - generic: None
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: labels_attention_mask
+                                - text: ":"
+                                - generic: Optional
+                                - text: "["
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: "]"
+                                - generic: =
+                                - generic: None
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "*"
+                                - generic: args
+                                - text: ":"
+                                - generic: Any
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "**"
+                                - generic: kwargs
+                                - text: ":"
+                                - generic: Any
+                                - text: ","
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: )
+                                - generic: "->"
+                                - generic: Tuple
+                                - text: "["
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: ","
+                                - generic: torch
+                                - text: .
+                                - generic: Tensor
+                                - text: "]:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\"Forward pass through the bi-encoder."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Encodes both text sequences (token-level) and label sequences (pooled) to
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: produce aligned representations.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Args:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "input_ids: Text token IDs of shape (batch_size, seq_len)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "attention_mask: Text attention mask of shape (batch_size, seq_len)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "labels_input_ids: Label token IDs of shape (batch_size, label_seq_len)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "labels_attention_mask: Label attention mask of shape (batch_size, label_seq_len)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "*args: Additional positional arguments."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "**kwargs: Additional keyword arguments."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "Returns:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "A tuple containing:"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "- token_embeddings: Text embeddings of shape (batch_size, seq_len, hidden_size)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "- labels_embeddings: Pooled label embeddings of shape (batch_size, hidden_size)."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "\"\"\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: token_embeddings
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: encode_text
+                                - text: (
+                                - generic: input_ids
+                                - text: ","
+                                - generic: attention_mask
+                                - text: ","
+                                - generic: "*"
+                                - generic: args
+                                - text: ","
+                                - generic: "**"
+                                - generic: kwargs
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: labels_embeddings
+                                - generic: =
+                                - generic: self
+                                - text: .
+                                - generic: encode_labels
+                                - text: (
+                                - generic: labels_input_ids
+                                - text: ","
+                                - generic: labels_attention_mask
+                                - text: ","
+                                - generic: "*"
+                                - generic: args
+                                - text: ","
+                                - generic: "**"
+                                - generic: kwargs
+                                - text: )
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: return
+                                - generic: token_embeddings
+                                - text: ","
+                                - generic: labels_embeddings
+  - alert [ref=e1018]

@@ -16,6 +16,8 @@ description: "计算机、IT、AI 技术分享"
 - [MemGPT 论文中文翻译：将 LLM 作为操作系统](/tech/memgpt-paper-translation/)
 - [从 Skill 的渐进式加载得到的启发](/tech/从-skill-的渐进式加载得到的启发/)
 - [Cursor长时间运行 Agent 的工程方法论]({{< relref "tech/ai-agents/cursor-agent-engineering.md" >}})
+- [记忆系统已死，而记忆管理永存](/tech/Agent记忆管理-发展方向/)
+- [目录](/tech/Agent基础知识/)
 
 ### Agent Memory 理论研究
 - [Agent Memory 论文综述与论文导航](/tech/agent-mem-papers/0-agent-memory-overview/)

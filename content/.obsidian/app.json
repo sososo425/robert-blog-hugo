@@ -1,0 +1,18 @@
+{
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "_index.md",
+    "*/_index.md",
+    "copilot/",
+    "copilot-conversations/",
+    "copilot-custom-prompts/",
+    "memory/"
+  ],
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "assets",
+  "newFileLocation": "current",
+  "readableLineLength": false,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "strictLineBreaks": false
+}

@@ -1,0 +1,1780 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fmilla-jovovich%2Fmempalace
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=milla-jovovich%2Fmempalace
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "milla-jovovich" [ref=e70] [cursor=pointer]:
+            - /url: /milla-jovovich
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "mempalace" [ref=e73] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fmilla-jovovich%2Fmempalace
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 2.4k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fmilla-jovovich%2Fmempalace
+                - img [ref=e82]
+                - text: Fork
+                - generic "2,419" [ref=e84]: 2.4k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fmilla-jovovich%2Fmempalace
+                - img [ref=e88]
+                - text: Star
+                - generic "20627 users starred this repository" [ref=e90]: 20.6k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 49" [ref=e99] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "49" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 66" [ref=e106] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "66" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "milla-jovovich/mempalace" [level=1] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - button "main branch" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e161]: main
+                  - generic:
+                    - img
+              - generic [ref=e162]:
+                - link "7 Branches" [ref=e163] [cursor=pointer]:
+                  - /url: /milla-jovovich/mempalace/branches
+                  - generic [ref=e164]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]:
+                      - strong [ref=e167]: "7"
+                      - text: Branches
+                - link "1 Tag" [ref=e168] [cursor=pointer]:
+                  - /url: /milla-jovovich/mempalace/tags
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]:
+                      - strong [ref=e172]: "1"
+                      - text: Tag
+            - generic [ref=e173]:
+              - generic [ref=e177]:
+                - img [ref=e179]
+                - combobox "Go to file" [ref=e181]
+              - button "Code" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]:
+                  - generic:
+                    - img
+                  - generic [ref=e184]: Code
+                  - generic:
+                    - img
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - heading "Folders and files" [level=2] [ref=e187]
+              - table "Folders and files" [ref=e188]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e189]:
+                  - 'row "Latest commit bensig commits by bensig Merge pull request #142 from igorls/chore/packaging-cleanup Open commit details success Commit 71736a3 · Apr 8, 20268 hours ago History 71 Commits" [ref=e190]':
+                    - 'cell "Latest commit bensig commits by bensig Merge pull request #142 from igorls/chore/packaging-cleanup Open commit details success Commit 71736a3 · Apr 8, 20268 hours ago History 71 Commits" [ref=e191]':
+                      - generic [ref=e192]:
+                        - heading "Latest commit" [level=2] [ref=e193]
+                        - generic [ref=e194]:
+                          - generic [ref=e196]:
+                            - link "bensig" [ref=e197] [cursor=pointer]:
+                              - /url: /bensig
+                              - img "bensig" [ref=e198]
+                            - link "commits by bensig" [ref=e199] [cursor=pointer]:
+                              - /url: /milla-jovovich/mempalace/commits?author=bensig
+                              - text: bensig
+                          - generic [ref=e200]:
+                            - generic [ref=e202]:
+                              - link "Merge pull request" [ref=e203] [cursor=pointer]:
+                                - /url: /milla-jovovich/mempalace/commit/71736a3f4f1afe01982d5b0d4c36eb5405eaab91
+                              - link "#142" [ref=e204] [cursor=pointer]:
+                                - /url: https://github.com/milla-jovovich/mempalace/pull/142
+                              - link "from igorls/chore/packaging-cleanup" [ref=e205] [cursor=pointer]:
+                                - /url: /milla-jovovich/mempalace/commit/71736a3f4f1afe01982d5b0d4c36eb5405eaab91
+                            - button "Open commit details" [ref=e206] [cursor=pointer]:
+                              - img [ref=e207]
+                            - button "success" [ref=e209] [cursor=pointer]:
+                              - img [ref=e210]
+                        - generic [ref=e212]:
+                          - generic [ref=e214]:
+                            - link "Commit 71736a3" [ref=e215] [cursor=pointer]:
+                              - /url: /milla-jovovich/mempalace/commit/71736a3f4f1afe01982d5b0d4c36eb5405eaab91
+                              - text: 71736a3
+                            - text: ·
+                            - generic "Apr 8, 2026, 7:05 AM GMT+8" [ref=e216]: Apr 8, 20268 hours ago
+                          - generic [ref=e217]:
+                            - heading "History" [level=2] [ref=e218]
+                            - link "71 Commits" [ref=e219] [cursor=pointer]:
+                              - /url: /milla-jovovich/mempalace/commits/main/
+                              - generic [ref=e220]:
+                                - generic:
+                                  - img
+                                - generic [ref=e221]: 71 Commits
+                  - 'row ".github, (Directory) fix: CI failures — update workflow for uv migration, fix lint and format Apr 8, 202610 hours ago" [ref=e222]':
+                    - cell ".github, (Directory)" [ref=e223]:
+                      - generic [ref=e224]:
+                        - img [ref=e225]
+                        - link ".github, (Directory)" [ref=e230] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/tree/main/.github
+                          - text: .github
+                    - 'cell "fix: CI failures — update workflow for uv migration, fix lint and format" [ref=e231]':
+                      - 'link "fix: CI failures — update workflow for uv migration, fix lint and format" [ref=e234] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/96de23cd974254d730dd0a69edaf943c4c0977da
+                    - cell "Apr 8, 202610 hours ago" [ref=e235]:
+                      - generic [ref=e236]: Apr 8, 202610 hours ago
+                  - 'row "assets, (Directory) MemPalace: palace architecture, AAAK compression, knowledge graph Apr 5, 20263 days ago" [ref=e237]':
+                    - cell "assets, (Directory)" [ref=e238]:
+                      - generic [ref=e239]:
+                        - img [ref=e240]
+                        - link "assets, (Directory)" [ref=e245] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/tree/main/assets
+                          - text: assets
+                    - 'cell "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e246]':
+                      - 'link "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e249] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/068dbd9a7be0af3c37bbbf1ed0e3dc477f850af8
+                    - cell "Apr 5, 20263 days ago" [ref=e250]:
+                      - generic [ref=e251]: Apr 5, 20263 days ago
+                  - 'row "benchmarks, (Directory) fix: resolve ruff lint and format errors across codebase Apr 5, 20263 days ago" [ref=e252]':
+                    - cell "benchmarks, (Directory)" [ref=e253]:
+                      - generic [ref=e254]:
+                        - img [ref=e255]
+                        - link "benchmarks, (Directory)" [ref=e260] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/tree/main/benchmarks
+                          - text: benchmarks
+                    - 'cell "fix: resolve ruff lint and format errors across codebase" [ref=e261]':
+                      - 'link "fix: resolve ruff lint and format errors across codebase" [ref=e264] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/6d8c46221996cd806b5671458d9b7437ad78cfb9
+                    - cell "Apr 5, 20263 days ago" [ref=e265]:
+                      - generic [ref=e266]: Apr 5, 20263 days ago
+                  - 'row "examples, (Directory) Merge pull request #106 from JayadityaGit/docs/gemini-cli-integration Apr 8, 202610 hours ago" [ref=e267]':
+                    - cell "examples, (Directory)" [ref=e268]:
+                      - generic [ref=e269]:
+                        - img [ref=e270]
+                        - link "examples, (Directory)" [ref=e275] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/tree/main/examples
+                          - text: examples
+                    - 'cell "Merge pull request #106 from JayadityaGit/docs/gemini-cli-integration" [ref=e276]':
+                      - generic [ref=e278]:
+                        - link "Merge pull request" [ref=e279] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/commit/5f49282c859c3ea9dbc1e26753c97204cde1274b
+                        - link "#106" [ref=e280] [cursor=pointer]:
+                          - /url: https://github.com/milla-jovovich/mempalace/pull/106
+                        - link "from JayadityaGit/docs/gemini-cli-integration" [ref=e281] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/commit/5f49282c859c3ea9dbc1e26753c97204cde1274b
+                    - cell "Apr 8, 202610 hours ago" [ref=e282]:
+                      - generic [ref=e283]: Apr 8, 202610 hours ago
+                  - 'row "hooks, (Directory) fix: sanitize SESSION_ID in save hook to prevent path traversal Apr 8, 20269 hours ago" [ref=e284]':
+                    - cell "hooks, (Directory)" [ref=e285]:
+                      - generic [ref=e286]:
+                        - img [ref=e287]
+                        - link "hooks, (Directory)" [ref=e292] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/tree/main/hooks
+                          - text: hooks
+                    - 'cell "fix: sanitize SESSION_ID in save hook to prevent path traversal" [ref=e293]':
+                      - 'link "fix: sanitize SESSION_ID in save hook to prevent path traversal" [ref=e296] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/50239d4b49931833ed42e4d17c6c38b0bee1e38c
+                    - cell "Apr 8, 20269 hours ago" [ref=e297]:
+                      - generic [ref=e298]: Apr 8, 20269 hours ago
+                  - 'row "mempalace, (Directory) Merge pull request #142 from igorls/chore/packaging-cleanup Apr 8, 20268 hours ago" [ref=e299]':
+                    - cell "mempalace, (Directory)" [ref=e300]:
+                      - generic [ref=e301]:
+                        - img [ref=e302]
+                        - link "mempalace, (Directory)" [ref=e307] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/tree/main/mempalace
+                          - text: mempalace
+                    - 'cell "Merge pull request #142 from igorls/chore/packaging-cleanup" [ref=e308]':
+                      - generic [ref=e310]:
+                        - link "Merge pull request" [ref=e311] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/commit/71736a3f4f1afe01982d5b0d4c36eb5405eaab91
+                        - link "#142" [ref=e312] [cursor=pointer]:
+                          - /url: https://github.com/milla-jovovich/mempalace/pull/142
+                        - link "from igorls/chore/packaging-cleanup" [ref=e313] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/commit/71736a3f4f1afe01982d5b0d4c36eb5405eaab91
+                    - cell "Apr 8, 20268 hours ago" [ref=e314]:
+                      - generic [ref=e315]: Apr 8, 20268 hours ago
+                  - 'row "tests, (Directory) Merge pull request #136 from igorls/fix/kg-hardening Apr 8, 20268 hours ago" [ref=e316]':
+                    - cell "tests, (Directory)" [ref=e317]:
+                      - generic [ref=e318]:
+                        - img [ref=e319]
+                        - link "tests, (Directory)" [ref=e324] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/tree/main/tests
+                          - text: tests
+                    - 'cell "Merge pull request #136 from igorls/fix/kg-hardening" [ref=e325]':
+                      - generic [ref=e327]:
+                        - link "Merge pull request" [ref=e328] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/commit/a8de2911e5f97ece0832bf13e9982020a6b44b5f
+                        - link "#136" [ref=e329] [cursor=pointer]:
+                          - /url: https://github.com/milla-jovovich/mempalace/pull/136
+                        - link "from igorls/fix/kg-hardening" [ref=e330] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/commit/a8de2911e5f97ece0832bf13e9982020a6b44b5f
+                    - cell "Apr 8, 20268 hours ago" [ref=e331]:
+                      - generic [ref=e332]: Apr 8, 20268 hours ago
+                  - 'row ".gitignore, (File) MemPalace: palace architecture, AAAK compression, knowledge graph Apr 5, 20263 days ago" [ref=e333]':
+                    - cell ".gitignore, (File)" [ref=e334]:
+                      - generic [ref=e335]:
+                        - img [ref=e336]
+                        - link ".gitignore, (File)" [ref=e341] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/blob/main/.gitignore
+                          - text: .gitignore
+                    - 'cell "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e342]':
+                      - 'link "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e345] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/068dbd9a7be0af3c37bbbf1ed0e3dc477f850af8
+                    - cell "Apr 5, 20263 days ago" [ref=e346]:
+                      - generic [ref=e347]: Apr 5, 20263 days ago
+                  - 'row ".pre-commit-config.yaml, (File) MemPalace: palace architecture, AAAK compression, knowledge graph Apr 5, 20263 days ago" [ref=e348]':
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e349]:
+                      - generic [ref=e350]:
+                        - img [ref=e351]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e356] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - 'cell "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e357]':
+                      - 'link "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e360] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/068dbd9a7be0af3c37bbbf1ed0e3dc477f850af8
+                    - cell "Apr 5, 20263 days ago" [ref=e361]:
+                      - generic [ref=e362]: Apr 5, 20263 days ago
+                  - 'row "CONTRIBUTING.md, (File) MemPalace: palace architecture, AAAK compression, knowledge graph Apr 5, 20263 days ago" [ref=e363]':
+                    - cell "CONTRIBUTING.md, (File)" [ref=e364]:
+                      - generic [ref=e365]:
+                        - img [ref=e366]
+                        - link "CONTRIBUTING.md, (File)" [ref=e371] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - 'cell "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e372]':
+                      - 'link "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e375] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/068dbd9a7be0af3c37bbbf1ed0e3dc477f850af8
+                    - cell "Apr 5, 20263 days ago" [ref=e376]:
+                      - generic [ref=e377]: Apr 5, 20263 days ago
+                  - 'row "LICENSE, (File) MemPalace: palace architecture, AAAK compression, knowledge graph Apr 5, 20263 days ago" [ref=e378]':
+                    - cell "LICENSE, (File)" [ref=e379]:
+                      - generic [ref=e380]:
+                        - img [ref=e381]
+                        - link "LICENSE, (File)" [ref=e386] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/blob/main/LICENSE
+                          - text: LICENSE
+                    - 'cell "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e387]':
+                      - 'link "MemPalace: palace architecture, AAAK compression, knowledge graph" [ref=e390] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/068dbd9a7be0af3c37bbbf1ed0e3dc477f850af8
+                    - cell "Apr 5, 20263 days ago" [ref=e391]:
+                      - generic [ref=e392]: Apr 5, 20263 days ago
+                  - 'row "README.md, (File) Merge pull request #106 from JayadityaGit/docs/gemini-cli-integration Apr 8, 202610 hours ago" [ref=e393]':
+                    - cell "README.md, (File)" [ref=e394]:
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - link "README.md, (File)" [ref=e401] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/blob/main/README.md
+                          - text: README.md
+                    - 'cell "Merge pull request #106 from JayadityaGit/docs/gemini-cli-integration" [ref=e402]':
+                      - generic [ref=e404]:
+                        - link "Merge pull request" [ref=e405] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/commit/5f49282c859c3ea9dbc1e26753c97204cde1274b
+                        - link "#106" [ref=e406] [cursor=pointer]:
+                          - /url: https://github.com/milla-jovovich/mempalace/pull/106
+                        - link "from JayadityaGit/docs/gemini-cli-integration" [ref=e407] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/commit/5f49282c859c3ea9dbc1e26753c97204cde1274b
+                    - cell "Apr 8, 202610 hours ago" [ref=e408]:
+                      - generic [ref=e409]: Apr 8, 202610 hours ago
+                  - 'row "pyproject.toml, (File) chore: tighten chromadb version range and add py.typed marker Apr 8, 20269 hours ago" [ref=e410]':
+                    - cell "pyproject.toml, (File)" [ref=e411]:
+                      - generic [ref=e412]:
+                        - img [ref=e413]
+                        - link "pyproject.toml, (File)" [ref=e418] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "chore: tighten chromadb version range and add py.typed marker" [ref=e419]':
+                      - 'link "chore: tighten chromadb version range and add py.typed marker" [ref=e422] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/541e9bd1ee880318b50237eaead1a4818052948b
+                    - cell "Apr 8, 20269 hours ago" [ref=e423]:
+                      - generic [ref=e424]: Apr 8, 20269 hours ago
+                  - 'row "uv.lock, (File) fix: preserve CLI exit codes, log tracebacks, sanitize search errors,… Apr 8, 202610 hours ago" [ref=e425]':
+                    - cell "uv.lock, (File)" [ref=e426]:
+                      - generic [ref=e427]:
+                        - img [ref=e428]
+                        - link "uv.lock, (File)" [ref=e433] [cursor=pointer]:
+                          - /url: /milla-jovovich/mempalace/blob/main/uv.lock
+                          - text: uv.lock
+                    - 'cell "fix: preserve CLI exit codes, log tracebacks, sanitize search errors,…" [ref=e434]':
+                      - 'link "fix: preserve CLI exit codes, log tracebacks, sanitize search errors,…" [ref=e437] [cursor=pointer]':
+                        - /url: /milla-jovovich/mempalace/commit/5ac4947d023f309e02faa3d86a1a0225e03cdabb
+                    - cell "Apr 8, 202610 hours ago" [ref=e438]:
+                      - generic [ref=e439]: Apr 8, 202610 hours ago
+            - generic [ref=e441]:
+              - generic [ref=e442]:
+                - heading "Repository files navigation" [level=2] [ref=e443]
+                - navigation "Repository files" [ref=e444]:
+                  - list [ref=e445]:
+                    - listitem [ref=e446]:
+                      - link "README" [ref=e447] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e449]
+                        - generic [ref=e451]: README
+                    - listitem [ref=e452]:
+                      - link "Contributing" [ref=e453] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e455]
+                        - generic [ref=e457]: Contributing
+                    - listitem [ref=e458]:
+                      - link "MIT license" [ref=e459] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e461]
+                        - generic [ref=e463]: MIT license
+                - button "Outline" [ref=e464] [cursor=pointer]:
+                  - img [ref=e465]
+              - article [ref=e468]:
+                - generic [ref=e469]:
+                  - link "MemPalace" [ref=e470] [cursor=pointer]:
+                    - /url: /milla-jovovich/mempalace/blob/main/assets/mempalace_logo.png
+                    - img "MemPalace" [ref=e471]
+                  - generic [ref=e472]:
+                    - heading "MemPalace" [level=1] [ref=e473]
+                    - 'link "Permalink: MemPalace" [ref=e474] [cursor=pointer]':
+                      - /url: "#mempalace"
+                      - img [ref=e475]
+                  - generic [ref=e477]:
+                    - heading "The highest-scoring AI memory system ever benchmarked. And it's free." [level=3] [ref=e478]
+                    - 'link "Permalink: The highest-scoring AI memory system ever benchmarked. And it''s free." [ref=e479] [cursor=pointer]':
+                      - /url: "#the-highest-scoring-ai-memory-system-ever-benchmarked-and-its-free"
+                      - img [ref=e480]
+                  - paragraph [ref=e482]: Every conversation you have with an AI — every decision, every debugging session, every architecture debate — disappears when the session ends. Six months of work, gone. You start over every time.
+                  - paragraph [ref=e483]:
+                    - text: Other memory systems try to fix this by letting AI decide what's worth remembering. It extracts "user prefers Postgres" and throws away the conversation where you explained
+                    - emphasis [ref=e484]: why
+                    - text: ". MemPalace takes a different approach:"
+                    - strong [ref=e485]: store everything, then make it findable.
+                  - paragraph [ref=e486]:
+                    - strong [ref=e487]: The Palace
+                    - text: "— Ancient Greek orators memorized entire speeches by placing ideas in rooms of an imaginary building. Walk through the building, find the idea. MemPalace applies the same principle to AI memory: your conversations are organized into wings (people and projects), halls (types of memory), and rooms (specific ideas). No AI decides what matters — you keep every word, and the structure gives you a navigable map instead of a flat search index."
+                  - paragraph [ref=e488]:
+                    - strong [ref=e489]: Raw verbatim storage
+                    - text: — MemPalace stores your actual exchanges in ChromaDB without summarization or extraction. The 96.6% LongMemEval result comes from this raw mode. We don't burn an LLM to decide what's "worth remembering" — we keep everything and let semantic search find it.
+                  - paragraph [ref=e490]:
+                    - strong [ref=e491]: AAAK (experimental)
+                    - text: — A lossy abbreviation dialect for packing repeated entities into fewer tokens at scale. Readable by any LLM that reads text — Claude, GPT, Gemini, Llama, Mistral — no decoder needed.
+                    - strong [ref=e492]: AAAK is a separate compression layer, not the storage default
+                    - text: ", and on the LongMemEval benchmark it currently regresses vs raw mode (84.2% vs 96.6%). We're iterating. See the"
+                    - link "note above" [ref=e493] [cursor=pointer]:
+                      - /url: "#a-note-from-milla--ben--april-7-2026"
+                    - text: for the honest status.
+                  - paragraph [ref=e494]:
+                    - strong [ref=e495]: Local, open, adaptable
+                    - text: — MemPalace runs entirely on your machine, on any data you have locally, without using any external API or services. It has been tested on conversations — but it can be adapted for different types of datastores. This is why we're open-sourcing it.
+                  - paragraph [ref=e496]:
+                    - link [ref=e497] [cursor=pointer]:
+                      - /url: https://github.com/milla-jovovich/mempalace/releases
+                    - link [ref=e498] [cursor=pointer]:
+                      - /url: https://www.python.org/
+                    - link [ref=e499] [cursor=pointer]:
+                      - /url: https://github.com/milla-jovovich/mempalace/blob/main/LICENSE
+                    - link [ref=e500] [cursor=pointer]:
+                      - /url: https://discord.com/invite/ycTQQCu6kn
+                  - paragraph [ref=e501]:
+                    - link "Quick Start" [ref=e502] [cursor=pointer]:
+                      - /url: "#quick-start"
+                    - text: ·
+                    - link "The Palace" [ref=e503] [cursor=pointer]:
+                      - /url: "#the-palace"
+                    - text: ·
+                    - link "AAAK Dialect" [ref=e504] [cursor=pointer]:
+                      - /url: "#aaak-compression"
+                    - text: ·
+                    - link "Benchmarks" [ref=e505] [cursor=pointer]:
+                      - /url: "#benchmarks"
+                    - text: ·
+                    - link "MCP Tools" [ref=e506] [cursor=pointer]:
+                      - /url: "#mcp-server"
+                  - generic [ref=e507]:
+                    - heading "Highest LongMemEval score ever published — free or paid." [level=3] [ref=e508]
+                    - 'link "Permalink: Highest LongMemEval score ever published — free or paid." [ref=e509] [cursor=pointer]':
+                      - /url: "#highest-longmemeval-score-ever-published--free-or-paid"
+                      - img [ref=e510]
+                  - table [ref=e513]:
+                    - rowgroup [ref=e514]:
+                      - row "96.6% LongMemEval R@5 raw mode, zero API calls 500/500 questions tested independently reproduced $0 No subscription No cloud. Local only." [ref=e515]:
+                        - cell "96.6% LongMemEval R@5 raw mode, zero API calls" [ref=e516]:
+                          - strong [ref=e517]: 96.6%
+                          - subscript [ref=e518]:
+                            - text: LongMemEval R@5
+                            - text: raw mode, zero API calls
+                        - cell "500/500 questions tested independently reproduced" [ref=e519]:
+                          - strong [ref=e520]: 500/500
+                          - subscript [ref=e521]:
+                            - text: questions tested
+                            - text: independently reproduced
+                        - cell "$0 No subscription No cloud. Local only." [ref=e522]:
+                          - strong [ref=e523]: $0
+                          - subscript [ref=e524]:
+                            - text: No subscription
+                            - text: No cloud. Local only.
+                  - paragraph [ref=e525]:
+                    - subscript [ref=e526]:
+                      - text: Reproducible — runners in
+                      - link "benchmarks/" [ref=e527] [cursor=pointer]:
+                        - /url: /milla-jovovich/mempalace/blob/main/benchmarks
+                      - text: .
+                      - link "Full results" [ref=e528] [cursor=pointer]:
+                        - /url: /milla-jovovich/mempalace/blob/main/benchmarks/BENCHMARKS.md
+                      - text: . The 96.6% is from raw verbatim mode, not AAAK or rooms mode (those score lower — see
+                      - link "note above" [ref=e529] [cursor=pointer]:
+                        - /url: "#a-note-from-milla--ben--april-7-2026"
+                      - text: ).
+                - separator [ref=e530]
+                - generic [ref=e531]:
+                  - heading "A Note from Milla & Ben — April 7, 2026" [level=2] [ref=e532]
+                  - 'link "Permalink: A Note from Milla & Ben — April 7, 2026" [ref=e533] [cursor=pointer]':
+                    - /url: "#a-note-from-milla--ben--april-7-2026"
+                    - img [ref=e534]
+                - blockquote [ref=e536]:
+                  - paragraph [ref=e537]: The community caught real problems in this README within hours of launch and we want to address them directly.
+                  - paragraph [ref=e538]:
+                    - strong [ref=e539]: "What we got wrong:"
+                  - list [ref=e540]:
+                    - listitem [ref=e541]:
+                      - paragraph [ref=e542]:
+                        - strong [ref=e543]: The AAAK token example was incorrect.
+                        - text: We used a rough heuristic (
+                        - code [ref=e544]: len(text)//3
+                        - text: ") for token counts instead of an actual tokenizer. Real counts via OpenAI's tokenizer: the English example is 66 tokens, the AAAK example is 73. AAAK does not save tokens at small scales — it's designed for"
+                        - emphasis [ref=e545]: repeated entities at scale
+                        - text: ", and the README example was a bad demonstration of that. We're rewriting it."
+                    - listitem [ref=e546]:
+                      - paragraph [ref=e547]:
+                        - strong [ref=e548]: "\"30x lossless compression\" was overstated."
+                        - text: AAAK is a lossy abbreviation system (entity codes, sentence truncation). Independent benchmarks show AAAK mode scores
+                        - strong [ref=e549]: 84.2% R@5 vs raw mode's 96.6%
+                        - text: "on LongMemEval — a 12.4 point regression. The honest framing is: AAAK is an experimental compression layer that trades fidelity for token density, and"
+                        - strong [ref=e550]: the 96.6% headline number is from RAW mode, not AAAK
+                        - text: .
+                    - listitem [ref=e551]:
+                      - paragraph [ref=e552]:
+                        - strong [ref=e553]: "\"+34% palace boost\" was misleading."
+                        - text: That number compares unfiltered search to wing+room metadata filtering. Metadata filtering is a standard ChromaDB feature, not a novel retrieval mechanism. Real and useful, but not a moat.
+                    - listitem [ref=e554]:
+                      - paragraph [ref=e555]:
+                        - strong [ref=e556]: "\"Contradiction detection\""
+                        - text: exists as a separate utility (
+                        - code [ref=e557]: fact_checker.py
+                        - text: ) but is not currently wired into the knowledge graph operations as the README implied.
+                    - listitem [ref=e558]:
+                      - paragraph [ref=e559]:
+                        - strong [ref=e560]: "\"100% with Haiku rerank\""
+                        - text: is real (we have the result files) but the rerank pipeline is not in the public benchmark scripts. We're adding it.
+                  - paragraph [ref=e561]:
+                    - strong [ref=e562]: "What's still true and reproducible:"
+                  - list [ref=e563]:
+                    - listitem [ref=e564]:
+                      - strong [ref=e565]: 96.6% R@5 on LongMemEval in raw mode
+                      - text: ", on 500 questions, zero API calls — independently reproduced on M2 Ultra in under 5 minutes by"
+                      - link "@gizmax" [ref=e566] [cursor=pointer]:
+                        - /url: https://github.com/milla-jovovich/mempalace/issues/39
+                      - text: .
+                    - listitem [ref=e567]: Local, free, no subscription, no cloud, no data leaving your machine.
+                    - listitem [ref=e568]: The architecture (wings, rooms, closets, drawers) is real and useful, even if it's not a magical retrieval boost.
+                  - paragraph [ref=e569]:
+                    - strong [ref=e570]: "What we're doing:"
+                  - list [ref=e571]:
+                    - listitem [ref=e572]: Rewriting the AAAK example with real tokenizer counts and a scenario where AAAK actually demonstrates compression
+                    - listitem [ref=e573]:
+                      - text: Adding
+                      - code [ref=e574]: mode raw / aaak / rooms
+                      - text: clearly to the benchmark documentation so the trade-offs are visible
+                    - listitem [ref=e575]:
+                      - text: Wiring
+                      - code [ref=e576]: fact_checker.py
+                      - text: into the KG ops so the contradiction detection claim becomes true
+                    - listitem [ref=e577]: "Pinning ChromaDB to a tested range (Issue #100), fixing the shell injection in hooks (#110), and addressing the macOS ARM64 segfault (#74)"
+                  - paragraph [ref=e578]:
+                    - strong [ref=e579]: Thank you to everyone who poked holes in this.
+                    - text: Brutal honest criticism is exactly what makes open source work, and it's what we asked for. Special thanks to
+                    - link "@panuhorsmalahti" [ref=e580] [cursor=pointer]:
+                      - /url: https://github.com/milla-jovovich/mempalace/issues/43
+                    - text: ","
+                    - link "@lhl" [ref=e581] [cursor=pointer]:
+                      - /url: https://github.com/milla-jovovich/mempalace/issues/27
+                    - text: ","
+                    - link "@gizmax" [ref=e582] [cursor=pointer]:
+                      - /url: https://github.com/milla-jovovich/mempalace/issues/39
+                    - text: ", and everyone who filed an issue or a PR in the first 48 hours. We're listening, we're fixing, and we'd rather be right than impressive."
+                  - paragraph [ref=e583]:
+                    - text: —
+                    - emphasis [ref=e584]: Milla Jovovich & Ben Sigman
+                - separator [ref=e585]
+                - generic [ref=e586]:
+                  - heading "Quick Start" [level=2] [ref=e587]
+                  - 'link "Permalink: Quick Start" [ref=e588] [cursor=pointer]':
+                    - /url: "#quick-start"
+                    - img [ref=e589]
+                - generic [ref=e591]:
+                  - generic [ref=e592]:
+                    - text: pip install mempalace
+                    - generic [ref=e593]: "# Set up your world — who you work with, what your projects are"
+                    - text: mempalace init ~/projects/myapp
+                    - generic [ref=e594]: "# Mine your data"
+                    - text: mempalace mine ~/projects/myapp
+                    - generic [ref=e595]: "# projects — code, docs, notes"
+                    - text: mempalace mine ~/chats/ --mode convos
+                    - generic [ref=e596]: "# convos — Claude, ChatGPT, Slack exports"
+                    - text: mempalace mine ~/chats/ --mode convos --extract general
+                    - generic [ref=e597]: "# general — classifies into decisions, milestones, problems"
+                    - generic [ref=e598]: "# Search anything you've ever discussed"
+                    - text: mempalace search
+                    - generic [ref=e599]: "\"why did we switch to GraphQL\""
+                    - generic [ref=e600]: "# Your AI remembers"
+                    - text: mempalace status
+                  - button "Copy" [ref=e602] [cursor=pointer]:
+                    - img [ref=e603]
+                - paragraph [ref=e606]:
+                  - text: "Three mining modes:"
+                  - strong [ref=e607]: projects
+                  - text: (code and docs),
+                  - strong [ref=e608]: convos
+                  - text: (conversation exports), and
+                  - strong [ref=e609]: general
+                  - text: (auto-classifies into decisions, preferences, milestones, problems, and emotional context). Everything stays on your machine.
+                - separator [ref=e610]
+                - generic [ref=e611]:
+                  - heading "How You Actually Use It" [level=2] [ref=e612]
+                  - 'link "Permalink: How You Actually Use It" [ref=e613] [cursor=pointer]':
+                    - /url: "#how-you-actually-use-it"
+                    - img [ref=e614]
+                - paragraph [ref=e616]: After the one-time setup (install → init → mine), you don't run MemPalace commands manually. Your AI uses it for you. There are two ways, depending on which AI you use.
+                - generic [ref=e617]:
+                  - heading "With Claude, ChatGPT, Cursor, Gemini (MCP-compatible tools)" [level=3] [ref=e618]
+                  - 'link "Permalink: With Claude, ChatGPT, Cursor, Gemini (MCP-compatible tools)" [ref=e619] [cursor=pointer]':
+                    - /url: "#with-claude-chatgpt-cursor-gemini-mcp-compatible-tools"
+                    - img [ref=e620]
+                - generic [ref=e622]:
+                  - generic [ref=e623]:
+                    - generic [ref=e624]: "# Connect MemPalace once"
+                    - text: claude mcp add mempalace -- python -m mempalace.mcp_server
+                  - button "Copy" [ref=e626] [cursor=pointer]:
+                    - img [ref=e627]
+                - paragraph [ref=e630]: "Now your AI has 19 tools available through MCP. Ask it anything:"
+                - blockquote [ref=e631]:
+                  - paragraph [ref=e632]:
+                    - emphasis [ref=e633]: "\"What did we decide about auth last month?\""
+                - paragraph [ref=e634]:
+                  - text: Claude calls
+                  - code [ref=e635]: mempalace_search
+                  - text: automatically, gets verbatim results, and answers you. You never type
+                  - code [ref=e636]: mempalace search
+                  - text: again. The AI handles it.
+                - paragraph [ref=e637]:
+                  - text: MemPalace also works natively with
+                  - strong [ref=e638]: Gemini CLI
+                  - text: (which handles the server and save hooks automatically) — see the
+                  - link "Gemini CLI Integration Guide" [ref=e639] [cursor=pointer]:
+                    - /url: /milla-jovovich/mempalace/blob/main/examples/gemini_cli_setup.md
+                  - text: .
+                - generic [ref=e640]:
+                  - heading "With local models (Llama, Mistral, or any offline LLM)" [level=3] [ref=e641]
+                  - 'link "Permalink: With local models (Llama, Mistral, or any offline LLM)" [ref=e642] [cursor=pointer]':
+                    - /url: "#with-local-models-llama-mistral-or-any-offline-llm"
+                    - img [ref=e643]
+                - paragraph [ref=e645]: "Local models generally don't speak MCP yet. Two approaches:"
+                - paragraph [ref=e646]:
+                  - strong [ref=e647]: 1. Wake-up command
+                  - text: "— load your world into the model's context:"
+                - generic [ref=e648]:
+                  - generic [ref=e649]:
+                    - text: mempalace wake-up > context.txt
+                    - generic [ref=e650]: "# Paste context.txt into your local model's system prompt"
+                  - button "Copy" [ref=e652] [cursor=pointer]:
+                    - img [ref=e653]
+                - paragraph [ref=e656]: This gives your local model ~170 tokens of critical facts (in AAAK if you prefer) before you ask a single question.
+                - paragraph [ref=e657]:
+                  - strong [ref=e658]: 2. CLI search
+                  - text: "— query on demand, feed results into your prompt:"
+                - generic [ref=e659]:
+                  - generic [ref=e660]:
+                    - text: mempalace search
+                    - generic [ref=e661]: "\"auth decisions\""
+                    - text: "> results.txt"
+                    - generic [ref=e662]: "# Include results.txt in your prompt"
+                  - button "Copy" [ref=e664] [cursor=pointer]:
+                    - img [ref=e665]
+                - paragraph [ref=e668]: "Or use the Python API:"
+                - generic [ref=e669]:
+                  - generic [ref=e670]: "from mempalace.searcher import search_memories results = search_memories(\"auth decisions\", palace_path=\"~/.mempalace/palace\") # Inject into your local model's context"
+                  - button "Copy" [ref=e672] [cursor=pointer]:
+                    - img [ref=e673]
+                - paragraph [ref=e676]: Either way — your entire memory stack runs offline. ChromaDB on your machine, Llama on your machine, AAAK for compression, zero cloud calls.
+                - separator [ref=e677]
+                - generic [ref=e678]:
+                  - heading "The Problem" [level=2] [ref=e679]
+                  - 'link "Permalink: The Problem" [ref=e680] [cursor=pointer]':
+                    - /url: "#the-problem"
+                    - img [ref=e681]
+                - paragraph [ref=e683]: Decisions happen in conversations now. Not in docs. Not in Jira. In conversations with Claude, ChatGPT, Copilot. The reasoning, the tradeoffs, the "we tried X and it failed because Y" — all trapped in chat windows that evaporate when the session ends.
+                - paragraph [ref=e684]:
+                  - strong [ref=e685]: Six months of daily AI use = 19.5 million tokens.
+                  - text: That's every decision, every debugging session, every architecture debate. Gone.
+                - table [ref=e687]:
+                  - rowgroup [ref=e688]:
+                    - row "Approach Tokens loaded Annual cost" [ref=e689]:
+                      - columnheader "Approach" [ref=e690]
+                      - columnheader "Tokens loaded" [ref=e691]
+                      - columnheader "Annual cost" [ref=e692]
+                  - rowgroup [ref=e693]:
+                    - row "Paste everything 19.5M — doesn't fit any context window Impossible" [ref=e694]:
+                      - cell "Paste everything" [ref=e695]
+                      - cell "19.5M — doesn't fit any context window" [ref=e696]
+                      - cell "Impossible" [ref=e697]
+                    - row "LLM summaries ~650K ~$507/yr" [ref=e698]:
+                      - cell "LLM summaries" [ref=e699]
+                      - cell "~650K" [ref=e700]
+                      - cell "~$507/yr" [ref=e701]
+                    - row "MemPalace wake-up ~170 tokens ~$0.70/yr" [ref=e702]:
+                      - cell "MemPalace wake-up" [ref=e703]:
+                        - strong [ref=e704]: MemPalace wake-up
+                      - cell "~170 tokens" [ref=e705]:
+                        - strong [ref=e706]: ~170 tokens
+                      - cell "~$0.70/yr" [ref=e707]:
+                        - strong [ref=e708]: ~$0.70/yr
+                    - row "MemPalace + 5 searches ~13,500 tokens ~$10/yr" [ref=e709]:
+                      - cell "MemPalace + 5 searches" [ref=e710]:
+                        - strong [ref=e711]: MemPalace + 5 searches
+                      - cell "~13,500 tokens" [ref=e712]:
+                        - strong [ref=e713]: ~13,500 tokens
+                      - cell "~$10/yr" [ref=e714]:
+                        - strong [ref=e715]: ~$10/yr
+                - paragraph [ref=e716]: MemPalace loads 170 tokens of critical facts on wake-up — your team, your projects, your preferences. Then searches only when needed. $10/year to remember everything vs $507/year for summaries that lose context.
+                - separator [ref=e717]
+                - generic [ref=e718]:
+                  - heading "How It Works" [level=2] [ref=e719]
+                  - 'link "Permalink: How It Works" [ref=e720] [cursor=pointer]':
+                    - /url: "#how-it-works"
+                    - img [ref=e721]
+                - generic [ref=e723]:
+                  - heading "The Palace" [level=3] [ref=e724]
+                  - 'link "Permalink: The Palace" [ref=e725] [cursor=pointer]':
+                    - /url: "#the-palace"
+                    - img [ref=e726]
+                - paragraph [ref=e728]: The layout is fairly simple, though it took a long time to get there.
+                - paragraph [ref=e729]:
+                  - text: It starts with a
+                  - strong [ref=e730]: wing
+                  - text: . Every project, person, or topic you're filing gets its own wing in the palace.
+                - paragraph [ref=e731]:
+                  - text: Each wing has
+                  - strong [ref=e732]: rooms
+                  - text: connected to it, where information is divided into subjects that relate to that wing — so every room is a different element of what your project contains. Project ideas could be one room, employees could be another, financial statements another. There can be an endless number of rooms that split the wing into sections. The MemPalace install detects these for you automatically, and of course you can personalize it any way you feel is right.
+                - paragraph [ref=e733]:
+                  - text: Every room has a
+                  - strong [ref=e734]: closet
+                  - text: connected to it, and here's where things get interesting. We've developed an AI language called
+                  - strong [ref=e735]: AAAK
+                  - text: . Don't ask — it's a whole story of its own. Your agent learns the AAAK shorthand every time it wakes up. Because AAAK is essentially English, but a very truncated version, your agent understands how to use it in seconds. It comes as part of the install, built into the MemPalace code. In our next update, we'll add AAAK directly to the closets, which will be a real game changer — the amount of info in the closets will be much bigger, but it will take up far less space and far less reading time for your agent.
+                - paragraph [ref=e736]:
+                  - text: Inside those closets are
+                  - strong [ref=e737]: drawers
+                  - text: ", and those drawers are where your original files live. In this first version, we haven't used AAAK as a closet tool, but even so, the summaries have shown"
+                  - strong [ref=e738]: 96.6% recall
+                  - text: in all the benchmarks we've done across multiple benchmarking platforms. Once the closets use AAAK, searches will be even faster while keeping every word exact. But even now, the closet approach has been a huge boon to how much info is stored in a small space — it's used to easily point your AI agent to the drawer where your original file lives. You never lose anything, and all this happens in seconds.
+                - paragraph [ref=e739]:
+                  - text: There are also
+                  - strong [ref=e740]: halls
+                  - text: ", which connect rooms within a wing, and"
+                  - strong [ref=e741]: tunnels
+                  - text: ", which connect rooms from different wings to one another. So finding things becomes truly effortless — we've given the AI a clean and organized way to know where to start searching, without having to look through every keyword in huge folders."
+                - paragraph [ref=e742]:
+                  - text: You say what you're looking for and boom, it already knows which wing to go to. Just
+                  - emphasis [ref=e743]: that
+                  - text: in itself would have made a big difference. But this is beautiful, elegant, organic, and most importantly, efficient.
+                - generic [ref=e744]:
+                  - code [ref=e746]: "┌─────────────────────────────────────────────────────────────┐ │ WING: Person │ │ │ │ ┌──────────┐ ──hall── ┌──────────┐ │ │ │ Room A │ │ Room B │ │ │ └────┬─────┘ └──────────┘ │ │ │ │ │ ▼ │ │ ┌──────────┐ ┌──────────┐ │ │ │ Closet │ ───▶ │ Drawer │ │ │ └──────────┘ └──────────┘ │ └─────────┼──────────────────────────────────────────────────┘ │ tunnel │ ┌─────────┼──────────────────────────────────────────────────┐ │ WING: Project │ │ │ │ │ ┌────┴─────┐ ──hall── ┌──────────┐ │ │ │ Room A │ │ Room C │ │ │ └────┬─────┘ └──────────┘ │ │ │ │ │ ▼ │ │ ┌──────────┐ ┌──────────┐ │ │ │ Closet │ ───▶ │ Drawer │ │ │ └──────────┘ └──────────┘ │ └─────────────────────────────────────────────────────────────┘"
+                  - button "Copy" [ref=e748] [cursor=pointer]:
+                    - img [ref=e749]
+                - paragraph [ref=e752]:
+                  - strong [ref=e753]: Wings
+                  - text: — a person or project. As many as you need.
+                  - strong [ref=e754]: Rooms
+                  - text: — specific topics within a wing. Auth, billing, deploy — endless rooms.
+                  - strong [ref=e755]: Halls
+                  - text: — connections between related rooms
+                  - emphasis [ref=e756]: within
+                  - text: the same wing. If Room A (auth) and Room B (security) are related, a hall links them.
+                  - strong [ref=e757]: Tunnels
+                  - text: — connections
+                  - emphasis [ref=e758]: between
+                  - text: wings. When Person A and a Project both have a room about "auth," a tunnel cross-references them automatically.
+                  - strong [ref=e759]: Closets
+                  - text: — summaries that point to the original content. (In v3.0.0 these are plain-text summaries; AAAK-encoded closets are coming in a future update — see
+                  - 'link "Task #30" [ref=e760] [cursor=pointer]':
+                    - /url: https://github.com/milla-jovovich/mempalace/issues/30
+                  - text: .)
+                  - strong [ref=e761]: Drawers
+                  - text: — the original verbatim files. The exact words, never summarized.
+                - paragraph [ref=e762]:
+                  - strong [ref=e763]: Halls
+                  - text: "are memory types — the same in every wing, acting as corridors:"
+                - list [ref=e764]:
+                  - listitem [ref=e765]:
+                    - code [ref=e766]: hall_facts
+                    - text: — decisions made, choices locked in
+                  - listitem [ref=e767]:
+                    - code [ref=e768]: hall_events
+                    - text: — sessions, milestones, debugging
+                  - listitem [ref=e769]:
+                    - code [ref=e770]: hall_discoveries
+                    - text: — breakthroughs, new insights
+                  - listitem [ref=e771]:
+                    - code [ref=e772]: hall_preferences
+                    - text: — habits, likes, opinions
+                  - listitem [ref=e773]:
+                    - code [ref=e774]: hall_advice
+                    - text: — recommendations and solutions
+                - paragraph [ref=e775]:
+                  - strong [ref=e776]: Rooms
+                  - text: are named ideas —
+                  - code [ref=e777]: auth-migration
+                  - text: ","
+                  - code [ref=e778]: graphql-switch
+                  - text: ","
+                  - code [ref=e779]: ci-pipeline
+                  - text: . When the same room appears in different wings, it creates a
+                  - strong [ref=e780]: tunnel
+                  - text: "— connecting the same topic across domains:"
+                - generic [ref=e781]:
+                  - code [ref=e783]: wing_kai / hall_events / auth-migration → "Kai debugged the OAuth token refresh" wing_driftwood / hall_facts / auth-migration → "team decided to migrate auth to Clerk" wing_priya / hall_advice / auth-migration → "Priya approved Clerk over Auth0"
+                  - button "Copy" [ref=e785] [cursor=pointer]:
+                    - img [ref=e786]
+                - paragraph [ref=e789]: Same room. Three wings. The tunnel connects them.
+                - generic [ref=e790]:
+                  - heading "Why Structure Matters" [level=3] [ref=e791]
+                  - 'link "Permalink: Why Structure Matters" [ref=e792] [cursor=pointer]':
+                    - /url: "#why-structure-matters"
+                    - img [ref=e793]
+                - paragraph [ref=e795]: "Tested on 22,000+ real conversation memories:"
+                - generic [ref=e796]:
+                  - code [ref=e798]: "Search all closets: 60.9% R@10 Search within wing: 73.1% (+12%) Search wing + hall: 84.8% (+24%) Search wing + room: 94.8% (+34%)"
+                  - button "Copy" [ref=e800] [cursor=pointer]:
+                    - img [ref=e801]
+                - paragraph [ref=e804]:
+                  - text: Wings and rooms aren't cosmetic. They're a
+                  - strong [ref=e805]: 34% retrieval improvement
+                  - text: . The palace structure is the product.
+                - generic [ref=e806]:
+                  - heading "The Memory Stack" [level=3] [ref=e807]
+                  - 'link "Permalink: The Memory Stack" [ref=e808] [cursor=pointer]':
+                    - /url: "#the-memory-stack"
+                    - img [ref=e809]
+                - table [ref=e812]:
+                  - rowgroup [ref=e813]:
+                    - row "Layer What Size When" [ref=e814]:
+                      - columnheader "Layer" [ref=e815]
+                      - columnheader "What" [ref=e816]
+                      - columnheader "Size" [ref=e817]
+                      - columnheader "When" [ref=e818]
+                  - rowgroup [ref=e819]:
+                    - row "L0 Identity — who is this AI? ~50 tokens Always loaded" [ref=e820]:
+                      - cell "L0" [ref=e821]:
+                        - strong [ref=e822]: L0
+                      - cell "Identity — who is this AI?" [ref=e823]
+                      - cell "~50 tokens" [ref=e824]
+                      - cell "Always loaded" [ref=e825]
+                    - row "L1 Critical facts — team, projects, preferences ~120 tokens (AAAK) Always loaded" [ref=e826]:
+                      - cell "L1" [ref=e827]:
+                        - strong [ref=e828]: L1
+                      - cell "Critical facts — team, projects, preferences" [ref=e829]
+                      - cell "~120 tokens (AAAK)" [ref=e830]
+                      - cell "Always loaded" [ref=e831]
+                    - row "L2 Room recall — recent sessions, current project On demand When topic comes up" [ref=e832]:
+                      - cell "L2" [ref=e833]:
+                        - strong [ref=e834]: L2
+                      - cell "Room recall — recent sessions, current project" [ref=e835]
+                      - cell "On demand" [ref=e836]
+                      - cell "When topic comes up" [ref=e837]
+                    - row "L3 Deep search — semantic query across all closets On demand When explicitly asked" [ref=e838]:
+                      - cell "L3" [ref=e839]:
+                        - strong [ref=e840]: L3
+                      - cell "Deep search — semantic query across all closets" [ref=e841]
+                      - cell "On demand" [ref=e842]
+                      - cell "When explicitly asked" [ref=e843]
+                - paragraph [ref=e844]: Your AI wakes up with L0 + L1 (~170 tokens) and knows your world. Searches only fire when needed.
+                - generic [ref=e845]:
+                  - heading "AAAK Dialect (experimental)" [level=3] [ref=e846]
+                  - 'link "Permalink: AAAK Dialect (experimental)" [ref=e847] [cursor=pointer]':
+                    - /url: "#aaak-dialect-experimental"
+                    - img [ref=e848]
+                - paragraph [ref=e850]:
+                  - text: AAAK is a lossy abbreviation system — entity codes, structural markers, and sentence truncation — designed to pack repeated entities and relationships into fewer tokens at scale. It is
+                  - strong [ref=e851]: readable by any LLM that reads text
+                  - text: (Claude, GPT, Gemini, Llama, Mistral) without a decoder, so a local model can use it without any cloud dependency.
+                - paragraph [ref=e852]:
+                  - strong [ref=e853]: "Honest status (April 2026):"
+                - list [ref=e854]:
+                  - listitem [ref=e855]:
+                    - strong [ref=e856]: AAAK is lossy, not lossless.
+                    - text: It uses regex-based abbreviation, not reversible compression.
+                  - listitem [ref=e857]:
+                    - strong [ref=e858]: It does not save tokens at small scales.
+                    - text: Short text already tokenizes efficiently. AAAK overhead (codes, separators) costs more than it saves on a few sentences.
+                  - listitem [ref=e859]:
+                    - strong [ref=e860]: It can save tokens at scale
+                    - text: — in scenarios with many repeated entities (a team mentioned hundreds of times, the same project across thousands of sessions), the entity codes amortize.
+                  - listitem [ref=e861]:
+                    - strong [ref=e862]: AAAK currently regresses LongMemEval
+                    - text: vs raw verbatim retrieval (84.2% R@5 vs 96.6%). The 96.6% headline number is from
+                    - strong [ref=e863]: raw mode
+                    - text: ", not AAAK mode."
+                  - listitem [ref=e864]:
+                    - strong [ref=e865]: The MemPalace storage default is raw verbatim text in ChromaDB
+                    - text: — that's where the benchmark wins come from. AAAK is a separate compression layer for context loading, not the storage format.
+                - paragraph [ref=e866]:
+                  - text: We're iterating on the dialect spec, adding a real tokenizer for stats, and exploring better break points for when to use it. Track progress in
+                  - 'link "Issue #43" [ref=e867] [cursor=pointer]':
+                    - /url: https://github.com/milla-jovovich/mempalace/issues/43
+                  - text: and
+                  - link "#27" [ref=e868] [cursor=pointer]:
+                    - /url: https://github.com/milla-jovovich/mempalace/issues/27
+                  - text: .
+                - generic [ref=e869]:
+                  - heading "Contradiction Detection (experimental, not yet wired into KG)" [level=3] [ref=e870]
+                  - 'link "Permalink: Contradiction Detection (experimental, not yet wired into KG)" [ref=e871] [cursor=pointer]':
+                    - /url: "#contradiction-detection-experimental-not-yet-wired-into-kg"
+                    - img [ref=e872]
+                - paragraph [ref=e874]:
+                  - text: A separate utility (
+                  - code [ref=e875]: fact_checker.py
+                  - text: ) can check assertions against entity facts. It's not currently called automatically by the knowledge graph operations — this is being fixed (track in
+                  - 'link "Issue #27" [ref=e876] [cursor=pointer]':
+                    - /url: https://github.com/milla-jovovich/mempalace/issues/27
+                  - text: "). When enabled it catches things like:"
+                - generic [ref=e877]:
+                  - code [ref=e879]: "Input: \"Soren finished the auth migration\" Output: 🔴 AUTH-MIGRATION: attribution conflict — Maya was assigned, not Soren Input: \"Kai has been here 2 years\" Output: 🟡 KAI: wrong_tenure — records show 3 years (started 2023-04) Input: \"The sprint ends Friday\" Output: 🟡 SPRINT: stale_date — current sprint ends Thursday (updated 2 days ago)"
+                  - button "Copy" [ref=e881] [cursor=pointer]:
+                    - img [ref=e882]
+                - paragraph [ref=e885]: Facts checked against the knowledge graph. Ages, dates, and tenures calculated dynamically — not hardcoded.
+                - separator [ref=e886]
+                - generic [ref=e887]:
+                  - heading "Real-World Examples" [level=2] [ref=e888]
+                  - 'link "Permalink: Real-World Examples" [ref=e889] [cursor=pointer]':
+                    - /url: "#real-world-examples"
+                    - img [ref=e890]
+                - generic [ref=e892]:
+                  - heading "Solo developer across multiple projects" [level=3] [ref=e893]
+                  - 'link "Permalink: Solo developer across multiple projects" [ref=e894] [cursor=pointer]':
+                    - /url: "#solo-developer-across-multiple-projects"
+                    - img [ref=e895]
+                - generic [ref=e897]:
+                  - generic [ref=e898]:
+                    - generic [ref=e899]: "# Mine each project's conversations"
+                    - text: mempalace mine ~/chats/orion/ --mode convos --wing orion mempalace mine ~/chats/nova/ --mode convos --wing nova mempalace mine ~/chats/helios/ --mode convos --wing helios
+                    - generic [ref=e900]: "# Six months later: \"why did I use Postgres here?\""
+                    - text: mempalace search
+                    - generic [ref=e901]: "\"database decision\""
+                    - text: "--wing orion"
+                    - generic [ref=e902]: "# → \"Chose Postgres over SQLite because Orion needs concurrent writes"
+                    - generic [ref=e903]: "# and the dataset will exceed 10GB. Decided 2025-11-03.\""
+                    - generic [ref=e904]: "# Cross-project search"
+                    - text: mempalace search
+                    - generic [ref=e905]: "\"rate limiting approach\""
+                    - generic [ref=e906]: "# → finds your approach in Orion AND Nova, shows the differences"
+                  - button "Copy" [ref=e908] [cursor=pointer]:
+                    - img [ref=e909]
+                - generic [ref=e912]:
+                  - heading "Team lead managing a product" [level=3] [ref=e913]
+                  - 'link "Permalink: Team lead managing a product" [ref=e914] [cursor=pointer]':
+                    - /url: "#team-lead-managing-a-product"
+                    - img [ref=e915]
+                - generic [ref=e917]:
+                  - generic [ref=e918]:
+                    - generic [ref=e919]: "# Mine Slack exports and AI conversations"
+                    - text: mempalace mine ~/exports/slack/ --mode convos --wing driftwood mempalace mine ~/.claude/projects/ --mode convos
+                    - generic [ref=e920]: "# \"What did Soren work on last sprint?\""
+                    - text: mempalace search
+                    - generic [ref=e921]: "\"Soren sprint\""
+                    - text: "--wing driftwood"
+                    - generic [ref=e922]: "# → 14 closets: OAuth refactor, dark mode, component library migration"
+                    - generic [ref=e923]: "# \"Who decided to use Clerk?\""
+                    - text: mempalace search
+                    - generic [ref=e924]: "\"Clerk decision\""
+                    - text: "--wing driftwood"
+                    - generic [ref=e925]: "# → \"Kai recommended Clerk over Auth0 — pricing + developer experience."
+                    - generic [ref=e926]: "# Team agreed 2026-01-15. Maya handling the migration.\""
+                  - button "Copy" [ref=e928] [cursor=pointer]:
+                    - img [ref=e929]
+                - generic [ref=e932]:
+                  - 'heading "Before mining: split mega-files" [level=3] [ref=e933]'
+                  - 'link "Permalink: Before mining: split mega-files" [ref=e934] [cursor=pointer]':
+                    - /url: "#before-mining-split-mega-files"
+                    - img [ref=e935]
+                - paragraph [ref=e937]: "Some transcript exports concatenate multiple sessions into one huge file:"
+                - generic [ref=e938]:
+                  - generic [ref=e939]:
+                    - text: mempalace split ~/chats/
+                    - generic [ref=e940]: "# split into per-session files"
+                    - text: mempalace split ~/chats/ --dry-run
+                    - generic [ref=e941]: "# preview first"
+                    - text: mempalace split ~/chats/ --min-sessions 3
+                    - generic [ref=e942]: "# only split files with 3+ sessions"
+                  - button "Copy" [ref=e944] [cursor=pointer]:
+                    - img [ref=e945]
+                - separator [ref=e948]
+                - generic [ref=e949]:
+                  - heading "Knowledge Graph" [level=2] [ref=e950]
+                  - 'link "Permalink: Knowledge Graph" [ref=e951] [cursor=pointer]':
+                    - /url: "#knowledge-graph"
+                    - img [ref=e952]
+                - paragraph [ref=e954]: Temporal entity-relationship triples — like Zep's Graphiti, but SQLite instead of Neo4j. Local and free.
+                - generic [ref=e955]:
+                  - generic [ref=e956]: "from mempalace.knowledge_graph import KnowledgeGraph kg = KnowledgeGraph() kg.add_triple(\"Kai\", \"works_on\", \"Orion\", valid_from=\"2025-06-01\") kg.add_triple(\"Maya\", \"assigned_to\", \"auth-migration\", valid_from=\"2026-01-15\") kg.add_triple(\"Maya\", \"completed\", \"auth-migration\", valid_from=\"2026-02-01\") # What's Kai working on? kg.query_entity(\"Kai\") # → [Kai → works_on → Orion (current), Kai → recommended → Clerk (2026-01)] # What was true in January? kg.query_entity(\"Maya\", as_of=\"2026-01-20\") # → [Maya → assigned_to → auth-migration (active)] # Timeline kg.timeline(\"Orion\") # → chronological story of the project"
+                  - button "Copy" [ref=e958] [cursor=pointer]:
+                    - img [ref=e959]
+                - paragraph [ref=e962]: "Facts have validity windows. When something stops being true, invalidate it:"
+                - generic [ref=e963]:
+                  - generic [ref=e964]: kg.invalidate("Kai", "works_on", "Orion", ended="2026-03-01")
+                  - button "Copy" [ref=e966] [cursor=pointer]:
+                    - img [ref=e967]
+                - paragraph [ref=e970]: Now queries for Kai's current work won't return Orion. Historical queries still will.
+                - table [ref=e972]:
+                  - rowgroup [ref=e973]:
+                    - row "Feature MemPalace Zep (Graphiti)" [ref=e974]:
+                      - columnheader "Feature" [ref=e975]
+                      - columnheader "MemPalace" [ref=e976]
+                      - columnheader "Zep (Graphiti)" [ref=e977]
+                  - rowgroup [ref=e978]:
+                    - row "Storage SQLite (local) Neo4j (cloud)" [ref=e979]:
+                      - cell "Storage" [ref=e980]
+                      - cell "SQLite (local)" [ref=e981]
+                      - cell "Neo4j (cloud)" [ref=e982]
+                    - row "Cost Free $25/mo+" [ref=e983]:
+                      - cell "Cost" [ref=e984]
+                      - cell "Free" [ref=e985]
+                      - cell "$25/mo+" [ref=e986]
+                    - row "Temporal validity Yes Yes" [ref=e987]:
+                      - cell "Temporal validity" [ref=e988]
+                      - cell "Yes" [ref=e989]
+                      - cell "Yes" [ref=e990]
+                    - row "Self-hosted Always Enterprise only" [ref=e991]:
+                      - cell "Self-hosted" [ref=e992]
+                      - cell "Always" [ref=e993]
+                      - cell "Enterprise only" [ref=e994]
+                    - row "Privacy Everything local SOC 2, HIPAA" [ref=e995]:
+                      - cell "Privacy" [ref=e996]
+                      - cell "Everything local" [ref=e997]
+                      - cell "SOC 2, HIPAA" [ref=e998]
+                - separator [ref=e999]
+                - generic [ref=e1000]:
+                  - heading "Specialist Agents" [level=2] [ref=e1001]
+                  - 'link "Permalink: Specialist Agents" [ref=e1002] [cursor=pointer]':
+                    - /url: "#specialist-agents"
+                    - img [ref=e1003]
+                - paragraph [ref=e1005]: Create agents that focus on specific areas. Each agent gets its own wing and diary in the palace — not in your CLAUDE.md. Add 50 agents, your config stays the same size.
+                - generic [ref=e1006]:
+                  - code [ref=e1008]: "~/.mempalace/agents/ ├── reviewer.json # code quality, patterns, bugs ├── architect.json # design decisions, tradeoffs └── ops.json # deploys, incidents, infra"
+                  - button "Copy" [ref=e1010] [cursor=pointer]:
+                    - img [ref=e1011]
+                - paragraph [ref=e1014]: "Your CLAUDE.md just needs one line:"
+                - generic [ref=e1015]:
+                  - code [ref=e1017]: You have MemPalace agents. Run mempalace_list_agents to see them.
+                  - button "Copy" [ref=e1019] [cursor=pointer]:
+                    - img [ref=e1020]
+                - paragraph [ref=e1023]: "The AI discovers its agents from the palace at runtime. Each agent:"
+                - list [ref=e1024]:
+                  - listitem [ref=e1025]:
+                    - strong [ref=e1026]: Has a focus
+                    - text: — what it pays attention to
+                  - listitem [ref=e1027]:
+                    - strong [ref=e1028]: Keeps a diary
+                    - text: — written in AAAK, persists across sessions
+                  - listitem [ref=e1029]:
+                    - strong [ref=e1030]: Builds expertise
+                    - text: — reads its own history to stay sharp in its domain
+                - generic [ref=e1031]:
+                  - code [ref=e1033]: "# Agent writes to its diary after a code review mempalace_diary_write(\"reviewer\", \"PR#42|auth.bypass.found|missing.middleware.check|pattern:3rd.time.this.quarter|★★★★\") # Agent reads back its history mempalace_diary_read(\"reviewer\", last_n=10) # → last 10 findings, compressed in AAAK"
+                  - button "Copy" [ref=e1035] [cursor=pointer]:
+                    - img [ref=e1036]
+                - paragraph [ref=e1039]: Each agent is a specialist lens on your data. The reviewer remembers every bug pattern it's seen. The architect remembers every design decision. The ops agent remembers every incident. They don't share a scratchpad — they each maintain their own memory.
+                - paragraph [ref=e1040]: Letta charges $20–200/mo for agent-managed memory. MemPalace does it with a wing.
+                - separator [ref=e1041]
+                - generic [ref=e1042]:
+                  - heading "MCP Server" [level=2] [ref=e1043]
+                  - 'link "Permalink: MCP Server" [ref=e1044] [cursor=pointer]':
+                    - /url: "#mcp-server"
+                    - img [ref=e1045]
+                - generic [ref=e1047]:
+                  - generic [ref=e1048]: claude mcp add mempalace -- python -m mempalace.mcp_server
+                  - button "Copy" [ref=e1050] [cursor=pointer]:
+                    - img [ref=e1051]
+                - generic [ref=e1054]:
+                  - heading "19 Tools" [level=3] [ref=e1055]
+                  - 'link "Permalink: 19 Tools" [ref=e1056] [cursor=pointer]':
+                    - /url: "#19-tools"
+                    - img [ref=e1057]
+                - paragraph [ref=e1059]:
+                  - strong [ref=e1060]: Palace (read)
+                - table [ref=e1062]:
+                  - rowgroup [ref=e1063]:
+                    - row "Tool What" [ref=e1064]:
+                      - columnheader "Tool" [ref=e1065]
+                      - columnheader "What" [ref=e1066]
+                  - rowgroup [ref=e1067]:
+                    - row "mempalace_status Palace overview + AAAK spec + memory protocol" [ref=e1068]:
+                      - cell "mempalace_status" [ref=e1069]:
+                        - code [ref=e1070]: mempalace_status
+                      - cell "Palace overview + AAAK spec + memory protocol" [ref=e1071]
+                    - row "mempalace_list_wings Wings with counts" [ref=e1072]:
+                      - cell "mempalace_list_wings" [ref=e1073]:
+                        - code [ref=e1074]: mempalace_list_wings
+                      - cell "Wings with counts" [ref=e1075]
+                    - row "mempalace_list_rooms Rooms within a wing" [ref=e1076]:
+                      - cell "mempalace_list_rooms" [ref=e1077]:
+                        - code [ref=e1078]: mempalace_list_rooms
+                      - cell "Rooms within a wing" [ref=e1079]
+                    - row "mempalace_get_taxonomy Full wing → room → count tree" [ref=e1080]:
+                      - cell "mempalace_get_taxonomy" [ref=e1081]:
+                        - code [ref=e1082]: mempalace_get_taxonomy
+                      - cell "Full wing → room → count tree" [ref=e1083]
+                    - row "mempalace_search Semantic search with wing/room filters" [ref=e1084]:
+                      - cell "mempalace_search" [ref=e1085]:
+                        - code [ref=e1086]: mempalace_search
+                      - cell "Semantic search with wing/room filters" [ref=e1087]
+                    - row "mempalace_check_duplicate Check before filing" [ref=e1088]:
+                      - cell "mempalace_check_duplicate" [ref=e1089]:
+                        - code [ref=e1090]: mempalace_check_duplicate
+                      - cell "Check before filing" [ref=e1091]
+                    - row "mempalace_get_aaak_spec AAAK dialect reference" [ref=e1092]:
+                      - cell "mempalace_get_aaak_spec" [ref=e1093]:
+                        - code [ref=e1094]: mempalace_get_aaak_spec
+                      - cell "AAAK dialect reference" [ref=e1095]
+                - paragraph [ref=e1096]:
+                  - strong [ref=e1097]: Palace (write)
+                - table [ref=e1099]:
+                  - rowgroup [ref=e1100]:
+                    - row "Tool What" [ref=e1101]:
+                      - columnheader "Tool" [ref=e1102]
+                      - columnheader "What" [ref=e1103]
+                  - rowgroup [ref=e1104]:
+                    - row "mempalace_add_drawer File verbatim content" [ref=e1105]:
+                      - cell "mempalace_add_drawer" [ref=e1106]:
+                        - code [ref=e1107]: mempalace_add_drawer
+                      - cell "File verbatim content" [ref=e1108]
+                    - row "mempalace_delete_drawer Remove by ID" [ref=e1109]:
+                      - cell "mempalace_delete_drawer" [ref=e1110]:
+                        - code [ref=e1111]: mempalace_delete_drawer
+                      - cell "Remove by ID" [ref=e1112]
+                - paragraph [ref=e1113]:
+                  - strong [ref=e1114]: Knowledge Graph
+                - table [ref=e1116]:
+                  - rowgroup [ref=e1117]:
+                    - row "Tool What" [ref=e1118]:
+                      - columnheader "Tool" [ref=e1119]
+                      - columnheader "What" [ref=e1120]
+                  - rowgroup [ref=e1121]:
+                    - row "mempalace_kg_query Entity relationships with time filtering" [ref=e1122]:
+                      - cell "mempalace_kg_query" [ref=e1123]:
+                        - code [ref=e1124]: mempalace_kg_query
+                      - cell "Entity relationships with time filtering" [ref=e1125]
+                    - row "mempalace_kg_add Add facts" [ref=e1126]:
+                      - cell "mempalace_kg_add" [ref=e1127]:
+                        - code [ref=e1128]: mempalace_kg_add
+                      - cell "Add facts" [ref=e1129]
+                    - row "mempalace_kg_invalidate Mark facts as ended" [ref=e1130]:
+                      - cell "mempalace_kg_invalidate" [ref=e1131]:
+                        - code [ref=e1132]: mempalace_kg_invalidate
+                      - cell "Mark facts as ended" [ref=e1133]
+                    - row "mempalace_kg_timeline Chronological entity story" [ref=e1134]:
+                      - cell "mempalace_kg_timeline" [ref=e1135]:
+                        - code [ref=e1136]: mempalace_kg_timeline
+                      - cell "Chronological entity story" [ref=e1137]
+                    - row "mempalace_kg_stats Graph overview" [ref=e1138]:
+                      - cell "mempalace_kg_stats" [ref=e1139]:
+                        - code [ref=e1140]: mempalace_kg_stats
+                      - cell "Graph overview" [ref=e1141]
+                - paragraph [ref=e1142]:
+                  - strong [ref=e1143]: Navigation
+                - table [ref=e1145]:
+                  - rowgroup [ref=e1146]:
+                    - row "Tool What" [ref=e1147]:
+                      - columnheader "Tool" [ref=e1148]
+                      - columnheader "What" [ref=e1149]
+                  - rowgroup [ref=e1150]:
+                    - row "mempalace_traverse Walk the graph from a room across wings" [ref=e1151]:
+                      - cell "mempalace_traverse" [ref=e1152]:
+                        - code [ref=e1153]: mempalace_traverse
+                      - cell "Walk the graph from a room across wings" [ref=e1154]
+                    - row "mempalace_find_tunnels Find rooms bridging two wings" [ref=e1155]:
+                      - cell "mempalace_find_tunnels" [ref=e1156]:
+                        - code [ref=e1157]: mempalace_find_tunnels
+                      - cell "Find rooms bridging two wings" [ref=e1158]
+                    - row "mempalace_graph_stats Graph connectivity overview" [ref=e1159]:
+                      - cell "mempalace_graph_stats" [ref=e1160]:
+                        - code [ref=e1161]: mempalace_graph_stats
+                      - cell "Graph connectivity overview" [ref=e1162]
+                - paragraph [ref=e1163]:
+                  - strong [ref=e1164]: Agent Diary
+                - table [ref=e1166]:
+                  - rowgroup [ref=e1167]:
+                    - row "Tool What" [ref=e1168]:
+                      - columnheader "Tool" [ref=e1169]
+                      - columnheader "What" [ref=e1170]
+                  - rowgroup [ref=e1171]:
+                    - row "mempalace_diary_write Write AAAK diary entry" [ref=e1172]:
+                      - cell "mempalace_diary_write" [ref=e1173]:
+                        - code [ref=e1174]: mempalace_diary_write
+                      - cell "Write AAAK diary entry" [ref=e1175]
+                    - row "mempalace_diary_read Read recent diary entries" [ref=e1176]:
+                      - cell "mempalace_diary_read" [ref=e1177]:
+                        - code [ref=e1178]: mempalace_diary_read
+                      - cell "Read recent diary entries" [ref=e1179]
+                - paragraph [ref=e1180]:
+                  - text: The AI learns AAAK and the memory protocol automatically from the
+                  - code [ref=e1181]: mempalace_status
+                  - text: response. No manual configuration.
+                - separator [ref=e1182]
+                - generic [ref=e1183]:
+                  - heading "Auto-Save Hooks" [level=2] [ref=e1184]
+                  - 'link "Permalink: Auto-Save Hooks" [ref=e1185] [cursor=pointer]':
+                    - /url: "#auto-save-hooks"
+                    - img [ref=e1186]
+                - paragraph [ref=e1188]: "Two hooks for Claude Code that automatically save memories during work:"
+                - paragraph [ref=e1189]:
+                  - strong [ref=e1190]: Save Hook
+                  - text: — every 15 messages, triggers a structured save. Topics, decisions, quotes, code changes. Also regenerates the critical facts layer.
+                - paragraph [ref=e1191]:
+                  - strong [ref=e1192]: PreCompact Hook
+                  - text: — fires before context compression. Emergency save before the window shrinks.
+                - generic [ref=e1193]:
+                  - generic [ref=e1194]:
+                    - text: "{ \"hooks\": { \"Stop\": [{\"matcher\":"
+                    - generic [ref=e1195]: "\"\""
+                    - text: ", \"hooks\": [{\"type\":"
+                    - generic [ref=e1196]: "\"command\""
+                    - text: ", \"command\":"
+                    - generic [ref=e1197]: "\"/path/to/mempalace/hooks/mempal_save_hook.sh\""
+                    - text: "}]}], \"PreCompact\": [{\"matcher\":"
+                    - generic [ref=e1198]: "\"\""
+                    - text: ", \"hooks\": [{\"type\":"
+                    - generic [ref=e1199]: "\"command\""
+                    - text: ", \"command\":"
+                    - generic [ref=e1200]: "\"/path/to/mempalace/hooks/mempal_precompact_hook.sh\""
+                    - text: "}]}] } }"
+                  - button "Copy" [ref=e1202] [cursor=pointer]:
+                    - img [ref=e1203]
+                - separator [ref=e1206]
+                - generic [ref=e1207]:
+                  - heading "Benchmarks" [level=2] [ref=e1208]
+                  - 'link "Permalink: Benchmarks" [ref=e1209] [cursor=pointer]':
+                    - /url: "#benchmarks"
+                    - img [ref=e1210]
+                - paragraph [ref=e1212]: Tested on standard academic benchmarks — reproducible, published datasets.
+                - table [ref=e1214]:
+                  - rowgroup [ref=e1215]:
+                    - row "Benchmark Mode Score API Calls" [ref=e1216]:
+                      - columnheader "Benchmark" [ref=e1217]
+                      - columnheader "Mode" [ref=e1218]
+                      - columnheader "Score" [ref=e1219]
+                      - columnheader "API Calls" [ref=e1220]
+                  - rowgroup [ref=e1221]:
+                    - row "LongMemEval R@5 Raw (ChromaDB only) 96.6% Zero" [ref=e1222]:
+                      - cell "LongMemEval R@5" [ref=e1223]:
+                        - strong [ref=e1224]: LongMemEval R@5
+                      - cell "Raw (ChromaDB only)" [ref=e1225]
+                      - cell "96.6%" [ref=e1226]:
+                        - strong [ref=e1227]: 96.6%
+                      - cell "Zero" [ref=e1228]
+                    - row "LongMemEval R@5 Hybrid + Haiku rerank 100% (500/500) ~500" [ref=e1229]:
+                      - cell "LongMemEval R@5" [ref=e1230]:
+                        - strong [ref=e1231]: LongMemEval R@5
+                      - cell "Hybrid + Haiku rerank" [ref=e1232]
+                      - cell "100% (500/500)" [ref=e1233]:
+                        - strong [ref=e1234]: 100%
+                        - text: (500/500)
+                      - cell "~500" [ref=e1235]
+                    - row "LoCoMo R@10 Raw, session level 60.3% Zero" [ref=e1236]:
+                      - cell "LoCoMo R@10" [ref=e1237]:
+                        - strong [ref=e1238]: LoCoMo R@10
+                      - cell "Raw, session level" [ref=e1239]
+                      - cell "60.3%" [ref=e1240]:
+                        - strong [ref=e1241]: 60.3%
+                      - cell "Zero" [ref=e1242]
+                    - row "Personal palace R@10 Heuristic bench 85% Zero" [ref=e1243]:
+                      - cell "Personal palace R@10" [ref=e1244]:
+                        - strong [ref=e1245]: Personal palace R@10
+                      - cell "Heuristic bench" [ref=e1246]
+                      - cell "85%" [ref=e1247]:
+                        - strong [ref=e1248]: 85%
+                      - cell "Zero" [ref=e1249]
+                    - row "Palace structure impact Wing+room filtering +34% R@10 Zero" [ref=e1250]:
+                      - cell "Palace structure impact" [ref=e1251]:
+                        - strong [ref=e1252]: Palace structure impact
+                      - cell "Wing+room filtering" [ref=e1253]
+                      - cell "+34% R@10" [ref=e1254]:
+                        - strong [ref=e1255]: +34%
+                        - text: R@10
+                      - cell "Zero" [ref=e1256]
+                - paragraph [ref=e1257]: The 96.6% raw score is the highest published LongMemEval result requiring no API key, no cloud, and no LLM at any stage.
+                - generic [ref=e1258]:
+                  - heading "vs Published Systems" [level=3] [ref=e1259]
+                  - 'link "Permalink: vs Published Systems" [ref=e1260] [cursor=pointer]':
+                    - /url: "#vs-published-systems"
+                    - img [ref=e1261]
+                - table [ref=e1264]:
+                  - rowgroup [ref=e1265]:
+                    - row "System LongMemEval R@5 API Required Cost" [ref=e1266]:
+                      - columnheader "System" [ref=e1267]
+                      - columnheader "LongMemEval R@5" [ref=e1268]
+                      - columnheader "API Required" [ref=e1269]
+                      - columnheader "Cost" [ref=e1270]
+                  - rowgroup [ref=e1271]:
+                    - row "MemPalace (hybrid) 100% Optional Free" [ref=e1272]:
+                      - cell "MemPalace (hybrid)" [ref=e1273]:
+                        - strong [ref=e1274]: MemPalace (hybrid)
+                      - cell "100%" [ref=e1275]:
+                        - strong [ref=e1276]: 100%
+                      - cell "Optional" [ref=e1277]
+                      - cell "Free" [ref=e1278]
+                    - row "Supermemory ASMR ~99% Yes —" [ref=e1279]:
+                      - cell "Supermemory ASMR" [ref=e1280]
+                      - cell "~99%" [ref=e1281]
+                      - cell "Yes" [ref=e1282]
+                      - cell "—" [ref=e1283]
+                    - row "MemPalace (raw) 96.6% None Free" [ref=e1284]:
+                      - cell "MemPalace (raw)" [ref=e1285]:
+                        - strong [ref=e1286]: MemPalace (raw)
+                      - cell "96.6%" [ref=e1287]:
+                        - strong [ref=e1288]: 96.6%
+                      - cell "None" [ref=e1289]:
+                        - strong [ref=e1290]: None
+                      - cell "Free" [ref=e1291]:
+                        - strong [ref=e1292]: Free
+                    - row "Mastra 94.87% Yes (GPT) API costs" [ref=e1293]:
+                      - cell "Mastra" [ref=e1294]
+                      - cell "94.87%" [ref=e1295]
+                      - cell "Yes (GPT)" [ref=e1296]
+                      - cell "API costs" [ref=e1297]
+                    - row "Mem0 ~85% Yes $19–249/mo" [ref=e1298]:
+                      - cell "Mem0" [ref=e1299]
+                      - cell "~85%" [ref=e1300]
+                      - cell "Yes" [ref=e1301]
+                      - cell "$19–249/mo" [ref=e1302]
+                    - row "Zep ~85% Yes $25/mo+" [ref=e1303]:
+                      - cell "Zep" [ref=e1304]
+                      - cell "~85%" [ref=e1305]
+                      - cell "Yes" [ref=e1306]
+                      - cell "$25/mo+" [ref=e1307]
+                - separator [ref=e1308]
+                - generic [ref=e1309]:
+                  - heading "All Commands" [level=2] [ref=e1310]
+                  - 'link "Permalink: All Commands" [ref=e1311] [cursor=pointer]':
+                    - /url: "#all-commands"
+                    - img [ref=e1312]
+                - generic [ref=e1314]:
+                  - generic [ref=e1315]:
+                    - generic [ref=e1316]: "# Setup"
+                    - text: mempalace init <dir>
+                    - generic [ref=e1317]: "# guided onboarding + AAAK bootstrap"
+                    - generic [ref=e1318]: "# Mining"
+                    - text: mempalace mine <dir>
+                    - generic [ref=e1319]: "# mine project files"
+                    - text: mempalace mine <dir> --mode convos
+                    - generic [ref=e1320]: "# mine conversation exports"
+                    - text: mempalace mine <dir> --mode convos --wing myapp
+                    - generic [ref=e1321]: "# tag with a wing name"
+                    - generic [ref=e1322]: "# Splitting"
+                    - text: mempalace split <dir>
+                    - generic [ref=e1323]: "# split concatenated transcripts"
+                    - text: mempalace split <dir> --dry-run
+                    - generic [ref=e1324]: "# preview"
+                    - generic [ref=e1325]: "# Search"
+                    - text: mempalace search
+                    - generic [ref=e1326]: "\"query\""
+                    - generic [ref=e1327]: "# search everything"
+                    - text: mempalace search
+                    - generic [ref=e1328]: "\"query\""
+                    - text: "--wing myapp"
+                    - generic [ref=e1329]: "# within a wing"
+                    - text: mempalace search
+                    - generic [ref=e1330]: "\"query\""
+                    - text: "--room auth-migration"
+                    - generic [ref=e1331]: "# within a room"
+                    - generic [ref=e1332]: "# Memory stack"
+                    - text: mempalace wake-up
+                    - generic [ref=e1333]: "# load L0 + L1 context"
+                    - text: mempalace wake-up --wing driftwood
+                    - generic [ref=e1334]: "# project-specific"
+                    - generic [ref=e1335]: "# Compression"
+                    - text: mempalace compress --wing myapp
+                    - generic [ref=e1336]: "# AAAK compress"
+                    - generic [ref=e1337]: "# Status"
+                    - text: mempalace status
+                    - generic [ref=e1338]: "# palace overview"
+                  - button "Copy" [ref=e1340] [cursor=pointer]:
+                    - img [ref=e1341]
+                - paragraph [ref=e1344]:
+                  - text: All commands accept
+                  - code [ref=e1345]: "--palace <path>"
+                  - text: to override the default location.
+                - separator [ref=e1346]
+                - generic [ref=e1347]:
+                  - heading "Configuration" [level=2] [ref=e1348]
+                  - 'link "Permalink: Configuration" [ref=e1349] [cursor=pointer]':
+                    - /url: "#configuration"
+                    - img [ref=e1350]
+                - generic [ref=e1352]:
+                  - heading "Global (~/.mempalace/config.json)" [level=3] [ref=e1353]:
+                    - text: Global (
+                    - code [ref=e1354]: ~/.mempalace/config.json
+                    - text: )
+                  - 'link "Permalink: Global (~/.mempalace/config.json)" [ref=e1355] [cursor=pointer]':
+                    - /url: "#global-mempalaceconfigjson"
+                    - img [ref=e1356]
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]:
+                    - text: "{ \"palace_path\":"
+                    - generic [ref=e1360]: "\"/custom/path/to/palace\""
+                    - text: ", \"collection_name\":"
+                    - generic [ref=e1361]: "\"mempalace_drawers\""
+                    - text: ", \"people_map\": {\"Kai\":"
+                    - generic [ref=e1362]: "\"KAI\""
+                    - text: ", \"Priya\":"
+                    - generic [ref=e1363]: "\"PRI\""
+                    - text: "} }"
+                  - button "Copy" [ref=e1365] [cursor=pointer]:
+                    - img [ref=e1366]
+                - generic [ref=e1369]:
+                  - heading "Wing config (~/.mempalace/wing_config.json)" [level=3] [ref=e1370]:
+                    - text: Wing config (
+                    - code [ref=e1371]: ~/.mempalace/wing_config.json
+                    - text: )
+                  - 'link "Permalink: Wing config (~/.mempalace/wing_config.json)" [ref=e1372] [cursor=pointer]':
+                    - /url: "#wing-config-mempalacewing_configjson"
+                    - img [ref=e1373]
+                - paragraph [ref=e1375]:
+                  - text: Generated by
+                  - code [ref=e1376]: mempalace init
+                  - text: ". Maps your people and projects to wings:"
+                - generic [ref=e1377]:
+                  - generic [ref=e1378]:
+                    - text: "{ \"default_wing\":"
+                    - generic [ref=e1379]: "\"wing_general\""
+                    - text: ", \"wings\": { \"wing_kai\": {\"type\":"
+                    - generic [ref=e1380]: "\"person\""
+                    - text: ", \"keywords\": ["
+                    - generic [ref=e1381]: "\"kai\""
+                    - text: ","
+                    - generic [ref=e1382]: "\"kai's\""
+                    - text: "]}, \"wing_driftwood\": {\"type\":"
+                    - generic [ref=e1383]: "\"project\""
+                    - text: ", \"keywords\": ["
+                    - generic [ref=e1384]: "\"driftwood\""
+                    - text: ","
+                    - generic [ref=e1385]: "\"analytics\""
+                    - text: ","
+                    - generic [ref=e1386]: "\"saas\""
+                    - text: "]} } }"
+                  - button "Copy" [ref=e1388] [cursor=pointer]:
+                    - img [ref=e1389]
+                - generic [ref=e1392]:
+                  - heading "Identity (~/.mempalace/identity.txt)" [level=3] [ref=e1393]:
+                    - text: Identity (
+                    - code [ref=e1394]: ~/.mempalace/identity.txt
+                    - text: )
+                  - 'link "Permalink: Identity (~/.mempalace/identity.txt)" [ref=e1395] [cursor=pointer]':
+                    - /url: "#identity-mempalaceidentitytxt"
+                    - img [ref=e1396]
+                - paragraph [ref=e1398]: Plain text. Becomes Layer 0 — loaded every session.
+                - separator [ref=e1399]
+                - generic [ref=e1400]:
+                  - heading "File Reference" [level=2] [ref=e1401]
+                  - 'link "Permalink: File Reference" [ref=e1402] [cursor=pointer]':
+                    - /url: "#file-reference"
+                    - img [ref=e1403]
+                - table [ref=e1406]:
+                  - rowgroup [ref=e1407]:
+                    - row "File What" [ref=e1408]:
+                      - columnheader "File" [ref=e1409]
+                      - columnheader "What" [ref=e1410]
+                  - rowgroup [ref=e1411]:
+                    - row "cli.py CLI entry point" [ref=e1412]:
+                      - cell "cli.py" [ref=e1413]:
+                        - code [ref=e1414]: cli.py
+                      - cell "CLI entry point" [ref=e1415]
+                    - row "config.py Configuration loading and defaults" [ref=e1416]:
+                      - cell "config.py" [ref=e1417]:
+                        - code [ref=e1418]: config.py
+                      - cell "Configuration loading and defaults" [ref=e1419]
+                    - row "normalize.py Converts 5 chat formats to standard transcript" [ref=e1420]:
+                      - cell "normalize.py" [ref=e1421]:
+                        - code [ref=e1422]: normalize.py
+                      - cell "Converts 5 chat formats to standard transcript" [ref=e1423]
+                    - row "mcp_server.py MCP server — 19 tools, AAAK auto-teach, memory protocol" [ref=e1424]:
+                      - cell "mcp_server.py" [ref=e1425]:
+                        - code [ref=e1426]: mcp_server.py
+                      - cell "MCP server — 19 tools, AAAK auto-teach, memory protocol" [ref=e1427]
+                    - row "miner.py Project file ingest" [ref=e1428]:
+                      - cell "miner.py" [ref=e1429]:
+                        - code [ref=e1430]: miner.py
+                      - cell "Project file ingest" [ref=e1431]
+                    - row "convo_miner.py Conversation ingest — chunks by exchange pair" [ref=e1432]:
+                      - cell "convo_miner.py" [ref=e1433]:
+                        - code [ref=e1434]: convo_miner.py
+                      - cell "Conversation ingest — chunks by exchange pair" [ref=e1435]
+                    - row "searcher.py Semantic search via ChromaDB" [ref=e1436]:
+                      - cell "searcher.py" [ref=e1437]:
+                        - code [ref=e1438]: searcher.py
+                      - cell "Semantic search via ChromaDB" [ref=e1439]
+                    - row "layers.py 4-layer memory stack" [ref=e1440]:
+                      - cell "layers.py" [ref=e1441]:
+                        - code [ref=e1442]: layers.py
+                      - cell "4-layer memory stack" [ref=e1443]
+                    - row "dialect.py AAAK compression — 30x lossless" [ref=e1444]:
+                      - cell "dialect.py" [ref=e1445]:
+                        - code [ref=e1446]: dialect.py
+                      - cell "AAAK compression — 30x lossless" [ref=e1447]
+                    - row "knowledge_graph.py Temporal entity-relationship graph (SQLite)" [ref=e1448]:
+                      - cell "knowledge_graph.py" [ref=e1449]:
+                        - code [ref=e1450]: knowledge_graph.py
+                      - cell "Temporal entity-relationship graph (SQLite)" [ref=e1451]
+                    - row "palace_graph.py Room-based navigation graph" [ref=e1452]:
+                      - cell "palace_graph.py" [ref=e1453]:
+                        - code [ref=e1454]: palace_graph.py
+                      - cell "Room-based navigation graph" [ref=e1455]
+                    - row "onboarding.py Guided setup — generates AAAK bootstrap + wing config" [ref=e1456]:
+                      - cell "onboarding.py" [ref=e1457]:
+                        - code [ref=e1458]: onboarding.py
+                      - cell "Guided setup — generates AAAK bootstrap + wing config" [ref=e1459]
+                    - row "entity_registry.py Entity code registry" [ref=e1460]:
+                      - cell "entity_registry.py" [ref=e1461]:
+                        - code [ref=e1462]: entity_registry.py
+                      - cell "Entity code registry" [ref=e1463]
+                    - row "entity_detector.py Auto-detect people and projects from content" [ref=e1464]:
+                      - cell "entity_detector.py" [ref=e1465]:
+                        - code [ref=e1466]: entity_detector.py
+                      - cell "Auto-detect people and projects from content" [ref=e1467]
+                    - row "split_mega_files.py Split concatenated transcripts into per-session files" [ref=e1468]:
+                      - cell "split_mega_files.py" [ref=e1469]:
+                        - code [ref=e1470]: split_mega_files.py
+                      - cell "Split concatenated transcripts into per-session files" [ref=e1471]
+                    - row "hooks/mempal_save_hook.sh Auto-save every N messages" [ref=e1472]:
+                      - cell "hooks/mempal_save_hook.sh" [ref=e1473]:
+                        - code [ref=e1474]: hooks/mempal_save_hook.sh
+                      - cell "Auto-save every N messages" [ref=e1475]
+                    - row "hooks/mempal_precompact_hook.sh Emergency save before compaction" [ref=e1476]:
+                      - cell "hooks/mempal_precompact_hook.sh" [ref=e1477]:
+                        - code [ref=e1478]: hooks/mempal_precompact_hook.sh
+                      - cell "Emergency save before compaction" [ref=e1479]
+                - separator [ref=e1480]
+                - generic [ref=e1481]:
+                  - heading "Project Structure" [level=2] [ref=e1482]
+                  - 'link "Permalink: Project Structure" [ref=e1483] [cursor=pointer]':
+                    - /url: "#project-structure"
+                    - img [ref=e1484]
+                - generic [ref=e1486]:
+                  - code [ref=e1488]: mempalace/ ├── README.md ← you are here ├── mempalace/ ← core package (README) │ ├── cli.py ← CLI entry point │ ├── mcp_server.py ← MCP server (19 tools) │ ├── knowledge_graph.py ← temporal entity graph │ ├── palace_graph.py ← room navigation graph │ ├── dialect.py ← AAAK compression │ ├── miner.py ← project file ingest │ ├── convo_miner.py ← conversation ingest │ ├── searcher.py ← semantic search │ ├── onboarding.py ← guided setup │ └── ... ← see mempalace/README.md ├── benchmarks/ ← reproducible benchmark runners │ ├── README.md ← reproduction guide │ ├── BENCHMARKS.md ← full results + methodology │ ├── longmemeval_bench.py ← LongMemEval runner │ ├── locomo_bench.py ← LoCoMo runner │ └── membench_bench.py ← MemBench runner ├── hooks/ ← Claude Code auto-save hooks │ ├── README.md ← hook setup guide │ ├── mempal_save_hook.sh ← save every N messages │ └── mempal_precompact_hook.sh ← emergency save ├── examples/ ← usage examples │ ├── basic_mining.py │ ├── convo_import.py │ └── mcp_setup.md ├── tests/ ← test suite (README) ├── assets/ ← logo + brand assets └── pyproject.toml ← package config (v3.0.0)
+                  - button "Copy" [ref=e1490] [cursor=pointer]:
+                    - img [ref=e1491]
+                - separator [ref=e1494]
+                - generic [ref=e1495]:
+                  - heading "Requirements" [level=2] [ref=e1496]
+                  - 'link "Permalink: Requirements" [ref=e1497] [cursor=pointer]':
+                    - /url: "#requirements"
+                    - img [ref=e1498]
+                - list [ref=e1500]:
+                  - listitem [ref=e1501]: Python 3.9+
+                  - listitem [ref=e1502]:
+                    - code [ref=e1503]: chromadb>=0.4.0
+                  - listitem [ref=e1504]:
+                    - code [ref=e1505]: pyyaml>=6.0
+                - paragraph [ref=e1506]: No API key. No internet after install. Everything local.
+                - generic [ref=e1507]:
+                  - generic [ref=e1508]: pip install mempalace
+                  - button "Copy" [ref=e1510] [cursor=pointer]:
+                    - img [ref=e1511]
+                - separator [ref=e1514]
+                - generic [ref=e1515]:
+                  - heading "Contributing" [level=2] [ref=e1516]
+                  - 'link "Permalink: Contributing" [ref=e1517] [cursor=pointer]':
+                    - /url: "#contributing"
+                    - img [ref=e1518]
+                - paragraph [ref=e1520]:
+                  - text: PRs welcome. See
+                  - link "CONTRIBUTING.md" [ref=e1521] [cursor=pointer]:
+                    - /url: /milla-jovovich/mempalace/blob/main/CONTRIBUTING.md
+                  - text: for setup and guidelines.
+                - generic [ref=e1522]:
+                  - heading "License" [level=2] [ref=e1523]
+                  - 'link "Permalink: License" [ref=e1524] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e1525]
+                - paragraph [ref=e1527]:
+                  - text: MIT — see
+                  - link "LICENSE" [ref=e1528] [cursor=pointer]:
+                    - /url: /milla-jovovich/mempalace/blob/main/LICENSE
+                  - text: .
+        - generic [ref=e1532]:
+          - generic [ref=e1535]:
+            - heading "About" [level=2] [ref=e1536]
+            - paragraph [ref=e1537]: The highest-scoring AI memory system ever benchmarked. And it's free.
+            - heading "Topics" [level=3] [ref=e1538]
+            - generic [ref=e1540]:
+              - link "python" [ref=e1541] [cursor=pointer]:
+                - /url: /topics/python
+              - link "ai" [ref=e1542] [cursor=pointer]:
+                - /url: /topics/ai
+              - link "memory" [ref=e1543] [cursor=pointer]:
+                - /url: /topics/memory
+              - link "mcp" [ref=e1544] [cursor=pointer]:
+                - /url: /topics/mcp
+              - link "llm" [ref=e1545] [cursor=pointer]:
+                - /url: /topics/llm
+              - link "chromadb" [ref=e1546] [cursor=pointer]:
+                - /url: /topics/chromadb
+            - heading "Resources" [level=3] [ref=e1547]
+            - link "Readme" [ref=e1549] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1550]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1552]
+            - link "MIT license" [ref=e1554] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e1555]
+              - text: MIT license
+            - heading "Contributing" [level=3] [ref=e1557]
+            - link "Contributing" [ref=e1559] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1560]
+              - text: Contributing
+            - link "Activity" [ref=e1563] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/activity
+              - img [ref=e1564]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e1566]
+            - link "20.6k stars" [ref=e1568] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/stargazers
+              - img [ref=e1569]
+              - strong [ref=e1571]: 20.6k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1572]
+            - link "161 watching" [ref=e1574] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/watchers
+              - img [ref=e1575]
+              - strong [ref=e1577]: "161"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1578]
+            - link "2.4k forks" [ref=e1580] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/forks
+              - img [ref=e1581]
+              - strong [ref=e1583]: 2.4k
+              - text: forks
+            - link "Report repository" [ref=e1585] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fmilla-jovovich%2Fmempalace&report=milla-jovovich+%28user%29
+          - generic [ref=e1587]:
+            - heading "Releases 1" [level=2] [ref=e1588]:
+              - link "Releases 1" [ref=e1589] [cursor=pointer]:
+                - /url: /milla-jovovich/mempalace/releases
+                - text: Releases
+                - generic "1" [ref=e1590]
+            - link "MemPalace v3.0.0 Latest Apr 6, 2026yesterday" [ref=e1591] [cursor=pointer]:
+              - /url: /milla-jovovich/mempalace/releases/tag/v3.0.0
+              - img [ref=e1592]
+              - generic [ref=e1594]:
+                - generic [ref=e1595]:
+                  - generic [ref=e1596]: MemPalace v3.0.0
+                  - 'generic "Label: Latest" [ref=e1597]': Latest
+                - generic [ref=e1598]: Apr 6, 2026yesterday
+          - generic [ref=e1600]:
+            - heading "Packages" [level=2] [ref=e1601]:
+              - link "Packages" [ref=e1602] [cursor=pointer]:
+                - /url: /users/milla-jovovich/packages?repo_name=mempalace
+            - generic [ref=e1603]: No packages published
+          - generic [ref=e1605]:
+            - heading "Contributors 11" [level=2] [ref=e1606]:
+              - link "Contributors 11" [ref=e1607] [cursor=pointer]:
+                - /url: /milla-jovovich/mempalace/graphs/contributors
+                - text: Contributors
+                - generic "11" [ref=e1608]
+            - list [ref=e1609]:
+              - listitem [ref=e1610]:
+                - link "@bensig" [ref=e1611] [cursor=pointer]:
+                  - /url: https://github.com/bensig
+                  - img "@bensig" [ref=e1612]
+              - listitem [ref=e1613]:
+                - link "@igorls" [ref=e1614] [cursor=pointer]:
+                  - /url: https://github.com/igorls
+                  - img "@igorls" [ref=e1615]
+              - listitem [ref=e1616]:
+                - link "@milla-jovovich" [ref=e1617] [cursor=pointer]:
+                  - /url: https://github.com/milla-jovovich
+                  - img "@milla-jovovich" [ref=e1618]
+              - listitem [ref=e1619]:
+                - link "@adv3nt3" [ref=e1620] [cursor=pointer]:
+                  - /url: https://github.com/adv3nt3
+                  - img "@adv3nt3" [ref=e1621]
+              - listitem [ref=e1622]:
+                - link "@sheetsync" [ref=e1623] [cursor=pointer]:
+                  - /url: https://github.com/sheetsync
+                  - img "@sheetsync" [ref=e1624]
+              - listitem [ref=e1625]:
+                - link "@claude" [ref=e1626] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e1627]
+              - listitem [ref=e1628]:
+                - link "@ac-opensource" [ref=e1629] [cursor=pointer]:
+                  - /url: https://github.com/ac-opensource
+                  - img "@ac-opensource" [ref=e1630]
+              - listitem [ref=e1631]:
+                - link "@JayadityaGit" [ref=e1632] [cursor=pointer]:
+                  - /url: https://github.com/JayadityaGit
+                  - img "@JayadityaGit" [ref=e1633]
+              - listitem [ref=e1634]:
+                - link "@renatoliveira" [ref=e1635] [cursor=pointer]:
+                  - /url: https://github.com/renatoliveira
+                  - img "@renatoliveira" [ref=e1636]
+              - listitem [ref=e1637]:
+                - link "@salmanmkc" [ref=e1638] [cursor=pointer]:
+                  - /url: https://github.com/salmanmkc
+                  - img "@salmanmkc" [ref=e1639]
+              - listitem [ref=e1640]:
+                - link "@oussamalembarki" [ref=e1641] [cursor=pointer]:
+                  - /url: https://github.com/oussamalembarki
+                  - img "@oussamalembarki" [ref=e1642]
+          - generic [ref=e1644]:
+            - heading "Languages" [level=2] [ref=e1645]
+            - list [ref=e1650]:
+              - listitem [ref=e1651]:
+                - link "Python 98.4%" [ref=e1652] [cursor=pointer]:
+                  - /url: /milla-jovovich/mempalace/search?l=python
+                  - img [ref=e1653]
+                  - generic [ref=e1655]: Python
+                  - generic [ref=e1656]: 98.4%
+              - listitem [ref=e1657]:
+                - link "Shell 1.6%" [ref=e1658] [cursor=pointer]:
+                  - /url: /milla-jovovich/mempalace/search?l=shell
+                  - img [ref=e1659]
+                  - generic [ref=e1661]: Shell
+                  - generic [ref=e1662]: 1.6%
+  - contentinfo [ref=e1664]:
+    - heading "Footer" [level=2] [ref=e1665]
+    - generic [ref=e1666]:
+      - generic [ref=e1667]:
+        - link "GitHub Homepage" [ref=e1668] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1669]
+        - generic [ref=e1671]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1672]:
+        - heading "Footer navigation" [level=3] [ref=e1673]
+        - list "Footer navigation" [ref=e1674]:
+          - listitem [ref=e1675]:
+            - link "Terms" [ref=e1676] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1677]:
+            - link "Privacy" [ref=e1678] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1679]:
+            - link "Security" [ref=e1680] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1681]:
+            - link "Status" [ref=e1682] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1683]:
+            - link "Community" [ref=e1684] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1685]:
+            - link "Docs" [ref=e1686] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1687]:
+            - link "Contact" [ref=e1688] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1689]:
+            - button "Manage cookies" [ref=e1691] [cursor=pointer]
+          - listitem [ref=e1692]:
+            - button "Do not share my personal information" [ref=e1694] [cursor=pointer]

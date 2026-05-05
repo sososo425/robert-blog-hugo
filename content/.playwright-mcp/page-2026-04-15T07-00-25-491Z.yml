@@ -1,0 +1,954 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Docs" [ref=e36] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e37]
+              - text: Docs
+          - listitem [ref=e41]:
+            - link "Pricing" [ref=e42] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e43]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - listitem [ref=e51]:
+            - separator [ref=e52]
+          - listitem [ref=e53]:
+            - link "Log In" [ref=e54] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e55]:
+            - link "Sign Up" [ref=e56] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e57]:
+    - generic [ref=e59]:
+      - generic [ref=e61]:
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - button "Main" [ref=e64] [cursor=pointer]
+          - listitem [ref=e65]:
+            - button "Tasks 1" [ref=e66] [cursor=pointer]:
+              - text: Tasks
+              - generic [ref=e67]: "1"
+          - listitem [ref=e68]:
+            - button "Libraries" [ref=e69] [cursor=pointer]
+          - listitem [ref=e70]:
+            - button "Languages" [ref=e71] [cursor=pointer]
+          - listitem [ref=e72]:
+            - button "Licenses" [ref=e73] [cursor=pointer]
+          - listitem [ref=e74]:
+            - button "Other" [ref=e75] [cursor=pointer]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - img
+              - textbox "Filter Tasks by name" [ref=e79]
+            - button "Reset Tasks" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+              - text: Reset Tasks
+          - generic [ref=e83]:
+            - generic [ref=e84]: Multimodal
+            - generic [ref=e85]:
+              - link "Audio-Text-to-Text" [ref=e86] [cursor=pointer]:
+                - /url: /models?pipeline_tag=audio-text-to-text
+                - generic [ref=e87]:
+                  - img [ref=e89]
+                  - generic [ref=e91]: Audio-Text-to-Text
+              - link "Image-Text-to-Text" [ref=e92] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-text-to-text
+                - generic [ref=e93]:
+                  - img [ref=e95]
+                  - generic [ref=e99]: Image-Text-to-Text
+              - link "Image-Text-to-Image" [ref=e100] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-text-to-image
+                - generic [ref=e101]:
+                  - img [ref=e103]
+                  - generic [ref=e105]: Image-Text-to-Image
+              - link "Image-Text-to-Video" [ref=e106] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-text-to-video
+                - generic [ref=e107]:
+                  - img [ref=e109]
+                  - generic [ref=e111]: Image-Text-to-Video
+              - link "Visual Question Answering" [ref=e112] [cursor=pointer]:
+                - /url: /models?pipeline_tag=visual-question-answering
+                - generic [ref=e113]:
+                  - img [ref=e115]
+                  - generic [ref=e118]: Visual Question Answering
+              - link "Document Question Answering" [ref=e119] [cursor=pointer]:
+                - /url: /models?pipeline_tag=document-question-answering
+                - generic [ref=e120]:
+                  - img [ref=e122]
+                  - generic [ref=e125]: Document Question Answering
+              - link "Video-Text-to-Text" [ref=e126] [cursor=pointer]:
+                - /url: /models?pipeline_tag=video-text-to-text
+                - generic [ref=e127]:
+                  - img [ref=e129]
+                  - generic [ref=e132]: Video-Text-to-Text
+              - link "Visual Document Retrieval" [ref=e133] [cursor=pointer]:
+                - /url: /models?pipeline_tag=visual-document-retrieval
+                - generic [ref=e134]:
+                  - img [ref=e136]
+                  - generic [ref=e140]: Visual Document Retrieval
+              - link "Any-to-Any" [ref=e141] [cursor=pointer]:
+                - /url: /models?pipeline_tag=any-to-any
+                - generic [ref=e142]:
+                  - img [ref=e144]
+                  - generic [ref=e146]: Any-to-Any
+          - generic [ref=e147]:
+            - generic [ref=e148]: Computer Vision
+            - generic [ref=e149]:
+              - link "Depth Estimation" [ref=e150] [cursor=pointer]:
+                - /url: /models?pipeline_tag=depth-estimation
+                - generic [ref=e151]:
+                  - img [ref=e153]
+                  - generic [ref=e155]: Depth Estimation
+              - link "Image Classification" [ref=e156] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-classification
+                - generic [ref=e157]:
+                  - img [ref=e159]
+                  - generic [ref=e163]: Image Classification
+              - link "Object Detection" [ref=e164] [cursor=pointer]:
+                - /url: /models?pipeline_tag=object-detection
+                - generic [ref=e165]:
+                  - img [ref=e167]
+                  - generic [ref=e171]: Object Detection
+              - link "Image Segmentation" [ref=e172] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-segmentation
+                - generic [ref=e173]:
+                  - img [ref=e175]
+                  - generic [ref=e178]: Image Segmentation
+              - link "Text-to-Image" [ref=e179] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-image
+                - generic [ref=e180]:
+                  - img [ref=e182]
+                  - generic [ref=e186]: Text-to-Image
+              - link "Image-to-Text" [ref=e187] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-to-text
+                - generic [ref=e188]:
+                  - img [ref=e190]
+                  - generic [ref=e194]: Image-to-Text
+              - link "Image-to-Image" [ref=e195] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-to-image
+                - generic [ref=e196]:
+                  - img [ref=e198]
+                  - generic [ref=e201]: Image-to-Image
+              - link "Image-to-Video" [ref=e202] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-to-video
+                - generic [ref=e203]:
+                  - img [ref=e205]
+                  - generic [ref=e207]: Image-to-Video
+              - link "Unconditional Image Generation" [ref=e208] [cursor=pointer]:
+                - /url: /models?pipeline_tag=unconditional-image-generation
+                - generic [ref=e209]:
+                  - img [ref=e211]
+                  - generic [ref=e214]: Unconditional Image Generation
+              - link "Video Classification" [ref=e215] [cursor=pointer]:
+                - /url: /models?pipeline_tag=video-classification
+                - generic [ref=e216]:
+                  - img [ref=e218]
+                  - generic [ref=e220]: Video Classification
+              - link "Text-to-Video" [ref=e221] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-video
+                - generic [ref=e222]:
+                  - img [ref=e224]
+                  - generic [ref=e226]: Text-to-Video
+              - link "Zero-Shot Image Classification" [ref=e227] [cursor=pointer]:
+                - /url: /models?pipeline_tag=zero-shot-image-classification
+                - generic [ref=e228]:
+                  - img [ref=e230]
+                  - generic [ref=e234]: Zero-Shot Image Classification
+              - link "Mask Generation" [ref=e235] [cursor=pointer]:
+                - /url: /models?pipeline_tag=mask-generation
+                - generic [ref=e236]:
+                  - img [ref=e238]
+                  - generic [ref=e240]: Mask Generation
+              - link "Zero-Shot Object Detection" [ref=e241] [cursor=pointer]:
+                - /url: /models?pipeline_tag=zero-shot-object-detection
+                - generic [ref=e242]:
+                  - img [ref=e244]
+                  - generic [ref=e247]: Zero-Shot Object Detection
+              - link "Text-to-3D" [ref=e248] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-3d
+                - generic [ref=e249]:
+                  - img [ref=e251]
+                  - generic [ref=e254]: Text-to-3D
+              - link "Image-to-3D" [ref=e255] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-to-3d
+                - generic [ref=e256]:
+                  - img [ref=e258]
+                  - generic [ref=e264]: Image-to-3D
+              - link "Image Feature Extraction" [ref=e265] [cursor=pointer]:
+                - /url: /models?pipeline_tag=image-feature-extraction
+                - generic [ref=e266]:
+                  - img [ref=e268]
+                  - generic [ref=e270]: Image Feature Extraction
+              - link "Keypoint Detection" [ref=e271] [cursor=pointer]:
+                - /url: /models?pipeline_tag=keypoint-detection
+                - generic [ref=e272]:
+                  - img [ref=e274]
+                  - generic [ref=e276]: Keypoint Detection
+              - link "Video-to-Video" [ref=e277] [cursor=pointer]:
+                - /url: /models?pipeline_tag=video-to-video
+                - generic [ref=e278]:
+                  - img [ref=e280]
+                  - generic [ref=e282]: Video-to-Video
+          - generic [ref=e283]:
+            - generic [ref=e284]: Natural Language Processing
+            - generic [ref=e285]:
+              - link "Text Classification" [ref=e286] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-classification
+                - generic [ref=e287]:
+                  - img [ref=e289]
+                  - generic [ref=e304]: Text Classification
+              - link "Token Classification" [ref=e305] [cursor=pointer]:
+                - /url: /models?pipeline_tag=token-classification
+                - generic [ref=e306]:
+                  - img [ref=e308]
+                  - generic [ref=e316]: Token Classification
+              - link "Table Question Answering" [ref=e317] [cursor=pointer]:
+                - /url: /models?pipeline_tag=table-question-answering
+                - generic [ref=e318]:
+                  - img [ref=e320]
+                  - generic [ref=e322]: Table Question Answering
+              - link "Question Answering" [ref=e323] [cursor=pointer]:
+                - /url: /models?pipeline_tag=question-answering
+                - generic [ref=e324]:
+                  - img [ref=e326]
+                  - generic [ref=e331]: Question Answering
+              - link "Zero-Shot Classification" [ref=e332] [cursor=pointer]:
+                - /url: /models?pipeline_tag=zero-shot-classification
+                - generic [ref=e333]:
+                  - img [ref=e335]
+                  - generic [ref=e347]: Zero-Shot Classification
+              - link "Translation" [ref=e348] [cursor=pointer]:
+                - /url: /models?pipeline_tag=translation
+                - generic [ref=e349]:
+                  - img [ref=e351]
+                  - generic [ref=e354]: Translation
+              - link "Summarization" [ref=e355] [cursor=pointer]:
+                - /url: /models?pipeline_tag=summarization
+                - generic [ref=e356]:
+                  - img [ref=e358]
+                  - generic [ref=e361]: Summarization
+              - link "Feature Extraction" [ref=e362] [cursor=pointer]:
+                - /url: /models?pipeline_tag=feature-extraction
+                - generic [ref=e363]:
+                  - img [ref=e365]
+                  - generic [ref=e367]: Feature Extraction
+              - link "Text Generation" [ref=e368] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-generation
+                - generic [ref=e369]:
+                  - img [ref=e371]
+                  - generic [ref=e375]: Text Generation
+              - link "Fill-Mask" [ref=e376] [cursor=pointer]:
+                - /url: /models?pipeline_tag=fill-mask
+                - generic [ref=e377]:
+                  - img [ref=e379]
+                  - generic [ref=e383]: Fill-Mask
+              - link "Sentence Similarity" [ref=e384] [cursor=pointer]:
+                - /url: /models?pipeline_tag=sentence-similarity
+                - generic [ref=e385]:
+                  - img [ref=e387]
+                  - generic [ref=e393]: Sentence Similarity
+              - link "Text Ranking" [ref=e394] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-ranking
+                - generic [ref=e395]:
+                  - img [ref=e397]
+                  - generic [ref=e402]: Text Ranking
+          - generic [ref=e403]:
+            - generic [ref=e404]: Audio
+            - generic [ref=e405]:
+              - link "Text-to-Speech" [ref=e406] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-speech
+                - generic [ref=e407]:
+                  - img [ref=e409]
+                  - generic [ref=e411]: Text-to-Speech
+              - link "Text-to-Audio" [ref=e412] [cursor=pointer]:
+                - /url: /models?pipeline_tag=text-to-audio
+                - generic [ref=e413]:
+                  - img [ref=e415]
+                  - generic [ref=e417]: Text-to-Audio
+              - link "Automatic Speech Recognition" [ref=e418] [cursor=pointer]:
+                - /url: /models?pipeline_tag=automatic-speech-recognition
+                - generic [ref=e419]:
+                  - img [ref=e421]
+                  - generic [ref=e423]: Automatic Speech Recognition
+              - link "Audio-to-Audio" [ref=e424] [cursor=pointer]:
+                - /url: /models?pipeline_tag=audio-to-audio
+                - generic [ref=e425]:
+                  - img [ref=e427]
+                  - generic [ref=e429]: Audio-to-Audio
+              - link "Audio Classification" [ref=e430] [cursor=pointer]:
+                - /url: /models?pipeline_tag=audio-classification
+                - generic [ref=e431]:
+                  - img [ref=e433]
+                  - generic [ref=e435]: Audio Classification
+              - link "Voice Activity Detection" [ref=e436] [cursor=pointer]:
+                - /url: /models?pipeline_tag=voice-activity-detection
+                - generic [ref=e437]:
+                  - img [ref=e439]
+                  - generic [ref=e441]: Voice Activity Detection
+          - generic [ref=e442]:
+            - generic [ref=e443]: Tabular
+            - generic [ref=e444]:
+              - link "Tabular Classification" [ref=e445] [cursor=pointer]:
+                - /url: /models?pipeline_tag=tabular-classification
+                - generic [ref=e446]:
+                  - img [ref=e448]
+                  - generic [ref=e450]: Tabular Classification
+              - link "Tabular Regression" [ref=e451] [cursor=pointer]:
+                - /url: /models?pipeline_tag=tabular-regression
+                - generic [ref=e452]:
+                  - img [ref=e454]
+                  - generic [ref=e456]: Tabular Regression
+              - link "Time Series Forecasting" [ref=e457] [cursor=pointer]:
+                - /url: /models?pipeline_tag=time-series-forecasting
+                - generic [ref=e458]:
+                  - img [ref=e460]
+                  - generic [ref=e462]: Time Series Forecasting
+          - generic [ref=e463]:
+            - generic [ref=e464]: Reinforcement Learning
+            - generic [ref=e465]:
+              - link "Reinforcement Learning" [ref=e466] [cursor=pointer]:
+                - /url: /models?pipeline_tag=reinforcement-learning
+                - generic [ref=e467]:
+                  - img [ref=e469]
+                  - generic [ref=e472]: Reinforcement Learning
+              - link "Robotics" [ref=e473] [cursor=pointer]:
+                - /url: /models?pipeline_tag=robotics
+                - generic [ref=e474]:
+                  - img [ref=e476]
+                  - generic [ref=e478]: Robotics
+          - generic [ref=e479]:
+            - generic [ref=e480]: Other
+            - link "Graph Machine Learning" [ref=e482] [cursor=pointer]:
+              - /url: /models?pipeline_tag=graph-ml
+              - generic [ref=e483]:
+                - img [ref=e485]
+                - generic [ref=e487]: Graph Machine Learning
+      - generic [ref=e488]:
+        - generic [ref=e489]:
+          - generic [ref=e490]:
+            - heading "Models" [level=1] [ref=e491]
+            - generic [ref=e493]: "28"
+          - generic [ref=e495]:
+            - img [ref=e496]
+            - searchbox "Filter by name" [ref=e500]: multilingual
+          - button "Inference Available" [ref=e504] [cursor=pointer]:
+            - img [ref=e505]
+            - text: Inference Available
+          - 'button "Sort: Most downloads" [ref=e510] [cursor=pointer]':
+            - img [ref=e511]
+            - text: "Sort: Most downloads"
+        - generic [ref=e515]:
+          - article [ref=e516]:
+            - link "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7 Zero-Shot Classification • 0.3B • Updated Apr 11, 2024 • 283k • • 357" [ref=e517] [cursor=pointer]:
+              - /url: /MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+              - generic [ref=e518]:
+                - generic "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [ref=e519]:
+                  - heading "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [level=4] [ref=e521]
+                - generic [ref=e522]:
+                  - img [ref=e523]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e535]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e536]':
+                    - img [ref=e537]
+                    - text: 0.3B
+                  - generic [ref=e539]: •
+                  - generic [ref=e540]:
+                    - text: Updated
+                    - time [ref=e541]: Apr 11, 2024
+                  - generic [ref=e542]: •
+                  - img [ref=e543]
+                  - text: 283k
+                  - generic [ref=e545]: •
+                  - generic "Inference Providers available" [ref=e546]:
+                    - img [ref=e547]
+                  - generic [ref=e549]: •
+                  - img [ref=e550]
+                  - text: "357"
+          - article [ref=e552]:
+            - link "MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli Zero-Shot Classification • 0.1B • Updated Apr 22, 2024 • 6.38k • • 47" [ref=e553] [cursor=pointer]:
+              - /url: /MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli
+              - generic [ref=e554]:
+                - generic "MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli" [ref=e555]:
+                  - heading "MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli" [level=4] [ref=e557]
+                - generic [ref=e558]:
+                  - img [ref=e559]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e571]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e572]':
+                    - img [ref=e573]
+                    - text: 0.1B
+                  - generic [ref=e575]: •
+                  - generic [ref=e576]:
+                    - text: Updated
+                    - time [ref=e577]: Apr 22, 2024
+                  - generic [ref=e578]: •
+                  - img [ref=e579]
+                  - text: 6.38k
+                  - generic [ref=e581]: •
+                  - generic "Inference Providers available" [ref=e582]:
+                    - img [ref=e583]
+                  - generic [ref=e585]: •
+                  - img [ref=e586]
+                  - text: "47"
+          - article [ref=e588]:
+            - link "Xenova/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7 Zero-Shot Classification • Updated Jul 11, 2025 • 4.42k • 2" [ref=e589] [cursor=pointer]:
+              - /url: /Xenova/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+              - generic [ref=e590]:
+                - generic "Xenova/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [ref=e591]:
+                  - heading "Xenova/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7" [level=4] [ref=e593]
+                - generic [ref=e594]:
+                  - img [ref=e595]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e607]: •
+                  - generic [ref=e608]:
+                    - text: Updated
+                    - time [ref=e609]: Jul 11, 2025
+                  - generic [ref=e610]: •
+                  - img [ref=e611]
+                  - text: 4.42k
+                  - generic [ref=e613]: •
+                  - img [ref=e614]
+                  - text: "2"
+          - article [ref=e616]:
+            - link "mjwong/multilingual-e5-large-xnli Zero-Shot Classification • 0.6B • Updated Jul 7, 2024 • 220 • 6" [ref=e617] [cursor=pointer]:
+              - /url: /mjwong/multilingual-e5-large-xnli
+              - generic [ref=e618]:
+                - generic "mjwong/multilingual-e5-large-xnli" [ref=e619]:
+                  - heading "mjwong/multilingual-e5-large-xnli" [level=4] [ref=e621]
+                - generic [ref=e622]:
+                  - img [ref=e623]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e635]: •
+                  - 'generic "Number of parameters in the model: 0.6B" [ref=e636]':
+                    - img [ref=e637]
+                    - text: 0.6B
+                  - generic [ref=e639]: •
+                  - generic [ref=e640]:
+                    - text: Updated
+                    - time [ref=e641]: Jul 7, 2024
+                  - generic [ref=e642]: •
+                  - img [ref=e643]
+                  - text: "220"
+                  - generic [ref=e645]: •
+                  - img [ref=e646]
+                  - text: "6"
+          - article [ref=e648]:
+            - link "knowledgator/comprehend_it-multilingual-t5-base Zero-Shot Classification • Updated Jan 27, 2024 • 126 • 27" [ref=e649] [cursor=pointer]:
+              - /url: /knowledgator/comprehend_it-multilingual-t5-base
+              - generic [ref=e650]:
+                - generic "knowledgator/comprehend_it-multilingual-t5-base" [ref=e651]:
+                  - heading "knowledgator/comprehend_it-multilingual-t5-base" [level=4] [ref=e653]
+                - generic [ref=e654]:
+                  - img [ref=e655]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e667]: •
+                  - generic [ref=e668]:
+                    - text: Updated
+                    - time [ref=e669]: Jan 27, 2024
+                  - generic [ref=e670]: •
+                  - img [ref=e671]
+                  - text: "126"
+                  - generic [ref=e673]: •
+                  - img [ref=e674]
+                  - text: "27"
+          - article [ref=e676]:
+            - link "MoritzLaurer/multilingual-MiniLMv2-L12-mnli-xnli Zero-Shot Classification • 0.1B • Updated Mar 20, 2023 • 79 • 6" [ref=e677] [cursor=pointer]:
+              - /url: /MoritzLaurer/multilingual-MiniLMv2-L12-mnli-xnli
+              - generic [ref=e678]:
+                - generic "MoritzLaurer/multilingual-MiniLMv2-L12-mnli-xnli" [ref=e679]:
+                  - heading "MoritzLaurer/multilingual-MiniLMv2-L12-mnli-xnli" [level=4] [ref=e681]
+                - generic [ref=e682]:
+                  - img [ref=e683]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e695]: •
+                  - 'generic "Number of parameters in the model: 0.1B" [ref=e696]':
+                    - img [ref=e697]
+                    - text: 0.1B
+                  - generic [ref=e699]: •
+                  - generic [ref=e700]:
+                    - text: Updated
+                    - time [ref=e701]: Mar 20, 2023
+                  - generic [ref=e702]: •
+                  - img [ref=e703]
+                  - text: "79"
+                  - generic [ref=e705]: •
+                  - img [ref=e706]
+                  - text: "6"
+          - article [ref=e708]:
+            - link "mjwong/gte-multilingual-base-xnli-anli Zero-Shot Classification • 0.3B • Updated Jun 29, 2025 • 76 • 1" [ref=e709] [cursor=pointer]:
+              - /url: /mjwong/gte-multilingual-base-xnli-anli
+              - generic [ref=e710]:
+                - generic "mjwong/gte-multilingual-base-xnli-anli" [ref=e711]:
+                  - heading "mjwong/gte-multilingual-base-xnli-anli" [level=4] [ref=e713]
+                - generic [ref=e714]:
+                  - img [ref=e715]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e727]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e728]':
+                    - img [ref=e729]
+                    - text: 0.3B
+                  - generic [ref=e731]: •
+                  - generic [ref=e732]:
+                    - text: Updated
+                    - time [ref=e733]: Jun 29, 2025
+                  - generic [ref=e734]: •
+                  - img [ref=e735]
+                  - text: "76"
+                  - generic [ref=e737]: •
+                  - img [ref=e738]
+                  - text: "1"
+          - article [ref=e740]:
+            - link "mjwong/multilingual-e5-large-instruct-xnli-anli Zero-Shot Classification • 0.6B • Updated Jun 29, 2025 • 70 • 1" [ref=e741] [cursor=pointer]:
+              - /url: /mjwong/multilingual-e5-large-instruct-xnli-anli
+              - generic [ref=e742]:
+                - generic "mjwong/multilingual-e5-large-instruct-xnli-anli" [ref=e743]:
+                  - heading "mjwong/multilingual-e5-large-instruct-xnli-anli" [level=4] [ref=e745]
+                - generic [ref=e746]:
+                  - img [ref=e747]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e759]: •
+                  - 'generic "Number of parameters in the model: 0.6B" [ref=e760]':
+                    - img [ref=e761]
+                    - text: 0.6B
+                  - generic [ref=e763]: •
+                  - generic [ref=e764]:
+                    - text: Updated
+                    - time [ref=e765]: Jun 29, 2025
+                  - generic [ref=e766]: •
+                  - img [ref=e767]
+                  - text: "70"
+                  - generic [ref=e769]: •
+                  - img [ref=e770]
+                  - text: "1"
+          - article [ref=e772]:
+            - link "mjwong/multilingual-e5-large-xnli-anli Zero-Shot Classification • 0.6B • Updated Jun 29, 2025 • 65 • 2" [ref=e773] [cursor=pointer]:
+              - /url: /mjwong/multilingual-e5-large-xnli-anli
+              - generic [ref=e774]:
+                - generic "mjwong/multilingual-e5-large-xnli-anli" [ref=e775]:
+                  - heading "mjwong/multilingual-e5-large-xnli-anli" [level=4] [ref=e777]
+                - generic [ref=e778]:
+                  - img [ref=e779]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e791]: •
+                  - 'generic "Number of parameters in the model: 0.6B" [ref=e792]':
+                    - img [ref=e793]
+                    - text: 0.6B
+                  - generic [ref=e795]: •
+                  - generic [ref=e796]:
+                    - text: Updated
+                    - time [ref=e797]: Jun 29, 2025
+                  - generic [ref=e798]: •
+                  - img [ref=e799]
+                  - text: "65"
+                  - generic [ref=e801]: •
+                  - img [ref=e802]
+                  - text: "2"
+          - article [ref=e804]:
+            - link "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX Zero-Shot Classification • Updated Mar 13 • 63" [ref=e805] [cursor=pointer]:
+              - /url: /onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX
+              - generic [ref=e806]:
+                - generic "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX" [ref=e807]:
+                  - heading "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX" [level=4] [ref=e809]
+                - generic [ref=e810]:
+                  - img [ref=e811]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e823]: •
+                  - generic [ref=e824]:
+                    - text: Updated
+                    - time [ref=e825]: Mar 13
+                  - generic [ref=e826]: •
+                  - img [ref=e827]
+                  - text: "63"
+          - article [ref=e829]:
+            - link "emrecan/bert-base-multilingual-cased-allnli_tr Zero-Shot Classification • Updated Dec 4, 2021 • 31 • 2" [ref=e830] [cursor=pointer]:
+              - /url: /emrecan/bert-base-multilingual-cased-allnli_tr
+              - generic [ref=e831]:
+                - generic "emrecan/bert-base-multilingual-cased-allnli_tr" [ref=e832]:
+                  - heading "emrecan/bert-base-multilingual-cased-allnli_tr" [level=4] [ref=e834]
+                - generic [ref=e835]:
+                  - img [ref=e836]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e848]: •
+                  - generic [ref=e849]:
+                    - text: Updated
+                    - time [ref=e850]: Dec 4, 2021
+                  - generic [ref=e851]: •
+                  - img [ref=e852]
+                  - text: "31"
+                  - generic [ref=e854]: •
+                  - img [ref=e855]
+                  - text: "2"
+          - article [ref=e857]:
+            - link "emrecan/bert-base-multilingual-cased-snli_tr Zero-Shot Classification • Updated Dec 2, 2021 • 28" [ref=e858] [cursor=pointer]:
+              - /url: /emrecan/bert-base-multilingual-cased-snli_tr
+              - generic [ref=e859]:
+                - generic "emrecan/bert-base-multilingual-cased-snli_tr" [ref=e860]:
+                  - heading "emrecan/bert-base-multilingual-cased-snli_tr" [level=4] [ref=e862]
+                - generic [ref=e863]:
+                  - img [ref=e864]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e876]: •
+                  - generic [ref=e877]:
+                    - text: Updated
+                    - time [ref=e878]: Dec 2, 2021
+                  - generic [ref=e879]: •
+                  - img [ref=e880]
+                  - text: "28"
+          - article [ref=e882]:
+            - link "mjwong/multilingual-e5-base-xnli Zero-Shot Classification • 0.3B • Updated Jul 7, 2024 • 28 • 1" [ref=e883] [cursor=pointer]:
+              - /url: /mjwong/multilingual-e5-base-xnli
+              - generic [ref=e884]:
+                - generic "mjwong/multilingual-e5-base-xnli" [ref=e885]:
+                  - heading "mjwong/multilingual-e5-base-xnli" [level=4] [ref=e887]
+                - generic [ref=e888]:
+                  - img [ref=e889]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e901]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e902]':
+                    - img [ref=e903]
+                    - text: 0.3B
+                  - generic [ref=e905]: •
+                  - generic [ref=e906]:
+                    - text: Updated
+                    - time [ref=e907]: Jul 7, 2024
+                  - generic [ref=e908]: •
+                  - img [ref=e909]
+                  - text: "28"
+                  - generic [ref=e911]: •
+                  - img [ref=e912]
+                  - text: "1"
+          - article [ref=e914]:
+            - link "mjwong/multilingual-e5-base-xnli-anli Zero-Shot Classification • 0.3B • Updated Jun 29, 2025 • 21" [ref=e915] [cursor=pointer]:
+              - /url: /mjwong/multilingual-e5-base-xnli-anli
+              - generic [ref=e916]:
+                - generic "mjwong/multilingual-e5-base-xnli-anli" [ref=e917]:
+                  - heading "mjwong/multilingual-e5-base-xnli-anli" [level=4] [ref=e919]
+                - generic [ref=e920]:
+                  - img [ref=e921]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e933]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e934]':
+                    - img [ref=e935]
+                    - text: 0.3B
+                  - generic [ref=e937]: •
+                  - generic [ref=e938]:
+                    - text: Updated
+                    - time [ref=e939]: Jun 29, 2025
+                  - generic [ref=e940]: •
+                  - img [ref=e941]
+                  - text: "21"
+          - article [ref=e943]:
+            - link "emrecan/bert-base-multilingual-cased-multinli_tr Zero-Shot Classification • Updated Dec 2, 2021 • 12" [ref=e944] [cursor=pointer]:
+              - /url: /emrecan/bert-base-multilingual-cased-multinli_tr
+              - generic [ref=e945]:
+                - generic "emrecan/bert-base-multilingual-cased-multinli_tr" [ref=e946]:
+                  - heading "emrecan/bert-base-multilingual-cased-multinli_tr" [level=4] [ref=e948]
+                - generic [ref=e949]:
+                  - img [ref=e950]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e962]: •
+                  - generic [ref=e963]:
+                    - text: Updated
+                    - time [ref=e964]: Dec 2, 2021
+                  - generic [ref=e965]: •
+                  - img [ref=e966]
+                  - text: "12"
+          - article [ref=e968]:
+            - link "mjwong/multilingual-e5-large-instruct-xnli Zero-Shot Classification • 0.6B • Updated Nov 6, 2024 • 7" [ref=e969] [cursor=pointer]:
+              - /url: /mjwong/multilingual-e5-large-instruct-xnli
+              - generic [ref=e970]:
+                - generic "mjwong/multilingual-e5-large-instruct-xnli" [ref=e971]:
+                  - heading "mjwong/multilingual-e5-large-instruct-xnli" [level=4] [ref=e973]
+                - generic [ref=e974]:
+                  - img [ref=e975]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e987]: •
+                  - 'generic "Number of parameters in the model: 0.6B" [ref=e988]':
+                    - img [ref=e989]
+                    - text: 0.6B
+                  - generic [ref=e991]: •
+                  - generic [ref=e992]:
+                    - text: Updated
+                    - time [ref=e993]: Nov 6, 2024
+                  - generic [ref=e994]: •
+                  - img [ref=e995]
+                  - text: "7"
+          - article [ref=e997]:
+            - link "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v3.0-only-non-nli Zero-Shot Classification • 0.3B • Updated Apr 12, 2025 • 6 • 1" [ref=e998] [cursor=pointer]:
+              - /url: /asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v3.0-only-non-nli
+              - generic [ref=e999]:
+                - generic "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v3.0-only-non-nli" [ref=e1000]:
+                  - heading "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v3.0-only-non-nli" [level=4] [ref=e1002]
+                - generic [ref=e1003]:
+                  - img [ref=e1004]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1016]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1017]':
+                    - img [ref=e1018]
+                    - text: 0.3B
+                  - generic [ref=e1020]: •
+                  - generic [ref=e1021]:
+                    - text: Updated
+                    - time [ref=e1022]: Apr 12, 2025
+                  - generic [ref=e1023]: •
+                  - img [ref=e1024]
+                  - text: "6"
+                  - generic [ref=e1026]: •
+                  - img [ref=e1027]
+                  - text: "1"
+          - article [ref=e1029]:
+            - link "mjwong/gte-multilingual-base-xnli Zero-Shot Classification • 0.3B • Updated Mar 1, 2025 • 5" [ref=e1030] [cursor=pointer]:
+              - /url: /mjwong/gte-multilingual-base-xnli
+              - generic [ref=e1031]:
+                - generic "mjwong/gte-multilingual-base-xnli" [ref=e1032]:
+                  - heading "mjwong/gte-multilingual-base-xnli" [level=4] [ref=e1034]
+                - generic [ref=e1035]:
+                  - img [ref=e1036]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1048]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1049]':
+                    - img [ref=e1050]
+                    - text: 0.3B
+                  - generic [ref=e1052]: •
+                  - generic [ref=e1053]:
+                    - text: Updated
+                    - time [ref=e1054]: Mar 1, 2025
+                  - generic [ref=e1055]: •
+                  - img [ref=e1056]
+                  - text: "5"
+          - article [ref=e1058]:
+            - link "alramalho/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-extended-labels Zero-Shot Classification • Updated Mar 22, 2023 • 3" [ref=e1059] [cursor=pointer]:
+              - /url: /alramalho/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-extended-labels
+              - generic [ref=e1060]:
+                - generic "alramalho/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-extended-labels" [ref=e1061]:
+                  - heading "alramalho/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-extended-labels" [level=4] [ref=e1063]
+                - generic [ref=e1064]:
+                  - img [ref=e1065]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1077]: •
+                  - generic [ref=e1078]:
+                    - text: Updated
+                    - time [ref=e1079]: Mar 22, 2023
+                  - generic [ref=e1080]: •
+                  - img [ref=e1081]
+                  - text: "3"
+          - article [ref=e1083]:
+            - link "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.1 Zero-Shot Classification • 0.3B • Updated Feb 24, 2025 • 3" [ref=e1084] [cursor=pointer]:
+              - /url: /asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.1
+              - generic [ref=e1085]:
+                - generic "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.1" [ref=e1086]:
+                  - heading "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.1" [level=4] [ref=e1088]
+                - generic [ref=e1089]:
+                  - img [ref=e1090]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1102]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1103]':
+                    - img [ref=e1104]
+                    - text: 0.3B
+                  - generic [ref=e1106]: •
+                  - generic [ref=e1107]:
+                    - text: Updated
+                    - time [ref=e1108]: Feb 24, 2025
+                  - generic [ref=e1109]: •
+                  - img [ref=e1110]
+                  - text: "3"
+          - article [ref=e1112]:
+            - link "Aimu0999/mDeBERTa-v3-base-xnli-multilingual-nli-finetuned Zero-Shot Classification • 0.3B • Updated Dec 10, 2025 • 3" [ref=e1113] [cursor=pointer]:
+              - /url: /Aimu0999/mDeBERTa-v3-base-xnli-multilingual-nli-finetuned
+              - generic [ref=e1114]:
+                - generic "Aimu0999/mDeBERTa-v3-base-xnli-multilingual-nli-finetuned" [ref=e1115]:
+                  - heading "Aimu0999/mDeBERTa-v3-base-xnli-multilingual-nli-finetuned" [level=4] [ref=e1117]
+                - generic [ref=e1118]:
+                  - img [ref=e1119]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1131]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1132]':
+                    - img [ref=e1133]
+                    - text: 0.3B
+                  - generic [ref=e1135]: •
+                  - generic [ref=e1136]:
+                    - text: Updated
+                    - time [ref=e1137]: Dec 10, 2025
+                  - generic [ref=e1138]: •
+                  - img [ref=e1139]
+                  - text: "3"
+          - article [ref=e1141]:
+            - link "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.0 Zero-Shot Classification • 0.3B • Updated Feb 24, 2025 • 2" [ref=e1142] [cursor=pointer]:
+              - /url: /asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.0
+              - generic [ref=e1143]:
+                - generic "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.0" [ref=e1144]:
+                  - heading "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.0" [level=4] [ref=e1146]
+                - generic [ref=e1147]:
+                  - img [ref=e1148]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1160]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1161]':
+                    - img [ref=e1162]
+                    - text: 0.3B
+                  - generic [ref=e1164]: •
+                  - generic [ref=e1165]:
+                    - text: Updated
+                    - time [ref=e1166]: Feb 24, 2025
+                  - generic [ref=e1167]: •
+                  - img [ref=e1168]
+                  - text: "2"
+          - article [ref=e1170]:
+            - link "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.1-seed20241201 Zero-Shot Classification • 0.3B • Updated Apr 12, 2025 • 2" [ref=e1171] [cursor=pointer]:
+              - /url: /asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.1-seed20241201
+              - generic [ref=e1172]:
+                - generic "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.1-seed20241201" [ref=e1173]:
+                  - heading "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v1.1-seed20241201" [level=4] [ref=e1175]
+                - generic [ref=e1176]:
+                  - img [ref=e1177]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1189]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1190]':
+                    - img [ref=e1191]
+                    - text: 0.3B
+                  - generic [ref=e1193]: •
+                  - generic [ref=e1194]:
+                    - text: Updated
+                    - time [ref=e1195]: Apr 12, 2025
+                  - generic [ref=e1196]: •
+                  - img [ref=e1197]
+                  - text: "2"
+          - article [ref=e1199]:
+            - link "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v2.0 Zero-Shot Classification • 0.3B • Updated Feb 24, 2025 • 2" [ref=e1200] [cursor=pointer]:
+              - /url: /asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v2.0
+              - generic [ref=e1201]:
+                - generic "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v2.0" [ref=e1202]:
+                  - heading "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v2.0" [level=4] [ref=e1204]
+                - generic [ref=e1205]:
+                  - img [ref=e1206]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1218]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1219]':
+                    - img [ref=e1220]
+                    - text: 0.3B
+                  - generic [ref=e1222]: •
+                  - generic [ref=e1223]:
+                    - text: Updated
+                    - time [ref=e1224]: Feb 24, 2025
+                  - generic [ref=e1225]: •
+                  - img [ref=e1226]
+                  - text: "2"
+          - article [ref=e1228]:
+            - link "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v4.0-only-nli-downsample Zero-Shot Classification • Updated Dec 6, 2024 • 2" [ref=e1229] [cursor=pointer]:
+              - /url: /asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v4.0-only-nli-downsample
+              - generic [ref=e1230]:
+                - generic "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v4.0-only-nli-downsample" [ref=e1231]:
+                  - heading "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v4.0-only-nli-downsample" [level=4] [ref=e1233]
+                - generic [ref=e1234]:
+                  - img [ref=e1235]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1247]: •
+                  - generic [ref=e1248]:
+                    - text: Updated
+                    - time [ref=e1249]: Dec 6, 2024
+                  - generic [ref=e1250]: •
+                  - img [ref=e1251]
+                  - text: "2"
+          - article [ref=e1253]:
+            - link "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v5.0-nli-downsample-and-non-nli Zero-Shot Classification • 0.3B • Updated Feb 24, 2025 • 2" [ref=e1254] [cursor=pointer]:
+              - /url: /asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v5.0-nli-downsample-and-non-nli
+              - generic [ref=e1255]:
+                - generic "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v5.0-nli-downsample-and-non-nli" [ref=e1256]:
+                  - heading "asadfgglie/mDeBERTa-v3-base-xnli-multilingual-zeroshot-v5.0-nli-downsample-and-non-nli" [level=4] [ref=e1258]
+                - generic [ref=e1259]:
+                  - img [ref=e1260]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1272]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1273]':
+                    - img [ref=e1274]
+                    - text: 0.3B
+                  - generic [ref=e1276]: •
+                  - generic [ref=e1277]:
+                    - text: Updated
+                    - time [ref=e1278]: Feb 24, 2025
+                  - generic [ref=e1279]: •
+                  - img [ref=e1280]
+                  - text: "2"
+          - article [ref=e1282]:
+            - link "ISOISS/multilingual-e5-large-xnli-anli-onnx Zero-Shot Classification • Updated Dec 12, 2024" [ref=e1283] [cursor=pointer]:
+              - /url: /ISOISS/multilingual-e5-large-xnli-anli-onnx
+              - generic [ref=e1284]:
+                - generic "ISOISS/multilingual-e5-large-xnli-anli-onnx" [ref=e1285]:
+                  - heading "ISOISS/multilingual-e5-large-xnli-anli-onnx" [level=4] [ref=e1287]
+                - generic [ref=e1288]:
+                  - img [ref=e1289]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1301]: •
+                  - generic [ref=e1302]:
+                    - text: Updated
+                    - time [ref=e1303]: Dec 12, 2024
+          - article [ref=e1304]:
+            - link "DonlerFC/MoritzLaurer-mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-finetuned-eHighway Zero-Shot Classification • 0.3B • Updated Nov 24, 2025" [ref=e1305] [cursor=pointer]:
+              - /url: /DonlerFC/MoritzLaurer-mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-finetuned-eHighway
+              - generic [ref=e1306]:
+                - generic "DonlerFC/MoritzLaurer-mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-finetuned-eHighway" [ref=e1307]:
+                  - heading "DonlerFC/MoritzLaurer-mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-finetuned-eHighway" [level=4] [ref=e1309]
+                - generic [ref=e1310]:
+                  - img [ref=e1311]
+                  - text: Zero-Shot Classification
+                  - generic [ref=e1323]: •
+                  - 'generic "Number of parameters in the model: 0.3B" [ref=e1324]':
+                    - img [ref=e1325]
+                    - text: 0.3B
+                  - generic [ref=e1327]: •
+                  - generic [ref=e1328]:
+                    - text: Updated
+                    - time [ref=e1329]: Nov 24, 2025
+  - contentinfo [ref=e1330]:
+    - navigation [ref=e1331]:
+      - button "System theme" [ref=e1334] [cursor=pointer]:
+        - img [ref=e1335]
+        - text: System theme
+      - link "TOS" [ref=e1340] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e1341] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e1342] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e1343] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e1344] [cursor=pointer]:
+        - /url: /
+        - img [ref=e1345]
+      - link "Models" [ref=e1359] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e1360] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e1361] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e1362] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e1363] [cursor=pointer]:
+        - /url: /docs

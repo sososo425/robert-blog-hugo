@@ -1,0 +1,360 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+      - link "无障碍功能反馈" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Google 首页" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "搜索" [ref=e26]: mrebel chinese language support multilingual relation extraction mrebel chinese language support multilingual relation extraction
+            - generic [ref=e27]:
+              - button "清除" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "按语音搜索" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "按图搜索" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "搜索" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "设置" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google 应用" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3Dmrebel%2Bchinese%2Blanguage%2Bsupport%2Bmultilingual%2Brelation%2Bextraction&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI 模式" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&aep=1&ntc=1&sa=X&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ2J8OegQIDxAE
+              - generic [ref=e81]: AI 模式
+          - listitem [ref=e82]:
+            - link "全部" [disabled] [ref=e83]:
+              - generic [ref=e85]: 全部
+          - listitem [ref=e86]:
+            - link "图片" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&q=mrebel+chinese+language+support+multilingual+relation+extraction&sa=X&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQtKgLegQIFRAB
+              - generic [ref=e89]: 图片
+          - listitem [ref=e90]:
+            - link "购物" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&q=mrebel+chinese+language+support+multilingual+relation+extraction&ved=1t:220175&ictx=111
+              - generic [ref=e93]: 购物
+          - listitem [ref=e94]:
+            - link "视频" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&q=mrebel+chinese+language+support+multilingual+relation+extraction&sa=X&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQtKgLegQIExAB
+              - generic [ref=e97]: 视频
+          - listitem [ref=e98]:
+            - link "短视频" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&q=mrebel+chinese+language+support+multilingual+relation+extraction&sa=X&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQs6gLegQIERAB
+              - generic [ref=e101]: 短视频
+          - listitem [ref=e102]:
+            - link "新闻" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=mrebel+chinese+language+support+multilingual+relation+extraction&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrqHHkR5VFoT0wXSdRjSpyP2_t6sHi6rwOBtoQfp-6MWyc1GUVnQ9t2G9wWFuZKBZOtE31AByAE1G4pk4RnHavDVfGYceAOV3ic1avdvhFnYB3YGEv7mI3iO0FIXxtrNPRRWYNd0MNpKrAV9rEqXG7A3Quijs01vHk5mygB0wc65TaGuJsA&sa=X&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ0pQJegQIEhAB
+              - generic [ref=e105]: 新闻
+          - listitem [ref=e106]:
+            - button "更多过滤条件" [ref=e107] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 更多
+                  - img [ref=e112]
+        - button "工具" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 工具
+            - img [ref=e120]
+    - heading "搜索结果" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "a Filtered and Multilingual Relation Extraction Dataset arXiv https://arxiv.org › html" [ref=e142] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2306.09802v1
+                - heading "a Filtered and Multilingual Relation Extraction Dataset" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: arXiv
+                  - generic [ref=e152]: https://arxiv.org › html
+              - generic [ref=e153]:
+                - generic [ref=e154]: ·
+                - link "翻译此页" [ref=e155] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2306.09802v1
+              - button "关于这条结果的详细信息" [ref=e156] [cursor=pointer]:
+                - img [ref=e159]
+            - generic [ref=e163]:
+              - text: To demonstrate the utility of these novel datasets, we experiment with the first end-to-end multilingual RE model,
+              - emphasis [ref=e164]: mREBEL
+              - text: ", that extracts triplets, including ..."
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - link "Multilingual Relation Extraction - A Survey DICE Research Group https://papers.dice-research.org › public" [ref=e173] [cursor=pointer]:
+              - /url: https://papers.dice-research.org/2025/IEEEAccess_MRE_Survey/public.pdf
+              - heading "Multilingual Relation Extraction - A Survey" [level=3] [ref=e174]
+              - generic [ref=e176]:
+                - img [ref=e180]
+                - generic [ref=e182]:
+                  - generic [ref=e184]: DICE Research Group
+                  - generic [ref=e186]: https://papers.dice-research.org › public
+            - generic [ref=e187]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e188] [cursor=pointer]:
+              - img [ref=e191]
+          - generic [ref=e194]:
+            - generic [ref=e195]: 作者：M ALI · 被引用次数：2 —
+            - text: RE holds immense significance for extracting structured information from unstructured textual data, facilitating knowledge graph construction and enhancing ...
+        - generic [ref=e199]:
+          - generic [ref=e202]:
+            - link "README.md - Babelscape/rebel GitHub https://github.com › rebel › blob › main › R..." [ref=e204] [cursor=pointer]:
+              - /url: https://github.com/Babelscape/rebel/blob/main/README.md
+              - heading "README.md - Babelscape/rebel" [level=3] [ref=e205]
+              - generic [ref=e210]:
+                - generic [ref=e212]: GitHub
+                - generic [ref=e214]: https://github.com › rebel › blob › main › R...
+            - generic [ref=e215]:
+              - generic [ref=e216]: ·
+              - link "翻译此页" [ref=e217] [cursor=pointer]:
+                - /url: https://github.com/Babelscape/rebel/blob/main/README.md
+            - button "关于这条结果的详细信息" [ref=e218] [cursor=pointer]:
+              - img [ref=e221]
+          - generic [ref=e225]:
+            - text: We present two new datasets for
+            - emphasis [ref=e226]: multilingual Relation Extraction
+            - text: and an array of
+            - emphasis [ref=e227]: mREBEL
+            - text: versions. Go to Section.
+            - emphasis [ref=e228]: REBEL
+            - text: ":"
+            - emphasis [ref=e229]: Relation Extraction
+            - text: By End-to-end ...
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - 'link "REBEL: Relation Extraction By End-to-end Language ... ACL Anthology https://aclanthology.org › 2021.findings-emnlp.2..." [ref=e238] [cursor=pointer]':
+              - /url: https://aclanthology.org/2021.findings-emnlp.204.pdf
+              - 'heading "REBEL: Relation Extraction By End-to-end Language ..." [level=3] [ref=e239]'
+              - generic [ref=e244]:
+                - generic [ref=e246]: ACL Anthology
+                - generic [ref=e248]: https://aclanthology.org › 2021.findings-emnlp.2...
+            - generic [ref=e249]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e250] [cursor=pointer]:
+              - img [ref=e253]
+          - generic [ref=e255]:
+            - generic [ref=e256]:
+              - generic [ref=e257]: 作者：PLH Cabot · 2021 · 被引用次数：558 —
+              - generic [ref=e258]:
+                - text: We make
+                - emphasis [ref=e259]: REBEL
+                - text: available1 both as a stan- dalone model that can
+                - emphasis [ref=e260]: extract
+                - text: more than 200 differ- ent
+                - emphasis [ref=e261]: relation
+                - text: types, and as a pre-trained RE model.
+            - generic [ref=e262]: 12 页
+        - generic [ref=e266]:
+          - generic [ref=e269]:
+            - link "Babelscape/mrebel-base Hugging Face https://huggingface.co › Babelscape › mrebe..." [ref=e271] [cursor=pointer]:
+              - /url: https://huggingface.co/Babelscape/mrebel-base
+              - heading "Babelscape/mrebel-base" [level=3] [ref=e272]
+              - generic [ref=e277]:
+                - generic [ref=e279]: Hugging Face
+                - generic [ref=e281]: https://huggingface.co › Babelscape › mrebe...
+            - generic [ref=e282]:
+              - generic [ref=e283]: ·
+              - link "翻译此页" [ref=e284] [cursor=pointer]:
+                - /url: https://huggingface.co/Babelscape/mrebel-base
+            - button "关于这条结果的详细信息" [ref=e285] [cursor=pointer]:
+              - img [ref=e288]
+          - generic [ref=e291]:
+            - generic [ref=e292]: 2023年6月16日 —
+            - generic [ref=e293]:
+              - text: We present a new
+              - emphasis [ref=e294]: multilingual Relation Extraction
+              - text: dataset and train a
+              - emphasis [ref=e295]: multilingual
+              - text: version of
+              - emphasis [ref=e296]: REBEL
+              - text: which reframed
+              - emphasis [ref=e297]: Relation Extraction
+              - text: as a seq2seq task.
+          - generic [ref=e299]:
+            - text: 缺少字词： chinese ‎| 必须包含：
+            - link "chinese" [ref=e300] [cursor=pointer]:
+              - /url: /search?sca_esv=ef6db0e9fcb54fe8&q=mrebel+%22chinese%22+language+support+multilingual+relation+extraction&sa=X&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ5t4CegQIIhAB
+        - generic [ref=e304]:
+          - generic [ref=e307]:
+            - link "Multilingual Entity and Relation Extraction Dataset and Model ResearchGate https://www.researchgate.net › ... › Dataset" [ref=e309] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/355433918_Multilingual_Entity_and_Relation_Extraction_Dataset_and_Model
+              - heading "Multilingual Entity and Relation Extraction Dataset and Model" [level=3] [ref=e310]
+              - generic [ref=e315]:
+                - generic [ref=e317]: ResearchGate
+                - generic [ref=e319]: https://www.researchgate.net › ... › Dataset
+            - generic [ref=e320]:
+              - generic [ref=e321]: ·
+              - link "翻译此页" [ref=e322] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/355433918_Multilingual_Entity_and_Relation_Extraction_Dataset_and_Model
+            - button "关于这条结果的详细信息" [ref=e323] [cursor=pointer]:
+              - img [ref=e326]
+          - generic [ref=e330]:
+            - text: ...
+            - emphasis [ref=e331]: multilingual RE model, mREBEL
+            - text: ", that extracts triplets, including entity types, in multiple languages. We release our resources and model checkpoints at ..."
+        - generic [ref=e335]:
+          - generic [ref=e338]:
+            - link "A survey on cutting-edge relation extraction techniques based ... Springer Nature Link https://link.springer.com › article" [ref=e340] [cursor=pointer]:
+              - /url: https://link.springer.com/article/10.1007/s10462-025-11280-0
+              - heading "A survey on cutting-edge relation extraction techniques based ..." [level=3] [ref=e341]
+              - generic [ref=e346]:
+                - generic [ref=e348]: Springer Nature Link
+                - generic [ref=e350]: https://link.springer.com › article
+            - generic [ref=e351]:
+              - generic [ref=e352]: ·
+              - link "翻译此页" [ref=e353] [cursor=pointer]:
+                - /url: https://link.springer.com/article/10.1007/s10462-025-11280-0
+            - button "关于这条结果的详细信息" [ref=e354] [cursor=pointer]:
+              - img [ref=e357]
+          - generic [ref=e360]:
+            - generic [ref=e361]: 作者：JA Diaz-Garcia · 2025 · 被引用次数：14 —
+            - generic [ref=e362]:
+              - text: This comprehensive survey examines the latest advancements in
+              - emphasis [ref=e363]: Relation Extraction
+              - text: (RE), a pivotal task in natural
+              - emphasis [ref=e364]: language
+              - text: processing ...
+        - generic [ref=e368]:
+          - generic [ref=e371]:
+            - link "Knowledge Base-enhanced Multilingual Relation ... CEUR-WS.org https://ceur-ws.org › Vol-3818 › paper4" [ref=e373] [cursor=pointer]:
+              - /url: https://ceur-ws.org/Vol-3818/paper4.pdf
+              - heading "Knowledge Base-enhanced Multilingual Relation ..." [level=3] [ref=e374]
+              - generic [ref=e379]:
+                - generic [ref=e381]: CEUR-WS.org
+                - generic [ref=e383]: https://ceur-ws.org › Vol-3818 › paper4
+            - generic [ref=e384]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e385] [cursor=pointer]:
+              - img [ref=e388]
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - generic [ref=e392]: 作者：T Chen · 2024 · 被引用次数：1 —
+              - generic [ref=e393]:
+                - text: We conduct extensive experiments in a
+                - emphasis [ref=e394]: multilingual
+                - text: "setting using three widely used RE datasets: DocRED [22],"
+                - emphasis [ref=e395]: REBEL
+                - text: "[18], and REDFM [23], with three LLMs: GPT- ..."
+            - generic [ref=e396]: 12 页
+        - generic [ref=e400]:
+          - generic [ref=e403]:
+            - link "Towards Relation Extraction from Speech Monash University https://researchmgt.monash.edu › portalfiles › portal" [ref=e405] [cursor=pointer]:
+              - /url: https://researchmgt.monash.edu/ws/portalfiles/portal/470363416/453114000_oa.pdf
+              - heading "Towards Relation Extraction from Speech" [level=3] [ref=e406]
+              - generic [ref=e408]:
+                - img [ref=e412]
+                - generic [ref=e414]:
+                  - generic [ref=e416]: Monash University
+                  - generic [ref=e418]: https://researchmgt.monash.edu › portalfiles › portal
+            - generic [ref=e419]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e420] [cursor=pointer]:
+              - img [ref=e423]
+          - generic [ref=e426]:
+            - generic [ref=e427]: 作者：T Wu · 被引用次数：16 —
+            - generic [ref=e428]:
+              - text: To investigate the impact of the quality of the text input to
+              - emphasis [ref=e429]: REBEL
+              - text: ", we compare the performance of"
+              - emphasis [ref=e430]: REBEL
+              - text: and SpeechREpipe models, referring to TextRE ( ...
+        - generic [ref=e434]:
+          - generic [ref=e437]:
+            - link "A comprehensive survey on relation extraction Singapore Management University (SMU) https://ink.library.smu.edu.sg › viewcontent" [ref=e439] [cursor=pointer]:
+              - /url: https://ink.library.smu.edu.sg/context/sis_research/article/10101/viewcontent/3674501.pdf
+              - heading "A comprehensive survey on relation extraction" [level=3] [ref=e440]
+              - generic [ref=e445]:
+                - generic [ref=e447]: Singapore Management University (SMU)
+                - generic [ref=e449]: https://ink.library.smu.edu.sg › viewcontent
+            - generic [ref=e450]:
+              - generic:
+                - generic: PDF
+            - button "关于这条结果的详细信息" [ref=e451] [cursor=pointer]:
+              - img [ref=e454]
+          - generic [ref=e456]:
+            - generic [ref=e457]:
+              - generic [ref=e458]: 作者：X ZHAO · 被引用次数：143 —
+              - generic [ref=e459]:
+                - emphasis [ref=e460]: Relation extraction
+                - text: (RE) is an essential task in natural
+                - emphasis [ref=e461]: language
+                - text: processing (NLP), which involves extracting entities and relations between them from ...
+            - generic [ref=e462]: 41 页
+      - navigation [ref=e465]:
+        - heading "网页导航" [level=1] [ref=e466]
+        - text: "1"
+        - link "Page 2" [ref=e469] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=10&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAE
+          - text: "2"
+        - link "Page 3" [ref=e471] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=20&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAG
+          - text: "3"
+        - link "Page 4" [ref=e473] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=30&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAI
+          - text: "4"
+        - link "Page 5" [ref=e475] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=40&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAK
+          - text: "5"
+        - link "Page 6" [ref=e477] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=50&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAM
+          - text: "6"
+        - link "Page 7" [ref=e479] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=60&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAO
+          - text: "7"
+        - link "Page 8" [ref=e481] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=70&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAQ
+          - text: "8"
+        - link "Page 9" [ref=e483] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=80&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAS
+          - text: "9"
+        - link "Page 10" [ref=e485] [cursor=pointer]:
+          - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=90&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8tMDegQICBAU
+          - text: "10"
+        - heading "下一页" [level=2] [ref=e487]:
+          - link "下一页" [ref=e488] [cursor=pointer]:
+            - /url: /search?q=mrebel+chinese+language+support+multilingual+relation+extraction&sca_esv=ef6db0e9fcb54fe8&ei=LrrTaczACsG0qtsPgZ_0EQ&start=10&sa=N&sstk=Af77f_fv0h5UVZ3ccWN546x6RsakLdTQwdmoH-RHQigwbsILa2Y5zLKgYl6kjMGOVyRXXHcMdM_bNYS3GvWMtW0_QLcc85A7BUHQBw&ved=2ahUKEwjMj4ydr9mTAxVBmmoFHYEPPQIQ8NMDegQICBAW
+            - generic [ref=e490]: 下一页
+      - navigation
+    - contentinfo [ref=e491]:
+      - heading "页脚链接" [level=1] [ref=e492]
+      - generic [ref=e496]:
+        - generic [ref=e498]:
+          - text: 新加坡
+          - generic [ref=e500]:
+            - button "新加坡 - 是根据您的 IP 地址推断出来的" [ref=e502] [cursor=pointer]:
+              - generic [ref=e503]: 新加坡
+              - generic [ref=e505]:
+                - text: "-"
+                - generic [ref=e506]: 是根据您的 IP 地址推断出来的
+            - text: "-"
+            - button "更新位置信息" [ref=e508] [cursor=pointer]: 更新位置信息
+        - generic [ref=e511]:
+          - link "帮助" [ref=e512] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e513] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e514] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e515] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1
